@@ -1,0 +1,287 @@
+{
+  "section_id": "E",
+  "section_title": "Supply Chain Process",
+  "generated_at": "2026-03-11T00:00:00Z",
+  "concepts": [
+    {
+      "id": "E.1",
+      "topic": "Describe the role of manufacturing in a supply chain context.",
+      "action_verb": "describe",
+      "definition": "Manufacturing in a supply chain context refers to the conversion, production, or assembly of raw materials and components into finished goods, representing the 'make' process within the supply chain framework.",
+      "explanation": "Manufacturing serves as a critical link in the supply chain between sourcing raw materials and delivering finished products to customers. It encompasses all activities related to production planning, scheduling, and the physical transformation of inputs into outputs. Manufacturers depend on supply chains to reliably deliver materials to assembly plants, as disruptions such as unexpected parts shipment delays can cause costly production shutdowns. Effective manufacturing within the supply chain requires coordination with upstream suppliers for material inputs and downstream partners for distribution. According to CSCMP, supply chain management includes manufacturing operations and drives coordination of processes across marketing, sales, product design, and other functions.",
+      "key_terms": [
+        "production",
+        "conversion",
+        "assembly",
+        "make process",
+        "production planning",
+        "material requirements"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp",
+          "title": "APICS CSCP - Supply Chain Management Certification",
+          "site": "ASCM/APICS"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.2",
+          "type": "related_to",
+          "description": "Manufacturing drives inventory levels of raw materials, work-in-process, and finished goods."
+        },
+        {
+          "target_id": "E.4",
+          "type": "related_to",
+          "description": "Manufactured goods are stored in warehouses before distribution to customers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["E.3", "E.4"]
+      }
+    },
+    {
+      "id": "E.2",
+      "topic": "Define inventory management's important relationship with supply chain management.",
+      "action_verb": "define",
+      "definition": "Inventory management is the process of ordering, storing, tracking, and controlling a company's goods and supplies, serving as a foundational component of supply chain management that balances product availability with cost efficiency.",
+      "explanation": "Inventory management and supply chain management are interdependent operations, with effective inventory management acting as a cornerstone for a smooth and efficient supply chain. The most fundamental role inventory plays in supply chains is facilitating the balancing of demand and supply, ensuring products are readily accessible when required. Poor inventory management has repercussions throughout the entire organization, detrimentally affecting the bottom line through stockouts, excess carrying costs, or obsolescence. Effective inventory management reduces expenses, improves cash flow, and helps customers receive what they need when they need it. As a subset of supply chain management, inventory management helps enterprises track the various aspects and stages of a product across the entire supply chain.",
+      "key_terms": [
+        "safety stock",
+        "demand forecasting",
+        "carrying costs",
+        "stockout",
+        "reorder point",
+        "inventory turnover"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.gep.com/knowledge-bank/glossary/what-is-inventory-management",
+          "title": "Why Inventory Management is Important for Supply Chain Management",
+          "site": "GEP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.1",
+          "type": "related_to",
+          "description": "Manufacturing output determines the levels of finished goods inventory."
+        },
+        {
+          "target_id": "E.4",
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and support inventory management processes."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["E.3", "E.6"]
+      }
+    },
+    {
+      "id": "E.3",
+      "topic": "Explain transportation management in a supply chain.",
+      "action_verb": "explain",
+      "definition": "Transportation management is the planning, execution, and optimization of the physical movement of goods inbound and outbound across the supply chain, ensuring products are delivered efficiently, on time, and at minimal cost.",
+      "explanation": "Transportation management is a core component of logistics and supply chain management, covering the movement of materials from suppliers to manufacturers (inbound) and finished goods from manufacturers or warehouses to customers (outbound). According to CSCMP, logistics management plans, implements, and controls the efficient forward and reverse flow of goods between the point of origin and the point of consumption, with transportation management being one of its primary activities. Transportation decisions include mode selection (truck, rail, air, ocean, pipeline), carrier selection, route optimization, and freight consolidation. Effective transportation management directly impacts customer satisfaction through delivery reliability and speed, while also representing a significant portion of total supply chain costs. Modern organizations often use Transportation Management Systems (TMS) to optimize these processes.",
+      "key_terms": [
+        "freight",
+        "logistics",
+        "mode selection",
+        "carrier management",
+        "inbound transportation",
+        "outbound transportation",
+        "TMS"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.4",
+          "type": "related_to",
+          "description": "Warehouses serve as nodes in the transportation network, and their location affects transportation costs."
+        },
+        {
+          "target_id": "E.6",
+          "type": "related_to",
+          "description": "Transportation reliability and speed directly affect customer service levels."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["E.1", "E.4"]
+      }
+    },
+    {
+      "id": "E.4",
+      "topic": "Explain the role and cost of warehouses in supply chain management.",
+      "action_verb": "explain",
+      "definition": "Warehouses are strategic facilities that store, protect, and manage inventory between production and distribution, serving as critical links in the supply chain while incurring costs related to space, labor, equipment, and operations.",
+      "explanation": "Warehousing serves as the link between production and distribution in the supply chain, with its primary function being to store products between the time they are produced or procured and the time they are distributed to customers. Key warehouse roles include inventory storage and protection, order fulfillment (picking, packing, and shipping), and inventory tracking and replenishment management. Strategic warehouse location near key markets or transportation hubs minimizes shipping costs and transit times. Warehousing costs include storage costs (rent, utilities, property taxes, insurance), handling costs (labor for warehouse personnel and material handling equipment), and technology costs for warehouse management systems. Organizations must balance the cost of warehousing against the benefits of improved customer service levels and reduced transportation costs.",
+      "key_terms": [
+        "distribution center",
+        "order fulfillment",
+        "storage costs",
+        "handling costs",
+        "warehouse management system",
+        "cross-docking"
+      ],
+      "sources": [
+        {
+          "url": "https://spherewms.com/blog/warehousing-in-supply-chain-management",
+          "title": "Warehousing in Supply Chain Management: Key Roles & Benefits",
+          "site": "SphereWMS"
+        },
+        {
+          "url": "https://proconnectlogistics.com/blog/understanding-the-components-of-warehousing-costs/",
+          "title": "Understanding the Components of Warehousing Costs",
+          "site": "ProConnect Integrated Logistics"
+        },
+        {
+          "url": "https://www.withvector.com/blog/role-of-warehousing-in-supply-chain-management-examples/",
+          "title": "Role Of Warehousing In Supply Chain Management + Examples",
+          "site": "Vector"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.2",
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and enable inventory management practices."
+        },
+        {
+          "target_id": "E.3",
+          "type": "related_to",
+          "description": "Warehouse location decisions directly impact transportation costs and delivery times."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["E.2", "E.5"]
+      }
+    },
+    {
+      "id": "E.5",
+      "topic": "Explain the process for product returns.",
+      "action_verb": "explain",
+      "definition": "Product returns, managed through reverse logistics, is the process of moving goods from the customer back to the seller or manufacturer for the purpose of recapturing value through resale, refurbishment, recycling, or proper disposal.",
+      "explanation": "The product returns process, also known as reverse logistics, involves the flow of goods from the end customer back through the supply chain. The process begins when a customer initiates a return and typically follows several stages: collection of the returned item, transportation to a centralized return center, inspection and sorting to determine the product's condition, and then appropriate disposition such as resale, refurbishment, recycling, or disposal. Returns management plays a crucial role in ensuring a seamless consumer experience throughout the process. Modern companies employ reverse logistics to enhance customer satisfaction, minimize financial losses from returned products, and improve sustainability efforts by reducing waste and extending product lifecycles. Effective returns management requires clear policies, efficient processing systems, and coordination across multiple supply chain partners.",
+      "key_terms": [
+        "reverse logistics",
+        "returns management",
+        "product disposition",
+        "refurbishment",
+        "recycling",
+        "return authorization"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/reverse-logistics/",
+          "title": "Reverse Logistics: What it is and why it matters in SCM",
+          "site": "ASCM/APICS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/reverse-logistics.shtml",
+          "title": "A Guide to Reverse Logistics: How It Works, Types and Strategies",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.reverselogix.com/industry-updates/returns-management-vs-reverse-logistics-understanding-the-difference/",
+          "title": "Returns Management vs Reverse Logistics: Understanding The Difference",
+          "site": "ReverseLogix"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.6",
+          "type": "related_to",
+          "description": "An efficient returns process is a key component of customer service and satisfaction."
+        },
+        {
+          "target_id": "E.3",
+          "type": "related_to",
+          "description": "Returns require reverse transportation from customer back to return centers or manufacturers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["E.3", "E.6"]
+      }
+    },
+    {
+      "id": "E.6",
+      "topic": "Describe the importance of customer service in a supply chain.",
+      "action_verb": "describe",
+      "definition": "Customer service in a supply chain is the set of activities and processes designed to ensure customer satisfaction through reliable order fulfillment, timely delivery, and responsive support, serving as a key driver of customer retention and competitive advantage.",
+      "explanation": "Customer service operations are woven into every aspect of the supply chain, making customer satisfaction and retention of paramount importance for every company. According to CSCMP, the goal of supply chain management is to provide high product availability through efficient and timely fulfillment of customer demand. When properly implemented, customer service becomes an enabling process and strategy that creates customer satisfaction, which in turn produces loyal customers and repeat business. Customer service in the supply chain encompasses order accuracy, on-time delivery, product availability, ease of returns, and responsiveness to inquiries and complaints. A supply chain that delivers excellent customer service builds a competitive advantage, as satisfied customers are more likely to remain loyal and recommend the business to others.",
+      "key_terms": [
+        "customer satisfaction",
+        "order fulfillment",
+        "service level",
+        "customer retention",
+        "on-time delivery",
+        "product availability"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx",
+          "title": "The Importance of Supply Chain Management",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.3",
+          "type": "related_to",
+          "description": "Transportation reliability directly impacts customer service through on-time delivery performance."
+        },
+        {
+          "target_id": "E.5",
+          "type": "related_to",
+          "description": "A smooth product returns process enhances overall customer service and satisfaction."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["E.2", "E.5"]
+      }
+    }
+  ]
+}

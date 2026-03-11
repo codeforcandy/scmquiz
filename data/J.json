@@ -1,0 +1,313 @@
+{
+  "section_id": "J",
+  "section_title": "Supply Chain Management Contemporary Issues",
+  "generated_at": "2026-03-11T00:00:00Z",
+  "concepts": [
+    {
+      "id": "J.1",
+      "topic": "Describe the impact of information technology in supply chain management.",
+      "action_verb": "describe",
+      "definition": "Information technology in supply chain management refers to the use of computerized systems, software, and digital communication tools to plan, execute, monitor, and optimize the flow of materials, information, and funds across the entire supply chain network.",
+      "explanation": "IT has revolutionized supply chain management by enabling real-time visibility, data-driven decision-making, and seamless integration across trading partners. Technologies such as Electronic Data Interchange (EDI), Enterprise Resource Planning (ERP) systems, warehouse management systems, and transportation management systems allow companies to automate procurement, production scheduling, inventory management, and order processing. The result is reduced lead times, lower operational costs, improved demand forecasting accuracy, and enhanced collaboration between suppliers, manufacturers, and customers. As global supply chains grow more complex, IT provides the connectivity and analytical power necessary for companies to respond effectively to market changes and customer demands.",
+      "key_terms": [
+        "information technology",
+        "electronic data interchange (EDI)",
+        "enterprise resource planning (ERP)",
+        "real-time visibility",
+        "supply chain integration",
+        "demand forecasting",
+        "warehouse management system (WMS)",
+        "transportation management system (TMS)"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877042811023731",
+          "title": "Information technology in supply chain management: a case study",
+          "site": "ScienceDirect"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.2",
+          "type": "related_to",
+          "description": "IT infrastructure enables e-business capabilities in supply chains"
+        },
+        {
+          "target_id": "J.3",
+          "type": "related_to",
+          "description": "IT systems facilitate tracking and managing financial flows across the supply chain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["J.2", "J.5"]
+      }
+    },
+    {
+      "id": "J.2",
+      "topic": "Explain how E-business has impacted supply chain management.",
+      "action_verb": "explain",
+      "definition": "E-business is the integration of internet-based technologies and electronic platforms into all aspects of business operations, fundamentally transforming how supply chain partners communicate, transact, and collaborate across sourcing, procurement, manufacturing, and distribution.",
+      "explanation": "E-business has profoundly impacted supply chain management by enabling electronic procurement, automated order processing, and real-time information sharing between trading partners through internet-based platforms. It has reduced costs in transportation, inventory holding, and purchasing while simultaneously improving customer service levels and operational responsiveness. Collaborative planning, forecasting, and replenishment (CPFR) processes are enhanced through e-business tools that allow suppliers and buyers to share demand signals and coordinate activities instantly. E-business also supports just-in-time delivery models by accelerating communication speed and reducing the bullwhip effect through improved demand visibility. The shift to e-business has essentially moved competition from individual firms to entire supply chain networks.",
+      "key_terms": [
+        "e-business",
+        "electronic procurement",
+        "internet-based platforms",
+        "collaborative planning",
+        "just-in-time delivery",
+        "bullwhip effect",
+        "B2B integration",
+        "supply chain collaboration"
+      ],
+      "sources": [
+        {
+          "url": "https://www.emerald.com/insight/content/doi/10.1108/01443570510572240/full/html",
+          "title": "The impact of e-business on supply chain management: An empirical study of key developments",
+          "site": "Emerald Insight"
+        },
+        {
+          "url": "http://mba.tuck.dartmouth.edu/digital/Research/AcademicPublications/POMSArticle.pdf",
+          "title": "e-Business and Supply Chain Management: An Overview and Framework",
+          "site": "Dartmouth Tuck School of Business"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-39626-7_7",
+          "title": "Supply Chain Management in E-Business",
+          "site": "Springer"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.1",
+          "type": "related_to",
+          "description": "E-business relies on information technology infrastructure to function"
+        },
+        {
+          "target_id": "J.4",
+          "type": "related_to",
+          "description": "E-business encompasses e-commerce which directly reshapes distribution channels"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["J.1", "J.4"]
+      }
+    },
+    {
+      "id": "J.3",
+      "topic": "Describe the financial flow in supply chain management.",
+      "action_verb": "describe",
+      "definition": "Financial flow in supply chain management is the movement of money and financial transactions between supply chain partners, typically flowing upstream from customers to suppliers as payment for goods and services, and encompassing credit terms, payment schedules, consignment arrangements, and title ownership.",
+      "explanation": "Financial flow is one of the three core flows in supply chain management, alongside material flow and information flow. While materials generally move downstream from raw material suppliers to end customers, cash flows primarily upstream as payment for goods received and services rendered. Effective financial flow management includes optimizing payment terms, managing working capital, reducing cash-to-cash cycle times, and ensuring timely settlement of invoices between trading partners. Supply chain finance programs, such as reverse factoring and dynamic discounting, have emerged to help suppliers access liquidity while allowing buyers to extend payment terms. Poor management of financial flows can lead to cash shortages, strained supplier relationships, and disruptions in the physical supply chain.",
+      "key_terms": [
+        "financial flow",
+        "cash-to-cash cycle",
+        "working capital",
+        "payment terms",
+        "supply chain finance",
+        "reverse factoring",
+        "accounts payable",
+        "accounts receivable"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://pressbooks.pub/supplychainmanagement3005/chapter/1-4-supply-chain-flows/",
+          "title": "1.4 Supply Chain Flows - Supply Chain Management: An Integrated Approach",
+          "site": "Pressbooks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.1",
+          "type": "related_to",
+          "description": "IT systems enable tracking and automation of financial flows"
+        },
+        {
+          "target_id": "J.5",
+          "type": "related_to",
+          "description": "Political and economic events such as sanctions and currency fluctuations directly affect financial flows"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["J.1", "J.5"]
+      }
+    },
+    {
+      "id": "J.4",
+      "topic": "Explain how e-commerce has impacted channels of distribution.",
+      "action_verb": "explain",
+      "definition": "E-commerce has fundamentally reshaped channels of distribution by enabling direct-to-consumer (DTC) sales models, disintermediating traditional wholesale and retail intermediaries, and driving the adoption of omnichannel fulfillment strategies that blend online and physical distribution networks.",
+      "explanation": "E-commerce has eliminated many traditional distribution intermediaries by allowing manufacturers and brands to sell directly to consumers through online platforms, reducing overall product costs and giving companies greater control over the customer experience. Traditional warehouses designed for bulk shipments to retail stores have evolved into fulfillment centers optimized for picking, packing, and shipping individual consumer orders. The rise of omnichannel retailing has created hybrid distribution models such as buy-online-pick-up-in-store (BOPIS) and ship-from-store, requiring more flexible and responsive logistics networks. Consumer expectations for same-day and next-day delivery have driven investments in last-mile logistics infrastructure, including micro-fulfillment centers positioned near urban populations. This shift has increased supply chain complexity, as companies must manage smaller, more frequent shipments across a wider variety of SKUs while maintaining speed and cost efficiency.",
+      "key_terms": [
+        "e-commerce",
+        "direct-to-consumer (DTC)",
+        "omnichannel distribution",
+        "disintermediation",
+        "fulfillment center",
+        "last-mile delivery",
+        "BOPIS",
+        "micro-fulfillment"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laceupsolutions.com/impact-of-e-commerce-on-distribution-reshaping-networks-business-models/",
+          "title": "E-commerce on Distribution: Reshaping Networks and Business Models",
+          "site": "Lace Up Solutions"
+        },
+        {
+          "url": "https://www.bringoz.com/how-ecommerce-is-transforming-retail-distribution-channels/",
+          "title": "eCommerce & Retail Distribution Transformation",
+          "site": "Bringoz"
+        },
+        {
+          "url": "https://cimcorp.com/distribution/e-commerces-impact-on-distribution/",
+          "title": "E-commerce's impact on distribution",
+          "site": "Cimcorp"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.2",
+          "type": "part_of",
+          "description": "E-commerce is a subset of e-business that specifically affects distribution channels"
+        },
+        {
+          "target_id": "J.6",
+          "type": "related_to",
+          "description": "Competitive pressure drives adoption of e-commerce distribution strategies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["J.2", "J.6"]
+      }
+    },
+    {
+      "id": "J.5",
+      "topic": "Describe political and economic events that impact supply chain management.",
+      "action_verb": "describe",
+      "definition": "Political and economic events are external forces such as geopolitical conflicts, trade wars, tariffs, sanctions, regulatory changes, currency fluctuations, and economic recessions that disrupt the sourcing, production, transportation, and distribution of goods across global supply chains.",
+      "explanation": "Global supply chains are highly vulnerable to political and economic disruptions that can alter trade routes, increase costs, and create material shortages. Geopolitical conflicts such as the Russia-Ukraine war have disrupted energy supplies and agricultural exports, while Houthi attacks on Red Sea shipping have forced costly rerouting of maritime trade. Trade disputes and tariff escalations, particularly between the US and China, have compelled firms to reconfigure supplier networks and nearshore production to mitigate risk. Government leadership changes and policy instability can result in abrupt shifts in trade regulations, export controls, and sanctions regimes, causing uncertainty that leads firms to stockpile inventory or diversify sourcing. Economic events such as inflation, interest rate changes, and recessions affect consumer demand, raw material costs, and the availability of trade financing, requiring supply chain managers to build resilience through scenario planning, supplier diversification, and risk monitoring systems.",
+      "key_terms": [
+        "geopolitical risk",
+        "tariffs",
+        "trade sanctions",
+        "nearshoring",
+        "supply chain resilience",
+        "regulatory compliance",
+        "currency fluctuation",
+        "trade policy"
+      ],
+      "sources": [
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        },
+        {
+          "url": "https://www.foley.com/insights/publications/2025/09/political-instability-supply-chain-risks-us-trade-disruption/",
+          "title": "The Effects of Government Change and Political Instability on Supply Chain Management",
+          "site": "Foley & Lardner LLP"
+        },
+        {
+          "url": "https://www.unicargo.com/geopolitical-impact-global-supply-chains/",
+          "title": "The Impact of Geopolitical Events on Global Supply Chains",
+          "site": "Unicargo"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.3",
+          "type": "related_to",
+          "description": "Political and economic events directly affect financial flows through sanctions, tariffs, and currency changes"
+        },
+        {
+          "target_id": "J.6",
+          "type": "related_to",
+          "description": "Political and economic shifts alter the competitive landscape for supply chains"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["J.3", "J.6"]
+      }
+    },
+    {
+      "id": "J.6",
+      "topic": "Explain how competition impact supply chain management decisions.",
+      "action_verb": "explain",
+      "definition": "Competition in supply chain management refers to the rivalry among firms and their respective supply chain networks that drives strategic decisions on cost reduction, speed, quality, flexibility, and innovation to achieve and sustain competitive advantage in the marketplace.",
+      "explanation": "Modern competition extends beyond individual firms to encompass entire supply chain networks competing against one another. Competitive pressures force companies to optimize sourcing strategies, negotiate favorable supplier terms, invest in logistics efficiency, and adopt lean or agile supply chain models to reduce costs and improve responsiveness. Firms must balance investments in supply chain resilience against cost efficiency, as over-investing in risk mitigation can erode price competitiveness while under-investing can lead to costly disruptions. Competition also influences decisions about supplier partnerships, vertical integration, and sustainability initiatives, as consumers and regulators increasingly reward companies with transparent and responsible supply chains. Strategic supply chain management has become a primary source of competitive advantage, with companies like Amazon and Walmart demonstrating that superior logistics and distribution capabilities can define market leadership.",
+      "key_terms": [
+        "competitive advantage",
+        "supply chain strategy",
+        "cost leadership",
+        "agile supply chain",
+        "lean supply chain",
+        "supplier partnerships",
+        "vertical integration",
+        "supply chain network competition"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/supply-chains-as-sources-of-competitive-advantage.htm",
+          "title": "Supply Chains as Sources of Competitive Advantage",
+          "site": "Management Study Guide"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.4",
+          "type": "related_to",
+          "description": "E-commerce distribution strategies are driven by competitive pressures"
+        },
+        {
+          "target_id": "J.1",
+          "type": "related_to",
+          "description": "IT investments in supply chains are often motivated by competitive necessity"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["J.4", "J.5"]
+      }
+    }
+  ]
+}

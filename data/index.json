@@ -1,0 +1,2752 @@
+{
+  "generated_at": "2026-03-11T00:00:00Z",
+  "total_concepts": 102,
+  "total_links": 325,
+  "nodes": [
+    {
+      "id": "A.1",
+      "label": "Supply chain management",
+      "section": "A",
+      "bloom_level": "remember",
+      "group": 0
+    },
+    {
+      "id": "A.2",
+      "label": "The entire supply chain",
+      "section": "A",
+      "bloom_level": "remember",
+      "group": 0
+    },
+    {
+      "id": "A.3",
+      "label": "Logistics",
+      "section": "A",
+      "bloom_level": "remember",
+      "group": 0
+    },
+    {
+      "id": "A.4",
+      "label": "How logistics impacts supply chain management",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "A.5",
+      "label": "How E-commerce, logistics, import taxes, risk, tariffs, customs, and other le...",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "A.6",
+      "label": "The creation of new value in the supply chain for customers, society, and the...",
+      "section": "A",
+      "bloom_level": "analyze",
+      "group": 0
+    },
+    {
+      "id": "A.7",
+      "label": "How supply chain management is practiced in a wide array of industries",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "A.8",
+      "label": "Demand forecasting",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "A.9",
+      "label": "Logistics management",
+      "section": "A",
+      "bloom_level": "remember",
+      "group": 0
+    },
+    {
+      "id": "A.10",
+      "label": "Physical and information flows",
+      "section": "A",
+      "bloom_level": "remember",
+      "group": 0
+    },
+    {
+      "id": "A.11",
+      "label": "Strategic orientation for saving money within an organization",
+      "section": "A",
+      "bloom_level": "remember",
+      "group": 0
+    },
+    {
+      "id": "A.12",
+      "label": "The global impact on supply chain management",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "A.13",
+      "label": "The importance of understanding importing, exporting, trade agreements, and c...",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "A.14",
+      "label": "The reasons for growth of supply chain management (information revolution, in...",
+      "section": "A",
+      "bloom_level": "understand",
+      "group": 0
+    },
+    {
+      "id": "B.1",
+      "label": "Analytics",
+      "section": "B",
+      "bloom_level": "remember",
+      "group": 1
+    },
+    {
+      "id": "B.2",
+      "label": "Customer relationship management",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.3",
+      "label": "The role of forecasting",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.4",
+      "label": "The growth of global distribution",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.5",
+      "label": "Supply chain management for healthcare industry",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.6",
+      "label": "The logistics of inventory management",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.7",
+      "label": "Procurement",
+      "section": "B",
+      "bloom_level": "remember",
+      "group": 1
+    },
+    {
+      "id": "B.8",
+      "label": "Sales and operations planning",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.9",
+      "label": "Supply market intelligence",
+      "section": "B",
+      "bloom_level": "remember",
+      "group": 1
+    },
+    {
+      "id": "B.10",
+      "label": "Sustainability for supply chain management",
+      "section": "B",
+      "bloom_level": "remember",
+      "group": 1
+    },
+    {
+      "id": "B.11",
+      "label": "The relationship between supply chain management and transportation planning",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "B.12",
+      "label": "Careers associated with supply chain management",
+      "section": "B",
+      "bloom_level": "understand",
+      "group": 1
+    },
+    {
+      "id": "C.1",
+      "label": "Leadership opportunities for supply chain management.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.2",
+      "label": "Effective communication skills for supply chain managers.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.3",
+      "label": "Responsibility ethics for supply chain management.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.4",
+      "label": "Language skills possessed by successful chain managers.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.5",
+      "label": "The importance of flexible thinking in supply chain management.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.6",
+      "label": "Freight terminology.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.7",
+      "label": "The importance of people and problem-solving skills among successful supply c...",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.8",
+      "label": "The importance of technology skills among supply chain managers.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.9",
+      "label": "The sense of urgency associated with supply chain management.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.10",
+      "label": "The importance of Excel knowledge for supply chain management.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "C.11",
+      "label": "The temperament required for successful supply chain management.",
+      "section": "C",
+      "bloom_level": "understand",
+      "group": 2
+    },
+    {
+      "id": "D.1",
+      "label": "The relationship between purchasing and supply chain management.",
+      "section": "D",
+      "bloom_level": "understand",
+      "group": 3
+    },
+    {
+      "id": "D.2",
+      "label": "How a company will provide value to supply chain management.",
+      "section": "D",
+      "bloom_level": "understand",
+      "group": 3
+    },
+    {
+      "id": "D.3",
+      "label": "How suppliers, subcontractors, transportation providers, and product distribu...",
+      "section": "D",
+      "bloom_level": "understand",
+      "group": 3
+    },
+    {
+      "id": "D.4",
+      "label": "Supply chain integration.",
+      "section": "D",
+      "bloom_level": "remember",
+      "group": 3
+    },
+    {
+      "id": "D.5",
+      "label": "Management of supply and demand for supply chain management.",
+      "section": "D",
+      "bloom_level": "understand",
+      "group": 3
+    },
+    {
+      "id": "D.6",
+      "label": "The efficient facility network design for supply chain management.",
+      "section": "D",
+      "bloom_level": "understand",
+      "group": 3
+    },
+    {
+      "id": "D.7",
+      "label": "The importance of expense management for supply chain management.",
+      "section": "D",
+      "bloom_level": "understand",
+      "group": 3
+    },
+    {
+      "id": "E.1",
+      "label": "The role of manufacturing in a supply chain context.",
+      "section": "E",
+      "bloom_level": "understand",
+      "group": 4
+    },
+    {
+      "id": "E.2",
+      "label": "Inventory management's important relationship with supply chain management.",
+      "section": "E",
+      "bloom_level": "remember",
+      "group": 4
+    },
+    {
+      "id": "E.3",
+      "label": "Transportation management in a supply chain.",
+      "section": "E",
+      "bloom_level": "understand",
+      "group": 4
+    },
+    {
+      "id": "E.4",
+      "label": "The role and cost of warehouses in supply chain management.",
+      "section": "E",
+      "bloom_level": "understand",
+      "group": 4
+    },
+    {
+      "id": "E.5",
+      "label": "The process for product returns.",
+      "section": "E",
+      "bloom_level": "understand",
+      "group": 4
+    },
+    {
+      "id": "E.6",
+      "label": "The importance of customer service in a supply chain.",
+      "section": "E",
+      "bloom_level": "understand",
+      "group": 4
+    },
+    {
+      "id": "F.1",
+      "label": "What products to sell",
+      "section": "F",
+      "bloom_level": "apply",
+      "group": 5
+    },
+    {
+      "id": "F.2",
+      "label": "How a company determines what products are used and sold by a business",
+      "section": "F",
+      "bloom_level": "understand",
+      "group": 5
+    },
+    {
+      "id": "F.3",
+      "label": "Product portfolio",
+      "section": "F",
+      "bloom_level": "remember",
+      "group": 5
+    },
+    {
+      "id": "F.4",
+      "label": "The Pareto principle",
+      "section": "F",
+      "bloom_level": "understand",
+      "group": 5
+    },
+    {
+      "id": "F.5",
+      "label": "Slow-moving products headed toward obsolescence",
+      "section": "F",
+      "bloom_level": "remember",
+      "group": 5
+    },
+    {
+      "id": "F.6",
+      "label": "Importance of minimizing inventory during all stages of supply chain management",
+      "section": "F",
+      "bloom_level": "understand",
+      "group": 5
+    },
+    {
+      "id": "G.1",
+      "label": "The importance of synchronizing material flow",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.2",
+      "label": "Inventory maximization",
+      "section": "G",
+      "bloom_level": "remember",
+      "group": 6
+    },
+    {
+      "id": "G.3",
+      "label": "Decoupling points for inventory maximization",
+      "section": "G",
+      "bloom_level": "remember",
+      "group": 6
+    },
+    {
+      "id": "G.4",
+      "label": "How algorithms are used to maximize capital costs associated with supply chai...",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.5",
+      "label": "How proximity to the customer relates to supply chain efficiency",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.6",
+      "label": "How product sourcing decisions are made",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.7",
+      "label": "Evaluation processes for supply chain management",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.8",
+      "label": "How supply chain management meets consumer needs",
+      "section": "G",
+      "bloom_level": "remember",
+      "group": 6
+    },
+    {
+      "id": "G.9",
+      "label": "How market signal and consumer demand impact supply chain management",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.10",
+      "label": "How to meet and improve customer needs for supply chain management",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "G.11",
+      "label": "How supply chain management meets and improves the logistic needs of differen...",
+      "section": "G",
+      "bloom_level": "understand",
+      "group": 6
+    },
+    {
+      "id": "H.1",
+      "label": "Different types of supply chain management planning.",
+      "section": "H",
+      "bloom_level": "understand",
+      "group": 7
+    },
+    {
+      "id": "H.2",
+      "label": "Static vs. Dynamic Planning.",
+      "section": "H",
+      "bloom_level": "remember",
+      "group": 7
+    },
+    {
+      "id": "H.3",
+      "label": "How a master production schedule is determined.",
+      "section": "H",
+      "bloom_level": "understand",
+      "group": 7
+    },
+    {
+      "id": "H.4",
+      "label": "Bill of Material (BOM).",
+      "section": "H",
+      "bloom_level": "remember",
+      "group": 7
+    },
+    {
+      "id": "H.5",
+      "label": "Raw materials required for supply chain management.",
+      "section": "H",
+      "bloom_level": "understand",
+      "group": 7
+    },
+    {
+      "id": "H.6",
+      "label": "Work-in-process for supply chain management.",
+      "section": "H",
+      "bloom_level": "understand",
+      "group": 7
+    },
+    {
+      "id": "H.7",
+      "label": "Finished goods and the goal to move those goods.",
+      "section": "H",
+      "bloom_level": "remember",
+      "group": 7
+    },
+    {
+      "id": "I.1",
+      "label": "The importance of cooperation and coordination in a supply chain.",
+      "section": "I",
+      "bloom_level": "understand",
+      "group": 8
+    },
+    {
+      "id": "I.2",
+      "label": "The role of outsourcing in a supply chain.",
+      "section": "I",
+      "bloom_level": "understand",
+      "group": 8
+    },
+    {
+      "id": "I.3",
+      "label": "Measurement of supply chain performance.",
+      "section": "I",
+      "bloom_level": "understand",
+      "group": 8
+    },
+    {
+      "id": "I.4",
+      "label": "The role of the team in supply chain management.",
+      "section": "I",
+      "bloom_level": "understand",
+      "group": 8
+    },
+    {
+      "id": "I.5",
+      "label": "The channels of distribution for supply chain management.",
+      "section": "I",
+      "bloom_level": "understand",
+      "group": 8
+    },
+    {
+      "id": "J.1",
+      "label": "The impact of information technology in supply chain management.",
+      "section": "J",
+      "bloom_level": "understand",
+      "group": 9
+    },
+    {
+      "id": "J.2",
+      "label": "How E-business has impacted supply chain management.",
+      "section": "J",
+      "bloom_level": "understand",
+      "group": 9
+    },
+    {
+      "id": "J.3",
+      "label": "The financial flow in supply chain management.",
+      "section": "J",
+      "bloom_level": "understand",
+      "group": 9
+    },
+    {
+      "id": "J.4",
+      "label": "How e-commerce has impacted channels of distribution.",
+      "section": "J",
+      "bloom_level": "understand",
+      "group": 9
+    },
+    {
+      "id": "J.5",
+      "label": "Political and economic events that impact supply chain management.",
+      "section": "J",
+      "bloom_level": "understand",
+      "group": 9
+    },
+    {
+      "id": "J.6",
+      "label": "How competition impact supply chain management decisions.",
+      "section": "J",
+      "bloom_level": "understand",
+      "group": 9
+    },
+    {
+      "id": "K.1",
+      "label": "Functions of distribution channels",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.2",
+      "label": "Time, place, and ownership utility",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.3",
+      "label": "Role of marketing channels for assembly, storage, sorting, and transportation",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.4",
+      "label": "Facilitation in supply chain management",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.5",
+      "label": "Pre-sale and post-purchase services in distribution channels",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.6",
+      "label": "How supply chain management creates efficiencies",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.7",
+      "label": "Risk sharing in supply chain management",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.8",
+      "label": "Indirect channels of distribution",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.9",
+      "label": "Role of intermediaries in selling products",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.10",
+      "label": "One-level channel of distribution",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.11",
+      "label": "Two-level channel of distribution",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.12",
+      "label": "Three-level channel of distribution",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.13",
+      "label": "Dual distribution",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.14",
+      "label": "How services use intermediaries to reach final customers",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.15",
+      "label": "On-demand business model",
+      "section": "K",
+      "bloom_level": "remember",
+      "group": 10
+    },
+    {
+      "id": "K.16",
+      "label": "How market, product, competition, and company factors impact distribution choice",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    },
+    {
+      "id": "K.17",
+      "label": "How product characteristics impact supply chain management",
+      "section": "K",
+      "bloom_level": "understand",
+      "group": 10
+    }
+  ],
+  "links": [
+    {
+      "source": "A.1",
+      "target": "A.2",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "A.3",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "A.9",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "A.2",
+      "target": "A.10",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "A.2",
+      "target": "A.3",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "A.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "A.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "A.1",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "A.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.5",
+      "target": "A.12",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.5",
+      "target": "A.13",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.5",
+      "target": "A.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.6",
+      "target": "A.1",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "A.6",
+      "target": "A.12",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.6",
+      "target": "A.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.7",
+      "target": "A.1",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "A.7",
+      "target": "A.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "A.1",
+      "type": "part_of",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "A.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "A.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.9",
+      "target": "A.4",
+      "type": "prerequisite_for",
+      "value": 1
+    },
+    {
+      "source": "A.10",
+      "target": "A.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.11",
+      "target": "A.1",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "A.12",
+      "target": "A.13",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.12",
+      "target": "A.14",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.13",
+      "target": "A.1",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "A.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "A.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.1",
+      "target": "B.3",
+      "type": "prerequisite_for",
+      "value": 1
+    },
+    {
+      "source": "B.1",
+      "target": "B.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.1",
+      "target": "B.6",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "B.2",
+      "target": "B.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.2",
+      "target": "B.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.2",
+      "target": "B.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "B.6",
+      "type": "prerequisite_for",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "B.8",
+      "type": "part_of",
+      "value": 1
+    },
+    {
+      "source": "B.4",
+      "target": "B.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.4",
+      "target": "B.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.4",
+      "target": "B.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.5",
+      "target": "B.6",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "B.5",
+      "target": "B.7",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "B.5",
+      "target": "B.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.6",
+      "target": "B.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.6",
+      "target": "B.8",
+      "type": "part_of",
+      "value": 1
+    },
+    {
+      "source": "B.6",
+      "target": "A.1",
+      "type": "part_of",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "B.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "B.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.9",
+      "target": "B.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.10",
+      "target": "B.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.11",
+      "target": "B.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.12",
+      "target": "B.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.12",
+      "target": "B.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.12",
+      "target": "B.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.1",
+      "target": "C.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.1",
+      "target": "C.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.2",
+      "target": "C.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.3",
+      "target": "C.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.3",
+      "target": "C.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.4",
+      "target": "C.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.5",
+      "target": "C.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.5",
+      "target": "C.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.6",
+      "target": "C.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.8",
+      "target": "C.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.8",
+      "target": "C.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "C.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.11",
+      "target": "C.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.1",
+      "target": "D.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.1",
+      "target": "D.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.2",
+      "target": "D.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.3",
+      "target": "D.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.3",
+      "target": "D.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "D.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.6",
+      "target": "D.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.1",
+      "target": "E.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.1",
+      "target": "E.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "E.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.3",
+      "target": "E.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.3",
+      "target": "E.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.5",
+      "target": "E.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.5",
+      "target": "E.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "F.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "F.3",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "F.2",
+      "target": "F.5",
+      "type": "prerequisite_for",
+      "value": 1
+    },
+    {
+      "source": "F.3",
+      "target": "F.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.4",
+      "target": "F.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.5",
+      "target": "F.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.6",
+      "target": "F.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.1",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.1",
+      "target": "G.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.2",
+      "target": "G.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.2",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.3",
+      "target": "G.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.4",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.5",
+      "target": "G.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.5",
+      "target": "G.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.6",
+      "target": "G.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.7",
+      "target": "G.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.8",
+      "target": "G.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.8",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.11",
+      "target": "G.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.1",
+      "target": "H.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.1",
+      "target": "H.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.2",
+      "target": "H.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.3",
+      "target": "H.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.3",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.4",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.4",
+      "target": "H.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.5",
+      "target": "H.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.5",
+      "target": "H.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.6",
+      "target": "H.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.6",
+      "target": "H.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.7",
+      "target": "H.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.1",
+      "target": "I.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.1",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.1",
+      "target": "I.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.2",
+      "target": "I.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.2",
+      "target": "I.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.3",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.4",
+      "target": "I.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.5",
+      "target": "I.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.5",
+      "target": "I.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.1",
+      "target": "J.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.1",
+      "target": "J.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.2",
+      "target": "J.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.3",
+      "target": "J.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.4",
+      "target": "J.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.5",
+      "target": "J.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.6",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.1",
+      "target": "K.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.1",
+      "target": "K.5",
+      "type": "prerequisite_for",
+      "value": 1
+    },
+    {
+      "source": "K.1",
+      "target": "K.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.2",
+      "target": "K.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.2",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.3",
+      "target": "K.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.3",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.4",
+      "target": "K.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.4",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.5",
+      "target": "K.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.6",
+      "target": "K.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.6",
+      "target": "K.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.7",
+      "target": "K.1",
+      "type": "part_of",
+      "value": 1
+    },
+    {
+      "source": "K.7",
+      "target": "K.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.8",
+      "target": "K.10",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "K.8",
+      "target": "K.11",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "K.8",
+      "target": "K.12",
+      "type": "includes",
+      "value": 1
+    },
+    {
+      "source": "K.8",
+      "target": "K.13",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.9",
+      "target": "K.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.9",
+      "target": "K.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.9",
+      "target": "K.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.9",
+      "target": "K.12",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.10",
+      "target": "K.11",
+      "type": "contrasts_with",
+      "value": 1
+    },
+    {
+      "source": "K.10",
+      "target": "K.12",
+      "type": "contrasts_with",
+      "value": 1
+    },
+    {
+      "source": "K.11",
+      "target": "K.12",
+      "type": "contrasts_with",
+      "value": 1
+    },
+    {
+      "source": "K.13",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.13",
+      "target": "K.16",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.14",
+      "target": "K.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.14",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.14",
+      "target": "K.13",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.15",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.16",
+      "target": "K.17",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.16",
+      "target": "K.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.17",
+      "target": "K.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "K.17",
+      "target": "K.10",
+      "type": "applies_to",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "B.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "D.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "I.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.1",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.2",
+      "target": "E.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.2",
+      "target": "I.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "E.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "E.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "H.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "K.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.3",
+      "target": "K.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "B.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "D.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "E.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "J.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.4",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.5",
+      "target": "J.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.5",
+      "target": "J.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.5",
+      "target": "K.13",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.6",
+      "target": "B.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.6",
+      "target": "C.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.7",
+      "target": "F.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.7",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "B.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "B.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "B.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "D.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "E.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "G.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "G.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "H.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "I.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.8",
+      "target": "J.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.10",
+      "target": "D.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.10",
+      "target": "G.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.11",
+      "target": "B.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.11",
+      "target": "G.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.11",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.12",
+      "target": "J.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "D.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "I.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "A.14",
+      "target": "J.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.2",
+      "target": "E.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "C.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "D.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "E.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "F.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "F.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "H.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.3",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.6",
+      "target": "E.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.6",
+      "target": "G.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.6",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "D.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "D.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "G.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "G.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.7",
+      "target": "I.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.8",
+      "target": "D.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.8",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.8",
+      "target": "H.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.8",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.9",
+      "target": "G.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "B.11",
+      "target": "E.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.1",
+      "target": "D.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.1",
+      "target": "F.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "D.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "E.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "F.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "F.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "C.10",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.1",
+      "target": "G.10",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.1",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.1",
+      "target": "I.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.2",
+      "target": "J.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.3",
+      "target": "I.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.4",
+      "target": "F.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.4",
+      "target": "G.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "E.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "F.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "F.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "H.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.5",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.7",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "D.7",
+      "target": "G.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "F.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "F.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "G.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.2",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.4",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.4",
+      "target": "H.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.5",
+      "target": "I.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.6",
+      "target": "G.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "E.6",
+      "target": "H.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.1",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.6",
+      "target": "G.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.6",
+      "target": "G.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.6",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.6",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "F.6",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.1",
+      "target": "I.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.1",
+      "target": "J.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.2",
+      "target": "H.5",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.4",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.4",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.4",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.5",
+      "target": "J.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.7",
+      "target": "I.3",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.7",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.8",
+      "target": "H.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.8",
+      "target": "H.7",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.8",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.9",
+      "target": "I.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.9",
+      "target": "J.1",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.9",
+      "target": "J.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.9",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.9",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.10",
+      "target": "I.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "G.10",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "H.1",
+      "target": "I.4",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.1",
+      "target": "J.2",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.5",
+      "target": "K.8",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.5",
+      "target": "K.9",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.5",
+      "target": "K.11",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "I.5",
+      "target": "K.12",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.1",
+      "target": "K.6",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.1",
+      "target": "K.15",
+      "type": "related_to",
+      "value": 1
+    },
+    {
+      "source": "J.4",
+      "target": "K.13",
+      "type": "related_to",
+      "value": 1
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "title": "Essential Supply Chain Management Concepts",
+      "file": "A.json",
+      "concept_count": 14,
+      "group": 0
+    },
+    {
+      "id": "B",
+      "title": "Supply Chain Topics",
+      "file": "B.json",
+      "concept_count": 12,
+      "group": 1
+    },
+    {
+      "id": "C",
+      "title": "Characteristics for Successful Supply Chain Managers",
+      "file": "C.json",
+      "concept_count": 11,
+      "group": 2
+    },
+    {
+      "id": "D",
+      "title": "Supply Chain Planning and Design",
+      "file": "D.json",
+      "concept_count": 7,
+      "group": 3
+    },
+    {
+      "id": "E",
+      "title": "Supply Chain Process",
+      "file": "E.json",
+      "concept_count": 6,
+      "group": 4
+    },
+    {
+      "id": "F",
+      "title": "Product Portfolio Management",
+      "file": "F.json",
+      "concept_count": 6,
+      "group": 5
+    },
+    {
+      "id": "G",
+      "title": "Improving Supply Chain Network Performance",
+      "file": "G.json",
+      "concept_count": 11,
+      "group": 6
+    },
+    {
+      "id": "H",
+      "title": "Production Planning and Control",
+      "file": "H.json",
+      "concept_count": 7,
+      "group": 7
+    },
+    {
+      "id": "I",
+      "title": "Supply Chain Coordination and Decision Making for the Flow of Products, Services, and Information",
+      "file": "I.json",
+      "concept_count": 5,
+      "group": 8
+    },
+    {
+      "id": "J",
+      "title": "Supply Chain Management Contemporary Issues",
+      "file": "J.json",
+      "concept_count": 6,
+      "group": 9
+    },
+    {
+      "id": "K",
+      "title": "Channels of Distribution",
+      "file": "K.json",
+      "concept_count": 17,
+      "group": 10
+    }
+  ]
+}

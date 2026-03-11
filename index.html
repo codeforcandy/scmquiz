@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCM Study Quiz</title>
+  <meta name="description" content="Supply Chain Management study quiz — 102 concepts across 11 sections">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+
+  <!-- Theme color -->
+  <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1A1816" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+  <div class="app">
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progress-bar" style="display:none">
+      <div class="progress-bar__fill" id="progress-fill"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+
+    <!-- Setup View -->
+    <div class="view container" id="setup-view"></div>
+
+    <!-- Quiz View -->
+    <div class="view" id="quiz-view"></div>
+
+    <!-- Results View -->
+    <div class="view" id="results-view"></div>
+
+    <!-- Notes Panel + Backdrop -->
+    <div class="backdrop" id="notes-backdrop"></div>
+    <div class="notes-panel" id="notes-panel">
+      <div class="notes-panel__header">
+        <span class="notes-panel__title">Notes</span>
+        <button class="notes-panel__close" id="notes-close">&times;</button>
+      </div>
+      <div class="notes-panel__body">
+        <p class="notes-panel__concept"></p>
+        <textarea class="notes-panel__textarea" placeholder="Write your notes here..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCM Section Knowledge Base",
+  "type": "object",
+  "required": ["section_id", "section_title", "generated_at", "concepts"],
+  "properties": {
+    "section_id": {
+      "type": "string",
+      "pattern": "^[A-K]$"
+    },
+    "section_title": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "topic", "action_verb", "definition", "explanation", "key_terms", "sources", "relationships", "quiz"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-K]\\.[0-9]+$"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "action_verb": {
+            "type": "string",
+            "enum": ["define", "explain", "describe", "analyze", "identify", "list", "determine", "understand"]
+          },
+          "definition": {
+            "type": "string"
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "key_terms": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["url", "title", "site"],
+              "properties": {
+                "url": { "type": "string", "format": "uri" },
+                "title": { "type": "string" },
+                "site": { "type": "string" }
+              }
+            },
+            "minItems": 1
+          },
+          "relationships": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["target_id", "type", "description"],
+              "properties": {
+                "target_id": {
+                  "type": "string",
+                  "pattern": "^[A-K]\\.[0-9]+$"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": ["related_to", "includes", "part_of", "prerequisite_for", "contrasts_with", "applies_to"]
+                },
+                "description": { "type": "string" }
+              }
+            }
+          },
+          "quiz": {
+            "type": "object",
+            "required": ["bloom_level", "difficulty", "distractor_ids"],
+            "properties": {
+              "bloom_level": {
+                "type": "string",
+                "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"]
+              },
+              "difficulty": {
+                "type": "string",
+                "enum": ["easy", "medium", "hard"]
+              },
+              "distractor_ids": {
+                "type": "array",
+                "items": { "type": "string" },
+                "minItems": 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "taxonomy": {
+    "remember": {
+      "description": "Recall facts and basic concepts",
+      "action_verbs": ["define", "list", "identify", "name", "recall", "recognize", "state"]
+    },
+    "understand": {
+      "description": "Explain ideas or concepts",
+      "action_verbs": ["describe", "explain", "summarize", "classify", "discuss", "interpret", "understand"]
+    },
+    "apply": {
+      "description": "Use information in new situations",
+      "action_verbs": ["apply", "demonstrate", "illustrate", "implement", "solve", "use", "determine"]
+    },
+    "analyze": {
+      "description": "Draw connections among ideas",
+      "action_verbs": ["analyze", "compare", "contrast", "differentiate", "distinguish", "examine", "organize"]
+    },
+    "evaluate": {
+      "description": "Justify a stand or decision",
+      "action_verbs": ["evaluate", "assess", "argue", "critique", "defend", "judge", "support"]
+    },
+    "create": {
+      "description": "Produce new or original work",
+      "action_verbs": ["create", "design", "develop", "formulate", "construct", "plan", "produce"]
+    }
+  },
+  "verb_to_level": {
+    "define": "remember",
+    "list": "remember",
+    "identify": "remember",
+    "name": "remember",
+    "recall": "remember",
+    "recognize": "remember",
+    "state": "remember",
+    "describe": "understand",
+    "explain": "understand",
+    "summarize": "understand",
+    "classify": "understand",
+    "discuss": "understand",
+    "interpret": "understand",
+    "understand": "understand",
+    "apply": "apply",
+    "demonstrate": "apply",
+    "illustrate": "apply",
+    "implement": "apply",
+    "solve": "apply",
+    "use": "apply",
+    "determine": "apply",
+    "analyze": "analyze",
+    "compare": "analyze",
+    "contrast": "analyze",
+    "differentiate": "analyze",
+    "distinguish": "analyze",
+    "examine": "analyze",
+    "organize": "analyze",
+    "evaluate": "evaluate",
+    "assess": "evaluate",
+    "argue": "evaluate",
+    "critique": "evaluate",
+    "defend": "evaluate",
+    "judge": "evaluate",
+    "support": "evaluate",
+    "create": "create",
+    "design": "create",
+    "develop": "create",
+    "formulate": "create",
+    "construct": "create",
+    "plan": "create",
+    "produce": "create"
+  }
+}

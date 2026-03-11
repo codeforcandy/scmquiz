@@ -1,0 +1,518 @@
+{
+  "section_id": "K",
+  "section_title": "Channels of Distribution",
+  "generated_at": "2026-03-11T00:00:00Z",
+  "concepts": [
+    {
+      "id": "K.1",
+      "topic": "Functions of distribution channels",
+      "action_verb": "list",
+      "definition": "Distribution channels perform essential functions including sorting, storing, transporting, financing, risk-bearing, and negotiating to move products from manufacturers to consumers efficiently.",
+      "explanation": "The primary functions of distribution channels include logistical functions (assembly, storage, sorting, and transportation), transactional functions (buying, selling, and risk-bearing), and facilitating functions (financing, grading, and information sharing). Channels simplify distribution by reducing the number of transactions required to get a product from manufacturer to consumer. Each channel member locates buyers, stores merchandise, and ensures goods are available when consumers want to buy them. Although channel institutions can be eliminated or substituted, the functions they perform cannot be eliminated and must be absorbed by other members of the channel.",
+      "key_terms": ["sorting", "storage", "transportation", "financing", "risk-bearing", "negotiation", "logistical functions", "transactional functions", "facilitating functions"],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels | Introduction to Business",
+          "site": "Lumen Learning"
+        },
+        {
+          "url": "https://agriculture.institute/marketing-management-for-agribusiness/key-functions-of-distribution-channels/",
+          "title": "Key Functions of Distribution Channels in Supply Chain Management",
+          "site": "Agriculture Institute"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.3", "type": "related_to", "description": "Channel functions include the logistical roles of assembly, storage, sorting, and transportation" },
+        { "target_id": "K.5", "type": "prerequisite_for", "description": "Understanding channel functions is foundational to understanding pre-sale and post-purchase services" },
+        { "target_id": "K.4", "type": "related_to", "description": "Facilitation is one of the key function categories of distribution channels" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.4", "K.6"]
+      }
+    },
+    {
+      "id": "K.2",
+      "topic": "Time, place, and ownership utility",
+      "action_verb": "explain",
+      "definition": "Time utility makes products available when customers need them, place utility makes products available where customers want them, and ownership (possession) utility facilitates the transfer of product ownership to the customer.",
+      "explanation": "Distribution channels create value for customers through three key types of economic utility. Time utility ensures products are available at a convenient time, so customers can purchase when they need or want the product. Place utility ensures products are available at convenient locations, whether physical stores or online platforms. Ownership (or possession) utility simplifies the process of purchasing and transferring ownership, including activities like offering credit facilities and making transactions smoother. Together, these utilities represent the core value proposition of distribution channels in connecting manufacturers with end consumers.",
+      "key_terms": ["time utility", "place utility", "ownership utility", "possession utility", "form utility", "economic utility", "customer value"],
+      "sources": [
+        {
+          "url": "https://www.indeed.com/career-advice/career-development/marketing-utility",
+          "title": "What Is Utility in Marketing? Definition, Types and Examples",
+          "site": "Indeed"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/ca/resources/marketing/four-components-utility-model/",
+          "title": "The Four Components of the Utility Marketing Model",
+          "site": "QuickBooks Canada"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.1", "type": "related_to", "description": "Utility creation is a fundamental function of distribution channels" },
+        { "target_id": "K.6", "type": "related_to", "description": "Utility creation is one way supply chain management creates efficiencies" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.1", "K.5"]
+      }
+    },
+    {
+      "id": "K.3",
+      "topic": "Role of marketing channels for assembly, storage, sorting, and transportation",
+      "action_verb": "explain",
+      "definition": "Marketing channels perform logistical functions of assembling products from various sources, storing them until needed, sorting them into appropriate quantities and assortments, and transporting them from manufacturers to customers.",
+      "explanation": "Marketing channels serve as the critical link between production and consumption by performing four key logistical functions. Assembly involves gathering products from multiple producers into a single location. Storage ensures goods are held and available until consumers demand them, bridging the time gap between production and purchase. Sorting consists of breaking bulk quantities into smaller, organized stocks by grading, classifying, and arranging products for resale. Transportation moves goods physically through the supply chain from origin to destination. These functions cannot be eliminated from the channel; if one intermediary is removed, another channel member must absorb the function.",
+      "key_terms": ["assembly", "storage", "sorting", "transportation", "logistical functions", "breaking bulk", "marketing channels"],
+      "sources": [
+        {
+          "url": "https://opentext.wsu.edu/cpim/chapter/10-1-basics-of-distribution-channels/",
+          "title": "10.1 Basics of Distribution Channels - Core Principles of International Marketing",
+          "site": "Washington State University OpenText"
+        },
+        {
+          "url": "https://www.coursesidekick.com/marketing/study-guides/boundless-marketing/marketing-channels-in-the-supply-chain",
+          "title": "Marketing Channels in the Supply Chain",
+          "site": "Boundless Marketing"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.1", "type": "part_of", "description": "Logistical functions are a subset of overall distribution channel functions" },
+        { "target_id": "K.9", "type": "related_to", "description": "Intermediaries perform these logistical functions within the channel" },
+        { "target_id": "K.6", "type": "related_to", "description": "Efficient assembly, storage, sorting, and transportation create supply chain efficiencies" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.1", "K.4"]
+      }
+    },
+    {
+      "id": "K.4",
+      "topic": "Facilitation in supply chain management",
+      "action_verb": "define",
+      "definition": "Facilitation in supply chain management refers to the supporting activities that enable the smooth flow of products through the channel, including financing, information sharing, grading, and coordination among channel members.",
+      "explanation": "Facilitation encompasses the auxiliary functions performed by channel members that support but go beyond the physical movement of goods. Key facilitation activities include financing (allowing channel members to pay over time or providing credit), information dissemination (sharing consumer feedback, shopping behavior data, and purchase trends), and channel coordination (aligning the activities of multiple intermediaries). These facilitating functions help marketing channel members make better distribution decisions and financially support the movement of products and services to deliver value to customers. Facilitation creates a collaborative environment where all channel partners can operate more effectively.",
+      "key_terms": ["facilitation", "financing", "information sharing", "channel coordination", "grading", "supporting functions"],
+      "sources": [
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-1-the-use-and-value-of-marketing-channels",
+          "title": "17.1 The Use and Value of Marketing Channels - Principles of Marketing",
+          "site": "OpenStax"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.1", "type": "part_of", "description": "Facilitation is one of the three main function categories of distribution channels" },
+        { "target_id": "K.5", "type": "related_to", "description": "Facilitation includes pre-sale and post-purchase services" },
+        { "target_id": "K.6", "type": "related_to", "description": "Facilitation contributes to overall supply chain efficiency" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.1", "K.5"]
+      }
+    },
+    {
+      "id": "K.5",
+      "topic": "Pre-sale and post-purchase services in distribution channels",
+      "action_verb": "explain",
+      "definition": "Distribution channels provide pre-sale services (product information, demonstrations, financing options) and post-purchase services (maintenance, returns, customer support, and channel coordination) to facilitate the complete customer experience.",
+      "explanation": "Channels of distribution extend their role beyond simple product movement by offering comprehensive services throughout the customer journey. Pre-sale services include product information dissemination, demonstrations, financing arrangements, and promotional activities that help customers make informed purchasing decisions. Post-purchase services encompass maintenance and repair support, handling returns and exchanges, providing ongoing customer communication, and ensuring product recalls are managed effectively. Channel coordination ensures all intermediaries work together to deliver these services consistently. Because channel members are in direct and regular contact with consumers, they perform salesmanship effectively and provide valuable feedback to producers, creating a two-way information flow that benefits the entire supply chain.",
+      "key_terms": ["pre-sale services", "post-purchase services", "financing", "maintenance", "information dissemination", "channel coordination", "customer support"],
+      "sources": [
+        {
+          "url": "https://www.feedough.com/distribution-channels-definition-types-functions/",
+          "title": "Distribution Channels - Definition, Types, & Functions",
+          "site": "Feedough"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/distribution-channels.htm",
+          "title": "Distribution Channels - Meaning and Their Significance",
+          "site": "Management Study Guide"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.1", "type": "part_of", "description": "Pre-sale and post-purchase services are key functions of distribution channels" },
+        { "target_id": "K.4", "type": "related_to", "description": "These services are a form of facilitation in the supply chain" },
+        { "target_id": "K.9", "type": "related_to", "description": "Intermediaries are the ones delivering these services to customers" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.4", "K.6"]
+      }
+    },
+    {
+      "id": "K.6",
+      "topic": "How supply chain management creates efficiencies",
+      "action_verb": "explain",
+      "definition": "Supply chain management creates efficiencies by reducing the number of transactions between producers and consumers, optimizing inventory levels, consolidating shipments, leveraging technology, and coordinating activities across all channel members.",
+      "explanation": "Supply chain management drives efficiency through multiple mechanisms. First, intermediaries reduce the total number of transactions needed by serving as consolidated contact points between many manufacturers and many customers. Second, inventory optimization through data analytics and demand forecasting reduces carrying costs, prevents overstocking, and minimizes obsolescence. Third, transportation consolidation and route optimization lower logistics costs and improve delivery times. Fourth, technology adoption including AI, robotics, and automation streamlines warehouse operations and order processing. Finally, strong supplier relationships and coordination among channel partners yield better pricing, improved terms, and mutually beneficial operational improvements that lower overall supply chain costs.",
+      "key_terms": ["transaction reduction", "inventory optimization", "demand forecasting", "consolidation", "route optimization", "supply chain efficiency", "cost reduction"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://lsiwins.com/the-importance-of-supply-chain-management-enhancing-efficiency-reducing-costs-and-navigating-trends/",
+          "title": "The Importance Of Supply Chain Management",
+          "site": "LSI"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.1", "type": "related_to", "description": "Efficiency creation is enabled by the core functions of distribution channels" },
+        { "target_id": "K.2", "type": "related_to", "description": "Efficiencies manifest as improved time, place, and ownership utility" },
+        { "target_id": "K.7", "type": "related_to", "description": "Risk sharing is one mechanism through which supply chains create efficiencies" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.2", "K.7"]
+      }
+    },
+    {
+      "id": "K.7",
+      "topic": "Risk sharing in supply chain management",
+      "action_verb": "describe",
+      "definition": "Risk sharing in supply chain management occurs when channel members purchase products in advance from manufacturers, thereby assuming financial risk for unsold inventory and sharing the burden of bringing products to market.",
+      "explanation": "When intermediaries such as wholesalers and retailers buy products beforehand from manufacturers, they take on significant financial risk because they must pay for inventory before it is sold to end consumers. This shared risk creates a mutual incentive for all channel members to actively promote and sell products. Wholesalers who purchase in bulk assume the risk of products not selling, which motivates them to invest in marketing, proper storage, and efficient distribution. Risk sharing also extends to handling, transportation, and storage risks, where channel members provide insurance options, implement quality control measures, and ensure regulatory compliance. This distribution of risk across the supply chain allows manufacturers to focus on production while intermediaries manage market-facing risks.",
+      "key_terms": ["risk sharing", "inventory risk", "financial risk", "wholesaler risk", "advance purchase", "risk management", "channel risk"],
+      "sources": [
+        {
+          "url": "https://marketingmap.pressbooks.tru.ca/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "The Marketing Map"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.6", "type": "related_to", "description": "Risk sharing is one way supply chain management creates efficiencies" },
+        { "target_id": "K.1", "type": "part_of", "description": "Risk-bearing is a core function of distribution channels" },
+        { "target_id": "K.9", "type": "related_to", "description": "Intermediaries are the channel members who share risk with manufacturers" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.6", "K.9"]
+      }
+    },
+    {
+      "id": "K.8",
+      "topic": "Indirect channels of distribution",
+      "action_verb": "define",
+      "definition": "Indirect channels of distribution involve the use of one or more intermediaries such as wholesalers, retailers, or agents between the manufacturer and the end consumer to sell and deliver products.",
+      "explanation": "In an indirect distribution channel, manufacturers do not sell directly to consumers but instead rely on intermediaries to bridge the gap between production and consumption. Indirect channels can be classified by the number of intermediary levels: one-level (manufacturer to retailer to customer), two-level (manufacturer to wholesaler to retailer to customer), and three-level (manufacturer to agent to wholesaler to retailer to customer). This approach helps businesses reach a wider audience, streamline logistics, and reduce initial costs, freeing up resources for product development. Indirect channels are especially common for consumer goods such as electronics, clothing, and packaged foods where broad market coverage is essential.",
+      "key_terms": ["indirect distribution", "intermediaries", "channel levels", "wholesaler", "retailer", "agent", "market reach"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/direct-vs-indirect-distribution/",
+          "title": "Direct vs. Indirect Distribution Channels: Understanding the Differences",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://adsy.com/blog/indirect-distribution-channels-explained-with-examples",
+          "title": "Indirect Distribution Channels Explained With Examples",
+          "site": "Adsy"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.10", "type": "includes", "description": "One-level channel is a type of indirect distribution" },
+        { "target_id": "K.11", "type": "includes", "description": "Two-level channel is a type of indirect distribution" },
+        { "target_id": "K.12", "type": "includes", "description": "Three-level channel is a type of indirect distribution" },
+        { "target_id": "K.13", "type": "related_to", "description": "Dual distribution may combine direct and indirect channels" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.10", "K.13"]
+      }
+    },
+    {
+      "id": "K.9",
+      "topic": "Role of intermediaries in selling products",
+      "action_verb": "define",
+      "definition": "Intermediaries are external organizations or individuals such as wholesalers, retailers, agents, and brokers that facilitate the sale and distribution of products between manufacturers and end consumers.",
+      "explanation": "Intermediaries serve as essential links in the distribution channel by performing functions that neither manufacturers nor consumers could efficiently do alone. There are four major types: agents or brokers (who facilitate sales negotiations on commission without taking ownership), wholesalers (who buy in bulk and resell to retailers while taking ownership), retailers (who sell directly to end consumers), and distributors (who serve specific geographic territories or market segments). Intermediaries add value by reducing the number of contacts between supply chain members, making it easier for buyers to find desired products, and ensuring the right product reaches the right person at the right time. They also help with negotiations, increase product awareness, drive sales, and lower distribution costs.",
+      "key_terms": ["intermediaries", "wholesaler", "retailer", "agent", "broker", "distributor", "middleman", "channel member"],
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/marketing/Marketing-intermediaries-the-distribution-channel",
+          "title": "Marketing Intermediaries and the Distribution Channel",
+          "site": "Britannica Money"
+        },
+        {
+          "url": "https://www.indeed.com/career-advice/career-development/channel-intermediaries",
+          "title": "4 Types of Channel Intermediaries",
+          "site": "Indeed"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.8", "type": "related_to", "description": "Intermediaries operate within indirect distribution channels" },
+        { "target_id": "K.10", "type": "related_to", "description": "Retailers are the intermediary in one-level channels" },
+        { "target_id": "K.11", "type": "related_to", "description": "Wholesalers and retailers are intermediaries in two-level channels" },
+        { "target_id": "K.12", "type": "related_to", "description": "Agents, wholesalers, and retailers are intermediaries in three-level channels" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.8", "K.11"]
+      }
+    },
+    {
+      "id": "K.10",
+      "topic": "One-level channel of distribution",
+      "action_verb": "define",
+      "definition": "A one-level channel of distribution involves a single intermediary, typically a retailer, between the manufacturer and the end customer (manufacturer to retailer to customer).",
+      "explanation": "In a one-level distribution channel, the manufacturer sells products directly to a retailer, who then sells them to the final consumer. This structure is commonly used for products like clothing, shoes, accessories, and furniture where retailers can add value through in-store displays, customer service, and try-before-you-buy experiences. The one-level channel offers manufacturers more control over their distribution compared to multi-level channels, while still leveraging the retailer's established customer base and physical presence. This channel is particularly effective when products require some explanation or demonstration but do not need the bulk distribution capabilities that wholesalers provide.",
+      "key_terms": ["one-level channel", "retailer", "manufacturer", "single intermediary", "direct-to-retail"],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/business-studies/types-of-distribution-channels/",
+          "title": "Types of Distribution Channels",
+          "site": "GeeksforGeeks"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.8", "type": "part_of", "description": "One-level channel is a type of indirect distribution" },
+        { "target_id": "K.11", "type": "contrasts_with", "description": "Two-level channel adds a wholesaler between manufacturer and retailer" },
+        { "target_id": "K.12", "type": "contrasts_with", "description": "Three-level channel adds both an agent and wholesaler" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.11", "K.12"]
+      }
+    },
+    {
+      "id": "K.11",
+      "topic": "Two-level channel of distribution",
+      "action_verb": "define",
+      "definition": "A two-level channel of distribution involves two intermediaries, a wholesaler and a retailer, between the manufacturer and the end customer (manufacturer to wholesaler to retailer to customer).",
+      "explanation": "The two-level distribution channel is one of the most commonly used channel structures, particularly for fast-moving consumer goods. In this arrangement, the manufacturer sells products in bulk to wholesalers, who then break the bulk into smaller quantities and resell to retailers, who finally sell to end consumers. This channel is widely used for convenience goods such as soaps, milk products, soft drinks, and packaged foods where broad market coverage is essential. The wholesaler adds value by consolidating products from multiple manufacturers, providing warehousing and storage, and offering credit to retailers. This structure allows manufacturers to reach a large number of small retailers they could not efficiently serve directly.",
+      "key_terms": ["two-level channel", "wholesaler", "retailer", "manufacturer", "breaking bulk", "convenience goods"],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.vedantu.com/commerce/channels-of-distribution",
+          "title": "Channels of Distribution: Types, Examples & Functions Explained",
+          "site": "Vedantu"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.8", "type": "part_of", "description": "Two-level channel is a type of indirect distribution" },
+        { "target_id": "K.10", "type": "contrasts_with", "description": "One-level channel uses only a retailer without a wholesaler" },
+        { "target_id": "K.12", "type": "contrasts_with", "description": "Three-level channel adds an agent before the wholesaler" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.10", "K.12"]
+      }
+    },
+    {
+      "id": "K.12",
+      "topic": "Three-level channel of distribution",
+      "action_verb": "define",
+      "definition": "A three-level channel of distribution involves three intermediaries between the manufacturer and the end customer: an agent or broker, a wholesaler, and a retailer (manufacturer to agent to wholesaler to retailer to customer).",
+      "explanation": "The three-level distribution channel is the longest indirect channel structure and is typically used for products that need to reach international markets or cover large geographical areas. In this arrangement, the manufacturer first sells to an agent or broker, who facilitates connections with appropriate wholesalers in various markets. The agent does not take ownership of the goods but earns a commission for finding and negotiating with buyers. The wholesaler then purchases in bulk and distributes to retailers, who sell to end consumers. This structure is common when manufacturers lack the expertise or resources to navigate foreign markets or when products must pass through specialized regulatory or logistical processes before reaching wholesale distribution.",
+      "key_terms": ["three-level channel", "agent", "broker", "wholesaler", "retailer", "commission", "international distribution"],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/2585-channel-levels.html",
+          "title": "Channel Levels - Definition, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.8", "type": "part_of", "description": "Three-level channel is a type of indirect distribution" },
+        { "target_id": "K.10", "type": "contrasts_with", "description": "One-level channel uses only a single intermediary" },
+        { "target_id": "K.11", "type": "contrasts_with", "description": "Two-level channel omits the agent layer" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.10", "K.11"]
+      }
+    },
+    {
+      "id": "K.13",
+      "topic": "Dual distribution",
+      "action_verb": "describe",
+      "definition": "Dual distribution is a strategy where a manufacturer or wholesaler uses two or more channels simultaneously to reach end consumers, such as selling through both physical showrooms and internet platforms.",
+      "explanation": "Dual distribution allows companies to maximize market reach by combining different channel approaches, most commonly selling through both brick-and-mortar showrooms and online e-commerce platforms. This strategy offers consumers the flexibility to choose their preferred shopping method while enabling the company to capture sales from multiple market segments. For example, an electronics brand may sell products through its own retail stores while also offering them on its website and through third-party retailers like Amazon. Dual distribution increases sales potential by reaching customers who prefer in-person experiences as well as those who favor online convenience. However, it requires careful management to avoid channel conflict, where different channels compete against each other and undermine pricing or relationships with intermediaries.",
+      "key_terms": ["dual distribution", "multi-channel", "showroom", "internet selling", "e-commerce", "channel conflict", "omnichannel"],
+      "sources": [
+        {
+          "url": "https://ceopedia.org/index.php/Dual_distribution",
+          "title": "Dual Distribution",
+          "site": "CEOpedia"
+        },
+        {
+          "url": "https://www.madmarketingpro.com/blog/dual-distribution-and-multi-channel-distribution",
+          "title": "Dual Distribution and Multi-channel Distribution",
+          "site": "Mad Marketing"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.8", "type": "related_to", "description": "Dual distribution may combine direct and indirect channels" },
+        { "target_id": "K.15", "type": "related_to", "description": "On-demand models often leverage dual distribution through digital platforms" },
+        { "target_id": "K.16", "type": "related_to", "description": "Market and competition factors influence the decision to use dual distribution" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.8", "K.15"]
+      }
+    },
+    {
+      "id": "K.14",
+      "topic": "How services use intermediaries to reach final customers",
+      "action_verb": "explain",
+      "definition": "Service industries use intermediaries such as agents, brokers, franchisees, and digital platforms to extend their reach and deliver services to end customers who may not be accessible through direct channels alone.",
+      "explanation": "Although services are intangible and cannot be stored or transported like physical goods, they still rely on intermediaries to reach customers effectively. In industries like insurance, travel, and real estate, agents and brokers connect service providers with consumers by facilitating negotiations and transactions, typically earning commissions rather than taking ownership. Franchise models allow service brands (such as hotel chains or restaurant chains) to use franchisees as intermediaries who operate under the brand name in diverse locations. Digital platforms like booking websites and app-based services serve as modern intermediaries that match service providers with consumers in real time. These intermediaries add value through local market knowledge, established customer relationships, and the ability to bundle complementary services for enhanced customer convenience.",
+      "key_terms": ["service distribution", "service intermediaries", "agents", "brokers", "franchisees", "digital platforms", "intangible products"],
+      "sources": [
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/valuation/distribution-channel/",
+          "title": "Distribution Channels: The Efficient Flow of Goods and Services",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-2-types-of-marketing-channels",
+          "title": "17.2 Types of Marketing Channels",
+          "site": "OpenStax"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.9", "type": "related_to", "description": "Service intermediaries perform similar roles as product intermediaries" },
+        { "target_id": "K.15", "type": "related_to", "description": "On-demand business models often distribute services through digital intermediaries" },
+        { "target_id": "K.13", "type": "related_to", "description": "Services may use dual distribution through both physical and digital channels" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.9", "K.13"]
+      }
+    },
+    {
+      "id": "K.15",
+      "topic": "On-demand business model",
+      "action_verb": "define",
+      "definition": "The on-demand business model is a strategy where customer demand is fulfilled by delivering immediate goods or services through digital platforms such as mobile apps or websites, connecting providers with consumers in real time.",
+      "explanation": "The on-demand business model leverages technology to match consumer demand with supply instantaneously, disrupting traditional distribution channels. Companies like Uber (transportation), Airbnb (accommodation), and DoorDash (food delivery) exemplify this model by connecting service providers directly with customers through digital platforms. On-demand businesses handle supply chain and logistics differently from traditional models by using data analytics for demand forecasting, real-time GPS tracking for delivery optimization, and AI-driven route planning for efficiency. This model minimizes inventory risk by producing or sourcing products only when ordered, as demonstrated by companies like SHEIN that produce small initial batches and scale based on actual demand. The on-demand model creates value through convenience, speed, and personalization while reducing waste and overproduction.",
+      "key_terms": ["on-demand model", "digital platform", "real-time fulfillment", "demand forecasting", "gig economy", "just-in-time", "platform economy"],
+      "sources": [
+        {
+          "url": "https://www.entrepreneur.com/building-a-business/business-model/types-of-business-models/how-does-an-ondemand-business-model-work",
+          "title": "How Does an On-Demand Business Model Work?",
+          "site": "Entrepreneur"
+        },
+        {
+          "url": "https://jungleworks.com/on-demand-business-models/",
+          "title": "On Demand Business Models",
+          "site": "Jungleworks"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.13", "type": "related_to", "description": "On-demand models often use dual distribution through digital and physical channels" },
+        { "target_id": "K.14", "type": "related_to", "description": "Many on-demand businesses distribute services through digital intermediaries" },
+        { "target_id": "K.6", "type": "related_to", "description": "On-demand models create supply chain efficiencies through technology and demand-driven fulfillment" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "easy",
+        "distractor_ids": ["K.13", "K.14"]
+      }
+    },
+    {
+      "id": "K.16",
+      "topic": "How market, product, competition, and company factors impact distribution choice",
+      "action_verb": "describe",
+      "definition": "The choice of distribution channel is influenced by four key factor categories: market factors (size, geography, customer behavior), product factors (complexity, perishability, value), competitive factors (competitor channel strategies), and company factors (financial strength, resources, objectives).",
+      "explanation": "Market factors include target market size, geographic dispersion, and buyer behavior; large markets with numerous customers favor longer channels with more intermediaries, while small concentrated markets suit direct distribution. Product factors such as perishability, technical complexity, unit value, and bulk determine whether short or long channels are appropriate, with perishable and high-value goods favoring shorter channels. Competitive factors require companies to analyze rival distribution strategies and choose channels that provide competitive advantage; for instance, intensive distribution is necessary in highly competitive markets where consumers can easily switch to alternatives. Company factors include financial strength (well-funded companies can sell directly while financially constrained ones depend on intermediaries), management expertise, market reputation, and the desire for channel control. These four categories must be evaluated together to determine the optimal distribution strategy.",
+      "key_terms": ["market factors", "product factors", "competitive factors", "company factors", "channel selection", "target market", "distribution strategy"],
+      "sources": [
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-3-factors-influencing-channel-choice",
+          "title": "17.3 Factors Influencing Channel Choice",
+          "site": "OpenStax"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/business-studies/factors-determining-choice-of-channels-of-distribution/",
+          "title": "Factors Determining Choice of Channels of Distribution",
+          "site": "GeeksforGeeks"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.17", "type": "related_to", "description": "Product characteristics are a subset of the factors affecting distribution choice" },
+        { "target_id": "K.8", "type": "related_to", "description": "These factors determine whether to use direct or indirect channels" },
+        { "target_id": "K.13", "type": "related_to", "description": "Market and competition factors may lead to dual distribution strategies" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.17", "K.8"]
+      }
+    },
+    {
+      "id": "K.17",
+      "topic": "How product characteristics impact supply chain management",
+      "action_verb": "explain",
+      "definition": "Product characteristics including perishability, cost, and technicality directly impact supply chain management decisions regarding channel length, storage requirements, transportation methods, and handling procedures.",
+      "explanation": "Perishability requires shorter distribution channels and faster transportation to minimize spoilage, with approximately 15% of perishable products lost during transportation and sales annually. Perishable goods demand strict temperature and humidity control (cold chain management), FIFO inventory methods, and specialized storage facilities, which significantly increase logistics costs and environmental impact. High-cost products tend to use shorter, more controlled distribution channels because manufacturers want to maintain closer relationships with buyers and avoid margin erosion through multiple intermediary markups. Technical or complex products require channels that can provide specialized knowledge, demonstrations, installation, and after-sales support, often favoring direct sales or one-level channels where trained personnel can assist customers. Together, these characteristics fundamentally shape supply chain design, influencing everything from warehousing infrastructure to the number and type of intermediaries used.",
+      "key_terms": ["perishability", "product cost", "technicality", "cold chain", "FIFO", "shelf life", "product complexity", "channel length"],
+      "sources": [
+        {
+          "url": "https://umbrex.com/resources/industry-analyses/how-to-analyze-a-consumer-packaged-goods-company/perishability-and-freshness-management-in-supply-chain/",
+          "title": "Perishability and Freshness Management in Supply Chain",
+          "site": "Umbrex"
+        },
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-3-factors-influencing-channel-choice",
+          "title": "17.3 Factors Influencing Channel Choice",
+          "site": "OpenStax"
+        }
+      ],
+      "relationships": [
+        { "target_id": "K.16", "type": "part_of", "description": "Product characteristics are one of the four factor categories affecting distribution choice" },
+        { "target_id": "K.3", "type": "related_to", "description": "Product characteristics determine requirements for storage, sorting, and transportation" },
+        { "target_id": "K.10", "type": "applies_to", "description": "Technical and high-cost products often favor shorter one-level channels" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["K.16", "K.3"]
+      }
+    }
+  ]
+}

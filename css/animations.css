@@ -1,0 +1,155 @@
+/* ─── Animations ─── */
+
+/* Card slide transitions */
+.card-enter {
+  animation: cardEnter var(--duration-normal) var(--ease-out) forwards;
+}
+
+.card-exit-left {
+  animation: cardExitLeft var(--duration-normal) var(--ease-out) forwards;
+}
+
+.card-exit-right {
+  animation: cardExitRight var(--duration-normal) var(--ease-out) forwards;
+}
+
+@keyframes cardEnter {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes cardExitLeft {
+  to {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+}
+
+@keyframes cardExitRight {
+  to {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+}
+
+/* Answer feedback pulse */
+.pulse-correct {
+  animation: pulseCorrect var(--duration-normal) var(--ease-out);
+}
+
+.pulse-wrong {
+  animation: pulseWrong var(--duration-normal) var(--ease-out);
+}
+
+@keyframes pulseCorrect {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+@keyframes pulseWrong {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+}
+
+/* Bounce for flag/iffy toggle */
+.bounce {
+  animation: bounce 200ms var(--ease-out);
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+
+/* Fade in */
+.fade-in {
+  animation: fadeIn var(--duration-normal) var(--ease-out) forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide up */
+.slide-up {
+  animation: slideUp var(--duration-normal) var(--ease-out) forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Staggered children */
+.stagger > * {
+  opacity: 0;
+  animation: fadeIn var(--duration-normal) var(--ease-out) forwards;
+}
+
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 50ms; }
+.stagger > *:nth-child(3) { animation-delay: 100ms; }
+.stagger > *:nth-child(4) { animation-delay: 150ms; }
+.stagger > *:nth-child(5) { animation-delay: 200ms; }
+.stagger > *:nth-child(6) { animation-delay: 250ms; }
+
+/* Streak flame */
+.streak-enter {
+  animation: streakEnter 300ms var(--ease-out) forwards;
+}
+
+@keyframes streakEnter {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(5px);
+  }
+  60% {
+    transform: scale(1.2) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* View transitions */
+.view-enter {
+  animation: viewEnter var(--duration-slow) var(--ease-out) forwards;
+}
+
+@keyframes viewEnter {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
