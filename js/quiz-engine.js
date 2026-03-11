@@ -12,6 +12,39 @@ function shuffle(arr) {
   return a;
 }
 
+// Common SCM words to never mask (they appear in most topics/definitions)
+const STOP_WORDS = new Set([
+  'supply', 'chain', 'management', 'the', 'a', 'an', 'of', 'in', 'and',
+  'to', 'for', 'is', 'how', 'what', 'define', 'explain', 'describe',
+  'identify', 'analyze', 'determine', 'list', 'understand',
+]);
+
+/**
+ * Mask distinguishing words from the topic that appear in the definition,
+ * so the definition doesn't directly give away the answer.
+ */
+function maskDefinition(definition, topic) {
+  // Extract meaningful words from topic (3+ chars, not stop words)
+  const topicWords = topic
+    .replace(/[^a-zA-Z\s-]/g, '')
+    .split(/\s+/)
+    .filter(w => w.length >= 3 && !STOP_WORDS.has(w.toLowerCase()));
+
+  if (topicWords.length === 0) return definition;
+
+  let masked = definition;
+  for (const word of topicWords) {
+    // Case-insensitive replacement, preserve surrounding text
+    const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+    masked = masked.replace(regex, '______');
+  }
+
+  // Collapse consecutive blanks: "______ ______" → "______"
+  masked = masked.replace(/(______\s*){2,}/g, '______ ');
+
+  return masked;
+}
+
 /**
  * Generate quiz questions from filtered concepts.
  * Each question: show definition → pick correct topic from 4 choices.
@@ -24,7 +57,7 @@ export function generateQuestions(filteredConcepts) {
     const choices = buildChoices(concept, filteredConcepts, concepts);
     return {
       conceptId: concept.id,
-      definition: concept.definition,
+      definition: maskDefinition(concept.definition, concept.topic),
       correctTopic: concept.topic,
       section: concept.section,
       sectionTitle: concept.sectionTitle,

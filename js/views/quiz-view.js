@@ -210,8 +210,8 @@ function renderQuestion() {
     }
 
     const key = el('span', 'answer-key', ANSWER_KEYS[i]);
-    btn.appendChild(key);
-    btn.append(' ' + choice);
+    const text = el('span', null, choice);
+    btn.append(key, text);
 
     if (!answer) {
       btn.addEventListener('click', () => handleAnswer(choice));
