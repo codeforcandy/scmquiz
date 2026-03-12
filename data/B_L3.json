@@ -1,0 +1,295 @@
+{
+  "section_id": "B",
+  "section_title": "Supply Chain Topics",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "B.1",
+      "topic": "Define analytics",
+      "scenario": "A regional grocery chain is struggling with frequent overstocking of perishable items at some locations while other stores face empty shelves. The operations director commissions a project to aggregate point-of-sale records, weather patterns, and local event calendars into dashboards that flag emerging imbalances and recommend corrective actions before spoilage occurs.",
+      "scenario_context": "grocery retail, operations",
+      "explanation": "This scenario demonstrates analytics because the grocery chain is systematically collecting, processing, and statistically analyzing diverse data sources to extract actionable insights. The use of dashboards that describe current imbalances, predict future demand shifts, and recommend corrective actions reflects the descriptive, predictive, and prescriptive dimensions of analytics in supply chain decision-making.",
+      "key_terms": ["data analysis", "big data", "predictive analytics", "prescriptive analytics", "descriptive analytics", "data-driven decision making", "business intelligence"],
+      "sources": [
+        { "url": "https://www.ibm.com/think/topics/supply-chain-analytics", "title": "What Is Supply Chain Analytics?", "site": "IBM" },
+        { "url": "https://www.techtarget.com/searcherp/definition/supply-chain-analytics", "title": "What is supply chain analytics and why is it important?", "site": "TechTarget" },
+        { "url": "https://www.gep.com/blog/technology/why-you-must-invest-in-supply-chain-analytics", "title": "What is Supply Chain Analytics: Definition, Types & Benefits", "site": "GEP" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "prerequisite_for", "description": "Analytics provides the data foundation that enables accurate forecasting" },
+        { "target_id": "B.9", "type": "related_to", "description": "Supply market intelligence relies on analytics to gather and interpret market data" },
+        { "target_id": "B.6", "type": "applies_to", "description": "Analytics is applied to optimize inventory management decisions" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["B.3", "B.9", "B.6"],
+        "relationship_distractors": ["B.3", "B.9"]
+      }
+    },
+    {
+      "id": "B.2",
+      "topic": "Explain customer relationship management",
+      "scenario": "A mid-sized electronics manufacturer notices that its highest-volume distributors are defecting to competitors. The VP of Sales deploys a new information system that tracks every distributor's purchase history, service tickets, and contract renewal dates, then uses segmentation algorithms to tailor pricing tiers and proactive outreach campaigns for each account.",
+      "scenario_context": "electronics manufacturing, sales",
+      "explanation": "This scenario illustrates customer relationship management because the manufacturer is using a dedicated information system to store, analyze, and act on distributor interaction data. Segmenting accounts and tailoring engagement strategies based on buying patterns and service history are core CRM activities aimed at improving satisfaction and loyalty.",
+      "key_terms": ["CRM", "customer satisfaction", "customer segmentation", "customer data", "sales management", "customer loyalty", "demand alignment"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Customer_relationship_management", "title": "Customer relationship management", "site": "Wikipedia" },
+        { "url": "https://www.logisticsbureau.com/crm-and-the-supply-chain/", "title": "CRM in Logistics and Supply Chain Management", "site": "Logistics Bureau" },
+        { "url": "https://www.walkme.com/blog/customer-relationship-management-and-supply-chain-management/", "title": "Customer Relationship Management and Supply Chain Management", "site": "WalkMe" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "related_to", "description": "CRM data on customer buying patterns feeds into demand forecasting" },
+        { "target_id": "B.8", "type": "related_to", "description": "CRM demand signals inform sales and operations planning" },
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics capabilities enhance CRM insights and customer segmentation" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["B.8", "B.9", "B.1"],
+        "relationship_distractors": ["B.3", "B.8"]
+      }
+    },
+    {
+      "id": "B.3",
+      "topic": "Describe the role of forecasting",
+      "scenario": "A sporting goods company is preparing for the upcoming winter season. The demand planner gathers three years of weekly sales records, conducts interviews with regional sales managers about emerging trends in snow sports, and runs time series models to project how many units of each ski boot size to produce over the next six months.",
+      "scenario_context": "sporting goods, demand planning",
+      "explanation": "This scenario demonstrates forecasting because the demand planner combines historical sales data (quantitative methods) with expert opinions from sales managers (qualitative methods) to estimate future customer demand over a defined period. The output directly drives production volume decisions, which is the core purpose of demand forecasting in supply chain management.",
+      "key_terms": ["demand forecasting", "time series analysis", "qualitative forecasting", "quantitative forecasting", "demand planning", "historical data", "statistical models"],
+      "sources": [
+        { "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting", "title": "How to do Demand Forecasting in the Supply Chain?", "site": "CIPS" },
+        { "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/", "title": "A Guide to Demand Forecasting in Supply Chain Management", "site": "University of Tennessee GSCI" },
+        { "url": "https://www.ibm.com/think/topics/demand-forecasting", "title": "What is Demand Forecasting?", "site": "IBM" }
+      ],
+      "relationships": [
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics tools and techniques power forecasting models" },
+        { "target_id": "B.6", "type": "prerequisite_for", "description": "Forecasting determines optimal inventory levels and replenishment schedules" },
+        { "target_id": "B.8", "type": "part_of", "description": "Forecasting is a key input to the demand planning phase of S&OP" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["B.1", "B.8", "B.6"],
+        "relationship_distractors": ["B.1", "B.6"]
+      }
+    },
+    {
+      "id": "B.4",
+      "topic": "Explain the growth of global distribution",
+      "scenario": "A furniture manufacturer based in North Carolina has historically sold only within the United States. After trade agreements reduced tariffs with several Southeast Asian countries, the company begins sourcing bamboo from Vietnam, assembling frames in the Philippines, and shipping finished products to retail partners in Europe and Australia, managing customs paperwork and currency exchange risks along the way.",
+      "scenario_context": "furniture manufacturing, international trade",
+      "explanation": "This scenario demonstrates global distribution because the manufacturer is expanding its supply and delivery network across national borders, leveraging trade liberalization to access new supplier pools and customer markets. The complexities mentioned, including customs regulations and currency fluctuations, are hallmark challenges of distributing goods through transnational networks.",
+      "key_terms": ["global supply chain", "international logistics", "trade liberalization", "cross-border distribution", "nearshoring", "multi-sourcing", "global sourcing"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Global_supply_chain_management", "title": "Global supply chain management", "site": "Wikipedia" },
+        { "url": "https://wtcs.pressbooks.pub/globalbusiness/chapter/global-supply-chain-management/", "title": "Global Supply-Chain Management", "site": "Global Business Pressbooks" },
+        { "url": "https://www.prologis.com/global-supply-chain-management", "title": "Global Supply Chain Management", "site": "Prologis" }
+      ],
+      "relationships": [
+        { "target_id": "B.11", "type": "related_to", "description": "Global distribution depends heavily on transportation planning across international routes" },
+        { "target_id": "B.6", "type": "related_to", "description": "Global distribution requires sophisticated inventory management across multiple locations" },
+        { "target_id": "B.10", "type": "related_to", "description": "Global distribution has significant sustainability implications including carbon emissions" }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["B.11", "B.7", "B.10"],
+        "relationship_distractors": ["B.11", "B.6"]
+      }
+    },
+    {
+      "id": "B.5",
+      "topic": "Explain supply chain management for healthcare industry",
+      "scenario": "A 400-bed regional hospital is experiencing a 20% cost increase in supplies over two years. Its purchasing department discovers that vaccine shipments sometimes arrive outside required temperature ranges, surgical glove orders are placed reactively only after stockouts, and three critical drug suppliers are all located in the same overseas region, leaving the hospital vulnerable to disruption.",
+      "scenario_context": "hospital operations, medical procurement",
+      "explanation": "This scenario demonstrates healthcare supply chain management because it highlights the unique challenges of coordinating medical supplies: cold-chain integrity for vaccines, the critical nature of product availability for patient care, rising costs, and supplier concentration risk. Addressing these issues requires the specialized sourcing, procurement, and distribution strategies unique to healthcare settings.",
+      "key_terms": ["healthcare logistics", "medical supply chain", "pharmaceutical distribution", "cold chain", "regulatory compliance", "product availability", "supplier diversification"],
+      "sources": [
+        { "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml", "title": "Healthcare Supply Chain Management: Importance & Practices", "site": "NetSuite" },
+        { "url": "https://www.ghx.com/the-healthcare-hub/supply-chain-issues/", "title": "Supply Chain Issues in Healthcare and How to Manage Shortages", "site": "GHX" },
+        { "url": "https://www.tandfonline.com/doi/full/10.1080/16258312.2018.1433353", "title": "Healthcare logistics and supply chain - issues and future challenges", "site": "Taylor & Francis" }
+      ],
+      "relationships": [
+        { "target_id": "B.6", "type": "includes", "description": "Healthcare SCM requires specialized inventory management for medical supplies and pharmaceuticals" },
+        { "target_id": "B.7", "type": "includes", "description": "Procurement of medical devices and pharmaceuticals is a core healthcare SCM function" },
+        { "target_id": "B.3", "type": "related_to", "description": "Demand forecasting in healthcare must account for unpredictable patient needs and emergencies" }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["B.6", "B.10", "B.7"],
+        "relationship_distractors": ["B.6", "B.7"]
+      }
+    },
+    {
+      "id": "B.6",
+      "topic": "Explain the logistics of inventory management",
+      "scenario": "A consumer electronics retailer finds that its newest tablet model sells out within days at flagship stores while regional warehouses sit on months of unsold units. The logistics manager implements a system that calculates minimum stock thresholds for each location, triggers automatic replenishment orders when quantities drop below those thresholds, and schedules quarterly physical counts to reconcile system records with actual shelf quantities.",
+      "scenario_context": "consumer electronics retail, warehouse operations",
+      "explanation": "This scenario demonstrates inventory management because the retailer is implementing core inventory control techniques: setting reorder points (minimum stock thresholds), automating replenishment, and conducting cycle counts to maintain accuracy. These activities directly address the fundamental challenge of balancing holding costs against stockout risk across multiple locations.",
+      "key_terms": ["safety stock", "reorder point", "economic order quantity", "warehouse management", "carrying costs", "stockout", "cycle counting", "RFID"],
+      "sources": [
+        { "url": "https://www.ascm.org/scm/inventory-management/", "title": "What Is Inventory Management?", "site": "ASCM" },
+        { "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html", "title": "Inventory Management - Definition, Importance, Parameters, Process & Example", "site": "MBA Skool" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "related_to", "description": "Forecasting drives inventory replenishment decisions and safety stock calculations" },
+        { "target_id": "B.7", "type": "related_to", "description": "Procurement activities trigger inventory inflows based on inventory management policies" },
+        { "target_id": "B.8", "type": "part_of", "description": "Inventory planning is a component of the supply planning phase in S&OP" },
+        { "target_id": "A.1", "type": "part_of", "description": "Inventory management is a core function within overall supply chain management" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["B.7", "B.3", "B.8"],
+        "relationship_distractors": ["B.3", "B.7"]
+      }
+    },
+    {
+      "id": "B.7",
+      "topic": "Define procurement",
+      "scenario": "An aerospace company needs titanium alloy fasteners for a new aircraft program. The supply chain team issues a formal solicitation to five qualified vendors, evaluates each bid on price, quality certifications, and delivery reliability, negotiates volume discounts and warranty terms with the top two candidates, and ultimately awards a three-year supply agreement to the vendor offering the lowest total lifecycle cost.",
+      "scenario_context": "aerospace manufacturing, supplier management",
+      "explanation": "This scenario demonstrates procurement because the aerospace company is executing the full buy-side process: identifying and evaluating potential suppliers through a formal solicitation, negotiating contract terms, and selecting a vendor based on total cost of ownership rather than just unit price. These are the defining activities of procurement within supply chain management.",
+      "key_terms": ["sourcing", "purchasing", "supplier evaluation", "contract negotiation", "total cost of ownership", "supplier relationship management", "request for proposal"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx", "title": "Supply Management Procurement", "site": "CSCMP" },
+        { "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/", "title": "Procurement vs Supply Chain Management: What's the Difference?", "site": "Procurify" },
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx", "title": "SCM Definitions and Glossary of Terms", "site": "CSCMP" }
+      ],
+      "relationships": [
+        { "target_id": "B.9", "type": "related_to", "description": "Supply market intelligence informs procurement decisions with market data and supplier analysis" },
+        { "target_id": "B.6", "type": "related_to", "description": "Procurement triggers inventory replenishment and manages supplier lead times" },
+        { "target_id": "B.10", "type": "related_to", "description": "Sustainable procurement practices support supply chain sustainability goals" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["B.9", "B.6", "B.11"],
+        "relationship_distractors": ["B.9", "B.6"]
+      }
+    },
+    {
+      "id": "B.8",
+      "topic": "Describe sales and operations planning",
+      "scenario": "Every month, the leadership team of a mid-sized beverage company holds a structured meeting cycle. First, the marketing group shares volume projections by product family for the next 12 months. Then, the plant managers assess whether current production lines and raw material supplies can meet those volumes. Finally, the CFO and CEO review the combined plan to ensure it aligns with profit targets and authorize capacity investments where gaps exist.",
+      "scenario_context": "beverage manufacturing, executive planning",
+      "explanation": "This scenario demonstrates sales and operations planning because it depicts the characteristic monthly cross-functional process: demand planning (marketing volume projections), supply planning (production capacity assessment), and executive reconciliation (financial alignment and authorization). Operating at the product family level over a medium-term horizon is a defining feature of S&OP.",
+      "key_terms": ["S&OP", "demand planning", "supply planning", "production plan", "capacity planning", "cross-functional planning", "planning horizon"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning", "title": "Sales and operations planning", "site": "Wikipedia" },
+        { "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/", "title": "What Is Sales and Operations Planning (S&OP)?", "site": "Oracle" },
+        { "url": "https://www.ascm.org/topics/sales-and-operations-planning/", "title": "Sales and Operations Planning (S&OP)", "site": "ASCM" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "includes", "description": "Demand forecasting is a critical input to the S&OP demand planning step" },
+        { "target_id": "B.6", "type": "includes", "description": "Inventory planning is part of the supply planning phase of S&OP" },
+        { "target_id": "B.2", "type": "related_to", "description": "CRM demand signals and customer insights feed into S&OP demand planning" }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["B.3", "B.6", "B.1"],
+        "relationship_distractors": ["B.3", "B.6"]
+      }
+    },
+    {
+      "id": "B.9",
+      "topic": "Define supply market intelligence",
+      "scenario": "A cosmetics company is planning to launch a new line of organic skincare products. Before selecting ingredient suppliers, the category manager compiles reports on global shea butter pricing trends, maps the major producing regions in West Africa, monitors geopolitical risks in those areas, and benchmarks three competing suppliers on capacity, financial stability, and delivery track records.",
+      "scenario_context": "cosmetics industry, category management",
+      "explanation": "This scenario demonstrates supply market intelligence because the category manager is systematically gathering and analyzing data about the supplier landscape, pricing trends, regional risks, and competitive dynamics before making sourcing decisions. This proactive research into market conditions and supplier capabilities is the defining activity of supply market intelligence.",
+      "key_terms": ["market analysis", "supplier intelligence", "competitive pricing", "strategic sourcing", "supply risk", "market trends", "supplier landscape"],
+      "sources": [
+        { "url": "https://una.com/resources/article/supply-market-intelligence/", "title": "Why Your Procurement Team Needs Supply Market Intelligence", "site": "Una" },
+        { "url": "https://en.tacto.ai/buyer-lexicon/supply-market-intelligence", "title": "Supply market intelligence: definition, methods and benefits in Procurement", "site": "Tacto" },
+        { "url": "https://www.arenasolutions.com/resources/glossary/supply-chain-intelligence/", "title": "Supply Chain Intelligence Definition", "site": "Arena Solutions" }
+      ],
+      "relationships": [
+        { "target_id": "B.7", "type": "prerequisite_for", "description": "Supply market intelligence informs procurement strategies and supplier selection" },
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics capabilities enable the data processing behind supply market intelligence" },
+        { "target_id": "B.3", "type": "related_to", "description": "Market intelligence data supports supply-side forecasting and trend analysis" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["B.7", "B.1", "B.3"],
+        "relationship_distractors": ["B.7", "B.1"]
+      }
+    },
+    {
+      "id": "B.10",
+      "topic": "Define sustainability for supply chain management",
+      "scenario": "A European apparel brand discovers that its textile dyeing factories in South Asia discharge untreated wastewater into local rivers and that workers in its packaging facilities earn below living wages. The chief operating officer launches a program requiring all tier-one suppliers to meet wastewater treatment standards, mandating fair-wage audits, and redesigning packaging to use only recyclable materials to cut landfill waste by 40%.",
+      "scenario_context": "apparel industry, corporate responsibility",
+      "explanation": "This scenario demonstrates supply chain sustainability because the brand is integrating environmental concerns (wastewater treatment, recyclable packaging), social concerns (fair wages, labor audits), and economic considerations across its sourcing and production activities. Addressing the environmental impact of manufacturing and the social welfare of workers throughout the supply chain are hallmarks of sustainable supply chain management.",
+      "key_terms": ["sustainable supply chain", "green logistics", "environmental responsibility", "social responsibility", "circular economy", "carbon footprint", "4R1D", "ESG"],
+      "sources": [
+        { "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/", "title": "What is Sustainable Supply Chain Management? (SSCM)", "site": "ASCM" },
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Research/State_of_Supply_Chain_Sustainability.aspx", "title": "State of Supply Chain Sustainability", "site": "CSCMP" },
+        { "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml", "title": "What Is Supply Chain Sustainability and Why Is It Important?", "site": "NetSuite" }
+      ],
+      "relationships": [
+        { "target_id": "B.7", "type": "applies_to", "description": "Sustainable procurement practices evaluate suppliers on environmental and social criteria" },
+        { "target_id": "B.11", "type": "related_to", "description": "Transportation planning must consider emissions reduction and green logistics" },
+        { "target_id": "B.4", "type": "related_to", "description": "Global distribution networks face increasing pressure to reduce their environmental footprint" }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_ids": ["B.4", "B.7", "B.11"],
+        "relationship_distractors": ["B.7", "B.11"]
+      }
+    },
+    {
+      "id": "B.11",
+      "topic": "Explain the relationship between supply chain management and transportation planning",
+      "scenario": "A building materials distributor serving the U.S. Midwest realizes that shipping full truckloads of drywall to small-town hardware stores is cost-prohibitive, while sending partial loads wastes capacity. The logistics director implements software that groups orders from nearby stores into consolidated shipments, selects the cheapest combination of rail and truck for each route, and provides real-time GPS tracking so store managers know exactly when deliveries will arrive.",
+      "scenario_context": "building materials distribution, logistics",
+      "explanation": "This scenario demonstrates transportation planning because the distributor is optimizing the physical movement of goods through shipment consolidation, mode selection (rail versus truck), route optimization, and real-time shipment tracking. These are the core activities of transportation planning, and the scenario shows how transportation decisions directly shape the cost and service performance of the broader supply chain.",
+      "key_terms": ["transportation management", "freight", "carrier selection", "route optimization", "mode selection", "TMS", "shipment consolidation", "logistics"],
+      "sources": [
+        { "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/", "title": "Managing Transportation and Logistics in Supply Chains", "site": "University of Tennessee GSCI" },
+        { "url": "https://www.prologis.com/insights-news/blog/role-transportation-supply-chain-management", "title": "The Role of Transportation in Supply Chain Management", "site": "Prologis" },
+        { "url": "https://scmedu.org/transportationplanning/", "title": "What is Transportation Planning in logistics?", "site": "SCM EDU" }
+      ],
+      "relationships": [
+        { "target_id": "B.4", "type": "related_to", "description": "Global distribution relies on international transportation planning across multiple modes" },
+        { "target_id": "B.10", "type": "related_to", "description": "Transportation planning must address sustainability through emissions reduction and green logistics" },
+        { "target_id": "B.6", "type": "related_to", "description": "Transportation planning coordinates with inventory management for timely replenishment" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["B.4", "B.6", "B.8"],
+        "relationship_distractors": ["B.4", "B.10"]
+      }
+    },
+    {
+      "id": "B.12",
+      "topic": "Describe careers associated with supply chain management",
+      "scenario": "A recent university graduate with a degree in business is exploring job options. She sees openings for roles ranging from an entry-level position analyzing vendor performance data at a tech firm, to a warehouse supervisor coordinating shipments at a third-party logistics provider, to a junior buyer negotiating contracts at a food manufacturer. A mentor advises her that earning an industry certification could accelerate her advancement into director-level positions within a decade.",
+      "scenario_context": "career planning, professional development",
+      "explanation": "This scenario demonstrates supply chain management careers because it illustrates the breadth of professional roles available across different organizations: analyst, warehouse supervisor, and buyer positions span procurement, logistics, and operations. The mention of certification as a career accelerator reflects the role of credentials like CSCP and CPIM in advancing supply chain professionals.",
+      "key_terms": ["supply chain analyst", "logistics coordinator", "operations manager", "procurement specialist", "demand planner", "CSCP certification", "CPIM certification", "career development"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Careers_in_Supply_Chain_Management.aspx", "title": "Careers in Supply Chain Management", "site": "CSCMP" },
+        { "url": "https://www.ascm.org/membership-community/career-resources/supply-chain-management-careers/", "title": "Supply Chain Management Careers", "site": "ASCM" },
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Starting_Your_SCM_Career.aspx", "title": "Starting Your SCM Career", "site": "CSCMP" }
+      ],
+      "relationships": [
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics skills are increasingly important for supply chain career advancement" },
+        { "target_id": "B.7", "type": "related_to", "description": "Procurement is one of the major career specialization paths in SCM" },
+        { "target_id": "B.11", "type": "related_to", "description": "Transportation and logistics management represents a major SCM career track" }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["B.1", "B.7", "B.11"],
+        "relationship_distractors": ["B.1", "B.7"]
+      }
+    }
+  ]
+}

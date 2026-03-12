@@ -139,7 +139,11 @@ function renderQuestion() {
   const area = document.getElementById('question-area');
   area.textContent = '';
 
-  const card = el('div', 'card card--bordered definition-card card-enter');
+  const isScenario = q.questionType === 'scenario';
+  const cardClass = isScenario
+    ? 'card card--bordered scenario-card card-enter'
+    : 'card card--bordered definition-card card-enter';
+  const card = el('div', cardClass);
   card.style.setProperty('--card-section-color', color);
 
   // Badges
@@ -149,15 +153,22 @@ function renderQuestion() {
   if (q.level === 'L2') {
     const lvBadge = el('span', 'badge badge--level-L2', 'L2');
     badges.appendChild(lvBadge);
+  } else if (q.level === 'L3') {
+    const lvBadge = el('span', 'badge badge--level-L3', 'L3');
+    badges.appendChild(lvBadge);
   }
   const bloomBadge = el('span', 'badge badge--bloom', q.bloomLevel);
   const diffBadge = el('span', 'badge badge--difficulty-' + q.difficulty, q.difficulty);
   badges.append(secBadge, bloomBadge, diffBadge);
   card.appendChild(badges);
 
-  // Definition text
-  const defText = el('p', 'definition-card__text', q.definition);
-  card.appendChild(defText);
+  // Content: scenario prompt or definition text
+  if (isScenario) {
+    card.appendChild(el('p', 'scenario-card__prompt', 'What concept is being demonstrated?'));
+    card.appendChild(el('p', 'scenario-card__text', q.scenario));
+  } else {
+    card.appendChild(el('p', 'definition-card__text', q.definition));
+  }
 
   // Explanation (collapsed by default)
   const explanation = el('div', 'explanation');

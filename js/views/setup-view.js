@@ -67,7 +67,7 @@ export function renderSetupView() {
   const sub = document.createElement('p');
   sub.className = 'setup-header__subtitle';
   const totalConcepts = [...concepts.values()].length;
-  sub.textContent = `${totalConcepts} concepts across 11 sections (L1 + L2)`;
+  sub.textContent = `${totalConcepts} concepts across 11 sections (L1 + L2 + L3)`;
   header.append(h1, sub);
   container.appendChild(header);
 
@@ -88,6 +88,7 @@ export function renderSetupView() {
   const levels = [
     { key: 'L1', label: 'L1 Textbook', color: 'var(--accent)', bg: 'var(--accent-light)' },
     { key: 'L2', label: 'L2 Analogies', color: '#0d9488', bg: 'rgba(13,148,136,0.08)' },
+    { key: 'L3', label: 'L3 Scenarios', color: '#7c3aed', bg: 'rgba(124,58,237,0.08)' },
   ];
   for (const lv of levels) {
     const chip = document.createElement('button');

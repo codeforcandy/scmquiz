@@ -87,6 +87,14 @@
   transition: all var(--duration-fast) var(--ease-out);
   position: relative;
   line-height: var(--leading-tight);
+  white-space: normal;
+  height: auto;
+  min-height: 0;
+}
+
+.btn--answer > span:last-child {
+  min-width: 0;
+  word-break: break-word;
 }
 
 .btn--answer:hover:not(:disabled):not(.btn--correct):not(.btn--wrong) {
@@ -230,6 +238,38 @@
 .badge--level-L1 {
   background: var(--bg-hover);
   color: var(--text-secondary);
+}
+
+.badge--level-L3 {
+  background: #7c3aed;
+  color: #fff;
+}
+
+/* ─── Scenario Card (L3) ─── */
+
+.scenario-card {
+  border-left-width: 3px;
+  border-left-style: dashed;
+}
+
+.scenario-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #7c3aed;
+  margin-bottom: var(--space-2);
+}
+
+.scenario-card__text {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .scenario-card__prompt {
+  color: #a78bfa;
 }
 
 /* ─── Progress Bar ─── */

@@ -1,0 +1,286 @@
+{
+  "section_id": "I",
+  "section_title": "Supply Chain Coordination and Decision Making for the Flow of Products, Services, and Information",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "I.1",
+      "topic": "Explain the importance of cooperation and coordination in a supply chain.",
+      "scenario": "A mid-sized grocery chain notices that its potato chip supplier keeps shipping 40% more product than stores actually sell, while simultaneously running out of salsa every weekend. The VP of Operations discovers that neither the supplier nor the regional distribution centers have access to point-of-sale data, and each node in the network is placing orders based solely on its own inventory levels. She proposes linking their ERP systems so that all parties can see real-time store-level demand.",
+      "scenario_context": "grocery retail, demand visibility",
+      "explanation": "This scenario demonstrates supply chain cooperation and coordination because the root cause of the simultaneous overstock and stockout is a lack of shared information between partners. Each node optimizing independently without visibility into actual consumer demand creates distortions that ripple upstream. The VP's proposal to share real-time data across partners is the foundational mechanism for aligning activities and eliminating waste across the chain.",
+      "key_terms": [
+        "supply chain coordination",
+        "collaboration",
+        "information sharing",
+        "bullwhip effect",
+        "channel partners",
+        "joint decision-making"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "I.2",
+          "type": "related_to",
+          "description": "Outsourcing decisions require strong coordination between the firm and its external partners."
+        },
+        {
+          "target_id": "I.4",
+          "type": "related_to",
+          "description": "Cross-functional teams are a primary mechanism for achieving internal coordination in supply chains."
+        },
+        {
+          "target_id": "I.3",
+          "type": "related_to",
+          "description": "Performance measurement provides the metrics needed to evaluate the effectiveness of coordination efforts."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["I.3", "I.4", "I.5"],
+        "relationship_distractors": ["I.2", "I.4"]
+      }
+    },
+    {
+      "id": "I.2",
+      "topic": "Describe the role of outsourcing in a supply chain.",
+      "scenario": "A craft beer brewery in Portland has grown from 5,000 barrels per year to 80,000, and its small in-house fleet of refrigerated trucks can no longer handle deliveries across six Western states. The CEO is evaluating whether to invest $4 million in new trucks and hire 25 drivers, or sign a three-year contract with a specialized cold-chain logistics firm that already operates routes in those states. She wants to keep her capital focused on recipe development and brand marketing.",
+      "scenario_context": "craft beverage, logistics strategy",
+      "explanation": "This scenario illustrates the role of outsourcing because the brewery faces a classic decision about whether to build internal capability or contract with an external specialist. By considering a logistics firm that already has the routes, equipment, and expertise, the brewery can convert a large fixed investment into a variable operating expense while focusing resources on what differentiates it competitively. The tension between control and efficiency, and the dependence on an external partner, are hallmarks of the outsourcing decision.",
+      "key_terms": [
+        "outsourcing",
+        "core competencies",
+        "third-party logistics (3PL)",
+        "make-or-buy decision",
+        "contract manufacturing",
+        "supplier relationship management"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "I.1",
+          "type": "related_to",
+          "description": "Effective outsourcing depends on strong cooperation and coordination between the firm and its service providers."
+        },
+        {
+          "target_id": "I.5",
+          "type": "related_to",
+          "description": "Outsourcing decisions directly affect the structure and composition of distribution channels."
+        },
+        {
+          "target_id": "I.3",
+          "type": "related_to",
+          "description": "Performance measurement is essential for evaluating outsourced partner effectiveness."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["I.1", "I.3", "I.4"],
+        "relationship_distractors": ["I.1", "I.5"]
+      }
+    },
+    {
+      "id": "I.3",
+      "topic": "Describe measurement of supply chain performance.",
+      "scenario": "A pharmaceutical distributor serving 2,000 hospital pharmacies has been receiving complaints about late shipments and incomplete orders. The Chief Supply Chain Officer asks her team to build a dashboard that tracks the percentage of orders delivered complete and on time, the average number of days between placing a purchase order and receiving payment, and the number of times warehouse stock turns over per quarter. She wants to compare these figures against industry benchmarks to identify where the operation is falling behind.",
+      "scenario_context": "pharmaceutical distribution, operational diagnostics",
+      "explanation": "This scenario demonstrates supply chain performance measurement because the CSCO is establishing quantifiable indicators across multiple dimensions -- reliability (complete and on-time orders), financial efficiency (order-to-cash cycle), and asset utilization (stock turns). Building a dashboard for benchmarking against industry standards reflects the systematic, metric-driven approach to diagnosing operational health and targeting improvement efforts.",
+      "key_terms": [
+        "key performance indicators (KPIs)",
+        "SCOR model",
+        "perfect order fulfillment",
+        "cash-to-cash cycle time",
+        "inventory turnover",
+        "reliability",
+        "responsiveness",
+        "agility"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "I.1",
+          "type": "related_to",
+          "description": "Performance metrics help evaluate whether coordination efforts across the supply chain are producing desired outcomes."
+        },
+        {
+          "target_id": "I.2",
+          "type": "related_to",
+          "description": "Measurement of outsourced partner performance is critical for managing third-party relationships."
+        },
+        {
+          "target_id": "I.4",
+          "type": "related_to",
+          "description": "Teams use performance data to make informed decisions and prioritize improvement initiatives."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["I.1", "I.2", "I.5"],
+        "relationship_distractors": ["I.1", "I.2"]
+      }
+    },
+    {
+      "id": "I.4",
+      "topic": "Explain the role of the team in supply chain management.",
+      "scenario": "An electric vehicle startup is preparing to launch its first model in 14 months. The VP of Operations assembles a task force with representatives from battery procurement, factory engineering, logistics, marketing, and finance. Each member had previously been optimizing their own function in isolation -- procurement was selecting the cheapest cells while engineering needed cells with specific thermal properties, and marketing had committed to a launch date that logistics said was impossible given current warehouse capacity. The task force meets weekly to align priorities and resolve conflicts.",
+      "scenario_context": "electric vehicle manufacturing, product launch",
+      "explanation": "This scenario illustrates the role of teams in supply chain management because the startup's problems stem from functional departments working in isolation, each optimizing for their own objectives at the expense of the overall launch. By assembling a group with representatives from every relevant function, the VP creates a mechanism to break down departmental barriers, surface conflicting requirements early, and align all stakeholders around a unified plan.",
+      "key_terms": [
+        "cross-functional teams",
+        "collaboration",
+        "departmental silos",
+        "demand planning",
+        "continuous improvement",
+        "stakeholder alignment"
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "I.1",
+          "type": "related_to",
+          "description": "Teams are the organizational mechanism through which cooperation and coordination are achieved within the supply chain."
+        },
+        {
+          "target_id": "I.3",
+          "type": "related_to",
+          "description": "Teams rely on performance metrics to guide decision-making and measure the impact of improvement efforts."
+        },
+        {
+          "target_id": "I.5",
+          "type": "related_to",
+          "description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["I.1", "I.2", "I.5"],
+        "relationship_distractors": ["I.1", "I.3"]
+      }
+    },
+    {
+      "id": "I.5",
+      "topic": "Describe the channels of distribution for supply chain management.",
+      "scenario": "A premium organic skincare company currently sells exclusively through its own website and two flagship boutiques. While margins are strong, growth has plateaued at $12 million in annual revenue because the brand only reaches customers who already know it. The founder is considering partnering with a national beauty chain and an online marketplace to expand reach, but she worries about losing control over how her products are displayed, priced, and presented to consumers.",
+      "scenario_context": "beauty and personal care, growth strategy",
+      "explanation": "This scenario demonstrates distribution channel strategy because the founder must weigh the tradeoffs between her current approach of selling only through company-owned touchpoints versus adding external partners to extend market coverage. The tension between maintaining brand control and margin on one hand, and achieving broader geographic and demographic reach on the other, is the central challenge of designing the pathway through which products move from producer to end consumer.",
+      "key_terms": [
+        "direct distribution",
+        "indirect distribution",
+        "wholesaler",
+        "retailer",
+        "intermediary",
+        "channel design",
+        "hybrid channels",
+        "reverse logistics"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "I.2",
+          "type": "related_to",
+          "description": "Outsourcing decisions shape which intermediaries and partners participate in the distribution channel."
+        },
+        {
+          "target_id": "I.1",
+          "type": "related_to",
+          "description": "Coordination across distribution channel members is essential for efficient product flow to consumers."
+        },
+        {
+          "target_id": "I.3",
+          "type": "related_to",
+          "description": "Distribution channel performance is measured through metrics such as on-time delivery, fill rate, and cost-to-serve."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["I.1", "I.2", "I.4"],
+        "relationship_distractors": ["I.2", "I.1"]
+      }
+    }
+  ]
+}

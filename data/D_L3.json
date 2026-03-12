@@ -1,0 +1,354 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "D.1",
+      "topic": "Explain the relationship between purchasing and supply chain management.",
+      "scenario": "A mid-sized electronics manufacturer in Shenzhen has a talented buying team that consistently negotiates 15% below-market prices on circuit boards and capacitors. However, the company still struggles with late deliveries, production bottlenecks, and rising customer complaints because each department operates independently. The VP of Operations is tasked with figuring out why great deals on components are not translating into business performance.",
+      "scenario_context": "electronics manufacturing, operations strategy",
+      "explanation": "This scenario demonstrates the relationship between purchasing and supply chain management because the buying team excels at its core function (negotiating favorable terms) but operates in isolation from production, logistics, and distribution. The company's struggles illustrate that purchasing is a critical subset of the broader supply chain, and without coordinating buying decisions with downstream operations, even excellent procurement cannot deliver overall business results.",
+      "key_terms": [
+        "procurement",
+        "sourcing",
+        "supplier relationship management",
+        "purchasing function",
+        "supply chain coordination"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.2",
+          "type": "related_to",
+          "description": "Purchasing decisions directly affect the value a company provides through its supply chain."
+        },
+        {
+          "target_id": "D.4",
+          "type": "related_to",
+          "description": "Purchasing must be integrated with other supply chain functions for effective SCM."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["D.3", "D.5", "D.7"],
+        "relationship_distractors": ["D.2", "D.4"]
+      }
+    },
+    {
+      "id": "D.2",
+      "topic": "Explain how a company will provide value to supply chain management.",
+      "scenario": "A regional grocery chain in the U.S. Midwest notices that a competitor is winning market share despite charging similar prices. An internal audit reveals that the competitor consistently stocks fresh produce within hours of harvest, offers flexible delivery windows, and maintains near-zero stockouts on high-demand items. The grocery chain's CEO asks the logistics director to identify what the competitor is doing differently to win customer loyalty.",
+      "scenario_context": "grocery retail, competitive strategy",
+      "explanation": "This scenario illustrates how a company provides value through its supply chain by excelling at time utility (fresh produce delivered quickly), place utility (flexible delivery options), and quantity utility (near-zero stockouts). The competitor is not winning on price alone but on the forms of utility that its operations deliver to customers, demonstrating that the supply chain itself can be a source of competitive differentiation.",
+      "key_terms": [
+        "value proposition",
+        "customer utility",
+        "competitive advantage",
+        "fulfillment goals",
+        "supply chain value"
+      ],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.1",
+          "type": "related_to",
+          "description": "Purchasing decisions are a key driver of the value a company delivers through its supply chain."
+        },
+        {
+          "target_id": "D.5",
+          "type": "related_to",
+          "description": "Balancing supply and demand is fundamental to delivering value in the supply chain."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["D.3", "D.4", "D.6"],
+        "relationship_distractors": ["D.1", "D.5"]
+      }
+    },
+    {
+      "id": "D.3",
+      "topic": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company.",
+      "scenario": "A craft brewery in Portland, Oregon is scaling from regional to national distribution. The head of operations must decide whether to contract with local grain farmers or large agricultural cooperatives, hire an external firm to handle cold-chain trucking, and choose between shipping directly to retail accounts or routing through beverage wholesalers. Each option presents tradeoffs in cost, control, and speed to market.",
+      "scenario_context": "craft beverage industry, scaling operations",
+      "explanation": "This scenario demonstrates how companies evaluate and select their network of partners across multiple tiers and functions. The brewery must assess first-tier material providers on quality and reliability, decide which specialized capabilities to keep in-house versus contract out, select freight carriers based on mode and service requirements, and design channels that balance coverage with cost. These interdependent choices collectively shape the company's ability to deliver its product nationally.",
+      "key_terms": [
+        "supplier tiering",
+        "carrier sourcing",
+        "third-party logistics (3PL)",
+        "distribution channels",
+        "outsourcing",
+        "subcontracting"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.6",
+          "type": "related_to",
+          "description": "The selection of suppliers and transportation providers is closely tied to facility network design decisions."
+        },
+        {
+          "target_id": "D.4",
+          "type": "related_to",
+          "description": "Integration across suppliers, subcontractors, and logistics providers is key to supply chain integration."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["D.1", "D.5", "D.7"],
+        "relationship_distractors": ["D.6", "D.4"]
+      }
+    },
+    {
+      "id": "D.4",
+      "topic": "Define supply chain integration.",
+      "scenario": "A furniture retailer in Scandinavia discovers that its fabric supplier, foam manufacturer, assembly plant, and regional warehouses each use separate inventory tracking systems with no shared data. When a popular sofa model suddenly trends on social media, the retailer cannot determine how much raw material is in the pipeline, leading to six-week delays and a surge of customer cancellations. The COO is charged with eliminating these information silos.",
+      "scenario_context": "furniture retail, information systems",
+      "explanation": "This scenario illustrates the need for connecting processes, information flows, and activities across all organizations in the chain. The retailer's problems stem from fragmented systems where each partner optimizes independently without shared visibility. The inability to see upstream material status during a demand spike is a classic symptom of disconnected operations, and resolving it requires aligning systems and processes across trading partners so they function as a unified whole.",
+      "key_terms": [
+        "process synchronization",
+        "information flow",
+        "cross-functional coordination",
+        "end-to-end visibility",
+        "integrated supply chain management"
+      ],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.1",
+          "type": "related_to",
+          "description": "Purchasing is one of the key functions that must be integrated within the supply chain."
+        },
+        {
+          "target_id": "D.3",
+          "type": "related_to",
+          "description": "Integration encompasses coordination with suppliers, subcontractors, and logistics providers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["D.2", "D.5", "D.7"],
+        "relationship_distractors": ["D.1", "D.3"]
+      }
+    },
+    {
+      "id": "D.5",
+      "topic": "Describe management of supply and demand for supply chain management.",
+      "scenario": "A seasonal outdoor apparel company in Colorado produces its entire winter jacket line eight months before the selling season based on buyer projections. Last year, an unexpected warm winter left 40% of inventory unsold, requiring deep markdowns that erased the season's profit. Meanwhile, a surprise viral trend for one colorway caused stockouts within two weeks. The merchandise planning director needs a new approach to avoid repeating these costly mismatches.",
+      "scenario_context": "seasonal apparel, merchandise planning",
+      "explanation": "This scenario demonstrates the challenge of aligning what customers will buy with what the company produces and stocks. The apparel company's reliance on long-lead-time projections created both oversupply (unsold jackets requiring markdowns) and undersupply (stockouts on the trending colorway). Addressing this requires better methods of sensing actual customer buying patterns and adjusting production and inventory commitments accordingly, rather than committing everything months in advance based on estimates alone.",
+      "key_terms": [
+        "demand planning",
+        "supply planning",
+        "demand forecasting",
+        "inventory optimization",
+        "sales and operations planning (S&OP)",
+        "demand-driven supply chain"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.2",
+          "type": "related_to",
+          "description": "Effective supply-demand management is essential to delivering value in the supply chain."
+        },
+        {
+          "target_id": "D.7",
+          "type": "related_to",
+          "description": "Supply-demand imbalances directly impact costs and expense management."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["D.1", "D.3", "D.6"],
+        "relationship_distractors": ["D.2", "D.7"]
+      }
+    },
+    {
+      "id": "D.6",
+      "topic": "Describe the efficient facility network design for supply chain management.",
+      "scenario": "A pet food manufacturer headquartered in Kansas City operates three aging plants on the East Coast but has seen 60% of its customer growth come from West Coast and Sun Belt markets over the past five years. Shipping finished goods cross-country now accounts for 35% of total operating costs, and West Coast delivery times average five days compared to two days for East Coast customers. The CFO has commissioned a study to determine whether to build, relocate, or lease new operational sites.",
+      "scenario_context": "pet food manufacturing, capacity planning",
+      "explanation": "This scenario demonstrates the need to optimize the number, location, and size of operational sites based on where customers and demand are concentrated. The manufacturer's legacy footprint no longer matches its customer geography, resulting in excessive freight costs and slow delivery to its fastest-growing markets. The CFO's study is fundamentally about repositioning physical assets to minimize total cost while improving service levels, which is the core challenge of designing an efficient operational footprint.",
+      "key_terms": [
+        "network optimization",
+        "facility location",
+        "distribution center",
+        "transportation routing",
+        "warehousing strategy",
+        "mathematical modeling"
+      ],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.3",
+          "type": "related_to",
+          "description": "Facility network design determines where suppliers and distribution points are located relative to production."
+        },
+        {
+          "target_id": "D.7",
+          "type": "related_to",
+          "description": "Network design decisions have a major impact on supply chain operating expenses."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["D.1", "D.2", "D.5"],
+        "relationship_distractors": ["D.3", "D.7"]
+      }
+    },
+    {
+      "id": "D.7",
+      "topic": "Explain the importance of expense management for supply chain management.",
+      "scenario": "A medical device company in Boston has seen its operating margins shrink from 22% to 14% over three years despite steady revenue growth. An internal audit reveals that raw material spend increased 18% due to uncoordinated buying across divisions, warehouses hold 90 days of slow-moving inventory costing $2.4 million annually in storage and insurance, and expedited air freight for rush orders has tripled. The board demands a plan to restore profitability without cutting product quality or headcount.",
+      "scenario_context": "medical devices, profitability improvement",
+      "explanation": "This scenario illustrates the importance of systematically monitoring and controlling costs across all operational activities. The medical device company's margin erosion stems from multiple cost leaks: fragmented buying driving up material spend, excessive inventory generating carrying costs, and reactive shipping decisions inflating freight expenses. Restoring profitability requires a holistic approach to identifying and eliminating waste across the full spectrum of operational costs while maintaining the service quality that customers expect.",
+      "key_terms": [
+        "cost optimization",
+        "total cost of ownership",
+        "procurement costs",
+        "inventory carrying costs",
+        "transportation costs",
+        "cost-to-serve"
+      ],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.5",
+          "type": "related_to",
+          "description": "Poor supply-demand alignment leads to excess inventory and increased expenses."
+        },
+        {
+          "target_id": "D.6",
+          "type": "related_to",
+          "description": "Facility network design is a primary driver of supply chain operating costs."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["D.1", "D.3", "D.4"],
+        "relationship_distractors": ["D.5", "D.6"]
+      }
+    }
+  ]
+}

@@ -54,6 +54,9 @@ export function generateQuestions(filteredConcepts) {
   const shuffled = shuffle(filteredConcepts);
 
   return shuffled.map(concept => {
+    if (concept.level === 'L3') {
+      return buildScenarioQuestion(concept, filteredConcepts, concepts);
+    }
     const choices = buildChoices(concept, filteredConcepts, concepts);
     return {
       conceptId: concept.id,
@@ -115,6 +118,76 @@ function buildChoices(concept, pool, allConcepts) {
     );
     const shuffledRemaining = shuffle(sameLevelFirst);
     for (const c of shuffledRemaining) {
+      if (choices.length >= 4) break;
+      choices.push(c.topic);
+      used.add(c.id);
+    }
+  }
+
+  return choices.slice(0, 4);
+}
+
+function buildScenarioQuestion(concept, pool, allConcepts) {
+  const choices = buildL3Choices(concept, pool, allConcepts);
+  return {
+    conceptId: concept.id,
+    questionType: 'scenario',
+    scenario: concept.scenario,
+    correctTopic: concept.topic,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L3',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices),
+  };
+}
+
+function buildL3Choices(concept, pool, allConcepts) {
+  const correctTopic = concept.topic;
+  const choices = [correctTopic];
+  const used = new Set([concept.id]);
+
+  // 1. Relationship distractors (hardest — closely related concepts)
+  const relDistractors = concept.quiz.relationship_distractors || [];
+  for (const rid of relDistractors) {
+    if (choices.length >= 4) break;
+    const d = allConcepts.get(rid);
+    if (d && !used.has(rid)) {
+      choices.push(d.topic);
+      used.add(rid);
+    }
+  }
+
+  // 2. Curated distractor_ids
+  for (const did of concept.quiz.distractor_ids) {
+    if (choices.length >= 4) break;
+    const d = allConcepts.get(did);
+    if (d && !used.has(did)) {
+      choices.push(d.topic);
+      used.add(did);
+    }
+  }
+
+  // 3. Same section from pool
+  if (choices.length < 4) {
+    const sameSection = pool.filter(c =>
+      c.section === concept.section && !used.has(c.id)
+    );
+    for (const c of shuffle(sameSection)) {
+      if (choices.length >= 4) break;
+      choices.push(c.topic);
+      used.add(c.id);
+    }
+  }
+
+  // 4. Any concept
+  if (choices.length < 4) {
+    const remaining = [...allConcepts.values()].filter(c => !used.has(c.id));
+    for (const c of shuffle(remaining)) {
       if (choices.length >= 4) break;
       choices.push(c.topic);
       used.add(c.id);

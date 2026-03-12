@@ -12,9 +12,15 @@ export async function loadAllData() {
   const l2Fetches = SECTIONS.map(s =>
     fetch(`data/${s}_L2.json`).then(r => r.json())
   );
-  const [l1Results, l2Results] = await Promise.all([
+  const l3Fetches = SECTIONS.map(s =>
+    fetch(`data/${s}_L3.json`)
+      .then(r => r.ok ? r.json() : { section_id: s, concepts: [] })
+      .catch(() => ({ section_id: s, concepts: [] }))
+  );
+  const [l1Results, l2Results, l3Results] = await Promise.all([
     Promise.all(l1Fetches),
     Promise.all(l2Fetches),
+    Promise.all(l3Fetches),
   ]);
 
   const concepts = new Map();
@@ -29,6 +35,7 @@ export async function loadAllData() {
       title: section_title,
       conceptCount: items.length,
       l2ConceptCount: 0,
+      l3ConceptCount: 0,
     });
 
     for (const concept of items) {
@@ -53,6 +60,22 @@ export async function loadAllData() {
         section: section_id,
         sectionTitle: meta ? meta.title : section_id,
         level: 'L2',
+      });
+    }
+  }
+
+  // Load L3 concepts
+  for (const sectionData of l3Results) {
+    const { section_id, concepts: items } = sectionData;
+    const meta = sectionMeta.get(section_id);
+    if (meta) meta.l3ConceptCount = items.length;
+
+    for (const concept of items) {
+      concepts.set(concept.id + '_L3', {
+        ...concept,
+        section: section_id,
+        sectionTitle: meta ? meta.title : section_id,
+        level: 'L3',
       });
     }
   }

@@ -1,0 +1,557 @@
+{
+  "section_id": "G",
+  "section_title": "Improving Supply Chain Network Performance",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "G.1",
+      "topic": "Explain the importance of synchronizing material flow",
+      "scenario": "A mid-sized automotive parts manufacturer notices that its upstream steel supplier ships large batches every six weeks, while the downstream assembly plant requests daily just-in-time deliveries. The operations director observes that small changes in assembly orders create wildly amplified swings in raw steel purchasing, leading to alternating periods of warehouse overflow and emergency air freight.",
+      "scenario_context": "automotive manufacturing, operations management",
+      "explanation": "This scenario demonstrates synchronized material flow because the disconnect between the supplier's batch schedule and the assembler's daily needs creates the bullwhip effect. Coordinating the timing and quantities of materials across all tiers would eliminate the amplification, reduce emergency shipping costs, and ensure parts arrive precisely when the assembly line needs them.",
+      "key_terms": [
+        "material flow",
+        "supply and demand synchronization",
+        "bullwhip effect",
+        "throughput",
+        "lead time reduction",
+        "information flow"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.9",
+          "type": "related_to",
+          "description": "Market signals and consumer demand drive the need for synchronized material flow"
+        },
+        {
+          "target_id": "G.2",
+          "type": "related_to",
+          "description": "Synchronized material flow supports inventory maximization strategies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["G.5", "G.7", "G.3"],
+        "relationship_distractors": ["G.9", "G.2"]
+      }
+    },
+    {
+      "id": "G.2",
+      "topic": "Define inventory maximization",
+      "scenario": "A regional pharmacy chain's CFO discovers that 30% of working capital is tied up in slow-moving vitamins and supplements, while fast-selling prescription medications frequently stock out. The supply chain team is asked to classify all 8,000 SKUs by sales velocity and margin contribution, then set differentiated reorder quantities and buffer levels for each category to improve both cash flow and shelf availability.",
+      "scenario_context": "pharmaceutical retail, financial management",
+      "explanation": "This scenario illustrates inventory maximization because the pharmacy must optimize stock levels across thousands of products to balance capital efficiency against service levels. Classifying SKUs by value and demand (ABC analysis), setting appropriate safety stocks, and using economic order quantities are core techniques for ensuring every dollar of inventory investment generates maximum return.",
+      "key_terms": [
+        "inventory optimization",
+        "safety stock",
+        "ABC analysis",
+        "economic order quantity",
+        "fill rate",
+        "working capital"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.3",
+          "type": "related_to",
+          "description": "Decoupling points are a key strategy for achieving inventory maximization"
+        },
+        {
+          "target_id": "G.4",
+          "type": "related_to",
+          "description": "Algorithms are used to compute optimal inventory levels for maximization"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["G.3", "G.4", "G.1"],
+        "relationship_distractors": ["G.3", "G.4"]
+      }
+    },
+    {
+      "id": "G.3",
+      "topic": "Define decoupling points for inventory maximization",
+      "scenario": "A global furniture company manufactures standardized wooden frames at a centralized plant in Poland but delays upholstery, fabric selection, and final assembly until regional warehouses receive confirmed customer orders. The VP of Operations chose this approach because European customers expect 10-day delivery with custom fabric choices, while the plant needs long production runs for cost efficiency.",
+      "scenario_context": "furniture manufacturing, European distribution",
+      "explanation": "This scenario demonstrates decoupling points because the company strategically holds semi-finished inventory (wooden frames) at the boundary between forecast-driven production and order-driven customization. This push-pull boundary lets the upstream plant run efficient batches while the downstream operation responds to individual customer specifications within acceptable lead times.",
+      "key_terms": [
+        "decoupling point",
+        "push-pull boundary",
+        "DDMRP",
+        "postponement",
+        "customer tolerance time",
+        "strategic inventory positioning"
+      ],
+      "sources": [
+        {
+          "url": "https://www.slimstock.com/blog/decoupling-point/",
+          "title": "Decoupling Point Explained – What It Is and How to Use It",
+          "site": "Slimstock"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/planning-optimization/ddmrp-inventory-positioning",
+          "title": "Inventory positioning - Supply Chain Management",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2024.2314164",
+          "title": "The customer order decoupling point in empirical operations and supply chain management research",
+          "site": "Taylor & Francis"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.2",
+          "type": "related_to",
+          "description": "Decoupling points are a method for achieving inventory maximization"
+        },
+        {
+          "target_id": "G.1",
+          "type": "related_to",
+          "description": "Decoupling points help synchronize material flow by buffering variability"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_ids": ["G.2", "G.5", "G.4"],
+        "relationship_distractors": ["G.2", "G.1"]
+      }
+    },
+    {
+      "id": "G.4",
+      "topic": "Explain how algorithms are used to maximize capital costs associated with supply chain management",
+      "scenario": "A consumer electronics distributor with 12 regional warehouses is spending $40 million annually on excess stock while simultaneously losing $15 million in sales from stockouts. The analytics team deploys a system that simultaneously models stocking levels across all 12 locations, using historical sales patterns, promotional calendars, and seasonal trends to compute reorder points and quantities that minimize total holding and shortage costs network-wide.",
+      "scenario_context": "consumer electronics, data analytics",
+      "explanation": "This scenario demonstrates how computational models maximize capital efficiency by optimizing inventory across multiple tiers simultaneously rather than managing each warehouse independently. The multi-echelon approach with machine learning-based demand forecasting addresses the classic tradeoff between holding costs and stockout costs, directing capital to its highest-return positions across the network.",
+      "key_terms": [
+        "multi-echelon inventory optimization",
+        "genetic algorithms",
+        "machine learning",
+        "demand forecasting",
+        "economic order quantity",
+        "total cost of ownership"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949863525000548",
+          "title": "A comparative study of multi-algorithm optimization for inventory analytics in supply chains",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://fastercapital.com/content/Supply-chain-optimization--How-to-use-mathematical-models-and-algorithms-to-solve-complex-supply-chain-problems.html",
+          "title": "Supply chain optimization: How to use mathematical models and algorithms",
+          "site": "FasterCapital"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_optimization",
+          "title": "Supply chain optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.2",
+          "type": "related_to",
+          "description": "Algorithms are the computational engine behind inventory maximization"
+        },
+        {
+          "target_id": "G.9",
+          "type": "related_to",
+          "description": "Algorithms process market signals and demand data to optimize capital deployment"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["G.2", "G.7", "G.6"],
+        "relationship_distractors": ["G.2", "G.9"]
+      }
+    },
+    {
+      "id": "G.5",
+      "topic": "Explain how proximity to the customer relates to supply chain efficiency",
+      "scenario": "A national grocery delivery startup finds that orders shipped from its single central warehouse in Kansas City take 3-5 days to reach coastal customers, resulting in spoiled produce and a 35% cancellation rate on the West Coast. The logistics director proposes converting underutilized retail spaces in Los Angeles, Chicago, and Atlanta into small automated picking facilities that can serve surrounding metro areas within two hours.",
+      "scenario_context": "grocery delivery, urban logistics",
+      "explanation": "This scenario demonstrates how positioning inventory and fulfillment operations closer to end consumers directly improves supply chain efficiency. The central warehouse model fails because the distance creates unacceptable delivery times and spoilage. Establishing smaller facilities near major population centers reduces transit distances, cuts last-mile costs, and enables the rapid delivery windows that perishable goods require.",
+      "key_terms": [
+        "last-mile delivery",
+        "distribution network design",
+        "fulfillment center",
+        "hyperlocal delivery",
+        "omnichannel",
+        "regional hub"
+      ],
+      "sources": [
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        },
+        {
+          "url": "https://eliteextra.com/what-is-last-mile-distribution-definition-strategies-more/",
+          "title": "What is Last-Mile Distribution: Definition, Strategies, & More",
+          "site": "Elite EXTRA"
+        },
+        {
+          "url": "https://envistacorp.com/blog/maximizing-last-mile-success-network-optimization/",
+          "title": "Maximizing Last Mile Success: The Power of Network Optimization",
+          "site": "enVista"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.11",
+          "type": "related_to",
+          "description": "Proximity strategies must be tailored to the logistics needs of different customer segments"
+        },
+        {
+          "target_id": "G.6",
+          "type": "related_to",
+          "description": "Product sourcing decisions influence where inventory is positioned relative to customers"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["G.1", "G.6", "G.3"],
+        "relationship_distractors": ["G.11", "G.6"]
+      }
+    },
+    {
+      "id": "G.6",
+      "topic": "Describe how product sourcing decisions are made",
+      "scenario": "A premium bicycle manufacturer currently produces carbon fiber frames in-house at its Colorado factory but is struggling to scale production for a new e-bike line. The CEO must decide whether to invest $8 million in expanding the factory or contract with a Taiwanese manufacturer that offers 40% lower per-unit costs but requires a 12-week lead time and raises concerns about protecting the company's proprietary frame geometry designs.",
+      "scenario_context": "bicycle manufacturing, strategic planning",
+      "explanation": "This scenario illustrates how sourcing decisions require a structured evaluation of cost, capacity, quality, risk, and strategic alignment. The manufacturer must weigh total cost of ownership (not just per-unit price), the risk of exposing proprietary designs to an external partner, longer lead times, and whether frame production is a core competency worth protecting versus an activity that can be safely outsourced.",
+      "key_terms": [
+        "make-or-buy analysis",
+        "total cost of ownership",
+        "core competencies",
+        "supplier evaluation",
+        "risk management",
+        "strategic sourcing"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        },
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/management/make-or-buy-decision/",
+          "title": "Make-or-Buy Decision - Overview, How It Works, Triggers",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://scmguide.com/factors-to-consider-when-deciding-whether-to-make-or-buy/",
+          "title": "20 Factors to Consider When Deciding Whether to Make or Buy",
+          "site": "SCM Guide"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.5",
+          "type": "related_to",
+          "description": "Sourcing decisions affect supply chain proximity and distribution network design"
+        },
+        {
+          "target_id": "G.7",
+          "type": "related_to",
+          "description": "Sourcing decisions are evaluated as part of supply chain performance assessment"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["G.4", "G.7", "G.2"],
+        "relationship_distractors": ["G.5", "G.7"]
+      }
+    },
+    {
+      "id": "G.7",
+      "topic": "Describe evaluation processes for supply chain management",
+      "scenario": "A medical device company's new COO discovers that on-time delivery has dropped to 78% and customer complaints have tripled over 18 months, but no one can pinpoint why. She commissions a cross-functional team to map every process from planning through returns, measure reliability, speed, flexibility, cost, and asset utilization at each stage, and compare results against industry peers to identify the root causes of declining performance.",
+      "scenario_context": "medical devices, performance management",
+      "explanation": "This scenario demonstrates supply chain evaluation because the COO is implementing a structured diagnostic approach using standardized performance attributes and hierarchical metrics. Mapping processes, measuring across multiple dimensions, and benchmarking against industry standards mirrors the SCOR model methodology, which provides the systematic framework needed to move from symptoms to root causes.",
+      "key_terms": [
+        "SCOR model",
+        "key performance indicators",
+        "perfect order fulfillment",
+        "benchmarking",
+        "process mapping",
+        "continuous improvement"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.10",
+          "type": "related_to",
+          "description": "Evaluation processes identify areas where customer needs can be better met and improved"
+        },
+        {
+          "target_id": "G.6",
+          "type": "related_to",
+          "description": "Product sourcing decisions are assessed through supply chain evaluation processes"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["G.4", "G.8", "G.1"],
+        "relationship_distractors": ["G.10", "G.6"]
+      }
+    },
+    {
+      "id": "G.8",
+      "topic": "Define how supply chain management meets consumer needs",
+      "scenario": "A specialty pet food company receives consistent praise for its organic ingredients but ranks last in its category for delivery reliability. Orders frequently arrive late, with damaged packaging and incorrect items. The VP of Logistics is tasked with redesigning operations so that every shipment arrives on schedule, in perfect condition, with the correct products, and at a price point that keeps the brand competitive.",
+      "scenario_context": "pet food industry, customer satisfaction",
+      "explanation": "This scenario demonstrates how supply chains must coordinate all activities from sourcing through delivery to satisfy the end consumer. Despite having a great product, the company fails customers because it does not deliver the right product, at the right time, in the right condition. Aligning operations around these 'five rights' is the fundamental way supply chain management serves consumer needs.",
+      "key_terms": [
+        "customer-centric supply chain",
+        "order fulfillment",
+        "demand planning",
+        "supply chain visibility",
+        "service level",
+        "responsiveness"
+      ],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        },
+        {
+          "url": "https://www.scmr.com/article/the-rise-of-customer-centric-supply-chains",
+          "title": "The rise of customer-centric supply chains",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.infosysbpm.com/blogs/supply-chain/supply-chain-optimization-for-customer-satisfaction.html",
+          "title": "Optimise Your Supply Chain For Customer Satisfaction",
+          "site": "Infosys BPM"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.10",
+          "type": "related_to",
+          "description": "Meeting consumer needs is the foundation for improving customer satisfaction over time"
+        },
+        {
+          "target_id": "G.9",
+          "type": "related_to",
+          "description": "Consumer demand signals inform how supply chains are configured to meet needs"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["G.9", "G.10", "G.1"],
+        "relationship_distractors": ["G.10", "G.9"]
+      }
+    },
+    {
+      "id": "G.9",
+      "topic": "Explain how market signal and consumer demand impact supply chain management",
+      "scenario": "A sunscreen manufacturer notices that its traditional quarterly forecasting model consistently overproduces in cool spring months and underproduces when unexpected heat waves strike. The planning team begins integrating daily weather forecasts, social media mentions of beach trips, and retailer checkout data to adjust production schedules and warehouse allocations within 48 hours of detecting a shift in purchasing patterns.",
+      "scenario_context": "personal care products, demand planning",
+      "explanation": "This scenario demonstrates how real-time data inputs from external sources and point-of-sale systems drive supply chain adjustments. By shifting from historical quarterly forecasts to near-real-time signals like weather data, social media trends, and checkout data, the manufacturer can sense demand changes and respond within hours, preventing both excess inventory and lost sales.",
+      "key_terms": [
+        "demand sensing",
+        "point-of-sale data",
+        "bullwhip effect",
+        "demand forecasting",
+        "real-time analytics",
+        "demand signal"
+      ],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.1",
+          "type": "related_to",
+          "description": "Demand signals drive the need to synchronize material flow throughout the supply chain"
+        },
+        {
+          "target_id": "G.8",
+          "type": "related_to",
+          "description": "Understanding market signals enables supply chains to better meet consumer needs"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["G.1", "G.8", "G.4"],
+        "relationship_distractors": ["G.1", "G.8"]
+      }
+    },
+    {
+      "id": "G.10",
+      "topic": "Explain how to meet and improve customer needs for supply chain management",
+      "scenario": "A B2B office supplies distributor surveys its top 50 accounts and learns that order accuracy is 91% but customers expect 99%. The operations team launches a program where warehouse staff submit daily improvement ideas, defective orders trigger immediate root-cause investigations, and a dashboard tracks accuracy, delivery speed, and Net Promoter Score monthly. After six months, the team uses the data to redesign the picking process and retrain staff on the three most common error types.",
+      "scenario_context": "office supplies distribution, continuous improvement",
+      "explanation": "This scenario demonstrates meeting and improving customer needs because the company establishes feedback loops (surveys, defect investigations), applies incremental improvement methodology (daily staff ideas, root-cause analysis), and uses KPI tracking (accuracy, speed, NPS) to close the gap between current performance and customer expectations. The systematic, ongoing approach ensures improvements are data-driven and sustained.",
+      "key_terms": [
+        "continuous improvement",
+        "customer feedback",
+        "lean methodology",
+        "KPI tracking",
+        "supplier relationship management",
+        "customer experience"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iienstitu.com/en/blog/enhancing-customer-service-in-supply-chains",
+          "title": "Enhancing Customer Service in Supply Chains: Tips & Strategies",
+          "site": "IIENSTITU"
+        },
+        {
+          "url": "https://rxo.com/resources/shipper/continuous-improvement/",
+          "title": "Continuous Improvement: 6 Steps to a Stronger Supply Chain",
+          "site": "RXO"
+        },
+        {
+          "url": "https://supplychainnuggets.com/how-to-improve-customer-satisfaction-through-supply-chain/",
+          "title": "How to Improve Customer Satisfaction Through Supply Chain",
+          "site": "Supply Chain Nuggets"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.8",
+          "type": "related_to",
+          "description": "Improving customer needs builds on the foundation of meeting current consumer expectations"
+        },
+        {
+          "target_id": "G.7",
+          "type": "related_to",
+          "description": "Evaluation processes provide the data needed to identify and implement customer improvements"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["G.8", "G.11", "G.9"],
+        "relationship_distractors": ["G.8", "G.7"]
+      }
+    },
+    {
+      "id": "G.11",
+      "topic": "Describe how supply chain management meets and improves the logistic needs of different customer segments",
+      "scenario": "A industrial chemicals company serves three distinct buyer groups: large refineries that order full tanker loads on fixed monthly schedules, mid-sized manufacturers that place variable weekly orders, and hundreds of small labs that buy single drums on an as-needed basis. The logistics director finds that using the same delivery model for all three groups results in overserving labs with expensive dedicated trucks and underserving refineries that need guaranteed 24-hour replenishment windows.",
+      "scenario_context": "industrial chemicals, logistics strategy",
+      "explanation": "This scenario demonstrates supply chain segmentation because the company's uniform logistics approach fails to match the distinct requirements of each buyer group. Designing separate value chains -- dedicated tanker routes for refineries, consolidated regional shipments for mid-sized manufacturers, and parcel-based fulfillment for small labs -- would optimize cost and service for each group rather than applying a one-size-fits-all model.",
+      "key_terms": [
+        "supply chain segmentation",
+        "customer segments",
+        "differentiated service levels",
+        "clustering algorithms",
+        "tailored logistics",
+        "value chain design"
+      ],
+      "sources": [
+        {
+          "url": "https://throughput.world/blog/customer-segmentation-in-supply-chain/",
+          "title": "Customer Segmentation: A Smarter Supply Chain Strategy",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://www.bcg.com/publications/2015/segmentation-in-the-consumer-supply-chain-one-size-does-not-fit-all",
+          "title": "Segmentation in the Consumer Supply Chain: One Size Does Not Fit All",
+          "site": "BCG"
+        },
+        {
+          "url": "https://supplychainminded.com/supply-chain-segmentation/",
+          "title": "Supply Chain Segmentation",
+          "site": "Supply Chain Minded"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "G.5",
+          "type": "related_to",
+          "description": "Customer proximity strategies are tailored based on segment-specific logistics needs"
+        },
+        {
+          "target_id": "G.10",
+          "type": "related_to",
+          "description": "Segmented logistics strategies are a key method for improving how customer needs are met"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["G.5", "G.10", "G.8"],
+        "relationship_distractors": ["G.5", "G.10"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "F.1",
+      "topic": "Determine what products to sell",
+      "scenario": "A mid-sized outdoor recreation company currently offers 47 SKUs ranging from kayaks to camping stoves. The VP of Operations notices that 12 of those SKUs have declining margins and overlap with competitor offerings, while customer surveys reveal strong unmet demand for ultralight backpacking gear. She must decide which items to keep, cut, or add before the next buying season.",
+      "scenario_context": "outdoor recreation, operations strategy",
+      "explanation": "This scenario demonstrates the strategic evaluation process of choosing which offerings to bring to market. The VP must weigh customer demand signals, competitive positioning, and internal capabilities to rationalize the lineup and invest in high-potential categories, which is the core of deciding what a company should offer for sale.",
+      "key_terms": [
+        "market analysis",
+        "demand forecasting",
+        "product selection",
+        "competitive landscape",
+        "cross-functional coordination",
+        "BCG matrix"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.2",
+          "type": "related_to",
+          "description": "Product selection depends on understanding what products are used and sold by the business"
+        },
+        {
+          "target_id": "F.3",
+          "type": "applies_to",
+          "description": "The product portfolio is the output of determining what products to sell"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["F.3", "F.4", "F.5"],
+        "relationship_distractors": ["F.2", "F.3"]
+      }
+    },
+    {
+      "id": "F.2",
+      "topic": "How a company determines what products are used and sold by a business",
+      "scenario": "A regional pet supply distributor notices that its warehouse is nearly full, yet several retail partners report frequent stockouts on premium dog food brands. The supply chain analyst pulls 18 months of order histories, examines which items each retailer reorders most frequently, and cross-references those patterns with returns data and seasonal trends to understand what is actually moving through the channel.",
+      "scenario_context": "pet supply distribution, data analytics",
+      "explanation": "This scenario illustrates the analytical process of evaluating internal transaction data and customer behavior to understand which items are actively consumed and distributed. By mining order histories, reorder frequencies, and returns, the analyst is performing the diagnostic work needed to distinguish high-demand products from underperformers.",
+      "key_terms": [
+        "sales data analysis",
+        "customer buying behavior",
+        "market research",
+        "product lifecycle",
+        "inventory turnover",
+        "resource allocation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.epicflow.com/blog/product-portfolio-management-what-it-is-and-why-it-matters-for-business-leaders/",
+          "title": "Product Portfolio Management: What It Is and Why It Matters for Business Leaders",
+          "site": "Epicflow"
+        },
+        {
+          "url": "https://www.productboard.com/blog/product-portfolio-management-101/",
+          "title": "Product Portfolio Management 101",
+          "site": "Productboard"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.1",
+          "type": "related_to",
+          "description": "Understanding current product usage informs decisions about what products to sell"
+        },
+        {
+          "target_id": "F.5",
+          "type": "prerequisite_for",
+          "description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["F.1", "F.4", "F.6"],
+        "relationship_distractors": ["F.1", "F.5"]
+      }
+    },
+    {
+      "id": "F.3",
+      "topic": "Product portfolio",
+      "scenario": "A consumer electronics manufacturer sells smartphones, wireless earbuds, smartwatches, home security cameras, and streaming devices. During the annual strategy review, the CEO asks the leadership team to map every offering on a single chart showing each item's market growth rate versus its relative market share, so they can decide where to invest R&D dollars and which lines to sunset.",
+      "scenario_context": "consumer electronics, corporate strategy",
+      "explanation": "This scenario demonstrates the practice of examining a company's entire collection of offerings collectively rather than individually. By plotting all items on a growth-versus-share chart, the leadership team is performing the kind of holistic assessment that reveals which products subsidize others and where to allocate resources.",
+      "key_terms": [
+        "product portfolio",
+        "portfolio analysis",
+        "BCG Growth-Share Matrix",
+        "product mix",
+        "diversification",
+        "strategic alignment"
+      ],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.1",
+          "type": "related_to",
+          "description": "The product portfolio reflects the outcome of product selection decisions"
+        },
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "The Pareto principle helps analyze which items in the portfolio drive the most value"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["F.1", "F.2", "F.5"],
+        "relationship_distractors": ["F.1", "F.4"]
+      }
+    },
+    {
+      "id": "F.4",
+      "topic": "The Pareto principle",
+      "scenario": "A pharmaceutical wholesaler carries 4,200 SKUs but is running out of cold-storage capacity. The inventory manager runs a revenue-contribution analysis and discovers that 840 SKUs generate 78% of total revenue, while the remaining 3,360 items contribute only 22%. She proposes tiered stocking policies that give the top-revenue items priority warehouse placement and tighter reorder points.",
+      "scenario_context": "pharmaceutical distribution, inventory optimization",
+      "explanation": "This scenario demonstrates the observation that a small fraction of inputs drives the majority of outcomes. The inventory manager's finding that roughly 20% of SKUs account for nearly 80% of revenue is the classic distribution pattern that underpins differentiated inventory management strategies like ABC classification.",
+      "key_terms": [
+        "Pareto principle",
+        "80/20 rule",
+        "ABC analysis",
+        "Vilfredo Pareto",
+        "inventory classification",
+        "carrying costs"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.3",
+          "type": "applies_to",
+          "description": "The Pareto principle is used to analyze product portfolio performance and prioritize items"
+        },
+        {
+          "target_id": "F.5",
+          "type": "related_to",
+          "description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["F.1", "F.3", "F.6"],
+        "relationship_distractors": ["F.3", "F.5"]
+      }
+    },
+    {
+      "id": "F.5",
+      "topic": "Slow-moving products headed toward obsolescence",
+      "scenario": "A home electronics retailer notices that its DVD player inventory has sat on warehouse shelves for 14 months with a turnover ratio of 0.3, while streaming device sales have tripled over the same period. The warehouse manager flags that holding costs on the stagnant units now exceed their original purchase price, and the category buyer must decide whether to mark them down aggressively, bundle them with other products, or write them off entirely.",
+      "scenario_context": "home electronics retail, warehouse management",
+      "explanation": "This scenario illustrates inventory items with extremely low turnover and declining demand that are progressing toward having no market value. The DVD players exhibit the classic warning signs -- extended shelf time, negligible turnover ratio, and a technology shift driving demand to zero -- requiring urgent corrective action before the stock becomes a total loss.",
+      "key_terms": [
+        "slow-moving inventory",
+        "obsolete inventory",
+        "SLOB inventory",
+        "inventory turnover",
+        "product lifecycle",
+        "inventory write-off"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories"
+        },
+        {
+          "target_id": "F.6",
+          "type": "related_to",
+          "description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_ids": ["F.1", "F.2", "F.6"],
+        "relationship_distractors": ["F.4", "F.6"]
+      }
+    },
+    {
+      "id": "F.6",
+      "topic": "Importance of minimizing inventory during all stages of supply chain management",
+      "scenario": "A craft brewery expanded rapidly and now holds three months of raw barley, six weeks of bottled beer in its warehouse, and another four weeks of finished goods sitting at distributor docks. The CFO reports that 38% of working capital is locked up in stock, insurance premiums have doubled, and two pallets of a seasonal ale expired before reaching retailers. The operations director is tasked with redesigning replenishment across every stage of the production pipeline.",
+      "scenario_context": "craft brewing, working capital management",
+      "explanation": "This scenario demonstrates the consequences of excess stock at every point in the supply chain -- from raw materials through finished goods at distributor locations. The tied-up capital, rising insurance costs, and spoiled product illustrate why reducing stock levels across all stages is a strategic priority that improves cash flow and reduces waste.",
+      "key_terms": [
+        "inventory minimization",
+        "lean supply chain",
+        "just-in-time",
+        "holding costs",
+        "demand forecasting",
+        "cash flow optimization"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.5",
+          "type": "related_to",
+          "description": "Identifying and eliminating slow-moving inventory is a key tactic for minimizing overall inventory"
+        },
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["F.1", "F.2", "F.3"],
+        "relationship_distractors": ["F.5", "F.4"]
+      }
+    }
+  ]
+}

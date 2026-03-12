@@ -1,0 +1,319 @@
+{
+  "section_id": "J",
+  "section_title": "Supply Chain Management Contemporary Issues",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "J.1",
+      "topic": "Describe the impact of information technology in supply chain management.",
+      "scenario": "A mid-sized pharmaceutical distributor is experiencing chronic delays because its regional warehouses rely on fax-based ordering and manual spreadsheet tracking. The VP of Operations notices that shipments frequently arrive at the wrong facility, demand estimates are consistently off by 20%, and customer complaints about late deliveries have tripled in the past year. She is evaluating a proposal to replace the legacy processes with integrated digital systems that would connect procurement, warehousing, and transportation under a single platform with live data feeds.",
+      "scenario_context": "pharmaceutical distribution, operations management",
+      "explanation": "This scenario demonstrates how adopting computerized systems and digital tools to plan, monitor, and optimize supply chain flows can resolve visibility gaps and coordination failures. The distributor's problems stem from fragmented, manual processes that prevent real-time tracking and data-driven decisions, which are precisely the issues that IT infrastructure like ERP, WMS, and TMS platforms are designed to solve.",
+      "key_terms": [
+        "information technology",
+        "electronic data interchange (EDI)",
+        "enterprise resource planning (ERP)",
+        "real-time visibility",
+        "supply chain integration",
+        "demand forecasting",
+        "warehouse management system (WMS)",
+        "transportation management system (TMS)"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877042811023731",
+          "title": "Information technology in supply chain management: a case study",
+          "site": "ScienceDirect"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.2",
+          "type": "related_to",
+          "description": "IT infrastructure enables e-business capabilities in supply chains"
+        },
+        {
+          "target_id": "J.3",
+          "type": "related_to",
+          "description": "IT systems facilitate tracking and managing financial flows across the supply chain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["J.3", "J.4", "J.6"],
+        "relationship_distractors": ["J.2", "J.3"]
+      }
+    },
+    {
+      "id": "J.2",
+      "topic": "Explain how E-business has impacted supply chain management.",
+      "scenario": "A regional grocery chain and its 50 produce suppliers currently coordinate orders through phone calls and emailed spreadsheets, leading to frequent over-ordering of perishable items and significant food waste. The chain's procurement director proposes launching a shared online portal where both sides can view live sales data, jointly build demand forecasts, and trigger automatic replenishment when inventory drops below set thresholds. Early pilot results show a 15% reduction in spoilage and noticeably smoother order quantities upstream.",
+      "scenario_context": "grocery retail, procurement collaboration",
+      "explanation": "This scenario illustrates how internet-based platforms transform supply chain collaboration by replacing fragmented manual communication with shared digital environments. The joint forecasting and automatic replenishment through the portal exemplify collaborative planning, forecasting, and replenishment (CPFR), which reduces demand distortion and waste across the network.",
+      "key_terms": [
+        "e-business",
+        "electronic procurement",
+        "internet-based platforms",
+        "collaborative planning",
+        "just-in-time delivery",
+        "bullwhip effect",
+        "B2B integration",
+        "supply chain collaboration"
+      ],
+      "sources": [
+        {
+          "url": "https://www.emerald.com/insight/content/doi/10.1108/01443570510572240/full/html",
+          "title": "The impact of e-business on supply chain management: An empirical study of key developments",
+          "site": "Emerald Insight"
+        },
+        {
+          "url": "http://mba.tuck.dartmouth.edu/digital/Research/AcademicPublications/POMSArticle.pdf",
+          "title": "e-Business and Supply Chain Management: An Overview and Framework",
+          "site": "Dartmouth Tuck School of Business"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-39626-7_7",
+          "title": "Supply Chain Management in E-Business",
+          "site": "Springer"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.1",
+          "type": "related_to",
+          "description": "E-business relies on information technology infrastructure to function"
+        },
+        {
+          "target_id": "J.4",
+          "type": "related_to",
+          "description": "E-business encompasses e-commerce which directly reshapes distribution channels"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["J.3", "J.5", "J.6"],
+        "relationship_distractors": ["J.1", "J.4"]
+      }
+    },
+    {
+      "id": "J.3",
+      "topic": "Describe the financial flow in supply chain management.",
+      "scenario": "A large automotive manufacturer has extended its payment window to component suppliers from 30 days to 90 days to free up capital for a new factory. Several smaller suppliers are now struggling to cover raw material purchases and payroll while waiting for payment. The manufacturer's CFO is considering a program with a partner bank that would allow suppliers to sell their approved invoices at a small discount and receive funds within 48 hours, rather than waiting the full 90-day term.",
+      "scenario_context": "automotive manufacturing, supplier finance",
+      "explanation": "This scenario demonstrates the upstream movement of money between supply chain partners and the consequences of mismanaging payment terms. The proposed bank-facilitated early-payment program is a classic example of reverse factoring, a supply chain finance tool designed to optimize the cash-to-cash cycle for both buyer and supplier without straining the relationship.",
+      "key_terms": [
+        "financial flow",
+        "cash-to-cash cycle",
+        "working capital",
+        "payment terms",
+        "supply chain finance",
+        "reverse factoring",
+        "accounts payable",
+        "accounts receivable"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://pressbooks.pub/supplychainmanagement3005/chapter/1-4-supply-chain-flows/",
+          "title": "1.4 Supply Chain Flows - Supply Chain Management: An Integrated Approach",
+          "site": "Pressbooks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.1",
+          "type": "related_to",
+          "description": "IT systems enable tracking and automation of financial flows"
+        },
+        {
+          "target_id": "J.5",
+          "type": "related_to",
+          "description": "Political and economic events such as sanctions and currency fluctuations directly affect financial flows"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["J.2", "J.4", "J.6"],
+        "relationship_distractors": ["J.1", "J.5"]
+      }
+    },
+    {
+      "id": "J.4",
+      "topic": "Explain how e-commerce has impacted channels of distribution.",
+      "scenario": "A heritage furniture brand that has sold exclusively through independent retail showrooms for decades is losing market share to online-only competitors offering similar products with free two-day shipping. The CEO decides to launch the company's own website for consumer orders, open small urban showrooms where customers can browse and order for home delivery, and allow online buyers to pick up purchases at partner retail locations. Within a year, the wholesale partners complain that the brand is now undercutting their prices and stealing foot traffic.",
+      "scenario_context": "furniture retail, channel strategy",
+      "explanation": "This scenario shows how selling directly to consumers through digital channels bypasses traditional intermediaries, creating channel conflict. The brand's adoption of multiple fulfillment models, including online ordering, in-store pickup, and ship-from-showroom, reflects the broader restructuring of distribution networks driven by online selling and the tension between direct and wholesale approaches.",
+      "key_terms": [
+        "e-commerce",
+        "direct-to-consumer (DTC)",
+        "omnichannel distribution",
+        "disintermediation",
+        "fulfillment center",
+        "last-mile delivery",
+        "BOPIS",
+        "micro-fulfillment"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laceupsolutions.com/impact-of-e-commerce-on-distribution-reshaping-networks-business-models/",
+          "title": "E-commerce on Distribution: Reshaping Networks and Business Models",
+          "site": "Lace Up Solutions"
+        },
+        {
+          "url": "https://www.bringoz.com/how-ecommerce-is-transforming-retail-distribution-channels/",
+          "title": "eCommerce & Retail Distribution Transformation",
+          "site": "Bringoz"
+        },
+        {
+          "url": "https://cimcorp.com/distribution/e-commerces-impact-on-distribution/",
+          "title": "E-commerce's impact on distribution",
+          "site": "Cimcorp"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.2",
+          "type": "part_of",
+          "description": "E-commerce is a subset of e-business that specifically affects distribution channels"
+        },
+        {
+          "target_id": "J.6",
+          "type": "related_to",
+          "description": "Competitive pressure drives adoption of e-commerce distribution strategies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["J.1", "J.3", "J.5"],
+        "relationship_distractors": ["J.2", "J.6"]
+      }
+    },
+    {
+      "id": "J.5",
+      "topic": "Describe political and economic events that impact supply chain management.",
+      "scenario": "A European consumer electronics company sources 70% of its circuit boards from a single country in East Asia. After a sudden escalation in diplomatic tensions, the importing government imposes a 120% duty on goods from that country, and shipping insurers refuse to cover vessels transiting the affected region. The company's procurement team scrambles to qualify alternative factories in Southeast Asia and Central America, but lead times stretch from four weeks to fourteen weeks during the transition, and the weakening of the local currency raises component costs by an additional 8%.",
+      "scenario_context": "consumer electronics, global sourcing risk",
+      "explanation": "This scenario illustrates how external forces such as diplomatic conflicts, punitive duties, shipping disruptions, and currency depreciation can simultaneously upend sourcing, transportation, and cost structures. The company's reactive scramble to diversify suppliers and absorb cost increases demonstrates the importance of proactive risk monitoring, supplier diversification, and scenario planning in global supply chains.",
+      "key_terms": [
+        "geopolitical risk",
+        "tariffs",
+        "trade sanctions",
+        "nearshoring",
+        "supply chain resilience",
+        "regulatory compliance",
+        "currency fluctuation",
+        "trade policy"
+      ],
+      "sources": [
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        },
+        {
+          "url": "https://www.foley.com/insights/publications/2025/09/political-instability-supply-chain-risks-us-trade-disruption/",
+          "title": "The Effects of Government Change and Political Instability on Supply Chain Management",
+          "site": "Foley & Lardner LLP"
+        },
+        {
+          "url": "https://www.unicargo.com/geopolitical-impact-global-supply-chains/",
+          "title": "The Impact of Geopolitical Events on Global Supply Chains",
+          "site": "Unicargo"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.3",
+          "type": "related_to",
+          "description": "Political and economic events directly affect financial flows through sanctions, tariffs, and currency changes"
+        },
+        {
+          "target_id": "J.6",
+          "type": "related_to",
+          "description": "Political and economic shifts alter the competitive landscape for supply chains"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["J.1", "J.2", "J.4"],
+        "relationship_distractors": ["J.3", "J.6"]
+      }
+    },
+    {
+      "id": "J.6",
+      "topic": "Explain how competition impact supply chain management decisions.",
+      "scenario": "Two mid-market athletic apparel brands sell nearly identical moisture-wicking shirts at similar price points. Brand A manufactures large batches six months in advance in low-cost overseas factories, often ending each season with 30% unsold inventory that must be heavily discounted. Brand B keeps production closer to its primary market and commits to smaller initial runs, reserving factory capacity to ramp up styles that sell well during the season. Brand B's sell-through rate consistently exceeds 90%, and its operating margins are nearly double those of Brand A despite higher per-unit production costs.",
+      "scenario_context": "athletic apparel, operations strategy",
+      "explanation": "This scenario demonstrates how rivalry between firms with similar products forces supply chain design choices that become the primary differentiator. Brand B's decision to prioritize speed and flexibility over lowest unit cost exemplifies how supply chain strategy, rather than product features alone, determines market success. The contrast between the two models shows that network-level decisions about sourcing proximity, capacity reservation, and responsiveness directly drive profitability.",
+      "key_terms": [
+        "competitive advantage",
+        "supply chain strategy",
+        "cost leadership",
+        "agile supply chain",
+        "lean supply chain",
+        "supplier partnerships",
+        "vertical integration",
+        "supply chain network competition"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/supply-chains-as-sources-of-competitive-advantage.htm",
+          "title": "Supply Chains as Sources of Competitive Advantage",
+          "site": "Management Study Guide"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "J.4",
+          "type": "related_to",
+          "description": "E-commerce distribution strategies are driven by competitive pressures"
+        },
+        {
+          "target_id": "J.1",
+          "type": "related_to",
+          "description": "IT investments in supply chains are often motivated by competitive necessity"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["J.2", "J.3", "J.5"],
+        "relationship_distractors": ["J.4", "J.1"]
+      }
+    }
+  ]
+}

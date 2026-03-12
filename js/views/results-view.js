@@ -149,7 +149,7 @@ export function renderResultsView() {
       if (flags.includes(q.conceptId)) status.push('FLAGGED');
       if (iffy.includes(q.conceptId)) status.push('IFFY');
       text += `[${q.section}] ${q.correctTopic} (${status.join(', ')})\n`;
-      text += `  ${q.definition.slice(0, 120)}...\n\n`;
+      text += `  ${(q.scenario || q.definition).slice(0, 120)}...\n\n`;
     }
     navigator.clipboard.writeText(text).then(() => {
       const orig = exportBtn.textContent;
@@ -211,6 +211,10 @@ function renderFilteredList(filter, session, flags, iffy) {
       const lvBadge = el('span', 'badge badge--level-L2', 'L2');
       lvBadge.style.fontSize = '0.6rem';
       hdr.appendChild(lvBadge);
+    } else if (q.level === 'L3') {
+      const lvBadge = el('span', 'badge badge--level-L3', 'L3');
+      lvBadge.style.fontSize = '0.6rem';
+      hdr.appendChild(lvBadge);
     }
     hdr.appendChild(el('span', 'result-item__chevron', '\u25BC'));
     item.appendChild(hdr);
@@ -226,7 +230,7 @@ function renderFilteredList(filter, session, flags, iffy) {
       content.appendChild(wrongAns);
     }
 
-    const def = el('p', null, q.definition);
+    const def = el('p', null, q.scenario || q.definition);
     def.style.cssText = 'margin-bottom:var(--space-3);font-style:italic';
     content.appendChild(def);
     content.appendChild(el('p', null, q.explanation));

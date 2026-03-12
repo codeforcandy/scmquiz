@@ -1,0 +1,293 @@
+{
+  "section_id": "E",
+  "section_title": "Supply Chain Process",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "E.1",
+      "topic": "Describe the role of manufacturing in a supply chain context.",
+      "scenario": "A beverage company in Mexico receives agave syrup from regional farmers and transforms it into bottled drinks at three plants before shipping to retailers. The operations director notices that when one farmer's delivery is delayed by two days, the entire bottling line at Plant 2 goes idle, costing $180,000 in lost output. She needs to determine which supply chain function is failing and how to prevent future shutdowns.",
+      "scenario_context": "beverage industry, operations management",
+      "explanation": "This scenario demonstrates manufacturing's role in the supply chain because the bottling plants represent the 'make' process that converts raw materials (agave syrup) into finished goods (bottled drinks). The idle production line illustrates how manufacturing depends on upstream supplier coordination, and any disruption to material inputs directly halts the conversion process, cascading costs throughout the chain.",
+      "key_terms": [
+        "production",
+        "conversion",
+        "assembly",
+        "make process",
+        "production planning",
+        "material requirements"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp",
+          "title": "APICS CSCP - Supply Chain Management Certification",
+          "site": "ASCM/APICS"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.2",
+          "type": "related_to",
+          "description": "Manufacturing drives inventory levels of raw materials, work-in-process, and finished goods."
+        },
+        {
+          "target_id": "E.4",
+          "type": "related_to",
+          "description": "Manufactured goods are stored in warehouses before distribution to customers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["E.3", "E.5", "E.6"],
+        "relationship_distractors": ["E.2", "E.4"]
+      }
+    },
+    {
+      "id": "E.2",
+      "topic": "Define inventory management's important relationship with supply chain management.",
+      "scenario": "A mid-sized pet food distributor in Ohio discovers that 15% of its premium dog food expires on shelves each quarter, while simultaneously running out of its best-selling cat food flavor twice per month. The CFO calculates that expired goods and emergency restocking are costing $2.3 million annually. The logistics manager must identify which core supply chain discipline is underperforming and recommend corrective techniques.",
+      "scenario_context": "pet food distribution, cost optimization",
+      "explanation": "This scenario illustrates the critical relationship between stock control and supply chain performance. The simultaneous problems of expired product (excess holding) and frequent shortages (inadequate replenishment) demonstrate what happens when the balancing act between supply and demand breaks down. Proper ordering, tracking, and controlling of goods would address both issues by aligning stock levels with actual consumption patterns.",
+      "key_terms": [
+        "safety stock",
+        "demand forecasting",
+        "carrying costs",
+        "stockout",
+        "reorder point",
+        "inventory turnover"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.gep.com/knowledge-bank/glossary/what-is-inventory-management",
+          "title": "Why Inventory Management is Important for Supply Chain Management",
+          "site": "GEP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.1",
+          "type": "related_to",
+          "description": "Manufacturing output determines the levels of finished goods inventory."
+        },
+        {
+          "target_id": "E.4",
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and support inventory management processes."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["E.3", "E.5", "E.6"],
+        "relationship_distractors": ["E.1", "E.4"]
+      }
+    },
+    {
+      "id": "E.3",
+      "topic": "Explain transportation management in a supply chain.",
+      "scenario": "A furniture retailer based in North Carolina sources sofas from a factory in Vietnam. The supply chain VP must decide whether to ship via ocean container to the port of Savannah and then use regional trucking, or fly the goods into Charlotte at three times the cost to meet a holiday sales deadline. She also needs to evaluate whether consolidating shipments with another product line could reduce per-unit costs.",
+      "scenario_context": "furniture retail, global shipping decisions",
+      "explanation": "This scenario centers on the planning and optimization of physically moving goods across the supply chain. The VP's decision between ocean and air illustrates mode selection, while evaluating combined shipments reflects freight consolidation strategy. These are core activities of managing the movement of goods, where cost, speed, and reliability trade-offs determine both profitability and whether products reach customers on time.",
+      "key_terms": [
+        "freight",
+        "logistics",
+        "mode selection",
+        "carrier management",
+        "inbound transportation",
+        "outbound transportation",
+        "TMS"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.4",
+          "type": "related_to",
+          "description": "Warehouses serve as nodes in the transportation network, and their location affects transportation costs."
+        },
+        {
+          "target_id": "E.6",
+          "type": "related_to",
+          "description": "Transportation reliability and speed directly affect customer service levels."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["E.1", "E.2", "E.5"],
+        "relationship_distractors": ["E.4", "E.6"]
+      }
+    },
+    {
+      "id": "E.4",
+      "topic": "Explain the role and cost of warehouses in supply chain management.",
+      "scenario": "A regional organic grocery chain in the Pacific Northwest is debating whether to lease a 200,000-square-foot facility near Portland or two smaller facilities in Seattle and Boise. The finance team projects annual rent, utilities, and insurance at $1.8 million for the single site versus $2.4 million for the two-site option, but the two-site model could cut average delivery time from 3 days to 1.5 days. The operations team must analyze whether the added expense is justified.",
+      "scenario_context": "organic grocery, facility strategy",
+      "explanation": "This scenario highlights the strategic role and cost trade-offs of storage facilities in the supply chain. The decision involves balancing storage costs (rent, utilities, insurance) against improved delivery speed and coverage. Choosing between a centralized or decentralized facility model illustrates how the location and number of these facilities directly influence both operating expenses and the ability to fulfill orders quickly for end customers.",
+      "key_terms": [
+        "distribution center",
+        "order fulfillment",
+        "storage costs",
+        "handling costs",
+        "warehouse management system",
+        "cross-docking"
+      ],
+      "sources": [
+        {
+          "url": "https://spherewms.com/blog/warehousing-in-supply-chain-management",
+          "title": "Warehousing in Supply Chain Management: Key Roles & Benefits",
+          "site": "SphereWMS"
+        },
+        {
+          "url": "https://proconnectlogistics.com/blog/understanding-the-components-of-warehousing-costs/",
+          "title": "Understanding the Components of Warehousing Costs",
+          "site": "ProConnect Integrated Logistics"
+        },
+        {
+          "url": "https://www.withvector.com/blog/role-of-warehousing-in-supply-chain-management-examples/",
+          "title": "Role Of Warehousing In Supply Chain Management + Examples",
+          "site": "Vector"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.2",
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and enable inventory management practices."
+        },
+        {
+          "target_id": "E.3",
+          "type": "related_to",
+          "description": "Warehouse location decisions directly impact transportation costs and delivery times."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["E.1", "E.3", "E.5"],
+        "relationship_distractors": ["E.2", "E.3"]
+      }
+    },
+    {
+      "id": "E.5",
+      "topic": "Explain the process for product returns.",
+      "scenario": "A consumer electronics company selling smart home devices online sees 22% of its video doorbells sent back by customers within 30 days. Returned units arrive at a processing center where technicians sort them: roughly 40% are resold as open-box, 30% are repaired and resold at a discount, 20% are broken down for component recovery, and 10% go to a certified e-waste partner. The VP of operations wants to reduce the cost of this backward flow, which currently runs $4.5 million per year.",
+      "scenario_context": "consumer electronics, post-sale operations",
+      "explanation": "This scenario demonstrates the process of moving goods from customers back through the supply chain to recapture value. The sorting into resale, repair, component recovery, and e-waste disposal represents the key stages of inspection, categorization, and disposition. The VP's cost concern highlights that managing this backward flow is a significant operational expense requiring efficient collection, evaluation, and routing systems.",
+      "key_terms": [
+        "reverse logistics",
+        "returns management",
+        "product disposition",
+        "refurbishment",
+        "recycling",
+        "return authorization"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/reverse-logistics/",
+          "title": "Reverse Logistics: What it is and why it matters in SCM",
+          "site": "ASCM/APICS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/reverse-logistics.shtml",
+          "title": "A Guide to Reverse Logistics: How It Works, Types and Strategies",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.reverselogix.com/industry-updates/returns-management-vs-reverse-logistics-understanding-the-difference/",
+          "title": "Returns Management vs Reverse Logistics: Understanding The Difference",
+          "site": "ReverseLogix"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.6",
+          "type": "related_to",
+          "description": "An efficient returns process is a key component of customer service and satisfaction."
+        },
+        {
+          "target_id": "E.3",
+          "type": "related_to",
+          "description": "Returns require reverse transportation from customer back to return centers or manufacturers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["E.1", "E.2", "E.4"],
+        "relationship_distractors": ["E.6", "E.3"]
+      }
+    },
+    {
+      "id": "E.6",
+      "topic": "Describe the importance of customer service in a supply chain.",
+      "scenario": "A specialty running shoe brand ships direct-to-consumer from its Tennessee facility. After switching to a lower-cost carrier, on-time arrivals drop from 96% to 81%, and the company's Net Promoter Score falls 18 points in one quarter. Monthly repeat purchase rates decline by 12%, and social media complaints about late and incorrect orders triple. The CEO asks the supply chain team to diagnose what went wrong and quantify the business impact.",
+      "scenario_context": "athletic footwear, direct-to-consumer retail",
+      "explanation": "This scenario shows how the quality of end-customer interactions driven by supply chain performance directly affects business outcomes. The decline in on-time arrivals, order accuracy, and responsiveness triggered lower satisfaction scores, reduced repeat purchases, and reputational damage. It illustrates that every upstream supply chain decision ultimately manifests in the customer's experience, and poor performance at this final stage undermines the entire chain's value.",
+      "key_terms": [
+        "customer satisfaction",
+        "order fulfillment",
+        "service level",
+        "customer retention",
+        "on-time delivery",
+        "product availability"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx",
+          "title": "The Importance of Supply Chain Management",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "E.3",
+          "type": "related_to",
+          "description": "Transportation reliability directly impacts customer service through on-time delivery performance."
+        },
+        {
+          "target_id": "E.5",
+          "type": "related_to",
+          "description": "A smooth product returns process enhances overall customer service and satisfaction."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["E.1", "E.2", "E.4"],
+        "relationship_distractors": ["E.3", "E.5"]
+      }
+    }
+  ]
+}

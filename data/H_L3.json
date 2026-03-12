@@ -1,0 +1,380 @@
+{
+  "section_id": "H",
+  "section_title": "Production Planning and Control",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "H.1",
+      "topic": "Describe different types of supply chain management planning.",
+      "scenario": "A mid-sized consumer electronics company is struggling because its VP of Operations sets annual supplier contracts and warehouse locations, its regional managers create quarterly production targets for seasonal product launches, and its floor supervisors handle daily shipment routing and staffing adjustments -- but none of these groups communicate or align their decisions with each other. The CEO asks a consultant to diagnose why the company keeps missing product launch dates despite having strong individual teams.",
+      "scenario_context": "consumer electronics, organizational alignment",
+      "explanation": "This scenario demonstrates the three levels of supply chain planning -- strategic, tactical, and operational -- and the critical need for alignment among them. The VP handles long-term architectural decisions, regional managers handle medium-term production coordination, and supervisors handle daily execution. The dysfunction arises because the three levels are not integrated, illustrating why all planning tiers must work in concert.",
+      "key_terms": [
+        "strategic planning",
+        "tactical planning",
+        "operational planning",
+        "demand planning",
+        "sales and operations planning"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.2",
+          "type": "related_to",
+          "description": "Static and dynamic planning are approaches applied within these planning levels."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule is a key output of tactical planning."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["H.2", "H.3", "H.4"],
+        "relationship_distractors": ["H.2", "H.3"]
+      }
+    },
+    {
+      "id": "H.2",
+      "topic": "Define Static vs. Dynamic Planning.",
+      "scenario": "A craft brewery's production manager generates a weekly brew schedule every Monday morning based on current orders and forecasts, then locks it in for the entire week regardless of new orders that arrive. A competing brewery uses an ERP system that automatically recalculates its brew schedule whenever a new distributor order is placed or a hop shipment is delayed. The first brewery has predictable operations but frequently either overproduces or runs out of popular seasonal ales, while the second adapts quickly but requires more disciplined data entry from its staff.",
+      "scenario_context": "craft brewing, production scheduling",
+      "explanation": "This scenario contrasts two planning approaches: one that fixes the plan at a point in time and holds it stable until the next cycle, and one that continuously recalculates as conditions change. The first brewery exemplifies a fixed-plan approach with regenerative updates, while the second uses incremental recalculation triggered by data changes. The tradeoffs of stability versus agility are central to understanding when each approach is most appropriate.",
+      "key_terms": [
+        "static planning",
+        "dynamic planning",
+        "net change",
+        "regenerative planning",
+        "master data"
+      ],
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/deprecated-master-plans",
+          "title": "Set up master plans for the deprecated planning engine",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.goarmstrong.com/resources/risk-of-static-supply-chain/",
+          "title": "Static vs. Dynamic Supply Chains: The Path to Resilience",
+          "site": "Armstrong"
+        },
+        {
+          "url": "https://fareye.com/resources/blogs/static-vs-dynamic-route-planning",
+          "title": "Static Route vs Dynamic Route Planning: A Practical Guide",
+          "site": "FarEye"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.1",
+          "type": "related_to",
+          "description": "Static and dynamic are planning approaches used within the broader types of SCM planning."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule can be managed using either static or dynamic planning methods."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["H.1", "H.3", "H.5"],
+        "relationship_distractors": ["H.1", "H.3"]
+      }
+    },
+    {
+      "id": "H.3",
+      "topic": "Explain how a master production schedule is determined.",
+      "scenario": "A furniture manufacturer receives a large retail chain order for 5,000 dining sets to be delivered over the next quarter. The operations director must reconcile this new order against existing customer commitments, available warehouse stock of 800 partially matching sets, supplier lead times for hardwood lumber averaging 6 weeks, upholstery fabric availability, and the factory's maximum weekly assembly capacity of 600 sets. She also needs to decide how far into the future to lock the build sequence to avoid disruptions from last-minute changes.",
+      "scenario_context": "furniture manufacturing, production coordination",
+      "explanation": "This scenario illustrates the process of creating a detailed build plan that specifies what products will be manufactured, in what quantities, and when. The operations director must synthesize demand inputs (the retail order plus backlog), inventory positions, material lead times, and capacity constraints into a specific schedule. The need to lock the near-term sequence reflects the concept of time fences that protect production stability while allowing longer-term flexibility.",
+      "key_terms": [
+        "master production schedule",
+        "MPS",
+        "planning horizon",
+        "time fence",
+        "material requirements planning",
+        "demand forecast"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.1",
+          "type": "related_to",
+          "description": "The MPS is a key output of tactical-level supply chain planning."
+        },
+        {
+          "target_id": "H.4",
+          "type": "related_to",
+          "description": "The MPS uses the bill of materials to determine component and material requirements."
+        },
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["H.1", "H.2", "H.4"],
+        "relationship_distractors": ["H.1", "H.4"]
+      }
+    },
+    {
+      "id": "H.4",
+      "topic": "Define Bill of Material (BOM).",
+      "scenario": "An electric bicycle startup is preparing to scale production from 50 to 500 units per month. The engineering team maintains a document listing every component needed for each model -- from the lithium battery pack and brushless motor down to individual bolts and wiring harnesses. When the procurement manager tries to place bulk orders, she discovers the document only shows top-level parts and does not break down the motor assembly into its sub-components, causing her to miss ordering critical bearings and controller boards that have 10-week lead times.",
+      "scenario_context": "electric bicycle manufacturing, production scaling",
+      "explanation": "This scenario demonstrates the importance of a structured, hierarchical parts listing for manufacturing. The startup's document captures immediate components (a single-level view) but fails to reveal the deeper hierarchy of sub-assemblies and their constituent parts (a multi-level view). The procurement failure illustrates why a complete, indented structure showing every layer of components is essential for accurate material planning and purchasing.",
+      "key_terms": [
+        "bill of materials",
+        "BOM",
+        "single-level BOM",
+        "multi-level BOM",
+        "material requirements planning",
+        "product structure"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/bills-of-material",
+          "title": "Bills of Material (BOM) In the Supply Chain",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/bill-of-materials-bom.shtml",
+          "title": "What Is a Bill of Materials (BOM)? The Complete Guide to BOMs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://gainsystems.com/blog/bill-of-materials-bom-in-supply-chain-management-impacts-and-examples/",
+          "title": "Bill of Materials (BOM) in Supply Chain Management: Impacts and Examples",
+          "site": "Gain Systems"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The BOM is used to explode the MPS into detailed material requirements."
+        },
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "The BOM specifies the raw materials needed for production."
+        },
+        {
+          "target_id": "H.6",
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["H.3", "H.5", "H.6"],
+        "relationship_distractors": ["H.3", "H.5"]
+      }
+    },
+    {
+      "id": "H.5",
+      "topic": "Describe raw materials required for supply chain management.",
+      "scenario": "A pharmaceutical company sources active pharmaceutical ingredients from two chemical suppliers in India and excipients like gelatin capsule shells from a domestic vendor. When a monsoon season disrupts shipping from one Indian supplier, the production line for a critical blood pressure medication halts for three weeks. The supply chain director must also account for machine lubricants and cleanroom filters that keep the production environment operational, even though these items never become part of the pills patients receive.",
+      "scenario_context": "pharmaceutical manufacturing, supply disruption",
+      "explanation": "This scenario illustrates the two categories of production inputs: those that physically become part of the end product (active ingredients and capsule shells) and those that support the manufacturing process without entering the product (lubricants and filters). The supply disruption highlights the importance of managing unprocessed inputs at the start of the production chain, including safety stock strategies and dual-sourcing to prevent downstream production shutdowns.",
+      "key_terms": [
+        "raw materials",
+        "direct materials",
+        "indirect materials",
+        "procurement",
+        "raw materials inventory",
+        "safety stock"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.4",
+          "type": "related_to",
+          "description": "The BOM specifies which raw materials are required and in what quantities."
+        },
+        {
+          "target_id": "H.6",
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter the production process."
+        },
+        {
+          "target_id": "H.7",
+          "type": "related_to",
+          "description": "Raw materials are transformed through production into finished goods."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["H.4", "H.6", "H.7"],
+        "relationship_distractors": ["H.4", "H.6"]
+      }
+    },
+    {
+      "id": "H.6",
+      "topic": "Describe work-in-process for supply chain management.",
+      "scenario": "A shipyard building commercial fishing vessels notices that hulls in various stages of welding and outfitting are occupying all six of its dry docks for an average of 14 months each, up from 9 months two years ago. The CFO reports that $12 million in labor, steel, and equipment costs are tied up in these incomplete vessels, and the production manager observes that welders frequently wait idle because electrical wiring teams have not finished their upstream tasks. The CEO wants to understand why cash flow has deteriorated and delivery timelines have slipped.",
+      "scenario_context": "shipbuilding, production bottleneck analysis",
+      "explanation": "This scenario illustrates partially completed inventory sitting on the production floor -- vessels that have consumed significant materials, labor, and overhead but cannot yet generate revenue. The growing time hulls spend in incomplete states signals bottlenecks and poor workflow coordination, which increase carrying costs and reduce cash flow. The idle welders waiting on upstream tasks demonstrate how excess partially completed inventory creates cascading inefficiencies throughout the production cycle.",
+      "key_terms": [
+        "work-in-process",
+        "WIP",
+        "in-process inventory",
+        "production cycle",
+        "lead time",
+        "carrying costs"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Work_in_process",
+          "title": "Work in process",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-11/the-monthly-metric-work-in-process-inventory/",
+          "title": "The Monthly Metric: Work-in-Process Inventory",
+          "site": "ISM (Institute for Supply Management)"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/accounting/work-in-process.shtml",
+          "title": "What is Work in Process?",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter manufacturing."
+        },
+        {
+          "target_id": "H.7",
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule drives the flow of WIP through the production process."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["H.5", "H.7", "H.3"],
+        "relationship_distractors": ["H.5", "H.7"]
+      }
+    },
+    {
+      "id": "H.7",
+      "topic": "Define finished goods and the goal to move those goods.",
+      "scenario": "A seasonal sporting goods manufacturer has 15,000 pairs of ski boots that have passed final quality inspection and are sitting in its Colorado warehouse in late August. The logistics director knows that retailer shelves must be stocked by mid-October for the ski season, but the warehouse is also incurring $0.85 per pair per week in storage, insurance, and depreciation costs. She must decide between shipping everything immediately via less-than-truckload freight at higher per-unit cost or waiting to consolidate full truckloads, risking late delivery to some retail partners.",
+      "scenario_context": "seasonal sporting goods, distribution logistics",
+      "explanation": "This scenario focuses on completed, inspection-passed products awaiting sale and the urgency of moving them to customers efficiently. The ski boots represent inventory where all production investment has been made but no revenue is realized until delivery occurs. The logistics director's dilemma between speed and cost illustrates the core goal of minimizing the time products spend as idle stock while balancing holding costs against transportation economics.",
+      "key_terms": [
+        "finished goods",
+        "finished goods inventory",
+        "order fulfillment",
+        "distribution",
+        "holding costs",
+        "customer service level"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/finished-goods-inventory/",
+          "title": "Finished Goods Inventory: What It Is, Formula, and Examples",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.fishbowlinventory.com/blog/what-are-finished-goods",
+          "title": "Finished Goods Inventory Management: A Guide + Formula",
+          "site": "Fishbowl"
+        },
+        {
+          "url": "https://www.ism.ws/logistics/types-of-inventory/",
+          "title": "Types of Inventory: Raw, WIP, Finished Goods Explained",
+          "site": "ISM (Institute for Supply Management)"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.6",
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        },
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "Finished goods are the end result of transforming raw materials through production."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule determines what finished goods will be produced and when."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["H.5", "H.6", "H.3"],
+        "relationship_distractors": ["H.6", "H.5"]
+      }
+    }
+  ]
+}

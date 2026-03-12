@@ -1,0 +1,787 @@
+{
+  "section_id": "A",
+  "section_title": "Essential Supply Chain Management Concepts",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "A.1",
+      "topic": "Define supply chain management",
+      "scenario": "A mid-sized electronics manufacturer is struggling because its procurement team negotiates contracts without consulting the production schedule, the warehouse ships products without knowing marketing's promotional calendar, and customer service has no visibility into inbound shipments. The CEO hires a VP to unify sourcing, production, warehousing, and distribution under a single coordinated strategy that aligns all channel partners from component suppliers to retail outlets.",
+      "scenario_context": "electronics manufacturing, cross-functional coordination",
+      "explanation": "This scenario demonstrates supply chain management because the CEO is addressing the need to plan, coordinate, and integrate all activities from sourcing through delivery across multiple channel partners. The fragmented functions being unified under one strategy is the hallmark of SCM, which synchronizes supply and demand within and across companies.",
+      "key_terms": [
+        "sourcing",
+        "procurement",
+        "logistics management",
+        "channel partners",
+        "supply and demand integration",
+        "coordination",
+        "collaboration"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.2",
+          "type": "includes",
+          "description": "SCM manages the entire supply chain from raw materials to end customer"
+        },
+        {
+          "target_id": "A.3",
+          "type": "includes",
+          "description": "Logistics is a key component of supply chain management"
+        },
+        {
+          "target_id": "A.9",
+          "type": "includes",
+          "description": "Logistics management is a subset function within SCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["A.3", "A.9", "A.4"],
+        "relationship_distractors": ["A.2", "A.9"]
+      }
+    },
+    {
+      "id": "A.2",
+      "topic": "Define the entire supply chain",
+      "scenario": "A frozen pizza company traces its product journey starting from wheat farms in Kansas, tomato growers in California, and dairy producers in Wisconsin. The ingredients move through processing plants, a central manufacturing facility, cold-storage warehouses, regional distribution centers, and finally onto refrigerated trucks that deliver to grocery stores where consumers make their purchase. A recalled batch requires tracing every step backward through this network.",
+      "scenario_context": "food manufacturing, product traceability",
+      "explanation": "This scenario illustrates the entire supply chain because it shows the complete network from raw material origins (farms) through transformation (processing, manufacturing) to the final consumer at the grocery store. The recall tracing further demonstrates the end-to-end, integrated nature of the network including reverse flows.",
+      "key_terms": [
+        "end-to-end",
+        "raw materials",
+        "end consumer",
+        "flow and transformation",
+        "integrated process",
+        "reverse logistics"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/end-to-end-supply-chain.shtml",
+          "title": "What Is an End-to-End Supply Chain?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://inchainge.com/knowledge/supply-chain/end-to-end/",
+          "title": "What is an end to end supply chain and its benefits?",
+          "site": "Inchainge"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "part_of",
+          "description": "The entire supply chain is what SCM manages and coordinates"
+        },
+        {
+          "target_id": "A.10",
+          "type": "includes",
+          "description": "The supply chain includes both physical and information flows"
+        },
+        {
+          "target_id": "A.3",
+          "type": "includes",
+          "description": "Logistics is a core function within the entire supply chain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["A.1", "A.9", "A.3"],
+        "relationship_distractors": ["A.1", "A.10"]
+      }
+    },
+    {
+      "id": "A.3",
+      "topic": "Define logistics",
+      "scenario": "A regional hospital system needs to move surgical gloves, IV fluids, and pharmaceutical products from multiple vendors' warehouses to 12 hospital locations across three states. The operations director is responsible for coordinating inbound shipments, managing a fleet of refrigerated trucks for temperature-sensitive items, storing inventory in a central distribution hub, and ensuring each facility receives the right supplies before stock runs out.",
+      "scenario_context": "healthcare, medical supply distribution",
+      "explanation": "This scenario demonstrates logistics because it focuses on the planning, implementation, and control of the forward flow and storage of goods from points of origin (vendor warehouses) to points of consumption (hospitals). The activities described -- transportation, fleet management, warehousing, and order fulfillment -- are core logistics functions.",
+      "key_terms": [
+        "forward and reverse flow",
+        "transportation",
+        "warehousing",
+        "inventory management",
+        "order fulfillment",
+        "point of origin",
+        "point of consumption"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Logistics",
+          "title": "Logistics",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "part_of",
+          "description": "Logistics is a key component within supply chain management"
+        },
+        {
+          "target_id": "A.4",
+          "type": "related_to",
+          "description": "Logistics directly impacts SCM performance and efficiency"
+        },
+        {
+          "target_id": "A.9",
+          "type": "related_to",
+          "description": "Logistics management is the formal discipline of managing logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["A.1", "A.9", "A.2"],
+        "relationship_distractors": ["A.1", "A.4"]
+      }
+    },
+    {
+      "id": "A.4",
+      "topic": "Explain how logistics impacts supply chain management",
+      "scenario": "An online furniture retailer invested heavily in optimizing its delivery network by consolidating shipments, renegotiating carrier contracts, and opening two regional distribution centers closer to major metro areas. Within six months, average delivery time dropped from 14 days to 5 days, shipping costs fell by 22%, and customer satisfaction scores rose from 3.2 to 4.6 out of 5. The company now wins repeat business that competitors with slower, more expensive delivery cannot match.",
+      "scenario_context": "e-commerce retail, furniture delivery optimization",
+      "explanation": "This scenario shows how logistics impacts supply chain management by demonstrating the direct link between transportation and warehousing optimization and broader business outcomes: cost reduction, faster delivery, higher customer satisfaction, and competitive advantage. These are the key ways logistics functions affect overall supply chain performance.",
+      "key_terms": [
+        "cost reduction",
+        "customer satisfaction",
+        "operational efficiency",
+        "competitive advantage",
+        "demand feedback",
+        "distribution network"
+      ],
+      "sources": [
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/the-importance-of-supply-chain-management-in-logistics/",
+          "title": "The Importance of Supply Chain Management in Logistics",
+          "site": "American Public University"
+        },
+        {
+          "url": "https://www.tadanow.com/blog/the-role-of-logistics-in-supply-chain-efficiency",
+          "title": "The Role of Logistics in Supply Chain Efficiency",
+          "site": "Tada"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.3",
+          "type": "related_to",
+          "description": "Builds on the definition of logistics to explain its impact"
+        },
+        {
+          "target_id": "A.1",
+          "type": "applies_to",
+          "description": "Explains how logistics functions affect overall SCM"
+        },
+        {
+          "target_id": "A.11",
+          "type": "related_to",
+          "description": "Logistics optimization is a key strategy for cost savings"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["A.9", "A.10", "A.3"],
+        "relationship_distractors": ["A.3", "A.11"]
+      }
+    },
+    {
+      "id": "A.5",
+      "topic": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading",
+      "scenario": "A U.S.-based direct-to-consumer skincare brand sources organic shea butter from Ghana and glass bottles from Italy. After a new 25% duty is imposed on certain African agricultural imports, the company's landed cost per unit jumps by $3.80. Simultaneously, updated packaging regulations in the EU require new documentation for glass exports, delaying Italian shipments by two weeks at the port. The founder is now evaluating whether to find domestic alternatives or absorb the higher costs and longer lead times.",
+      "scenario_context": "beauty industry, international sourcing compliance",
+      "explanation": "This scenario illustrates how tariffs, customs regulations, and legal requirements collectively impact global trading. The new duty increases costs, the documentation requirements cause delays, and the founder faces strategic decisions about sourcing -- all demonstrating how these factors shape cross-border commerce for businesses operating internationally.",
+      "key_terms": [
+        "tariffs",
+        "customs regulations",
+        "de minimis",
+        "import duties",
+        "trade compliance",
+        "geopolitical risk",
+        "e-commerce"
+      ],
+      "sources": [
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        },
+        {
+          "url": "https://dclcorp.com/blog/supply-chain/navigative-tariffs/",
+          "title": "Navigating Tariffs and International Shipping Costs for Ecommerce Businesses Going Global",
+          "site": "DCL Logistics"
+        },
+        {
+          "url": "https://www.easyship.com/blog/what-new-tariffs-mean-for-us-ecommerce-imports",
+          "title": "What New Tariffs Mean For U.S. eCommerce Imports",
+          "site": "Easyship"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.12",
+          "type": "related_to",
+          "description": "Global trading factors are part of the broader global impact on SCM"
+        },
+        {
+          "target_id": "A.13",
+          "type": "related_to",
+          "description": "Importing, exporting, and customs regulations are core elements of global trading"
+        },
+        {
+          "target_id": "A.3",
+          "type": "related_to",
+          "description": "Logistics is a key enabler of global trading operations"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["A.12", "A.13", "A.14"],
+        "relationship_distractors": ["A.12", "A.13"]
+      }
+    },
+    {
+      "id": "A.6",
+      "topic": "Analyze the creation of new value in the supply chain for customers, society, and the environment",
+      "scenario": "A European clothing manufacturer redesigns its operations so that factory wastewater is treated and reused, cutting water consumption by 60%. It partners with local NGOs to provide fair-wage certifications to its textile workers in Bangladesh. Customers receive garments with QR codes linking to transparency reports showing emissions data and worker conditions. The company's operating margins have increased by 4% as eco-conscious consumers pay a premium, and two municipalities near its factories report improved river water quality.",
+      "scenario_context": "fashion industry, sustainable manufacturing",
+      "explanation": "This scenario demonstrates value creation across the triple bottom line: customers gain transparency and quality products, society benefits from fair wages and community improvements, and the environment benefits from reduced water use and pollution. The financial outperformance tied to these practices reflects how stakeholder-focused strategies generate measurable benefits across all three dimensions.",
+      "key_terms": [
+        "value creation",
+        "sustainability",
+        "triple bottom line",
+        "ESG",
+        "stakeholder value",
+        "environmental stewardship",
+        "social responsibility"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2025/09/five-reasons-why-sustainable-value-chains-are-good-for-business/",
+          "title": "Why sustainable value chains are good for business",
+          "site": "World Economic Forum"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "applies_to",
+          "description": "Value creation is a core objective of supply chain management"
+        },
+        {
+          "target_id": "A.12",
+          "type": "related_to",
+          "description": "Global operations amplify both the opportunity and responsibility for value creation"
+        },
+        {
+          "target_id": "A.7",
+          "type": "related_to",
+          "description": "Value creation applies differently across various industries"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "hard",
+        "distractor_ids": ["A.11", "A.14", "A.7"],
+        "relationship_distractors": ["A.1", "A.12"]
+      }
+    },
+    {
+      "id": "A.7",
+      "topic": "Explain how supply chain management is practiced in a wide array of industries",
+      "scenario": "Three companies face distinct operational challenges. A hospital system struggles with expired medications sitting on shelves while critical drugs are backordered. An automotive plant halts its assembly line because a single bolt supplier missed a delivery window by four hours. A grocery chain discards 15% of its fresh produce because replenishment cycles do not account for regional weather patterns affecting consumer buying habits. Each organization applies the same core principles of coordination, planning, and partner alignment but must tailor its approach to its specific products and regulations.",
+      "scenario_context": "healthcare, automotive, grocery retail",
+      "explanation": "This scenario illustrates how supply chain principles are practiced across diverse industries. Each sector faces unique challenges -- pharmaceutical shelf life, just-in-time automotive assembly, and perishable food distribution -- yet all require the same foundational coordination and planning. The variation in regulatory environments, product characteristics, and customer expectations forces each industry to adapt common principles to its context.",
+      "key_terms": [
+        "healthcare SCM",
+        "retail SCM",
+        "manufacturing SCM",
+        "just-in-time",
+        "collaborative forecasting",
+        "industry adaptation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK22867/",
+          "title": "Supply-Chain Management and Health Care Delivery",
+          "site": "NCBI Bookshelf"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.medline.com/strategies/supply-chain/healthcare-supply-chain-management-critical-role/",
+          "title": "The crucial role of healthcare supply chain management",
+          "site": "Medline"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "applies_to",
+          "description": "Demonstrates how SCM principles are applied across industries"
+        },
+        {
+          "target_id": "A.6",
+          "type": "related_to",
+          "description": "Value creation varies by industry context"
+        },
+        {
+          "target_id": "A.8",
+          "type": "related_to",
+          "description": "Demand forecasting methods vary by industry"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["A.1", "A.6", "A.8"],
+        "relationship_distractors": ["A.1", "A.6"]
+      }
+    },
+    {
+      "id": "A.8",
+      "topic": "Explain demand forecasting",
+      "scenario": "A toy company analyzes three years of weekly sales data and notices that construction-themed playsets spike 40% in the four weeks before the December holiday season, while outdoor water toys peak in late May. The planning team feeds this data into a statistical model that also weighs current social media trends and upcoming movie tie-in releases. Based on the output, they adjust production orders eight weeks in advance and set minimum stock thresholds at each regional warehouse to prevent empty shelves without overloading storage capacity.",
+      "scenario_context": "toy industry, seasonal sales planning",
+      "explanation": "This scenario demonstrates demand forecasting because the company uses historical sales data, statistical models, and market trend analysis to predict future customer demand for specific product lines. The resulting decisions about production timing and safety stock levels at warehouses are direct applications of forecast outputs, helping avoid both overproduction and stockouts.",
+      "key_terms": [
+        "historical data",
+        "statistical models",
+        "bullwhip effect",
+        "inventory optimization",
+        "safety stock",
+        "demand planning"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "part_of",
+          "description": "Demand forecasting is a key process within supply chain management"
+        },
+        {
+          "target_id": "A.10",
+          "type": "related_to",
+          "description": "Information flows provide data essential for demand forecasting"
+        },
+        {
+          "target_id": "A.11",
+          "type": "related_to",
+          "description": "Accurate forecasting is a strategic approach to reducing costs"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["A.10", "A.11", "A.14"],
+        "relationship_distractors": ["A.1", "A.10"]
+      }
+    },
+    {
+      "id": "A.9",
+      "topic": "Define logistics management",
+      "scenario": "A regional beverage distributor's operations director oversees a team that sets quarterly goals for on-time delivery rates, selects and contracts with carriers, monitors real-time GPS data from 85 delivery trucks, manages a 200,000-square-foot cold-storage facility, and reviews weekly performance dashboards comparing actual delivery costs against budgeted targets. When a snowstorm disrupts routes in the northeast corridor, the director activates contingency plans that reroute shipments through alternative carriers within four hours.",
+      "scenario_context": "beverage distribution, operational oversight",
+      "explanation": "This scenario demonstrates logistics management because it shows the three core phases -- planning (setting quarterly goals, selecting carriers), implementation (executing deliveries, managing the warehouse), and control (monitoring dashboards, activating contingency plans). The director's role as an integrating function coordinating transportation, warehousing, and performance monitoring at strategic and tactical levels is the defining characteristic of this discipline.",
+      "key_terms": [
+        "planning",
+        "implementation",
+        "control",
+        "forward and reverse flow",
+        "third-party logistics",
+        "integrating function",
+        "strategic, operational, tactical"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://scmedu.org/logisticsmanagement/",
+          "title": "What is Logistics Management as defined by CSCMP?",
+          "site": "SCM EDU"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "part_of",
+          "description": "Logistics management is a subset of supply chain management"
+        },
+        {
+          "target_id": "A.3",
+          "type": "includes",
+          "description": "Logistics management is the formal discipline governing logistics activities"
+        },
+        {
+          "target_id": "A.4",
+          "type": "prerequisite_for",
+          "description": "Understanding logistics management is needed to understand its impact on SCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["A.1", "A.3", "A.4"],
+        "relationship_distractors": ["A.1", "A.3"]
+      }
+    },
+    {
+      "id": "A.10",
+      "topic": "Define physical and information flows",
+      "scenario": "A semiconductor manufacturer ships wafers from its fabrication plant in Taiwan to an assembly facility in Malaysia, where they are packaged into chips and forwarded to a contract electronics manufacturer in Mexico. Simultaneously, the assembly facility transmits real-time yield data back to Taiwan so engineers can adjust production parameters, while the Mexican factory sends updated order quantities and delivery schedules to both upstream partners. A delay at Malaysian customs is instantly visible to all three sites through a shared tracking platform.",
+      "scenario_context": "semiconductor manufacturing, multi-site coordination",
+      "explanation": "This scenario illustrates both physical and information flows operating together. The wafers moving from Taiwan to Malaysia to Mexico represent the forward physical flow of goods through the supply chain. The yield data, order quantities, and tracking updates traveling in multiple directions between partners represent the bidirectional information flow that enables coordination and decision-making across the network.",
+      "key_terms": [
+        "material flow",
+        "physical flow",
+        "information flow",
+        "upstream",
+        "downstream",
+        "bidirectional",
+        "coordination"
+      ],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-flow/",
+          "title": "What is Supply Chain Flow? Processes + Information Flow",
+          "site": "ShipBob"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.2",
+          "type": "part_of",
+          "description": "Physical and information flows are core components of the entire supply chain"
+        },
+        {
+          "target_id": "A.3",
+          "type": "related_to",
+          "description": "Logistics manages the physical flow of goods"
+        },
+        {
+          "target_id": "A.8",
+          "type": "related_to",
+          "description": "Information flows provide data needed for demand forecasting"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["A.3", "A.8", "A.2"],
+        "relationship_distractors": ["A.2", "A.8"]
+      }
+    },
+    {
+      "id": "A.11",
+      "topic": "Define strategic orientation for saving money within an organization",
+      "scenario": "A national restaurant chain's CFO launches a company-wide initiative after discovering that each of its 300 locations independently orders cleaning supplies, produce, and packaging from different vendors at varying prices. The initiative consolidates purchasing across all locations, automates reorder triggers based on usage patterns, renegotiates contracts with a shortlist of preferred vendors, and sets par-level inventory targets to eliminate the $2.1 million in annual waste from expired perishables. Within one year, total procurement spending drops by 18%.",
+      "scenario_context": "restaurant chain, enterprise cost reduction",
+      "explanation": "This scenario demonstrates a strategic orientation for saving money because the CFO takes a deliberate, systematic approach to eliminating excess costs across the organization. The initiative uses supplier consolidation, process automation, demand-based reordering, and inventory control -- all hallmarks of a structured cost reduction strategy rather than ad hoc penny-pinching.",
+      "key_terms": [
+        "cost reduction",
+        "process optimization",
+        "automation",
+        "supplier management",
+        "inventory control",
+        "strategic sourcing",
+        "cost-to-serve"
+      ],
+      "sources": [
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        },
+        {
+          "url": "https://www.ey.com/en_us/coo/rapid-supply-chain-cost-reduction-strategies",
+          "title": "Rapid supply chain cost reduction strategies",
+          "site": "EY"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "applies_to",
+          "description": "Cost saving strategies are applied within supply chain management"
+        },
+        {
+          "target_id": "A.8",
+          "type": "related_to",
+          "description": "Demand forecasting is a key tool for strategic cost savings"
+        },
+        {
+          "target_id": "A.4",
+          "type": "related_to",
+          "description": "Logistics efficiency is a primary driver of cost savings"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "easy",
+        "distractor_ids": ["A.8", "A.6", "A.4"],
+        "relationship_distractors": ["A.1", "A.8"]
+      }
+    },
+    {
+      "id": "A.12",
+      "topic": "Describe the global impact on supply chain management",
+      "scenario": "A German power tool manufacturer that previously sourced all components domestically decides to open a factory in Vietnam and contract with suppliers in India and Brazil. Within two years, the company accesses lower labor costs and new Asian markets, but faces unexpected challenges: a monsoon floods its Vietnamese facility for three weeks, Indian suppliers deliver components that do not meet German quality certifications, and Brazilian partners communicate primarily in Portuguese, causing specification misunderstandings that result in two product recalls.",
+      "scenario_context": "industrial manufacturing, international expansion",
+      "explanation": "This scenario illustrates the global impact on supply chain management by showing both the opportunities (lower costs, new markets) and challenges (natural disaster risk, regulatory mismatches, cultural and communication barriers) that arise when operations span multiple countries. The cascading effects of geopolitical and environmental factors on a previously domestic operation demonstrate how globalization reshapes supply chain complexity.",
+      "key_terms": [
+        "globalization",
+        "geopolitical risk",
+        "market expansion",
+        "cultural differences",
+        "supply chain resilience",
+        "multi-supplier sourcing",
+        "trade barriers"
+      ],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/global-supply-chain-what-it-is-importance-and-challenges/",
+          "title": "What Is the Global Supply Chain? Importance, Functions & Key Challenges",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.5",
+          "type": "includes",
+          "description": "Global impact encompasses e-commerce, tariffs, customs, and legal aspects"
+        },
+        {
+          "target_id": "A.13",
+          "type": "related_to",
+          "description": "Understanding trade regulations is essential for managing global supply chains"
+        },
+        {
+          "target_id": "A.14",
+          "type": "related_to",
+          "description": "Globalization is a key driver of SCM growth"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["A.5", "A.14", "A.13"],
+        "relationship_distractors": ["A.5", "A.13"]
+      }
+    },
+    {
+      "id": "A.13",
+      "topic": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management",
+      "scenario": "A Canadian bicycle manufacturer wants to sell its products in the EU and Mexico. The trade compliance team discovers that under a recently signed bilateral agreement, bicycle frames shipped to Mexico qualify for zero-duty treatment if at least 60% of components originate in North America. However, shipments to France require CE safety certification, specific labeling in French, and a customs broker who can navigate EU harmonized tariff codes. A first shipment is held at the port of Le Havre for 11 days because the commercial invoice lists incorrect HS codes, costing the company $47,000 in storage fees and missed retail commitments.",
+      "scenario_context": "bicycle manufacturing, cross-border trade compliance",
+      "explanation": "This scenario demonstrates the importance of understanding trade agreements, customs regulations, and import/export requirements. The zero-duty opportunity under the bilateral agreement shows how trade knowledge creates cost advantages, while the detained French shipment illustrates how poor documentation and customs understanding leads to costly delays. Both situations show that trade compliance directly affects costs, lead times, and market access.",
+      "key_terms": [
+        "free trade agreements",
+        "customs regulations",
+        "importing",
+        "exporting",
+        "trade compliance",
+        "border clearance",
+        "documentation"
+      ],
+      "sources": [
+        {
+          "url": "https://reidellawfirm.com/how-international-trade-law-affects-supply-chain-management/",
+          "title": "How International Trade Law Affects Supply Chain Management",
+          "site": "Reidel Law Firm"
+        },
+        {
+          "url": "https://www.bdo.com/insights/tax/why-trade-customs-planning-needs-higher-importance-in-supply-chain-management",
+          "title": "Why Trade & Customs Planning Needs Higher Importance in Supply Chain Management",
+          "site": "BDO"
+        },
+        {
+          "url": "https://www.novocargo.com/en/customs-logistics/",
+          "title": "The impact of Customs on Logistics and Supply Chain management",
+          "site": "Novocargo"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.5",
+          "type": "related_to",
+          "description": "Trade regulations are key legal aspects impacting global trading"
+        },
+        {
+          "target_id": "A.12",
+          "type": "related_to",
+          "description": "Trade knowledge is critical for managing global supply chain impacts"
+        },
+        {
+          "target_id": "A.1",
+          "type": "applies_to",
+          "description": "Trade and customs knowledge is applied within SCM practice"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "medium",
+        "distractor_ids": ["A.5", "A.12", "A.14"],
+        "relationship_distractors": ["A.5", "A.12"]
+      }
+    },
+    {
+      "id": "A.14",
+      "topic": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)",
+      "scenario": "In 1995, a mid-sized American shoe company managed orders via fax machines and phone calls, competed mainly against three domestic rivals, and treated its leather suppliers as interchangeable vendors. By 2025, the same company uses a cloud-based platform that shares real-time sales data with its Vietnamese manufacturer, competes against 200 global brands selling online to the same customers, and co-develops new materials through a long-term partnership with its tannery supplier -- sharing R&D costs and jointly forecasting seasonal demand. The company's CEO notes that without these three transformations, the business would not have survived.",
+      "scenario_context": "footwear industry, business evolution over decades",
+      "explanation": "This scenario demonstrates the three drivers of supply chain management growth. The shift from fax machines to real-time cloud data sharing represents the information revolution. The expansion from three domestic competitors to 200 global brands illustrates increased competition in globalized markets. The evolution from treating suppliers as interchangeable vendors to co-developing products through long-term partnerships exemplifies the shift toward relationship management and collaboration.",
+      "key_terms": [
+        "information revolution",
+        "globalized markets",
+        "relationship management",
+        "supply chain integration",
+        "competitive advantage",
+        "collaboration",
+        "global value chains"
+      ],
+      "sources": [
+        {
+          "url": "https://transportgeography.org/contents/chapter7/logistics-freight-distribution/evolution-supply-chain-management/",
+          "title": "The Evolution of Supply Chain Management",
+          "site": "The Geography of Transport Systems"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s41062-023-01331-2",
+          "title": "The impact of globalisation processes on supply chain management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "Globalization And Supply Chain Management in 2025",
+          "site": "Flowspace"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "A.1",
+          "type": "related_to",
+          "description": "Explains the factors that drove the growth and importance of SCM"
+        },
+        {
+          "target_id": "A.12",
+          "type": "related_to",
+          "description": "Globalization is both a driver of SCM growth and a source of global impact"
+        },
+        {
+          "target_id": "A.10",
+          "type": "related_to",
+          "description": "The information revolution transformed how information flows in supply chains"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_ids": ["A.12", "A.6", "A.10"],
+        "relationship_distractors": ["A.1", "A.12"]
+      }
+    }
+  ]
+}
