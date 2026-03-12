@@ -1,0 +1,296 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-11T00:00:00Z",
+  "concepts": [
+    {
+      "id": "F.1",
+      "topic": "Determine what products to sell",
+      "action_verb": "determine",
+      "definition": "Like a chef designing a menu around what diners crave and what the kitchen can execute, determining what products to sell means evaluating market demand, customer needs, and capabilities to choose which offerings to bring to market. When Steve Jobs returned to Apple, he cut product lines from 15 to 3, proving disciplined product selection can transform a company.",
+      "explanation": "Think of this process like curating a restaurant menu: you cannot serve everything, so you pick dishes that match customer tastes, use available ingredients efficiently, and play to your kitchen's strengths. Companies use tools like the BCG Growth-Share Matrix, customer surveys, demand forecasting, and competitive analysis to evaluate which products deserve a spot on the shelf. Apple's turnaround is the textbook example: when Steve Jobs returned in 1997, he eliminated 70% of products and closed two divisions, focusing resources on a handful of high-potential items. That ruthless product selection enabled the company to channel investment into the iMac, iPod, and later the iPhone. Why it matters: every product you choose to sell drives downstream supply chain decisions about sourcing, production capacity, inventory levels, and distribution. Selling the wrong products wastes resources; selling the right ones creates a multiplier effect across the entire operation. Cross-functional coordination among purchasing, operations, marketing, and sales is essential because the decision to sell a product commits the supply chain to support it end to end.",
+      "key_terms": [
+        "market analysis",
+        "demand forecasting",
+        "product selection",
+        "competitive landscape",
+        "cross-functional coordination",
+        "BCG matrix"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.2",
+          "type": "related_to",
+          "description": "Product selection depends on understanding what products are used and sold by the business"
+        },
+        {
+          "target_id": "F.3",
+          "type": "applies_to",
+          "description": "The product portfolio is the output of determining what products to sell"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["F.3", "F.4"]
+      }
+    },
+    {
+      "id": "F.2",
+      "topic": "How a company determines what products are used and sold by a business",
+      "action_verb": "explain",
+      "definition": "Like a doctor running diagnostic tests to assess a patient's health, this analytical process evaluates sales data, customer buying behavior, and inventory turnover to determine which products are actively consumed or distributed. Amazon uses its Product Opportunity Explorer to analyze search trends, purchase behavior, and pricing in real time, showing sellers exactly what customers buy.",
+      "explanation": "Imagine a librarian tracking which books are borrowed most, which sit untouched for months, and which topics patrons keep requesting. That is essentially what companies do with their product data. Internally, businesses mine sales records, inventory turnover rates, and customer purchase histories to identify top performers and underperformers. Externally, they conduct market research through customer surveys, competitive analysis, and industry trend monitoring. Amazon exemplifies this at massive scale: its Product Opportunity Explorer tool lets sellers filter and sort demand data across search volume, purchasing behavior, competitive pricing, niche saturation, and customer reviews, turning raw data into actionable product decisions. Product lifecycle analysis adds another dimension, categorizing items by their maturity stage, from introduction through growth, maturity, and decline. Why it matters: without a clear picture of what products are actually moving, companies risk overstocking dead items and understocking winners. This ongoing assessment directly informs decisions about product development, discontinuation, and how resources are allocated across the supply chain.",
+      "key_terms": [
+        "sales data analysis",
+        "customer buying behavior",
+        "market research",
+        "product lifecycle",
+        "inventory turnover",
+        "resource allocation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.epicflow.com/blog/product-portfolio-management-what-it-is-and-why-it-matters-for-business-leaders/",
+          "title": "Product Portfolio Management: What It Is and Why It Matters for Business Leaders",
+          "site": "Epicflow"
+        },
+        {
+          "url": "https://www.productboard.com/blog/product-portfolio-management-101/",
+          "title": "Product Portfolio Management 101",
+          "site": "Productboard"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.1",
+          "type": "related_to",
+          "description": "Understanding current product usage informs decisions about what products to sell"
+        },
+        {
+          "target_id": "F.5",
+          "type": "prerequisite_for",
+          "description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["F.1", "F.5"]
+      }
+    },
+    {
+      "id": "F.3",
+      "topic": "Product portfolio",
+      "action_verb": "define",
+      "definition": "A product portfolio is the complete collection of products and services a company offers, analyzed collectively like an investment portfolio where you balance high-risk bets against steady earners. Procter & Gamble manages its portfolio across 10 categories from Fabric Care to Grooming, evaluating each brand's contribution much like a fund manager balancing stocks.",
+      "explanation": "Think of a product portfolio like an investment portfolio at a brokerage: just as a financial advisor balances stocks, bonds, and cash to manage risk and maximize returns, a company balances its mix of products to diversify revenue and avoid over-reliance on any single item. Procter & Gamble is a prime example: P&G organizes its portfolio across 10 daily-use categories and evaluates each brand using five vectors of superiority, covering product performance, packaging, brand communication, retail execution, and consumer value. This disciplined portfolio approach helped P&G grow market share even while shedding over 100 smaller brands between 2014 and 2017 to focus on top performers. The BCG Growth-Share Matrix is a classic framework for this analysis, classifying products as Stars (high growth, high share), Cash Cows (low growth, high share), Question Marks (high growth, low share), or Dogs (low growth, low share). Why it matters: viewing products collectively rather than individually reveals which items subsidize others, where to invest, and what to discontinue. Without portfolio-level thinking, companies risk pouring resources into underperformers while starving their best products of investment.",
+      "key_terms": [
+        "product portfolio",
+        "portfolio analysis",
+        "BCG Growth-Share Matrix",
+        "product mix",
+        "diversification",
+        "strategic alignment"
+      ],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.1",
+          "type": "related_to",
+          "description": "The product portfolio reflects the outcome of product selection decisions"
+        },
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "The Pareto principle helps analyze which items in the portfolio drive the most value"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["F.1", "F.4"]
+      }
+    },
+    {
+      "id": "F.4",
+      "topic": "The Pareto principle",
+      "action_verb": "explain",
+      "definition": "The Pareto principle, or 80/20 rule, states that roughly 80% of outcomes come from about 20% of causes, like how a small fraction of highway exits handle most traffic. Veterinary distributor Distrivet applied this principle to focus on its highest-impact products and achieved a 99% service level while reducing inventory by 17%, freeing up 5 million euros in working capital.",
+      "explanation": "Imagine a classroom where 20% of students ask 80% of the questions, or a closet where you wear 20% of your clothes 80% of the time. That imbalance is the Pareto principle at work, named after Italian economist Vilfredo Pareto, who first observed that about 20% of Italy's population held roughly 80% of the wealth. In supply chain management, this principle powers ABC analysis: Category A items (roughly 20% of SKUs) typically generate about 80% of total revenue, so they receive the most attention for forecasting, safety stock, and supplier management. Distrivet, a veterinary products distributor in Spain and Portugal, applied this approach by focusing its inventory management on the critical 20% of products driving the bulk of its business. The results were striking: service levels jumped by 16.5 percentage points to 99%, inventory shrank by 17% (freeing 5 million euros), and stock days fell by 40%. Why it matters: treating all products equally is a recipe for waste. The Pareto principle tells supply chain managers exactly where to concentrate limited resources: tightly manage the vital few A-items that drive revenue, apply moderate controls to B-items, and use simplified rules for the trivial many C-items that contribute little to the bottom line.",
+      "key_terms": [
+        "Pareto principle",
+        "80/20 rule",
+        "ABC analysis",
+        "Vilfredo Pareto",
+        "inventory classification",
+        "carrying costs"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.3",
+          "type": "applies_to",
+          "description": "The Pareto principle is used to analyze product portfolio performance and prioritize items"
+        },
+        {
+          "target_id": "F.5",
+          "type": "related_to",
+          "description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["F.3", "F.6"]
+      }
+    },
+    {
+      "id": "F.5",
+      "topic": "Slow-moving products headed toward obsolescence",
+      "action_verb": "identify",
+      "definition": "Slow-moving products are inventory items with low turnover and declining demand progressing toward obsolescence, where they lose all market value. BlackBerry's failure to recognize this pattern led to approximately $2.5 billion in inventory write-offs on unsold BlackBerry 10 devices in 2014, illustrating the costly progression from slow-moving to excess to obsolete inventory.",
+      "explanation": "Think of slow-moving inventory like fruit on a counter: the longer it sits, the less value it holds, and eventually it becomes worthless. In supply chain terms, products follow a progression from slow-moving (selling below expected rates) to excess (more stock than foreseeable demand) to fully obsolete (no market value at all). BlackBerry's collapse is a dramatic cautionary tale: as consumers shifted to touchscreen smartphones, demand for BlackBerry 10 devices evaporated, forcing the company to record approximately $934 million in inventory write-offs in Q2 of fiscal 2014, followed by another $1.6 billion in Q3 — nearly $2.5 billion destroyed by failing to act on declining product demand. The pattern repeated when Microsoft acquired Nokia and had to write down $7.5 billion in 2015 as Lumia phone sales fell far below expectations. Identifying slow-moving products requires monitoring key metrics such as inventory turnover ratios, days of supply, sales velocity trends, and product lifecycle stage. Early identification allows corrective action — price markdowns, promotional campaigns, product bundling, or planned phase-outs — before inventory loses all value. Why it matters: once inventory crosses the line into full obsolescence, it becomes a write-off that drains cash, consumes warehouse space, and cripples profitability. Companies that monitor SLOB (slow-moving and obsolete) inventory proactively can act while products still have residual demand.",
+      "key_terms": [
+        "slow-moving inventory",
+        "obsolete inventory",
+        "SLOB inventory",
+        "inventory turnover",
+        "product lifecycle",
+        "inventory write-off"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories"
+        },
+        {
+          "target_id": "F.6",
+          "type": "related_to",
+          "description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["F.4", "F.6"]
+      }
+    },
+    {
+      "id": "F.6",
+      "topic": "Importance of minimizing inventory during all stages of supply chain management",
+      "action_verb": "explain",
+      "definition": "Minimizing inventory across all supply chain stages is a strategic objective aimed at reducing tied-up capital and waste, much like stocking a kitchen with just enough ingredients for tonight's reservations instead of a month's worth that may spoil. Toyota pioneered this with just-in-time production, where parts arrive only when the assembly line needs them, slashing holding costs.",
+      "explanation": "Imagine running a bakery: if you buy a month of flour, eggs, and butter upfront, you tie up cash, fill your storage, and risk spoilage. Instead, the smartest bakers order ingredients to match each day's expected orders. That is the core logic behind minimizing inventory at every supply chain stage. Toyota's just-in-time production system is the most famous real-world application. Under the guidance of Taiichi Ohno, Toyota designed a system where raw materials only arrive at the factory when production is ready to begin. A windshield, for example, is not manufactured until all other vehicle components are ready for assembly. The Kanban card system signals exactly when a part should be replenished, ensuring nothing is produced or delivered until it is actually needed. This approach dramatically reduced Toyota's holding costs and virtually eliminated overproduction waste. Why it matters: inventory is one of the largest capital investments in any supply chain. Excess stock at any stage increases warehousing, insurance, depreciation, and obsolescence risk. But minimizing inventory is not the same as eliminating it; the goal is maintaining just enough to meet demand without stockouts. This requires accurate demand forecasting, strong supplier relationships, and well-coordinated logistics. As the Council of Supply Chain Management Professionals (CSCMP) emphasizes, effective supply chain management integrates supply and demand within and across companies to minimize costs, waste, and time throughout the production cycle.",
+      "key_terms": [
+        "inventory minimization",
+        "lean supply chain",
+        "just-in-time",
+        "holding costs",
+        "demand forecasting",
+        "cash flow optimization"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.5",
+          "type": "related_to",
+          "description": "Identifying and eliminating slow-moving inventory is a key tactic for minimizing overall inventory"
+        },
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["F.3", "F.5"]
+      }
+    }
+  ]
+}

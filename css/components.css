@@ -222,6 +222,16 @@
   color: var(--wrong);
 }
 
+.badge--level-L2 {
+  background: #0d9488;
+  color: #fff;
+}
+
+.badge--level-L1 {
+  background: var(--bg-hover);
+  color: var(--text-secondary);
+}
+
 /* ─── Progress Bar ─── */
 
 .progress-bar {

@@ -146,6 +146,10 @@ function renderQuestion() {
   const badges = el('div', 'definition-card__badges');
   const secBadge = el('span', 'badge badge--section', 'Section ' + q.section);
   secBadge.style.background = color;
+  if (q.level === 'L2') {
+    const lvBadge = el('span', 'badge badge--level-L2', 'L2');
+    badges.appendChild(lvBadge);
+  }
   const bloomBadge = el('span', 'badge badge--bloom', q.bloomLevel);
   const diffBadge = el('span', 'badge badge--difficulty-' + q.difficulty, q.difficulty);
   badges.append(secBadge, bloomBadge, diffBadge);

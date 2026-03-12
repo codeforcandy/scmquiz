@@ -1,0 +1,347 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-11T00:00:00Z",
+  "concepts": [
+    {
+      "id": "D.1",
+      "topic": "Explain the relationship between purchasing and supply chain management.",
+      "action_verb": "explain",
+      "definition": "Purchasing (procurement) is a critical subset of supply chain management, like an engine inside a car: essential but not the whole vehicle. Apple uses strategic procurement to lock in exclusive contracts with 200+ suppliers, but its SCM extends to just-in-time logistics, Foxconn assembly, and global retail delivery, showing how sourcing feeds broader coordination.",
+      "explanation": "Think of purchasing as the talent scout for a sports team: the scout finds and signs great players (suppliers), but the team's success depends on coaching, strategy, and game-day execution (the full supply chain). Purchasing focuses on buying the right goods at the right terms, including supplier selection, contract negotiation, and order management. Supply chain management is the broader discipline integrating purchasing with production, logistics, distribution, and customer service into a unified system. Apple illustrates this relationship powerfully: its procurement team enforces a Supplier Code of Conduct evaluated across 500+ criteria by third-party auditors, and it uses massive cash reserves to pre-pay suppliers and lock in exclusive deals on custom chips and OLED screens. But these purchasing wins only matter because Apple's broader SCM, from Foxconn assembly lines to its just-in-time inventory system with only five days of inventory turnover, transforms sourced components into products on store shelves worldwide. Toyota takes a similar approach, embedding procurement within its Toyota Production System so that supplier partnerships through Kaizen collaboration feed directly into lean manufacturing and distribution. Why it matters: procurement is the foundation that feeds the entire supply chain. Companies that treat purchasing as isolated from supply chain strategy end up with great deals on parts they cannot efficiently move, store, or deliver. Effective purchasing strengthens the chain by ensuring reliable sourcing, competitive pricing, and strong supplier relationships that support downstream operations.",
+      "key_terms": [
+        "procurement",
+        "sourcing",
+        "supplier relationship management",
+        "purchasing function",
+        "supply chain coordination"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.2",
+          "type": "related_to",
+          "description": "Purchasing decisions directly affect the value a company provides through its supply chain."
+        },
+        {
+          "target_id": "D.4",
+          "type": "related_to",
+          "description": "Purchasing must be integrated with other supply chain functions for effective SCM."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["D.4", "D.7"]
+      }
+    },
+    {
+      "id": "D.2",
+      "topic": "Explain how a company will provide value to supply chain management.",
+      "action_verb": "explain",
+      "definition": "A company provides value in supply chain management by creating customer utility, like a restaurant that delivers great food hot, on time, and at a fair price. Amazon optimizes quantity, time, and place utility through 175+ fulfillment centers, offering same-day delivery and predictive inventory positioning to generate competitive advantage.",
+      "explanation": "Imagine a vending machine on every corner versus a single specialty shop across town. Both sell the same drink, but the vending machine wins on place utility and time utility, while the shop might win on selection or price. Companies create supply chain value through three forms of utility: quantity (right amount available), time (delivered when needed), and place (delivered where needed). The value proposition is built on being better, faster, and cheaper. Amazon is the gold standard: its network of strategically placed fulfillment centers means products are already nearby when you click 'buy,' its predictive algorithms pre-position inventory based on anticipated demand, and its automation with over 750,000 robots cuts costs enough to offer free two-day shipping. Costco takes a different value approach, using bulk purchasing power to deliver extreme price utility to customers. But value is not one-size-fits-all. Leading companies segment their supply chains to serve different customer groups: Amazon offers standard shipping for price-sensitive customers and same-day delivery for urgency-driven ones. Why it matters: the supply chain is no longer just a cost center; it is a competitive weapon. Companies like Amazon have shown that a superior supply chain can define an entire business model, turning logistics into a core value proposition. The collective sum of contributions across all nodes, from supplier to last-mile driver, determines whether a company outpaces its competitors.",
+      "key_terms": [
+        "value proposition",
+        "customer utility",
+        "competitive advantage",
+        "fulfillment goals",
+        "supply chain value"
+      ],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.1",
+          "type": "related_to",
+          "description": "Purchasing decisions are a key driver of the value a company delivers through its supply chain."
+        },
+        {
+          "target_id": "D.5",
+          "type": "related_to",
+          "description": "Balancing supply and demand is fundamental to delivering value in the supply chain."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["D.5", "D.7"]
+      }
+    },
+    {
+      "id": "D.3",
+      "topic": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company.",
+      "action_verb": "explain",
+      "definition": "Companies determine their suppliers, subcontractors, transportation providers, and distribution channels through strategic evaluation, like casting roles in a film. Nike concentrates 80% of production across 103 strategic suppliers in Vietnam, China, and Indonesia, and uses 3PL and 4PL providers to run distribution centers and orchestrate logistics.",
+      "explanation": "Think of building a house: you choose a general contractor (first-tier supplier), who selects specialized subcontractors for plumbing, electrical, and roofing (second-tier suppliers). You pick them based on skill, reliability, and cost, not just the lowest bid. Companies follow the same logic at scale. Suppliers are organized into tiers, with first-tier suppliers providing directly to the company. Nike illustrates this clearly: its strategic suppliers like Pou Chen Group handle innovative premium footwear, while volume producers manufacture standard models at scale. No single factory dominates production, maintaining flexibility and resilience. Subcontractors are chosen for specialized expertise outside core competencies. Transportation providers are selected through strategic carrier-sourcing decisions based on mode, cost, speed, and geographic coverage. Nike uses a 4PL provider to oversee its entire logistics ecosystem, ensuring timely delivery to over 1,045 retail stores and online customers worldwide. Many companies leverage third-party logistics (3PL) providers like DHL or XPO Logistics to manage warehousing, customs clearance, and last-mile delivery. In Nike's case, 3PL partners operate two of its U.S. distribution centers in Indianapolis and Dayton. Distribution channels are shaped by customer requirements and geographic reach. Why it matters: a company is only as strong as its weakest supply chain partner. Choosing poorly at any tier creates bottlenecks that ripple across the entire network, directly affecting cost, speed, and customer satisfaction.",
+      "key_terms": [
+        "supplier tiering",
+        "carrier sourcing",
+        "third-party logistics (3PL)",
+        "distribution channels",
+        "outsourcing",
+        "subcontracting"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.6",
+          "type": "related_to",
+          "description": "The selection of suppliers and transportation providers is closely tied to facility network design decisions."
+        },
+        {
+          "target_id": "D.4",
+          "type": "related_to",
+          "description": "Integration across suppliers, subcontractors, and logistics providers is key to supply chain integration."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["D.6", "D.1"]
+      }
+    },
+    {
+      "id": "D.4",
+      "topic": "Define supply chain integration.",
+      "action_verb": "define",
+      "definition": "Supply chain integration is the synchronization of processes, information flow, and activities across all organizations in a chain, like a nervous system connecting brain to limbs. Walmart pioneered this with Retail Link, sharing live point-of-sale data with suppliers so procurement, production, and distribution operate as one seamless system.",
+      "explanation": "Imagine a rowing crew where each rower pulls at their own pace versus one where every stroke is perfectly synchronized. The synchronized crew moves faster with less wasted effort. That is the difference between a fragmented and an integrated supply chain. Supply chain integration connects all stakeholders from raw material suppliers to end customers so that procurement, production, distribution, and customer service function as a unified system rather than isolated functions. It requires alignment of information systems, business processes, and strategic objectives among trading partners. Walmart is the textbook example: its Retail Link platform gives suppliers real-time access to point-of-sale data, enabling automatic replenishment. Walmart has gone further by deploying ambient IoT sensors across 4,600 U.S. stores to track 90 million pallets, capturing temperature, location, humidity, and dwell-time data that feeds directly into AI-powered decision systems. The result: RFID-tagged products are replenished three times faster and out-of-stocks dropped 16%. Dell historically demonstrated integration by connecting customer orders directly to its manufacturing line, building computers to order with minimal inventory. Effective integration enables end-to-end visibility, reduces redundancies and lead times, and allows organizations to respond quickly to demand shifts or supply disruptions. Why it matters: without integration, each node in the supply chain optimizes for itself, creating the bullwhip effect where small demand changes at the customer end amplify into massive upstream swings, driving excess inventory and wasted capacity.",
+      "key_terms": [
+        "process synchronization",
+        "information flow",
+        "cross-functional coordination",
+        "end-to-end visibility",
+        "integrated supply chain management"
+      ],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.1",
+          "type": "related_to",
+          "description": "Purchasing is one of the key functions that must be integrated within the supply chain."
+        },
+        {
+          "target_id": "D.3",
+          "type": "related_to",
+          "description": "Integration encompasses coordination with suppliers, subcontractors, and logistics providers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.5", "D.6"]
+      }
+    },
+    {
+      "id": "D.5",
+      "topic": "Describe management of supply and demand for supply chain management.",
+      "action_verb": "describe",
+      "definition": "Supply and demand management in SCM is the coordinated process of forecasting customer demand and aligning supply-side activities, like a thermostat adjusting to maintain the right temperature. Zara uses real-time sales data to produce over 50% of garments mid-season, achieving 12 inventory turns per year versus the industry average of four.",
+      "explanation": "Picture a bakery that bakes 100 croissants every morning. If only 60 sell, 40 go to waste (oversupply). If 150 people show up, 50 leave disappointed (stockout). Demand management is about predicting how many croissants to bake; supply planning is about having the flour, butter, and oven capacity to bake exactly that number. Demand planning uses forecasting and coordination between marketing, sales, and supply chain functions to predict what customers will buy. Supply planning ensures materials, production capacity, and logistics resources are ready to fulfill that demand. Zara has turned this into a competitive weapon. Unlike traditional retailers who plan collections six months ahead, Zara uses real-time point-of-sale data and RFID tracking to sense demand as it happens. Only 15-25% of a line is designed before the season, and if a jacket sells out in Seoul but flops in Paris, production adjusts within days. This demand-driven approach gives Zara 12 inventory turns per year compared to competitors' three to four, dramatically reducing markdowns and waste. Procter and Gamble pioneered Sales and Operations Planning (S&OP), aligning marketing promotions with production schedules so factories are not blindsided by demand spikes. The integration of supply and demand management is a core SCM objective as defined by CSCMP. Modern approaches increasingly use real-time analytics to synchronize supply with actual consumption patterns rather than relying solely on forecasts. Why it matters: every dollar tied up in unsold inventory is a dollar not invested in growth, and every stockout is a customer who may never return.",
+      "key_terms": [
+        "demand planning",
+        "supply planning",
+        "demand forecasting",
+        "inventory optimization",
+        "sales and operations planning (S&OP)",
+        "demand-driven supply chain"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.2",
+          "type": "related_to",
+          "description": "Effective supply-demand management is essential to delivering value in the supply chain."
+        },
+        {
+          "target_id": "D.7",
+          "type": "related_to",
+          "description": "Supply-demand imbalances directly impact costs and expense management."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["D.2", "D.4"]
+      }
+    },
+    {
+      "id": "D.6",
+      "topic": "Describe the efficient facility network design for supply chain management.",
+      "action_verb": "describe",
+      "definition": "Facility network design is the systematic optimization of the number, location, and size of manufacturing, warehousing, and distribution facilities, like positioning chess pieces for maximum board coverage. Amazon uses mathematical modeling to place 175+ fulfillment centers near population hubs, with sortation centers and delivery stations balancing cost and service.",
+      "explanation": "Imagine choosing where to open pizza shops in a city. Put them all downtown and suburbs wait an hour for delivery. Spread them too thin and each shop runs below capacity. The sweet spot, a network that covers the most customers with the fewest locations and shortest delivery times, is exactly what facility network design solves at supply chain scale. This matters enormously because roughly 80 percent of operational supply chain costs depend on where facilities sit and how products flow between them. Amazon's network illustrates the principles. Inbound cross-docking facilities sit near ports and rail yards to receive international shipments. Fulfillment centers are positioned near population centers like Chicago, Dallas, and the greater New York area for fast access. Sortation centers group packages by destination, and delivery stations handle the final mile. This layered architecture lets Amazon offer same-day and next-day delivery while keeping logistics costs manageable. The top states for Amazon facilities are California, Texas, Illinois, Florida, and Pennsylvania, chosen for population density and transportation infrastructure. Walmart takes a different approach with regional distribution centers that each serve 75-100 stores within a 150-mile radius, creating a hub-and-spoke model that minimizes trucking distances. The design process uses mathematical modeling to optimize facility placement, capacity allocation, and transportation routing. Key factors include proximity to suppliers and customers, labor availability, tax incentives, and risk mitigation. Why it matters: a poorly designed network locks in high costs and slow delivery for years, since facilities represent long-term capital commitments that are expensive to undo.",
+      "key_terms": [
+        "network optimization",
+        "facility location",
+        "distribution center",
+        "transportation routing",
+        "warehousing strategy",
+        "mathematical modeling"
+      ],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.3",
+          "type": "related_to",
+          "description": "Facility network design determines where suppliers and distribution points are located relative to production."
+        },
+        {
+          "target_id": "D.7",
+          "type": "related_to",
+          "description": "Network design decisions have a major impact on supply chain operating expenses."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["D.3", "D.4"]
+      }
+    },
+    {
+      "id": "D.7",
+      "topic": "Explain the importance of expense management for supply chain management.",
+      "action_verb": "explain",
+      "definition": "Expense management in SCM is the systematic monitoring, controlling, and optimizing of all costs from sourcing to delivery, like a household budget tracking every dollar. Toyota built its dominance using the Toyota Production System to eliminate waste through just-in-time manufacturing and Kaizen, achieving lower inventory carrying costs than Ford and GM.",
+      "explanation": "Think of supply chain expenses like water flowing through pipes. Leaks (waste) can appear anywhere: overpaying for raw materials, holding too much inventory in warehouses, choosing inefficient shipping routes, or processing excessive returns. Expense management is the practice of finding and fixing every leak. This is not trivial, since supply chain costs often represent the single largest portion of a company's operating expenses. Toyota's approach is the benchmark. Its Toyota Production System uses just-in-time production, where parts arrive exactly when needed, eliminating warehouse storage costs. The kanban card system signals suppliers to produce only what has been consumed, preventing overproduction. Through continuous improvement events called Kaizen, Toyota collaborates with suppliers to identify and eliminate inefficiencies, targeting consistent cost reductions year over year. The result: Toyota consistently achieves higher margins than competitors like Ford and GM while maintaining quality. Costco takes another approach, operating on razor-thin margins of around 2% by optimizing its supply chain to keep operating expenses minimal and passing savings to customers through lower prices. Key cost categories span procurement costs, production costs, inventory carrying costs (typically 20-30% of inventory value annually), transportation and logistics costs, administrative and compliance costs, and reverse logistics. Research shows 79% of companies believe supply chain optimization directly improves revenue. Why it matters: effective expense management requires balancing cost reduction with customer satisfaction. Cutting costs too aggressively on packaging, shipping speed, or supplier quality can degrade service and erode brand value. Companies that master total cost of ownership and cost-to-serve consistently outperform competitors by maintaining lower prices, higher margins, or both.",
+      "key_terms": [
+        "cost optimization",
+        "total cost of ownership",
+        "procurement costs",
+        "inventory carrying costs",
+        "transportation costs",
+        "cost-to-serve"
+      ],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.5",
+          "type": "related_to",
+          "description": "Poor supply-demand alignment leads to excess inventory and increased expenses."
+        },
+        {
+          "target_id": "D.6",
+          "type": "related_to",
+          "description": "Facility network design is a primary driver of supply chain operating costs."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": ["D.5", "D.6"]
+      }
+    }
+  ]
+}

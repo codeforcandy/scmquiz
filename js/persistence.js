@@ -115,6 +115,14 @@ export function updateStats(sessionResult) {
   save('stats', stats);
 }
 
+export function loadLevels() {
+  return load('levels', ['L1']);
+}
+
+export function saveLevels(levels) {
+  save('levels', levels);
+}
+
 export function loadTheme() {
   return load('theme', 'light');
 }

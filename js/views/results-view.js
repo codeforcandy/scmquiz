@@ -207,6 +207,11 @@ function renderFilteredList(filter, session, flags, iffy) {
     const badge = el('span', 'badge badge--section', q.section);
     badge.style.cssText = `background:${color};font-size:0.6rem`;
     hdr.appendChild(badge);
+    if (q.level === 'L2') {
+      const lvBadge = el('span', 'badge badge--level-L2', 'L2');
+      lvBadge.style.fontSize = '0.6rem';
+      hdr.appendChild(lvBadge);
+    }
     hdr.appendChild(el('span', 'result-item__chevron', '\u25BC'));
     item.appendChild(hdr);
 

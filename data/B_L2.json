@@ -1,0 +1,707 @@
+{
+  "section_id": "B",
+  "section_title": "Supply Chain Topics",
+  "generated_at": "2026-03-11T12:00:00Z",
+  "concepts": [
+    {
+      "id": "B.1",
+      "topic": "Define analytics",
+      "action_verb": "define",
+      "definition": "Analytics is the systematic use of data collection, processing, and statistical analysis to extract actionable insights — like a supply chain's nervous system sensing problems before they spread. Amazon, for example, uses real-time analytics across its fulfillment network to dynamically reroute inventory and cut delivery costs by 6%, turning raw data into decisions at machine speed.",
+      "explanation": "Think of analytics as the difference between driving with a GPS versus driving blindfolded. Descriptive analytics tells you what happened (your rearview mirror), predictive analytics forecasts what will happen (weather radar ahead), and prescriptive analytics recommends what to do (the GPS rerouting you). In supply chain management, analytics combines data from procurement, production, inventory, and logistics to spot inefficiencies and optimize performance.\n\nAmazon is the gold standard here: its machine learning models process purchasing trends, seasonal shifts, and even weather patterns to adjust inventory levels in real time, reducing backlogs by 20-30%. During disruptions, its monitoring system instantly generates alerts and suggests countermeasures. Walmart similarly uses gradient boosting and random forest algorithms to predict demand at the store-item level — when Hurricane Ian struck Florida in 2022, AI rerouted shipments so customers never noticed the disruption.\n\nWhy it matters: Organizations that master analytics shift from reactive firefighting to proactive decision-making, gaining a measurable edge in forecast accuracy, cost control, and risk mitigation across every level of the supply chain.",
+      "key_terms": [
+        "data analysis",
+        "big data",
+        "predictive analytics",
+        "prescriptive analytics",
+        "descriptive analytics",
+        "data-driven decision making",
+        "business intelligence"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-analytics",
+          "title": "What Is Supply Chain Analytics?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.techtarget.com/searcherp/definition/supply-chain-analytics",
+          "title": "What is supply chain analytics and why is it important?",
+          "site": "TechTarget"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/why-you-must-invest-in-supply-chain-analytics",
+          "title": "What is Supply Chain Analytics: Definition, Types & Benefits",
+          "site": "GEP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.3",
+          "type": "prerequisite_for",
+          "description": "Analytics provides the data foundation that enables accurate forecasting"
+        },
+        {
+          "target_id": "B.9",
+          "type": "related_to",
+          "description": "Supply market intelligence relies on analytics to gather and interpret market data"
+        },
+        {
+          "target_id": "B.6",
+          "type": "applies_to",
+          "description": "Analytics is applied to optimize inventory management decisions"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": [
+          "B.3",
+          "B.9"
+        ]
+      }
+    },
+    {
+      "id": "B.2",
+      "topic": "Explain customer relationship management",
+      "action_verb": "explain",
+      "definition": "Customer relationship management (CRM) is a strategic process for managing and analyzing customer interactions through dedicated information systems — like a diary that remembers every customer's preferences and purchases. Salesforce Manufacturing Cloud integrates CRM with supply chain data so companies align inventory and fulfillment with actual demand.",
+      "explanation": "Imagine a favorite local restaurant where the chef remembers your allergies, your usual order, and your birthday. CRM systems do this at massive scale — they store customer data on buying patterns, service history, and preferences so organizations can tailor their supply chain response to what customers actually want.\n\nIn the supply chain context, CRM is the bridge between demand signals and fulfillment. Salesforce Manufacturing Cloud exemplifies this by merging front-end customer data with back-end ERP and supply chain systems, giving manufacturers a 360-degree view of customers, inventory, contracts, and logistics in one place. This integration means a customer service rep can see real-time shipping status from carriers like FedEx or UPS, while demand planners can use CRM purchase history to sharpen forecasts.\n\nConsider how Starbucks uses its CRM and loyalty app data to predict which stores need more oat milk or seasonal ingredients — customer preferences directly shape procurement and distribution decisions.\n\nWhy it matters: When CRM and supply chain systems talk to each other, companies stop guessing what customers want. They align procurement, production, and logistics with actual demand, reducing waste while boosting satisfaction and loyalty.",
+      "key_terms": [
+        "CRM",
+        "customer satisfaction",
+        "customer segmentation",
+        "customer data",
+        "sales management",
+        "customer loyalty",
+        "demand alignment"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Customer_relationship_management",
+          "title": "Customer relationship management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.logisticsbureau.com/crm-and-the-supply-chain/",
+          "title": "CRM in Logistics and Supply Chain Management",
+          "site": "Logistics Bureau"
+        },
+        {
+          "url": "https://www.walkme.com/blog/customer-relationship-management-and-supply-chain-management/",
+          "title": "Customer Relationship Management and Supply Chain Management",
+          "site": "WalkMe"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.3",
+          "type": "related_to",
+          "description": "CRM data on customer buying patterns feeds into demand forecasting"
+        },
+        {
+          "target_id": "B.8",
+          "type": "related_to",
+          "description": "CRM demand signals inform sales and operations planning"
+        },
+        {
+          "target_id": "B.1",
+          "type": "related_to",
+          "description": "Analytics capabilities enhance CRM insights and customer segmentation"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.8",
+          "B.9"
+        ]
+      }
+    },
+    {
+      "id": "B.3",
+      "topic": "Describe the role of forecasting",
+      "action_verb": "describe",
+      "definition": "Forecasting is the process of using historical data, statistical models, and market trends to estimate future customer demand — like a weather forecast for your supply chain that tells you to stock umbrellas before the storm. Walmart uses machine learning to predict demand at the store-item level, achieving 90% inventory accuracy and auto-triggering replenishment.",
+      "explanation": "Think of forecasting as the supply chain equivalent of packing for a trip. Pack too much and you waste money on extra baggage (excess inventory costs). Pack too little and you are stuck buying overpriced essentials at the airport (stockouts and lost sales). Good forecasting tells you exactly what to bring.\n\nQualitative methods — expert opinions, market surveys, sales team input — complement quantitative approaches like time series modeling and machine learning. The best systems blend both. Walmart's data science team, for example, integrates point-of-sale data, weather forecasts, local events (concerts, football games), and even social media trends for viral products. When a storm alert hit Florida before Hurricane Ian in 2022, Walmart's AI anticipated spikes in water, batteries, and emergency supplies and triggered replenishment orders before the storm arrived. When a distribution center went offline for seven days, AI rerouted shipments so customers never noticed.\n\nForecasting directly drives inventory levels, production scheduling, workforce planning, and logistics coordination. It is the single input that cascades through virtually every other supply chain decision.\n\nWhy it matters: Poor forecasting is the root cause of both bloated warehouses and empty shelves. Companies that invest in forecasting accuracy gain a compounding advantage — less waste, happier customers, and leaner operations.",
+      "key_terms": [
+        "demand forecasting",
+        "time series analysis",
+        "qualitative forecasting",
+        "quantitative forecasting",
+        "demand planning",
+        "historical data",
+        "statistical models"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.1",
+          "type": "related_to",
+          "description": "Analytics tools and techniques power forecasting models"
+        },
+        {
+          "target_id": "B.6",
+          "type": "prerequisite_for",
+          "description": "Forecasting determines optimal inventory levels and replenishment schedules"
+        },
+        {
+          "target_id": "B.8",
+          "type": "part_of",
+          "description": "Forecasting is a key input to the demand planning phase of S&OP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.1",
+          "B.8"
+        ]
+      }
+    },
+    {
+      "id": "B.4",
+      "topic": "Explain the growth of global distribution",
+      "action_verb": "explain",
+      "definition": "Global distribution refers to the international networks through which goods are moved, stored, and delivered across borders — like a relay race spanning continents where the baton passes through customs, carriers, and warehouses. Nike sources from 103 strategic suppliers across Vietnam, China, and Indonesia, distributing to 28+ countries via regional centers with demand-sensing technology.",
+      "explanation": "Imagine running a lemonade stand, but your lemons come from Spain, your sugar from Brazil, your cups from China, and your customers are in 30 countries. That is global distribution — and it is both the opportunity and the headache of modern supply chains.\n\nThe growth of global distribution has been fueled by trade liberalization, containerized shipping, digital communication, and the pursuit of lower costs and new markets. Nike exemplifies this evolution: its products are manufactured across key hubs in Vietnam, China, and Indonesia by 103 strategic suppliers who produce 80% of its goods. Nike then distributes through regional centers using advanced demand-sensing and inventory optimization platforms that predict and shape consumer demand across markets.\n\nBut global reach introduces complexity. Longer lead times, customs regulations, currency fluctuations, and geopolitical risks all multiply. The COVID-19 pandemic and subsequent supply chain crises exposed these vulnerabilities, pushing companies toward resilience strategies like multi-sourcing (using multiple suppliers for the same component) and nearshoring (moving production closer to end markets).\n\nWhy it matters: Global distribution unlocks access to cheaper inputs and bigger markets, but it demands sophisticated coordination. Companies that master global logistics while building resilience — like diversifying supplier bases and investing in visibility technology — turn geographic complexity into competitive advantage.",
+      "key_terms": [
+        "global supply chain",
+        "international logistics",
+        "trade liberalization",
+        "cross-border distribution",
+        "nearshoring",
+        "multi-sourcing",
+        "global sourcing"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Global_supply_chain_management",
+          "title": "Global supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://wtcs.pressbooks.pub/globalbusiness/chapter/global-supply-chain-management/",
+          "title": "Global Supply-Chain Management",
+          "site": "Global Business Pressbooks"
+        },
+        {
+          "url": "https://www.prologis.com/global-supply-chain-management",
+          "title": "Global Supply Chain Management",
+          "site": "Prologis"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.11",
+          "type": "related_to",
+          "description": "Global distribution depends heavily on transportation planning across international routes"
+        },
+        {
+          "target_id": "B.6",
+          "type": "related_to",
+          "description": "Global distribution requires sophisticated inventory management across multiple locations"
+        },
+        {
+          "target_id": "B.10",
+          "type": "related_to",
+          "description": "Global distribution has significant sustainability implications including carbon emissions"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.11",
+          "B.7"
+        ]
+      }
+    },
+    {
+      "id": "B.5",
+      "topic": "Explain supply chain management for healthcare industry",
+      "action_verb": "explain",
+      "definition": "Healthcare supply chain management is the coordination of sourcing, procurement, and distribution of medical supplies, pharmaceuticals, and equipment — like a hospital's lifeline where a delayed shipment is a patient safety crisis, not just a business problem. Johnson & Johnson fills 100,000+ orders daily from 350 centers, using track-and-trace sensors for end-to-end cold chain visibility.",
+      "explanation": "Imagine a restaurant supply chain, but the stakes are life and death. If a restaurant runs out of avocados, customers are disappointed. If a hospital runs out of surgical supplies or a vaccine shipment breaks its cold chain, patients suffer. That fundamental difference shapes everything about healthcare supply chain management.\n\nHealthcare supply chains face unique challenges: strict regulatory requirements (FDA, EMA), product expiration management, cold-chain logistics for temperature-sensitive drugs, and unpredictable demand surges from pandemics or natural disasters. The overall cost of supplies per hospital patient rose 18.5% between 2019 and 2022, intensifying the pressure to optimize.\n\nJohnson & Johnson illustrates the scale and complexity: with over 60,000 supply chain employees globally, they deliver to hospital operating rooms, pharmacies, retailers, and millions of homes. Their COVID vaccine rollout showcased cold chain mastery — track-and-trace sensors traveled with each shipment, providing real-time temperature monitoring and end-to-end visibility. When disruptions threatened, the system flagged issues before products were compromised.\n\nHealthcare organizations are increasingly diversifying supplier bases and adding nearshore suppliers to reduce lead times. Technology investments in enterprise-wide visibility and data-driven decision making are replacing the data silos and fragmented systems that have historically plagued the sector.\n\nWhy it matters: In healthcare, supply chain failures have human consequences. Effective healthcare SCM balances rigorous cost control with the non-negotiable imperative of keeping life-saving products available, at the right temperature, at the right time.",
+      "key_terms": [
+        "healthcare logistics",
+        "medical supply chain",
+        "pharmaceutical distribution",
+        "cold chain",
+        "regulatory compliance",
+        "product availability",
+        "supplier diversification"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ghx.com/the-healthcare-hub/supply-chain-issues/",
+          "title": "Supply Chain Issues in Healthcare and How to Manage Shortages",
+          "site": "GHX"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/16258312.2018.1433353",
+          "title": "Healthcare logistics and supply chain - issues and future challenges",
+          "site": "Taylor & Francis"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.6",
+          "type": "includes",
+          "description": "Healthcare SCM requires specialized inventory management for medical supplies and pharmaceuticals"
+        },
+        {
+          "target_id": "B.7",
+          "type": "includes",
+          "description": "Procurement of medical devices and pharmaceuticals is a core healthcare SCM function"
+        },
+        {
+          "target_id": "B.3",
+          "type": "related_to",
+          "description": "Demand forecasting in healthcare must account for unpredictable patient needs and emergencies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.6",
+          "B.10"
+        ]
+      }
+    },
+    {
+      "id": "B.6",
+      "topic": "Explain the logistics of inventory management",
+      "action_verb": "explain",
+      "definition": "Inventory management is the discipline of planning, controlling, and tracking stock to ensure the right products are available at the right time — like Goldilocks balancing too much versus too little. Toyota pioneered just-in-time inventory, receiving materials only when production begins, minimizing holding costs while keeping lines running.",
+      "explanation": "Picture your refrigerator at home. Stock too much food and it spoils before you eat it (carrying costs and obsolescence). Stock too little and you are ordering expensive takeout every night (emergency orders and lost sales). Inventory management is the science of keeping your supply chain refrigerator perfectly stocked.\n\nKey techniques include setting reorder points (the trigger to buy more), calculating safety stock (the buffer for unexpected demand), determining economic order quantities (the sweet spot between ordering costs and holding costs), and performing cycle counts (regular physical checks to verify system accuracy).\n\nToyota revolutionized inventory management with its just-in-time (JIT) system, developed by Taiichi Ohno in post-war Japan. Under JIT, parts arrive at each production node only when needed and in exact quantities required. Toyota organizes suppliers into cooperative tiers with long-term relationships, enabling synchronized replenishment that eliminates waste. The principle is elegant: make only what the customer needs, when they need it, in the amount they need.\n\nModern inventory management layers technology on top of these principles — barcode scanning, RFID tags, warehouse management systems, and analytics platforms optimize stock placement, reduce obsolescence, and improve order fulfillment rates.\n\nWhy it matters: Inventory is often a company's largest working capital investment. Getting it wrong means either cash locked up in unsold goods or customers walking away empty-handed. Effective inventory management directly determines customer service levels, profitability, and overall supply chain efficiency.",
+      "key_terms": [
+        "safety stock",
+        "reorder point",
+        "economic order quantity",
+        "warehouse management",
+        "carrying costs",
+        "stockout",
+        "cycle counting",
+        "RFID"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html",
+          "title": "Inventory Management - Definition, Importance, Parameters, Process & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.3",
+          "type": "related_to",
+          "description": "Forecasting drives inventory replenishment decisions and safety stock calculations"
+        },
+        {
+          "target_id": "B.7",
+          "type": "related_to",
+          "description": "Procurement activities trigger inventory inflows based on inventory management policies"
+        },
+        {
+          "target_id": "B.8",
+          "type": "part_of",
+          "description": "Inventory planning is a component of the supply planning phase in S&OP"
+        },
+        {
+          "target_id": "A.1",
+          "type": "part_of",
+          "description": "Inventory management is a core function within overall supply chain management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.7",
+          "B.3"
+        ]
+      }
+    },
+    {
+      "id": "B.7",
+      "topic": "Define procurement",
+      "action_verb": "define",
+      "definition": "Procurement is the process of sourcing, negotiating, and acquiring the materials, components, and services an organization needs — like a chef carefully selecting farmers and fishmongers for quality and reliability. Apple exemplifies strategic procurement by multi-sourcing components, deploying 600+ engineers at supplier factories, and signing long-term contracts with advance deposits.",
+      "explanation": "Think of procurement as shopping for your business, but with far higher stakes and complexity. Instead of just grabbing the cheapest option off the shelf, strategic procurement considers total cost of ownership — the purchase price plus shipping, quality defects, lead time risks, and long-term supplier reliability.\n\nApple's procurement strategy illustrates best-in-class execution. Rather than relying on a single source for critical components like displays or chips, Apple uses multiple suppliers for the same part. This multi-sourcing approach lets Apple react faster to disruptions, encourage competitive pricing as suppliers vie for larger order shares, and prevent competitors from monopolizing production capacity. Apple rates quality and technological capability above cost when selecting suppliers, then invests deeply in the relationship — sending 600+ engineers to factory floors to solve production problems and improve efficiency. Long-term contracts with advance deposits secure priority access at favorable terms.\n\nThe procurement cycle includes supplier identification and evaluation, requests for proposals (RFPs), contract negotiation, purchase order management, and ongoing supplier relationship management. Third-party auditors evaluate Apple's suppliers against 500+ criteria, with corrective action plans for any violations.\n\nWhy it matters: Procurement is where supply chain strategy meets reality. The suppliers you choose, the contracts you negotiate, and the relationships you build determine your cost structure, quality, resilience, and speed to market. Poor procurement decisions cascade through the entire supply chain.",
+      "key_terms": [
+        "sourcing",
+        "purchasing",
+        "supplier evaluation",
+        "contract negotiation",
+        "total cost of ownership",
+        "supplier relationship management",
+        "request for proposal"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/",
+          "title": "Procurement vs Supply Chain Management: What's the Difference?",
+          "site": "Procurify"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.9",
+          "type": "related_to",
+          "description": "Supply market intelligence informs procurement decisions with market data and supplier analysis"
+        },
+        {
+          "target_id": "B.6",
+          "type": "related_to",
+          "description": "Procurement triggers inventory replenishment and manages supplier lead times"
+        },
+        {
+          "target_id": "B.10",
+          "type": "related_to",
+          "description": "Sustainable procurement practices support supply chain sustainability goals"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": [
+          "B.9",
+          "B.6"
+        ]
+      }
+    },
+    {
+      "id": "B.8",
+      "topic": "Describe sales and operations planning",
+      "action_verb": "describe",
+      "definition": "Sales and operations planning (S&OP) is a cross-functional process that aligns demand forecasts with supply capabilities — like a monthly family budget meeting where everyone agrees on priorities before the money runs out. Procter & Gamble, the first documented S&OP user, runs an 18-month rolling cycle across global business units, with plans reviewed up to the CEO.",
+      "explanation": "Imagine a band trying to play a song where the drummer follows one tempo, the guitarist follows another, and the singer is in a different key entirely. That is what happens when sales, operations, and finance do not coordinate. S&OP is the rehearsal that gets everyone playing the same music.\n\nThe S&OP process follows five structured steps performed monthly: (1) data gathering, (2) demand planning — building the forecast, (3) supply planning — matching capacity to demand, (4) a pre-meeting to resolve conflicts, and (5) an executive meeting for final decisions. It operates at the product family level with a horizon of up to 18 months.\n\nProcter & Gamble pioneered this discipline when it struggled to align production schedules with market demand. Today, P&G's executive S&OP operates along two axes: product-focused (Beauty & Grooming, Health & Well-Being, Household Care) and geography-based (five global regions). A small team of Global Process Leaders governs the process using structured checklists. P&G has even extended S&OP to its distributor network, improving forecast quality and inventory management across external partners.\n\nS&OP serves as the bridge between high-level strategy and daily execution, enabling proactive decisions about capacity, inventory, and resource allocation before problems materialize.\n\nWhy it matters: Without S&OP, departments optimize in isolation — sales overpromises, operations underdelivers, and finance scrambles. S&OP forces alignment, turning conflicting departmental goals into a single, executable plan.",
+      "key_terms": [
+        "S&OP",
+        "demand planning",
+        "supply planning",
+        "production plan",
+        "capacity planning",
+        "cross-functional planning",
+        "planning horizon"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/",
+          "title": "What Is Sales and Operations Planning (S&OP)?",
+          "site": "Oracle"
+        },
+        {
+          "url": "https://www.ascm.org/topics/sales-and-operations-planning/",
+          "title": "Sales and Operations Planning (S&OP)",
+          "site": "ASCM"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.3",
+          "type": "includes",
+          "description": "Demand forecasting is a critical input to the S&OP demand planning step"
+        },
+        {
+          "target_id": "B.6",
+          "type": "includes",
+          "description": "Inventory planning is part of the supply planning phase of S&OP"
+        },
+        {
+          "target_id": "B.2",
+          "type": "related_to",
+          "description": "CRM demand signals and customer insights feed into S&OP demand planning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.3",
+          "B.6"
+        ]
+      }
+    },
+    {
+      "id": "B.9",
+      "topic": "Define supply market intelligence",
+      "action_verb": "define",
+      "definition": "Supply market intelligence is the systematic gathering and analysis of data about supplier markets, pricing trends, and competitive dynamics — like a scout mapping terrain before an army marches. Unilever uses AI and satellite imaging to monitor its 54,000-supplier ecosystem, classifying suppliers as strategic (high spend) or critical (high risk/opportunity) to sharpen procurement decisions.",
+      "explanation": "Imagine buying a used car without checking the market price, the dealer's reputation, or the vehicle history report. You would overpay, miss defects, or both. Supply market intelligence is that research step applied to every category of spend in an organization's supply chain.\n\nSupply market intelligence encompasses understanding who the key suppliers are, where they are located, how they perform, what average market prices look like, how global capacity is shifting, and what geopolitical risks could disrupt supply. It transforms procurement from a transactional function into a strategic one.\n\nUnilever demonstrates sophisticated supply market intelligence in action. Its procurement team classifies suppliers into strategic (significant spend or volume) and critical (representing either risk or opportunity) categories. To monitor this 54,000-supplier ecosystem, Unilever deploys AI, satellite imaging via Google Earth Engine, certifications like RSPO for palm oil, and industry frameworks for deforestation tracking. This layered intelligence allows Unilever's Chief Procurement Officer to focus on three pillars: building resilience through a smart network, designing products with sustainability at the core, and collaborating with partners for competitive growth.\n\nWhy it matters: Without market intelligence, procurement teams negotiate in the dark. With it, they anticipate price swings, identify alternative suppliers before crises hit, and build the transparency needed for resilient, cost-effective supply chains.",
+      "key_terms": [
+        "market analysis",
+        "supplier intelligence",
+        "competitive pricing",
+        "strategic sourcing",
+        "supply risk",
+        "market trends",
+        "supplier landscape"
+      ],
+      "sources": [
+        {
+          "url": "https://una.com/resources/article/supply-market-intelligence/",
+          "title": "Why Your Procurement Team Needs Supply Market Intelligence",
+          "site": "Una"
+        },
+        {
+          "url": "https://en.tacto.ai/buyer-lexicon/supply-market-intelligence",
+          "title": "Supply market intelligence: definition, methods and benefits in Procurement",
+          "site": "Tacto"
+        },
+        {
+          "url": "https://www.arenasolutions.com/resources/glossary/supply-chain-intelligence/",
+          "title": "Supply Chain Intelligence Definition",
+          "site": "Arena Solutions"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.7",
+          "type": "prerequisite_for",
+          "description": "Supply market intelligence informs procurement strategies and supplier selection"
+        },
+        {
+          "target_id": "B.1",
+          "type": "related_to",
+          "description": "Analytics capabilities enable the data processing behind supply market intelligence"
+        },
+        {
+          "target_id": "B.3",
+          "type": "related_to",
+          "description": "Market intelligence data supports supply-side forecasting and trend analysis"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": [
+          "B.7",
+          "B.1"
+        ]
+      }
+    },
+    {
+      "id": "B.10",
+      "topic": "Define sustainability for supply chain management",
+      "action_verb": "define",
+      "definition": "Supply chain sustainability is the practice of integrating environmental, social, and economic considerations into sourcing, production, and distribution — like building a house that is good for the planet, fair to the workers, and still affordable. Patagonia embodies this with organic cotton, recycled polyester, solar-powered factories, and its Worn Wear program encouraging repair and reuse.",
+      "explanation": "Think of sustainability as the triple bottom line applied to every link in your supply chain: planet (environmental impact), people (labor practices and community welfare), and profit (long-term economic viability). It is not just about being green — it is about building a supply chain that can endure.\n\nPatagonia is a standout example. The company meticulously selects materials — organic cotton, recycled polyester, responsibly sourced wool — and works with manufacturing partners on energy conservation, water management, and chemical reduction. Its Worn Wear program extends product lifecycles by encouraging repair and reuse. In 2024, Patagonia partnered with the nonprofit Canopy to create packaging from agricultural waste instead of forest fibers.\n\nIKEA takes a complementary approach, targeting a 70% reduction in carbon emissions per transport movement and an 80% absolute reduction from logistics by 2040, with plans to transition entirely to zero-emission trucks and vessels. In 2024 alone, IKEA repurchased over 495,000 used products through its Buyback Service — a circular economy model in action.\n\nThe broader framework includes green logistics (reducing transportation and warehousing emissions), sustainable procurement (evaluating suppliers on ESG criteria), and circular economy principles like the 4R1D model: reduce, reuse, recycle, reclaim, and degradable.\n\nWhy it matters: Sustainability is no longer optional. Regulatory requirements, consumer expectations, and investor pressure are converging. Companies that embed sustainability into their supply chains reduce costs through waste elimination, build resilience against resource scarcity, and earn the trust that drives long-term competitive advantage.",
+      "key_terms": [
+        "sustainable supply chain",
+        "green logistics",
+        "environmental responsibility",
+        "social responsibility",
+        "circular economy",
+        "carbon footprint",
+        "4R1D",
+        "ESG"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/",
+          "title": "What is Sustainable Supply Chain Management? (SSCM)",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Research/State_of_Supply_Chain_Sustainability.aspx",
+          "title": "State of Supply Chain Sustainability",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.7",
+          "type": "applies_to",
+          "description": "Sustainable procurement practices evaluate suppliers on environmental and social criteria"
+        },
+        {
+          "target_id": "B.11",
+          "type": "related_to",
+          "description": "Transportation planning must consider emissions reduction and green logistics"
+        },
+        {
+          "target_id": "B.4",
+          "type": "related_to",
+          "description": "Global distribution networks face increasing pressure to reduce their environmental footprint"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": [
+          "B.4",
+          "B.7"
+        ]
+      }
+    },
+    {
+      "id": "B.11",
+      "topic": "Explain the relationship between supply chain management and transportation planning",
+      "action_verb": "explain",
+      "definition": "Transportation planning is the process of optimizing the movement of goods — encompassing carrier selection, route optimization, mode selection, and shipment consolidation — like choreographing a delivery fleet so every package arrives on time at lowest cost. UPS's ORION system uses AI to optimize 10,000+ routes daily, saving 10 million gallons of fuel per year.",
+      "explanation": "Imagine you are moving apartments and have to decide: rent one big truck or make multiple car trips? Hire movers or do it yourself? Take the highway or the back roads? Transportation planning answers these questions at industrial scale, and it can account for up to 60% of total operational costs.\n\nTransportation management considers transit times, carrier reliability, freight costs, shipment visibility, and regulatory compliance. The relationship with supply chain management is symbiotic: supply chain strategy drives transportation requirements (what needs to move, where, and when), while transportation capabilities and constraints shape supply chain design (you cannot promise next-day delivery if your carriers take three days).\n\nUPS's ORION (On-Road Integrated Optimization and Navigation) system is a landmark example. Launched in 2012, ORION uses AI and machine learning to process GPS tracking, delivery commitments, traffic conditions, and more to create optimal routes in real time. The results: 1.5 million gallons of fuel saved per 10,000 optimized routes, and 10 million gallons saved annually across the network. FedEx developed its own Dynamic Route Optimization (DRO) system in 2019, which plans optimized routes nightly while balancing workload across drivers and adapting to dynamic delivery areas.\n\nModern transportation management systems (TMS) help organizations optimize routes, consolidate shipments, select cost-effective modes (truck, rail, ocean, air), and track shipments in real time.\n\nWhy it matters: Transportation is the physical backbone of every supply chain. Optimizing it reduces the single largest cost category in logistics while simultaneously improving delivery speed, reliability, and environmental performance.",
+      "key_terms": [
+        "transportation management",
+        "freight",
+        "carrier selection",
+        "route optimization",
+        "mode selection",
+        "TMS",
+        "shipment consolidation",
+        "logistics"
+      ],
+      "sources": [
+        {
+          "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/",
+          "title": "Managing Transportation and Logistics in Supply Chains",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.prologis.com/insights-news/blog/role-transportation-supply-chain-management",
+          "title": "The Role of Transportation in Supply Chain Management",
+          "site": "Prologis"
+        },
+        {
+          "url": "https://scmedu.org/transportationplanning/",
+          "title": "What is Transportation Planning in logistics?",
+          "site": "SCM EDU"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.4",
+          "type": "related_to",
+          "description": "Global distribution relies on international transportation planning across multiple modes"
+        },
+        {
+          "target_id": "B.10",
+          "type": "related_to",
+          "description": "Transportation planning must address sustainability through emissions reduction and green logistics"
+        },
+        {
+          "target_id": "B.6",
+          "type": "related_to",
+          "description": "Transportation planning coordinates with inventory management for timely replenishment"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.4",
+          "B.6"
+        ]
+      }
+    },
+    {
+      "id": "B.12",
+      "topic": "Describe careers associated with supply chain management",
+      "action_verb": "describe",
+      "definition": "Supply chain management careers span professional roles in purchasing, inventory control, logistics, transportation, and strategic planning — like a career buffet from data-driven analyst to hands-on warehouse leader. The median U.S. supply chain compensation is $103,000 (52% above the national median), and logistician employment is projected to grow 17% through 2034.",
+      "explanation": "Think of supply chain management as a career ecosystem rather than a single job. Just as a hospital needs surgeons, nurses, anesthesiologists, and administrators, a supply chain needs analysts, procurement specialists, logistics coordinators, demand planners, operations managers, and transportation managers — each with distinct skills but all working toward the same goal.\n\nThe numbers tell a compelling story. According to ASCM's 2025 Salary and Career Report, the median U.S. base salary for supply chain professionals is $94,000, with total compensation reaching $103,000. Professionals with at least one APICS certification report a 20% salary boost. The U.S. Bureau of Labor Statistics projects logistician employment growing 17% from 2024 to 2034 — much faster than average — with about 26,400 openings per year. And 53% of companies were actively recruiting for new supply chain roles in 2025.\n\nCareer entry points include management trainee, analyst, and front-line supervisor roles, with progression to manager, director, and VP positions. There is no single mandated path, giving professionals flexibility to specialize in procurement, logistics, analytics, global operations, or sustainability. Professional certifications — ASCM's CSCP and CPIM, or CSCMP's SCPro — serve as career accelerators.\n\nThe field also scores high on satisfaction: 85% of supply chain professionals report being proud of their work, and 81% say they are satisfied in their roles.\n\nWhy it matters: The $6.7 trillion U.S. supply chain market needs skilled professionals at every level. For those who enjoy problem-solving, cross-functional collaboration, and tangible impact, supply chain management offers strong compensation, rapid growth, and a wide variety of career paths.",
+      "key_terms": [
+        "supply chain analyst",
+        "logistics coordinator",
+        "operations manager",
+        "procurement specialist",
+        "demand planner",
+        "CSCP certification",
+        "CPIM certification",
+        "career development"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Careers_in_Supply_Chain_Management.aspx",
+          "title": "Careers in Supply Chain Management",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ascm.org/membership-community/career-resources/supply-chain-management-careers/",
+          "title": "Supply Chain Management Careers",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Starting_Your_SCM_Career.aspx",
+          "title": "Starting Your SCM Career",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "B.1",
+          "type": "related_to",
+          "description": "Analytics skills are increasingly important for supply chain career advancement"
+        },
+        {
+          "target_id": "B.7",
+          "type": "related_to",
+          "description": "Procurement is one of the major career specialization paths in SCM"
+        },
+        {
+          "target_id": "B.11",
+          "type": "related_to",
+          "description": "Transportation and logistics management represents a major SCM career track"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "apply",
+        "difficulty": "hard",
+        "distractor_ids": [
+          "B.1",
+          "B.7"
+        ]
+      }
+    }
+  ]
+}

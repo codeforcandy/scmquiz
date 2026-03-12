@@ -5,7 +5,7 @@
 import { getState, setState } from '../store.js';
 import { filterConcepts } from '../data-loader.js';
 import { generateQuestions, createSession } from '../quiz-engine.js';
-import { loadSession, saveSession } from '../persistence.js';
+import { loadSession, saveSession, loadLevels, saveLevels } from '../persistence.js';
 
 const SECTION_COLORS = {
   A: '#B8562F', B: '#2E7D6E', C: '#6C5B9E', D: '#3A7D44', E: '#C0862B',
@@ -14,6 +14,7 @@ const SECTION_COLORS = {
 
 let selectedSections = [];
 let selectedDifficulties = ['easy', 'medium', 'hard'];
+let selectedLevels = ['L1'];
 
 function escapeHtml(str) {
   const div = document.createElement('div');
@@ -65,9 +66,43 @@ export function renderSetupView() {
   h1.textContent = 'SCM Study Quiz';
   const sub = document.createElement('p');
   sub.className = 'setup-header__subtitle';
-  sub.textContent = '102 concepts across 11 sections';
+  const totalConcepts = [...concepts.values()].length;
+  sub.textContent = `${totalConcepts} concepts across 11 sections (L1 + L2)`;
   header.append(h1, sub);
   container.appendChild(header);
+
+  // Level toggle
+  const levelSection = document.createElement('div');
+  levelSection.className = 'setup-section';
+  const levelLabel = document.createElement('div');
+  levelLabel.className = 'setup-section__label';
+  const levelSpan = document.createElement('span');
+  levelSpan.textContent = 'Level';
+  levelLabel.appendChild(levelSpan);
+  levelSection.appendChild(levelLabel);
+
+  const levelGrid = document.createElement('div');
+  levelGrid.className = 'chip-grid';
+  levelGrid.id = 'level-chips';
+
+  const levels = [
+    { key: 'L1', label: 'L1 Textbook', color: 'var(--accent)', bg: 'var(--accent-light)' },
+    { key: 'L2', label: 'L2 Analogies', color: '#0d9488', bg: 'rgba(13,148,136,0.08)' },
+  ];
+  for (const lv of levels) {
+    const chip = document.createElement('button');
+    chip.className = 'chip';
+    chip.dataset.level = lv.key;
+    chip.style.setProperty('--chip-color', lv.color);
+    chip.style.setProperty('--chip-bg', lv.bg);
+    chip.textContent = lv.label + ' ';
+    const cnt = document.createElement('span');
+    cnt.className = 'chip-count';
+    chip.appendChild(cnt);
+    levelGrid.appendChild(chip);
+  }
+  levelSection.appendChild(levelGrid);
+  container.appendChild(levelSection);
 
   // Sections
   const secSection = document.createElement('div');
@@ -178,9 +213,10 @@ export function renderSetupView() {
 
   container.classList.add('view-enter');
 
-  // Default: select all sections
+  // Default: select all sections, restore persisted levels
   selectedSections = [...sectionMeta.keys()];
   selectedDifficulties = ['easy', 'medium', 'hard'];
+  selectedLevels = loadLevels();
   updateChipStates();
   updateCount();
 
@@ -188,6 +224,21 @@ export function renderSetupView() {
 }
 
 function bindSetupEvents() {
+  document.getElementById('level-chips').addEventListener('click', e => {
+    const chip = e.target.closest('[data-level]');
+    if (!chip) return;
+    const lv = chip.dataset.level;
+    const idx = selectedLevels.indexOf(lv);
+    if (idx >= 0) {
+      if (selectedLevels.length > 1) selectedLevels.splice(idx, 1);
+    } else {
+      selectedLevels.push(lv);
+    }
+    saveLevels(selectedLevels);
+    updateChipStates();
+    updateCount();
+  });
+
   document.getElementById('section-chips').addEventListener('click', e => {
     const chip = e.target.closest('[data-section]');
     if (!chip) return;
@@ -227,7 +278,7 @@ function bindSetupEvents() {
 
   document.getElementById('start-btn')?.addEventListener('click', () => {
     const { concepts } = getState();
-    const filtered = filterConcepts(concepts, selectedSections, selectedDifficulties);
+    const filtered = filterConcepts(concepts, selectedSections, selectedDifficulties, selectedLevels);
     const questions = generateQuestions(filtered);
     const session = createSession(questions);
     setState({ session });
@@ -249,6 +300,9 @@ function bindSetupEvents() {
 }
 
 function updateChipStates() {
+  document.querySelectorAll('#level-chips .chip').forEach(chip => {
+    chip.classList.toggle('chip--active', selectedLevels.includes(chip.dataset.level));
+  });
   document.querySelectorAll('#section-chips .chip').forEach(chip => {
     chip.classList.toggle('chip--active', selectedSections.includes(chip.dataset.section));
   });
@@ -259,7 +313,7 @@ function updateChipStates() {
 
 function updateCount() {
   const { concepts } = getState();
-  const filtered = filterConcepts(concepts, selectedSections, selectedDifficulties);
+  const filtered = filterConcepts(concepts, selectedSections, selectedDifficulties, selectedLevels);
   const count = filtered.length;
 
   const numEl = document.querySelector('.question-count__number');
@@ -268,9 +322,16 @@ function updateCount() {
   const startBtn = document.getElementById('start-btn');
   if (startBtn) startBtn.disabled = count === 0;
 
+  document.querySelectorAll('#level-chips .chip').forEach(chip => {
+    const lv = chip.dataset.level;
+    const lvCount = filterConcepts(concepts, selectedSections, selectedDifficulties, [lv]).length;
+    const countSpan = chip.querySelector('.chip-count');
+    if (countSpan) countSpan.textContent = lvCount;
+  });
+
   document.querySelectorAll('#difficulty-chips .chip').forEach(chip => {
     const d = chip.dataset.difficulty;
-    const dCount = filterConcepts(concepts, selectedSections, [d]).length;
+    const dCount = filterConcepts(concepts, selectedSections, [d], selectedLevels).length;
     const countSpan = chip.querySelector('.chip-count');
     if (countSpan) countSpan.textContent = dCount;
   });

@@ -61,6 +61,7 @@ export function generateQuestions(filteredConcepts) {
       correctTopic: concept.topic,
       section: concept.section,
       sectionTitle: concept.sectionTitle,
+      level: concept.level || 'L1',
       bloomLevel: concept.quiz.bloom_level,
       difficulty: concept.quiz.difficulty,
       explanation: concept.explanation,
@@ -86,18 +87,33 @@ function buildChoices(concept, pool, allConcepts) {
     }
   }
 
-  // 4th distractor: prefer same section
-  const sameSection = pool.filter(c => c.section === concept.section && !used.has(c.id));
+  // 4th distractor: prefer same section + same level
+  const sameSection = pool.filter(c =>
+    c.section === concept.section && !used.has(c.id) && c.level === concept.level
+  );
   if (sameSection.length > 0) {
     const pick = sameSection[Math.floor(Math.random() * sameSection.length)];
     choices.push(pick.topic);
     used.add(pick.id);
   }
 
-  // Fallback: if still < 4, pull from any section
+  // Fallback: same section any level
+  if (choices.length < 4) {
+    const sameSectionAny = pool.filter(c => c.section === concept.section && !used.has(c.id));
+    if (sameSectionAny.length > 0) {
+      const pick = sameSectionAny[Math.floor(Math.random() * sameSectionAny.length)];
+      choices.push(pick.topic);
+      used.add(pick.id);
+    }
+  }
+
+  // Fallback: if still < 4, pull from any section (prefer same level)
   if (choices.length < 4) {
     const remaining = [...allConcepts.values()].filter(c => !used.has(c.id));
-    const shuffledRemaining = shuffle(remaining);
+    const sameLevelFirst = remaining.sort((a, b) =>
+      (b.level === concept.level ? 1 : 0) - (a.level === concept.level ? 1 : 0)
+    );
+    const shuffledRemaining = shuffle(sameLevelFirst);
     for (const c of shuffledRemaining) {
       if (choices.length >= 4) break;
       choices.push(c.topic);
