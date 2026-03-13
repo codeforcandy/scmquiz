@@ -1,0 +1,387 @@
+{
+  "section_id": "H",
+  "section_title": "Production Planning and Control",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "H.1",
+      "topic": "Describe different types of supply chain management planning.",
+      "analogy": "Think of it like planning a cross-country move. First you decide which city to relocate to and pick a moving company (long-range, big-picture decisions). Then you plan which month to move, book the truck, and set a budget for packing supplies (mid-range coordination). Finally, on moving day, you direct the movers room by room and track the truck in real time (daily execution).",
+      "concrete_example": "Amazon operates all three levels simultaneously: strategically it decides where to build new fulfillment centers based on population density and Prime membership data; tactically it sets quarterly inventory targets and staffing plans ahead of peak seasons like Prime Day; operationally its algorithms reassign packages across delivery routes every few minutes to meet same-day delivery promises.",
+      "simplified_definition": "This concept describes how supply chains organize their decision-making into three distinct layers that cover different time horizons. The top layer addresses long-term choices like where to locate facilities and which suppliers to partner with, typically revisited annually. The middle layer translates those big-picture goals into medium-term action plans such as quarterly production volumes and seasonal inventory policies. The bottom layer handles the day-to-day execution -- scheduling shipments, managing warehouse operations, and monitoring logistics performance. All three layers must work together so that high-level vision flows down into daily reality without gaps.",
+      "explanation": "The moving analogy works because it mirrors how each planning level addresses a different time horizon and scope of decision. Choosing a city parallels strategic planning (long-term, hard to reverse), scheduling the move parallels tactical planning (medium-term, resource allocation), and directing movers on the day parallels operational planning (immediate, execution-focused). Just as skipping any step would make the move chaotic, supply chains need all three levels coordinated.",
+      "key_terms": [
+        "strategic planning",
+        "tactical planning",
+        "operational planning",
+        "demand planning",
+        "sales and operations planning"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.2",
+          "type": "related_to",
+          "description": "Static and dynamic planning are approaches applied within these planning levels."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule is a key output of tactical planning."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["H.2", "H.3", "H.4"],
+        "relationship_distractors": ["H.2", "H.3"]
+      }
+    },
+    {
+      "id": "H.2",
+      "topic": "Define Static vs. Dynamic Planning.",
+      "analogy": "Imagine two students studying for exams. One prints a study schedule on Sunday night and follows it rigidly all week, regardless of surprise quizzes or changing priorities -- that is the fixed approach. The other uses a digital planner that automatically reshuffles study blocks whenever a new assignment drops, keeping priorities current at all times -- that is the continuously updating approach.",
+      "concrete_example": "Procter & Gamble experienced this contrast during COVID-19 demand spikes. Its traditional monthly planning cycle (a fixed snapshot regenerated once per month) could not keep pace with surging demand for cleaning products and toilet paper. P&G accelerated its shift to real-time demand sensing tools that recalculated supply plans continuously as point-of-sale data flowed in, enabling it to redirect inventory to high-demand regions within days rather than waiting for the next monthly cycle.",
+      "simplified_definition": "This concept contrasts two fundamentally different approaches to maintaining a supply chain plan. One approach generates a plan at a set point in time and holds it stable until the next scheduled update, giving planners a consistent reference to work from. The other approach starts with the same baseline but automatically recalculates whenever conditions change -- a new customer order, a supplier delay, or a demand shift triggers an immediate update. The fixed approach uses full regeneration runs, while the continuously updating approach uses incremental net change calculations that are faster to process. Most modern organizations use both: a stable baseline for coordination and budgeting, overlaid with real-time adjustments to stay responsive.",
+      "explanation": "The student study schedule analogy captures the core tradeoff well. The printed schedule provides stability and clarity (everyone knows the plan), just as a fixed plan gives purchasers and production planners a reliable reference. The dynamic planner offers responsiveness but requires discipline to manage constant updates, mirroring how real-time planning demands strong master data governance. Both approaches have their place depending on volatility.",
+      "key_terms": [
+        "static planning",
+        "dynamic planning",
+        "net change",
+        "regenerative planning",
+        "master data"
+      ],
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/deprecated-master-plans",
+          "title": "Set up master plans for the deprecated planning engine",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.goarmstrong.com/resources/risk-of-static-supply-chain/",
+          "title": "Static vs. Dynamic Supply Chains: The Path to Resilience",
+          "site": "Armstrong"
+        },
+        {
+          "url": "https://fareye.com/resources/blogs/static-vs-dynamic-route-planning",
+          "title": "Static Route vs Dynamic Route Planning: A Practical Guide",
+          "site": "FarEye"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.1",
+          "type": "related_to",
+          "description": "Static and dynamic are planning approaches used within the broader types of SCM planning."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule can be managed using either static or dynamic planning methods."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["H.1", "H.3", "H.5"],
+        "relationship_distractors": ["H.1", "H.3"]
+      }
+    },
+    {
+      "id": "H.3",
+      "topic": "Explain how a master production schedule is determined.",
+      "analogy": "Think of a film production schedule. The director knows which scenes to shoot, which actors are needed, which sets must be built, and on what dates everything must happen. If the lead actor is unavailable next week, the schedule shifts other scenes forward. Change requests close to the shoot date are locked down to avoid chaos, while scenes months away can still be rearranged.",
+      "concrete_example": "Samsung's semiconductor division creates a detailed build plan for its chip fabrication facilities that specifies exactly which chip designs will run on which production lines, in what batch sizes, and on what dates. The plan incorporates customer orders from Apple and Qualcomm, wafer inventory levels, equipment maintenance windows, and capacity constraints. Near-term production slots are frozen to protect the delicate photolithography process, while slots further out remain flexible for new orders.",
+      "simplified_definition": "This concept is a detailed plan that specifies exactly which products will be manufactured, in what quantities, and on what dates. It is built by synthesizing demand forecasts, existing customer orders, current inventory, material availability, and production capacity constraints into a single coordinated build schedule for individual end items. The plan establishes control boundaries that freeze near-term production to maintain stability while allowing changes further out. Its time horizon must extend at least as far as the longest cumulative lead time for any component. This plan directly feeds the system that calculates what raw materials and components need to be purchased and when.",
+      "explanation": "The film production schedule analogy works because both involve coordinating multiple constrained resources (actors/materials, sets/machines, crew/labor) around fixed deadlines. The concept of freezing near-term scenes to avoid disruption mirrors time fences that protect short-term production stability. And just as the schedule must extend far enough to book locations and actors in advance, the planning horizon must cover the longest cumulative lead time.",
+      "key_terms": [
+        "master production schedule",
+        "MPS",
+        "planning horizon",
+        "time fence",
+        "material requirements planning",
+        "demand forecast"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.1",
+          "type": "related_to",
+          "description": "The MPS is a key output of tactical-level supply chain planning."
+        },
+        {
+          "target_id": "H.4",
+          "type": "related_to",
+          "description": "The MPS uses the bill of materials to determine component and material requirements."
+        },
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["H.1", "H.2", "H.4"],
+        "relationship_distractors": ["H.4", "H.5"]
+      }
+    },
+    {
+      "id": "H.4",
+      "topic": "Define Bill of Material (BOM).",
+      "analogy": "Think of a Lego instruction booklet. It lists every brick, axle, and minifigure needed for the final model, along with exact quantities. A simple booklet just shows the pieces in the box (single-level), while a complex Technic set reveals that certain sub-assemblies -- like the engine block -- must be built from their own smaller parts before being snapped into the main model (multi-level).",
+      "concrete_example": "Airbus manages multi-level versions of this structured parts list for the A350 aircraft, where each plane contains over 2.5 million individual parts sourced from suppliers in 30 countries. The engineering version guides design teams in Toulouse, while the manufacturing version tells each supplier -- such as Spirit AeroSystems for fuselage sections -- exactly which sub-assemblies to build. When Airbus ramped A350 production from six to ten aircraft per month, accuracy in these parts lists was critical to avoid cascading shortages across its global supplier network.",
+      "simplified_definition": "This concept is a comprehensive, structured list of every raw material, component, and sub-assembly -- along with exact quantities -- needed to manufacture a finished product. A simple version lists only the immediate components of a product, while an expanded version shows the full hierarchy including sub-assemblies and their own constituent parts. This structured list is the foundation for planning systems that calculate what materials need to be purchased and when. It also supports inventory planning, production scheduling, and cost estimation across the supply chain. Errors in this list cascade into wrong quantities ordered, production delays, and cost overruns.",
+      "explanation": "The Lego instruction booklet analogy is effective because it makes the single-level versus multi-level distinction intuitive. A basic set has a flat parts list (single-level), while a complex Technic set has sub-assemblies within sub-assemblies (multi-level hierarchy). Both the Lego booklet and this concept serve the same purpose: ensuring you have every piece accounted for before you start building, and knowing the order in which sub-assemblies must come together.",
+      "key_terms": [
+        "bill of materials",
+        "BOM",
+        "single-level BOM",
+        "multi-level BOM",
+        "material requirements planning",
+        "product structure"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/bills-of-material",
+          "title": "Bills of Material (BOM) In the Supply Chain",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/bill-of-materials-bom.shtml",
+          "title": "What Is a Bill of Materials (BOM)? The Complete Guide to BOMs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://gainsystems.com/blog/bill-of-materials-bom-in-supply-chain-management-impacts-and-examples/",
+          "title": "Bill of Materials (BOM) in Supply Chain Management: Impacts and Examples",
+          "site": "Gain Systems"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The BOM is used to explode the MPS into detailed material requirements."
+        },
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "The BOM specifies the raw materials needed for production."
+        },
+        {
+          "target_id": "H.6",
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["H.3", "H.5", "H.6"],
+        "relationship_distractors": ["H.3", "H.5"]
+      }
+    },
+    {
+      "id": "H.5",
+      "topic": "Describe raw materials required for supply chain management.",
+      "analogy": "Think of raw materials as the lumber, nails, and concrete at a construction site before a house is built. Some materials become part of the structure itself -- the framing lumber, the foundation concrete (direct). Others support the building process without ending up in the house -- scaffolding, saw blades, and safety tape (indirect). Running out of concrete halfway through pouring a foundation halts the entire project.",
+      "concrete_example": "Starbucks depends on sourcing green (unroasted) coffee beans from farms across Brazil, Colombia, and Ethiopia -- these are the primary unprocessed inputs for its entire product line. Starbucks classifies the beans themselves as direct inputs (they become the coffee customers drink) and items like burlap shipping sacks and roasting machine filters as indirect inputs. To guard against crop failures and price volatility, Starbucks locks in forward contracts with farmers and maintains strategic buffer inventories at regional roasting facilities, so a poor harvest in one origin does not shut down production globally.",
+      "simplified_definition": "This concept refers to unprocessed or minimally processed inputs -- such as metals, plastics, agricultural products, and chemicals -- that feed the production process and represent the very first link in the supply chain. They are classified as either direct (physically becoming part of the finished product) or indirect (supporting production without entering the product). Managing these inputs involves a balancing act: ordering, storing, monitoring, and inspecting them throughout the production cycle. Too little stock risks halting production when disruptions occur; too much ties up capital and warehouse space. Accurate tracking is essential for smooth production flow, timely order fulfillment, and cost optimization.",
+      "explanation": "The construction site analogy works because it clearly illustrates the direct versus indirect distinction: lumber in the walls is direct, scaffolding is indirect. It also shows how running out of a critical input (concrete) stops everything downstream, just as raw material shortages cascade through every subsequent stage of production. The Starbucks example grounds this in a real global sourcing challenge with tangible risk mitigation strategies.",
+      "key_terms": [
+        "raw materials",
+        "direct materials",
+        "indirect materials",
+        "procurement",
+        "raw materials inventory",
+        "safety stock"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.4",
+          "type": "related_to",
+          "description": "The BOM specifies which raw materials are required and in what quantities."
+        },
+        {
+          "target_id": "H.6",
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter the production process."
+        },
+        {
+          "target_id": "H.7",
+          "type": "related_to",
+          "description": "Raw materials are transformed through production into finished goods."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["H.4", "H.6", "H.7"],
+        "relationship_distractors": ["H.4", "H.6"]
+      }
+    },
+    {
+      "id": "H.6",
+      "topic": "Describe work-in-process for supply chain management.",
+      "analogy": "Imagine a pottery studio where clay has been shaped into bowls on the wheel but they still need to be dried, glazed, and kiln-fired before they can be sold. Those bowls on the drying rack represent items that have consumed time, skill, and material but are not yet sellable. The more bowls piling up waiting for kiln space, the more capital is tied up and the longer customers wait.",
+      "concrete_example": "Intel's semiconductor fabrication plants illustrate this vividly. A single silicon wafer spends 2-3 months moving through over 700 processing steps -- lithography, etching, deposition, testing -- before becoming finished chips. During that time, each wafer is a partially completed asset worth thousands of dollars. Intel carefully monitors wafer-level inventory at each processing stage; a bottleneck at any step (say, a lithography machine going down) causes partially processed wafers to pile up, increasing costs and extending delivery timelines to customers like Dell and HP.",
+      "simplified_definition": "This concept refers to partially completed goods that are somewhere between raw inputs and sellable products -- they have consumed labor, materials, and manufacturing overhead but cannot yet be sold. On the balance sheet, they appear as a current asset under inventory. High levels signal bottlenecks, longer lead times, and increased carrying costs, while low levels suggest a lean and responsive production process. The value is calculated as beginning inventory of these items plus production costs incurred minus the cost of completed goods. Effective management requires coordination between production, procurement, and logistics to maintain smooth material flow through manufacturing.",
+      "explanation": "The pottery studio analogy is effective because it makes the in-between state tangible -- shaped but unfired bowls clearly cannot be sold yet, but clay, labor, and studio time have already been invested. The bottleneck concept is also intuitive: if the kiln is full, bowls pile up on the drying rack, tying up resources. This mirrors how production bottlenecks cause partially completed inventory to accumulate on the factory floor, increasing costs and lead times.",
+      "key_terms": [
+        "work-in-process",
+        "WIP",
+        "in-process inventory",
+        "production cycle",
+        "lead time",
+        "carrying costs"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Work_in_process",
+          "title": "Work in process",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-11/the-monthly-metric-work-in-process-inventory/",
+          "title": "The Monthly Metric: Work-in-Process Inventory",
+          "site": "ISM (Institute for Supply Management)"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/accounting/work-in-process.shtml",
+          "title": "What is Work in Process?",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter manufacturing."
+        },
+        {
+          "target_id": "H.7",
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule drives the flow of WIP through the production process."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["H.5", "H.7", "H.4"],
+        "relationship_distractors": ["H.5", "H.7"]
+      }
+    },
+    {
+      "id": "H.7",
+      "topic": "Define finished goods and the goal to move those goods.",
+      "analogy": "Think of completed packages sitting at a post office sorting facility. Every item has been packed, labeled, and cleared for delivery -- all the work is done. The goal now is to get each package to its recipient as fast as possible, because every hour it sits on the shelf costs storage space and delays satisfaction. The sorting facility acts as a buffer for surges (holiday season), but ideally packages flow through without lingering.",
+      "concrete_example": "Nike operates massive distribution centers -- such as its facility in Memphis, Tennessee -- where completed shoes and apparel arrive from contract manufacturers in Vietnam and Indonesia. These products have passed quality inspection and are ready for sale. Nike's goal is to move them to retailers and direct-to-consumer channels as quickly as possible; its Memphis facility can process over 2.4 million units per week using automated sorting systems. During product launches like a new Air Jordan release, Nike pre-positions inventory at regional hubs to meet the demand spike without excess stock sitting idle afterward.",
+      "simplified_definition": "This concept describes products that have completed the entire manufacturing process, passed quality checks, and are ready for sale and delivery to customers. They represent the final stage of the production pipeline, and the primary objective is to move them to customers as quickly and efficiently as possible while minimizing holding costs. This inventory acts as a buffer to absorb demand fluctuations -- preventing stockouts during surges while avoiding excess stock that ties up working capital and storage space. Effective management balances production output with distribution logistics to optimize order fulfillment, reduce lead times, and maintain customer satisfaction.",
+      "explanation": "The post office sorting facility analogy works because it captures both the 'ready to go' status and the urgency to move items out. Just as packages lose value the longer they sit unsorted (customers grow frustrated, storage fills up), completed products incur holding costs and risk obsolescence. The buffer function is also clear: a sorting facility handles holiday surges just as inventory buffers absorb demand spikes. Nike's example shows this at scale with real distribution metrics.",
+      "key_terms": [
+        "finished goods",
+        "finished goods inventory",
+        "order fulfillment",
+        "distribution",
+        "holding costs",
+        "customer service level"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/finished-goods-inventory/",
+          "title": "Finished Goods Inventory: What It Is, Formula, and Examples",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.fishbowlinventory.com/blog/what-are-finished-goods",
+          "title": "Finished Goods Inventory Management: A Guide + Formula",
+          "site": "Fishbowl"
+        },
+        {
+          "url": "https://www.ism.ws/logistics/types-of-inventory/",
+          "title": "Types of Inventory: Raw, WIP, Finished Goods Explained",
+          "site": "ISM (Institute for Supply Management)"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "H.6",
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        },
+        {
+          "target_id": "H.5",
+          "type": "related_to",
+          "description": "Finished goods are the end result of transforming raw materials through production."
+        },
+        {
+          "target_id": "H.3",
+          "type": "related_to",
+          "description": "The master production schedule determines what finished goods will be produced and when."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["H.5", "H.6", "H.3"],
+        "relationship_distractors": ["H.6", "H.5"]
+      }
+    }
+  ]
+}

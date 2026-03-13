@@ -272,6 +272,38 @@
   color: #a78bfa;
 }
 
+/* ─── Analogy Card (L4) ─── */
+
+.badge--level-L4 {
+  background: #dc2626;
+  color: #fff;
+}
+
+.analogy-card {
+  border-left-width: 3px;
+  border-left-style: dotted;
+}
+
+.analogy-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #dc2626;
+  margin-bottom: var(--space-2);
+}
+
+.analogy-card__text {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .analogy-card__prompt {
+  color: #f87171;
+}
+
 /* ─── Progress Bar ─── */
 
 .progress-bar {

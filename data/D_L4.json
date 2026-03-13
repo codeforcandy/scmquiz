@@ -1,0 +1,361 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "D.1",
+      "topic": "Explain the relationship between purchasing and supply chain management.",
+      "analogy": "Purchasing is like the grocery shopping you do for a dinner party: you carefully pick the freshest ingredients at the best prices, but the full event also requires cooking, plating, serving, and cleanup. Shopping is essential, yet it is only one step in delivering a memorable meal to your guests.",
+      "concrete_example": "Starbucks employs a dedicated procurement team that sources high-quality Arabica beans from over 400,000 farmers across 30 countries through its C.A.F.E. Practices program. But its broader supply chain management extends to roasting facilities, cold-chain logistics for dairy, a network of regional distribution centers, and last-mile delivery to over 35,000 stores worldwide.",
+      "simplified_definition": "This concept describes how the act of buying materials and services fits inside a much larger system that moves products from raw materials all the way to the customer. The buying function handles finding suppliers, negotiating contracts, and placing orders, much like selecting the best ingredients at a market. But the larger system also coordinates manufacturing, warehousing, shipping, and customer delivery into one unified operation. When the buying function works well, it strengthens every downstream step by securing reliable sources, competitive prices, and strong supplier partnerships.",
+      "explanation": "The grocery-shopping analogy works because it highlights how procurement is a critical but incomplete piece of the whole operation. Just as great ingredients alone do not guarantee a great dinner party without cooking and serving, excellent purchasing does not guarantee supply chain success without production, logistics, and distribution working together. The hierarchical relationship between the two is the key insight.",
+      "key_terms": [
+        "procurement",
+        "sourcing",
+        "supplier relationship management",
+        "purchasing function",
+        "supply chain coordination"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.2",
+          "type": "related_to",
+          "description": "Purchasing decisions directly affect the value a company provides through its supply chain."
+        },
+        {
+          "target_id": "D.4",
+          "type": "related_to",
+          "description": "Purchasing must be integrated with other supply chain functions for effective SCM."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.4", "D.3", "D.7"],
+        "relationship_distractors": ["D.2", "D.4"]
+      }
+    },
+    {
+      "id": "D.2",
+      "topic": "Explain how a company will provide value to supply chain management.",
+      "analogy": "Think of a concert venue that has to get the right artist on stage (selection), at the right time (punctuality), in the right city (location), at a ticket price fans will pay (cost). The venue creates value not through any single element but through the combined experience of all four hitting the mark simultaneously.",
+      "concrete_example": "Domino's Pizza transformed its supply chain into a value engine by operating over 30 regional dough-manufacturing and supply centers that deliver fresh ingredients to franchises multiple times per week. Its GPS-tracked delivery fleet and real-time order tracking app ensure customers receive hot pizza within 30 minutes, creating time and place utility that helped the company outperform competitors and even major tech stocks over the past decade.",
+      "simplified_definition": "This concept is about how a business creates worth for customers by ensuring products are available in the right quantity, delivered at the right time, and accessible at the right place and price. Like a concert venue that must nail artist selection, timing, location, and pricing all at once, the goal is to be better, faster, and cheaper than alternatives. Leading companies tailor their approaches for different customer segments, and the total value comes from contributions across every link in the chain, from supplier to final delivery, creating a competitive edge that rivals struggle to match.",
+      "explanation": "The concert venue analogy captures the multi-dimensional nature of supply chain value because a great concert requires multiple forms of utility delivered simultaneously, just as supply chain value requires quantity, time, and place utility working in concert. Neither a great band in the wrong city nor a perfect location with a bad lineup creates value, mirroring how supply chains must optimize across all dimensions to generate competitive advantage.",
+      "key_terms": [
+        "value proposition",
+        "customer utility",
+        "competitive advantage",
+        "fulfillment goals",
+        "supply chain value"
+      ],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.1",
+          "type": "related_to",
+          "description": "Purchasing decisions are a key driver of the value a company delivers through its supply chain."
+        },
+        {
+          "target_id": "D.5",
+          "type": "related_to",
+          "description": "Balancing supply and demand is fundamental to delivering value in the supply chain."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.5", "D.7", "D.4"],
+        "relationship_distractors": ["D.1", "D.5"]
+      }
+    },
+    {
+      "id": "D.3",
+      "topic": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company.",
+      "analogy": "Selecting supply chain partners is like assembling a relay team for a race. You pick runners for each leg based on their individual speed, reliability, and how smoothly they can hand off the baton. A weak link on any leg, or a fumbled handoff, costs the entire team the race.",
+      "concrete_example": "Samsung Electronics manages a tiered supplier network of over 2,500 companies across its semiconductor and consumer electronics divisions. It classifies first-tier suppliers for critical components like display panels and memory chips while second-tier suppliers provide raw materials such as rare earth minerals. Samsung partners with Ceva Logistics and other 3PL providers to manage global distribution, and it strategically contracts ocean carriers for intercontinental shipping from its South Korean manufacturing hubs to regional warehouses across North America and Europe.",
+      "simplified_definition": "This concept covers how a business strategically picks who will provide its materials, who will handle specialized tasks, who will move its goods, and how products reach end customers. Like assembling a relay team where each runner is chosen for a specific leg, companies evaluate potential partners on cost, capability, reliability, and fit with overall goals. Suppliers are organized in layers, with direct suppliers feeding the company and lower-tier suppliers feeding those direct suppliers. Specialized work goes to subcontractors with specific expertise, shipping is handled by carriers chosen for speed, cost, and coverage, and many companies use third-party logistics firms to manage warehousing, customs, and last-mile delivery.",
+      "explanation": "The relay team analogy works because it emphasizes that each partner handles a distinct leg of the journey and the overall result depends on every participant performing well and executing clean handoffs. Just as a relay team evaluates runners on speed, endurance, and baton-passing skill, companies evaluate supply chain partners on cost, capability, reliability, and strategic alignment. A weak supplier or unreliable carrier can undermine the entire chain, just as a slow runner or dropped baton loses the race.",
+      "key_terms": [
+        "supplier tiering",
+        "carrier sourcing",
+        "third-party logistics (3PL)",
+        "distribution channels",
+        "outsourcing",
+        "subcontracting"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.6",
+          "type": "related_to",
+          "description": "The selection of suppliers and transportation providers is closely tied to facility network design decisions."
+        },
+        {
+          "target_id": "D.4",
+          "type": "related_to",
+          "description": "Integration across suppliers, subcontractors, and logistics providers is key to supply chain integration."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.6", "D.1", "D.4"],
+        "relationship_distractors": ["D.6", "D.4"]
+      }
+    },
+    {
+      "id": "D.4",
+      "topic": "Define supply chain integration.",
+      "analogy": "Think of an orchestra where dozens of musicians playing different instruments must follow the same conductor, read from the same score, and adjust in real time to tempo changes. Without that shared coordination, even talented individual players produce noise instead of music.",
+      "concrete_example": "Procter & Gamble integrates its supply chain by sharing demand signals from retail partners through its Joint Business Planning platform. When a Kroger store scans a bottle of Tide at checkout, that data flows upstream to P&G's planning systems, triggering production scheduling at manufacturing plants and raw material orders to chemical suppliers, all without manual intervention. This integration helped P&G reduce finished goods inventory by 15% while improving on-shelf availability.",
+      "simplified_definition": "This concept is about connecting and coordinating every participant in a supply chain, from raw material providers to end customers, so they function as one unified system rather than independent silos. Like an orchestra where every musician follows the same conductor and score, it requires aligning information systems, business processes, and strategic goals across all trading partners. When done well, everyone has real-time visibility into what is happening throughout the chain, redundancies and delays shrink, and the whole system can react quickly to demand shifts or disruptions. The goal is to optimize performance across the entire network, not just at individual nodes.",
+      "explanation": "The orchestra analogy captures the essence of integration because it illustrates how independent performers with different instruments and skills must synchronize through shared information (the score), a common coordination mechanism (the conductor), and real-time responsiveness to changes. This maps directly to how supply chain integration aligns information flow, process synchronization, and cross-functional coordination to turn disparate organizations into a seamless system.",
+      "key_terms": [
+        "process synchronization",
+        "information flow",
+        "cross-functional coordination",
+        "end-to-end visibility",
+        "integrated supply chain management"
+      ],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.1",
+          "type": "related_to",
+          "description": "Purchasing is one of the key functions that must be integrated within the supply chain."
+        },
+        {
+          "target_id": "D.3",
+          "type": "related_to",
+          "description": "Integration encompasses coordination with suppliers, subcontractors, and logistics providers."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["D.5", "D.6", "D.3"],
+        "relationship_distractors": ["D.1", "D.3"]
+      }
+    },
+    {
+      "id": "D.5",
+      "topic": "Describe management of supply and demand for supply chain management.",
+      "analogy": "Managing supply and demand is like being an air traffic controller at a busy airport. You must predict how many planes will need to land and take off each hour, then coordinate runway availability, gate assignments, and ground crews so everything flows smoothly without dangerous pileups or empty runways sitting idle.",
+      "concrete_example": "H&M uses a dual-track production model to balance supply and demand. Approximately 60% of production is committed months in advance for predictable basics like white t-shirts, while the remaining 40% is reserved for trend-responsive items produced closer to the selling season. When its AI-driven demand sensing detected a surge in oversized blazer searches, H&M accelerated production with near-shore Turkish suppliers, getting product to stores within weeks rather than the typical three-to-four-month cycle.",
+      "simplified_definition": "This concept is about predicting what customers will want and then making sure materials, production capacity, and shipping resources are lined up to deliver exactly that amount, no more and no less. Like an air traffic controller balancing incoming flights with available runways, it requires coordinating forecasts from marketing and sales with the physical capacity to produce and deliver goods. When the balance is right, stockouts and excess inventory both decrease. Modern approaches go beyond traditional forecasting by using real-time data and analytics to sense actual consumption patterns and adjust on the fly, turning the supply chain into a responsive system rather than one running on guesswork months in advance.",
+      "explanation": "The air traffic control analogy works because it captures the real-time balancing act at the heart of supply-demand management. Controllers must forecast traffic, allocate scarce resources (runways and gates), and constantly adjust to changing conditions, just as supply chain planners forecast demand, allocate production capacity and inventory, and respond to shifting market signals. Both systems face severe consequences from imbalances: too many planes and too few runways cause costly delays, just as demand spikes without supply readiness cause stockouts.",
+      "key_terms": [
+        "demand planning",
+        "supply planning",
+        "demand forecasting",
+        "inventory optimization",
+        "sales and operations planning (S&OP)",
+        "demand-driven supply chain"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.2",
+          "type": "related_to",
+          "description": "Effective supply-demand management is essential to delivering value in the supply chain."
+        },
+        {
+          "target_id": "D.7",
+          "type": "related_to",
+          "description": "Supply-demand imbalances directly impact costs and expense management."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.2", "D.4", "D.7"],
+        "relationship_distractors": ["D.2", "D.7"]
+      }
+    },
+    {
+      "id": "D.6",
+      "topic": "Describe the efficient facility network design for supply chain management.",
+      "analogy": "Designing a facility network is like placing fire stations across a city. Too few stations and response times soar in distant neighborhoods. Too many and the city wastes money staffing underutilized stations. The optimal layout ensures every area is covered quickly while keeping total operating costs in check.",
+      "concrete_example": "IKEA operates a network of 44 distribution centers and 1,600 suppliers across 50 countries, all feeding into roughly 460 stores globally. To serve the North American market efficiently, IKEA positioned a major distribution center in Savannah, Georgia near the port, plus regional centers that reduce trucking distances to stores. When IKEA redesigned its flat-pack furniture to maximize container density, it reduced shipping volume by up to 50% on some product lines, fundamentally changing what the optimal network looked like and enabling fewer, larger facilities.",
+      "simplified_definition": "This concept is about figuring out the best number, location, and size for factories, warehouses, and distribution points, along with the transportation routes connecting them, to move products efficiently at the lowest cost while still meeting customer expectations. Like placing fire stations across a city for fast coverage without overspending, it involves balancing proximity to customers and suppliers, labor availability, transportation infrastructure, taxes, and risk. Roughly 80 percent of operational costs in a supply chain depend on these placement decisions. Advanced mathematical models are used to optimize this, and companies periodically redesign their networks as markets and conditions change because these are long-term capital decisions that lock in cost structures for years.",
+      "explanation": "The fire station analogy captures the core tension in network design: coverage versus cost. Just as fire departments must place stations to minimize response times across a geography while staying within budget, supply chain designers must position facilities to minimize delivery times and transportation costs while meeting service requirements. Both problems involve mathematical optimization of placement given geographic constraints, and both carry long-term consequences since fire stations and distribution centers are expensive to relocate.",
+      "key_terms": [
+        "network optimization",
+        "facility location",
+        "distribution center",
+        "transportation routing",
+        "warehousing strategy",
+        "mathematical modeling"
+      ],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.3",
+          "type": "related_to",
+          "description": "Facility network design determines where suppliers and distribution points are located relative to production."
+        },
+        {
+          "target_id": "D.7",
+          "type": "related_to",
+          "description": "Network design decisions have a major impact on supply chain operating expenses."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.3", "D.4", "D.7"],
+        "relationship_distractors": ["D.3", "D.7"]
+      }
+    },
+    {
+      "id": "D.7",
+      "topic": "Explain the importance of expense management for supply chain management.",
+      "analogy": "Managing supply chain expenses is like maintaining a fuel-efficient car. Every component matters: tire pressure, engine tuning, driving habits, and route selection all affect how much fuel you burn per mile. Neglect any one area and costs creep up quietly until the monthly gas bill shocks you.",
+      "concrete_example": "ALDI keeps grocery prices 20-30% below traditional supermarkets by obsessively controlling supply chain costs. It stocks only about 1,400 SKUs compared to 30,000+ at a typical grocery store, which simplifies procurement, reduces warehousing complexity, and increases purchasing volume per item. ALDI designs stores to be restocked by a single delivery truck, uses shelf-ready packaging that eliminates manual stocking labor, and sources 90% of products under private labels to cut marketing and middleman costs throughout the chain.",
+      "simplified_definition": "This concept addresses the practice of systematically tracking, controlling, and reducing all costs involved in getting products from raw materials to customers' hands, covering procurement, production, storage, shipping, administration, and returns. Like keeping a car fuel-efficient by attending to every component from tire pressure to route planning, it requires vigilance across every cost category because supply chain expenses are often the largest chunk of a company's operating budget. The goal is to find the right balance: cutting costs too aggressively can degrade quality and service, but companies that master this discipline consistently outperform competitors through lower prices, higher profit margins, or both.",
+      "explanation": "The fuel-efficient car analogy works because it conveys how expense management is not about a single dramatic cut but about ongoing attention to multiple interconnected cost drivers. Just as fuel efficiency depends on the combined effect of tire pressure, engine maintenance, driving habits, and route choices, supply chain cost control depends on optimizing procurement, inventory, transportation, and operations simultaneously. Both require continuous monitoring and the understanding that neglecting one area undermines gains made elsewhere.",
+      "key_terms": [
+        "cost optimization",
+        "total cost of ownership",
+        "procurement costs",
+        "inventory carrying costs",
+        "transportation costs",
+        "cost-to-serve"
+      ],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "D.5",
+          "type": "related_to",
+          "description": "Poor supply-demand alignment leads to excess inventory and increased expenses."
+        },
+        {
+          "target_id": "D.6",
+          "type": "related_to",
+          "description": "Facility network design is a primary driver of supply chain operating costs."
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["D.5", "D.6", "D.2"],
+        "relationship_distractors": ["D.5", "D.6"]
+      }
+    }
+  ]
+}

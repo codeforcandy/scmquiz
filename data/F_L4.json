@@ -1,0 +1,308 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "F.1",
+      "topic": "Determine what products to sell",
+      "analogy": "Think of it like a music festival promoter deciding which acts to book. You cannot invite every band in the world, so you study what genres your audience loves, check which acts are touring, see what rival festivals are offering, and match it all against your budget and stage capacity. The lineup you choose shapes everything downstream, from sound equipment to food vendors.",
+      "concrete_example": "When Netflix shifted from DVD rentals to streaming, it did not simply digitize its entire DVD catalog. The company analyzed viewing data, licensing costs, and competitor gaps to strategically choose which content to offer and which original series to greenlight. That disciplined selection of what to 'sell' on its platform drove subscriber growth from 24 million in 2011 to over 230 million by 2023.",
+      "simplified_definition": "This is the strategic process of figuring out which offerings a company should bring to market by studying what customers want, what competitors are doing, and what the organization is actually capable of delivering. Like a festival promoter choosing a lineup, the company uses market research, demand forecasting, competitive analysis, and frameworks like the BCG Growth-Share Matrix to pick winners. Netflix exemplifies this by using viewing data and cost analysis to decide which content to license or produce. The choice matters enormously because every item selected triggers a cascade of supply chain commitments, from sourcing and production to inventory and distribution, requiring tight coordination across purchasing, operations, marketing, and sales.",
+      "explanation": "The festival promoter analogy works because it captures the multi-factor balancing act at the heart of this concept: audience demand (market analysis), competing festivals (competitive landscape), budget and venue constraints (organizational capabilities), and the downstream logistics that flow from every booking decision. Just as a promoter's lineup determines stage schedules and vendor needs, a company's product choices drive the entire supply chain.",
+      "key_terms": [
+        "market analysis",
+        "demand forecasting",
+        "product selection",
+        "competitive landscape",
+        "cross-functional coordination",
+        "BCG matrix"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.2",
+          "type": "related_to",
+          "description": "Product selection depends on understanding what products are used and sold by the business"
+        },
+        {
+          "target_id": "F.3",
+          "type": "applies_to",
+          "description": "The product portfolio is the output of determining what products to sell"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["F.2", "F.3", "F.4"],
+        "relationship_distractors": ["F.2", "F.3"]
+      }
+    },
+    {
+      "id": "F.2",
+      "topic": "How a company determines what products are used and sold by a business",
+      "analogy": "Imagine a gym owner reviewing swipe-card data to see which equipment members actually use, which classes fill up, and which machines gather dust. By combining internal usage logs with surveys about what members wish the gym offered, the owner builds a clear picture of what is thriving and what is wasting floor space.",
+      "concrete_example": "Walmart uses its Retail Link system to give suppliers real-time access to point-of-sale data across thousands of stores. By analyzing which SKUs fly off shelves, which sit idle, and how buying patterns shift by season and region, Walmart and its suppliers jointly determine which products are genuinely moving and which need to be reconsidered or replaced.",
+      "simplified_definition": "This is the analytical process a company uses to figure out which of its offerings customers are actually buying, using, or reselling. Like a gym owner checking swipe-card logs and class attendance, the company reviews internal data such as sales records, inventory turnover rates, and purchase histories to spot top performers and underperformers. Externally, it conducts market research through surveys, competitive analysis, and trend monitoring. Walmart does this at scale through its Retail Link system, giving suppliers real-time visibility into what moves and what stalls. Products are also categorized by lifecycle stage, from introduction through growth, maturity, and decline, so the company can make informed decisions about development, discontinuation, and where to allocate resources.",
+      "explanation": "The gym analogy captures the core idea because gyms, like businesses, must distinguish between what members actually use and what merely occupies space. Swipe-card data mirrors sales data analysis, class attendance parallels customer buying behavior, and member surveys reflect external market research. The lifecycle dimension maps to how gym equipment ages from trendy to outdated, just as products move through lifecycle stages.",
+      "key_terms": [
+        "sales data analysis",
+        "customer buying behavior",
+        "market research",
+        "product lifecycle",
+        "inventory turnover",
+        "resource allocation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.epicflow.com/blog/product-portfolio-management-what-it-is-and-why-it-matters-for-business-leaders/",
+          "title": "Product Portfolio Management: What It Is and Why It Matters for Business Leaders",
+          "site": "Epicflow"
+        },
+        {
+          "url": "https://www.productboard.com/blog/product-portfolio-management-101/",
+          "title": "Product Portfolio Management 101",
+          "site": "Productboard"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.1",
+          "type": "related_to",
+          "description": "Understanding current product usage informs decisions about what products to sell"
+        },
+        {
+          "target_id": "F.5",
+          "type": "prerequisite_for",
+          "description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["F.1", "F.3", "F.5"],
+        "relationship_distractors": ["F.1", "F.5"]
+      }
+    },
+    {
+      "id": "F.3",
+      "topic": "Product portfolio",
+      "analogy": "Think of it like a sports team roster. A basketball coach does not just collect the best individual scorers; the coach builds a balanced roster with point guards, forwards, and centers who complement each other. The roster is evaluated as a whole, checking whether the mix covers all positions, whether any players are underperforming, and whether the team needs trades or draft picks.",
+      "concrete_example": "Samsung operates across an enormous range of products, from smartphones and TVs to semiconductors and home appliances. Rather than evaluating each product line in isolation, Samsung assesses its entire roster collectively, deciding to invest heavily in its semiconductor division (a 'star') while scaling back its camera division when it could no longer compete against smartphone cameras. This collective view lets Samsung shift resources to where they generate the best returns.",
+      "simplified_definition": "This is the complete collection of all products and services a company offers, evaluated as a group rather than one by one. Like a basketball team roster where the coach assesses the overall balance of positions, the company examines how each offering contributes to the whole. Samsung, for instance, looks across smartphones, semiconductors, TVs, and appliances to decide where to invest, where to cut, and where to diversify. Frameworks like the BCG Growth-Share Matrix help categorize each item as a star, cash cow, question mark, or dog based on growth potential and market share. The goal is to balance the mix so the company is not over-reliant on any single product or segment, with strong performers helping fund emerging opportunities.",
+      "explanation": "The sports roster analogy works because a team roster, like a product collection, must be evaluated holistically. No coach would stock a team with only point guards; similarly, no company thrives by only offering one type of product. The need for balance, the act of trading underperformers, and the strategy of investing in high-potential draft picks all mirror portfolio analysis concepts like diversification, strategic alignment, and the BCG classification of products.",
+      "key_terms": [
+        "product portfolio",
+        "portfolio analysis",
+        "BCG Growth-Share Matrix",
+        "product mix",
+        "diversification",
+        "strategic alignment"
+      ],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.1",
+          "type": "related_to",
+          "description": "The product portfolio reflects the outcome of product selection decisions"
+        },
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "The Pareto principle helps analyze which items in the portfolio drive the most value"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["F.1", "F.2", "F.4"],
+        "relationship_distractors": ["F.1", "F.4"]
+      }
+    },
+    {
+      "id": "F.4",
+      "topic": "The Pareto principle",
+      "analogy": "Picture a smartphone's battery usage screen: a handful of apps, maybe two or three, consume the vast majority of your battery life, while dozens of other installed apps barely register. That dramatic imbalance between the few heavy hitters and the many lightweight ones is the core pattern here, and it shows up everywhere from app usage to warehouse management.",
+      "concrete_example": "Starbucks discovered that roughly 20% of its menu items, primarily core espresso drinks like lattes, cappuccinos, and Frappuccinos, drive approximately 80% of its revenue. This insight led Starbucks to ensure those high-impact drinks always have reliable ingredient supplies and prominent menu placement, while seasonal or niche offerings receive less intensive inventory management and forecasting attention.",
+      "simplified_definition": "This principle observes that roughly 80% of results come from about 20% of the inputs, a pattern of dramatic imbalance that appears across nearly every domain. Like how a few smartphone apps drain most of your battery while dozens of others barely use any power, a small fraction of causes typically produces the bulk of effects. Starbucks sees this in action: about 20% of its menu drives around 80% of revenue. In supply chain management, this insight powers ABC analysis, where the top 20% of inventory items (Category A) generating 80% of sales value receive the tightest management, while lower-impact items get simpler controls. By recognizing that not all products contribute equally, managers can focus limited resources where they matter most, reducing stockout risk on critical items and avoiding over-investment in items that contribute little to the bottom line.",
+      "explanation": "The smartphone battery analogy is effective because virtually everyone has seen that battery usage screen and instantly recognizes the lopsided distribution. It makes the abstract 80/20 ratio tangible and personal. The connection to formal inventory classification (ABC analysis) is direct: just as you would optimize or restrict the few power-hungry apps to extend battery life, supply chain managers concentrate resources on the vital few A-items that drive revenue.",
+      "key_terms": [
+        "Pareto principle",
+        "80/20 rule",
+        "ABC analysis",
+        "Vilfredo Pareto",
+        "inventory classification",
+        "carrying costs"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.3",
+          "type": "applies_to",
+          "description": "The Pareto principle is used to analyze product portfolio performance and prioritize items"
+        },
+        {
+          "target_id": "F.5",
+          "type": "related_to",
+          "description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["F.3", "F.5", "F.6"],
+        "relationship_distractors": ["F.3", "F.5"]
+      }
+    },
+    {
+      "id": "F.5",
+      "topic": "Slow-moving products headed toward obsolescence",
+      "analogy": "Think of it like a car sitting in a driveway losing value every month. A new car depreciates the moment you drive it off the lot, but if you also stop driving it altogether, it does not just lose value gradually; it rusts, the battery dies, tires dry-rot, and eventually it becomes a worthless heap that costs money to tow away. The longer you ignore it, the more value evaporates and the fewer options you have to recover anything.",
+      "concrete_example": "When GoPro launched the Hero 5 in 2016, unsold inventory of the older Hero 4 piled up in warehouses and retail channels. GoPro had to slash prices by up to 30% and bundle accessories to clear the aging stock. The company ultimately recorded significant inventory write-downs and reported a $373 million net loss that year, largely because it failed to phase out older models quickly enough as new ones launched.",
+      "simplified_definition": "These are inventory items that sell at rates well below expectations, with demand steadily declining until the items eventually become worthless and unsellable. Like an unused car rusting in a driveway, these items follow a predictable decay path: first they move slowly, then they become excess stock beyond any foreseeable demand, and finally they reach full obsolescence with zero market value. GoPro experienced this painfully when older camera models piled up after new versions launched, forcing steep markdowns and costly write-downs. Spotting these items early requires tracking inventory turnover ratios, days of supply, sales velocity trends, and lifecycle stage. Early action through markdowns, promotions, bundling, or planned phase-outs can recover some value before the items become complete write-offs that drain cash and clog warehouse space.",
+      "explanation": "The depreciating car analogy resonates because most people understand that an idle vehicle does not just hold steady; it actively deteriorates. This mirrors how slow-moving inventory does not simply pause in value but progressively worsens through the slow-moving, excess, and obsolete stages. The urgency to act (sell the car, mark down the product) before total value destruction maps directly to the concept's emphasis on early identification and corrective action.",
+      "key_terms": [
+        "slow-moving inventory",
+        "obsolete inventory",
+        "SLOB inventory",
+        "inventory turnover",
+        "product lifecycle",
+        "inventory write-off"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories"
+        },
+        {
+          "target_id": "F.6",
+          "type": "related_to",
+          "description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["F.2", "F.4", "F.6"],
+        "relationship_distractors": ["F.4", "F.6"]
+      }
+    },
+    {
+      "id": "F.6",
+      "topic": "Importance of minimizing inventory during all stages of supply chain management",
+      "analogy": "Think of it like the blood in your circulatory system. You need enough blood flowing to keep organs functioning, but if blood pools and stagnates in one area, you get dangerous clots. A healthy body keeps blood circulating efficiently rather than stockpiling it. Similarly, a healthy supply chain keeps goods flowing through each stage, from raw materials to finished products, with just enough at each point to meet needs without stagnation.",
+      "concrete_example": "Zara, the fast-fashion retailer, produces small batches and replenishes stores twice a week rather than placing large seasonal orders months in advance. By keeping raw material, work-in-progress, and finished goods inventory razor-thin at every stage, Zara turns over its entire inventory roughly 12 times per year compared to the industry average of 3-4 times. This approach frees up cash, reduces markdowns on unsold clothes, and lets Zara respond to fashion trends in weeks rather than months.",
+      "simplified_definition": "This is the strategic goal of keeping stock levels as low as possible at every point in the supply chain, from raw materials through work-in-progress to finished goods, in order to free up capital and reduce waste. Like blood in the body, inventory must keep flowing rather than pooling; stagnant stock ties up cash and risks spoilage or obsolescence. Zara exemplifies this by producing small batches and restocking stores twice weekly, achieving inventory turnover rates three to four times the industry average. Achieving this requires accurate demand forecasting, reliable supplier partnerships, and tightly coordinated logistics so that leaner stock levels do not cause stockouts or service failures. The approach draws on lean and just-in-time principles, and as CSCMP emphasizes, effective supply chain management integrates supply and demand across companies to minimize costs, waste, and time throughout the production cycle.",
+      "explanation": "The blood circulation analogy works because it conveys both the necessity and the danger of inventory. You cannot have zero blood (zero inventory means stockouts), but pooling blood (excess inventory) creates clots (holding costs, obsolescence, tied-up capital). The emphasis on continuous flow mirrors lean and just-in-time principles, and the idea of maintaining just the right amount at each stage maps precisely to the concept's focus on minimizing inventory at every supply chain stage.",
+      "key_terms": [
+        "inventory minimization",
+        "lean supply chain",
+        "just-in-time",
+        "holding costs",
+        "demand forecasting",
+        "cash flow optimization"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "relationships": [
+        {
+          "target_id": "F.5",
+          "type": "related_to",
+          "description": "Identifying and eliminating slow-moving inventory is a key tactic for minimizing overall inventory"
+        },
+        {
+          "target_id": "F.4",
+          "type": "related_to",
+          "description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["F.3", "F.4", "F.5"],
+        "relationship_distractors": ["F.5", "F.4"]
+      }
+    }
+  ]
+}

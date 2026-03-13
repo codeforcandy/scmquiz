@@ -215,6 +215,10 @@ function renderFilteredList(filter, session, flags, iffy) {
       const lvBadge = el('span', 'badge badge--level-L3', 'L3');
       lvBadge.style.fontSize = '0.6rem';
       hdr.appendChild(lvBadge);
+    } else if (q.level === 'L4') {
+      const lvBadge = el('span', 'badge badge--level-L4', 'L4');
+      lvBadge.style.fontSize = '0.6rem';
+      hdr.appendChild(lvBadge);
     }
     hdr.appendChild(el('span', 'result-item__chevron', '\u25BC'));
     item.appendChild(hdr);

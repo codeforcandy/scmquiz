@@ -57,6 +57,9 @@ export function generateQuestions(filteredConcepts) {
     if (concept.level === 'L3') {
       return buildScenarioQuestion(concept, filteredConcepts, concepts);
     }
+    if (concept.level === 'L4') {
+      return buildL4Question(concept, filteredConcepts, concepts);
+    }
     const choices = buildChoices(concept, filteredConcepts, concepts);
     return {
       conceptId: concept.id,
@@ -195,6 +198,27 @@ function buildL3Choices(concept, pool, allConcepts) {
   }
 
   return choices.slice(0, 4);
+}
+
+function buildL4Question(concept, pool, allConcepts) {
+  const choices = buildL3Choices(concept, pool, allConcepts);
+  return {
+    conceptId: concept.id,
+    questionType: 'analogy',
+    definition: concept.simplified_definition,
+    analogy: concept.analogy,
+    concreteExample: concept.concrete_example,
+    correctTopic: concept.topic,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L4',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices),
+  };
 }
 
 /**

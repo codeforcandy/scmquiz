@@ -140,9 +140,10 @@ function renderQuestion() {
   area.textContent = '';
 
   const isScenario = q.questionType === 'scenario';
-  const cardClass = isScenario
-    ? 'card card--bordered scenario-card card-enter'
-    : 'card card--bordered definition-card card-enter';
+  const isAnalogy = q.questionType === 'analogy';
+  let cardClass = 'card card--bordered definition-card card-enter';
+  if (isScenario) cardClass = 'card card--bordered scenario-card card-enter';
+  else if (isAnalogy) cardClass = 'card card--bordered analogy-card card-enter';
   const card = el('div', cardClass);
   card.style.setProperty('--card-section-color', color);
 
@@ -156,16 +157,22 @@ function renderQuestion() {
   } else if (q.level === 'L3') {
     const lvBadge = el('span', 'badge badge--level-L3', 'L3');
     badges.appendChild(lvBadge);
+  } else if (q.level === 'L4') {
+    const lvBadge = el('span', 'badge badge--level-L4', 'L4');
+    badges.appendChild(lvBadge);
   }
   const bloomBadge = el('span', 'badge badge--bloom', q.bloomLevel);
   const diffBadge = el('span', 'badge badge--difficulty-' + q.difficulty, q.difficulty);
   badges.append(secBadge, bloomBadge, diffBadge);
   card.appendChild(badges);
 
-  // Content: scenario prompt or definition text
+  // Content: scenario prompt, analogy card, or definition text
   if (isScenario) {
     card.appendChild(el('p', 'scenario-card__prompt', 'What concept is being demonstrated?'));
     card.appendChild(el('p', 'scenario-card__text', q.scenario));
+  } else if (isAnalogy) {
+    card.appendChild(el('p', 'analogy-card__prompt', 'Which concept does this describe?'));
+    card.appendChild(el('p', 'analogy-card__text', q.definition));
   } else {
     card.appendChild(el('p', 'definition-card__text', q.definition));
   }

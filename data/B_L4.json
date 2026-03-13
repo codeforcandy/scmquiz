@@ -1,0 +1,307 @@
+{
+  "section_id": "B",
+  "section_title": "Supply Chain Topics",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "concepts": [
+    {
+      "id": "B.1",
+      "topic": "Define analytics",
+      "analogy": "Think of it like a doctor reading your bloodwork, X-rays, and vital signs all at once. Each test alone tells a partial story, but when a physician synthesizes them together, they can diagnose what is wrong now, predict what might go wrong next, and prescribe a treatment plan. That is exactly what this discipline does for business operations -- it turns scattered data into a comprehensive diagnosis.",
+      "concrete_example": "UPS processes over 18 petabytes of data daily through its EDGE platform, combining package tracking, weather feeds, traffic patterns, and vehicle sensor data. This system classifies shipments into risk tiers in real time: if a snowstorm threatens a hub in Louisville, the platform automatically identifies affected packages and triggers rerouting before delays cascade through the network.",
+      "simplified_definition": "This discipline involves systematically collecting data from across business operations, processing it through statistical and computational techniques, and translating the results into actionable insights. Like a doctor synthesizing bloodwork, imaging, and vitals into a diagnosis and treatment plan, it examines what happened (descriptive), what will happen (predictive), and what should be done about it (prescriptive). UPS exemplifies this by processing 18+ petabytes of operational data daily to preemptively reroute shipments around disruptions. The goal is to replace gut-feel decisions with evidence-based ones across strategic, tactical, and operational levels.",
+      "explanation": "The doctor analogy works because both processes involve collecting multiple data streams, synthesizing them into a coherent picture, and recommending action. Just as a physician uses descriptive data (symptoms), predictive indicators (risk factors), and prescriptive treatments (medication), this business discipline applies the same three-tier approach to organizational data. The analogy also captures why raw data alone is insufficient -- it requires expert interpretation to become useful.",
+      "key_terms": ["data analysis", "big data", "predictive analytics", "prescriptive analytics", "descriptive analytics", "data-driven decision making", "business intelligence"],
+      "sources": [
+        { "url": "https://www.ibm.com/think/topics/supply-chain-analytics", "title": "What Is Supply Chain Analytics?", "site": "IBM" },
+        { "url": "https://www.techtarget.com/searcherp/definition/supply-chain-analytics", "title": "What is supply chain analytics and why is it important?", "site": "TechTarget" },
+        { "url": "https://www.gep.com/blog/technology/why-you-must-invest-in-supply-chain-analytics", "title": "What is Supply Chain Analytics: Definition, Types & Benefits", "site": "GEP" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "prerequisite_for", "description": "Analytics provides the data foundation that enables accurate forecasting" },
+        { "target_id": "B.9", "type": "related_to", "description": "Supply market intelligence relies on analytics to gather and interpret market data" },
+        { "target_id": "B.6", "type": "applies_to", "description": "Analytics is applied to optimize inventory management decisions" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["B.3", "B.9", "B.8"],
+        "relationship_distractors": ["B.3", "B.9"]
+      }
+    },
+    {
+      "id": "B.2",
+      "topic": "Explain customer relationship management",
+      "analogy": "Imagine a concierge at a luxury hotel who keeps a detailed dossier on every guest -- their preferred room temperature, pillow type, dietary restrictions, and anniversary dates. When a returning guest books a stay, the concierge proactively arranges everything before arrival. This is what dedicated information systems do for organizations at scale: they remember every interaction so the next one is better than the last.",
+      "concrete_example": "Netflix uses its recommendation engine -- a form of customer relationship technology -- to analyze viewing history, ratings, and browsing behavior for 260+ million subscribers. This data does not just personalize content suggestions; it drives production decisions (what shows to greenlight), licensing negotiations, and even the thumbnail images displayed, all aligned to individual customer profiles.",
+      "simplified_definition": "This is a strategic approach where organizations use dedicated information systems to track, analyze, and improve every interaction with their customers. Like a luxury hotel concierge maintaining detailed dossiers on each guest to anticipate their needs, these systems store purchase history, preferences, and service records to personalize future interactions. Netflix demonstrates this at scale, using behavioral data from 260+ million subscribers to shape not only recommendations but procurement and production decisions. The approach spans sales, marketing, and service activities, turning raw customer data into segmented strategies that align fulfillment operations with actual demand patterns.",
+      "explanation": "The hotel concierge analogy works because it captures both the data-collection aspect (recording preferences) and the action aspect (proactively arranging services). Just as the concierge bridges the guest's desires with hotel operations, this strategic process bridges customer demand signals with supply chain fulfillment. The analogy also highlights segmentation -- a concierge treats a honeymoon couple differently from a business traveler, just as these systems tailor strategies to different customer segments.",
+      "key_terms": ["CRM", "customer satisfaction", "customer segmentation", "customer data", "sales management", "customer loyalty", "demand alignment"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Customer_relationship_management", "title": "Customer relationship management", "site": "Wikipedia" },
+        { "url": "https://www.logisticsbureau.com/crm-and-the-supply-chain/", "title": "CRM in Logistics and Supply Chain Management", "site": "Logistics Bureau" },
+        { "url": "https://www.walkme.com/blog/customer-relationship-management-and-supply-chain-management/", "title": "Customer Relationship Management and Supply Chain Management", "site": "WalkMe" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "related_to", "description": "CRM data on customer buying patterns feeds into demand forecasting" },
+        { "target_id": "B.8", "type": "related_to", "description": "CRM demand signals inform sales and operations planning" },
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics capabilities enhance CRM insights and customer segmentation" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.8", "B.9", "B.1"],
+        "relationship_distractors": ["B.3", "B.8"]
+      }
+    },
+    {
+      "id": "B.3",
+      "topic": "Describe the role of forecasting",
+      "analogy": "Think of it like a farmer studying almanacs, soil moisture readings, and satellite imagery to decide what to plant and when to harvest months from now. The farmer blends experience (qualitative judgment) with hard data (rainfall patterns, temperature trends) to make bets on the future. Getting it right means a bountiful harvest; getting it wrong means rotting crops or barren fields.",
+      "concrete_example": "Zara, the fast-fashion retailer, uses real-time point-of-sale data combined with store manager feedback to predict which styles will sell in the next two to three weeks. Unlike competitors who plan collections six months ahead, Zara's short-cycle approach lets it produce small test batches, read actual demand signals, and scale up winners -- resulting in only 10% unsold inventory versus the industry average of 17-20%.",
+      "simplified_definition": "This is the process of using historical data, statistical models, and market signals to estimate what customers will want in the future over a specific time period. Like a farmer combining almanac data with soil readings to decide planting strategy, it blends quantitative methods (time series models, machine learning) with qualitative input (expert opinions, market surveys) to anticipate demand. Zara demonstrates this by reading real-time sales signals to predict style demand weeks ahead, keeping unsold inventory at just 10%. The estimates drive decisions about production schedules, workforce needs, stock levels, and logistics coordination. When the estimates are wrong, the result is either expensive excess stock or empty shelves that frustrate customers.",
+      "explanation": "The farmer analogy captures the essence of this process: making consequential decisions about the future using a mix of data and judgment. Just as a farmer cannot control the weather but can prepare for it by reading the right signals, organizations cannot control demand but can anticipate it through careful analysis. The analogy also illustrates the asymmetric consequences -- overplanting wastes resources (excess inventory), while underplanting means missed opportunity (stockouts).",
+      "key_terms": ["demand forecasting", "time series analysis", "qualitative forecasting", "quantitative forecasting", "demand planning", "historical data", "statistical models"],
+      "sources": [
+        { "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting", "title": "How to do Demand Forecasting in the Supply Chain?", "site": "CIPS" },
+        { "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/", "title": "A Guide to Demand Forecasting in Supply Chain Management", "site": "University of Tennessee GSCI" },
+        { "url": "https://www.ibm.com/think/topics/demand-forecasting", "title": "What is Demand Forecasting?", "site": "IBM" }
+      ],
+      "relationships": [
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics tools and techniques power forecasting models" },
+        { "target_id": "B.6", "type": "prerequisite_for", "description": "Forecasting determines optimal inventory levels and replenishment schedules" },
+        { "target_id": "B.8", "type": "part_of", "description": "Forecasting is a key input to the demand planning phase of S&OP" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.1", "B.8", "B.9"],
+        "relationship_distractors": ["B.1", "B.6"]
+      }
+    },
+    {
+      "id": "B.4",
+      "topic": "Explain the growth of global distribution",
+      "analogy": "Picture a spider web that started in one corner of a room and has gradually stretched across the entire ceiling, with silk threads reaching every wall. Each thread represents a trade route, and each junction is a warehouse or port. The web grows stronger and wider over time, but a vibration in any part -- a tariff change, a port closure, a pandemic -- ripples across the entire structure.",
+      "concrete_example": "Samsung Electronics operates a global distribution network spanning factories in Vietnam, South Korea, India, and Brazil, with regional distribution hubs feeding products into 80+ countries. When U.S.-China trade tensions escalated in 2019, Samsung shifted smartphone production from China to Vietnam and India within 18 months, demonstrating both the reach and the adaptability required in modern international distribution networks.",
+      "simplified_definition": "This refers to the international networks and processes through which products are moved, stored, and delivered across national borders to reach customers worldwide. Like a spider web stretching across a ceiling -- growing wider and stronger but sensitive to vibrations anywhere in the structure -- these networks have expanded through trade liberalization, transportation advances, and the pursuit of lower costs and new markets. Samsung exemplifies this by operating factories across four countries and distributing to 80+ markets, rapidly shifting production between regions when geopolitical tensions arise. The expansion brings access to broader supplier pools and customer bases, but it also introduces longer lead times, customs complexity, currency fluctuations, and geopolitical risks that require resilience strategies like multi-sourcing and nearshoring.",
+      "explanation": "The spider web analogy works because it captures three critical properties: expansion over time (the web grows), interconnectedness (every thread connects to others), and vulnerability to distant shocks (vibrations travel across the entire web). This mirrors how international networks grow through trade liberalization, how disruptions in one region cascade globally, and how the whole structure requires careful maintenance. The web also conveys that more connections mean both more reach and more exposure to risk.",
+      "key_terms": ["global supply chain", "international logistics", "trade liberalization", "cross-border distribution", "nearshoring", "multi-sourcing", "global sourcing"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Global_supply_chain_management", "title": "Global supply chain management", "site": "Wikipedia" },
+        { "url": "https://wtcs.pressbooks.pub/globalbusiness/chapter/global-supply-chain-management/", "title": "Global Supply-Chain Management", "site": "Global Business Pressbooks" },
+        { "url": "https://www.prologis.com/global-supply-chain-management", "title": "Global Supply Chain Management", "site": "Prologis" }
+      ],
+      "relationships": [
+        { "target_id": "B.11", "type": "related_to", "description": "Global distribution depends heavily on transportation planning across international routes" },
+        { "target_id": "B.6", "type": "related_to", "description": "Global distribution requires sophisticated inventory management across multiple locations" },
+        { "target_id": "B.10", "type": "related_to", "description": "Global distribution has significant sustainability implications including carbon emissions" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.11", "B.7", "B.10"],
+        "relationship_distractors": ["B.11", "B.6"]
+      }
+    },
+    {
+      "id": "B.5",
+      "topic": "Explain supply chain management for healthcare industry",
+      "analogy": "Imagine running a fire station where you never know when the next emergency will strike, every piece of equipment has an expiration date, some gear must be kept at exact temperatures, and running out of anything could cost someone their life. You cannot just order more when the alarm rings -- you need supplies ready, compliant, and fresh at all times, even though demand is wildly unpredictable.",
+      "concrete_example": "The Mayo Clinic implemented an integrated supply chain command center that provides real-time visibility across its 30+ hospital sites. During COVID-19 surges, the system tracked PPE burn rates by unit, predicted stockout dates 72 hours in advance, and automatically triggered emergency procurement from diversified supplier lists -- preventing the critical shortages that affected many peer institutions.",
+      "simplified_definition": "This is the coordination of sourcing, procurement, production, and distribution of medical supplies, pharmaceuticals, and equipment to ensure providers have what they need for patient care. Like running a fire station where demand is unpredictable, equipment expires, and shortages have life-or-death consequences, it faces unique challenges: strict regulations, cold-chain requirements for temperature-sensitive drugs, and sudden demand surges from emergencies. The Mayo Clinic exemplifies best practice with a command center providing real-time visibility across 30+ hospitals, predicting stockout dates and auto-triggering procurement. Costs have surged -- supply costs per hospital patient rose 18.5% between 2019 and 2022 -- driving organizations to diversify suppliers, add nearshore sources, and invest in technology to replace fragmented, siloed systems.",
+      "explanation": "The fire station analogy works because it captures the defining characteristics that separate this sector from general operations: unpredictable demand (you never know when the alarm sounds), non-negotiable availability (running out is not a business inconvenience but a safety crisis), perishability (equipment and supplies expire), and strict compliance requirements (gear must meet safety standards). The analogy conveys that readiness and resilience matter more than pure cost optimization.",
+      "key_terms": ["healthcare logistics", "medical supply chain", "pharmaceutical distribution", "cold chain", "regulatory compliance", "product availability", "supplier diversification"],
+      "sources": [
+        { "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml", "title": "Healthcare Supply Chain Management: Importance & Practices", "site": "NetSuite" },
+        { "url": "https://www.ghx.com/the-healthcare-hub/supply-chain-issues/", "title": "Supply Chain Issues in Healthcare and How to Manage Shortages", "site": "GHX" },
+        { "url": "https://www.tandfonline.com/doi/full/10.1080/16258312.2018.1433353", "title": "Healthcare logistics and supply chain - issues and future challenges", "site": "Taylor & Francis" }
+      ],
+      "relationships": [
+        { "target_id": "B.6", "type": "includes", "description": "Healthcare SCM requires specialized inventory management for medical supplies and pharmaceuticals" },
+        { "target_id": "B.7", "type": "includes", "description": "Procurement of medical devices and pharmaceuticals is a core healthcare SCM function" },
+        { "target_id": "B.3", "type": "related_to", "description": "Demand forecasting in healthcare must account for unpredictable patient needs and emergencies" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.6", "B.10", "B.7"],
+        "relationship_distractors": ["B.6", "B.7"]
+      }
+    },
+    {
+      "id": "B.6",
+      "topic": "Explain the logistics of inventory management",
+      "analogy": "Think of it like managing a checking account balance. Keep too much money idle in the account and you lose investment returns (carrying costs). Keep too little and checks bounce when bills arrive unexpectedly (stockouts). The art is maintaining just enough to cover your obligations while putting the rest to productive use -- and that requires knowing your spending patterns, upcoming bills, and a comfortable safety margin.",
+      "concrete_example": "Costco deliberately limits its product assortment to roughly 3,800 SKUs (versus 30,000+ at a typical supermarket) and targets inventory turnover of 12 times per year. By carrying fewer items in larger quantities, Costco negotiates better supplier pricing, reduces warehouse complexity, and ensures products move off shelves before they expire -- turning its stock into cash faster than nearly any other retailer.",
+      "simplified_definition": "This is the discipline of planning, controlling, and tracking stock as it flows in and out of warehouses so the right products are available when needed. Like managing a checking account -- too much idle cash wastes earning potential, too little means bounced checks -- it balances the cost of holding excess goods against the risk of running out. Costco exemplifies this by stocking only 3,800 SKUs and turning inventory 12 times per year, converting stock to cash faster than competitors. Key activities include setting reorder triggers, calculating safety buffers, determining optimal order sizes, and performing regular physical counts. Modern operations layer technologies like barcode scanning, RFID, and warehouse management systems onto these fundamentals to optimize placement, reduce waste, and improve fulfillment accuracy.",
+      "explanation": "The checking account analogy works because it maps directly to the core trade-off: holding costs (idle money losing returns) versus stockout risk (bounced checks). Just as you need to understand your spending patterns and upcoming bills to set the right balance, businesses need demand visibility and supplier lead time data to set reorder points and safety stock. The analogy also makes the concept of economic order quantity intuitive -- it is like deciding how often to transfer money between accounts to minimize fees while maintaining coverage.",
+      "key_terms": ["safety stock", "reorder point", "economic order quantity", "warehouse management", "carrying costs", "stockout", "cycle counting", "RFID"],
+      "sources": [
+        { "url": "https://www.ascm.org/scm/inventory-management/", "title": "What Is Inventory Management?", "site": "ASCM" },
+        { "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html", "title": "Inventory Management - Definition, Importance, Parameters, Process & Example", "site": "MBA Skool" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "related_to", "description": "Forecasting drives inventory replenishment decisions and safety stock calculations" },
+        { "target_id": "B.7", "type": "related_to", "description": "Procurement activities trigger inventory inflows based on inventory management policies" },
+        { "target_id": "B.8", "type": "part_of", "description": "Inventory planning is a component of the supply planning phase in S&OP" },
+        { "target_id": "A.1", "type": "part_of", "description": "Inventory management is a core function within overall supply chain management" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.7", "B.3", "B.8"],
+        "relationship_distractors": ["B.3", "B.7"]
+      }
+    },
+    {
+      "id": "B.7",
+      "topic": "Define procurement",
+      "analogy": "Think of it like casting actors for a major film production. The casting director does not just pick the cheapest talent -- they evaluate acting range, reliability, chemistry with the rest of the cast, and long-term franchise potential. They issue audition calls (RFPs), negotiate contracts with agents, and build ongoing relationships with talent agencies to secure the best performers for each role.",
+      "concrete_example": "Toyota's procurement strategy centers on its keiretsu model, where the company maintains deep, long-term partnerships with a tiered network of suppliers. Rather than constantly switching to the lowest bidder, Toyota invests in supplier development -- sending engineers to work alongside supplier teams to improve quality and efficiency. This relationship-based approach helped Toyota achieve the highest supplier working relations score among automakers for over a decade.",
+      "simplified_definition": "This is the process of sourcing, negotiating for, and acquiring the raw materials, components, goods, and services an organization needs to operate. Like a casting director evaluating actors for a film -- considering range, reliability, and long-term potential rather than just cost -- it involves identifying and evaluating suppliers, issuing requests for proposals, negotiating contracts, managing purchase orders, and maintaining supplier relationships. Toyota demonstrates this through its keiretsu model, investing in long-term supplier partnerships and on-site development rather than constantly chasing the lowest price. Effective strategies look beyond purchase price to total cost of ownership, which includes quality, lead times, risk exposure, and the strategic value of supplier relationships.",
+      "explanation": "The casting director analogy captures the strategic nature of this function. Just as casting is not about hiring the cheapest actor but finding the best fit for the production's long-term success, this process evaluates suppliers on quality, reliability, and relationship potential -- not just price. The audition call maps to RFPs, contract negotiation with agents mirrors supplier negotiations, and building talent agency relationships parallels supplier relationship management. The analogy also conveys that poor casting (poor supplier selection) can derail an entire production (supply chain).",
+      "key_terms": ["sourcing", "purchasing", "supplier evaluation", "contract negotiation", "total cost of ownership", "supplier relationship management", "request for proposal"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx", "title": "Supply Management Procurement", "site": "CSCMP" },
+        { "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/", "title": "Procurement vs Supply Chain Management: What's the Difference?", "site": "Procurify" },
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx", "title": "SCM Definitions and Glossary of Terms", "site": "CSCMP" }
+      ],
+      "relationships": [
+        { "target_id": "B.9", "type": "related_to", "description": "Supply market intelligence informs procurement decisions with market data and supplier analysis" },
+        { "target_id": "B.6", "type": "related_to", "description": "Procurement triggers inventory replenishment and manages supplier lead times" },
+        { "target_id": "B.10", "type": "related_to", "description": "Sustainable procurement practices support supply chain sustainability goals" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["B.9", "B.6", "B.12"],
+        "relationship_distractors": ["B.9", "B.6"]
+      }
+    },
+    {
+      "id": "B.8",
+      "topic": "Describe sales and operations planning",
+      "analogy": "Imagine a film production where the director, cinematographer, set designer, and editor all meet monthly to align on the shooting schedule, budget, and release timeline. Without this coordination meeting, the set designer builds scenes the director has already cut, the editor waits idle for footage, and the budget spirals. This recurring alignment process ensures every department works from the same playbook over the coming months.",
+      "concrete_example": "Coca-Cola runs a monthly process across its global bottling network where demand signals from 200+ markets are reconciled with production capacity at regional plants, ingredient availability from suppliers, and financial targets from corporate. When the 2022 sugar price spike hit, this process enabled Coca-Cola to rapidly adjust pack sizes, shift production toward lower-sugar brands, and re-allocate capacity across plants -- all within two monthly cycles rather than reacting ad hoc.",
+      "simplified_definition": "This is a cross-functional business process that aligns demand estimates with supply capabilities to balance sales plans, production schedules, and financial objectives over a medium-term horizon. Like a film production's monthly coordination meeting between director, cinematographer, set designer, and editor, it ensures every department works from the same playbook. Coca-Cola demonstrates this across its global bottling network, reconciling demand from 200+ markets with plant capacity, ingredient availability, and financial targets each month. The process typically follows five steps -- data gathering, demand planning, supply planning, a pre-meeting, and an executive decision meeting -- operating at the product family level with a horizon of up to 18 months. It bridges high-level strategy and daily execution, enabling proactive decisions about capacity, stock levels, and resources.",
+      "explanation": "The film production meeting analogy works because it highlights the core challenge: multiple specialized departments that must coordinate or risk waste, delays, and budget overruns. Just as a film's director, cinematographer, and editor each optimize differently unless they align regularly, sales, operations, and finance teams pursue conflicting goals without this structured process. The monthly cadence and forward-looking planning horizon also map naturally -- film productions plan months ahead, reviewing and adjusting as the shoot progresses.",
+      "key_terms": ["S&OP", "demand planning", "supply planning", "production plan", "capacity planning", "cross-functional planning", "planning horizon"],
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning", "title": "Sales and operations planning", "site": "Wikipedia" },
+        { "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/", "title": "What Is Sales and Operations Planning (S&OP)?", "site": "Oracle" },
+        { "url": "https://www.ascm.org/topics/sales-and-operations-planning/", "title": "Sales and Operations Planning (S&OP)", "site": "ASCM" }
+      ],
+      "relationships": [
+        { "target_id": "B.3", "type": "includes", "description": "Demand forecasting is a critical input to the S&OP demand planning step" },
+        { "target_id": "B.6", "type": "includes", "description": "Inventory planning is part of the supply planning phase of S&OP" },
+        { "target_id": "B.2", "type": "related_to", "description": "CRM demand signals and customer insights feed into S&OP demand planning" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.3", "B.6", "B.2"],
+        "relationship_distractors": ["B.3", "B.6"]
+      }
+    },
+    {
+      "id": "B.9",
+      "topic": "Define supply market intelligence",
+      "analogy": "Think of it like a real estate agent researching a neighborhood before you make an offer on a house. They study comparable sales, track market trends (prices rising or falling?), investigate the seller's situation (motivated or firm?), and identify risks (new highway planned nearby?). Without this homework, you overpay, miss red flags, or lose out to better-informed buyers.",
+      "concrete_example": "Procter & Gamble maintains a dedicated category intelligence team that monitors global commodity markets for key inputs like palm oil, wood pulp, and petrochemicals. Before negotiating annual contracts, these analysts build detailed cost models that break down a supplier's likely cost structure -- raw materials, energy, labor, margin -- so P&G's buyers enter negotiations knowing the fair price range and can challenge inflated quotes with hard data.",
+      "simplified_definition": "This is the systematic process of gathering, analyzing, and interpreting data about supplier markets, pricing trends, and competitive dynamics to make better sourcing decisions. Like a real estate agent researching comparable sales, market trends, and seller motivations before making an offer, it provides the homework needed to negotiate from a position of knowledge rather than guessing. Procter & Gamble exemplifies this with dedicated category intelligence teams that build supplier cost models before annual negotiations, enabling buyers to challenge inflated quotes with hard data. The scope includes monitoring the supplier landscape, tracking average market prices, assessing global capacity shifts, and evaluating geopolitical risks -- all to reduce sourcing risk and optimize total cost of ownership.",
+      "explanation": "The real estate research analogy works because it makes the abstract concept of market intelligence tangible and relatable. Just as a homebuyer who skips research overpays or misses defects, an organization that sources without market intelligence negotiates in the dark. The analogy captures the key activities: studying comparable prices (benchmarking), understanding seller motivations (supplier analysis), tracking market trends (demand-supply dynamics), and identifying risks (disruption factors). Both contexts reward the better-informed party.",
+      "key_terms": ["market analysis", "supplier intelligence", "competitive pricing", "strategic sourcing", "supply risk", "market trends", "supplier landscape"],
+      "sources": [
+        { "url": "https://una.com/resources/article/supply-market-intelligence/", "title": "Why Your Procurement Team Needs Supply Market Intelligence", "site": "Una" },
+        { "url": "https://en.tacto.ai/buyer-lexicon/supply-market-intelligence", "title": "Supply market intelligence: definition, methods and benefits in Procurement", "site": "Tacto" },
+        { "url": "https://www.arenasolutions.com/resources/glossary/supply-chain-intelligence/", "title": "Supply Chain Intelligence Definition", "site": "Arena Solutions" }
+      ],
+      "relationships": [
+        { "target_id": "B.7", "type": "prerequisite_for", "description": "Supply market intelligence informs procurement strategies and supplier selection" },
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics capabilities enable the data processing behind supply market intelligence" },
+        { "target_id": "B.3", "type": "related_to", "description": "Market intelligence data supports supply-side forecasting and trend analysis" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["B.7", "B.1", "B.3"],
+        "relationship_distractors": ["B.7", "B.1"]
+      }
+    },
+    {
+      "id": "B.10",
+      "topic": "Define sustainability for supply chain management",
+      "analogy": "Think of it like maintaining a family farm that you want to pass down through generations. You cannot just extract maximum yield this season and exhaust the soil -- you rotate crops, treat workers fairly, conserve water, and manage finances so the farm thrives for your grandchildren. Every decision weighs short-term productivity against long-term viability across environmental, human, and economic dimensions.",
+      "concrete_example": "Unilever's Sustainable Living Plan commits to sourcing 100% of agricultural raw materials sustainably and halving its environmental footprint per unit of production. By 2024, Unilever had achieved 67% sustainably sourced agricultural materials and reduced CO2 emissions from manufacturing by 75% per tonne of production since 2008, while growing revenue -- demonstrating that environmental and social commitments can coexist with financial performance.",
+      "simplified_definition": "This is the practice of integrating environmental, social, and economic considerations into every stage of sourcing, production, and distribution across the entire product lifecycle. Like maintaining a family farm for future generations -- rotating crops, conserving water, treating workers fairly, and managing finances for long-term viability rather than extracting maximum short-term yield -- it balances planet, people, and profit. Unilever demonstrates this by committing to 100% sustainable agricultural sourcing while cutting manufacturing CO2 emissions by 75% per tonne since 2008, all while growing revenue. The approach encompasses green logistics to reduce transportation emissions, responsible supplier evaluation on environmental and labor criteria, and circular economy principles like reduce, reuse, recycle, reclaim, and use degradable materials.",
+      "explanation": "The family farm analogy works because it captures the intergenerational, multi-dimensional nature of this concept. A farm that only maximizes this year's harvest at the expense of soil health, worker welfare, and financial reserves will eventually fail -- just as a supply chain that ignores environmental damage, exploits labor, or wastes resources is not viable long term. The analogy also makes the three pillars intuitive: the soil and water represent environmental stewardship, the workers represent social responsibility, and financial management represents economic sustainability.",
+      "key_terms": ["sustainable supply chain", "green logistics", "environmental responsibility", "social responsibility", "circular economy", "carbon footprint", "4R1D", "ESG"],
+      "sources": [
+        { "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/", "title": "What is Sustainable Supply Chain Management? (SSCM)", "site": "ASCM" },
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Research/State_of_Supply_Chain_Sustainability.aspx", "title": "State of Supply Chain Sustainability", "site": "CSCMP" },
+        { "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml", "title": "What Is Supply Chain Sustainability and Why Is It Important?", "site": "NetSuite" }
+      ],
+      "relationships": [
+        { "target_id": "B.7", "type": "applies_to", "description": "Sustainable procurement practices evaluate suppliers on environmental and social criteria" },
+        { "target_id": "B.11", "type": "related_to", "description": "Transportation planning must consider emissions reduction and green logistics" },
+        { "target_id": "B.4", "type": "related_to", "description": "Global distribution networks face increasing pressure to reduce their environmental footprint" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "distractor_ids": ["B.4", "B.7", "B.5"],
+        "relationship_distractors": ["B.7", "B.11"]
+      }
+    },
+    {
+      "id": "B.11",
+      "topic": "Explain the relationship between supply chain management and transportation planning",
+      "analogy": "Think of it like the circulatory system in the human body. The heart (supply chain strategy) determines where blood needs to go and how urgently, while the arteries, veins, and capillaries (carriers, routes, and modes) are the physical infrastructure that delivers it. If the arteries are clogged or the routing is inefficient, even a healthy heart cannot keep organs alive. The two systems are inseparable -- each shapes and constrains the other.",
+      "concrete_example": "Maersk, the world's largest container shipping company, transformed from a pure ocean carrier into an integrated logistics provider. Its acquisition of Performance Team (warehousing) and partnership with its digital platform allowed Maersk to offer end-to-end visibility from factory floor to store shelf. By controlling both the transportation assets and the supply chain orchestration layer, Maersk reduced average transit times by 15% for integrated customers while consolidating shipments to improve vessel utilization.",
+      "simplified_definition": "This is the process of optimizing the movement of goods between locations within a supply chain, encompassing carrier selection, route optimization, mode selection, and shipment consolidation to minimize costs while meeting delivery requirements. Like the circulatory system in the body -- where the heart sets priorities and the blood vessels provide the physical delivery network, each constraining and shaping the other -- supply chain strategy drives what needs to move and when, while the capabilities of carriers, routes, and modes determine what is actually achievable. Maersk demonstrates this symbiosis by integrating ocean shipping with warehousing and digital orchestration, cutting transit times 15% for end-to-end customers. This function can account for up to 60% of total operational costs, and modern management systems help optimize routes, consolidate shipments, and track goods in real time.",
+      "explanation": "The circulatory system analogy captures the symbiotic relationship at the heart of this concept. Just as the circulatory system is not separate from the body but integral to every organ's function, the movement of goods is not separate from supply chain management but intertwined with every other function. The analogy also conveys the cost stakes -- a circulatory blockage (logistics bottleneck) can shut down distant organs (disrupt distant operations), just as transportation failures cascade through the entire chain.",
+      "key_terms": ["transportation management", "freight", "carrier selection", "route optimization", "mode selection", "TMS", "shipment consolidation", "logistics"],
+      "sources": [
+        { "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/", "title": "Managing Transportation and Logistics in Supply Chains", "site": "University of Tennessee GSCI" },
+        { "url": "https://www.prologis.com/insights-news/blog/role-transportation-supply-chain-management", "title": "The Role of Transportation in Supply Chain Management", "site": "Prologis" },
+        { "url": "https://scmedu.org/transportationplanning/", "title": "What is Transportation Planning in logistics?", "site": "SCM EDU" }
+      ],
+      "relationships": [
+        { "target_id": "B.4", "type": "related_to", "description": "Global distribution relies on international transportation planning across multiple modes" },
+        { "target_id": "B.10", "type": "related_to", "description": "Transportation planning must address sustainability through emissions reduction and green logistics" },
+        { "target_id": "B.6", "type": "related_to", "description": "Transportation planning coordinates with inventory management for timely replenishment" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.4", "B.6", "B.8"],
+        "relationship_distractors": ["B.4", "B.10"]
+      }
+    },
+    {
+      "id": "B.12",
+      "topic": "Describe careers associated with supply chain management",
+      "analogy": "Think of it like a professional sports league with many different positions and teams. Just as a league needs quarterbacks, coaches, scouts, analysts, and general managers -- each with distinct skills but all contributing to winning games -- this field needs planners, negotiators, data analysts, warehouse leaders, and logistics coordinators. You can enter at any position, specialize, and build a career path toward the front office.",
+      "concrete_example": "At Amazon, the supply chain career ladder is visible across distinct tracks: operations managers run individual fulfillment centers (overseeing 1,000+ associates), supply chain analysts build demand models in Seattle headquarters, transportation managers coordinate last-mile delivery networks, and procurement managers negotiate contracts with packaging suppliers. Amazon's internal mobility program allows professionals to move between these tracks, reflecting the field's breadth.",
+      "simplified_definition": "This field encompasses a broad range of professional roles involved in purchasing, stock control, manufacturing, logistics, transportation, and strategic planning across organizations of all types and sizes. Like a professional sports league where every team needs quarterbacks, coaches, scouts, analysts, and general managers, the field requires specialists in analysis, sourcing, warehouse leadership, demand planning, and logistics coordination. Amazon illustrates this diversity with distinct career tracks spanning fulfillment center operations, headquarters-based demand modeling, last-mile transportation management, and supplier negotiations. The U.S. market for this field is valued at $6.7 trillion and growing 8.2% annually through 2030, with no single mandated career path -- professionals can specialize or move across functions, and certifications from industry bodies can accelerate advancement.",
+      "explanation": "The sports league analogy works because it conveys three key aspects: diversity of roles (many positions, each requiring different skills), interconnectedness (all positions contribute to the team's success), and career mobility (players can develop, specialize, or transition to coaching and management). Just as a sports league offers entry points from the draft through to front-office leadership, this field offers paths from entry-level analyst or supervisor to director and VP, with the flexibility to specialize or generalize along the way.",
+      "key_terms": ["supply chain analyst", "logistics coordinator", "operations manager", "procurement specialist", "demand planner", "CSCP certification", "CPIM certification", "career development"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Careers_in_Supply_Chain_Management.aspx", "title": "Careers in Supply Chain Management", "site": "CSCMP" },
+        { "url": "https://www.ascm.org/membership-community/career-resources/supply-chain-management-careers/", "title": "Supply Chain Management Careers", "site": "ASCM" },
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Starting_Your_SCM_Career.aspx", "title": "Starting Your SCM Career", "site": "CSCMP" }
+      ],
+      "relationships": [
+        { "target_id": "B.1", "type": "related_to", "description": "Analytics skills are increasingly important for supply chain career advancement" },
+        { "target_id": "B.7", "type": "related_to", "description": "Procurement is one of the major career specialization paths in SCM" },
+        { "target_id": "B.11", "type": "related_to", "description": "Transportation and logistics management represents a major SCM career track" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "distractor_ids": ["B.1", "B.7", "B.11"],
+        "relationship_distractors": ["B.1", "B.7"]
+      }
+    }
+  ]
+}
