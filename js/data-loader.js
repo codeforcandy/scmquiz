@@ -22,11 +22,17 @@ export async function loadAllData() {
       .then(r => r.ok ? r.json() : { section_id: s, concepts: [] })
       .catch(() => ({ section_id: s, concepts: [] }))
   );
-  const [l1Results, l2Results, l3Results, l4Results] = await Promise.all([
+  const l5Fetches = SECTIONS.map(s =>
+    fetch(`data/${s}_L5.json`)
+      .then(r => r.ok ? r.json() : { section_id: s, relationships: [] })
+      .catch(() => ({ section_id: s, relationships: [] }))
+  );
+  const [l1Results, l2Results, l3Results, l4Results, l5Results] = await Promise.all([
     Promise.all(l1Fetches),
     Promise.all(l2Fetches),
     Promise.all(l3Fetches),
     Promise.all(l4Fetches),
+    Promise.all(l5Fetches),
   ]);
 
   const concepts = new Map();
@@ -43,6 +49,7 @@ export async function loadAllData() {
       l2ConceptCount: 0,
       l3ConceptCount: 0,
       l4ConceptCount: 0,
+      l5ConceptCount: 0,
     });
 
     for (const concept of items) {
@@ -99,6 +106,22 @@ export async function loadAllData() {
         section: section_id,
         sectionTitle: meta ? meta.title : section_id,
         level: 'L4',
+      });
+    }
+  }
+
+  // Load L5 relationships
+  for (const sectionData of l5Results) {
+    const { section_id, relationships: items } = sectionData;
+    const meta = sectionMeta.get(section_id);
+    if (meta) meta.l5ConceptCount = items.length;
+
+    for (const rel of items) {
+      concepts.set(rel.id + '_L5', {
+        ...rel,
+        section: section_id,
+        sectionTitle: meta ? meta.title : section_id,
+        level: 'L5',
       });
     }
   }

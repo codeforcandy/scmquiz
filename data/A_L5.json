@@ -1,0 +1,1309 @@
+{
+  "section_id": "A",
+  "section_title": "Essential Supply Chain Management Concepts",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "relationships": [
+    {
+      "id": "A.1->A.2",
+      "source_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "target_concept": { "id": "A.2", "label": "Define the entire supply chain" },
+      "relationship_type": "includes",
+      "correct_description": "SCM manages the entire supply chain from raw materials to end customer",
+      "explanation": "Supply chain management encompasses the planning and coordination of all activities across the entire supply chain network. The supply chain itself is the end-to-end structure of organizations and processes that SCM governs, meaning SCM cannot exist without a supply chain to manage, and the supply chain benefits from the strategic oversight SCM provides. This inclusion relationship reflects how SCM serves as the management discipline applied to the full scope of supply chain operations.",
+      "key_terms": ["supply chain management", "end-to-end network", "raw materials", "end customer", "coordination", "planning"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.1->A.3", "A.1->A.9", "A.2->A.1"]
+      }
+    },
+    {
+      "id": "A.1->A.3",
+      "source_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "target_concept": { "id": "A.3", "label": "Define logistics" },
+      "relationship_type": "includes",
+      "correct_description": "Logistics is a key component of supply chain management",
+      "explanation": "Supply chain management includes logistics as one of its fundamental functional areas. According to CSCMP, SCM integrates sourcing, procurement, conversion, and logistics management activities, making logistics an essential subset rather than a separate discipline. This inclusion relationship highlights that while logistics focuses on the movement and storage of goods, it operates within the broader framework of SCM's cross-functional coordination.",
+      "key_terms": ["logistics", "component", "supply chain management", "functional area", "movement", "storage"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.1->A.9", "A.1->A.2", "A.2->A.3"]
+      }
+    },
+    {
+      "id": "A.1->A.9",
+      "source_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "target_concept": { "id": "A.9", "label": "Define logistics management" },
+      "relationship_type": "includes",
+      "correct_description": "Logistics management is a subset function within SCM",
+      "explanation": "CSCMP explicitly defines logistics management as 'that part of supply chain management' that handles the flow and storage of goods and information. This subset relationship establishes a clear hierarchy where SCM is the broader discipline and logistics management is a specialized function within it. Understanding this distinction is critical because many practitioners conflate the two, when in fact SCM encompasses additional functions like sourcing, procurement, and demand management beyond what logistics management covers.",
+      "key_terms": ["logistics management", "subset", "supply chain management", "CSCMP definition", "hierarchy", "specialized function"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.1->A.3", "A.9->A.1", "A.9->A.3"]
+      }
+    },
+    {
+      "id": "A.2->A.1",
+      "source_concept": { "id": "A.2", "label": "Define the entire supply chain" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "part_of",
+      "correct_description": "The entire supply chain is what SCM manages and coordinates",
+      "explanation": "The entire supply chain, as the end-to-end network of organizations and flows, is the object that supply chain management acts upon. This part_of relationship captures the inverse perspective of SCM's scope: the supply chain is the structure, and SCM is the management discipline applied to it. Without the supply chain as a tangible network of entities and processes, SCM would have no domain to plan, execute, and optimize.",
+      "key_terms": ["entire supply chain", "SCM scope", "network", "coordination", "management discipline", "end-to-end"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/end-to-end-supply-chain.shtml",
+          "title": "What Is an End-to-End Supply Chain?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://inchainge.com/knowledge/supply-chain/end-to-end/",
+          "title": "What is an end to end supply chain and its benefits?",
+          "site": "Inchainge"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.1->A.2", "A.3->A.1", "A.8->A.1"]
+      }
+    },
+    {
+      "id": "A.2->A.10",
+      "source_concept": { "id": "A.2", "label": "Define the entire supply chain" },
+      "target_concept": { "id": "A.10", "label": "Define physical and information flows" },
+      "relationship_type": "includes",
+      "correct_description": "The supply chain includes both physical and information flows",
+      "explanation": "The entire supply chain is defined by the movement and transformation of goods alongside the bidirectional exchange of data among partners. Physical flows move raw materials and finished products downstream, while information flows travel in multiple directions to coordinate activities like procurement, production, and distribution. These two flow types are interdependent: efficient information flow enables better management of physical flow, and together they constitute the operational fabric of the supply chain.",
+      "key_terms": ["physical flow", "information flow", "supply chain structure", "bidirectional", "material movement", "data exchange"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/end-to-end-supply-chain.shtml",
+          "title": "What Is an End-to-End Supply Chain?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://inchainge.com/knowledge/supply-chain/end-to-end/",
+          "title": "What is an end to end supply chain and its benefits?",
+          "site": "Inchainge"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.10->A.2", "A.2->A.3", "A.10->A.3"]
+      }
+    },
+    {
+      "id": "A.2->A.3",
+      "source_concept": { "id": "A.2", "label": "Define the entire supply chain" },
+      "target_concept": { "id": "A.3", "label": "Define logistics" },
+      "relationship_type": "includes",
+      "correct_description": "Logistics is a core function within the entire supply chain",
+      "explanation": "The entire supply chain encompasses all activities from raw materials to end consumer, and logistics represents one of its most critical functional components. Logistics handles the physical movement, storage, and flow management that enables products to traverse the supply chain network. Without logistics capabilities such as transportation, warehousing, and inventory management, the supply chain would lack the operational mechanisms to move goods between its nodes.",
+      "key_terms": ["logistics function", "supply chain network", "transportation", "warehousing", "core function", "goods movement"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/end-to-end-supply-chain.shtml",
+          "title": "What Is an End-to-End Supply Chain?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://inchainge.com/knowledge/supply-chain/end-to-end/",
+          "title": "What is an end to end supply chain and its benefits?",
+          "site": "Inchainge"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.1->A.3", "A.2->A.10", "A.9->A.3"]
+      }
+    },
+    {
+      "id": "A.3->A.1",
+      "source_concept": { "id": "A.3", "label": "Define logistics" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "part_of",
+      "correct_description": "Logistics is a key component within supply chain management",
+      "explanation": "Logistics, encompassing the forward and reverse flow of goods and information, is formally recognized as a component within the larger SCM discipline. This part_of relationship reflects the CSCMP framework where logistics handles transportation, warehousing, and order fulfillment as specialized activities within SCM's broader mandate of managing sourcing, procurement, conversion, and partner collaboration. Logistics provides the operational execution that SCM strategically directs.",
+      "key_terms": ["logistics component", "supply chain management", "operational execution", "CSCMP framework", "forward flow", "reverse flow"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Logistics",
+          "title": "Logistics",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.9->A.1", "A.2->A.1", "A.8->A.1"]
+      }
+    },
+    {
+      "id": "A.3->A.4",
+      "source_concept": { "id": "A.3", "label": "Define logistics" },
+      "target_concept": { "id": "A.4", "label": "Explain how logistics impacts supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Logistics directly impacts SCM performance and efficiency",
+      "explanation": "Understanding what logistics is provides the foundation for analyzing how it impacts supply chain management. The definition of logistics establishes the scope of activities (transportation, warehousing, inventory management), and the impact concept explains how those activities translate into measurable outcomes like cost reduction, customer satisfaction, and competitive advantage. This connection demonstrates the progression from definitional knowledge to applied understanding in the supply chain domain.",
+      "key_terms": ["logistics impact", "SCM performance", "efficiency", "cost reduction", "customer satisfaction", "competitive advantage"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Logistics",
+          "title": "Logistics",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.4->A.3", "A.3->A.9", "A.9->A.4"]
+      }
+    },
+    {
+      "id": "A.3->A.9",
+      "source_concept": { "id": "A.3", "label": "Define logistics" },
+      "target_concept": { "id": "A.9", "label": "Define logistics management" },
+      "relationship_type": "related_to",
+      "correct_description": "Logistics management is the formal discipline of managing logistics",
+      "explanation": "Logistics refers to the processes and activities of moving and storing goods, while logistics management is the formal discipline that plans, implements, and controls those activities. This relationship captures the distinction between the activity itself and the management practice applied to it. Understanding logistics as a set of operations is necessary to appreciate how logistics management adds strategic planning, performance monitoring, and cross-functional integration to those operations.",
+      "key_terms": ["logistics", "logistics management", "formal discipline", "planning", "implementation", "control"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Logistics",
+          "title": "Logistics",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.9->A.3", "A.1->A.9", "A.1->A.3"]
+      }
+    },
+    {
+      "id": "A.4->A.3",
+      "source_concept": { "id": "A.4", "label": "Explain how logistics impacts supply chain management" },
+      "target_concept": { "id": "A.3", "label": "Define logistics" },
+      "relationship_type": "related_to",
+      "correct_description": "Builds on the definition of logistics to explain its impact",
+      "explanation": "The analysis of logistics' impact on SCM is grounded in the foundational definition of logistics. To explain how logistics affects cost reduction, customer satisfaction, and competitive advantage, one must first understand what logistics encompasses: transportation, warehousing, order fulfillment, and inventory management. This relationship shows how applied knowledge depends on definitional understanding, linking the 'what' of logistics to the 'how' of its business impact.",
+      "key_terms": ["logistics definition", "business impact", "foundational knowledge", "cost reduction", "applied understanding", "SCM performance"],
+      "sources": [
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/the-importance-of-supply-chain-management-in-logistics/",
+          "title": "The Importance of Supply Chain Management in Logistics",
+          "site": "American Public University"
+        },
+        {
+          "url": "https://www.tadanow.com/blog/the-role-of-logistics-in-supply-chain-efficiency",
+          "title": "The Role of Logistics in Supply Chain Efficiency",
+          "site": "Tada"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.3->A.4", "A.4->A.11", "A.9->A.4"]
+      }
+    },
+    {
+      "id": "A.4->A.1",
+      "source_concept": { "id": "A.4", "label": "Explain how logistics impacts supply chain management" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "applies_to",
+      "correct_description": "Explains how logistics functions affect overall SCM",
+      "explanation": "The impact of logistics applies directly to supply chain management as a whole by influencing its key performance outcomes. Effective logistics reduces operational costs, improves delivery reliability, and provides demand feedback that SCM uses for planning. This applies_to relationship shows that logistics is not just a component of SCM but an active driver of SCM's effectiveness, where improvements in logistics operations cascade into better supply chain performance across all functions.",
+      "key_terms": ["logistics functions", "SCM effectiveness", "operational costs", "delivery reliability", "demand feedback", "performance outcomes"],
+      "sources": [
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/the-importance-of-supply-chain-management-in-logistics/",
+          "title": "The Importance of Supply Chain Management in Logistics",
+          "site": "American Public University"
+        },
+        {
+          "url": "https://www.tadanow.com/blog/the-role-of-logistics-in-supply-chain-efficiency",
+          "title": "The Role of Logistics in Supply Chain Efficiency",
+          "site": "Tada"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.6->A.1", "A.7->A.1", "A.11->A.1"]
+      }
+    },
+    {
+      "id": "A.4->A.11",
+      "source_concept": { "id": "A.4", "label": "Explain how logistics impacts supply chain management" },
+      "target_concept": { "id": "A.11", "label": "Define strategic orientation for saving money within an organization" },
+      "relationship_type": "related_to",
+      "correct_description": "Logistics optimization is a key strategy for cost savings",
+      "explanation": "The impact of logistics on SCM is closely tied to strategic cost savings because logistics operations (transportation, warehousing, distribution) represent significant portions of supply chain costs. Optimizing logistics directly reduces operational expenses, making it one of the most effective levers for achieving cost reduction goals. This relationship connects the operational impact analysis of logistics with the strategic financial objectives that drive organizational decision-making.",
+      "key_terms": ["logistics optimization", "cost savings", "transportation costs", "warehousing costs", "strategic cost reduction", "operational expenses"],
+      "sources": [
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/the-importance-of-supply-chain-management-in-logistics/",
+          "title": "The Importance of Supply Chain Management in Logistics",
+          "site": "American Public University"
+        },
+        {
+          "url": "https://www.tadanow.com/blog/the-role-of-logistics-in-supply-chain-efficiency",
+          "title": "The Role of Logistics in Supply Chain Efficiency",
+          "site": "Tada"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.11->A.4", "A.8->A.11", "A.11->A.8"]
+      }
+    },
+    {
+      "id": "A.5->A.12",
+      "source_concept": { "id": "A.5", "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading" },
+      "target_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Global trading factors are part of the broader global impact on SCM",
+      "explanation": "The specific factors impacting global trading (e-commerce, tariffs, customs, legal requirements) represent concrete manifestations of the broader global impact on supply chain management. Understanding how tariffs can increase costs by 10-20% or how customs regulations act as gatekeepers at borders provides the detailed, operational-level context for the broader strategic discussion of globalization's overall impact on SCM. These trading factors are the mechanisms through which global forces actually affect supply chain operations.",
+      "key_terms": ["global trading", "tariffs", "customs regulations", "global impact", "e-commerce", "trade compliance"],
+      "sources": [
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        },
+        {
+          "url": "https://dclcorp.com/blog/supply-chain/navigative-tariffs/",
+          "title": "Navigating Tariffs and International Shipping Costs for Ecommerce Businesses Going Global",
+          "site": "DCL Logistics"
+        },
+        {
+          "url": "https://www.easyship.com/blog/what-new-tariffs-mean-for-us-ecommerce-imports",
+          "title": "What New Tariffs Mean For U.S. eCommerce Imports",
+          "site": "Easyship"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.12->A.5", "A.5->A.13", "A.13->A.12"]
+      }
+    },
+    {
+      "id": "A.5->A.13",
+      "source_concept": { "id": "A.5", "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading" },
+      "target_concept": { "id": "A.13", "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Importing, exporting, and customs regulations are core elements of global trading",
+      "explanation": "The impact of global trading factors is deeply intertwined with the understanding of trade regulations and customs procedures. Tariffs, import taxes, and customs requirements described in the global trading context are the same regulatory mechanisms that trade agreements and customs regulations seek to govern. This relationship shows how the descriptive analysis of global trading impacts naturally connects to the prescriptive importance of understanding trade compliance frameworks.",
+      "key_terms": ["importing", "exporting", "customs regulations", "trade agreements", "global trading", "regulatory compliance"],
+      "sources": [
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        },
+        {
+          "url": "https://dclcorp.com/blog/supply-chain/navigative-tariffs/",
+          "title": "Navigating Tariffs and International Shipping Costs for Ecommerce Businesses Going Global",
+          "site": "DCL Logistics"
+        },
+        {
+          "url": "https://www.easyship.com/blog/what-new-tariffs-mean-for-us-ecommerce-imports",
+          "title": "What New Tariffs Mean For U.S. eCommerce Imports",
+          "site": "Easyship"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.13->A.5", "A.5->A.12", "A.12->A.13"]
+      }
+    },
+    {
+      "id": "A.5->A.3",
+      "source_concept": { "id": "A.5", "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading" },
+      "target_concept": { "id": "A.3", "label": "Define logistics" },
+      "relationship_type": "related_to",
+      "correct_description": "Logistics is a key enabler of global trading operations",
+      "explanation": "Global trading depends fundamentally on logistics capabilities to move goods across international borders. The challenges described in global trading, including customs clearance, tariff management, and cross-border shipping, are all executed through logistics operations. Logistics provides the physical infrastructure and processes, such as international transportation and warehousing, that make global commerce possible while navigating the regulatory and cost complexities that characterize international trade.",
+      "key_terms": ["logistics enabler", "global trading", "cross-border shipping", "international transportation", "customs clearance", "trade operations"],
+      "sources": [
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        },
+        {
+          "url": "https://dclcorp.com/blog/supply-chain/navigative-tariffs/",
+          "title": "Navigating Tariffs and International Shipping Costs for Ecommerce Businesses Going Global",
+          "site": "DCL Logistics"
+        },
+        {
+          "url": "https://www.easyship.com/blog/what-new-tariffs-mean-for-us-ecommerce-imports",
+          "title": "What New Tariffs Mean For U.S. eCommerce Imports",
+          "site": "Easyship"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.3->A.4", "A.10->A.3", "A.2->A.3"]
+      }
+    },
+    {
+      "id": "A.6->A.1",
+      "source_concept": { "id": "A.6", "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "applies_to",
+      "correct_description": "Value creation is a core objective of supply chain management",
+      "explanation": "Value creation for customers, society, and the environment represents one of the fundamental objectives that supply chain management exists to achieve. SCM's definition emphasizes creating net value and building competitive infrastructure, and the triple-bottom-line approach to value creation extends this mandate beyond purely financial metrics. This applies_to relationship shows that sustainability and stakeholder value are not peripheral concerns but central to SCM's modern purpose.",
+      "key_terms": ["value creation", "SCM objective", "triple bottom line", "sustainability", "stakeholder value", "net value"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2025/09/five-reasons-why-sustainable-value-chains-are-good-for-business/",
+          "title": "Why sustainable value chains are good for business",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "hard",
+        "distractor_hint_ids": ["A.4->A.1", "A.7->A.1", "A.11->A.1"]
+      }
+    },
+    {
+      "id": "A.6->A.12",
+      "source_concept": { "id": "A.6", "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment" },
+      "target_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Global operations amplify both the opportunity and responsibility for value creation",
+      "explanation": "When supply chains operate globally, value creation becomes both more impactful and more complex. Global operations account for over 90% of organizational greenhouse gas emissions, making international supply chains critical levers for environmental value creation. Simultaneously, globalization creates opportunities for economic development in emerging markets and raises ethical responsibilities around labor practices and community impact. The global scale amplifies both the positive potential and the accountability required for sustainable value creation.",
+      "key_terms": ["global operations", "value creation opportunity", "environmental responsibility", "greenhouse gas emissions", "sustainable development", "global scale"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2025/09/five-reasons-why-sustainable-value-chains-are-good-for-business/",
+          "title": "Why sustainable value chains are good for business",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "hard",
+        "distractor_hint_ids": ["A.12->A.14", "A.14->A.12", "A.5->A.12"]
+      }
+    },
+    {
+      "id": "A.6->A.7",
+      "source_concept": { "id": "A.6", "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment" },
+      "target_concept": { "id": "A.7", "label": "Explain how supply chain management is practiced in a wide array of industries" },
+      "relationship_type": "related_to",
+      "correct_description": "Value creation applies differently across various industries",
+      "explanation": "The way value is created for customers, society, and the environment varies significantly by industry context. In healthcare, value creation prioritizes patient outcomes and access to medicines; in retail, it focuses on product availability and ethical sourcing; in manufacturing, it emphasizes waste reduction and energy efficiency. This relationship highlights that the principles of triple-bottom-line value creation must be adapted to each industry's unique stakeholder expectations, regulatory environments, and operational characteristics.",
+      "key_terms": ["industry-specific value", "healthcare SCM", "retail value creation", "manufacturing sustainability", "stakeholder expectations", "industry adaptation"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2025/09/five-reasons-why-sustainable-value-chains-are-good-for-business/",
+          "title": "Why sustainable value chains are good for business",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "hard",
+        "distractor_hint_ids": ["A.7->A.6", "A.7->A.8", "A.7->A.1"]
+      }
+    },
+    {
+      "id": "A.7->A.1",
+      "source_concept": { "id": "A.7", "label": "Explain how supply chain management is practiced in a wide array of industries" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "applies_to",
+      "correct_description": "Demonstrates how SCM principles are applied across industries",
+      "explanation": "The cross-industry practice of SCM demonstrates how the foundational principles defined in SCM's definition are universally applicable yet flexibly adapted. Healthcare applies SCM to medical supply coordination, automotive uses it for just-in-time assembly, and retail leverages collaborative forecasting with suppliers. This applies_to relationship validates SCM's definition as a broadly applicable discipline while showing that its practical implementation varies based on industry-specific needs such as regulatory compliance, product perishability, and demand variability.",
+      "key_terms": ["cross-industry SCM", "universal principles", "industry adaptation", "just-in-time", "collaborative forecasting", "practical implementation"],
+      "sources": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK22867/",
+          "title": "Supply-Chain Management and Health Care Delivery",
+          "site": "NCBI Bookshelf"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.medline.com/strategies/supply-chain/healthcare-supply-chain-management-critical-role/",
+          "title": "The crucial role of healthcare supply chain management",
+          "site": "Medline"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.4->A.1", "A.6->A.1", "A.13->A.1"]
+      }
+    },
+    {
+      "id": "A.7->A.6",
+      "source_concept": { "id": "A.7", "label": "Explain how supply chain management is practiced in a wide array of industries" },
+      "target_concept": { "id": "A.6", "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment" },
+      "relationship_type": "related_to",
+      "correct_description": "Value creation varies by industry context",
+      "explanation": "Different industries create supply chain value in distinct ways tailored to their stakeholders. Healthcare SCM creates value through reliable access to critical medical supplies, automotive SCM through efficient just-in-time production that reduces waste, and retail SCM through responsive inventory management that meets consumer demand. This relationship from industry practice to value creation shows that value generation is not a one-size-fits-all concept but must be understood within each industry's operational context and stakeholder priorities.",
+      "key_terms": ["industry context", "value variation", "stakeholder priorities", "healthcare value", "manufacturing efficiency", "retail responsiveness"],
+      "sources": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK22867/",
+          "title": "Supply-Chain Management and Health Care Delivery",
+          "site": "NCBI Bookshelf"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.medline.com/strategies/supply-chain/healthcare-supply-chain-management-critical-role/",
+          "title": "The crucial role of healthcare supply chain management",
+          "site": "Medline"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "hard",
+        "distractor_hint_ids": ["A.6->A.7", "A.6->A.12", "A.7->A.8"]
+      }
+    },
+    {
+      "id": "A.7->A.8",
+      "source_concept": { "id": "A.7", "label": "Explain how supply chain management is practiced in a wide array of industries" },
+      "target_concept": { "id": "A.8", "label": "Explain demand forecasting" },
+      "relationship_type": "related_to",
+      "correct_description": "Demand forecasting methods vary by industry",
+      "explanation": "Demand forecasting techniques must be adapted to each industry's unique characteristics. Healthcare faces irregular demand patterns for emergency supplies versus predictable demand for routine items, retail experiences seasonal and promotional demand spikes, and manufacturing requires forecasting for long lead-time components. This relationship highlights that while demand forecasting is a universal SCM practice, its methods, data sources, and accuracy requirements differ substantially across industries, making industry-specific knowledge essential for effective forecasting.",
+      "key_terms": ["demand forecasting methods", "industry variation", "healthcare demand", "retail seasonality", "manufacturing lead times", "forecasting adaptation"],
+      "sources": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK22867/",
+          "title": "Supply-Chain Management and Health Care Delivery",
+          "site": "NCBI Bookshelf"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.medline.com/strategies/supply-chain/healthcare-supply-chain-management-critical-role/",
+          "title": "The crucial role of healthcare supply chain management",
+          "site": "Medline"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.8->A.10", "A.8->A.11", "A.7->A.6"]
+      }
+    },
+    {
+      "id": "A.8->A.1",
+      "source_concept": { "id": "A.8", "label": "Explain demand forecasting" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "part_of",
+      "correct_description": "Demand forecasting is a key process within supply chain management",
+      "explanation": "Demand forecasting is an integral process within SCM that enables the alignment of supply with anticipated customer demand. SCM's definition emphasizes supply and demand integration, and forecasting provides the predictive intelligence that makes this integration possible. Without demand forecasting, SCM would lack the data-driven foundation needed for production planning, inventory management, and procurement decisions, making it a critical subprocess within the broader SCM discipline.",
+      "key_terms": ["demand forecasting", "SCM process", "supply-demand alignment", "predictive intelligence", "production planning", "inventory management"],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.3->A.1", "A.9->A.1", "A.10->A.2"]
+      }
+    },
+    {
+      "id": "A.8->A.10",
+      "source_concept": { "id": "A.8", "label": "Explain demand forecasting" },
+      "target_concept": { "id": "A.10", "label": "Define physical and information flows" },
+      "relationship_type": "related_to",
+      "correct_description": "Information flows provide data essential for demand forecasting",
+      "explanation": "Demand forecasting relies heavily on information flows within the supply chain to gather the data needed for accurate predictions. Historical sales data, point-of-sale information, inventory levels, and market trends all travel through information flow channels to feed forecasting models. This relationship demonstrates the dependency of demand forecasting on robust information flows: without reliable, timely data exchange between supply chain partners, forecasting accuracy degrades, leading to the bullwhip effect and suboptimal inventory decisions.",
+      "key_terms": ["information flows", "demand data", "forecasting models", "historical sales data", "bullwhip effect", "data exchange"],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.10->A.8", "A.10->A.2", "A.14->A.10"]
+      }
+    },
+    {
+      "id": "A.8->A.11",
+      "source_concept": { "id": "A.8", "label": "Explain demand forecasting" },
+      "target_concept": { "id": "A.11", "label": "Define strategic orientation for saving money within an organization" },
+      "relationship_type": "related_to",
+      "correct_description": "Accurate forecasting is a strategic approach to reducing costs",
+      "explanation": "Demand forecasting directly supports strategic cost reduction by preventing the financial consequences of demand-supply mismatches. Inventory distortion, which includes both overstocking and stockouts, costs upwards of $1.7 trillion per year globally. Accurate forecasting minimizes these losses by enabling organizations to right-size inventory levels, optimize production schedules, and avoid costly expedited shipping. This relationship connects the technical practice of forecasting to its strategic financial outcome of cost savings.",
+      "key_terms": ["accurate forecasting", "cost reduction", "inventory distortion", "overstocking", "stockouts", "production optimization"],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.11->A.8", "A.4->A.11", "A.11->A.4"]
+      }
+    },
+    {
+      "id": "A.9->A.1",
+      "source_concept": { "id": "A.9", "label": "Define logistics management" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "part_of",
+      "correct_description": "Logistics management is a subset of supply chain management",
+      "explanation": "CSCMP explicitly defines logistics management as 'that part of supply chain management' responsible for planning, implementing, and controlling the flow and storage of goods and information. This part_of relationship is definitional: logistics management exists as a subset within the SCM hierarchy, handling the specialized operational functions of transportation, warehousing, and order fulfillment while SCM addresses the broader strategic coordination across sourcing, procurement, and partner management.",
+      "key_terms": ["logistics management subset", "SCM hierarchy", "CSCMP definition", "operational functions", "strategic coordination", "planning and control"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://scmedu.org/logisticsmanagement/",
+          "title": "What is Logistics Management as defined by CSCMP?",
+          "site": "SCM EDU"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.3->A.1", "A.1->A.9", "A.8->A.1"]
+      }
+    },
+    {
+      "id": "A.9->A.3",
+      "source_concept": { "id": "A.9", "label": "Define logistics management" },
+      "target_concept": { "id": "A.3", "label": "Define logistics" },
+      "relationship_type": "includes",
+      "correct_description": "Logistics management is the formal discipline governing logistics activities",
+      "explanation": "Logistics management includes the governance and oversight of logistics activities, adding structured planning, implementation, and control to the physical operations of logistics. While logistics describes the actual processes of moving and storing goods, logistics management provides the management framework that directs those processes toward efficiency and customer satisfaction. This includes relationship shows that logistics management encompasses logistics activities and adds strategic, operational, and tactical planning layers.",
+      "key_terms": ["logistics governance", "formal discipline", "planning framework", "implementation oversight", "performance control", "logistics activities"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://scmedu.org/logisticsmanagement/",
+          "title": "What is Logistics Management as defined by CSCMP?",
+          "site": "SCM EDU"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.3->A.9", "A.1->A.3", "A.2->A.3"]
+      }
+    },
+    {
+      "id": "A.9->A.4",
+      "source_concept": { "id": "A.9", "label": "Define logistics management" },
+      "target_concept": { "id": "A.4", "label": "Explain how logistics impacts supply chain management" },
+      "relationship_type": "prerequisite_for",
+      "correct_description": "Understanding logistics management is needed to understand its impact on SCM",
+      "explanation": "A solid understanding of logistics management as a discipline, including its planning, implementation, and control functions, is a prerequisite for analyzing how logistics impacts supply chain management. Without knowing what logistics management entails (transportation management, warehousing, order fulfillment, network design), one cannot meaningfully evaluate how those activities drive cost reduction, customer satisfaction, and competitive advantage. This prerequisite relationship establishes a learning dependency between definitional and analytical knowledge.",
+      "key_terms": ["prerequisite knowledge", "logistics management definition", "SCM impact analysis", "learning dependency", "transportation management", "warehousing operations"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://scmedu.org/logisticsmanagement/",
+          "title": "What is Logistics Management as defined by CSCMP?",
+          "site": "SCM EDU"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.3->A.4", "A.4->A.3", "A.4->A.1"]
+      }
+    },
+    {
+      "id": "A.10->A.2",
+      "source_concept": { "id": "A.10", "label": "Define physical and information flows" },
+      "target_concept": { "id": "A.2", "label": "Define the entire supply chain" },
+      "relationship_type": "part_of",
+      "correct_description": "Physical and information flows are core components of the entire supply chain",
+      "explanation": "Physical and information flows represent the two fundamental types of movement that define how the supply chain operates. Physical flows move tangible goods from upstream suppliers to downstream consumers, while information flows enable coordination through the exchange of forecasts, orders, and status updates. Together, these flows constitute the operational fabric of the entire supply chain, making them core structural components without which the supply chain network could not function.",
+      "key_terms": ["core components", "physical flow", "information flow", "supply chain structure", "upstream", "downstream"],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-flow/",
+          "title": "What is Supply Chain Flow? Processes + Information Flow",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.2->A.10", "A.2->A.3", "A.3->A.1"]
+      }
+    },
+    {
+      "id": "A.10->A.3",
+      "source_concept": { "id": "A.10", "label": "Define physical and information flows" },
+      "target_concept": { "id": "A.3", "label": "Define logistics" },
+      "relationship_type": "related_to",
+      "correct_description": "Logistics manages the physical flow of goods",
+      "explanation": "Logistics is the function responsible for executing and managing the physical flow of goods within the supply chain. While physical and information flows are conceptual categories of supply chain movement, logistics provides the operational capabilities, including transportation, warehousing, and materials handling, that make physical flow happen. This relationship connects the theoretical framework of supply chain flows to the practical discipline that manages the tangible movement of products.",
+      "key_terms": ["physical flow management", "logistics operations", "transportation", "warehousing", "materials handling", "goods movement"],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-flow/",
+          "title": "What is Supply Chain Flow? Processes + Information Flow",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.2->A.3", "A.5->A.3", "A.3->A.4"]
+      }
+    },
+    {
+      "id": "A.10->A.8",
+      "source_concept": { "id": "A.10", "label": "Define physical and information flows" },
+      "target_concept": { "id": "A.8", "label": "Explain demand forecasting" },
+      "relationship_type": "related_to",
+      "correct_description": "Information flows provide data needed for demand forecasting",
+      "explanation": "Information flows within the supply chain carry the data that demand forecasting depends on, including historical sales records, point-of-sale data, inventory levels, and market intelligence. The quality and timeliness of these information flows directly determine forecasting accuracy. When information flows are disrupted or delayed, demand signals become distorted, potentially triggering the bullwhip effect. This relationship underscores how the infrastructure of information exchange is a prerequisite for effective demand prediction.",
+      "key_terms": ["information flow data", "demand forecasting input", "sales records", "inventory levels", "forecasting accuracy", "bullwhip effect"],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-flow/",
+          "title": "What is Supply Chain Flow? Processes + Information Flow",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.8->A.10", "A.14->A.10", "A.8->A.11"]
+      }
+    },
+    {
+      "id": "A.11->A.1",
+      "source_concept": { "id": "A.11", "label": "Define strategic orientation for saving money within an organization" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "applies_to",
+      "correct_description": "Cost saving strategies are applied within supply chain management",
+      "explanation": "Strategic cost reduction initiatives are applied within the framework of supply chain management because supply chains represent a major portion of organizational operating costs (50-70%). SCM provides the operational context where cost-saving strategies like process automation, supplier management optimization, and inventory control are implemented. This applies_to relationship shows that cost strategy is not an independent initiative but one that is executed through and within the supply chain management function.",
+      "key_terms": ["cost saving strategies", "SCM application", "operating costs", "process automation", "supplier management", "inventory control"],
+      "sources": [
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        },
+        {
+          "url": "https://www.ey.com/en_us/coo/rapid-supply-chain-cost-reduction-strategies",
+          "title": "Rapid supply chain cost reduction strategies",
+          "site": "EY"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["A.4->A.1", "A.6->A.1", "A.13->A.1"]
+      }
+    },
+    {
+      "id": "A.11->A.8",
+      "source_concept": { "id": "A.11", "label": "Define strategic orientation for saving money within an organization" },
+      "target_concept": { "id": "A.8", "label": "Explain demand forecasting" },
+      "relationship_type": "related_to",
+      "correct_description": "Demand forecasting is a key tool for strategic cost savings",
+      "explanation": "Demand forecasting serves as one of the most effective tools within a strategic cost-saving orientation because it directly addresses inventory distortion, a problem costing over $1.7 trillion annually. By accurately predicting future demand, organizations can avoid the costs of overproduction, excess inventory carrying, stockouts, and expedited shipping. This relationship from cost strategy to demand forecasting shows how strategic financial objectives drive the adoption and refinement of analytical practices within the supply chain.",
+      "key_terms": ["demand forecasting tool", "cost savings", "inventory distortion", "overproduction avoidance", "carrying costs", "strategic financial objectives"],
+      "sources": [
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        },
+        {
+          "url": "https://www.ey.com/en_us/coo/rapid-supply-chain-cost-reduction-strategies",
+          "title": "Rapid supply chain cost reduction strategies",
+          "site": "EY"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.8->A.11", "A.8->A.10", "A.4->A.11"]
+      }
+    },
+    {
+      "id": "A.11->A.4",
+      "source_concept": { "id": "A.11", "label": "Define strategic orientation for saving money within an organization" },
+      "target_concept": { "id": "A.4", "label": "Explain how logistics impacts supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Logistics efficiency is a primary driver of cost savings",
+      "explanation": "Logistics efficiency is one of the most significant drivers of strategic cost savings because logistics operations (transportation, warehousing, distribution) typically constitute a large share of supply chain expenditures. The cost-saving orientation recognizes that optimizing logistics functions, such as route optimization, warehouse consolidation, and shipment consolidation, yields direct financial benefits. This relationship connects the strategic goal of cost reduction with the operational mechanism of logistics improvement as its primary execution path.",
+      "key_terms": ["logistics efficiency", "cost driver", "transportation optimization", "warehouse consolidation", "supply chain expenditures", "operational improvement"],
+      "sources": [
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        },
+        {
+          "url": "https://www.ey.com/en_us/coo/rapid-supply-chain-cost-reduction-strategies",
+          "title": "Rapid supply chain cost reduction strategies",
+          "site": "EY"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.4->A.11", "A.4->A.3", "A.11->A.8"]
+      }
+    },
+    {
+      "id": "A.12->A.5",
+      "source_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "target_concept": { "id": "A.5", "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading" },
+      "relationship_type": "includes",
+      "correct_description": "Global impact encompasses e-commerce, tariffs, customs, and legal aspects",
+      "explanation": "The broader concept of global impact on SCM includes the specific operational challenges of global trading such as tariffs, customs regulations, import taxes, and e-commerce considerations. While global impact addresses strategic-level factors like globalization, geopolitical risk, and cultural differences, the global trading concept drills into the specific regulatory and cost mechanisms that businesses encounter when moving goods across borders. This includes relationship shows how macro-level global forces manifest through specific trade mechanisms.",
+      "key_terms": ["global impact scope", "tariffs", "customs", "e-commerce", "trade mechanisms", "regulatory challenges"],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/global-supply-chain-what-it-is-importance-and-challenges/",
+          "title": "What Is the Global Supply Chain? Importance, Functions & Key Challenges",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.5->A.12", "A.12->A.13", "A.12->A.14"]
+      }
+    },
+    {
+      "id": "A.12->A.13",
+      "source_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "target_concept": { "id": "A.13", "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Understanding trade regulations is essential for managing global supply chains",
+      "explanation": "Managing global supply chains effectively requires detailed knowledge of trade regulations, including importing/exporting procedures, trade agreements, and customs requirements. The global impact on SCM creates the context where trade knowledge becomes critical: as supply chains span multiple countries with different regulations, the ability to navigate free trade agreements, comply with customs procedures, and optimize duty structures becomes a competitive necessity. This relationship links the strategic reality of globalization to the operational competency of trade management.",
+      "key_terms": ["trade regulations", "global supply chains", "importing procedures", "exporting requirements", "trade agreements", "customs compliance"],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/global-supply-chain-what-it-is-importance-and-challenges/",
+          "title": "What Is the Global Supply Chain? Importance, Functions & Key Challenges",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.13->A.12", "A.5->A.13", "A.12->A.5"]
+      }
+    },
+    {
+      "id": "A.12->A.14",
+      "source_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "target_concept": { "id": "A.14", "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)" },
+      "relationship_type": "related_to",
+      "correct_description": "Globalization is a key driver of SCM growth",
+      "explanation": "The global impact on SCM and the growth drivers of SCM are deeply interconnected because globalization serves as both a source of impact and a catalyst for growth. As markets globalized, supply chains had to expand internationally, which drove the need for more sophisticated SCM practices, technologies, and relationship management approaches. This bidirectional relationship means that global forces shaped SCM's evolution while SCM's growth enabled companies to better navigate global complexities.",
+      "key_terms": ["globalization driver", "SCM growth", "international expansion", "market complexity", "technological adoption", "relationship management"],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/global-supply-chain-what-it-is-importance-and-challenges/",
+          "title": "What Is the Global Supply Chain? Importance, Functions & Key Challenges",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.14->A.12", "A.14->A.1", "A.6->A.12"]
+      }
+    },
+    {
+      "id": "A.13->A.5",
+      "source_concept": { "id": "A.13", "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management" },
+      "target_concept": { "id": "A.5", "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading" },
+      "relationship_type": "related_to",
+      "correct_description": "Trade regulations are key legal aspects impacting global trading",
+      "explanation": "The importance of understanding trade regulations directly connects to the broader analysis of how legal aspects impact global trading. Trade agreements like FTAs and customs regulations are among the most significant legal factors that shape global trading outcomes by determining duty rates, compliance requirements, and market access conditions. This relationship shows how the prescriptive understanding of trade knowledge maps to the descriptive analysis of global trading challenges.",
+      "key_terms": ["trade regulations", "legal aspects", "global trading impact", "free trade agreements", "duty rates", "market access"],
+      "sources": [
+        {
+          "url": "https://reidellawfirm.com/how-international-trade-law-affects-supply-chain-management/",
+          "title": "How International Trade Law Affects Supply Chain Management",
+          "site": "Reidel Law Firm"
+        },
+        {
+          "url": "https://www.bdo.com/insights/tax/why-trade-customs-planning-needs-higher-importance-in-supply-chain-management",
+          "title": "Why Trade & Customs Planning Needs Higher Importance in Supply Chain Management",
+          "site": "BDO"
+        },
+        {
+          "url": "https://www.novocargo.com/en/customs-logistics/",
+          "title": "The impact of Customs on Logistics and Supply Chain management",
+          "site": "Novocargo"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.5->A.13", "A.5->A.12", "A.12->A.5"]
+      }
+    },
+    {
+      "id": "A.13->A.12",
+      "source_concept": { "id": "A.13", "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management" },
+      "target_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Trade knowledge is critical for managing global supply chain impacts",
+      "explanation": "Knowledge of trade regulations, customs procedures, and international agreements is critical for effectively managing the global impacts on supply chain management. As supply chains span borders, organizations must navigate diverse regulatory environments, and trade competency becomes the operational skill that translates global strategic awareness into effective execution. Companies that fail to prioritize trade and customs planning face higher costs and regulatory penalties that undermine their global supply chain performance.",
+      "key_terms": ["trade knowledge", "global management", "regulatory navigation", "customs planning", "operational competency", "border compliance"],
+      "sources": [
+        {
+          "url": "https://reidellawfirm.com/how-international-trade-law-affects-supply-chain-management/",
+          "title": "How International Trade Law Affects Supply Chain Management",
+          "site": "Reidel Law Firm"
+        },
+        {
+          "url": "https://www.bdo.com/insights/tax/why-trade-customs-planning-needs-higher-importance-in-supply-chain-management",
+          "title": "Why Trade & Customs Planning Needs Higher Importance in Supply Chain Management",
+          "site": "BDO"
+        },
+        {
+          "url": "https://www.novocargo.com/en/customs-logistics/",
+          "title": "The impact of Customs on Logistics and Supply Chain management",
+          "site": "Novocargo"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.12->A.13", "A.12->A.5", "A.14->A.12"]
+      }
+    },
+    {
+      "id": "A.13->A.1",
+      "source_concept": { "id": "A.13", "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "applies_to",
+      "correct_description": "Trade and customs knowledge is applied within SCM practice",
+      "explanation": "Understanding trade regulations and customs procedures applies directly to the practice of supply chain management because international trade considerations are woven into SCM's core activities of sourcing, procurement, and logistics. SCM professionals must factor in trade agreements, duty structures, and customs compliance when making decisions about supplier selection, transportation routing, and inventory positioning. This applies_to relationship shows that trade competency is not a separate skill but an integral part of effective SCM practice.",
+      "key_terms": ["trade knowledge application", "SCM practice", "sourcing decisions", "procurement compliance", "customs integration", "duty optimization"],
+      "sources": [
+        {
+          "url": "https://reidellawfirm.com/how-international-trade-law-affects-supply-chain-management/",
+          "title": "How International Trade Law Affects Supply Chain Management",
+          "site": "Reidel Law Firm"
+        },
+        {
+          "url": "https://www.bdo.com/insights/tax/why-trade-customs-planning-needs-higher-importance-in-supply-chain-management",
+          "title": "Why Trade & Customs Planning Needs Higher Importance in Supply Chain Management",
+          "site": "BDO"
+        },
+        {
+          "url": "https://www.novocargo.com/en/customs-logistics/",
+          "title": "The impact of Customs on Logistics and Supply Chain management",
+          "site": "Novocargo"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.7->A.1", "A.11->A.1", "A.6->A.1"]
+      }
+    },
+    {
+      "id": "A.14->A.1",
+      "source_concept": { "id": "A.14", "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)" },
+      "target_concept": { "id": "A.1", "label": "Define supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Explains the factors that drove the growth and importance of SCM",
+      "explanation": "The growth drivers of SCM, including the information revolution, globalized competition, and relationship management, explain why SCM evolved from a set of disconnected functions into the integrated, strategic discipline defined today. The information technology revolution enabled cross-organizational data sharing and integration, globalization expanded supply chain scope and complexity, and the shift to relationship management transformed supply chains from transactional to collaborative networks. These forces shaped what SCM is today and why it holds strategic importance.",
+      "key_terms": ["SCM growth factors", "information revolution", "globalized competition", "relationship management", "strategic evolution", "supply chain integration"],
+      "sources": [
+        {
+          "url": "https://transportgeography.org/contents/chapter7/logistics-freight-distribution/evolution-supply-chain-management/",
+          "title": "The Evolution of Supply Chain Management",
+          "site": "The Geography of Transport Systems"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s41062-023-01331-2",
+          "title": "The impact of globalisation processes on supply chain management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "Globalization And Supply Chain Management in 2025",
+          "site": "Flowspace"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.7->A.1", "A.6->A.1", "A.4->A.1"]
+      }
+    },
+    {
+      "id": "A.14->A.12",
+      "source_concept": { "id": "A.14", "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)" },
+      "target_concept": { "id": "A.12", "label": "Describe the global impact on supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Globalization is both a driver of SCM growth and a source of global impact",
+      "explanation": "Globalization operates in a dual role as both a primary driver of SCM's growth and a continuing source of global impact on how supply chains are managed. Increased competition in globalized markets drove companies to adopt more sophisticated SCM practices, while the resulting global supply chains now face ongoing impacts from geopolitical instability, cultural differences, and regulatory complexity. This relationship captures the circular dynamic where globalization both created the modern SCM discipline and continues to challenge it.",
+      "key_terms": ["globalization dual role", "SCM growth driver", "global impact source", "competition", "geopolitical risk", "regulatory complexity"],
+      "sources": [
+        {
+          "url": "https://transportgeography.org/contents/chapter7/logistics-freight-distribution/evolution-supply-chain-management/",
+          "title": "The Evolution of Supply Chain Management",
+          "site": "The Geography of Transport Systems"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s41062-023-01331-2",
+          "title": "The impact of globalisation processes on supply chain management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "Globalization And Supply Chain Management in 2025",
+          "site": "Flowspace"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.12->A.14", "A.12->A.5", "A.6->A.12"]
+      }
+    },
+    {
+      "id": "A.14->A.10",
+      "source_concept": { "id": "A.14", "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)" },
+      "target_concept": { "id": "A.10", "label": "Define physical and information flows" },
+      "relationship_type": "related_to",
+      "correct_description": "The information revolution transformed how information flows in supply chains",
+      "explanation": "The information revolution, one of the three key drivers of SCM growth, fundamentally transformed information flows within supply chains. Before IT advancements, information exchange between supply chain partners was slow, manual, and error-prone. The information revolution enabled real-time data sharing, integrated management systems, and electronic communication channels that made modern information flows possible. This relationship connects a historical growth driver to the specific supply chain component it most directly transformed.",
+      "key_terms": ["information revolution", "information flow transformation", "real-time data sharing", "IT advancement", "electronic communication", "integrated systems"],
+      "sources": [
+        {
+          "url": "https://transportgeography.org/contents/chapter7/logistics-freight-distribution/evolution-supply-chain-management/",
+          "title": "The Evolution of Supply Chain Management",
+          "site": "The Geography of Transport Systems"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s41062-023-01331-2",
+          "title": "The impact of globalisation processes on supply chain management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "Globalization And Supply Chain Management in 2025",
+          "site": "Flowspace"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["A.10->A.8", "A.8->A.10", "A.10->A.2"]
+      }
+    }
+  ]
+}

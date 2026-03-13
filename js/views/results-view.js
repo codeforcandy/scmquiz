@@ -148,8 +148,14 @@ export function renderResultsView() {
       if (a && !a.isCorrect) status.push('WRONG');
       if (flags.includes(q.conceptId)) status.push('FLAGGED');
       if (iffy.includes(q.conceptId)) status.push('IFFY');
-      text += `[${q.section}] ${q.correctTopic} (${status.join(', ')})\n`;
-      text += `  ${(q.scenario || q.definition).slice(0, 120)}...\n\n`;
+      const label = q.questionType === 'relationship'
+        ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
+        : q.correctTopic;
+      const desc = q.questionType === 'relationship'
+        ? q.correctAnswer
+        : (q.scenario || q.definition);
+      text += `[${q.section}] ${label} (${status.join(', ')})\n`;
+      text += `  ${(desc || '').slice(0, 120)}...\n\n`;
     }
     navigator.clipboard.writeText(text).then(() => {
       const orig = exportBtn.textContent;
@@ -200,23 +206,19 @@ function renderFilteredList(filter, session, flags, iffy) {
     const hdr = el('button', 'result-item__header');
     hdr.appendChild(el('span', 'result-item__icon', isCorrect ? '\u2705' : '\u274C'));
 
-    const topic = el('span', 'result-item__topic', q.correctTopic);
+    const isRelationship = q.questionType === 'relationship';
+    const topicText = isRelationship
+      ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
+      : q.correctTopic;
+    const topic = el('span', 'result-item__topic', topicText);
     if (!isCorrect) topic.style.color = 'var(--wrong)';
     hdr.appendChild(topic);
 
     const badge = el('span', 'badge badge--section', q.section);
     badge.style.cssText = `background:${color};font-size:0.6rem`;
     hdr.appendChild(badge);
-    if (q.level === 'L2') {
-      const lvBadge = el('span', 'badge badge--level-L2', 'L2');
-      lvBadge.style.fontSize = '0.6rem';
-      hdr.appendChild(lvBadge);
-    } else if (q.level === 'L3') {
-      const lvBadge = el('span', 'badge badge--level-L3', 'L3');
-      lvBadge.style.fontSize = '0.6rem';
-      hdr.appendChild(lvBadge);
-    } else if (q.level === 'L4') {
-      const lvBadge = el('span', 'badge badge--level-L4', 'L4');
+    if (q.level !== 'L1') {
+      const lvBadge = el('span', 'badge badge--level-' + q.level, q.level);
       lvBadge.style.fontSize = '0.6rem';
       hdr.appendChild(lvBadge);
     }
@@ -234,9 +236,15 @@ function renderFilteredList(filter, session, flags, iffy) {
       content.appendChild(wrongAns);
     }
 
-    const def = el('p', null, q.scenario || q.definition);
-    def.style.cssText = 'margin-bottom:var(--space-3);font-style:italic';
-    content.appendChild(def);
+    if (isRelationship) {
+      const correctDesc = el('p', null, 'Correct: ' + (q.correctAnswer || a?.correct));
+      correctDesc.style.cssText = 'margin-bottom:var(--space-3);font-style:italic;color:var(--correct)';
+      content.appendChild(correctDesc);
+    } else {
+      const def = el('p', null, q.scenario || q.definition);
+      def.style.cssText = 'margin-bottom:var(--space-3);font-style:italic';
+      content.appendChild(def);
+    }
     content.appendChild(el('p', null, q.explanation));
 
     const terms = el('div');

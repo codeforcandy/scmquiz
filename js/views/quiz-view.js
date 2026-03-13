@@ -141,9 +141,11 @@ function renderQuestion() {
 
   const isScenario = q.questionType === 'scenario';
   const isAnalogy = q.questionType === 'analogy';
+  const isRelationship = q.questionType === 'relationship';
   let cardClass = 'card card--bordered definition-card card-enter';
   if (isScenario) cardClass = 'card card--bordered scenario-card card-enter';
   else if (isAnalogy) cardClass = 'card card--bordered analogy-card card-enter';
+  else if (isRelationship) cardClass = 'card card--bordered relationship-card card-enter';
   const card = el('div', cardClass);
   card.style.setProperty('--card-section-color', color);
 
@@ -151,14 +153,8 @@ function renderQuestion() {
   const badges = el('div', 'definition-card__badges');
   const secBadge = el('span', 'badge badge--section', 'Section ' + q.section);
   secBadge.style.background = color;
-  if (q.level === 'L2') {
-    const lvBadge = el('span', 'badge badge--level-L2', 'L2');
-    badges.appendChild(lvBadge);
-  } else if (q.level === 'L3') {
-    const lvBadge = el('span', 'badge badge--level-L3', 'L3');
-    badges.appendChild(lvBadge);
-  } else if (q.level === 'L4') {
-    const lvBadge = el('span', 'badge badge--level-L4', 'L4');
+  if (q.level !== 'L1') {
+    const lvBadge = el('span', 'badge badge--level-' + q.level, q.level);
     badges.appendChild(lvBadge);
   }
   const bloomBadge = el('span', 'badge badge--bloom', q.bloomLevel);
@@ -166,8 +162,18 @@ function renderQuestion() {
   badges.append(secBadge, bloomBadge, diffBadge);
   card.appendChild(badges);
 
-  // Content: scenario prompt, analogy card, or definition text
-  if (isScenario) {
+  // Content: scenario prompt, analogy card, relationship card, or definition text
+  if (isRelationship) {
+    card.appendChild(el('p', 'relationship-card__prompt', 'How are these concepts connected?'));
+    const pair = el('div', 'relationship-card__pair');
+    pair.appendChild(el('div', 'relationship-card__concept', q.sourceConcept.label));
+    const connector = el('div', 'relationship-card__connector');
+    connector.appendChild(el('span', 'relationship-card__arrow', '\u2195'));
+    connector.appendChild(el('span', 'relationship-card__type', q.relationshipType.replace(/_/g, ' ')));
+    pair.appendChild(connector);
+    pair.appendChild(el('div', 'relationship-card__concept', q.targetConcept.label));
+    card.appendChild(pair);
+  } else if (isScenario) {
     card.appendChild(el('p', 'scenario-card__prompt', 'What concept is being demonstrated?'));
     card.appendChild(el('p', 'scenario-card__text', q.scenario));
   } else if (isAnalogy) {

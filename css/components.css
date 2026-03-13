@@ -304,6 +304,79 @@
   color: #f87171;
 }
 
+/* ─── Relationship Card (L5) ─── */
+
+.badge--level-L5 {
+  background: #ea580c;
+  color: #fff;
+}
+
+.relationship-card {
+  border-left-width: 4px;
+  border-left-style: double;
+}
+
+.relationship-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ea580c;
+  margin-bottom: var(--space-3);
+}
+
+[data-theme="dark"] .relationship-card__prompt {
+  color: #fb923c;
+}
+
+.relationship-card__pair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  background: var(--bg-hover);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+
+.relationship-card__concept {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  padding: var(--space-2) var(--space-4);
+}
+
+.relationship-card__connector {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.relationship-card__arrow {
+  font-size: var(--text-lg);
+  color: var(--text-muted);
+}
+
+.relationship-card__type {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-sm);
+  background: rgba(234, 88, 12, 0.1);
+  color: #ea580c;
+}
+
+[data-theme="dark"] .relationship-card__type {
+  background: rgba(251, 146, 60, 0.15);
+  color: #fb923c;
+}
+
 /* ─── Progress Bar ─── */
 
 .progress-bar {

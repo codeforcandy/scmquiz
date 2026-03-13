@@ -54,6 +54,9 @@ export function generateQuestions(filteredConcepts) {
   const shuffled = shuffle(filteredConcepts);
 
   return shuffled.map(concept => {
+    if (concept.level === 'L5') {
+      return buildL5Question(concept, filteredConcepts, concepts);
+    }
     if (concept.level === 'L3') {
       return buildScenarioQuestion(concept, filteredConcepts, concepts);
     }
@@ -221,6 +224,88 @@ function buildL4Question(concept, pool, allConcepts) {
   };
 }
 
+function buildL5Question(concept, pool, allConcepts) {
+  const choices = buildL5Choices(concept, pool, allConcepts);
+  return {
+    conceptId: concept.id,
+    questionType: 'relationship',
+    sourceConcept: concept.source_concept,
+    targetConcept: concept.target_concept,
+    relationshipType: concept.relationship_type,
+    correctAnswer: concept.correct_description,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L5',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices),
+  };
+}
+
+function buildL5Choices(concept, pool, allConcepts) {
+  const correct = concept.correct_description;
+  const choices = [correct];
+  const usedIds = new Set([concept.id]);
+
+  // 1. Prefer curated distractor_hint_ids
+  const hints = concept.quiz.distractor_hint_ids || [];
+  for (const hid of hints) {
+    if (choices.length >= 4) break;
+    const d = allConcepts.get(hid + '_L5');
+    if (d && !usedIds.has(d.id) && d.correct_description !== correct) {
+      choices.push(d.correct_description);
+      usedIds.add(d.id);
+    }
+  }
+
+  // 2. Same-section L5 entries sharing source or target concept
+  if (choices.length < 4) {
+    const srcId = concept.source_concept.id;
+    const tgtId = concept.target_concept.id;
+    const related = pool.filter(c =>
+      c.level === 'L5' && !usedIds.has(c.id) &&
+      c.correct_description !== correct &&
+      (c.source_concept?.id === srcId || c.source_concept?.id === tgtId ||
+       c.target_concept?.id === srcId || c.target_concept?.id === tgtId)
+    );
+    for (const c of shuffle(related)) {
+      if (choices.length >= 4) break;
+      choices.push(c.correct_description);
+      usedIds.add(c.id);
+    }
+  }
+
+  // 3. Random same-section L5 entries
+  if (choices.length < 4) {
+    const sameSection = pool.filter(c =>
+      c.level === 'L5' && c.section === concept.section &&
+      !usedIds.has(c.id) && c.correct_description !== correct
+    );
+    for (const c of shuffle(sameSection)) {
+      if (choices.length >= 4) break;
+      choices.push(c.correct_description);
+      usedIds.add(c.id);
+    }
+  }
+
+  // 4. Any L5 entry
+  if (choices.length < 4) {
+    const any = [...allConcepts.values()].filter(c =>
+      c.level === 'L5' && !usedIds.has(c.id) && c.correct_description !== correct
+    );
+    for (const c of shuffle(any)) {
+      if (choices.length >= 4) break;
+      choices.push(c.correct_description);
+      usedIds.add(c.id);
+    }
+  }
+
+  return choices.slice(0, 4);
+}
+
 /**
  * Create a new session
  */
@@ -244,7 +329,8 @@ export function createSession(questions) {
 export function submitAnswer(answerTopic) {
   const session = getState().session;
   const question = session.questions[session.currentIndex];
-  const isCorrect = answerTopic === question.correctTopic;
+  const correctValue = question.correctAnswer || question.correctTopic;
+  const isCorrect = answerTopic === correctValue;
 
   const newStreak = isCorrect ? session.streak + 1 : 0;
   const longestStreak = Math.max(session.longestStreak, newStreak);
@@ -253,13 +339,13 @@ export function submitAnswer(answerTopic) {
     ...session.answers,
     [session.currentIndex]: {
       selected: answerTopic,
-      correct: question.correctTopic,
+      correct: correctValue,
       isCorrect,
     },
   };
 
   updateSession({ answers, streak: newStreak, longestStreak });
-  return { isCorrect, correctTopic: question.correctTopic };
+  return { isCorrect, correctTopic: correctValue };
 }
 
 /**

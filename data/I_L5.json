@@ -1,0 +1,472 @@
+{
+  "section_id": "I",
+  "section_title": "Supply Chain Coordination and Decision Making for the Flow of Products, Services, and Information",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "relationships": [
+    {
+      "id": "I.1->I.2",
+      "source_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "target_concept": { "id": "I.2", "label": "Describe the role of outsourcing in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Outsourcing decisions require strong coordination between the firm and its external partners.",
+      "explanation": "Outsourcing inherently introduces external organizations into supply chain operations, making coordination essential for success. Without deliberate cooperation between the outsourcing firm and its service providers, misaligned goals, communication gaps, and process disconnects can erode the expected benefits. Effective coordination mechanisms such as shared forecasts, joint planning sessions, and aligned incentives bridge organizational boundaries and ensure outsourced activities integrate seamlessly with internal operations.",
+      "key_terms": ["outsourcing coordination", "external partners", "information sharing", "joint planning", "service-level agreements", "supply chain alignment"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.1->I.3", "I.2->I.5", "I.4->I.1"]
+      }
+    },
+    {
+      "id": "I.1->I.4",
+      "source_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "target_concept": { "id": "I.4", "label": "Explain the role of the team in supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Cross-functional teams are a primary mechanism for achieving internal coordination in supply chains.",
+      "explanation": "Coordination in supply chains does not happen automatically; it requires organizational structures that bring together diverse functional perspectives. Cross-functional teams serve as the primary vehicle for breaking down departmental silos and enabling the joint decision-making that coordination demands. By assembling members from procurement, logistics, production, and other areas, these teams operationalize the coordination principle and translate it into aligned actions across the supply chain.",
+      "key_terms": ["cross-functional teams", "internal coordination", "departmental silos", "joint decision-making", "organizational alignment", "collaboration mechanisms"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.4->I.3", "I.1->I.3", "I.3->I.4"]
+      }
+    },
+    {
+      "id": "I.1->I.3",
+      "source_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "target_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "relationship_type": "related_to",
+      "correct_description": "Performance measurement provides the metrics needed to evaluate the effectiveness of coordination efforts.",
+      "explanation": "Coordination efforts across supply chain partners are only valuable if their impact can be measured and verified. Performance metrics such as perfect order fulfillment, inventory turnover, and cash-to-cash cycle time provide objective evidence of whether coordination is producing desired outcomes. Without measurement, organizations cannot distinguish effective coordination from wasted effort, making performance metrics an essential feedback mechanism for continuous improvement of collaborative activities.",
+      "key_terms": ["performance metrics", "coordination effectiveness", "KPIs", "continuous improvement", "feedback mechanisms", "supply chain visibility"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.3->I.2", "I.1->I.2", "I.5->I.3"]
+      }
+    },
+    {
+      "id": "I.2->I.1",
+      "source_concept": { "id": "I.2", "label": "Describe the role of outsourcing in a supply chain." },
+      "target_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Effective outsourcing depends on strong cooperation and coordination between the firm and its service providers.",
+      "explanation": "When a firm outsources supply chain activities to third-party providers, it creates dependencies that can only be managed through deliberate cooperation. The outsourcing firm must share demand forecasts, quality standards, and operational requirements with its service providers to ensure seamless integration. Breakdown in cooperation with outsourced partners can result in service failures, quality issues, and supply disruptions that directly impact end-customer satisfaction.",
+      "key_terms": ["outsourcing dependencies", "third-party providers", "cooperation", "service integration", "supplier relationship management", "demand sharing"],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.1->I.2", "I.2->I.5", "I.2->I.3"]
+      }
+    },
+    {
+      "id": "I.2->I.5",
+      "source_concept": { "id": "I.2", "label": "Describe the role of outsourcing in a supply chain." },
+      "target_concept": { "id": "I.5", "label": "Describe the channels of distribution for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Outsourcing decisions directly affect the structure and composition of distribution channels.",
+      "explanation": "The decision to outsource logistics, warehousing, or fulfillment operations fundamentally reshapes which organizations participate in the distribution channel and how products flow to consumers. For example, engaging a 3PL provider adds an intermediary that did not previously exist in the channel structure. These outsourcing choices determine channel length, cost-to-serve, and the degree of control the firm retains over the customer experience throughout the distribution network.",
+      "key_terms": ["distribution channel structure", "3PL", "channel design", "outsourcing impact", "intermediaries", "fulfillment operations"],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.5->I.2", "I.2->I.3", "I.1->I.2"]
+      }
+    },
+    {
+      "id": "I.2->I.3",
+      "source_concept": { "id": "I.2", "label": "Describe the role of outsourcing in a supply chain." },
+      "target_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "relationship_type": "related_to",
+      "correct_description": "Performance measurement is essential for evaluating outsourced partner effectiveness.",
+      "explanation": "When activities are outsourced, the firm loses direct operational control and must rely on performance metrics to ensure service providers meet agreed-upon standards. Service-level agreements, KPIs such as on-time delivery and fill rate, and regular performance reviews become the primary tools for managing outsourced relationships. Without rigorous measurement, organizations cannot objectively assess whether outsourcing is delivering the expected cost savings, quality levels, and service improvements.",
+      "key_terms": ["outsourced partner evaluation", "service-level agreements", "KPIs", "on-time delivery", "fill rate", "performance monitoring"],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.3->I.2", "I.1->I.3", "I.5->I.3"]
+      }
+    },
+    {
+      "id": "I.3->I.1",
+      "source_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "target_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Performance metrics help evaluate whether coordination efforts across the supply chain are producing desired outcomes.",
+      "explanation": "Performance measurement provides the empirical foundation for assessing supply chain coordination. Metrics such as perfect order fulfillment and order fulfillment cycle time reflect the end-to-end outcome of coordination efforts across multiple partners. When these metrics decline, it signals coordination breakdowns that need to be addressed, making measurement an indispensable diagnostic tool for maintaining and improving inter-organizational cooperation.",
+      "key_terms": ["performance evaluation", "coordination outcomes", "perfect order fulfillment", "diagnostic metrics", "inter-organizational cooperation", "SCOR model"],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.1->I.3", "I.3->I.4", "I.3->I.2"]
+      }
+    },
+    {
+      "id": "I.3->I.2",
+      "source_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "target_concept": { "id": "I.2", "label": "Describe the role of outsourcing in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Measurement of outsourced partner performance is critical for managing third-party relationships.",
+      "explanation": "Performance measurement becomes especially important when supply chain activities are outsourced because the firm has less visibility into day-to-day operations. Structured metrics and scorecards provide the accountability framework needed to manage third-party providers, identify underperformance early, and make informed decisions about contract renewals or provider replacements. Without measurement, outsourcing relationships risk drifting toward suboptimal performance without detection.",
+      "key_terms": ["third-party performance", "scorecards", "accountability", "outsourcing management", "contract management", "provider evaluation"],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.2->I.3", "I.3->I.1", "I.5->I.2"]
+      }
+    },
+    {
+      "id": "I.3->I.4",
+      "source_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "target_concept": { "id": "I.4", "label": "Explain the role of the team in supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Teams use performance data to make informed decisions and prioritize improvement initiatives.",
+      "explanation": "Cross-functional teams depend on performance data to guide their activities and demonstrate the impact of their improvement efforts. Metrics provide teams with an objective basis for identifying problems, evaluating alternative solutions, and tracking progress over time. Without performance measurement, teams would lack the evidence needed to prioritize initiatives, allocate resources effectively, and justify their recommendations to organizational leadership.",
+      "key_terms": ["data-driven decisions", "improvement initiatives", "team performance", "resource allocation", "evidence-based management", "progress tracking"],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.4->I.3", "I.3->I.1", "I.1->I.4"]
+      }
+    },
+    {
+      "id": "I.4->I.1",
+      "source_concept": { "id": "I.4", "label": "Explain the role of the team in supply chain management." },
+      "target_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Teams are the organizational mechanism through which cooperation and coordination are achieved within the supply chain.",
+      "explanation": "While coordination is a strategic imperative, cross-functional teams are the practical means through which it is realized. Teams provide the structure, communication channels, and shared accountability needed to translate coordination goals into coordinated actions. Without teams that span functional boundaries, coordination remains an aspiration rather than an operational reality, as individual departments tend to optimize for their own objectives rather than the supply chain as a whole.",
+      "key_terms": ["organizational mechanism", "cross-functional collaboration", "shared accountability", "functional boundaries", "coordination implementation", "operational alignment"],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.1->I.4", "I.4->I.3", "I.4->I.5"]
+      }
+    },
+    {
+      "id": "I.4->I.3",
+      "source_concept": { "id": "I.4", "label": "Explain the role of the team in supply chain management." },
+      "target_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "relationship_type": "related_to",
+      "correct_description": "Teams rely on performance metrics to guide decision-making and measure the impact of improvement efforts.",
+      "explanation": "Cross-functional supply chain teams need objective performance data to function effectively. Metrics such as inventory turnover, on-time delivery, and cost-to-serve give teams a common language and shared understanding of current performance levels. This data-driven approach allows teams to identify root causes of problems, set measurable improvement targets, and demonstrate the value of their collaborative efforts to stakeholders across the organization.",
+      "key_terms": ["metrics-driven teams", "improvement measurement", "root cause analysis", "inventory turnover", "cost-to-serve", "stakeholder reporting"],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.3->I.4", "I.4->I.1", "I.1->I.3"]
+      }
+    },
+    {
+      "id": "I.4->I.5",
+      "source_concept": { "id": "I.4", "label": "Explain the role of the team in supply chain management." },
+      "target_concept": { "id": "I.5", "label": "Describe the channels of distribution for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency.",
+      "explanation": "Distribution channels involve multiple external organizations that must work in concert, and cross-functional teams serve as the coordinating body that manages these inter-organizational relationships. Teams that include representatives from sales, logistics, and channel management ensure that distribution strategies are executed consistently across all channel partners. This team-based coordination is particularly important when managing hybrid channels or when channel conflicts arise between direct and indirect partners.",
+      "key_terms": ["channel coordination", "distribution management", "inter-organizational teams", "channel conflict resolution", "hybrid channels", "partner alignment"],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.5->I.2", "I.4->I.1", "I.2->I.5"]
+      }
+    },
+    {
+      "id": "I.5->I.2",
+      "source_concept": { "id": "I.5", "label": "Describe the channels of distribution for supply chain management." },
+      "target_concept": { "id": "I.2", "label": "Describe the role of outsourcing in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Outsourcing decisions shape which intermediaries and partners participate in the distribution channel.",
+      "explanation": "Distribution channel design and outsourcing strategy are deeply intertwined because each outsourcing decision adds, removes, or modifies intermediaries within the channel structure. A firm that outsources warehousing and last-mile delivery to a 3PL effectively introduces new participants into its distribution channel. Understanding this relationship helps supply chain managers anticipate how outsourcing choices cascade through the channel, affecting cost structures, service levels, and the overall customer experience.",
+      "key_terms": ["channel intermediaries", "outsourcing strategy", "3PL integration", "channel structure", "last-mile delivery", "make-or-buy impact"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.2->I.5", "I.5->I.1", "I.5->I.3"]
+      }
+    },
+    {
+      "id": "I.5->I.1",
+      "source_concept": { "id": "I.5", "label": "Describe the channels of distribution for supply chain management." },
+      "target_concept": { "id": "I.1", "label": "Explain the importance of cooperation and coordination in a supply chain." },
+      "relationship_type": "related_to",
+      "correct_description": "Coordination across distribution channel members is essential for efficient product flow to consumers.",
+      "explanation": "Distribution channels involve multiple independent organizations that must coordinate inventory levels, order processing, and delivery schedules to ensure products reach consumers efficiently. Without coordination among channel members, problems such as the bullwhip effect, excess inventory at certain stages, and stockouts at others can severely degrade channel performance. Effective channel coordination requires shared information systems, aligned incentives, and collaborative planning among manufacturers, distributors, and retailers.",
+      "key_terms": ["channel member coordination", "product flow efficiency", "bullwhip effect", "inventory alignment", "collaborative planning", "channel performance"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.1->I.2", "I.5->I.2", "I.4->I.5"]
+      }
+    },
+    {
+      "id": "I.5->I.3",
+      "source_concept": { "id": "I.5", "label": "Describe the channels of distribution for supply chain management." },
+      "target_concept": { "id": "I.3", "label": "Describe measurement of supply chain performance." },
+      "relationship_type": "related_to",
+      "correct_description": "Distribution channel performance is measured through metrics such as on-time delivery, fill rate, and cost-to-serve.",
+      "explanation": "Distribution channels represent a significant portion of supply chain cost and customer-facing service quality, making their performance measurement especially important. Metrics such as on-time delivery, fill rate, order accuracy, and cost-to-serve provide visibility into how effectively the channel is converting supply chain inputs into customer value. These measurements enable organizations to compare channel alternatives, identify bottlenecks in the distribution network, and make evidence-based decisions about channel design and optimization.",
+      "key_terms": ["channel performance metrics", "on-time delivery", "fill rate", "cost-to-serve", "distribution optimization", "channel comparison"],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["I.3->I.1", "I.2->I.3", "I.1->I.3"]
+      }
+    }
+  ]
+}

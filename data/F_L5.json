@@ -1,0 +1,369 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "relationships": [
+    {
+      "id": "F.1->F.2",
+      "source_concept": { "id": "F.1", "label": "Determine what products to sell" },
+      "target_concept": { "id": "F.2", "label": "How a company determines what products are used and sold by a business" },
+      "relationship_type": "related_to",
+      "correct_description": "Product selection depends on understanding what products are used and sold by the business",
+      "explanation": "Deciding which products to sell requires a thorough understanding of what is currently being used and sold within the business. Sales data, customer buying patterns, and inventory turnover provide the factual foundation for strategic product selection decisions. Without this analytical input, product selection becomes speculative rather than data-driven.",
+      "key_terms": ["product selection", "sales data analysis", "customer buying behavior", "market research", "demand forecasting", "inventory turnover"],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.1->F.3", "F.2->F.1", "F.3->F.1"]
+      }
+    },
+    {
+      "id": "F.1->F.3",
+      "source_concept": { "id": "F.1", "label": "Determine what products to sell" },
+      "target_concept": { "id": "F.3", "label": "Product portfolio" },
+      "relationship_type": "applies_to",
+      "correct_description": "The product portfolio is the output of determining what products to sell",
+      "explanation": "The product portfolio represents the tangible result of the strategic product selection process. When a company determines what products to sell, those decisions collectively shape the composition of its product portfolio. This relationship is directional: strategic analysis drives portfolio composition, which in turn can be evaluated using frameworks like the BCG matrix.",
+      "key_terms": ["product portfolio", "product selection", "strategic alignment", "BCG matrix", "portfolio analysis", "product mix"],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.3->F.1", "F.3->F.4", "F.1->F.2"]
+      }
+    },
+    {
+      "id": "F.2->F.1",
+      "source_concept": { "id": "F.2", "label": "How a company determines what products are used and sold by a business" },
+      "target_concept": { "id": "F.1", "label": "Determine what products to sell" },
+      "relationship_type": "related_to",
+      "correct_description": "Understanding current product usage informs decisions about what products to sell",
+      "explanation": "Analyzing which products are currently used and sold provides the empirical basis for future product selection decisions. Data on sales velocity, customer preferences, and product lifecycle stages reveal which products to continue, expand, or discontinue. This feedback loop ensures that product selection evolves with market realities rather than relying solely on assumptions.",
+      "key_terms": ["product usage analysis", "sales velocity", "product lifecycle", "market analysis", "demand forecasting", "product selection"],
+      "sources": [
+        {
+          "url": "https://www.epicflow.com/blog/product-portfolio-management-what-it-is-and-why-it-matters-for-business-leaders/",
+          "title": "Product Portfolio Management: What It Is and Why It Matters for Business Leaders",
+          "site": "Epicflow"
+        },
+        {
+          "url": "https://www.productboard.com/blog/product-portfolio-management-101/",
+          "title": "Product Portfolio Management 101",
+          "site": "Productboard"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.1->F.2", "F.1->F.3", "F.2->F.5"]
+      }
+    },
+    {
+      "id": "F.2->F.5",
+      "source_concept": { "id": "F.2", "label": "How a company determines what products are used and sold by a business" },
+      "target_concept": { "id": "F.5", "label": "Slow-moving products headed toward obsolescence" },
+      "relationship_type": "prerequisite_for",
+      "correct_description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence",
+      "explanation": "The analytical process of evaluating product usage and sales performance is a prerequisite for detecting slow-moving inventory. By tracking inventory turnover ratios, sales trends, and product lifecycle stages, companies can spot declining products before they become fully obsolete. Early detection through systematic usage analysis enables proactive interventions such as markdowns or phase-outs.",
+      "key_terms": ["product usage data", "slow-moving inventory", "inventory turnover", "obsolescence detection", "product lifecycle", "sales trend analysis"],
+      "sources": [
+        {
+          "url": "https://www.epicflow.com/blog/product-portfolio-management-what-it-is-and-why-it-matters-for-business-leaders/",
+          "title": "Product Portfolio Management: What It Is and Why It Matters for Business Leaders",
+          "site": "Epicflow"
+        },
+        {
+          "url": "https://www.productboard.com/blog/product-portfolio-management-101/",
+          "title": "Product Portfolio Management 101",
+          "site": "Productboard"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.5->F.4", "F.5->F.6", "F.2->F.1"]
+      }
+    },
+    {
+      "id": "F.3->F.1",
+      "source_concept": { "id": "F.3", "label": "Product portfolio" },
+      "target_concept": { "id": "F.1", "label": "Determine what products to sell" },
+      "relationship_type": "related_to",
+      "correct_description": "The product portfolio reflects the outcome of product selection decisions",
+      "explanation": "A company's product portfolio is a direct reflection of its cumulative product selection decisions over time. Portfolio analysis reveals the performance and strategic fit of each product, which in turn feeds back into future decisions about what to sell. This cyclical relationship ensures continuous portfolio optimization aligned with business strategy.",
+      "key_terms": ["product portfolio", "product selection", "portfolio analysis", "strategic fit", "portfolio optimization", "BCG Growth-Share Matrix"],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.1->F.3", "F.1->F.2", "F.3->F.4"]
+      }
+    },
+    {
+      "id": "F.3->F.4",
+      "source_concept": { "id": "F.3", "label": "Product portfolio" },
+      "target_concept": { "id": "F.4", "label": "The Pareto principle" },
+      "relationship_type": "related_to",
+      "correct_description": "The Pareto principle helps analyze which items in the portfolio drive the most value",
+      "explanation": "Applying the Pareto principle to a product portfolio reveals that a small percentage of products typically generates the majority of revenue or profit. This 80/20 analysis enables portfolio managers to focus resources and attention on high-impact items while managing lower-value products more efficiently. The insight is critical for prioritizing investment and rationalizing the portfolio.",
+      "key_terms": ["product portfolio", "Pareto principle", "80/20 rule", "ABC analysis", "portfolio analysis", "revenue concentration"],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.4->F.3", "F.4->F.5", "F.6->F.4"]
+      }
+    },
+    {
+      "id": "F.4->F.3",
+      "source_concept": { "id": "F.4", "label": "The Pareto principle" },
+      "target_concept": { "id": "F.3", "label": "Product portfolio" },
+      "relationship_type": "applies_to",
+      "correct_description": "The Pareto principle is used to analyze product portfolio performance and prioritize items",
+      "explanation": "The Pareto principle serves as an analytical lens applied to the product portfolio, enabling companies to classify products by their contribution to total value. Through ABC analysis derived from the 80/20 rule, portfolio items are segmented into high, medium, and low priority categories. This application directly supports strategic decisions about resource allocation, inventory investment, and product rationalization.",
+      "key_terms": ["Pareto principle", "ABC analysis", "product portfolio", "inventory classification", "resource allocation", "product prioritization"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.3->F.4", "F.6->F.4", "F.4->F.5"]
+      }
+    },
+    {
+      "id": "F.4->F.5",
+      "source_concept": { "id": "F.4", "label": "The Pareto principle" },
+      "target_concept": { "id": "F.5", "label": "Slow-moving products headed toward obsolescence" },
+      "relationship_type": "related_to",
+      "correct_description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category",
+      "explanation": "When Pareto analysis reveals the small set of products driving most value, it simultaneously exposes the long tail of low-performing items. Products consistently classified in the lowest tiers of ABC analysis are candidates for slow-moving or obsolescence designation. This connection makes the Pareto principle a practical early warning system for inventory headed toward write-off.",
+      "key_terms": ["80/20 rule", "ABC analysis", "slow-moving inventory", "inventory classification", "obsolescence", "low-performing products"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.5->F.4", "F.3->F.4", "F.5->F.6"]
+      }
+    },
+    {
+      "id": "F.5->F.4",
+      "source_concept": { "id": "F.5", "label": "Slow-moving products headed toward obsolescence" },
+      "target_concept": { "id": "F.4", "label": "The Pareto principle" },
+      "relationship_type": "related_to",
+      "correct_description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories",
+      "explanation": "Slow-moving products are often found in the bottom tiers when inventory is classified using the Pareto principle. The 80/20 rule provides a quantitative framework for distinguishing high-impact items from those contributing minimally to revenue. By cross-referencing Pareto-based inventory classifications with turnover metrics, supply chain managers can systematically flag items progressing toward obsolescence.",
+      "key_terms": ["slow-moving inventory", "Pareto analysis", "inventory classification", "ABC analysis", "turnover metrics", "inventory management"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.4->F.5", "F.4->F.3", "F.6->F.4"]
+      }
+    },
+    {
+      "id": "F.5->F.6",
+      "source_concept": { "id": "F.5", "label": "Slow-moving products headed toward obsolescence" },
+      "target_concept": { "id": "F.6", "label": "Importance of minimizing inventory during all stages of supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain",
+      "explanation": "Slow-moving and obsolete inventory directly undermines the objective of minimizing inventory across supply chain stages. These items consume warehouse space, tie up working capital, and increase holding costs without generating proportional revenue. Proactively managing slow-moving products through markdowns, phase-outs, or disposal is therefore a critical tactic within any inventory minimization strategy.",
+      "key_terms": ["slow-moving inventory", "inventory minimization", "holding costs", "working capital", "SLOB inventory", "inventory write-off"],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.6->F.5", "F.6->F.4", "F.5->F.4"]
+      }
+    },
+    {
+      "id": "F.6->F.5",
+      "source_concept": { "id": "F.6", "label": "Importance of minimizing inventory during all stages of supply chain management" },
+      "target_concept": { "id": "F.5", "label": "Slow-moving products headed toward obsolescence" },
+      "relationship_type": "related_to",
+      "correct_description": "Identifying and eliminating slow-moving inventory is a key tactic for minimizing overall inventory",
+      "explanation": "A core component of any inventory minimization strategy is the identification and removal of slow-moving items that are trending toward obsolescence. These products represent the most wasteful form of inventory, generating minimal returns while consuming storage and capital resources. Systematic detection and disposition of such items is essential for achieving lean inventory levels across the supply chain.",
+      "key_terms": ["inventory minimization", "slow-moving inventory", "lean supply chain", "inventory elimination", "holding costs", "supply chain efficiency"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.5->F.6", "F.5->F.4", "F.6->F.4"]
+      }
+    },
+    {
+      "id": "F.6->F.4",
+      "source_concept": { "id": "F.6", "label": "Importance of minimizing inventory during all stages of supply chain management" },
+      "target_concept": { "id": "F.4", "label": "The Pareto principle" },
+      "relationship_type": "related_to",
+      "correct_description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels",
+      "explanation": "When pursuing inventory minimization across supply chain stages, the Pareto principle guides managers to focus optimization efforts where they will have the greatest impact. Since roughly 20% of items account for 80% of inventory value, targeted management of these high-value items yields disproportionate benefits in cost reduction. Conversely, the principle also highlights low-value items that may be candidates for elimination or reduced stocking.",
+      "key_terms": ["inventory minimization", "Pareto principle", "stock optimization", "ABC analysis", "inventory value", "carrying costs"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["F.4->F.3", "F.4->F.5", "F.5->F.4"]
+      }
+    }
+  ]
+}

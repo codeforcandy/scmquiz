@@ -1,0 +1,441 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "relationships": [
+    {
+      "id": "D.1->D.2",
+      "source_concept": { "id": "D.1", "label": "Explain the relationship between purchasing and supply chain management." },
+      "target_concept": { "id": "D.2", "label": "Explain how a company will provide value to supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Purchasing decisions directly affect the value a company provides through its supply chain.",
+      "explanation": "The quality, cost, and reliability of what a company purchases cascades through every downstream supply chain activity, ultimately shaping the value delivered to customers. When procurement secures superior materials at competitive prices from dependable suppliers, the entire chain benefits through higher product quality, lower costs, and more consistent fulfillment. Conversely, poor purchasing decisions erode the value proposition by introducing quality defects, cost overruns, or supply disruptions that compromise customer satisfaction.",
+      "key_terms": ["procurement", "value proposition", "supplier selection", "cost competitiveness", "customer utility", "sourcing strategy"],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.2->D.5", "D.1->D.4", "D.3->D.4"]
+      }
+    },
+    {
+      "id": "D.1->D.4",
+      "source_concept": { "id": "D.1", "label": "Explain the relationship between purchasing and supply chain management." },
+      "target_concept": { "id": "D.4", "label": "Define supply chain integration." },
+      "relationship_type": "related_to",
+      "correct_description": "Purchasing must be integrated with other supply chain functions for effective SCM.",
+      "explanation": "Purchasing cannot operate in isolation if a supply chain is to function as a unified system. When procurement is tightly integrated with production planning, logistics, and distribution, information flows seamlessly and the entire chain responds more quickly to changes in demand or supply conditions. Without this integration, purchasing decisions may conflict with inventory targets, production schedules, or transportation capacity, creating inefficiencies and added costs across the network.",
+      "key_terms": ["procurement integration", "cross-functional coordination", "process synchronization", "information flow", "supply chain functions", "unified system"],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.4->D.1", "D.4->D.3", "D.3->D.4"]
+      }
+    },
+    {
+      "id": "D.2->D.1",
+      "source_concept": { "id": "D.2", "label": "Explain how a company will provide value to supply chain management." },
+      "target_concept": { "id": "D.1", "label": "Explain the relationship between purchasing and supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Purchasing decisions are a key driver of the value a company delivers through its supply chain.",
+      "explanation": "A company's ability to deliver value through its supply chain depends heavily on the effectiveness of its purchasing function. Procurement determines the cost basis, quality level, and reliability of inputs that flow through the entire chain. Companies that align purchasing strategy with their overall value proposition can secure materials that enable them to be better, faster, or cheaper than competitors, directly translating procurement excellence into customer-facing competitive advantage.",
+      "key_terms": ["purchasing strategy", "value delivery", "competitive advantage", "cost basis", "quality inputs", "procurement excellence"],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.1->D.2", "D.2->D.5", "D.5->D.2"]
+      }
+    },
+    {
+      "id": "D.2->D.5",
+      "source_concept": { "id": "D.2", "label": "Explain how a company will provide value to supply chain management." },
+      "target_concept": { "id": "D.5", "label": "Describe management of supply and demand for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Balancing supply and demand is fundamental to delivering value in the supply chain.",
+      "explanation": "A company cannot deliver on its supply chain value proposition if supply and demand are misaligned. Having the right product available in the right quantity at the right time requires accurate demand forecasting paired with responsive supply planning. When this balance breaks down, either through stockouts that disappoint customers or excess inventory that erodes margins, the value the company promises to deliver through its supply chain is compromised.",
+      "key_terms": ["supply-demand alignment", "value delivery", "stockout prevention", "inventory balance", "demand forecasting", "fulfillment goals"],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.5->D.2", "D.1->D.2", "D.5->D.7"]
+      }
+    },
+    {
+      "id": "D.3->D.6",
+      "source_concept": { "id": "D.3", "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company." },
+      "target_concept": { "id": "D.6", "label": "Describe the efficient facility network design for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "The selection of suppliers and transportation providers is closely tied to facility network design decisions.",
+      "explanation": "Where a company places its facilities directly influences which suppliers and transportation providers are viable partners. A distribution center located near a major port favors ocean carriers and nearby suppliers, while an inland facility may rely more heavily on rail and trucking partners. These decisions are interdependent: facility locations constrain partner selection, and conversely, the availability of qualified suppliers and carriers in a region influences where facilities should be placed.",
+      "key_terms": ["facility placement", "supplier proximity", "carrier selection", "network design", "distribution strategy", "location interdependence"],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.6->D.3", "D.6->D.7", "D.3->D.4"]
+      }
+    },
+    {
+      "id": "D.3->D.4",
+      "source_concept": { "id": "D.3", "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company." },
+      "target_concept": { "id": "D.4", "label": "Define supply chain integration." },
+      "relationship_type": "related_to",
+      "correct_description": "Integration across suppliers, subcontractors, and logistics providers is key to supply chain integration.",
+      "explanation": "Selecting suppliers, subcontractors, and transportation providers is only the first step; integrating them into a coordinated system is what creates supply chain effectiveness. Each partner must share information, align processes, and work toward common objectives for the chain to function as a unified whole. Without integration, even well-chosen partners operate as disconnected entities, leading to communication gaps, conflicting priorities, and inefficient handoffs that degrade overall performance.",
+      "key_terms": ["partner integration", "coordination", "information sharing", "process alignment", "logistics providers", "unified operations"],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.4->D.3", "D.1->D.4", "D.4->D.1"]
+      }
+    },
+    {
+      "id": "D.4->D.1",
+      "source_concept": { "id": "D.4", "label": "Define supply chain integration." },
+      "target_concept": { "id": "D.1", "label": "Explain the relationship between purchasing and supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Purchasing is one of the key functions that must be integrated within the supply chain.",
+      "explanation": "Supply chain integration requires that all functional areas, including purchasing, operate in concert rather than as isolated departments. When purchasing is integrated, procurement decisions are informed by production schedules, inventory levels, and demand forecasts, leading to better-timed orders, reduced excess stock, and stronger supplier relationships. An unintegrated purchasing function risks ordering materials that do not align with actual production needs, creating waste and disruption across the chain.",
+      "key_terms": ["functional integration", "purchasing alignment", "demand-informed procurement", "coordinated ordering", "supply chain synchronization", "cross-functional planning"],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.1->D.4", "D.4->D.3", "D.1->D.2"]
+      }
+    },
+    {
+      "id": "D.4->D.3",
+      "source_concept": { "id": "D.4", "label": "Define supply chain integration." },
+      "target_concept": { "id": "D.3", "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company." },
+      "relationship_type": "related_to",
+      "correct_description": "Integration encompasses coordination with suppliers, subcontractors, and logistics providers.",
+      "explanation": "True supply chain integration extends beyond a company's internal functions to encompass external partners including suppliers, subcontractors, and logistics providers. Coordinating across these entities requires shared information systems, aligned incentives, and collaborative planning processes. When integration reaches across organizational boundaries, it enables real-time visibility into supplier capacity, subcontractor progress, and shipment status, allowing the entire network to respond as one system to disruptions or demand shifts.",
+      "key_terms": ["external integration", "supplier coordination", "logistics alignment", "collaborative planning", "network visibility", "organizational boundaries"],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.3->D.4", "D.4->D.1", "D.3->D.6"]
+      }
+    },
+    {
+      "id": "D.5->D.2",
+      "source_concept": { "id": "D.5", "label": "Describe management of supply and demand for supply chain management." },
+      "target_concept": { "id": "D.2", "label": "Explain how a company will provide value to supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Effective supply-demand management is essential to delivering value in the supply chain.",
+      "explanation": "Supply and demand management is the operational engine that translates a company's value proposition into reality. Accurate demand forecasting and responsive supply planning ensure that products are available when and where customers need them, delivering the quantity, time, and place utility that defines supply chain value. Without effective supply-demand management, even the best-designed supply chain strategy fails at execution, resulting in either unmet customer expectations or wasteful overproduction.",
+      "key_terms": ["demand management", "value realization", "customer fulfillment", "supply responsiveness", "operational execution", "utility delivery"],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.2->D.5", "D.2->D.1", "D.5->D.7"]
+      }
+    },
+    {
+      "id": "D.5->D.7",
+      "source_concept": { "id": "D.5", "label": "Describe management of supply and demand for supply chain management." },
+      "target_concept": { "id": "D.7", "label": "Explain the importance of expense management for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Supply-demand imbalances directly impact costs and expense management.",
+      "explanation": "When supply and demand are poorly aligned, costs escalate across multiple categories. Excess inventory ties up capital and increases carrying costs including warehousing, insurance, and obsolescence risk. Stockouts trigger expensive expedited shipments, lost sales, and potential customer defection. Effective supply-demand management is therefore a prerequisite for expense control, as even the most disciplined cost management program cannot overcome the financial drain of chronic overproduction or persistent shortages.",
+      "key_terms": ["cost impact", "inventory carrying costs", "stockout costs", "supply-demand alignment", "expense escalation", "expedited shipping"],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.7->D.5", "D.7->D.6", "D.6->D.7"]
+      }
+    },
+    {
+      "id": "D.6->D.3",
+      "source_concept": { "id": "D.6", "label": "Describe the efficient facility network design for supply chain management." },
+      "target_concept": { "id": "D.3", "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company." },
+      "relationship_type": "related_to",
+      "correct_description": "Facility network design determines where suppliers and distribution points are located relative to production.",
+      "explanation": "The physical layout of a company's facility network establishes the geographic framework within which supplier and distribution partner decisions are made. Once a company commits to factory and warehouse locations, proximity becomes a dominant factor in selecting suppliers and transportation providers, as shorter distances typically reduce lead times and shipping costs. Network design decisions are therefore upstream of partner selection, setting the spatial constraints that shape which suppliers, carriers, and distribution channels are most practical and cost-effective.",
+      "key_terms": ["geographic framework", "proximity analysis", "partner selection", "lead time reduction", "spatial constraints", "network layout"],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.3->D.6", "D.6->D.7", "D.3->D.4"]
+      }
+    },
+    {
+      "id": "D.6->D.7",
+      "source_concept": { "id": "D.6", "label": "Describe the efficient facility network design for supply chain management." },
+      "target_concept": { "id": "D.7", "label": "Explain the importance of expense management for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Network design decisions have a major impact on supply chain operating expenses.",
+      "explanation": "Facility network design is one of the most consequential cost drivers in supply chain management, with approximately 80 percent of operational costs determined by facility locations and product flow patterns. Decisions about how many warehouses to operate, where to place manufacturing plants, and which transportation routes to use lock in cost structures for years. Because these are capital-intensive, long-term commitments, getting network design right is essential to expense management, and getting it wrong creates cost burdens that are difficult and expensive to reverse.",
+      "key_terms": ["cost structure", "capital decisions", "operational expenses", "facility costs", "long-term commitment", "network optimization"],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.7->D.6", "D.7->D.5", "D.5->D.7"]
+      }
+    },
+    {
+      "id": "D.7->D.5",
+      "source_concept": { "id": "D.7", "label": "Explain the importance of expense management for supply chain management." },
+      "target_concept": { "id": "D.5", "label": "Describe management of supply and demand for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Poor supply-demand alignment leads to excess inventory and increased expenses.",
+      "explanation": "Expense management and supply-demand alignment are deeply interconnected because mismatches between what is produced and what is consumed generate costs across the entire chain. Excess inventory from overproduction incurs warehousing, insurance, depreciation, and obsolescence costs, while shortages trigger rush orders, premium freight charges, and lost-sale penalties. Companies that view expense management holistically recognize that improving demand forecasting and supply responsiveness is often the most effective lever for controlling costs.",
+      "key_terms": ["excess inventory costs", "demand alignment", "rush order penalties", "warehousing expenses", "forecast accuracy", "cost control lever"],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.5->D.7", "D.5->D.2", "D.6->D.7"]
+      }
+    },
+    {
+      "id": "D.7->D.6",
+      "source_concept": { "id": "D.7", "label": "Explain the importance of expense management for supply chain management." },
+      "target_concept": { "id": "D.6", "label": "Describe the efficient facility network design for supply chain management." },
+      "relationship_type": "related_to",
+      "correct_description": "Facility network design is a primary driver of supply chain operating costs.",
+      "explanation": "From an expense management perspective, facility network design represents one of the largest and most persistent cost categories in the supply chain. The number, size, and location of facilities determine fixed costs like rent, utilities, and labor, while the distances between them drive transportation expenses that recur with every shipment. Because these decisions involve long-term capital commitments, expense managers must ensure that network design is periodically reviewed and optimized as market conditions, customer locations, and cost structures evolve.",
+      "key_terms": ["fixed costs", "transportation expenses", "capital allocation", "periodic optimization", "cost categories", "facility operating costs"],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["D.6->D.7", "D.6->D.3", "D.5->D.7"]
+      }
+    }
+  ]
+}

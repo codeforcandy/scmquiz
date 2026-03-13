@@ -1,0 +1,689 @@
+{
+  "section_id": "G",
+  "section_title": "Improving Supply Chain Network Performance",
+  "generated_at": "2026-03-12T00:00:00Z",
+  "relationships": [
+    {
+      "id": "G.1->G.9",
+      "source_concept": { "id": "G.1", "label": "Explain the importance of synchronizing material flow" },
+      "target_concept": { "id": "G.9", "label": "Explain how market signal and consumer demand impact supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Market signals and consumer demand drive the need for synchronized material flow",
+      "explanation": "Synchronizing material flow depends on accurate market signals and consumer demand data to align production and distribution with actual needs. Without real-time demand information, material flow becomes misaligned, leading to the bullwhip effect and excess inventory. Effective demand sensing enables supply chains to coordinate material movements precisely when and where they are needed.",
+      "key_terms": ["material flow", "demand sensing", "bullwhip effect", "synchronization", "market signals", "consumer demand"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.9->G.1", "G.4->G.9", "G.8->G.9"]
+      }
+    },
+    {
+      "id": "G.1->G.2",
+      "source_concept": { "id": "G.1", "label": "Explain the importance of synchronizing material flow" },
+      "target_concept": { "id": "G.2", "label": "Define inventory maximization" },
+      "relationship_type": "related_to",
+      "correct_description": "Synchronized material flow supports inventory maximization strategies",
+      "explanation": "Synchronized material flow ensures that inventory arrives at each supply chain stage precisely when needed, which is fundamental to inventory maximization. When material flow is well-coordinated, organizations can reduce safety stock levels while maintaining high fill rates. This alignment minimizes both excess inventory carrying costs and stockout risks, directly enabling optimal inventory investment returns.",
+      "key_terms": ["material flow", "inventory optimization", "safety stock", "fill rate", "synchronization", "carrying costs"],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.2->G.3", "G.3->G.2", "G.4->G.2"]
+      }
+    },
+    {
+      "id": "G.2->G.3",
+      "source_concept": { "id": "G.2", "label": "Define inventory maximization" },
+      "target_concept": { "id": "G.3", "label": "Define decoupling points for inventory maximization" },
+      "relationship_type": "related_to",
+      "correct_description": "Decoupling points are a key strategy for achieving inventory maximization",
+      "explanation": "Decoupling points serve as strategic inventory buffers that separate push-driven and pull-driven processes, enabling more precise inventory optimization. By positioning inventory at these critical locations, organizations can reduce overall inventory investment while maintaining high service levels. This strategic placement is a core technique within the broader inventory maximization framework.",
+      "key_terms": ["decoupling point", "inventory optimization", "push-pull boundary", "strategic positioning", "service levels", "inventory buffers"],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["G.3->G.2", "G.2->G.4", "G.1->G.2"]
+      }
+    },
+    {
+      "id": "G.2->G.4",
+      "source_concept": { "id": "G.2", "label": "Define inventory maximization" },
+      "target_concept": { "id": "G.4", "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Algorithms are used to compute optimal inventory levels for maximization",
+      "explanation": "Inventory maximization relies heavily on computational algorithms to determine optimal stock levels, reorder points, and distribution strategies. Multi-echelon inventory optimization and machine learning models process demand data to balance holding costs against service requirements. These algorithmic approaches transform inventory maximization from intuition-based decisions to data-driven optimization.",
+      "key_terms": ["inventory optimization", "algorithms", "multi-echelon optimization", "machine learning", "reorder points", "data-driven decisions"],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.4->G.2", "G.4->G.9", "G.2->G.3"]
+      }
+    },
+    {
+      "id": "G.3->G.2",
+      "source_concept": { "id": "G.3", "label": "Define decoupling points for inventory maximization" },
+      "target_concept": { "id": "G.2", "label": "Define inventory maximization" },
+      "relationship_type": "related_to",
+      "correct_description": "Decoupling points are a method for achieving inventory maximization",
+      "explanation": "Decoupling points directly enable inventory maximization by creating strategic buffer locations that allow independent planning on either side. This separation of push and pull processes means organizations can optimize inventory levels at each stage without cascading variability across the supply chain. DDMRP uses strategic decoupling point positioning as its foundational step toward demand-driven inventory optimization.",
+      "key_terms": ["decoupling point", "inventory maximization", "DDMRP", "strategic buffers", "push-pull separation", "variability management"],
+      "sources": [
+        {
+          "url": "https://www.slimstock.com/blog/decoupling-point/",
+          "title": "Decoupling Point Explained – What It Is and How to Use It",
+          "site": "Slimstock"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/planning-optimization/ddmrp-inventory-positioning",
+          "title": "Inventory positioning - Supply Chain Management",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2024.2314164",
+          "title": "The customer order decoupling point in empirical operations and supply chain management research",
+          "site": "Taylor & Francis"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "easy",
+        "distractor_hint_ids": ["G.2->G.3", "G.3->G.1", "G.1->G.2"]
+      }
+    },
+    {
+      "id": "G.3->G.1",
+      "source_concept": { "id": "G.3", "label": "Define decoupling points for inventory maximization" },
+      "target_concept": { "id": "G.1", "label": "Explain the importance of synchronizing material flow" },
+      "relationship_type": "related_to",
+      "correct_description": "Decoupling points help synchronize material flow by buffering variability",
+      "explanation": "Decoupling points absorb supply and demand variability, preventing disruptions from propagating across the supply chain and thereby enabling smoother material flow synchronization. By acting as strategic buffers, they allow upstream processes to operate efficiently while downstream operations respond to actual customer demand. This buffering mechanism is essential for maintaining synchronized material movement across complex supply networks.",
+      "key_terms": ["decoupling point", "material flow", "variability buffering", "synchronization", "demand variability", "supply disruption"],
+      "sources": [
+        {
+          "url": "https://www.slimstock.com/blog/decoupling-point/",
+          "title": "Decoupling Point Explained – What It Is and How to Use It",
+          "site": "Slimstock"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/planning-optimization/ddmrp-inventory-positioning",
+          "title": "Inventory positioning - Supply Chain Management",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2024.2314164",
+          "title": "The customer order decoupling point in empirical operations and supply chain management research",
+          "site": "Taylor & Francis"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.1->G.2", "G.1->G.9", "G.2->G.3"]
+      }
+    },
+    {
+      "id": "G.4->G.2",
+      "source_concept": { "id": "G.4", "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management" },
+      "target_concept": { "id": "G.2", "label": "Define inventory maximization" },
+      "relationship_type": "related_to",
+      "correct_description": "Algorithms are the computational engine behind inventory maximization",
+      "explanation": "Algorithms provide the mathematical and computational foundation that makes inventory maximization achievable at scale. Techniques such as economic order quantity models, genetic algorithms, and deep reinforcement learning calculate optimal inventory levels across multiple supply chain tiers simultaneously. Without these algorithmic capabilities, organizations would lack the precision needed to balance inventory costs against service level targets effectively.",
+      "key_terms": ["algorithms", "inventory maximization", "economic order quantity", "genetic algorithms", "reinforcement learning", "computational optimization"],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949863525000548",
+          "title": "A comparative study of multi-algorithm optimization for inventory analytics in supply chains",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://fastercapital.com/content/Supply-chain-optimization--How-to-use-mathematical-models-and-algorithms-to-solve-complex-supply-chain-problems.html",
+          "title": "Supply chain optimization: How to use mathematical models and algorithms",
+          "site": "FasterCapital"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_optimization",
+          "title": "Supply chain optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.2->G.4", "G.2->G.3", "G.4->G.9"]
+      }
+    },
+    {
+      "id": "G.4->G.9",
+      "source_concept": { "id": "G.4", "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management" },
+      "target_concept": { "id": "G.9", "label": "Explain how market signal and consumer demand impact supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Algorithms process market signals and demand data to optimize capital deployment",
+      "explanation": "Supply chain algorithms ingest market signals and consumer demand data as primary inputs for optimizing capital allocation decisions. Demand sensing algorithms process point-of-sale data, promotional activity, and external signals to generate more accurate forecasts that guide inventory investment. This integration of algorithmic processing with real-time demand data enables organizations to deploy capital more efficiently across their supply chain networks.",
+      "key_terms": ["algorithms", "market signals", "demand sensing", "capital deployment", "demand forecasting", "real-time data"],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949863525000548",
+          "title": "A comparative study of multi-algorithm optimization for inventory analytics in supply chains",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://fastercapital.com/content/Supply-chain-optimization--How-to-use-mathematical-models-and-algorithms-to-solve-complex-supply-chain-problems.html",
+          "title": "Supply chain optimization: How to use mathematical models and algorithms",
+          "site": "FasterCapital"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_optimization",
+          "title": "Supply chain optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.9->G.1", "G.1->G.9", "G.8->G.9"]
+      }
+    },
+    {
+      "id": "G.5->G.11",
+      "source_concept": { "id": "G.5", "label": "Explain how proximity to the customer relates to supply chain efficiency" },
+      "target_concept": { "id": "G.11", "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments" },
+      "relationship_type": "related_to",
+      "correct_description": "Proximity strategies must be tailored to the logistics needs of different customer segments",
+      "explanation": "Customer proximity strategies are not one-size-fits-all; they must be differentiated based on the logistics requirements of distinct customer segments. High-value segments may warrant dedicated fulfillment centers nearby, while cost-sensitive segments may be served from centralized locations. Supply chain segmentation determines how proximity investments are allocated across different customer groups to maximize both satisfaction and efficiency.",
+      "key_terms": ["customer proximity", "supply chain segmentation", "logistics differentiation", "fulfillment strategy", "customer segments", "distribution network"],
+      "sources": [
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        },
+        {
+          "url": "https://eliteextra.com/what-is-last-mile-distribution-definition-strategies-more/",
+          "title": "What is Last-Mile Distribution: Definition, Strategies, & More",
+          "site": "Elite EXTRA"
+        },
+        {
+          "url": "https://envistacorp.com/blog/maximizing-last-mile-success-network-optimization/",
+          "title": "Maximizing Last Mile Success: The Power of Network Optimization",
+          "site": "enVista"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.11->G.5", "G.11->G.10", "G.5->G.6"]
+      }
+    },
+    {
+      "id": "G.5->G.6",
+      "source_concept": { "id": "G.5", "label": "Explain how proximity to the customer relates to supply chain efficiency" },
+      "target_concept": { "id": "G.6", "label": "Describe how product sourcing decisions are made" },
+      "relationship_type": "related_to",
+      "correct_description": "Product sourcing decisions influence where inventory is positioned relative to customers",
+      "explanation": "Sourcing decisions directly impact the geographic positioning of inventory relative to customers. When organizations choose offshore suppliers, they may need to invest in regional distribution centers to maintain customer proximity. Conversely, nearshoring or reshoring decisions can reduce the gap between production and consumption, improving last-mile delivery efficiency and reducing transit times.",
+      "key_terms": ["sourcing decisions", "customer proximity", "nearshoring", "distribution centers", "last-mile delivery", "inventory positioning"],
+      "sources": [
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        },
+        {
+          "url": "https://eliteextra.com/what-is-last-mile-distribution-definition-strategies-more/",
+          "title": "What is Last-Mile Distribution: Definition, Strategies, & More",
+          "site": "Elite EXTRA"
+        },
+        {
+          "url": "https://envistacorp.com/blog/maximizing-last-mile-success-network-optimization/",
+          "title": "Maximizing Last Mile Success: The Power of Network Optimization",
+          "site": "enVista"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.6->G.5", "G.6->G.7", "G.5->G.11"]
+      }
+    },
+    {
+      "id": "G.6->G.5",
+      "source_concept": { "id": "G.6", "label": "Describe how product sourcing decisions are made" },
+      "target_concept": { "id": "G.5", "label": "Explain how proximity to the customer relates to supply chain efficiency" },
+      "relationship_type": "related_to",
+      "correct_description": "Sourcing decisions affect supply chain proximity and distribution network design",
+      "explanation": "Product sourcing decisions fundamentally shape the supply chain's distribution network and its proximity to end customers. Make-or-buy decisions and supplier selection determine origin points for goods, which in turn dictate the required distribution infrastructure to reach customers efficiently. Total landed cost analysis within sourcing evaluation must account for the downstream logistics costs of maintaining customer proximity.",
+      "key_terms": ["sourcing decisions", "distribution network", "customer proximity", "total landed cost", "make-or-buy", "logistics infrastructure"],
+      "sources": [
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        },
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/management/make-or-buy-decision/",
+          "title": "Make-or-Buy Decision - Overview, How It Works, Triggers",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://scmguide.com/factors-to-consider-when-deciding-whether-to-make-or-buy/",
+          "title": "20 Factors to Consider When Deciding Whether to Make or Buy",
+          "site": "SCM Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.5->G.6", "G.5->G.11", "G.6->G.7"]
+      }
+    },
+    {
+      "id": "G.6->G.7",
+      "source_concept": { "id": "G.6", "label": "Describe how product sourcing decisions are made" },
+      "target_concept": { "id": "G.7", "label": "Describe evaluation processes for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Sourcing decisions are evaluated as part of supply chain performance assessment",
+      "explanation": "Product sourcing decisions are subject to ongoing evaluation through supply chain performance frameworks like the SCOR model. The Source process group within SCOR provides specific metrics for assessing supplier performance, procurement costs, and sourcing reliability. Regular evaluation ensures that sourcing strategies remain aligned with overall supply chain objectives and identifies when adjustments are needed.",
+      "key_terms": ["sourcing evaluation", "SCOR model", "supplier performance", "procurement metrics", "performance assessment", "strategic sourcing"],
+      "sources": [
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        },
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/management/make-or-buy-decision/",
+          "title": "Make-or-Buy Decision - Overview, How It Works, Triggers",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://scmguide.com/factors-to-consider-when-deciding-whether-to-make-or-buy/",
+          "title": "20 Factors to Consider When Deciding Whether to Make or Buy",
+          "site": "SCM Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.7->G.6", "G.7->G.10", "G.5->G.6"]
+      }
+    },
+    {
+      "id": "G.7->G.10",
+      "source_concept": { "id": "G.7", "label": "Describe evaluation processes for supply chain management" },
+      "target_concept": { "id": "G.10", "label": "Explain how to meet and improve customer needs for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Evaluation processes identify areas where customer needs can be better met and improved",
+      "explanation": "Supply chain evaluation processes provide the data and insights necessary to identify gaps in customer service and prioritize improvement initiatives. SCOR model metrics such as perfect order fulfillment and order cycle time directly measure how well customer needs are being met. This evaluation-driven feedback loop is essential for continuous improvement in customer satisfaction and supply chain performance.",
+      "key_terms": ["evaluation processes", "customer improvement", "SCOR metrics", "continuous improvement", "performance gaps", "feedback loop"],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.10->G.7", "G.10->G.8", "G.7->G.6"]
+      }
+    },
+    {
+      "id": "G.7->G.6",
+      "source_concept": { "id": "G.7", "label": "Describe evaluation processes for supply chain management" },
+      "target_concept": { "id": "G.6", "label": "Describe how product sourcing decisions are made" },
+      "relationship_type": "related_to",
+      "correct_description": "Product sourcing decisions are assessed through supply chain evaluation processes",
+      "explanation": "Supply chain evaluation frameworks systematically assess the effectiveness of product sourcing decisions by measuring supplier performance, procurement efficiency, and cost outcomes. Benchmarking sourcing performance against industry standards reveals whether current make-or-buy decisions are delivering expected value. This assessment drives corrective actions and informs future sourcing strategy adjustments.",
+      "key_terms": ["evaluation processes", "sourcing assessment", "supplier performance", "benchmarking", "procurement efficiency", "corrective actions"],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.6->G.7", "G.6->G.5", "G.7->G.10"]
+      }
+    },
+    {
+      "id": "G.8->G.10",
+      "source_concept": { "id": "G.8", "label": "Define how supply chain management meets consumer needs" },
+      "target_concept": { "id": "G.10", "label": "Explain how to meet and improve customer needs for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Meeting consumer needs is the foundation for improving customer satisfaction over time",
+      "explanation": "Meeting current consumer needs establishes the baseline from which continuous improvement efforts can build. Once an organization has achieved reliable delivery of the right product, at the right time, and in the right condition, it can focus on systematically enhancing the customer experience. The progression from meeting to improving customer needs represents a maturity evolution in supply chain customer centricity.",
+      "key_terms": ["consumer needs", "customer satisfaction", "continuous improvement", "customer centricity", "service baseline", "experience enhancement"],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        },
+        {
+          "url": "https://www.scmr.com/article/the-rise-of-customer-centric-supply-chains",
+          "title": "The rise of customer-centric supply chains",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.infosysbpm.com/blogs/supply-chain/supply-chain-optimization-for-customer-satisfaction.html",
+          "title": "Optimise Your Supply Chain For Customer Satisfaction",
+          "site": "Infosys BPM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.10->G.8", "G.10->G.7", "G.8->G.9"]
+      }
+    },
+    {
+      "id": "G.8->G.9",
+      "source_concept": { "id": "G.8", "label": "Define how supply chain management meets consumer needs" },
+      "target_concept": { "id": "G.9", "label": "Explain how market signal and consumer demand impact supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Consumer demand signals inform how supply chains are configured to meet needs",
+      "explanation": "Understanding consumer demand signals is prerequisite to configuring supply chains that effectively meet consumer needs. Point-of-sale data, search trends, and purchasing patterns reveal what customers want, when they want it, and in what quantities. Supply chains that integrate these demand signals into their planning processes can more accurately match inventory availability with actual consumer requirements.",
+      "key_terms": ["consumer demand", "demand signals", "supply chain configuration", "purchasing patterns", "inventory availability", "demand planning"],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        },
+        {
+          "url": "https://www.scmr.com/article/the-rise-of-customer-centric-supply-chains",
+          "title": "The rise of customer-centric supply chains",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.infosysbpm.com/blogs/supply-chain/supply-chain-optimization-for-customer-satisfaction.html",
+          "title": "Optimise Your Supply Chain For Customer Satisfaction",
+          "site": "Infosys BPM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.9->G.8", "G.9->G.1", "G.1->G.9"]
+      }
+    },
+    {
+      "id": "G.9->G.1",
+      "source_concept": { "id": "G.9", "label": "Explain how market signal and consumer demand impact supply chain management" },
+      "target_concept": { "id": "G.1", "label": "Explain the importance of synchronizing material flow" },
+      "relationship_type": "related_to",
+      "correct_description": "Demand signals drive the need to synchronize material flow throughout the supply chain",
+      "explanation": "Market signals and consumer demand data are the primary triggers for material flow synchronization across the supply chain. When demand signals indicate shifts in consumer behavior, material flow must be adjusted to prevent stockouts or overproduction. Real-time demand sensing enables supply chains to synchronize material movements within hours rather than weeks, reducing the bullwhip effect and improving overall responsiveness.",
+      "key_terms": ["demand signals", "material flow synchronization", "demand sensing", "bullwhip effect", "responsiveness", "real-time adjustment"],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.1->G.9", "G.1->G.2", "G.4->G.9"]
+      }
+    },
+    {
+      "id": "G.9->G.8",
+      "source_concept": { "id": "G.9", "label": "Explain how market signal and consumer demand impact supply chain management" },
+      "target_concept": { "id": "G.8", "label": "Define how supply chain management meets consumer needs" },
+      "relationship_type": "related_to",
+      "correct_description": "Understanding market signals enables supply chains to better meet consumer needs",
+      "explanation": "Market signals provide the intelligence needed for supply chains to anticipate and fulfill consumer needs effectively. By interpreting demand patterns, promotional impacts, and external factors, organizations can proactively position inventory and allocate resources to where consumer demand will materialize. This signal-driven approach transforms supply chains from reactive order-fillers to proactive need-anticipators.",
+      "key_terms": ["market signals", "consumer needs", "demand intelligence", "proactive positioning", "demand patterns", "supply chain responsiveness"],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.8->G.9", "G.8->G.10", "G.1->G.9"]
+      }
+    },
+    {
+      "id": "G.10->G.8",
+      "source_concept": { "id": "G.10", "label": "Explain how to meet and improve customer needs for supply chain management" },
+      "target_concept": { "id": "G.8", "label": "Define how supply chain management meets consumer needs" },
+      "relationship_type": "related_to",
+      "correct_description": "Improving customer needs builds on the foundation of meeting current consumer expectations",
+      "explanation": "Continuous improvement of customer service in supply chain management is built upon a solid foundation of meeting existing consumer expectations. Organizations must first achieve reliable, consistent fulfillment before they can systematically enhance the customer experience through lean methodologies, technology integration, and cross-functional collaboration. The improvement cycle feeds back into refining how baseline consumer needs are met.",
+      "key_terms": ["continuous improvement", "consumer expectations", "customer service", "lean methodology", "fulfillment reliability", "improvement cycle"],
+      "sources": [
+        {
+          "url": "https://www.iienstitu.com/en/blog/enhancing-customer-service-in-supply-chains",
+          "title": "Enhancing Customer Service in Supply Chains: Tips & Strategies",
+          "site": "IIENSTITU"
+        },
+        {
+          "url": "https://rxo.com/resources/shipper/continuous-improvement/",
+          "title": "Continuous Improvement: 6 Steps to a Stronger Supply Chain",
+          "site": "RXO"
+        },
+        {
+          "url": "https://supplychainnuggets.com/how-to-improve-customer-satisfaction-through-supply-chain/",
+          "title": "How to Improve Customer Satisfaction Through Supply Chain",
+          "site": "Supply Chain Nuggets"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.8->G.10", "G.8->G.9", "G.10->G.7"]
+      }
+    },
+    {
+      "id": "G.10->G.7",
+      "source_concept": { "id": "G.10", "label": "Explain how to meet and improve customer needs for supply chain management" },
+      "target_concept": { "id": "G.7", "label": "Describe evaluation processes for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Evaluation processes provide the data needed to identify and implement customer improvements",
+      "explanation": "Customer improvement initiatives depend on evaluation processes to identify performance gaps, measure progress, and validate that changes deliver real benefit. KPI tracking through frameworks like the SCOR model quantifies customer-facing metrics such as order accuracy and delivery speed, providing the evidence base for prioritizing improvement efforts. This data-driven approach ensures that improvement resources are directed where they will have the greatest impact on customer satisfaction.",
+      "key_terms": ["evaluation processes", "customer improvement", "KPI tracking", "performance gaps", "data-driven improvement", "SCOR model"],
+      "sources": [
+        {
+          "url": "https://www.iienstitu.com/en/blog/enhancing-customer-service-in-supply-chains",
+          "title": "Enhancing Customer Service in Supply Chains: Tips & Strategies",
+          "site": "IIENSTITU"
+        },
+        {
+          "url": "https://rxo.com/resources/shipper/continuous-improvement/",
+          "title": "Continuous Improvement: 6 Steps to a Stronger Supply Chain",
+          "site": "RXO"
+        },
+        {
+          "url": "https://supplychainnuggets.com/how-to-improve-customer-satisfaction-through-supply-chain/",
+          "title": "How to Improve Customer Satisfaction Through Supply Chain",
+          "site": "Supply Chain Nuggets"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.7->G.10", "G.7->G.6", "G.8->G.10"]
+      }
+    },
+    {
+      "id": "G.11->G.5",
+      "source_concept": { "id": "G.11", "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments" },
+      "target_concept": { "id": "G.5", "label": "Explain how proximity to the customer relates to supply chain efficiency" },
+      "relationship_type": "related_to",
+      "correct_description": "Customer proximity strategies are tailored based on segment-specific logistics needs",
+      "explanation": "Supply chain segmentation drives differentiated customer proximity strategies based on each segment's unique logistics requirements. Premium segments may justify dedicated hyperlocal fulfillment centers, while standard segments are served through regional hubs with longer delivery windows. Clustering algorithms and analytics help match each customer segment with the most cost-effective proximity and distribution approach.",
+      "key_terms": ["supply chain segmentation", "customer proximity", "differentiated logistics", "hyperlocal fulfillment", "clustering algorithms", "segment-specific strategy"],
+      "sources": [
+        {
+          "url": "https://throughput.world/blog/customer-segmentation-in-supply-chain/",
+          "title": "Customer Segmentation: A Smarter Supply Chain Strategy",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://www.bcg.com/publications/2015/segmentation-in-the-consumer-supply-chain-one-size-does-not-fit-all",
+          "title": "Segmentation in the Consumer Supply Chain: One Size Does Not Fit All",
+          "site": "BCG"
+        },
+        {
+          "url": "https://supplychainminded.com/supply-chain-segmentation/",
+          "title": "Supply Chain Segmentation",
+          "site": "Supply Chain Minded"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.5->G.11", "G.5->G.6", "G.11->G.10"]
+      }
+    },
+    {
+      "id": "G.11->G.10",
+      "source_concept": { "id": "G.11", "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments" },
+      "target_concept": { "id": "G.10", "label": "Explain how to meet and improve customer needs for supply chain management" },
+      "relationship_type": "related_to",
+      "correct_description": "Segmented logistics strategies are a key method for improving how customer needs are met",
+      "explanation": "Supply chain segmentation is one of the most effective methods for improving how customer needs are met, because it replaces generic service with tailored logistics strategies. By designing distinct value chains for different customer groups, organizations can optimize service levels, delivery speeds, and fulfillment methods for each segment. Companies employing segmentation have demonstrated 10-15% improvements in forecasting accuracy and comparable reductions in delivery costs.",
+      "key_terms": ["supply chain segmentation", "customer needs improvement", "tailored logistics", "value chain design", "service level optimization", "forecasting accuracy"],
+      "sources": [
+        {
+          "url": "https://throughput.world/blog/customer-segmentation-in-supply-chain/",
+          "title": "Customer Segmentation: A Smarter Supply Chain Strategy",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://www.bcg.com/publications/2015/segmentation-in-the-consumer-supply-chain-one-size-does-not-fit-all",
+          "title": "Segmentation in the Consumer Supply Chain: One Size Does Not Fit All",
+          "site": "BCG"
+        },
+        {
+          "url": "https://supplychainminded.com/supply-chain-segmentation/",
+          "title": "Supply Chain Segmentation",
+          "site": "Supply Chain Minded"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "analyze",
+        "difficulty": "medium",
+        "distractor_hint_ids": ["G.10->G.8", "G.10->G.7", "G.11->G.5"]
+      }
+    }
+  ]
+}
