@@ -27,12 +27,30 @@ export async function loadAllData() {
       .then(r => r.ok ? r.json() : { section_id: s, relationships: [] })
       .catch(() => ({ section_id: s, relationships: [] }))
   );
-  const [l1Results, l2Results, l3Results, l4Results, l5Results] = await Promise.all([
+  const l6Fetches = SECTIONS.map(s =>
+    fetch(`data/${s}_L6.json`)
+      .then(r => r.ok ? r.json() : { section_id: s, systems_thinking: [] })
+      .catch(() => ({ section_id: s, systems_thinking: [] }))
+  );
+  const l7Fetches = SECTIONS.map(s =>
+    fetch(`data/${s}_L7.json`)
+      .then(r => r.ok ? r.json() : { section_id: s, tradeoffs: [] })
+      .catch(() => ({ section_id: s, tradeoffs: [] }))
+  );
+  const l8Fetches = SECTIONS.map(s =>
+    fetch(`data/${s}_L8.json`)
+      .then(r => r.ok ? r.json() : { section_id: s, micro_definitions: [] })
+      .catch(() => ({ section_id: s, micro_definitions: [] }))
+  );
+  const [l1Results, l2Results, l3Results, l4Results, l5Results, l6Results, l7Results, l8Results] = await Promise.all([
     Promise.all(l1Fetches),
     Promise.all(l2Fetches),
     Promise.all(l3Fetches),
     Promise.all(l4Fetches),
     Promise.all(l5Fetches),
+    Promise.all(l6Fetches),
+    Promise.all(l7Fetches),
+    Promise.all(l8Fetches),
   ]);
 
   const concepts = new Map();
@@ -50,6 +68,9 @@ export async function loadAllData() {
       l3ConceptCount: 0,
       l4ConceptCount: 0,
       l5ConceptCount: 0,
+      l6ConceptCount: 0,
+      l7ConceptCount: 0,
+      l8ConceptCount: 0,
     });
 
     for (const concept of items) {
@@ -122,6 +143,54 @@ export async function loadAllData() {
         section: section_id,
         sectionTitle: meta ? meta.title : section_id,
         level: 'L5',
+      });
+    }
+  }
+
+  // Load L6 systems thinking entries
+  for (const sectionData of l6Results) {
+    const { section_id, systems_thinking: items } = sectionData;
+    const meta = sectionMeta.get(section_id);
+    if (meta) meta.l6ConceptCount = (items || []).length;
+
+    for (const entry of items || []) {
+      concepts.set(entry.id + '_L6', {
+        ...entry,
+        section: section_id,
+        sectionTitle: meta ? meta.title : section_id,
+        level: 'L6',
+      });
+    }
+  }
+
+  // Load L7 tradeoffs
+  for (const sectionData of l7Results) {
+    const { section_id, tradeoffs: items } = sectionData;
+    const meta = sectionMeta.get(section_id);
+    if (meta) meta.l7ConceptCount = (items || []).length;
+
+    for (const entry of items || []) {
+      concepts.set(entry.id + '_L7', {
+        ...entry,
+        section: section_id,
+        sectionTitle: meta ? meta.title : section_id,
+        level: 'L7',
+      });
+    }
+  }
+
+  // Load L8 micro definitions
+  for (const sectionData of l8Results) {
+    const { section_id, micro_definitions: items } = sectionData;
+    const meta = sectionMeta.get(section_id);
+    if (meta) meta.l8ConceptCount = (items || []).length;
+
+    for (const entry of items || []) {
+      concepts.set(entry.id + '_L8', {
+        ...entry,
+        section: section_id,
+        sectionTitle: meta ? meta.title : section_id,
+        level: 'L8',
       });
     }
   }

@@ -1,0 +1,193 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_F_broad_portfolio_vs_pareto_focus",
+      "subtype": "strategic_tradeoff",
+      "scenario": "An industrial fastener distributor carries 28,000 SKUs across 14 product categories. Analysis reveals that 4,200 SKUs (15%) generate 82% of revenue. The remaining 23,800 SKUs have average inventory turns of 1.1x and occupy 55% of warehouse space. However, key accounts responsible for 45% of revenue require single-source purchasing — they will switch to competitors who stock the full range rather than place orders with multiple suppliers.",
+      "objective_a": {
+        "label": "Maintain broad product portfolio for market coverage",
+        "concept_id": "F.3",
+        "section": "F"
+      },
+      "objective_b": {
+        "label": "Focus on high-performing SKUs per Pareto principle",
+        "concept_id": "F.4",
+        "section": "F"
+      },
+      "levers": [
+        { "concept_id": "F.3", "label": "Product portfolio management", "section": "F" },
+        { "concept_id": "F.4", "label": "Pareto principle", "section": "F" },
+        { "concept_id": "F.6", "label": "Minimizing inventory across stages", "section": "F" }
+      ],
+      "correct_strategy": "Maintain the full 28,000-SKU catalog for key accounts but implement a tiered stocking model: top 4,200 SKUs stocked locally for immediate availability, next 8,000 held at a central DC with 2-day fulfillment, and the remaining 15,800 available as vendor-direct drop-ship with 5-7 day lead times",
+      "correct_sacrifice": "Slower fulfillment on long-tail SKUs means some key account orders take 5-7 days for specialty items, requiring account managers to set expectations and potentially losing urgency-driven purchases on rare items",
+      "explanation": "The Pareto principle suggests cutting the tail, but the single-source purchasing requirement means the tail protects the head — losing key accounts over missing SKUs would destroy 45% of revenue. The tiered stocking model applies Pareto logic to inventory investment rather than portfolio breadth. The top 15% of SKUs get premium stocking, while the long tail exists in the catalog without consuming warehouse space. This preserves the one-stop-shop value proposition while concentrating 85% of inventory capital on high-velocity products.",
+      "key_terms": [
+        "Pareto principle",
+        "tiered stocking model",
+        "single-source purchasing",
+        "SKU rationalization"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/the-art-of-portfolio-management",
+          "title": "The Art of Product Portfolio Management",
+          "site": "McKinsey"
+        },
+        {
+          "url": "https://www.supplychainbrain.com/articles/sku-rationalization-strategies",
+          "title": "SKU Rationalization Without Losing Customers",
+          "site": "Supply Chain Brain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Eliminate all 23,800 low-performing SKUs immediately and reinvest the freed warehouse space and capital into deeper stock of the top 4,200 SKUs with guaranteed same-day shipping",
+            "sacrifice": "Key accounts requiring single-source purchasing defect to full-range competitors, putting 45% of revenue at risk",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Keep all 28,000 SKUs fully stocked at every warehouse location and negotiate extended payment terms with suppliers to offset the working capital impact of slow-moving inventory",
+            "sacrifice": "Extended payment terms strain supplier relationships and the 1.1x inventory turns on 55% of warehouse space remain an unaddressed drag on profitability",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Spin off the long-tail SKUs into a separate online-only business unit with its own warehouse, keeping the core distribution business focused on high-velocity products",
+            "sacrifice": "Key accounts now must order from two entities, defeating the single-source requirement and adding operational complexity without reducing total inventory",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_F_slow_movers_completeness_vs_sku_rationalization",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A medical device company sells 3,400 SKUs, of which 620 are classified as slow-moving with fewer than 10 units sold per quarter. These slow movers consume $4.2M in annual carrying costs and 30% of warehouse capacity. However, 180 of these slow-moving SKUs are legacy surgical instruments still used by 15% of hospitals that haven't upgraded to newer systems, and discontinuing them would breach existing supply agreements with 3-5 year terms.",
+      "objective_a": {
+        "label": "Retain slow-moving products for customer completeness",
+        "concept_id": "F.5",
+        "section": "F"
+      },
+      "objective_b": {
+        "label": "Aggressively rationalize SKUs to minimize inventory costs",
+        "concept_id": "F.6",
+        "section": "F"
+      },
+      "levers": [
+        { "concept_id": "F.5", "label": "Slow-moving products toward obsolescence", "section": "F" },
+        { "concept_id": "F.6", "label": "Minimizing inventory across stages", "section": "F" },
+        { "concept_id": "F.2", "label": "Products used and sold determination", "section": "F" }
+      ],
+      "correct_strategy": "Segment the 620 slow movers into three categories: (1) 180 contractually obligated SKUs maintained with minimum safety stock and made-to-order replenishment, (2) 200 SKUs with viable upgrade paths actively transitioned via hospital conversion programs with trade-in incentives, and (3) 240 truly obsolete SKUs with no contractual obligations discontinued with 12-month last-time-buy notices",
+      "correct_sacrifice": "The conversion program requires $800K in trade-in subsidies and dedicated sales resources for 18 months, and contractually obligated SKUs retain $1.4M in carrying costs that cannot be eliminated until agreements expire",
+      "explanation": "Blanket rationalization ignores the contractual and clinical realities of medical device supply chains. The segmented approach applies different obsolescence strategies based on actual constraints: contractual obligations get minimum-viable stocking, convertible products get active phase-out support, and truly dead SKUs get discontinued. This captures roughly 60% of the potential inventory savings ($2.5M of $4.2M) while protecting hospital relationships and honoring supply agreements. The conversion program accelerates natural obsolescence rather than waiting for contracts to expire.",
+      "key_terms": [
+        "SKU rationalization",
+        "product obsolescence management",
+        "last-time-buy",
+        "inventory segmentation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gartner.com/en/supply-chain/insights/product-lifecycle-management",
+          "title": "Product Lifecycle and Obsolescence Management",
+          "site": "Gartner"
+        },
+        {
+          "url": "https://www.apics.org/apics-for-individuals/apics-magazine-home/supply-chain-topics/slow-moving-inventory",
+          "title": "Managing Slow-Moving and Obsolete Inventory",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Discontinue all 620 slow-moving SKUs simultaneously and offer hospitals a 20% discount on upgraded replacements to accelerate transition",
+            "sacrifice": "Breach of supply agreements with 15% of hospitals triggers contractual penalties and potential loss of entire hospital system accounts",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Maintain all 620 slow-moving SKUs but move them to a third-party consignment warehouse where carrying costs are shared with the warehouse operator",
+            "sacrifice": "Consignment shifts storage costs but doesn't address the root problem of stocking products with declining demand, and the 3PL charges premium rates for low-volume handling",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Increase minimum order quantities for all slow-moving SKUs to 50 units to force hospitals to buy in bulk or stop ordering, effectively pricing out low-demand products",
+            "sacrifice": "Hospitals refuse bulk purchases of slow-moving items they rarely need, creating stockout situations that damage clinical relationships and violate supply commitments",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_F_innovation_launches_vs_portfolio_stability",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A consumer electronics accessories company launches 40-50 new products per year to capture emerging trends (wireless charging, MagSafe, USB-C transitions). Each launch requires 8 weeks of supply chain setup, $35K in initial inventory investment, and integration into 6 distribution channels. Currently, 30% of new launches fail to reach break-even within 12 months, and the constant churn creates forecasting errors that increase safety stock across the entire portfolio by 20%.",
+      "objective_a": {
+        "label": "Pursue rapid innovation with frequent new product launches",
+        "concept_id": "F.1",
+        "section": "F"
+      },
+      "objective_b": {
+        "label": "Maintain portfolio stability and forecasting accuracy",
+        "concept_id": "F.3",
+        "section": "F"
+      },
+      "levers": [
+        { "concept_id": "F.1", "label": "What products to sell", "section": "F" },
+        { "concept_id": "F.3", "label": "Product portfolio management", "section": "F" },
+        { "concept_id": "F.4", "label": "Pareto principle", "section": "F" }
+      ],
+      "correct_strategy": "Implement a stage-gate launch process: test all new products through a single direct-to-consumer channel first with minimal inventory ($8K), promote to full 6-channel distribution only after 90-day sell-through validation, and enforce a one-in-one-out rule where each new product promoted to full distribution requires retiring a bottom-performing existing SKU",
+      "correct_sacrifice": "Slower time-to-market for new products — the 90-day validation window means competitors may capture early adopters, and the one-in-one-out rule limits total portfolio size even when new products succeed",
+      "explanation": "The 30% failure rate at $35K per launch means the company wastes roughly $525K annually on failed products while the portfolio churn inflates safety stock costs across all SKUs. The stage-gate approach preserves innovation speed (still launching 40-50 products for testing) but gates the expensive supply chain integration behind proven demand. The one-in-one-out rule prevents portfolio bloat that degrades forecasting accuracy. The sacrifice is real — competitors may beat them to scale on trending products — but the 90-day window filters out the 30% of launches that would have failed anyway, saving both direct launch costs and the indirect forecasting penalty.",
+      "key_terms": [
+        "stage-gate process",
+        "new product introduction",
+        "portfolio bloat",
+        "demand validation"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2012/05/the-new-new-product-development-game",
+          "title": "Managing New Product Development Pipelines",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.supplychaindigital.com/supply-chain-management/new-product-launch-supply-chain-readiness",
+          "title": "Supply Chain Readiness for New Product Launches",
+          "site": "Supply Chain Digital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Reduce new product launches from 40-50 to 10 per year, selecting only products with guaranteed demand based on pre-orders, and invest the saved resources into deeper inventory of proven best-sellers",
+            "sacrifice": "Missing 75% of trend-driven opportunities in a fast-moving accessories market where first-mover advantage determines category winners",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Increase launch velocity to 80+ products per year but reduce initial inventory investment to $15K per SKU and accept stockouts on successful products as a signal to scale up",
+            "sacrifice": "Doubling the launch rate doubles forecasting chaos and the 20% safety stock penalty compounds, while stockouts on winning products hand market share to competitors at the critical growth moment",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Launch all 40-50 products simultaneously across all 6 channels but use AI-driven demand sensing to dynamically adjust inventory levels in real time, eliminating the need for safety stock buffers",
+            "sacrifice": "AI demand sensing cannot accurately forecast genuinely new products with no sales history, and full 6-channel launches still cost $35K each for the 30% that fail",
+            "flaw": "ignores_constraint"
+          }
+        ]
+      }
+    }
+  ]
+}

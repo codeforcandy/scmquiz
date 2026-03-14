@@ -1,0 +1,140 @@
+{
+  "section_id": "H",
+  "section_title": "Production Planning and Control",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "micro_definitions": [
+    {
+      "id": "H.1",
+      "topic": "Describe different types of supply chain management planning.",
+      "micro_definition": "Distinct planning layers that differ by time horizon, decision scope, and level of detail.",
+      "explanation": "Supply chain planning operates at strategic (years), tactical (months), and operational (days/weeks) levels. Each layer addresses different decisions: strategic sets the network structure, tactical allocates resources within it, and operational executes day-to-day activities. Alignment across all three is essential.",
+      "key_terms": ["strategic planning", "tactical planning", "operational planning"],
+      "sources": [
+        {
+          "url": "https://www.apics.org/apics-for-business/frameworks/scor",
+          "title": "Planning Levels in Supply Chain Management",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.2", "H.3"]
+      }
+    },
+    {
+      "id": "H.2",
+      "topic": "Define Static vs. Dynamic Planning",
+      "micro_definition": "Fixed one-time plans versus continuously revised plans that adapt to changing conditions.",
+      "explanation": "Static planning creates a single plan and executes it without modification, suitable for stable environments. Dynamic planning continuously updates based on new information, demand changes, and disruptions. Most modern supply chains require dynamic approaches due to market volatility.",
+      "key_terms": ["rolling forecast", "plan revision", "adaptive planning"],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/static-vs-dynamic-planning",
+          "title": "Static vs. Dynamic Planning Approaches",
+          "site": "Supply Chain Quarterly"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.1", "H.3"]
+      }
+    },
+    {
+      "id": "H.3",
+      "topic": "Explain how a master production schedule is determined.",
+      "micro_definition": "A time-phased plan stating exactly what to build, how many, and when.",
+      "explanation": "The master production schedule (MPS) translates aggregate demand forecasts into specific production commitments by product and period. It balances customer orders, forecasted demand, and available capacity to create a feasible build plan that drives material requirements and shop floor scheduling.",
+      "key_terms": ["MPS", "time-phased plan", "production commitment"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/m/master-production-schedule.asp",
+          "title": "Master Production Schedule",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.2", "H.4"]
+      }
+    },
+    {
+      "id": "H.4",
+      "topic": "Define Bill of Material (BOM)",
+      "micro_definition": "A structured recipe listing every part and quantity needed to assemble one unit.",
+      "explanation": "The BOM is the definitive record of a product's composition, organized hierarchically from the finished item down to the lowest-level raw material. It drives material requirements planning, cost estimation, and procurement. An inaccurate BOM causes shortages, excess purchases, and assembly errors.",
+      "key_terms": ["component hierarchy", "parts list", "material requirements"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/b/bill-of-materials.asp",
+          "title": "Bill of Materials (BOM) Explained",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.5", "H.3"]
+      }
+    },
+    {
+      "id": "H.5",
+      "topic": "Describe raw materials required for supply chain management.",
+      "micro_definition": "Unprocessed inputs that have not yet undergone any conversion or assembly step.",
+      "explanation": "Raw materials are the starting point of the production process: metals, plastics, chemicals, agricultural products, and other basic inputs. Their availability, cost, and quality set the foundation for everything downstream. Procurement strategies for raw materials must account for price volatility, lead times, and supplier concentration.",
+      "key_terms": ["basic inputs", "procurement", "commodity sourcing"],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/topics/engineering/raw-material-supply-chain",
+          "title": "Raw Materials in Supply Chain Management",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.4", "H.6"]
+      }
+    },
+    {
+      "id": "H.6",
+      "topic": "Describe work-in-process for supply chain management.",
+      "micro_definition": "Partially completed items sitting between the start and end of the conversion process.",
+      "explanation": "Work-in-process (WIP) represents goods that have begun but not finished production. High WIP levels signal bottlenecks, long cycle times, and tied-up capital. Lean manufacturing aims to minimize WIP by balancing workstation rates and reducing batch sizes to keep material flowing continuously.",
+      "key_terms": ["WIP", "cycle time", "production bottleneck"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/w/workinprogress.asp",
+          "title": "Work-in-Process Inventory",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.5", "H.7"]
+      }
+    },
+    {
+      "id": "H.7",
+      "topic": "Define finished goods and the goal to move those goods.",
+      "micro_definition": "Completed products ready to ship, whose value is only realized once they reach the buyer.",
+      "explanation": "Finished goods represent the end of the production process and the beginning of the distribution process. They carry the full accumulated cost of materials, labor, and overhead. The goal is to move them to customers quickly because unsold finished goods are the most expensive form of inventory to hold.",
+      "key_terms": ["completed inventory", "distribution readiness", "order fulfillment"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/f/finishedgoods.asp",
+          "title": "Finished Goods Inventory",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["H.6", "H.5"]
+      }
+    }
+  ]
+}

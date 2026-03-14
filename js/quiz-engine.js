@@ -54,6 +54,15 @@ export function generateQuestions(filteredConcepts) {
   const shuffled = shuffle(filteredConcepts);
 
   return shuffled.map(concept => {
+    if (concept.level === 'L8') {
+      return buildL8Question(concept, filteredConcepts, concepts);
+    }
+    if (concept.level === 'L7') {
+      return buildL7Question(concept, filteredConcepts, concepts);
+    }
+    if (concept.level === 'L6') {
+      return buildL6Question(concept, filteredConcepts, concepts);
+    }
     if (concept.level === 'L5') {
       return buildL5Question(concept, filteredConcepts, concepts);
     }
@@ -304,6 +313,87 @@ function buildL5Choices(concept, pool, allConcepts) {
   }
 
   return choices.slice(0, 4);
+}
+
+function buildL6Question(concept, pool, allConcepts) {
+  const isChain = concept.subtype === 'consequence_chain';
+  const correctAnswer = isChain
+    ? concept.consequence_description
+    : concept.interaction_description;
+
+  const distractors = concept.quiz.distractor_descriptions || [];
+  const choices = [correctAnswer, ...distractors].slice(0, 4);
+
+  const question = {
+    conceptId: concept.id,
+    questionType: isChain ? 'consequence_chain' : 'cross_section_bridge',
+    correctAnswer,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L6',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices),
+  };
+
+  if (isChain) {
+    question.chain = concept.chain;
+    question.links = concept.links;
+    question.disruptedConcept = concept.disrupted_concept;
+  } else {
+    question.sourceConcept = concept.source_concept;
+    question.targetConcept = concept.target_concept;
+  }
+
+  return question;
+}
+
+function buildL8Question(concept, pool, allConcepts) {
+  const choices = buildChoices(concept, pool, allConcepts);
+  return {
+    conceptId: concept.id,
+    questionType: 'micro_definition',
+    definition: concept.micro_definition,
+    correctTopic: concept.topic,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L8',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices),
+  };
+}
+
+function buildL7Question(concept, pool, allConcepts) {
+  const correctStrategy = concept.correct_strategy;
+  const distractors = (concept.quiz.distractor_strategies || []).map(d => d.strategy);
+  const choices = [correctStrategy, ...distractors].slice(0, 4);
+
+  return {
+    conceptId: concept.id,
+    questionType: 'strategic_tradeoff',
+    scenario: concept.scenario,
+    objectiveA: concept.objective_a,
+    objectiveB: concept.objective_b,
+    levers: concept.levers,
+    correctAnswer: correctStrategy,
+    correctSacrifice: concept.correct_sacrifice,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L7',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices),
+  };
 }
 
 /**

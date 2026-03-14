@@ -1,0 +1,193 @@
+{
+  "section_id": "C",
+  "section_title": "Characteristics for Successful Supply Chain Managers",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_C_urgency_vs_temperament",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A supply chain director at a pharmaceutical company learns at 2 PM that a critical API shipment worth $4.6M is stuck at customs due to a documentation error. The product has a 72-hour temperature-sensitive window, and 3 hospital systems depend on delivery within 48 hours. The team is split: one group wants to immediately reroute through an alternative port (6 hours faster but $280K in extra freight), while another insists on resolving the documentation issue through proper channels (estimated 8-14 hours).",
+      "objective_a": {
+        "label": "Act with speed and urgency to protect patient supply",
+        "concept_id": "C.9",
+        "section": "C"
+      },
+      "objective_b": {
+        "label": "Exercise measured temperament to avoid costly overreaction",
+        "concept_id": "C.11",
+        "section": "C"
+      },
+      "levers": [
+        { "concept_id": "C.7", "label": "People and problem-solving skills", "section": "C" },
+        { "concept_id": "C.2", "label": "Communication skills", "section": "C" },
+        { "concept_id": "C.1", "label": "Leadership", "section": "C" }
+      ],
+      "correct_strategy": "Immediately initiate the documentation fix through proper channels while simultaneously pre-staging the reroute option as a contingency. Set a 4-hour decision checkpoint: if documentation resolution is not confirmed by 6 PM, trigger the reroute. Use clear communication to align both teams on the parallel approach and escalation timeline.",
+      "correct_sacrifice": "The parallel-path approach consumes more team resources in the short term and incurs pre-staging costs for the reroute that may go unused if the documentation fix succeeds.",
+      "explanation": "The 72-hour temperature window creates a hard constraint that makes pure patience risky, but the $280K reroute cost makes impulsive action expensive. A parallel-path strategy with a defined checkpoint converts the urgency-vs-temperament tension into a structured decision tree. The 4-hour checkpoint preserves enough time for the reroute option while giving the lower-cost fix a fair chance. This requires leadership to align competing team perspectives and communication skills to keep all stakeholders informed.",
+      "key_terms": [
+        "parallel-path contingency",
+        "decision checkpoint",
+        "crisis escalation",
+        "time-sensitive logistics"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2020/04/7-strategies-for-better-group-decision-making",
+          "title": "7 Strategies for Better Group Decision-Making",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.supplychainmovement.com/crisis-management-in-supply-chains/",
+          "title": "Crisis Management in Supply Chains",
+          "site": "Supply Chain Movement"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Immediately authorize the $280K reroute without waiting for any documentation resolution, prioritizing speed above all else to ensure the 48-hour delivery commitment",
+            "sacrifice": "Spends $280K that may have been avoidable, and sets a precedent for expensive reactive decisions that erodes cost discipline",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Calmly pursue the documentation fix through proper channels with no contingency plan, trusting that the 8-14 hour estimate leaves enough buffer within the 48-hour window",
+            "sacrifice": "If the documentation fix takes longer than estimated, the temperature window closes and the entire $4.6M shipment is lost",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Escalate the decision to the CEO and board, requesting an emergency meeting to evaluate the financial and reputational risks before committing to either option",
+            "sacrifice": "Hours lost to executive scheduling and deliberation burn through the time window, making both options less viable",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_C_flexibility_vs_ethics",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A supply chain manager at an automotive parts company discovers that a Tier-2 supplier in a developing country uses labor practices that technically comply with local law but violate the company's own code of conduct. Replacing the supplier would take 9 months and delay a $38M product launch by at least one quarter. The supplier provides a proprietary coating process that no other qualified supplier currently offers.",
+      "objective_a": {
+        "label": "Apply flexible thinking to meet business commitments",
+        "concept_id": "C.5",
+        "section": "C"
+      },
+      "objective_b": {
+        "label": "Maintain strict ethical compliance standards",
+        "concept_id": "C.3",
+        "section": "C"
+      },
+      "levers": [
+        { "concept_id": "C.1", "label": "Leadership", "section": "C" },
+        { "concept_id": "C.2", "label": "Communication skills", "section": "C" },
+        { "concept_id": "C.7", "label": "People and problem-solving skills", "section": "C" }
+      ],
+      "correct_strategy": "Negotiate a binding corrective action plan with the Tier-2 supplier that brings labor practices into compliance with the company's code of conduct within 6 months, with independent third-party audits at 90-day intervals. Simultaneously begin qualifying an alternative supplier to reduce long-term single-source dependency. Maintain the current business relationship only while the corrective plan is active and on track.",
+      "correct_sacrifice": "The product launch proceeds on the original timeline but carries reputational risk during the corrective period, and the company must invest in both remediation monitoring and alternative supplier qualification simultaneously.",
+      "explanation": "This approach refuses to accept a false binary between ethical compromise and business failure. Flexible thinking is applied not to bend ethical standards but to find a path that achieves compliance through supplier development rather than immediate termination. The corrective action plan with independent audits maintains ethical accountability, while parallel qualification of alternatives ensures the company is not permanently dependent on a supplier whose practices require intervention. Leadership is required to hold the supplier accountable while communicating transparently with stakeholders about the remediation process.",
+      "key_terms": [
+        "supplier corrective action",
+        "ethical sourcing",
+        "third-party audit",
+        "single-source risk"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/ethical-supply-chains",
+          "title": "Building Ethical Supply Chains",
+          "site": "McKinsey"
+        },
+        {
+          "url": "https://www.bsr.org/en/reports/beyond-monitoring-guide-for-responsible-supply-chains",
+          "title": "Beyond Monitoring: A Guide for Responsible Supply Chains",
+          "site": "BSR"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Immediately terminate the Tier-2 supplier relationship regardless of launch impact, publicly announcing the decision to demonstrate ethical leadership and accepting the one-quarter delay",
+            "sacrifice": "The $38M launch delay and lack of alternative supplier for the proprietary coating process may cascade into contract penalties and lost market share that far exceed the ethical benefit",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Classify the labor practices as a local-law compliance matter and continue the relationship unchanged, updating the code of conduct to reflect regional variations in labor standards",
+            "sacrifice": "Weakening the code of conduct to accommodate the supplier sets a precedent that erodes ethical standards across the entire supply base",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Insert an intermediary trading company between the Tier-1 and Tier-2 supplier to create contractual distance from the labor practices, maintaining supply while technically removing the direct relationship",
+            "sacrifice": "The underlying ethical issue remains unresolved, and investigative journalists or auditors can easily trace the actual supply chain, creating greater reputational risk",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_C_technology_vs_people",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A 3PL company with 2,800 warehouse employees is evaluating a $12M warehouse automation system that would reduce headcount by 40% within 2 years. Current labor costs are $47M annually and turnover is 65%. However, the company's competitive advantage has been its experienced workforce's ability to handle complex, customized fulfillment for high-value clients who generate 55% of revenue.",
+      "objective_a": {
+        "label": "Invest in technology and automation skills",
+        "concept_id": "C.8",
+        "section": "C"
+      },
+      "objective_b": {
+        "label": "Preserve people-centric problem-solving capability",
+        "concept_id": "C.7",
+        "section": "C"
+      },
+      "levers": [
+        { "concept_id": "C.1", "label": "Leadership", "section": "C" },
+        { "concept_id": "C.5", "label": "Flexible thinking", "section": "C" },
+        { "concept_id": "C.2", "label": "Communication skills", "section": "C" }
+      ],
+      "correct_strategy": "Automate standardized, high-volume fulfillment tasks (which drive the 65% turnover due to repetitive work) while retraining and retaining experienced workers for complex, customized operations. Create a two-tier workforce model: technology-managed standard fulfillment and human-led premium fulfillment for high-value clients.",
+      "correct_sacrifice": "The 40% headcount reduction target is not fully achievable — the actual reduction may be closer to 25-30%, yielding lower labor savings than the pure automation business case projects.",
+      "explanation": "The 65% turnover rate signals that repetitive warehouse tasks are poorly suited to human workers, making those roles strong automation candidates. But the high-value clients generating 55% of revenue chose this 3PL specifically for its workforce's problem-solving capabilities — automating those roles risks the company's core differentiation. The two-tier model applies technology where it solves a real problem (turnover, consistency) while protecting the human capabilities that drive premium revenue. Leadership and communication are essential to execute the transition without losing key talent who fear being replaced.",
+      "key_terms": [
+        "warehouse automation",
+        "workforce segmentation",
+        "human-automation collaboration",
+        "competitive differentiation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gartner.com/en/supply-chain/insights/warehouse-automation",
+          "title": "Warehouse Automation Strategy",
+          "site": "Gartner"
+        },
+        {
+          "url": "https://hbr.org/2021/03/the-future-of-work-is-not-about-replacing-humans",
+          "title": "The Future of Work Is Not About Replacing Humans",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Deploy full automation across all warehouse operations and retrain the remaining workforce as automation technicians, offering high-value clients API-based self-service customization tools instead of human fulfillment specialists",
+            "sacrifice": "High-value clients chose human-managed fulfillment for a reason — forcing them onto self-service tools risks losing the 55% of revenue they represent",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Reject the automation investment entirely and instead raise wages by 20% across all positions to reduce the 65% turnover rate, doubling down on the people-centric model",
+            "sacrifice": "A 20% wage increase on $47M adds $9.4M annually in perpetuity without addressing the root cause of turnover in repetitive roles, and the $12M automation ROI is forfeited",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Implement automation in phases across all operations including high-value client fulfillment, planning to fully replace human workers within 3 years while using the transition period to develop AI-driven customization capabilities",
+            "sacrifice": "AI-driven customization is unproven for complex fulfillment, and the 3-year transition creates prolonged uncertainty that accelerates the departure of experienced workers the company still needs",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    }
+  ]
+}

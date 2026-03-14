@@ -1,0 +1,193 @@
+{
+  "section_id": "H",
+  "section_title": "Production Planning and Control",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_H_dynamic_planning_vs_schedule_stability",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A pharmaceutical manufacturer updates its master production schedule weekly to respond to volatile hospital demand, but the frequent changes cause a 12% yield loss on its fill-and-finish lines due to incomplete batch runs. Freezing the schedule for 4-week periods would recover yield but risks 18% stockout rates during demand surges.",
+      "objective_a": {
+        "label": "Maintain dynamic planning flexibility for demand responsiveness",
+        "concept_id": "H.2",
+        "section": "H"
+      },
+      "objective_b": {
+        "label": "Stabilize the master production schedule for manufacturing efficiency",
+        "concept_id": "H.3",
+        "section": "H"
+      },
+      "levers": [
+        { "concept_id": "H.1", "label": "Types of supply chain planning", "section": "H" },
+        { "concept_id": "H.7", "label": "Finished goods inventory", "section": "H" },
+        { "concept_id": "H.6", "label": "Work-in-process", "section": "H" }
+      ],
+      "correct_strategy": "Implement a two-tier frozen/slushy schedule: freeze the first 2 weeks to protect batch completion and yield, allow demand-driven adjustments in weeks 3-4, and hold a targeted finished goods safety stock of high-runner SKUs to buffer the frozen window",
+      "correct_sacrifice": "Higher finished goods carrying costs for safety stock on high-runner SKUs and reduced responsiveness during the 2-week frozen window",
+      "explanation": "A tiered freeze horizon resolves the tension by giving production the stability it needs to complete batches efficiently while preserving flexibility in the outer planning window. The 2-week freeze is long enough to protect yield (eliminating incomplete batch runs) but short enough to limit stockout exposure. The finished goods safety stock on high-volume items acts as a demand buffer during the frozen period, converting the binary choice between flexibility and stability into a graduated approach.",
+      "key_terms": [
+        "frozen schedule horizon",
+        "dynamic replanning",
+        "master production schedule",
+        "safety stock buffer"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/apics-for-individuals/apics-magazine-home/magazine-detail-page/2019/03/01/master-scheduling-best-practices",
+          "title": "Master Scheduling Best Practices",
+          "site": "APICS"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925527304002282",
+          "title": "Frozen Schedule Approaches in Multi-Level MRP Systems",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Eliminate the master schedule entirely and switch to a pure make-to-order model, producing only when confirmed hospital purchase orders arrive to avoid any forecasting risk",
+            "sacrifice": "Lead times extend from days to weeks, causing critical medication shortages at hospitals during urgent care situations",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Freeze the schedule for 8 weeks to maximize batch efficiency and build massive finished goods buffers to cover any demand variation during the frozen window",
+            "sacrifice": "Inventory carrying costs balloon to unsustainable levels, and products risk expiration given the pharmaceutical shelf-life constraints",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Outsource production to a contract manufacturer with flexible capacity, shifting the yield-vs-responsiveness problem to a third party",
+            "sacrifice": "Loss of quality control over pharmaceutical manufacturing and higher per-unit costs without resolving the underlying planning tension",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_H_raw_material_buffer_vs_finished_goods_buffer",
+      "subtype": "strategic_tradeoff",
+      "scenario": "An automotive parts supplier spends $4.2M annually on inventory. Raw steel lead times have become unpredictable (ranging from 3 to 9 weeks), while its OEM customers penalize late shipments at $50K per incident. The company must decide whether to hold buffer inventory as raw materials or finished goods, given warehouse capacity limits that prevent doing both.",
+      "objective_a": {
+        "label": "Stockpile raw materials to hedge against supply disruptions",
+        "concept_id": "H.5",
+        "section": "H"
+      },
+      "objective_b": {
+        "label": "Hold finished goods inventory to guarantee on-time customer delivery",
+        "concept_id": "H.7",
+        "section": "H"
+      },
+      "levers": [
+        { "concept_id": "H.4", "label": "Bill of Material (BOM)", "section": "H" },
+        { "concept_id": "H.6", "label": "Work-in-process", "section": "H" },
+        { "concept_id": "H.1", "label": "Types of supply chain planning", "section": "H" }
+      ],
+      "correct_strategy": "Hold buffer primarily as raw materials for components with high BOM commonality across finished products, while maintaining a small finished goods buffer only for the top 5 customer-specific SKUs that carry the highest late-shipment penalty exposure",
+      "correct_sacrifice": "Longer response time for low-volume custom orders that lack BOM commonality, requiring negotiated lead-time extensions with those customers",
+      "explanation": "Raw material buffers offer greater flexibility than finished goods buffers because common steel forms can be converted into multiple end products based on actual demand. The BOM analysis reveals which raw materials serve the most finished SKUs, maximizing the hedging value per dollar of inventory. A small finished goods buffer for top-penalty SKUs provides direct delivery insurance where the financial risk is highest. This approach works within the warehouse capacity constraint by concentrating inventory where it provides the most optionality.",
+      "key_terms": [
+        "inventory positioning",
+        "BOM commonality",
+        "postponement",
+        "supply uncertainty buffer"
+      ],
+      "sources": [
+        {
+          "url": "https://sloanreview.mit.edu/article/inventory-positioning-in-a-two-stage-supply-chain/",
+          "title": "Strategic Inventory Positioning in Supply Chains",
+          "site": "MIT Sloan Management Review"
+        },
+        {
+          "url": "https://www.supplychainbrain.com/articles/raw-materials-vs-finished-goods-inventory-strategy",
+          "title": "Where to Hold Inventory: Raw Materials vs. Finished Goods",
+          "site": "SupplyChainBrain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Convert all buffer inventory to finished goods for the top 20 SKUs, eliminating raw material buffers entirely and relying on spot-market steel purchases when supply disruptions occur",
+            "sacrifice": "Spot-market steel prices spike 40-60% during disruptions, destroying margins on all orders beyond the buffered SKUs",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Lease a second warehouse to hold maximum buffers of both raw materials and finished goods, ensuring no stockout risk at either stage",
+            "sacrifice": "Annual warehouse lease and the doubled inventory carrying costs push total inventory spending well beyond the current $4.2M budget",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Negotiate longer delivery windows with all OEM customers so that the 3-to-9-week lead time variability falls within the committed delivery window, eliminating the need for buffer inventory",
+            "sacrifice": "OEM customers are unlikely to accept longer windows given competitive alternatives, risking contract loss",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_H_lean_wip_vs_production_flow",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A contract electronics assembler running 3 SMT lines has reduced WIP by 60% over two years as part of a lean initiative. However, machine utilization has dropped from 88% to 71% because any single station breakdown now starves downstream operations within minutes. Each percentage point of lost utilization costs $180K annually.",
+      "objective_a": {
+        "label": "Minimize work-in-process for lean production efficiency",
+        "concept_id": "H.6",
+        "section": "H"
+      },
+      "objective_b": {
+        "label": "Maintain WIP buffers for production flow continuity",
+        "concept_id": "H.1",
+        "section": "H"
+      },
+      "levers": [
+        { "concept_id": "H.3", "label": "Master production schedule", "section": "H" },
+        { "concept_id": "H.4", "label": "Bill of Material (BOM)", "section": "H" },
+        { "concept_id": "H.2", "label": "Static vs dynamic planning", "section": "H" }
+      ],
+      "correct_strategy": "Place targeted WIP buffers only at the 2-3 stations with the highest historical breakdown frequency and longest repair times, sized to cover the mean-time-to-repair, while keeping all other inter-station WIP at lean-minimal levels",
+      "correct_sacrifice": "WIP levels increase at bottleneck stations, partially reversing the lean gains and adding localized carrying cost and floor space usage",
+      "explanation": "The lean initiative over-corrected by applying uniform WIP reduction across all stations regardless of reliability differences. Strategic WIP buffers at high-breakdown stations decouple the most failure-prone operations from the rest of the line, restoring utilization without abandoning lean principles everywhere. The buffer size is tied to mean-time-to-repair data, ensuring it is analytically justified rather than arbitrary. This selective approach recovers most of the $3M+ annual utilization loss (17 points x $180K) while preserving the majority of lean WIP reduction gains.",
+      "key_terms": [
+        "WIP buffer strategy",
+        "theory of constraints",
+        "lean production",
+        "machine utilization tradeoff"
+      ],
+      "sources": [
+        {
+          "url": "https://www.leanproduction.com/theory-of-constraints/",
+          "title": "Theory of Constraints and Lean Manufacturing",
+          "site": "Lean Production"
+        },
+        {
+          "url": "https://hbr.org/1990/05/the-hidden-factory",
+          "title": "The Hidden Factory: Managing WIP in Production Systems",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Restore WIP to pre-lean levels across all stations uniformly, abandoning the lean initiative entirely to recover the 17 percentage points of lost utilization",
+            "sacrifice": "All lean efficiency gains from two years of effort are lost, and the excess WIP masks other process problems that lean was designed to expose",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Replace all existing SMT equipment with newer machines that have near-zero breakdown rates, eliminating the need for any WIP buffers while maintaining lean levels",
+            "sacrifice": "Capital expenditure for full equipment replacement is prohibitive, and even new machines have nonzero failure rates",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Reduce production speed across all three lines by 20% so that breakdowns have less impact on throughput, keeping WIP minimal while accepting lower output",
+            "sacrifice": "Throughput reduction directly cuts revenue capacity and worsens the utilization problem rather than solving it",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}

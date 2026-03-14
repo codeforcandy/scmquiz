@@ -1,0 +1,193 @@
+{
+  "section_id": "E",
+  "section_title": "Supply Chain Process",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_E_inventory_consolidation_vs_transport_speed",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A national building materials distributor operates 14 regional warehouses with average inventory turns of 4.2x. A consolidation study shows that reducing to 5 mega-distribution centers would cut warehousing costs by 35% and improve inventory turns to 7.1x through pooling effects, but average delivery lead times would increase from 1 day to 3.2 days for 60% of customers.",
+      "objective_a": {
+        "label": "Consolidate inventory for cost efficiency",
+        "concept_id": "E.2",
+        "section": "E"
+      },
+      "objective_b": {
+        "label": "Maintain fast transportation and delivery speed",
+        "concept_id": "E.3",
+        "section": "E"
+      },
+      "levers": [
+        { "concept_id": "E.4", "label": "Warehousing role and cost", "section": "E" },
+        { "concept_id": "E.2", "label": "Inventory management", "section": "E" },
+        { "concept_id": "E.3", "label": "Transportation management", "section": "E" }
+      ],
+      "correct_strategy": "Consolidate to 5 mega-DCs for slow- and medium-moving SKUs to capture pooling benefits, while maintaining 8 forward-stocking locations with fast-moving items (top 15% of SKUs by velocity) to preserve next-day delivery for high-demand products",
+      "correct_sacrifice": "Higher network complexity and dual-facility operating costs — the hybrid model requires sophisticated inventory allocation rules and costs roughly 12% more than full consolidation",
+      "explanation": "The inventory-transport tradeoff is best resolved by segmenting SKUs by demand velocity. Fast movers justify distributed stocking because their high turnover keeps carrying costs low, while slow movers benefit disproportionately from pooling at centralized locations. This hybrid approach captures most of the 35% warehousing savings on long-tail products while preserving next-day service for the items customers order most frequently. The sacrifice is operational complexity, but the segmented approach aligns inventory investment with actual demand patterns.",
+      "key_terms": [
+        "inventory-transport tradeoff",
+        "inventory pooling",
+        "SKU velocity segmentation",
+        "forward stocking location"
+      ],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/inventory-transport-tradeoff",
+          "title": "Balancing Inventory and Transportation Costs in Network Design",
+          "site": "Supply Chain Quarterly"
+        },
+        {
+          "url": "https://www.logisticsmgmt.com/article/warehouse-network-optimization",
+          "title": "Warehouse Network Optimization Strategies",
+          "site": "Logistics Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Consolidate all 14 warehouses into 5 mega-DCs and compensate for longer lead times by upgrading all shipments to express freight, maintaining next-day delivery through faster transportation",
+            "sacrifice": "Express freight costs for 60% of orders would exceed the warehousing savings, resulting in a net cost increase of 18%",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Keep all 14 regional warehouses and stock every SKU at every location to guarantee same-day delivery, offsetting costs by negotiating volume discounts with suppliers",
+            "sacrifice": "Inventory carrying costs balloon as slow-moving SKUs sit idle at 14 locations, destroying the inventory turns improvement",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Outsource the entire distribution network to a national 3PL and let them decide the optimal number of facilities and inventory positioning",
+            "sacrifice": "Loss of control over inventory strategy and service levels, with 3PL optimizing for their own margins rather than customer delivery speed",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_E_service_level_vs_warehouse_cost",
+      "subtype": "strategic_tradeoff",
+      "scenario": "An online specialty foods retailer promises 98.5% same-day fulfillment to its premium subscribers (32% of revenue). Meeting this target requires dedicated pick-pack lanes, 40% more warehouse labor during peak hours, and 25% additional refrigerated storage capacity. Standard customers (68% of revenue) experience 2-day fulfillment at significantly lower warehousing cost per order.",
+      "objective_a": {
+        "label": "Deliver premium customer service levels",
+        "concept_id": "E.6",
+        "section": "E"
+      },
+      "objective_b": {
+        "label": "Control warehousing and fulfillment costs",
+        "concept_id": "E.4",
+        "section": "E"
+      },
+      "levers": [
+        { "concept_id": "E.6", "label": "Customer service in supply chain", "section": "E" },
+        { "concept_id": "E.4", "label": "Warehousing role and cost", "section": "E" },
+        { "concept_id": "E.2", "label": "Inventory management", "section": "E" }
+      ],
+      "correct_strategy": "Implement wave-based picking that batches premium orders in priority waves during the first 4 hours of each shift, using shared labor and storage infrastructure but reserving 15% of capacity as a premium buffer rather than building fully dedicated lanes",
+      "correct_sacrifice": "Standard customer fulfillment speed drops slightly during peak periods as premium orders take priority, potentially increasing standard delivery from 2 days to 2.5 days during high-volume weeks",
+      "explanation": "The key insight is that dedicated infrastructure for premium service is the cost driver, not the service itself. By using time-based prioritization (wave picking) rather than space-based separation (dedicated lanes), the retailer achieves the 98.5% same-day target with shared infrastructure. The modest capacity buffer handles demand spikes without the full 40% labor increase. The sacrifice is honest — standard customers absorb minor delays during peaks — but this is acceptable because premium subscribers generate 3x the margin per order.",
+      "key_terms": [
+        "service level differentiation",
+        "wave picking",
+        "warehouse capacity allocation",
+        "cost-to-serve"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2014/01/the-right-way-to-manage-unprofitable-customers",
+          "title": "The Right Way to Manage Unprofitable Customers",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.mhi.org/fundamentals/warehouse-operations",
+          "title": "Warehouse Operations Best Practices",
+          "site": "MHI"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Upgrade all customers to same-day fulfillment to simplify warehouse operations into a single process flow, funding it by raising prices 8% across the board",
+            "sacrifice": "Standard customers leave for cheaper competitors since they never valued same-day delivery, shrinking the 68% revenue base",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Reduce the premium service commitment from 98.5% to 90% same-day fulfillment, which would cut the extra warehouse costs in half while still offering a differentiated service",
+            "sacrifice": "Premium subscribers perceive the reliability drop and churn increases, undermining the subscription model that generates 32% of revenue",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Partner with a local last-mile delivery startup to handle all premium same-day orders externally, removing the warehousing complexity entirely",
+            "sacrifice": "Quality control over cold chain and order accuracy is lost, and the delivery partner's capacity constraints become the company's service bottleneck",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_E_manufacturing_efficiency_vs_returns_flexibility",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A furniture manufacturer runs production lines optimized for batches of 500+ units, achieving a 12% cost advantage from long runs. However, the company's return rate is 18% — driven largely by customers receiving products that don't match expectations. The returns process costs $85 per unit and the company lacks capacity to refurbish or resell returned customized items efficiently.",
+      "objective_a": {
+        "label": "Maximize manufacturing efficiency through long production runs",
+        "concept_id": "E.1",
+        "section": "E"
+      },
+      "objective_b": {
+        "label": "Reduce returns through customization and flexible fulfillment",
+        "concept_id": "E.5",
+        "section": "E"
+      },
+      "levers": [
+        { "concept_id": "E.1", "label": "Manufacturing role in supply chain", "section": "E" },
+        { "concept_id": "E.5", "label": "Product returns process", "section": "E" },
+        { "concept_id": "E.6", "label": "Customer service in supply chain", "section": "E" }
+      ],
+      "correct_strategy": "Shift to a modular manufacturing approach where base components are produced in efficient long runs of 500+ units, but final configuration (fabric, finish, dimensions) is postponed to a late-stage customization cell that assembles to order with a 3-5 day lead time",
+      "correct_sacrifice": "Delivery lead time increases from 2 days (ship from stock) to 5-7 days (assemble to order), and base component production retains only about 8% of the original 12% batch cost advantage",
+      "explanation": "The root cause of the 18% return rate is the gap between customer expectations and standardized products. Modular postponement preserves most manufacturing efficiency on base components (which represent 70% of production cost) while enabling customer-specific configuration at the final stage. This directly attacks the returns problem — customers who specify their own configuration return at rates below 5%. The $85-per-unit returns cost on 18% of orders far exceeds the 4% cost advantage lost from slightly shorter base component runs, making this a net positive financially.",
+      "key_terms": [
+        "postponement strategy",
+        "modular manufacturing",
+        "returns cost reduction",
+        "assemble to order"
+      ],
+      "sources": [
+        {
+          "url": "https://www.industryweek.com/supply-chain/article/postponement-manufacturing-strategy",
+          "title": "Postponement as a Manufacturing Strategy",
+          "site": "IndustryWeek"
+        },
+        {
+          "url": "https://www.reverse-logistics.com/articles/cost-of-returns",
+          "title": "The True Cost of Product Returns",
+          "site": "Reverse Logistics Association"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Maintain long production runs but invest heavily in augmented reality visualization tools so customers can preview products before ordering, reducing returns through better expectation-setting",
+            "sacrifice": "AR tools address only visual expectations, not fit or quality issues, and the 18% return rate drops to only 14% — still costing $85 per return on high volume",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Switch entirely to make-to-order custom furniture with no batch production, offering unlimited configuration options and eliminating returns through perfect customization",
+            "sacrifice": "Per-unit manufacturing costs increase 30% without batch efficiencies, pricing the company out of its mid-market segment",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Accept the 18% return rate as industry-standard and build a dedicated refurbishment center to resell returned items at 60% of original price through an outlet channel",
+            "sacrifice": "The returns processing and refurbishment infrastructure becomes a permanent cost center that institutionalizes the problem rather than solving it",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}

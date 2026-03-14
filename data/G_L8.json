@@ -1,0 +1,216 @@
+{
+  "section_id": "G",
+  "section_title": "Improving Supply Chain Network Performance",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "micro_definitions": [
+    {
+      "id": "G.1",
+      "topic": "Explain the importance of synchronizing material flow",
+      "micro_definition": "Coordinating the pace of goods so each stage receives inputs at precisely the right moment.",
+      "explanation": "Synchronization eliminates the waste of waiting and overproduction by aligning production rates, shipment schedules, and consumption patterns. When flow is synchronized, inventory buffers shrink, lead times compress, and throughput increases without adding capacity.",
+      "key_terms": ["flow coordination", "takt time", "demand alignment"],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/topics/engineering/material-flow-synchronization",
+          "title": "Material Flow Synchronization in Supply Chains",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.2", "G.3"]
+      }
+    },
+    {
+      "id": "G.2",
+      "topic": "Define inventory maximization",
+      "micro_definition": "Getting the greatest possible return from every unit of stock held across the network.",
+      "explanation": "Inventory maximization is not about holding more stock but about extracting maximum value from what is held. This involves optimal placement, right-sizing safety stock, improving turnover rates, and ensuring each unit serves a strategic purpose rather than simply occupying shelf space.",
+      "key_terms": ["inventory turnover", "stock optimization", "return on inventory"],
+      "sources": [
+        {
+          "url": "https://www.gartner.com/en/supply-chain/glossary/inventory-optimization",
+          "title": "Inventory Optimization",
+          "site": "Gartner"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.1", "G.3"]
+      }
+    },
+    {
+      "id": "G.3",
+      "topic": "Define decoupling points for inventory maximization",
+      "micro_definition": "Buffer positions that insulate one part of the network from volatility in another.",
+      "explanation": "Decoupling points are strategic locations where inventory is held to separate upstream supply variability from downstream demand variability. They allow each side to operate somewhat independently, absorbing shocks without cascading disruptions. Placement of these points is a critical design decision.",
+      "key_terms": ["strategic buffer", "variability absorption", "push-pull boundary"],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/decoupling-points",
+          "title": "Understanding Decoupling Points",
+          "site": "Supply Chain Quarterly"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.2", "G.1"]
+      }
+    },
+    {
+      "id": "G.4",
+      "topic": "Explain how algorithms are used to maximize capital costs associated with supply chain management",
+      "micro_definition": "Using mathematical formulas to decide where spending produces the highest network-wide benefit.",
+      "explanation": "Optimization algorithms evaluate millions of possible resource allocation combinations to find solutions that minimize cost or maximize performance. They handle constraints like budget limits, capacity ceilings, and service requirements simultaneously, producing decisions that human analysis alone could not reach.",
+      "key_terms": ["optimization model", "resource allocation", "constraint-based planning"],
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/supply-chain-optimization",
+          "title": "Supply Chain Optimization Through Algorithms",
+          "site": "MIT Sloan"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.7", "G.2"]
+      }
+    },
+    {
+      "id": "G.5",
+      "topic": "Explain how proximity to the customer relates to supply chain efficiency",
+      "micro_definition": "Locating facilities nearer to buyers speeds delivery but multiplies infrastructure costs.",
+      "explanation": "Proximity reduces last-mile delivery time and transportation cost per order but requires more facilities, more inventory, and more management complexity. The tradeoff between responsiveness and network cost is central to distribution network design.",
+      "key_terms": ["last-mile delivery", "network design", "responsiveness tradeoff"],
+      "sources": [
+        {
+          "url": "https://www.logisticsmgmt.com/article/facility-location-strategy",
+          "title": "Facility Location and Customer Proximity",
+          "site": "Logistics Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.6", "G.11"]
+      }
+    },
+    {
+      "id": "G.6",
+      "topic": "Describe how product sourcing decisions are made",
+      "micro_definition": "Evaluating potential suppliers on price, quality, and dependability to decide who provides what.",
+      "explanation": "Sourcing decisions weigh total cost of ownership, supplier reliability, geographic risk, lead time, and quality capability. Companies may single-source for leverage or multi-source for resilience. These choices ripple through the entire network, affecting lead times, costs, and risk exposure.",
+      "key_terms": ["supplier evaluation", "total cost of ownership", "make-or-buy"],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/sourcing-strategy",
+          "title": "Strategic Sourcing Decisions",
+          "site": "Institute for Supply Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.5", "G.9"]
+      }
+    },
+    {
+      "id": "G.7",
+      "topic": "Describe evaluation processes for supply chain management",
+      "micro_definition": "Measuring network performance against defined benchmarks to identify gaps and improvements.",
+      "explanation": "Evaluation processes use KPIs, scorecards, and audits to assess how well the supply chain meets its objectives. Common metrics include fill rate, order cycle time, perfect order rate, and total cost to serve. Regular evaluation drives continuous improvement and accountability.",
+      "key_terms": ["KPI", "benchmarking", "performance scorecard"],
+      "sources": [
+        {
+          "url": "https://scor.ascm.org/",
+          "title": "SCOR Model for Supply Chain Evaluation",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.4", "G.8"]
+      }
+    },
+    {
+      "id": "G.8",
+      "topic": "Define how supply chain management meets consumer needs",
+      "micro_definition": "Configuring the entire network so end users get what they want, when and where they want it.",
+      "explanation": "Meeting consumer needs is the ultimate purpose of any supply chain. This requires translating customer expectations for availability, speed, variety, and price into operational capabilities spanning procurement, production, and distribution. Misalignment means lost sales or excessive cost.",
+      "key_terms": ["customer-centric design", "service level", "demand fulfillment"],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/customer-centric-supply-chains",
+          "title": "Customer-Centric Supply Chains",
+          "site": "McKinsey & Company"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.10", "G.5"]
+      }
+    },
+    {
+      "id": "G.9",
+      "topic": "Explain how market signal and consumer demand impact supply chain management",
+      "micro_definition": "External buying patterns that trigger upstream adjustments in production and distribution.",
+      "explanation": "Market signals such as point-of-sale data, order trends, and seasonal patterns inform supply chain planning and execution. When signals are captured early and shared broadly, the chain can respond proactively. When they are delayed or distorted, the bullwhip effect amplifies volatility.",
+      "key_terms": ["demand signal", "bullwhip effect", "point-of-sale data"],
+      "sources": [
+        {
+          "url": "https://www.supplychainbrain.com/articles/demand-sensing-market-signals",
+          "title": "How Market Signals Drive Supply Chain Response",
+          "site": "Supply Chain Brain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.8", "G.1"]
+      }
+    },
+    {
+      "id": "G.10",
+      "topic": "Explain how to meet and improve customer needs for supply chain management",
+      "micro_definition": "Using performance feedback to continuously raise the bar on delivery and service quality.",
+      "explanation": "Improvement is iterative: measure current service levels, gather customer feedback, identify root causes of failures, implement changes, and re-measure. This cycle turns the supply chain from a static cost center into a dynamic competitive advantage that adapts as buyer expectations evolve.",
+      "key_terms": ["continuous improvement", "voice of customer", "service enhancement"],
+      "sources": [
+        {
+          "url": "https://www.apics.org/improving-customer-service-supply-chain",
+          "title": "Improving Customer Service in the Supply Chain",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.8", "G.11"]
+      }
+    },
+    {
+      "id": "G.11",
+      "topic": "Describe how supply chain management meets and improves the logistic needs of different customer segments",
+      "micro_definition": "Offering distinct delivery speeds and service tiers based on each buyer group's priorities.",
+      "explanation": "Not all customers value the same things: some prioritize speed, others cost, others reliability. Segmented logistics designs different fulfillment paths for different groups, matching service investment to revenue potential and customer expectations without over-serving low-value segments.",
+      "key_terms": ["customer segmentation", "tiered service", "differentiated fulfillment"],
+      "sources": [
+        {
+          "url": "https://www.gartner.com/en/supply-chain/insights/customer-segmentation",
+          "title": "Supply Chain Customer Segmentation",
+          "site": "Gartner"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["G.10", "G.5"]
+      }
+    }
+  ]
+}

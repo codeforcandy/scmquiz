@@ -1,0 +1,187 @@
+{
+  "section_id": "B",
+  "section_title": "Supply Chain Topics",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "micro_definitions": [
+    {
+      "id": "B.1",
+      "topic": "Define analytics",
+      "micro_definition": "Extracting predictions and patterns from operational data to guide better decisions.",
+      "explanation": "Analytics transforms raw data into actionable intelligence through statistical analysis, machine learning, and visualization. It enables organizations to move from reactive to proactive decision-making across their operations.",
+      "key_terms": ["data analysis", "pattern recognition", "predictive modeling", "business intelligence"],
+      "sources": [
+        { "url": "https://www.gartner.com/en/information-technology/glossary/analytics", "title": "Analytics Definition", "site": "Gartner" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.3", "B.9"]
+      }
+    },
+    {
+      "id": "B.2",
+      "topic": "Explain customer relationship management",
+      "micro_definition": "Systems tracking buyer interactions to improve retention and satisfaction over time.",
+      "explanation": "CRM platforms consolidate customer data — purchase history, communications, preferences — into unified profiles. This enables personalized service, targeted marketing, and proactive issue resolution that strengthens long-term loyalty.",
+      "key_terms": ["CRM", "retention", "customer data", "personalization"],
+      "sources": [
+        { "url": "https://www.salesforce.com/crm/what-is-crm/", "title": "What is CRM?", "site": "Salesforce" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.8", "B.1"]
+      }
+    },
+    {
+      "id": "B.3",
+      "topic": "Describe the role of forecasting",
+      "micro_definition": "Predicting future demand to guide planning, purchasing, and production decisions.",
+      "explanation": "Forecasting serves as the foundation for operational planning by estimating what customers will need and when. Accurate forecasts reduce waste, prevent stockouts, and allow organizations to allocate resources efficiently.",
+      "key_terms": ["demand prediction", "planning foundation", "resource allocation", "accuracy"],
+      "sources": [
+        { "url": "https://www.apics.org/apics-for-individuals/apics-magazine-home/magazine-detail-page/2019/11/01/demand-forecasting", "title": "Demand Forecasting Best Practices", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.1", "B.8"]
+      }
+    },
+    {
+      "id": "B.4",
+      "topic": "Explain the growth of global distribution",
+      "micro_definition": "Expanding delivery networks across international borders to serve worldwide markets.",
+      "explanation": "Globalization has driven companies to establish distribution capabilities in multiple countries and continents. This expansion requires navigating diverse regulations, customs procedures, and cultural expectations while maintaining service consistency.",
+      "key_terms": ["globalization", "international expansion", "cross-border", "market access"],
+      "sources": [
+        { "url": "https://www.dhl.com/global-en/home/insights-and-innovation/insights/global-trade.html", "title": "Global Trade Insights", "site": "DHL" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.11", "B.7"]
+      }
+    },
+    {
+      "id": "B.5",
+      "topic": "Explain supply chain management for healthcare industry",
+      "micro_definition": "Coordinating medical supplies, pharmaceuticals, and equipment from manufacturer to patient bedside.",
+      "explanation": "Healthcare networks face unique challenges including cold-chain requirements, strict regulatory compliance, expiration date management, and the critical nature of stockouts. Patient safety depends on reliable, traceable product flows.",
+      "key_terms": ["pharmaceutical distribution", "cold chain", "patient safety", "regulatory compliance"],
+      "sources": [
+        { "url": "https://www.aha.org/supply-chain", "title": "Healthcare Supply Chain Resources", "site": "American Hospital Association" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.6", "B.10"]
+      }
+    },
+    {
+      "id": "B.6",
+      "topic": "Explain the logistics of inventory management",
+      "micro_definition": "Balancing stock levels to meet demand without excess carrying costs or shortages.",
+      "explanation": "Inventory management determines how much to order, when to reorder, and where to store stock. Getting this balance wrong leads to either costly overstocking or lost sales from stockouts, making it a critical operational discipline.",
+      "key_terms": ["safety stock", "reorder point", "carrying cost", "stockout"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/i/inventory-management.asp", "title": "Inventory Management Explained", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.3", "B.7"]
+      }
+    },
+    {
+      "id": "B.7",
+      "topic": "Define procurement",
+      "micro_definition": "Acquiring goods and services from external suppliers at optimal quality, cost, and timing.",
+      "explanation": "Procurement encompasses supplier identification, negotiation, contracting, and purchase order management. Strategic procurement looks beyond unit price to consider total cost of ownership, supplier reliability, and long-term partnership value.",
+      "key_terms": ["supplier selection", "negotiation", "total cost of ownership", "contracting"],
+      "sources": [
+        { "url": "https://www.cips.org/knowledge/procurement-topics-and-skills/procurement-basics/", "title": "Procurement Basics", "site": "CIPS" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.9", "B.6"]
+      }
+    },
+    {
+      "id": "B.8",
+      "topic": "Describe sales and operations planning",
+      "micro_definition": "Aligning production capacity with demand forecasts across functional teams monthly.",
+      "explanation": "S&OP brings together sales, marketing, finance, and operations leaders to agree on a single operating plan. This cross-functional process balances what the market wants with what the organization can realistically produce and deliver.",
+      "key_terms": ["S&OP", "cross-functional alignment", "capacity planning", "consensus plan"],
+      "sources": [
+        { "url": "https://www.apics.org/apics-for-individuals/apics-magazine-home/magazine-detail-page/2020/01/15/sales-and-operations-planning", "title": "S&OP Fundamentals", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.3", "B.2"]
+      }
+    },
+    {
+      "id": "B.9",
+      "topic": "Define supply market intelligence",
+      "micro_definition": "Gathering and analyzing data about supplier capabilities, pricing trends, and market conditions.",
+      "explanation": "Supply market intelligence informs strategic sourcing by revealing which suppliers are strongest, where prices are heading, and what risks exist in the supply base. It turns raw market data into competitive procurement advantage.",
+      "key_terms": ["market research", "supplier analysis", "price trends", "sourcing strategy"],
+      "sources": [
+        { "url": "https://www.supplychainbrain.com/articles/supply-market-intelligence", "title": "The Value of Supply Market Intelligence", "site": "SupplyChainBrain" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.1", "B.7"]
+      }
+    },
+    {
+      "id": "B.10",
+      "topic": "Define sustainability for supply chain management",
+      "micro_definition": "Minimizing environmental and social harm while maintaining operational performance and profitability.",
+      "explanation": "Sustainable practices address carbon emissions, waste reduction, ethical labor practices, and responsible sourcing. Organizations increasingly recognize that long-term viability depends on balancing economic performance with environmental and social stewardship.",
+      "key_terms": ["environmental impact", "ethical sourcing", "carbon footprint", "triple bottom line"],
+      "sources": [
+        { "url": "https://www.unglobalcompact.org/what-is-gc/our-work/supply-chain", "title": "Sustainable Supply Chains", "site": "UN Global Compact" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.5", "B.12"]
+      }
+    },
+    {
+      "id": "B.11",
+      "topic": "Explain the relationship between supply chain management and transportation planning",
+      "micro_definition": "How routing and carrier decisions affect network cost, speed, and service reliability.",
+      "explanation": "Transportation typically represents the largest single cost in the network. Mode selection, route optimization, and carrier management directly determine whether products arrive on time, intact, and within budget.",
+      "key_terms": ["routing", "carrier selection", "mode optimization", "freight cost"],
+      "sources": [
+        { "url": "https://www.bts.gov/topics/freight-transportation", "title": "Freight Transportation", "site": "Bureau of Transportation Statistics" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.4", "B.6"]
+      }
+    },
+    {
+      "id": "B.12",
+      "topic": "Describe careers associated with supply chain management",
+      "micro_definition": "Professional roles spanning procurement, logistics, planning, and operations across all industries.",
+      "explanation": "Career paths include procurement specialists, demand planners, logistics coordinators, warehouse managers, and operations analysts. The field offers diverse opportunities with growing demand as organizations recognize the strategic importance of their networks.",
+      "key_terms": ["career paths", "professional development", "job roles", "industry demand"],
+      "sources": [
+        { "url": "https://www.ascm.org/careers-in-supply-chain/", "title": "Careers in Supply Chain", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["B.8", "B.10"]
+      }
+    }
+  ]
+}

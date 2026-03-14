@@ -1,0 +1,193 @@
+{
+  "section_id": "K",
+  "section_title": "Channels of Distribution",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_K_single_channel_focus_vs_dual_distribution",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A premium kitchen appliance brand sells exclusively through 400 specialty retailers who provide hands-on product demonstrations that drive a 34% conversion rate. Big-box chains have offered to carry the brand in 2,800 locations, projecting $65M in new annual revenue. However, 72% of existing specialty retailers say they will drop the brand if it appears in big-box stores, citing brand dilution and price undercutting concerns.",
+      "objective_a": {
+        "label": "Maintain single-channel depth with specialty retail expertise",
+        "concept_id": "K.8",
+        "section": "K"
+      },
+      "objective_b": {
+        "label": "Expand market reach through dual distribution channels",
+        "concept_id": "K.13",
+        "section": "K"
+      },
+      "levers": [
+        { "concept_id": "K.9", "label": "Intermediary role in distribution", "section": "K" },
+        { "concept_id": "K.17", "label": "Product characteristics impact on distribution", "section": "K" },
+        { "concept_id": "K.16", "label": "Distribution choice factors", "section": "K" }
+      ],
+      "correct_strategy": "Create a tiered product strategy: reserve the premium line (highest margin, demonstration-dependent products) as specialty retail exclusives, and develop a simplified mid-tier line with different branding for big-box channels that does not require hands-on demos and carries a lower price point that does not undercut specialty retail pricing",
+      "correct_sacrifice": "Investment in developing and branding a separate mid-tier product line, plus the risk that mid-tier products partially cannibalize premium sales at a lower margin",
+      "explanation": "The premium products' high conversion rate depends on the demonstration experience that specialty retailers provide — this product-channel fit cannot be replicated in big-box environments. By separating the product lines, the brand preserves the specialty retail relationship for products that genuinely require it while capturing big-box volume with products designed for self-service purchase. Different branding prevents direct price comparison. The tradeoff is cannibalization risk and dual-line complexity, but the product characteristics naturally segment: complex products need demonstration (specialty), simpler products do not (big-box).",
+      "key_terms": [
+        "channel conflict",
+        "dual distribution",
+        "product-channel fit",
+        "tiered product strategy"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2011/12/the-right-way-to-manage-channel-conflict",
+          "title": "The Right Way to Manage Channel Conflict",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/channel-strategy-for-consumer-brands",
+          "title": "Channel Strategy for Consumer Brands",
+          "site": "McKinsey"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Accept the big-box offer for the full premium product line, compensating specialty retailers with a 5% rebate on wholesale prices to offset their concerns about competition",
+            "sacrifice": "A 5% rebate is insufficient to prevent the 72% retailer dropout — losing 288 specialty retailers destroys the demonstration channel that drives 34% conversion rates",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Reject the big-box opportunity entirely and invest the resources into opening 50 company-owned retail stores that replicate the specialty retail demo experience at brand-controlled locations",
+            "sacrifice": "Capital expenditure for 50 stores is enormous, and the brand lacks retail operations expertise — this diversifies into an unfamiliar business rather than solving the distribution question",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Enter big-box stores with the premium line at higher prices than specialty retail, using the big-box presence purely for brand awareness while directing serious buyers to specialty retailers for the actual purchase",
+            "sacrifice": "Big-box chains will not allocate shelf space for products priced to not sell — they measure revenue per linear foot and will delist the brand within one quarter",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_K_intermediary_relationships_vs_direct_model",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A B2B industrial lubricant manufacturer sells through 85 regional distributors who carry $18M in aggregate inventory and provide technical sales support to 12,000 end-user accounts. An on-demand digital platform could serve 60% of reorder volume at 31% higher margins by eliminating distributor markups. However, 40% of revenue comes from complex consultative sales where distributors' field engineers specify the right product for each application.",
+      "objective_a": {
+        "label": "Preserve intermediary relationships for consultative sales value",
+        "concept_id": "K.9",
+        "section": "K"
+      },
+      "objective_b": {
+        "label": "Capture margin through on-demand direct fulfillment",
+        "concept_id": "K.15",
+        "section": "K"
+      },
+      "levers": [
+        { "concept_id": "K.5", "label": "Pre-sale and post-purchase services", "section": "K" },
+        { "concept_id": "K.6", "label": "Supply chain efficiencies", "section": "K" },
+        { "concept_id": "K.1", "label": "Distribution functions", "section": "K" }
+      ],
+      "correct_strategy": "Segment customers by purchase complexity: route routine reorders of previously specified products through the direct digital platform, while keeping initial product specification and complex application orders through distributors. Compensate distributors with a trailing commission on digital reorders from accounts they originally developed",
+      "correct_sacrifice": "Lower margin on digitally fulfilled reorders due to the trailing commission (capturing perhaps 18-20% additional margin instead of the full 31%), and complexity of managing a hybrid channel with commission tracking",
+      "explanation": "The distributor value is front-loaded — their field engineers are essential for initial product specification (the 40% consultative sales), but subsequent reorders of the same product are transactional and do not require technical support. The trailing commission preserves distributor incentive to develop new accounts and specify products, knowing they will earn ongoing revenue from digital reorders. This captures the supply chain efficiency of direct fulfillment for routine orders while preserving the pre-sale service value of distributors for complex ones. The sacrifice is a more complex compensation model and reduced margin capture versus a pure direct approach.",
+      "key_terms": [
+        "channel segmentation",
+        "disintermediation",
+        "trailing commission",
+        "consultative vs transactional sales"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2021/03/when-to-sell-direct-and-when-to-sell-through-distributors",
+          "title": "When to Sell Direct — and When to Sell Through Distributors",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/b2b-digital-commerce",
+          "title": "The B2B Digital Commerce Imperative",
+          "site": "McKinsey"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Launch the digital platform for all orders including complex specification sales, hiring an internal team of field engineers to replace the distributor sales force and capture the full 31% margin improvement",
+            "sacrifice": "Building a 200+ person field engineering organization to replicate the distributors' installed base of technical sales coverage requires years and tens of millions in hiring and training",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Abandon the digital platform plan entirely and instead negotiate lower margins with distributors, using the threat of disintermediation as leverage to reduce their markup by 10-15%",
+            "sacrifice": "Poisons distributor relationships with an adversarial negotiation tactic, and forgoes the structural efficiency gains of direct digital fulfillment for routine reorders",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Let distributors build and operate the digital platform themselves, providing them with the technology while keeping the existing channel structure completely intact",
+            "sacrifice": "Distributors lack the technical capability and incentive to build an efficient platform, and the manufacturer captures none of the margin improvement that motivated the digital strategy",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_K_risk_sharing_vs_disintermediation_efficiency",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A seasonal outdoor furniture manufacturer currently sells through a two-level channel (distributors and retailers) that absorbs $14M annually in seasonal inventory risk by pre-buying stock before the spring selling season. The manufacturer is considering disintermediating to sell direct-to-consumer, which would increase per-unit margins by 38% but shift all $14M in seasonal inventory risk back to the manufacturer, who would need to carry the stock from January through peak season in June.",
+      "objective_a": {
+        "label": "Share seasonal inventory risk with channel intermediaries",
+        "concept_id": "K.7",
+        "section": "K"
+      },
+      "objective_b": {
+        "label": "Capture efficiency gains through disintermediation",
+        "concept_id": "K.6",
+        "section": "K"
+      },
+      "levers": [
+        { "concept_id": "K.11", "label": "Two-level channel structure", "section": "K" },
+        { "concept_id": "K.2", "label": "Time, place, and ownership utility", "section": "K" },
+        { "concept_id": "K.15", "label": "On-demand distribution model", "section": "K" }
+      ],
+      "correct_strategy": "Pursue partial disintermediation: launch a direct-to-consumer channel for the 30% of SKUs with stable year-over-year demand (classic designs with predictable sell-through), while keeping trend-sensitive and new product launches in the two-level channel where distributors and retailers absorb the higher demand uncertainty risk",
+      "correct_sacrifice": "Only captures the 38% margin improvement on a subset of the product line, and must maintain dual-channel operational complexity including separate fulfillment capabilities for direct and wholesale",
+      "explanation": "The two-level channel's primary value is risk absorption for unpredictable demand, which is most valuable for trend-sensitive products where forecasting error is highest. Classic, stable-demand SKUs have predictable sell-through that makes the inventory risk manageable for the manufacturer to carry directly. By segmenting the product line based on demand predictability, the manufacturer captures higher margins where the risk is bearable and retains the channel's risk-sharing value where it matters most. The ownership utility that intermediaries provide is only worth its cost when demand is genuinely uncertain.",
+      "key_terms": [
+        "risk sharing",
+        "disintermediation",
+        "demand predictability segmentation",
+        "seasonal inventory risk"
+      ],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/seasonal-inventory-risk-management",
+          "title": "Managing Seasonal Inventory Risk in Distribution Channels",
+          "site": "Supply Chain Quarterly"
+        },
+        {
+          "url": "https://hbr.org/2019/05/the-right-way-to-cut-out-the-middleman",
+          "title": "The Right Way to Cut Out the Middleman",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Fully disintermediate and sell all products direct-to-consumer, using pre-season crowdfunding campaigns to shift inventory risk to end consumers through advance orders before manufacturing",
+            "sacrifice": "Outdoor furniture customers rarely pre-purchase months in advance — crowdfunding works for novelty products, not commodity seasonal goods, so the inventory risk remains unresolved",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Disintermediate entirely and manage the $14M seasonal risk by taking out a revolving credit facility to finance the inventory carrying costs, using the 38% margin improvement to service the debt",
+            "sacrifice": "In seasons with poor sell-through, the manufacturer is stuck with both unsold inventory and debt service — the margin improvement only materializes if products actually sell, which is the exact risk the intermediaries were absorbing",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Keep the current two-level channel but negotiate for a larger share of the retail price, arguing that the manufacturer deserves more margin for creating the product while distributors and retailers merely move it",
+            "sacrifice": "Antagonizes channel partners without capturing any structural efficiency gains, and ignores that distributors and retailers provide genuine risk-bearing and demand-creation value",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}

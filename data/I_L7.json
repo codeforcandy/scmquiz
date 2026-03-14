@@ -1,0 +1,193 @@
+{
+  "section_id": "I",
+  "section_title": "Supply Chain Coordination and Decision Making for the Flow of Products, Services, and Information",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_I_coordination_depth_vs_outsourcing_flexibility",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A medical device company has deeply integrated its ERP system with its sole contract manufacturer, sharing real-time demand forecasts and quality data. This coordination has reduced defect rates by 35% and lead times by 4 weeks. However, the contract manufacturer has increased prices by 8% annually for three consecutive years, and the integration makes switching to a competitor manufacturer a 14-month, $2.1M migration project.",
+      "objective_a": {
+        "label": "Deepen partner coordination for operational performance",
+        "concept_id": "I.1",
+        "section": "I"
+      },
+      "objective_b": {
+        "label": "Maintain outsourcing flexibility to leverage competitive pricing",
+        "concept_id": "I.2",
+        "section": "I"
+      },
+      "levers": [
+        { "concept_id": "I.4", "label": "Team role in supply chain", "section": "I" },
+        { "concept_id": "I.3", "label": "Performance measurement", "section": "I" },
+        { "concept_id": "I.5", "label": "Distribution channels", "section": "I" }
+      ],
+      "correct_strategy": "Standardize the integration layer using open APIs and industry-standard data formats (e.g., GS1/EDI), then qualify a second contract manufacturer on the same interface — sharing coordination benefits while creating competitive tension that constrains price increases",
+      "correct_sacrifice": "Upfront investment in API standardization and second-source qualification, plus slightly diluted coordination depth since the interface must serve two partners rather than being custom-optimized for one",
+      "explanation": "The root problem is that deep coordination was built on proprietary integration, creating lock-in that the partner exploits through price increases. Standardizing the integration interface preserves 80-90% of the coordination value (shared forecasts, quality data, lead time visibility) while making the connection portable. Qualifying a second source on the same interface creates competitive pressure without actually switching — the credible threat of switching is often sufficient to moderate pricing. This converts a bilateral monopoly into a managed competitive relationship.",
+      "key_terms": [
+        "supplier lock-in",
+        "dual sourcing",
+        "coordination standardization",
+        "switching cost reduction"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2019/01/the-dangers-of-too-close-supplier-relationships",
+          "title": "The Dangers of Too-Close Supplier Relationships",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/building-resilience-in-supply-chains",
+          "title": "Building Resilience and Managing Supplier Risk",
+          "site": "McKinsey"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Immediately terminate the contract manufacturer relationship and switch to the lowest-cost competitor, accepting the 14-month migration timeline and temporary quality/lead-time disruptions",
+            "sacrifice": "14 months of degraded performance, $2.1M migration cost, and loss of 35% defect improvement during transition — potentially catastrophic for medical device quality requirements",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Accept the annual 8% price increases as the cost of coordination excellence and sign a 5-year exclusive agreement to secure the partnership long-term",
+            "sacrifice": "Compounded 8% annual increases will raise costs by 47% over five years, fundamentally undermining cost competitiveness",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Reduce the level of data sharing and ERP integration to make future switching easier, while keeping the same single contract manufacturer",
+            "sacrifice": "Degrades the coordination benefits (defect rates and lead times worsen) without actually creating competitive pricing pressure",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_I_performance_metrics_vs_team_autonomy",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A global logistics company rolled out 47 KPIs across its regional supply chain teams to improve accountability. Six months later, on-time delivery improved from 91% to 96%, but innovation proposals from teams dropped by 70%, cross-functional collaboration declined measurably, and three top-performing team leads resigned citing micromanagement. The CEO wants both the performance gains and the innovation culture back.",
+      "objective_a": {
+        "label": "Enforce rigorous performance metrics for accountability",
+        "concept_id": "I.3",
+        "section": "I"
+      },
+      "objective_b": {
+        "label": "Preserve team autonomy for innovation and adaptability",
+        "concept_id": "I.4",
+        "section": "I"
+      },
+      "levers": [
+        { "concept_id": "I.1", "label": "Cooperation and coordination", "section": "I" },
+        { "concept_id": "I.5", "label": "Distribution channels", "section": "I" },
+        { "concept_id": "I.2", "label": "Outsourcing role", "section": "I" }
+      ],
+      "correct_strategy": "Reduce the 47 KPIs to 8-10 outcome-based metrics that measure what matters (on-time delivery, cost per unit, customer satisfaction, innovation pipeline) and give teams full autonomy over how they achieve targets, supplemented by quarterly innovation reviews where teams present process improvement experiments",
+      "correct_sacrifice": "Less granular visibility into individual process steps, requiring managers to trust teams on execution details and accept that some methods may be unconventional",
+      "explanation": "The 47-KPI system measured activities rather than outcomes, which constrained teams to prescribed methods and killed innovation. Reducing to outcome-based metrics preserves accountability (teams are still measured on results) while restoring the autonomy to experiment with how those results are achieved. The quarterly innovation review creates a formal channel for improvement ideas, signaling that innovation is valued alongside performance. This approach accepts that management loses process-level visibility in exchange for a workforce that is both accountable and creative.",
+      "key_terms": [
+        "outcome-based metrics",
+        "team autonomy",
+        "KPI rationalization",
+        "performance-innovation balance"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2019/09/dont-let-metrics-undermine-your-business",
+          "title": "Don't Let Metrics Undermine Your Business",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.gartner.com/smarterwithgartner/rethink-your-supply-chain-metrics",
+          "title": "Rethink Your Supply Chain Metrics",
+          "site": "Gartner"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Remove all KPIs and return to the pre-measurement culture, trusting that high-performing teams will self-regulate and maintain the 96% on-time delivery rate without formal metrics",
+            "sacrifice": "On-time delivery will likely regress toward the original 91% without accountability structures, losing the hard-won performance gains",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Keep all 47 KPIs but add a mandatory 20% 'innovation time' allocation where teams are free to work on improvement projects outside normal metrics",
+            "sacrifice": "Teams are still micromanaged 80% of the time, and the artificial separation between 'metric work' and 'innovation work' prevents integration of improvements into daily operations",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Hire a consulting firm to redesign the KPI framework and let them determine the right balance, removing the decision from internal management entirely",
+            "sacrifice": "External consultants lack the operational context to balance performance and culture, and the fundamental tension between metrics and autonomy remains unresolved",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_I_information_sharing_vs_data_protection",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A consumer electronics brand shares point-of-sale data with its tier-1 suppliers to reduce the bullwhip effect, which has cut demand amplification from 4.2x to 1.8x and saved $11M annually in excess inventory. Now a key supplier — who also serves two direct competitors — is requesting access to the brand's promotional calendar and new product launch dates, arguing it would reduce amplification further to 1.2x.",
+      "objective_a": {
+        "label": "Deepen information sharing to minimize the bullwhip effect",
+        "concept_id": "I.1",
+        "section": "I"
+      },
+      "objective_b": {
+        "label": "Protect competitively sensitive data from reaching rivals",
+        "concept_id": "I.5",
+        "section": "I"
+      },
+      "levers": [
+        { "concept_id": "I.2", "label": "Outsourcing role", "section": "I" },
+        { "concept_id": "I.3", "label": "Performance measurement", "section": "I" },
+        { "concept_id": "I.4", "label": "Team role in supply chain", "section": "I" }
+      ],
+      "correct_strategy": "Share aggregated demand signals (total volume forecasts, seasonal patterns) with the supplier while withholding specific promotional timing and launch dates. Use a trusted third-party data intermediary that provides the supplier with capacity planning signals derived from multiple clients' data without exposing any single client's competitive details",
+      "correct_sacrifice": "The bullwhip reduction will be less than the full 1.2x potential — likely reaching 1.4-1.5x — because the supplier receives directional signals rather than exact promotional data",
+      "explanation": "A data intermediary resolves the information asymmetry problem by aggregating demand signals from multiple clients into capacity planning guidance. The supplier gets better demand visibility (reducing bullwhip amplification) without seeing any individual brand's competitive strategy. The tradeoff is suboptimal signal precision — aggregated data is noisier than direct promotional calendars — but it prevents the catastrophic risk of competitors learning launch timing through a shared supplier. The incremental $11M savings from 1.8x to 1.2x is not worth the competitive exposure.",
+      "key_terms": [
+        "bullwhip effect",
+        "information asymmetry",
+        "data intermediary",
+        "competitive intelligence protection"
+      ],
+      "sources": [
+        {
+          "url": "https://sloanreview.mit.edu/article/the-bullwhip-effect-in-supply-chains/",
+          "title": "The Bullwhip Effect in Supply Chains",
+          "site": "MIT Sloan Management Review"
+        },
+        {
+          "url": "https://www.supplychainquarterly.com/articles/information-sharing-risks-supply-chain",
+          "title": "The Risks of Information Sharing in Supply Chains",
+          "site": "Supply Chain Quarterly"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Share the full promotional calendar and launch dates with the supplier under an NDA, trusting that legal protections will prevent information leakage to competitors",
+            "sacrifice": "NDAs are difficult to enforce for indirect information leakage, and the supplier has economic incentives to use insights that benefit all its clients including competitors",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Stop sharing point-of-sale data entirely to eliminate any risk of competitive information reaching rivals, reverting to traditional purchase-order-based communication",
+            "sacrifice": "Bullwhip amplification returns to 4.2x, destroying the $11M annual savings already achieved through current data sharing",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Vertically integrate by acquiring the supplier's capacity dedicated to the brand, eliminating the shared-supplier data leakage risk entirely",
+            "sacrifice": "Massive capital outlay for acquisition and loss of the supplier's scale economies that come from serving multiple clients",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}

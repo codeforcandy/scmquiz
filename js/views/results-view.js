@@ -148,12 +148,18 @@ export function renderResultsView() {
       if (a && !a.isCorrect) status.push('WRONG');
       if (flags.includes(q.conceptId)) status.push('FLAGGED');
       if (iffy.includes(q.conceptId)) status.push('IFFY');
-      const label = q.questionType === 'relationship'
-        ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
-        : q.correctTopic;
-      const desc = q.questionType === 'relationship'
-        ? q.correctAnswer
-        : (q.scenario || q.definition);
+      const label = q.questionType === 'strategic_tradeoff'
+        ? `${q.objectiveA.label} vs ${q.objectiveB.label}`
+        : q.questionType === 'consequence_chain'
+          ? `${q.chain[0].label} \u2192 ${q.chain[1].label} \u2192 ${q.chain[2].label}`
+          : (q.questionType === 'relationship' || q.questionType === 'cross_section_bridge')
+            ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
+            : q.correctTopic;
+      const desc = q.questionType === 'strategic_tradeoff'
+        ? q.scenario
+        : (q.questionType === 'relationship' || q.questionType === 'consequence_chain' || q.questionType === 'cross_section_bridge')
+          ? q.correctAnswer
+          : (q.scenario || q.definition);
       text += `[${q.section}] ${label} (${status.join(', ')})\n`;
       text += `  ${(desc || '').slice(0, 120)}...\n\n`;
     }
@@ -207,9 +213,18 @@ function renderFilteredList(filter, session, flags, iffy) {
     hdr.appendChild(el('span', 'result-item__icon', isCorrect ? '\u2705' : '\u274C'));
 
     const isRelationship = q.questionType === 'relationship';
-    const topicText = isRelationship
-      ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
-      : q.correctTopic;
+    const isChain = q.questionType === 'consequence_chain';
+    const isBridge = q.questionType === 'cross_section_bridge';
+    const isTradeoff = q.questionType === 'strategic_tradeoff';
+    const topicText = isTradeoff
+      ? `${q.objectiveA.label} vs ${q.objectiveB.label}`
+      : isChain
+        ? `${q.chain[0].label} \u2192 ${q.chain[1].label} \u2192 ${q.chain[2].label}`
+        : isBridge
+          ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
+          : isRelationship
+            ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
+            : q.correctTopic;
     const topic = el('span', 'result-item__topic', topicText);
     if (!isCorrect) topic.style.color = 'var(--wrong)';
     hdr.appendChild(topic);
@@ -236,7 +251,14 @@ function renderFilteredList(filter, session, flags, iffy) {
       content.appendChild(wrongAns);
     }
 
-    if (isRelationship) {
+    if (isTradeoff) {
+      const scenarioEl = el('p', null, q.scenario);
+      scenarioEl.style.cssText = 'margin-bottom:var(--space-2);font-style:italic;font-size:var(--text-xs);color:var(--text-muted)';
+      content.appendChild(scenarioEl);
+      const correctDesc = el('p', null, 'Correct strategy: ' + (q.correctAnswer || a?.correct));
+      correctDesc.style.cssText = 'margin-bottom:var(--space-3);font-style:italic;color:var(--correct)';
+      content.appendChild(correctDesc);
+    } else if (isRelationship || isChain || isBridge) {
       const correctDesc = el('p', null, 'Correct: ' + (q.correctAnswer || a?.correct));
       correctDesc.style.cssText = 'margin-bottom:var(--space-3);font-style:italic;color:var(--correct)';
       content.appendChild(correctDesc);

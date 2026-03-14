@@ -1,0 +1,193 @@
+{
+  "section_id": "B",
+  "section_title": "Supply Chain Topics",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_B_lean_inventory_vs_forecast_investment",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A regional grocery distributor carries 4,200 SKUs with an average inventory carrying cost of 28% annually. Their current forecast accuracy sits at 62% (MAPE), causing $3.2M in annual stockout losses. A new AI-driven demand planning platform promises to raise accuracy to 85% but requires a $1.8M investment and 14-month implementation.",
+      "objective_a": {
+        "label": "Minimize inventory holding costs through lean stock levels",
+        "concept_id": "B.6",
+        "section": "B"
+      },
+      "objective_b": {
+        "label": "Maximize forecast accuracy to prevent stockouts",
+        "concept_id": "B.3",
+        "section": "B"
+      },
+      "levers": [
+        { "concept_id": "B.1", "label": "Analytics for supply chain management", "section": "B" },
+        { "concept_id": "B.8", "label": "Sales and operations planning", "section": "B" },
+        { "concept_id": "B.6", "label": "Inventory management and logistics", "section": "B" }
+      ],
+      "correct_strategy": "Segment the 4,200 SKUs by volatility and margin contribution, then deploy the AI forecasting platform on the top 20% of high-value, high-variability items first while using simplified reorder-point models with modest safety stock for stable, low-margin items.",
+      "correct_sacrifice": "Lower-tier SKUs retain higher safety stock buffers and less precise forecasting, meaning carrying costs on those items decrease more slowly.",
+      "explanation": "Not all SKUs benefit equally from advanced forecasting. High-variability, high-margin items drive the majority of stockout losses and benefit most from improved accuracy, making the AI investment pay off fastest on that segment. Stable items with predictable demand are already well-served by simpler models with appropriate safety stock. This segmented approach captures most of the $3.2M stockout reduction while keeping the technology investment focused where ROI is highest.",
+      "key_terms": [
+        "SKU segmentation",
+        "demand variability",
+        "forecast accuracy",
+        "inventory carrying cost"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/supply-chain-40--the-next-generation-digital-supply-chain",
+          "title": "Supply Chain 4.0 – The Next-Generation Digital Supply Chain",
+          "site": "McKinsey"
+        },
+        {
+          "url": "https://sloanreview.mit.edu/article/the-bullwhip-effect-in-supply-chains/",
+          "title": "The Bullwhip Effect in Supply Chains",
+          "site": "MIT Sloan Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Slash safety stock across all 4,200 SKUs by 40% immediately to force lean operations, then use the cost savings to fund the forecasting platform after stockout data proves the need",
+            "sacrifice": "Massive spike in stockouts during the transition period, potentially exceeding the current $3.2M annual loss in a single quarter",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Deploy the full $1.8M AI forecasting platform across all 4,200 SKUs simultaneously and eliminate all safety stock once the system is live, achieving both lean inventory and perfect demand matching",
+            "sacrifice": "Even 85% accuracy means 15% of forecasts are wrong — eliminating all safety stock guarantees stockouts on hundreds of SKUs",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Increase safety stock levels by 25% across all SKUs to reduce stockouts to near zero, avoiding the complexity and cost of implementing new forecasting technology entirely",
+            "sacrifice": "Carrying costs rise from 28% to an estimated 35%, adding millions in holding costs while ignoring the root cause of poor demand visibility",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_B_sustainability_vs_procurement_cost",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A mid-size apparel company sources 70% of its materials from Southeast Asian suppliers at a landed cost of $4.20 per unit. New EU due-diligence regulations take effect in 18 months, requiring verified sustainable sourcing. Certified sustainable suppliers quote $5.85 per unit — a 39% increase — while the company operates on 12% gross margins.",
+      "objective_a": {
+        "label": "Achieve regulatory-compliant sustainable sourcing",
+        "concept_id": "B.10",
+        "section": "B"
+      },
+      "objective_b": {
+        "label": "Maintain procurement cost efficiency",
+        "concept_id": "B.7",
+        "section": "B"
+      },
+      "levers": [
+        { "concept_id": "B.9", "label": "Supply market intelligence", "section": "B" },
+        { "concept_id": "B.7", "label": "Procurement for supply chain management", "section": "B" },
+        { "concept_id": "B.4", "label": "Global distribution and logistics", "section": "B" }
+      ],
+      "correct_strategy": "Use supply market intelligence to identify 2-3 existing suppliers willing to co-invest in sustainability certification, offering long-term volume commitments (3-5 year contracts) in exchange for shared certification costs and a phased price increase capped at 18-22% rather than the full 39% premium.",
+      "correct_sacrifice": "Reduced supplier flexibility due to long-term commitments, limiting the ability to switch suppliers or renegotiate pricing for the contract duration.",
+      "explanation": "The 39% premium reflects the market rate for already-certified suppliers, but certification itself is a fixed investment that can be amortized over volume. By partnering with current suppliers who already understand the company's quality requirements, the firm avoids both the full premium and the switching costs of new supplier qualification. Long-term commitments give suppliers the revenue certainty to justify their own sustainability investments, creating a shared-value arrangement that keeps the cost increase within margin tolerance.",
+      "key_terms": [
+        "sustainable sourcing",
+        "supplier co-investment",
+        "regulatory compliance",
+        "total cost of ownership"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2020/09/the-state-of-sustainable-supply-chains",
+          "title": "The State of Sustainable Supply Chains",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2023/06/sustainable-procurement-supply-chains/",
+          "title": "Sustainable Procurement in Global Supply Chains",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Switch immediately to fully certified sustainable suppliers at $5.85 per unit and pass the entire 39% cost increase through to retail prices, positioning the brand as premium-sustainable",
+            "sacrifice": "At 12% gross margins, a 39% input cost increase without proportional volume retention likely causes net losses before any brand repositioning gains materialize",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Lobby against the EU regulations and delay compliance as long as possible while maintaining current suppliers, betting that enforcement will be weak or deadlines will extend",
+            "sacrifice": "Risk of market access loss, fines, and reputational damage when enforcement begins, with no alternative supply base prepared",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Move all sourcing to domestic suppliers who are already compliant with sustainability standards, eliminating the need for overseas certification entirely",
+            "sacrifice": "Domestic sourcing typically costs 2-3x more than Southeast Asian suppliers, far exceeding even the 39% certified-supplier premium",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_B_sop_rigor_vs_analytics_agility",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A consumer electronics company runs a monthly S&OP cycle that takes 12 business days to complete, involving 6 cross-functional meetings and sign-offs from 4 VPs. Market data shows that 35% of demand signals shift materially within the same month. A proposal to replace the formal S&OP process with a real-time analytics dashboard and automated exception alerts would cost $2.4M but reduce response time from weeks to hours.",
+      "objective_a": {
+        "label": "Maintain disciplined S&OP planning process",
+        "concept_id": "B.8",
+        "section": "B"
+      },
+      "objective_b": {
+        "label": "Enable analytics-driven agile decision-making",
+        "concept_id": "B.1",
+        "section": "B"
+      },
+      "levers": [
+        { "concept_id": "B.3", "label": "Forecasting role in supply chain management", "section": "B" },
+        { "concept_id": "B.1", "label": "Analytics for supply chain management", "section": "B" },
+        { "concept_id": "B.11", "label": "Transportation planning", "section": "B" }
+      ],
+      "correct_strategy": "Retain the monthly S&OP cycle for strategic decisions (capacity planning, new product launches, supplier commitments) but compress it to 5 days by pre-populating analytics-driven recommendations, while deploying real-time exception management for tactical demand shifts that fall within pre-approved response boundaries.",
+      "correct_sacrifice": "Tactical decisions made within automated boundaries bypass full cross-functional review, accepting the risk that some real-time responses may conflict with longer-term strategic plans.",
+      "explanation": "The 35% demand signal volatility makes pure monthly planning inadequate for tactical execution, but eliminating S&OP entirely removes the strategic alignment that prevents departments from optimizing locally at the expense of the whole. The hybrid approach separates strategic decisions (which benefit from cross-functional deliberation) from tactical responses (which need speed). Pre-approved boundaries ensure that real-time adjustments stay within guardrails set during the strategic cycle, preserving alignment while enabling agility.",
+      "key_terms": [
+        "S&OP process",
+        "demand sensing",
+        "exception management",
+        "strategic-tactical separation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gartner.com/en/supply-chain/insights/sales-and-operations-planning",
+          "title": "Sales and Operations Planning Best Practices",
+          "site": "Gartner"
+        },
+        {
+          "url": "https://www.supplychainbrain.com/articles/real-time-analytics-supply-chain",
+          "title": "Real-Time Analytics in the Supply Chain",
+          "site": "Supply Chain Brain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Eliminate the monthly S&OP process entirely and replace it with the real-time analytics dashboard, empowering individual department heads to make autonomous decisions based on live data",
+            "sacrifice": "Loss of cross-functional alignment leads to conflicting priorities — sales chases revenue while operations optimizes for cost, creating internal whiplash",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Keep the full 12-day monthly S&OP process unchanged but add the $2.4M analytics platform on top, using real-time data only as informational input for the next monthly cycle",
+            "sacrifice": "The 35% of demand signals that shift mid-month still go unaddressed, making the analytics investment largely wasted",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Increase S&OP frequency from monthly to weekly, adding 4x more VP sign-off meetings and cross-functional reviews to keep pace with demand volatility",
+            "sacrifice": "Executive time consumed by weekly planning cycles becomes unsustainable, and the 3-day response window still cannot match real-time demand shifts",
+            "flaw": "ignores_constraint"
+          }
+        ]
+      }
+    }
+  ]
+}

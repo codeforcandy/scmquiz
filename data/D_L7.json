@@ -1,0 +1,193 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_D_integration_vs_diversification",
+      "subtype": "strategic_tradeoff",
+      "scenario": "An aerospace components manufacturer sources 85% of its titanium forgings from a single supplier with whom it has a deeply integrated quality system, shared production scheduling, and co-developed proprietary alloys. This partnership yields 18% lower defect rates and 22-day lead times versus the industry average of 45 days. However, a recent 3-week supplier disruption cost the company $14M in delayed deliveries and contract penalties.",
+      "objective_a": {
+        "label": "Deepen supply chain integration with strategic partners",
+        "concept_id": "D.4",
+        "section": "D"
+      },
+      "objective_b": {
+        "label": "Diversify supplier and distribution decisions for resilience",
+        "concept_id": "D.3",
+        "section": "D"
+      },
+      "levers": [
+        { "concept_id": "D.1", "label": "Purchasing and SCM relationship", "section": "D" },
+        { "concept_id": "D.5", "label": "Management of supply and demand", "section": "D" },
+        { "concept_id": "D.4", "label": "Supply chain integration", "section": "D" }
+      ],
+      "correct_strategy": "Maintain the primary supplier at 60-65% volume with full integration but qualify and develop two secondary suppliers for the remaining 35-40%, sharing enough technical specifications for them to produce acceptable (though not co-developed) alternatives. Invest in dual-qualification testing so secondary sources can scale to 70% within 8 weeks during a disruption.",
+      "correct_sacrifice": "Secondary suppliers will have higher defect rates and longer lead times than the primary partner, and maintaining dual-qualified sources requires ongoing qualification costs of approximately $800K-$1.2M annually.",
+      "explanation": "The 85% concentration creates catastrophic exposure, as the $14M disruption loss demonstrated. But fully diversifying away from the integrated partner would sacrifice the 18% quality advantage and proprietary alloy access that differentiate the company's products. The 60/35 split preserves the integration benefits that drive quality and speed while creating enough secondary capacity to survive a disruption. The key insight is that secondary suppliers do not need to match the primary's performance — they need to be adequate during emergencies, not optimal during normal operations.",
+      "key_terms": [
+        "single-source risk",
+        "supplier qualification",
+        "dual sourcing",
+        "supply chain resilience"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2014/01/from-superstorms-to-factory-fires-managing-unpredictable-supply-chain-disruptions",
+          "title": "From Superstorms to Factory Fires: Managing Unpredictable Supply Chain Disruptions",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/risk-resilience-and-rebalancing-in-global-value-chains",
+          "title": "Risk, Resilience, and Rebalancing in Global Value Chains",
+          "site": "McKinsey"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Split volume equally across 4 suppliers at 25% each, requiring all suppliers to implement the same integrated quality system and co-develop proprietary alloys to maintain current performance levels",
+            "sacrifice": "No supplier has enough volume to justify the co-development investment, destroying the proprietary alloy advantage and increasing per-unit costs across all sources",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Double down on the single supplier by increasing volume to 95% and negotiating a contractual guarantee with $14M penalty clauses for disruptions, using legal protection instead of diversification",
+            "sacrifice": "Penalty clauses do not prevent disruptions or deliver parts — the company still loses production time and customer trust during outages regardless of financial recovery",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Build a 90-day strategic inventory buffer of titanium forgings to protect against disruptions while maintaining the single-source relationship unchanged",
+            "sacrifice": "Titanium forgings are high-value items — a 90-day buffer ties up approximately $8-10M in working capital and creates obsolescence risk if specifications change",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_D_facility_consolidation_vs_demand_proximity",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A building materials distributor operates 14 regional warehouses across the eastern United States, averaging 62% utilization. Analysis shows that consolidating to 6 optimally located mega-facilities would reduce fixed operating costs by $11M annually and improve inventory turns from 6.2 to 9.1. However, 40% of customers currently receive same-day delivery, and the consolidated network would extend average delivery time from 4 hours to 14 hours for those customers.",
+      "objective_a": {
+        "label": "Optimize facility network for operational efficiency",
+        "concept_id": "D.6",
+        "section": "D"
+      },
+      "objective_b": {
+        "label": "Maintain demand proximity and service levels",
+        "concept_id": "D.5",
+        "section": "D"
+      },
+      "levers": [
+        { "concept_id": "D.3", "label": "Supplier, transportation, and distribution decisions", "section": "D" },
+        { "concept_id": "D.6", "label": "Efficient facility network design", "section": "D" },
+        { "concept_id": "D.7", "label": "Expense management", "section": "D" }
+      ],
+      "correct_strategy": "Consolidate to 8 facilities (not 6) by closing the 6 lowest-utilization warehouses, while converting 4-5 of the closed locations into lean forward-staging points that hold only the top 50 high-velocity SKUs for same-day delivery. The staging points operate at minimal cost with small footprints while preserving same-day capability for the products that drive 80% of urgent orders.",
+      "correct_sacrifice": "Same-day delivery for low-velocity, specialty products is lost — those items ship from mega-facilities with next-day delivery. The staging points add $1.5-2M in operating costs, reducing the net savings from $11M to approximately $7-8M.",
+      "explanation": "The full consolidation to 6 facilities optimizes for cost but ignores that same-day delivery is a competitive differentiator in building materials, where contractors face project delays from material shortages. The hybrid approach recognizes that not all products need same-day proximity — Pareto analysis of urgent orders reveals that a small subset of high-velocity SKUs drives most same-day demand. Forward-staging those items preserves the service level that matters while capturing most of the consolidation savings from reduced fixed costs and improved inventory turns.",
+      "key_terms": [
+        "network consolidation",
+        "forward-staging strategy",
+        "SKU velocity analysis",
+        "service level preservation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/network-optimization-supply-chain",
+          "title": "Network Optimization in Supply Chain Design",
+          "site": "Supply Chain Quarterly"
+        },
+        {
+          "url": "https://www.gartner.com/en/supply-chain/insights/supply-chain-network-design",
+          "title": "Supply Chain Network Design",
+          "site": "Gartner"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Consolidate fully to 6 mega-facilities as analyzed and compensate for lost same-day delivery by offering free next-day shipping on all orders, absorbing the expedited freight costs",
+            "sacrifice": "Expedited freight for 40% of customers who previously received same-day delivery could cost $4-6M annually, eroding most of the $11M savings while still degrading service levels",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Keep all 14 warehouses open but reduce inventory at each location to only high-velocity items, centralizing slow-moving stock at 3 regional hubs to improve overall inventory turns",
+            "sacrifice": "14 facilities at 62% utilization still carry the full fixed cost burden — the strategy improves turns but captures none of the $11M facility consolidation savings",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Consolidate to 6 facilities and partner with a same-day courier service to maintain the 4-hour delivery window for all products from the consolidated locations",
+            "sacrifice": "Same-day courier delivery of bulk building materials over extended distances is prohibitively expensive and logistically impractical for heavy, oversized items",
+            "flaw": "ignores_constraint"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_D_cost_cutting_vs_value_investment",
+      "subtype": "strategic_tradeoff",
+      "scenario": "An industrial equipment manufacturer under pressure from activist investors needs to improve EBITDA margins from 8% to 12% within 18 months. The CFO proposes cutting supply chain spending by 15% ($22M), targeting warehousing, supplier development programs, and IT systems upgrades. However, the company's 5-year strategic plan depends on launching a connected-equipment platform that requires IoT-enabled supply chain capabilities not yet built.",
+      "objective_a": {
+        "label": "Achieve near-term expense reduction targets",
+        "concept_id": "D.7",
+        "section": "D"
+      },
+      "objective_b": {
+        "label": "Invest in supply chain capabilities that create long-term company value",
+        "concept_id": "D.2",
+        "section": "D"
+      },
+      "levers": [
+        { "concept_id": "D.1", "label": "Purchasing and SCM relationship", "section": "D" },
+        { "concept_id": "D.7", "label": "Expense management", "section": "D" },
+        { "concept_id": "D.4", "label": "Supply chain integration", "section": "D" }
+      ],
+      "correct_strategy": "Categorize the $22M spending into three tiers: (1) cut $9M in non-strategic costs through warehouse consolidation and logistics renegotiation, (2) defer $5M in nice-to-have system upgrades by 12-18 months, and (3) protect $8M in supplier development and IoT infrastructure investments that directly enable the connected-equipment platform. Present investors with the $14M in immediate savings plus a funded roadmap showing how the protected investments generate 3x returns within 3 years.",
+      "correct_sacrifice": "The margin improvement reaches approximately 10.5% in 18 months rather than the full 12% target, requiring the company to demonstrate the remaining gap will close as platform revenue materializes.",
+      "explanation": "Activist investors respond to credible plans that show both discipline and growth — pure cost cutting signals decline, while ignoring margin pressure risks a proxy fight. The tiered approach demonstrates expense management rigor (cutting $14M proves seriousness) while protecting investments tied to a quantifiable growth strategy. The connected-equipment platform represents the kind of supply chain value creation that transforms cost centers into revenue enablers. By linking the protected $8M to specific revenue milestones, the company reframes supply chain investment from expense to strategic asset.",
+      "key_terms": [
+        "EBITDA margin improvement",
+        "strategic cost tiering",
+        "supply chain value creation",
+        "investor communication"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2017/05/the-case-for-investing-more-in-your-supply-chain",
+          "title": "The Case for Investing More in Your Supply Chain",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.deloitte.com/global/en/services/consulting/perspectives/supply-chain-investment.html",
+          "title": "Supply Chain as a Source of Competitive Advantage",
+          "site": "Deloitte"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Implement the full $22M cost reduction as proposed by the CFO to hit the 12% EBITDA target, then request a separate capital expenditure budget for the IoT platform in the following fiscal year",
+            "sacrifice": "Cutting supplier development and IT upgrades now destroys the foundation needed for the IoT platform — rebuilding those capabilities later costs 2-3x more than maintaining them",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Reject the cost-cutting mandate entirely and instead present investors with a 5-year value creation thesis showing how increased supply chain investment will generate superior long-term returns",
+            "sacrifice": "Activist investors operating on 18-month timelines will likely launch a proxy fight, potentially replacing management before the long-term strategy can prove itself",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Outsource the entire supply chain operation to a 3PL/4PL partner, converting fixed costs to variable costs to immediately improve EBITDA margins while transferring IoT development responsibility to the outsourcing partner",
+            "sacrifice": "Outsourcing transfers control of strategic supply chain capabilities to a third party whose incentives may not align with the connected-equipment platform vision",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "section_id": "A",
+  "section_title": "Essential Supply Chain Management Concepts",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_A_cost_vs_responsiveness",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A mid-size electronics manufacturer faces pressure to cut logistics costs by 15% while customers demand next-day delivery for 80% of orders. Current inventory carrying costs consume 22% of revenue.",
+      "objective_a": {
+        "label": "Minimize total logistics cost",
+        "concept_id": "A.3",
+        "section": "A"
+      },
+      "objective_b": {
+        "label": "Maximize demand responsiveness",
+        "concept_id": "A.8",
+        "section": "D"
+      },
+      "levers": [
+        { "concept_id": "A.9", "label": "Logistics management", "section": "A" },
+        { "concept_id": "A.10", "label": "Physical and information flows", "section": "A" },
+        { "concept_id": "D.5", "label": "Management of supply and demand", "section": "D" }
+      ],
+      "correct_strategy": "Invest in end-to-end information flow visibility to improve demand signal accuracy, reducing safety stock and enabling postponement strategies that cut inventory costs while maintaining rapid fulfillment",
+      "correct_sacrifice": "Higher technology and integration costs for real-time supply chain visibility infrastructure",
+      "explanation": "By leveraging information flows across the supply chain, the manufacturer can substitute information for inventory — the classic cost-responsiveness resolution. Better demand signals reduce forecasting error, which directly cuts safety stock requirements (addressing the 22% carrying cost) while maintaining service levels. This approach accepts upfront technology investment to achieve sustained savings on both logistics and inventory costs.",
+      "key_terms": [
+        "cost-service tradeoff",
+        "information-inventory substitution",
+        "supply chain visibility",
+        "postponement strategy"
+      ],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/cost-service-tradeoff",
+          "title": "The Cost-Service Tradeoff in Supply Chain Management",
+          "site": "Supply Chain Quarterly"
+        },
+        {
+          "url": "https://hbr.org/2004/10/the-triple-a-supply-chain",
+          "title": "The Triple-A Supply Chain",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Cut logistics spending by eliminating demand forecasting entirely and relying on historical averages, using the savings to fund expedited shipping when stockouts occur",
+            "sacrifice": "Frequent stockouts and emergency shipping costs that exceed original logistics budget",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Build regional warehouses near every major customer cluster, fully stocking all SKUs at each location to guarantee next-day delivery nationwide",
+            "sacrifice": "Massive increase in inventory holding and facility costs across all locations",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Outsource all logistics to a premium 3PL provider and transfer full responsibility for cost-service optimization to them",
+            "sacrifice": "Loss of strategic control over supply chain performance and higher per-unit costs",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_A_global_reach_vs_complexity",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A consumer goods company expanding from domestic to 12 international markets must decide how to structure its supply chain. Adding each market increases coordination costs by roughly 8%, but the markets collectively represent 40% revenue growth potential.",
+      "objective_a": {
+        "label": "Expand global supply chain reach",
+        "concept_id": "A.7",
+        "section": "A"
+      },
+      "objective_b": {
+        "label": "Maintain supply chain coordination efficiency",
+        "concept_id": "A.1",
+        "section": "A"
+      },
+      "levers": [
+        { "concept_id": "A.2", "label": "Entire supply chain scope", "section": "A" },
+        { "concept_id": "A.5", "label": "E-commerce and global trade factors", "section": "A" },
+        { "concept_id": "I.1", "label": "Cooperation and coordination", "section": "I" }
+      ],
+      "correct_strategy": "Phase the expansion by clustering markets into 3-4 regional hubs with shared logistics infrastructure, using standardized coordination processes adapted to local regulatory requirements",
+      "correct_sacrifice": "Slower market entry timeline — phased rollout delays revenue capture in later-wave markets by 6-12 months",
+      "explanation": "Regional clustering balances global reach with coordination efficiency by creating manageable units of complexity. Each hub shares logistics infrastructure (reducing per-market coordination costs below the 8% threshold) while standardized processes ensure the supply chain remains coordinated. The tradeoff is speed — phased entry means delayed revenue from later markets, but prevents the coordination breakdown that comes from simultaneous expansion.",
+      "key_terms": [
+        "regional hub strategy",
+        "coordination costs",
+        "phased expansion",
+        "global supply chain complexity"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/a-new-look-at-global-supply-chain-risk",
+          "title": "A New Look at Global Supply Chain Risk",
+          "site": "McKinsey"
+        },
+        {
+          "url": "https://www.gartner.com/en/supply-chain/insights/supply-chain-strategy",
+          "title": "Supply Chain Strategy",
+          "site": "Gartner"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Enter all 12 markets simultaneously with independent supply chains for each, hiring local logistics partners to manage country-specific operations without central coordination",
+            "sacrifice": "Coordination costs far exceed the 8% per-market estimate due to fragmented operations",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Limit expansion to only 3 markets with the highest revenue potential and abandon the remaining 9 to avoid any coordination complexity increase",
+            "sacrifice": "Forfeits most of the 40% revenue growth opportunity by abandoning viable markets",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Centralize all global operations through a single distribution hub, shipping directly to all 12 markets from one location to minimize coordination overhead",
+            "sacrifice": "Extreme lead times and shipping costs to distant markets, negating the cost savings of centralization",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_A_value_creation_vs_cost",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A food manufacturer's supply chain currently delivers products at competitive cost but receives low Net Promoter Scores due to quality inconsistency and lack of traceability. Retailers are beginning to require farm-to-shelf transparency.",
+      "objective_a": {
+        "label": "Maximize supply chain value creation",
+        "concept_id": "A.6",
+        "section": "A"
+      },
+      "objective_b": {
+        "label": "Preserve competitive cost position",
+        "concept_id": "A.3",
+        "section": "A"
+      },
+      "levers": [
+        { "concept_id": "A.10", "label": "Physical and information flows", "section": "A" },
+        { "concept_id": "B.10", "label": "Sustainability for SCM", "section": "B" },
+        { "concept_id": "E.6", "label": "Customer service in supply chain", "section": "E" }
+      ],
+      "correct_strategy": "Implement blockchain-based traceability for the top 20% of SKUs that drive 80% of retailer complaints, then expand based on demonstrated ROI from reduced waste and improved retailer relationships",
+      "correct_sacrifice": "Initial implementation costs and slower rollout — only high-impact products get traceability first while others remain unchanged",
+      "explanation": "This approach applies the Pareto principle to the traceability problem, targeting the products that drive most complaints. By demonstrating value creation (customer satisfaction, reduced waste, retailer compliance) on a focused product set, the company builds the business case for expansion without betting the entire cost structure. The tradeoff is incomplete coverage initially, but it preserves cost competitiveness while building toward full transparency.",
+      "key_terms": [
+        "supply chain traceability",
+        "value creation",
+        "Pareto prioritization",
+        "cost-quality tradeoff"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-traceability",
+          "title": "What Is Supply Chain Traceability?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2024/01/supply-chain-traceability-transparency/",
+          "title": "Supply Chain Traceability and Transparency",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Deploy full farm-to-shelf traceability across all SKUs simultaneously, passing the entire cost increase directly to retailers through higher wholesale prices",
+            "sacrifice": "Retailers may switch to cheaper competitors, destroying the competitive cost position entirely",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Ignore traceability demands and double down on cost reduction, assuming retailers will prioritize price over transparency in the long run",
+            "sacrifice": "Loss of retailer accounts as transparency becomes a table-stakes requirement",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Acquire a farm-to-table organic brand and market their traceability as a premium sub-brand, keeping the main product line unchanged",
+            "sacrifice": "The core supply chain quality issues remain, and the sub-brand cannibalizes existing sales",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -377,6 +377,385 @@
   color: #fb923c;
 }
 
+/* ─── L6 Badge ─── */
+
+.badge--level-L6 {
+  background: #b91c1c;
+  color: #fff;
+}
+
+/* ─── Consequence Chain Card (L6) ─── */
+
+.chain-card {
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #ea580c, #b91c1c) 1;
+}
+
+.chain-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #b91c1c;
+  margin-bottom: var(--space-3);
+}
+
+[data-theme="dark"] .chain-card__prompt {
+  color: #f87171;
+}
+
+.chain-card__flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  background: var(--bg-hover);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+
+.chain-card__concept {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  width: 100%;
+  max-width: 340px;
+}
+
+.chain-card__concept--disrupted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border-color: #b91c1c;
+  background: rgba(185, 28, 28, 0.06);
+}
+
+.chain-card__concept--disrupted .chain-card__concept-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.chain-card__disrupted-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background: #b91c1c;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.chain-card__concept--affected {
+  border-color: #d97706;
+  background: rgba(217, 119, 6, 0.06);
+}
+
+[data-theme="dark"] .chain-card__concept--disrupted {
+  background: rgba(185, 28, 28, 0.15);
+}
+
+[data-theme="dark"] .chain-card__concept--affected {
+  background: rgba(217, 119, 6, 0.15);
+}
+
+.chain-card__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) 0;
+}
+
+.chain-card__link--broken {
+  opacity: 0.4;
+}
+
+.chain-card__arrow {
+  font-size: var(--text-lg);
+  color: var(--text-muted);
+}
+
+.chain-card__link-type {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-sm);
+  background: rgba(185, 28, 28, 0.1);
+  color: #b91c1c;
+}
+
+[data-theme="dark"] .chain-card__link-type {
+  background: rgba(248, 113, 113, 0.15);
+  color: #f87171;
+}
+
+/* ─── Cross-Section Bridge Card (L6) ─── */
+
+.bridge-card {
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #ea580c, #b91c1c) 1;
+}
+
+.bridge-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #b91c1c;
+  margin-bottom: var(--space-3);
+}
+
+[data-theme="dark"] .bridge-card__prompt {
+  color: #f87171;
+}
+
+.bridge-card__pair {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--bg-hover);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+
+.bridge-card__concept {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  text-align: center;
+}
+
+.bridge-card__section-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.bridge-card__label {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+.bridge-card__connector {
+  font-size: var(--text-xl);
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* Mobile: bridge stacks vertically at ≤480px */
+@media (max-width: 480px) {
+  .bridge-card__pair {
+    flex-direction: column;
+  }
+
+  .bridge-card__connector {
+    transform: rotate(90deg);
+  }
+}
+
+/* ─── Micro Definition Card (L8) ─── */
+
+.badge--level-L8 {
+  background: #0891b2;
+  color: #fff;
+}
+
+.micro-card {
+  border-left: 2px solid #0891b2;
+  text-align: center;
+  padding: var(--space-8) var(--space-6);
+}
+
+.micro-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #0891b2;
+  margin-bottom: var(--space-4);
+}
+
+[data-theme="dark"] .micro-card__prompt {
+  color: #22d3ee;
+}
+
+.micro-card__text {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+  font-weight: 500;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ─── Strategic Tradeoff Card (L7) ─── */
+
+.badge--level-L7 {
+  background: #4338ca;
+  color: #fff;
+}
+
+.tradeoff-card {
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #4338ca, #7c3aed) 1;
+}
+
+.tradeoff-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #4338ca;
+  margin-bottom: var(--space-3);
+}
+
+[data-theme="dark"] .tradeoff-card__prompt {
+  color: #818cf8;
+}
+
+.tradeoff-card__tension {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--bg-hover);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  margin-bottom: var(--space-3);
+}
+
+.tradeoff-card__objective {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.tradeoff-card__obj-label {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+.tradeoff-card__obj-section {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.tradeoff-card__vs {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+
+.tradeoff-card__scenario {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+}
+
+.tradeoff-card__levers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.tradeoff-card__levers-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.tradeoff-card__lever {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 2px var(--space-2);
+}
+
+.tradeoff-card__lever-section {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+/* Mobile: tension stacks vertically at ≤480px */
+@media (max-width: 480px) {
+  .tradeoff-card__tension {
+    flex-direction: column;
+  }
+
+  .tradeoff-card__vs {
+    transform: rotate(90deg);
+  }
+}
+
 /* ─── Progress Bar ─── */
 
 .progress-bar {
@@ -503,6 +882,12 @@
 
 .source-link:hover {
   color: var(--accent);
+}
+
+.copy-btn {
+  margin-top: var(--space-3);
+  font-size: var(--text-xs);
+  padding: var(--space-2) var(--space-3);
 }
 
 /* ─── Timer & Streak ─── */

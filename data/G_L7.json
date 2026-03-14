@@ -1,0 +1,193 @@
+{
+  "section_id": "G",
+  "section_title": "Improving Supply Chain Network Performance",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_G_customer_proximity_vs_inventory_pooling",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A pharmaceutical wholesaler serves 2,800 pharmacies across a region. Currently, 3 central distribution centers achieve 97.5% fill rates with $180M in aggregate inventory. A network study proposes adding 9 local depots within 50 miles of 85% of pharmacies, which would cut delivery times from 18 hours to 4 hours. However, distributing inventory across 12 locations would require $290M in total inventory to maintain the same 97.5% fill rate due to lost pooling effects.",
+      "objective_a": {
+        "label": "Maximize customer proximity for rapid delivery",
+        "concept_id": "G.5",
+        "section": "G"
+      },
+      "objective_b": {
+        "label": "Maximize inventory efficiency through centralized pooling",
+        "concept_id": "G.2",
+        "section": "G"
+      },
+      "levers": [
+        { "concept_id": "G.5", "label": "Customer proximity", "section": "G" },
+        { "concept_id": "G.2", "label": "Inventory maximization", "section": "G" },
+        { "concept_id": "G.11", "label": "Logistic needs of customer segments", "section": "G" }
+      ],
+      "correct_strategy": "Add 9 local depots but stock only emergency and high-velocity pharmaceutical SKUs (top 800 SKUs covering 70% of daily pharmacy orders) at local sites, while maintaining the 3 central DCs as the primary fulfillment source for the full catalog of 12,000+ SKUs with overnight replenishment to depots",
+      "correct_sacrifice": "Only 70% of pharmacy orders qualify for 4-hour delivery from local depots; the remaining 30% involving specialty or low-demand medications still require 18-hour fulfillment from central DCs",
+      "explanation": "The square root law of inventory means distributing all SKUs across 12 locations would increase inventory investment by 61% ($110M). But pharmacies don't need 4-hour delivery on every product — they need it for emergency medications and daily fast-movers. By stocking only 800 high-velocity SKUs locally (which have predictable demand and low pooling penalty), the inventory increase is limited to approximately $45M rather than $110M. The central DCs retain pooling benefits for the long tail of specialty medications. This segments the network by urgency rather than treating all products equally.",
+      "key_terms": [
+        "inventory pooling",
+        "square root law",
+        "network segmentation",
+        "customer proximity"
+      ],
+      "sources": [
+        {
+          "url": "https://www.supplychainquarterly.com/articles/inventory-pooling-network-design",
+          "title": "Inventory Pooling and Distribution Network Design",
+          "site": "Supply Chain Quarterly"
+        },
+        {
+          "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/pharmaceutical-distribution",
+          "title": "Rethinking Pharmaceutical Distribution Networks",
+          "site": "McKinsey"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Build all 9 local depots and stock the full 12,000-SKU catalog at every location, funding the $110M inventory increase through a pharmaceutical industry consortium where pharmacies share ownership of depot inventory",
+            "sacrifice": "Consortium governance creates ordering conflicts between competing pharmacies, and the $290M inventory investment ties up capital that could fund service improvements",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Keep the 3 central DCs only but invest in a dedicated fleet of temperature-controlled vehicles to cut delivery time from 18 hours to 6 hours through more frequent delivery runs",
+            "sacrifice": "Fleet investment and operating costs approach $40M annually with diminishing returns — getting from 6 hours to 4 hours would require doubling the fleet size again",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Let each pharmacy maintain its own safety stock buffer for emergency medications and eliminate the wholesaler's responsibility for rapid delivery entirely",
+            "sacrifice": "Pharmacies lack the purchasing scale and storage capacity to hold adequate safety stock, leading to medication shortages and regulatory compliance issues",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_G_synchronization_vs_decoupling",
+      "subtype": "strategic_tradeoff",
+      "scenario": "An automotive parts manufacturer supplies 340 components to 4 assembly plants using a JIT system with 6-hour delivery windows. The tightly synchronized flow minimizes work-in-process inventory to $12M. However, three supply disruptions in the past 18 months — a port closure, a supplier fire, and a weather event — each halted production lines for 2-4 days at a cost of $2.8M per day in lost output. Leadership is debating whether to add strategic buffer inventory at key points in the supply chain.",
+      "objective_a": {
+        "label": "Maintain tight material flow synchronization for efficiency",
+        "concept_id": "G.1",
+        "section": "G"
+      },
+      "objective_b": {
+        "label": "Build resilience through strategic decoupling points",
+        "concept_id": "G.3",
+        "section": "G"
+      },
+      "levers": [
+        { "concept_id": "G.1", "label": "Synchronizing material flow", "section": "G" },
+        { "concept_id": "G.3", "label": "Decoupling points", "section": "G" },
+        { "concept_id": "G.9", "label": "Market signal and demand impact", "section": "G" }
+      ],
+      "correct_strategy": "Identify the 45 components with single-source suppliers or longest lead times and establish 5-day decoupling buffers for only those critical items at a consolidation point upstream of each assembly plant, while maintaining JIT flow for the remaining 295 components that have multiple suppliers or short replenishment cycles",
+      "correct_sacrifice": "Work-in-process inventory increases from $12M to approximately $19M, and the buffer management adds planning complexity for the 45 critical components that now operate on a hybrid pull-buffer system rather than pure JIT",
+      "explanation": "Pure JIT synchronization is optimal when the supply network is reliable, but the $2.8M-per-day disruption cost far exceeds the carrying cost of targeted buffers. The key is placing decoupling points based on supply risk analysis rather than adding blanket safety stock. Components with single sources or long lead times are the vulnerability points — buffering only these 45 items (13% of the portfolio) provides 72-hour protection against the most likely disruption scenarios at a fraction of the cost of full desynchronization. The JIT flow continues for everything else, preserving most of the efficiency advantage.",
+      "key_terms": [
+        "decoupling point",
+        "JIT vulnerability",
+        "supply chain resilience",
+        "strategic buffer inventory"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2020/02/global-supply-chains-in-a-post-pandemic-world",
+          "title": "Global Supply Chains in a Post-Pandemic World",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.apics.org/apics-for-individuals/apics-magazine-home/supply-chain-topics/decoupling-points",
+          "title": "Strategic Decoupling Points in Supply Chain Design",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Abandon JIT entirely and shift all 340 components to a 10-day safety stock model at each assembly plant, ensuring no disruption can halt production for at least two weeks",
+            "sacrifice": "Work-in-process inventory explodes from $12M to over $85M, and the carrying costs plus warehouse expansion negate the disruption protection savings",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Maintain pure JIT but purchase supply chain disruption insurance to cover the $2.8M daily production loss, financially hedging the risk without changing operations",
+            "sacrifice": "Insurance doesn't restart production lines — customer delivery commitments are still missed during disruptions, damaging long-term contracts with automakers",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Dual-source all 340 components to eliminate single-source risk, requiring each component to have at least two qualified suppliers capable of full-volume production",
+            "sacrifice": "Qualifying 340+ additional suppliers costs millions in audit and testing, splits volume and weakens leverage with primary suppliers, and many specialized components have only one viable manufacturer",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_G_demand_agility_vs_sourcing_stability",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A fashion retailer's supply chain detects demand signals through social media trend analysis and POS data, enabling it to identify emerging trends 3-4 weeks before competitors. However, its primary suppliers in Vietnam and Bangladesh require 12-week commitments for fabric procurement and 8-week production lead times. Attempting to pivot orders based on market signals has strained supplier relationships — two key factories reduced the retailer's priority status after repeated order modifications in the past season.",
+      "objective_a": {
+        "label": "Respond rapidly to market demand signals",
+        "concept_id": "G.9",
+        "section": "G"
+      },
+      "objective_b": {
+        "label": "Maintain stable sourcing relationships and commitments",
+        "concept_id": "G.6",
+        "section": "G"
+      },
+      "levers": [
+        { "concept_id": "G.9", "label": "Market signal and demand impact", "section": "G" },
+        { "concept_id": "G.6", "label": "Product sourcing decisions", "section": "G" },
+        { "concept_id": "G.8", "label": "Meeting consumer needs", "section": "G" }
+      ],
+      "correct_strategy": "Split the sourcing model into two tiers: commit 70% of seasonal volume to offshore suppliers 12 weeks ahead based on baseline forecasts (honoring their lead time requirements), and reserve 30% of open-to-buy budget for nearshore suppliers with 3-4 week lead times who produce trend-responsive styles identified by demand signals, accepting higher per-unit costs for the agile portion",
+      "correct_sacrifice": "The nearshore agile production costs 25-40% more per unit than offshore, reducing gross margins on the trend-responsive 30% of the assortment and requiring investment in qualifying and maintaining a secondary nearshore supplier base",
+      "explanation": "The retailer's demand sensing capability is wasted if the supply chain can't act on signals within the trend window. But destroying offshore supplier relationships eliminates the cost advantage on predictable base products. The dual-tier model matches sourcing strategy to demand certainty: stable baseline styles go offshore with reliable commitments (restoring supplier trust), while trend-driven styles use nearshore agility where the margin premium is justified by higher sell-through rates and fewer markdowns. The 70/30 split protects the core business while monetizing the demand signal advantage on the portion of the assortment where speed creates the most value.",
+      "key_terms": [
+        "dual sourcing strategy",
+        "nearshoring",
+        "demand sensing",
+        "agile supply chain"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/industries/retail/our-insights/fast-fashion-speed-and-agility",
+          "title": "Speed and Agility in Fashion Supply Chains",
+          "site": "McKinsey"
+        },
+        {
+          "url": "https://hbr.org/2022/11/is-it-time-to-rethink-your-sourcing-strategy",
+          "title": "Is It Time to Rethink Your Sourcing Strategy?",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Move all production to nearshore suppliers with 3-4 week lead times, fully leveraging the demand signal advantage by making the entire assortment responsive to real-time trends",
+            "sacrifice": "Per-unit costs increase 25-40% across the entire line, not just the trend portion, making base products uncompetitive on price against competitors using offshore manufacturing",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Keep all production offshore but negotiate flexible order modification clauses into supplier contracts, allowing up to 40% order changes within 4 weeks of delivery",
+            "sacrifice": "Suppliers either refuse the terms or price in the flexibility risk, and the two factories that already reduced priority status are unlikely to accept even more volatile commitments",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Abandon the demand signal capability and return to traditional seasonal buying with 12-week offshore commitments for the full assortment, avoiding supplier relationship friction entirely",
+            "sacrifice": "The 3-4 week trend detection advantage — a genuine competitive moat — is wasted, and the retailer returns to industry-average markdown rates on missed trends",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}

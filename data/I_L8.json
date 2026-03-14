@@ -1,0 +1,82 @@
+{
+  "section_id": "I",
+  "section_title": "Supply Chain Coordination and Decision Making for the Flow of Products, Services, and Information",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "micro_definitions": [
+    {
+      "id": "I.1",
+      "topic": "Explain the importance of cooperation and coordination in a supply chain",
+      "micro_definition": "Partners aligning actions and sharing plans to eliminate waste and delay.",
+      "explanation": "When organizations synchronize their forecasts, production schedules, and replenishment orders, the entire network runs more efficiently. Without this alignment, each party optimizes locally, creating excess inventory buffers and communication gaps that inflate total cost.",
+      "key_terms": ["alignment", "collaboration", "waste elimination", "synchronization"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx", "title": "SCM Definitions and Glossary of Terms", "site": "CSCMP" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["I.2", "I.4"]
+      }
+    },
+    {
+      "id": "I.2",
+      "topic": "Describe the role of outsourcing in a supply chain",
+      "micro_definition": "Delegating specific operations to external specialists for cost or capability advantages.",
+      "explanation": "Organizations transfer non-core activities like manufacturing, logistics, or IT to third parties who can perform them more efficiently. This lets the outsourcing firm focus resources on its competitive strengths while leveraging the partner's scale and expertise.",
+      "key_terms": ["third-party", "specialization", "core competency", "cost advantage"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/o/outsourcing.asp", "title": "Outsourcing Definition", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["I.1", "I.3"]
+      }
+    },
+    {
+      "id": "I.3",
+      "topic": "Describe measurement of supply chain performance",
+      "micro_definition": "Tracking metrics like fill rate, cycle time, and cost to evaluate network effectiveness.",
+      "explanation": "Performance measurement uses quantitative indicators to reveal how well the network delivers on its goals. Key metrics span reliability (on-time delivery), responsiveness (lead time), and efficiency (cost per unit), giving managers data to drive improvement.",
+      "key_terms": ["fill rate", "cycle time", "KPIs", "benchmarking"],
+      "sources": [
+        { "url": "https://scor.ascm.org/", "title": "SCOR Model", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["I.4", "I.1"]
+      }
+    },
+    {
+      "id": "I.4",
+      "topic": "Explain the role of the team in supply chain management",
+      "micro_definition": "Cross-functional groups collaborating to solve problems that span organizational boundaries.",
+      "explanation": "No single department controls the entire flow from supplier to customer. Teams that include procurement, operations, logistics, and sales break down silos, enabling faster decision-making and more holistic solutions to network-wide challenges.",
+      "key_terms": ["cross-functional", "collaboration", "silos", "problem-solving"],
+      "sources": [
+        { "url": "https://hbr.org/2015/06/cross-functional-teams", "title": "Cross-Functional Teams in Supply Chain", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["I.1", "I.3"]
+      }
+    },
+    {
+      "id": "I.5",
+      "topic": "Describe the channels of distribution for supply chain management",
+      "micro_definition": "Pathways through which products travel from producer to final buyer.",
+      "explanation": "Channels define the sequence of intermediaries — wholesalers, distributors, retailers — that a product passes through before reaching the consumer. Channel design determines cost structure, delivery speed, and market reach.",
+      "key_terms": ["intermediaries", "wholesaler", "retailer", "market reach"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/d/distribution-channel.asp", "title": "Distribution Channel", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["I.2", "I.4"]
+      }
+    }
+  ]
+}

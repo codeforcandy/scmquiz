@@ -1,0 +1,97 @@
+{
+  "section_id": "J",
+  "section_title": "Supply Chain Management Contemporary Issues",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "micro_definitions": [
+    {
+      "id": "J.1",
+      "topic": "Describe the impact of information technology in supply chain management",
+      "micro_definition": "Digital systems automating visibility, communication, and decision-making across the network.",
+      "explanation": "Technologies like ERP, EDI, and RFID replace manual processes with real-time data sharing between partners. This automation reduces errors, accelerates order processing, and gives managers the visibility needed to respond quickly to disruptions.",
+      "key_terms": ["ERP", "EDI", "RFID", "real-time visibility"],
+      "sources": [
+        { "url": "https://www.gartner.com/en/supply-chain/topics/supply-chain-technology", "title": "Supply Chain Technology", "site": "Gartner" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["J.2", "J.3"]
+      }
+    },
+    {
+      "id": "J.2",
+      "topic": "Explain how E-business has impacted supply chain management",
+      "micro_definition": "Online platforms transforming ordering, fulfillment, and partner collaboration.",
+      "explanation": "E-business digitizes transactions between firms, enabling automated procurement, real-time inventory sharing, and electronic invoicing. This shift reduces transaction costs, shortens cycle times, and enables smaller firms to participate in global networks.",
+      "key_terms": ["digital transactions", "automated procurement", "electronic invoicing", "B2B platforms"],
+      "sources": [
+        { "url": "https://www.supplychaindigital.com/technology/e-business-supply-chain", "title": "E-Business and Supply Chain Transformation", "site": "Supply Chain Digital" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["J.1", "J.4"]
+      }
+    },
+    {
+      "id": "J.3",
+      "topic": "Describe the financial flow in supply chain management",
+      "micro_definition": "Money moving between partners through payments, credit terms, and cost-sharing arrangements.",
+      "explanation": "Financial flows travel in the opposite direction of goods — from buyer back to seller. They include invoices, payment terms, trade credit, and revenue-sharing agreements that keep every partner financially viable and motivated to perform.",
+      "key_terms": ["payment terms", "trade credit", "invoicing", "revenue sharing"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/s/supply-chain-finance.asp", "title": "Supply Chain Finance", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["J.1", "J.5"]
+      }
+    },
+    {
+      "id": "J.4",
+      "topic": "Explain how e-commerce has impacted channels of distribution",
+      "micro_definition": "Direct-to-consumer selling reshaping traditional intermediary-based delivery networks.",
+      "explanation": "E-commerce allows producers to bypass wholesalers and retailers, selling directly to end customers online. This disintermediation compresses channels, shifts fulfillment responsibility, and raises customer expectations for speed and convenience.",
+      "key_terms": ["direct-to-consumer", "disintermediation", "online fulfillment", "channel compression"],
+      "sources": [
+        { "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/e-commerce", "title": "E-Commerce and Distribution", "site": "McKinsey & Company" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["J.2", "J.5"]
+      }
+    },
+    {
+      "id": "J.5",
+      "topic": "Describe political and economic events that impact supply chain management",
+      "micro_definition": "Government policies, trade disputes, and economic shifts disrupting established network operations.",
+      "explanation": "Events like tariff wars, sanctions, recessions, and regulatory changes force companies to reroute sourcing, adjust inventory buffers, and redesign networks. Firms that monitor geopolitical risk can adapt faster than competitors caught off guard.",
+      "key_terms": ["tariffs", "sanctions", "geopolitical risk", "economic disruption"],
+      "sources": [
+        { "url": "https://www.weforum.org/agenda/supply-chain-geopolitics/", "title": "Supply Chain Geopolitics", "site": "World Economic Forum" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["J.6", "J.3"]
+      }
+    },
+    {
+      "id": "J.6",
+      "topic": "Explain how competition impact supply chain management decisions",
+      "micro_definition": "Rival actions forcing faster, cheaper, or more innovative network responses.",
+      "explanation": "When competitors offer same-day delivery or lower prices, firms must reengineer their networks to match or exceed those standards. Competition turns the network into a strategic weapon — those with superior coordination gain market share.",
+      "key_terms": ["competitive pressure", "responsiveness", "strategic advantage", "market share"],
+      "sources": [
+        { "url": "https://hbr.org/2004/10/building-deep-supplier-relationships", "title": "Competing Through Supply Chains", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "remember",
+        "difficulty": "hard",
+        "distractor_ids": ["J.5", "J.1"]
+      }
+    }
+  ]
+}

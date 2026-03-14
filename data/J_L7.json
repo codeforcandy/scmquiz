@@ -1,0 +1,193 @@
+{
+  "section_id": "J",
+  "section_title": "Supply Chain Management Contemporary Issues",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "tradeoffs": [
+    {
+      "id": "TRADEOFF_J_tech_efficiency_vs_geopolitical_resilience",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A semiconductor company operates AI-driven demand planning and automated warehouse systems in its Southeast Asian hub, achieving 23% lower logistics costs than competitors. However, escalating trade tensions in the region have triggered two 3-week operational shutdowns in 18 months, each costing $8M in lost revenue. Relocating to a politically stable region would increase operating costs by 15% but eliminate geopolitical disruption risk.",
+      "objective_a": {
+        "label": "Leverage advanced IT systems for supply chain efficiency",
+        "concept_id": "J.1",
+        "section": "J"
+      },
+      "objective_b": {
+        "label": "Build geopolitical resilience against political and economic disruption",
+        "concept_id": "J.5",
+        "section": "J"
+      },
+      "levers": [
+        { "concept_id": "J.3", "label": "Financial flow management", "section": "J" },
+        { "concept_id": "J.6", "label": "Competition impact on supply chain", "section": "J" },
+        { "concept_id": "J.2", "label": "E-business impact on supply chain", "section": "J" }
+      ],
+      "correct_strategy": "Maintain the Southeast Asian hub as the primary node but deploy a cloud-based digital twin of the operation in a stable secondary region, pre-positioned with minimum viable inventory and pre-negotiated 3PL contracts that can activate within 72 hours of a disruption trigger",
+      "correct_sacrifice": "Ongoing cost of maintaining the dormant secondary site (estimated 4-5% cost premium) and slightly degraded performance during failover periods compared to the optimized primary hub",
+      "explanation": "Full relocation permanently sacrifices the 23% cost advantage to eliminate a risk that may or may not materialize. The digital twin approach preserves the IT-driven efficiency of the primary hub while creating an executable contingency. The cloud-based systems can replicate the AI planning capabilities at the secondary site, so the technology investment is not location-dependent. The 4-5% insurance cost is far less than the 15% relocation premium and provides resilience against the $16M annual disruption exposure. This reframes the tradeoff from 'where to operate' to 'how to make operations portable.'",
+      "key_terms": [
+        "digital twin",
+        "geopolitical risk mitigation",
+        "supply chain resilience",
+        "contingency operations"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/risk-resilience-and-rebalancing-in-global-value-chains",
+          "title": "Risk, Resilience, and Rebalancing in Global Value Chains",
+          "site": "McKinsey"
+        },
+        {
+          "url": "https://hbr.org/2020/09/global-supply-chains-in-a-post-pandemic-world",
+          "title": "Global Supply Chains in a Post-Pandemic World",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Fully relocate all operations to a politically stable country, rebuilding the AI-driven systems from scratch in the new location to eliminate all geopolitical risk",
+            "sacrifice": "The 15% cost increase permanently destroys the competitive advantage, and the 18-24 month migration period creates extended vulnerability",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Purchase political risk insurance to cover disruption losses and continue operating exclusively in the current location without any contingency infrastructure",
+            "sacrifice": "Insurance covers financial losses but not customer defection, market share erosion, or reputational damage during extended shutdowns",
+            "flaw": "avoids_tradeoff"
+          },
+          {
+            "strategy": "Reduce technology dependency by reverting to manual planning processes that can operate anywhere, making the operation location-independent without needing advanced IT infrastructure",
+            "sacrifice": "Eliminating AI-driven planning destroys the 23% cost advantage — the very efficiency that makes the operation valuable",
+            "flaw": "wrong_direction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_J_ecommerce_expansion_vs_channel_cannibalization",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A sporting goods brand generates $340M through 1,200 retail partners. Its new direct-to-consumer e-commerce channel grew 85% year-over-year to $45M, but three major retail chains (representing $90M in wholesale revenue) have threatened to reduce shelf space by 50% if the brand continues undercutting retail prices online. The e-commerce channel carries 42% gross margins versus 28% through wholesale.",
+      "objective_a": {
+        "label": "Expand e-commerce channel for higher margins and direct customer relationships",
+        "concept_id": "J.4",
+        "section": "J"
+      },
+      "objective_b": {
+        "label": "Protect existing retail channel partnerships and wholesale revenue",
+        "concept_id": "J.2",
+        "section": "J"
+      },
+      "levers": [
+        { "concept_id": "J.6", "label": "Competition impact on supply chain", "section": "J" },
+        { "concept_id": "J.3", "label": "Financial flow management", "section": "J" },
+        { "concept_id": "J.1", "label": "IT impact on supply chain", "section": "J" }
+      ],
+      "correct_strategy": "Differentiate the channels by offering exclusive online-only product lines and colorways through e-commerce while maintaining MAP (minimum advertised price) policies that prevent direct price competition with retail partners. Use the e-commerce channel for customer data collection that benefits retail partners through better demand forecasting shared with them",
+      "correct_sacrifice": "Slower e-commerce growth rate (likely 40-50% instead of 85%) because price parity and product differentiation limit the direct conversion of retail customers to online buyers",
+      "explanation": "Channel conflict arises when both channels compete for the same customers with the same products at different prices. Product differentiation eliminates direct price comparison, while MAP policies ensure that even shared products are priced consistently. Sharing e-commerce customer data with retail partners converts the channel from a threat into a value-add, giving retailers a reason to support rather than resist the online presence. The sacrifice is growth velocity — the 85% growth rate was partly driven by undercutting retail prices, and removing that lever slows expansion. But preserving the $90M retail relationship while growing a differentiated online channel is more valuable than maximizing one channel at the expense of the other.",
+      "key_terms": [
+        "channel conflict",
+        "minimum advertised price",
+        "direct-to-consumer",
+        "channel differentiation"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2018/11/how-to-win-at-direct-to-consumer",
+          "title": "How to Win at Direct-to-Consumer",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.supplychaindigital.com/logistics/managing-channel-conflict-omnichannel-supply-chains",
+          "title": "Managing Channel Conflict in Omnichannel Supply Chains",
+          "site": "Supply Chain Digital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Abandon the e-commerce channel entirely and recommit to retail exclusivity, using the $45M online revenue to fund deeper retail partnership programs and in-store brand experiences",
+            "sacrifice": "Forfeits the 42% margin channel and direct customer relationships, leaving the brand dependent on retail partners who face their own secular decline",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Accelerate e-commerce growth to $120M within two years by aggressively pricing below retail, planning to replace the wholesale revenue with higher-margin direct sales before retailers can react",
+            "sacrifice": "The three major chains immediately cut shelf space, destroying $90M in revenue that the e-commerce channel cannot replace fast enough, creating a $45M+ revenue gap",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Sell the e-commerce operation to a marketplace partner like Amazon and collect royalties, removing the brand from direct channel conflict while still reaching online customers",
+            "sacrifice": "Loses control of pricing, customer data, and brand experience online — the strategic assets that make e-commerce valuable beyond its revenue",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRADEOFF_J_payment_optimization_vs_supplier_relationships",
+      "subtype": "strategic_tradeoff",
+      "scenario": "A large retailer extended supplier payment terms from Net-30 to Net-90, freeing $280M in working capital that funded store expansion. However, 18 months later, three critical suppliers have downgraded the retailer to allocation-only status during shortages, lead times from mid-tier suppliers have increased by 2 weeks, and supplier-funded innovation (co-developed exclusive products) has dropped by 60%.",
+      "objective_a": {
+        "label": "Optimize financial flows through extended payment terms",
+        "concept_id": "J.3",
+        "section": "J"
+      },
+      "objective_b": {
+        "label": "Maintain competitive supplier relationships for preferential treatment",
+        "concept_id": "J.6",
+        "section": "J"
+      },
+      "levers": [
+        { "concept_id": "J.1", "label": "IT impact on supply chain", "section": "J" },
+        { "concept_id": "J.5", "label": "Political and economic events impact", "section": "J" },
+        { "concept_id": "J.2", "label": "E-business impact on supply chain", "section": "J" }
+      ],
+      "correct_strategy": "Implement a tiered payment structure: restore Net-30 terms for strategic suppliers (top 15% by criticality and innovation contribution) while offering a supply chain finance program for mid-tier suppliers that lets them access early payment at a discount through a bank partner — the retailer keeps its working capital benefit while suppliers get paid faster",
+      "correct_sacrifice": "Reduced working capital benefit for strategic suppliers (approximately $60-80M of the $280M returns to faster payment) and ongoing cost of the supply chain finance program",
+      "explanation": "The blanket Net-90 policy treated all suppliers identically, which destroyed relationships with the critical few whose preferential treatment and innovation contributions far exceeded the working capital benefit. Tiering by strategic importance restores goodwill with high-value suppliers while supply chain finance (reverse factoring) lets mid-tier suppliers access early payment funded by the retailer's superior credit rating — a win-win that preserves most of the working capital advantage. The $60-80M returned to faster terms for strategic suppliers is far less than the cost of lost allocation priority and co-developed products.",
+      "key_terms": [
+        "supply chain finance",
+        "reverse factoring",
+        "supplier tiering",
+        "working capital optimization"
+      ],
+      "sources": [
+        {
+          "url": "https://hbr.org/2015/06/the-dark-side-of-extended-payment-terms",
+          "title": "The Dark Side of Extended Payment Terms",
+          "site": "Harvard Business Review"
+        },
+        {
+          "url": "https://www.mckinsey.com/capabilities/operations/our-insights/supply-chain-finance-the-next-frontier",
+          "title": "Supply Chain Finance: The Next Frontier",
+          "site": "McKinsey"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "create",
+        "difficulty": "hard",
+        "distractor_strategies": [
+          {
+            "strategy": "Revert all suppliers to Net-30 terms immediately and issue a formal apology, hoping to restore pre-extension relationship quality and innovation collaboration levels",
+            "sacrifice": "Returns the full $280M working capital to suppliers, undermining the store expansion that the freed capital funded and potentially creating a liquidity crisis",
+            "flaw": "wrong_direction"
+          },
+          {
+            "strategy": "Extend terms further to Net-120 for non-critical suppliers while restoring Net-30 for strategic ones, offsetting the working capital loss from strategic supplier restoration",
+            "sacrifice": "Non-critical suppliers may refuse the terms or go bankrupt, and the retailer's reputation as a partner deteriorates across the entire supply base",
+            "flaw": "ignores_constraint"
+          },
+          {
+            "strategy": "Replace the suppliers who downgraded the retailer's allocation status with new suppliers who accept Net-90 terms, avoiding the need to change payment policies",
+            "sacrifice": "New suppliers lack the institutional knowledge, co-development history, and product quality of established partners — the relationship value that took years to build cannot be quickly replaced",
+            "flaw": "avoids_tradeoff"
+          }
+        ]
+      }
+    }
+  ]
+}
