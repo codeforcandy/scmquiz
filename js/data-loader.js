@@ -42,7 +42,12 @@ export async function loadAllData() {
       .then(r => r.ok ? r.json() : { section_id: s, micro_definitions: [] })
       .catch(() => ({ section_id: s, micro_definitions: [] }))
   );
-  const [l1Results, l2Results, l3Results, l4Results, l5Results, l6Results, l7Results, l8Results] = await Promise.all([
+  const l9Fetches = SECTIONS.map(s =>
+    fetch(`data/${s}_L9.json`)
+      .then(r => r.ok ? r.json() : { section_id: s, reverse_matches: [] })
+      .catch(() => ({ section_id: s, reverse_matches: [] }))
+  );
+  const [l1Results, l2Results, l3Results, l4Results, l5Results, l6Results, l7Results, l8Results, l9Results] = await Promise.all([
     Promise.all(l1Fetches),
     Promise.all(l2Fetches),
     Promise.all(l3Fetches),
@@ -51,6 +56,7 @@ export async function loadAllData() {
     Promise.all(l6Fetches),
     Promise.all(l7Fetches),
     Promise.all(l8Fetches),
+    Promise.all(l9Fetches),
   ]);
 
   const concepts = new Map();
@@ -71,6 +77,7 @@ export async function loadAllData() {
       l6ConceptCount: 0,
       l7ConceptCount: 0,
       l8ConceptCount: 0,
+      l9ConceptCount: 0,
     });
 
     for (const concept of items) {
@@ -191,6 +198,22 @@ export async function loadAllData() {
         section: section_id,
         sectionTitle: meta ? meta.title : section_id,
         level: 'L8',
+      });
+    }
+  }
+
+  // Load L9 reverse matches
+  for (const sectionData of l9Results) {
+    const { section_id, reverse_matches: items } = sectionData;
+    const meta = sectionMeta.get(section_id);
+    if (meta) meta.l9ConceptCount = (items || []).length;
+
+    for (const entry of items || []) {
+      concepts.set(entry.id + '_L9', {
+        ...entry,
+        section: section_id,
+        sectionTitle: meta ? meta.title : section_id,
+        level: 'L9',
       });
     }
   }

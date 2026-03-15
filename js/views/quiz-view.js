@@ -48,6 +48,9 @@ function formatQuestionText(q, answer) {
   } else if (q.questionType === 'relationship') {
     lines.push('How are these concepts connected?');
     lines.push(`${q.sourceConcept.label} ↕ ${q.relationshipType.replace(/_/g, ' ')} ↕ ${q.targetConcept.label}`);
+  } else if (q.questionType === 'reverse_match') {
+    lines.push('What does this concept mean?');
+    lines.push(q.topicPrompt);
   } else if (q.questionType === 'micro_definition') {
     lines.push('Name this concept.');
     lines.push(q.definition);
@@ -205,6 +208,7 @@ function renderQuestion() {
   const isCrossBridge = q.questionType === 'cross_section_bridge';
   const isTradeoff = q.questionType === 'strategic_tradeoff';
   const isMicro = q.questionType === 'micro_definition';
+  const isReverse = q.questionType === 'reverse_match';
   let cardClass = 'card card--bordered definition-card card-enter';
   if (isScenario) cardClass = 'card card--bordered scenario-card card-enter';
   else if (isAnalogy) cardClass = 'card card--bordered analogy-card card-enter';
@@ -213,6 +217,7 @@ function renderQuestion() {
   else if (isCrossBridge) cardClass = 'card card--bordered bridge-card card-enter';
   else if (isTradeoff) cardClass = 'card card--bordered tradeoff-card card-enter';
   else if (isMicro) cardClass = 'card card--bordered micro-card card-enter';
+  else if (isReverse) cardClass = 'card card--bordered reverse-card card-enter';
   const card = el('div', cardClass);
   card.style.setProperty('--card-section-color', color);
 
@@ -336,6 +341,9 @@ function renderQuestion() {
   } else if (isAnalogy) {
     card.appendChild(el('p', 'analogy-card__prompt', 'Which concept does this describe?'));
     card.appendChild(el('p', 'analogy-card__text', q.definition));
+  } else if (isReverse) {
+    card.appendChild(el('p', 'reverse-card__prompt', 'What does this concept mean?'));
+    card.appendChild(el('p', 'reverse-card__topic', q.topicPrompt));
   } else if (isMicro) {
     card.appendChild(el('p', 'micro-card__prompt', 'Name this concept.'));
     card.appendChild(el('p', 'micro-card__text', q.definition));

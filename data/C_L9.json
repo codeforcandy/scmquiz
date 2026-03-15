@@ -1,0 +1,172 @@
+{
+  "section_id": "C",
+  "section_title": "Characteristics for Successful Supply Chain Managers",
+  "generated_at": "2026-03-15T00:00:00Z",
+  "reverse_matches": [
+    {
+      "id": "C.1",
+      "topic": "Describe leadership opportunities for supply chain management",
+      "short_definition": "Guiding cross-functional teams through complex coordination challenges that span entire organizations.",
+      "explanation": "Supply chain leaders orchestrate collaboration across procurement, manufacturing, logistics, and sales. These roles offer increasing responsibility as professionals advance from team leads to VP-level positions overseeing global operations.",
+      "key_terms": ["cross-functional leadership", "team coordination", "executive roles", "organizational influence"],
+      "sources": [
+        { "url": "https://www.gartner.com/en/supply-chain/trends/supply-chain-leadership", "title": "Supply Chain Leadership Trends", "site": "Gartner" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.7", "C.11", "C.2"]
+      }
+    },
+    {
+      "id": "C.2",
+      "topic": "Describe effective communication skills for supply chain managers",
+      "short_definition": "Clearly conveying plans, priorities, and changes across diverse internal and external stakeholders.",
+      "explanation": "Managers must translate technical details for executives, negotiate with suppliers in precise terms, and coordinate with warehouse teams using clear instructions. Miscommunication causes delays, errors, and broken partnerships.",
+      "key_terms": ["stakeholder communication", "clarity", "negotiation", "cross-functional dialogue"],
+      "sources": [
+        { "url": "https://www.ascm.org/ascm-insights/communication-skills", "title": "Communication in Supply Chain", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.4", "C.7", "C.1"]
+      }
+    },
+    {
+      "id": "C.3",
+      "topic": "Explain responsibility ethics for supply chain management",
+      "short_definition": "Upholding honest, fair, and transparent practices throughout every stage of the network.",
+      "explanation": "Ethical responsibility covers anti-corruption, fair labor standards, environmental compliance, and honest supplier dealings. Managers who cut ethical corners expose their organizations to legal liability, reputational damage, and partner distrust.",
+      "key_terms": ["integrity", "compliance", "fair labor", "anti-corruption"],
+      "sources": [
+        { "url": "https://www.ism.ws/about/ethical-standards", "title": "ISM Ethical Standards", "site": "Institute for Supply Management" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["C.11", "C.1", "C.7"]
+      }
+    },
+    {
+      "id": "C.4",
+      "topic": "Describe language skills possessed by successful chain managers",
+      "short_definition": "Multilingual ability enabling effective negotiation and coordination with global partners.",
+      "explanation": "International operations require communicating with suppliers, carriers, and customers who speak different languages. Even basic proficiency in a second language builds trust and reduces misunderstandings in cross-border relationships.",
+      "key_terms": ["multilingual", "global communication", "cross-cultural", "international negotiation"],
+      "sources": [
+        { "url": "https://hbr.org/2012/05/global-business-speaks-english", "title": "Global Business Speaks English", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.2", "C.6", "C.7"]
+      }
+    },
+    {
+      "id": "C.5",
+      "topic": "Explain the importance of flexible thinking in supply chain management",
+      "short_definition": "Adapting approaches quickly when disruptions invalidate existing plans and assumptions.",
+      "explanation": "Rigid plans fail when suppliers default, demand spikes unexpectedly, or natural disasters close ports. Flexible thinkers pivot to alternative solutions, reroute shipments, and adjust production schedules without paralysis.",
+      "key_terms": ["adaptability", "contingency planning", "agility", "disruption response"],
+      "sources": [
+        { "url": "https://www.mckinsey.com/capabilities/operations/our-insights/supply-chain-resilience", "title": "Building Supply Chain Resilience", "site": "McKinsey & Company" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.9", "C.11", "C.7"]
+      }
+    },
+    {
+      "id": "C.6",
+      "topic": "Understand freight terminology",
+      "short_definition": "Knowing specialized shipping vocabulary for accurate carrier communication and documentation.",
+      "explanation": "Terms like FOB, CIF, LTL, FTL, bill of lading, and demurrage have precise meanings that govern costs and liability. Misunderstanding these terms leads to unexpected charges, liability disputes, and shipment delays.",
+      "key_terms": ["FOB", "bill of lading", "incoterms", "freight classification"],
+      "sources": [
+        { "url": "https://www.iccwbo.org/business-solutions/incoterms-rules/", "title": "Incoterms Rules", "site": "International Chamber of Commerce" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["C.4", "C.8", "C.10"]
+      }
+    },
+    {
+      "id": "C.7",
+      "topic": "Explain the importance of people and problem-solving skills among successful supply chain managers",
+      "short_definition": "Resolving operational conflicts through interpersonal judgment and analytical reasoning together.",
+      "explanation": "Network operations constantly generate problems involving people — supplier disputes, team conflicts, customer complaints. Effective managers combine empathy and relationship skills with structured analytical thinking to find workable solutions.",
+      "key_terms": ["interpersonal skills", "conflict resolution", "analytical thinking", "collaboration"],
+      "sources": [
+        { "url": "https://www.ascm.org/ascm-insights/soft-skills-supply-chain", "title": "Soft Skills in Supply Chain", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.1", "C.2", "C.5"]
+      }
+    },
+    {
+      "id": "C.8",
+      "topic": "Explain the importance of technology skills among supply chain managers",
+      "short_definition": "Leveraging digital tools to automate, analyze, and optimize network operations effectively.",
+      "explanation": "Modern operations run on ERP systems, warehouse management software, transportation management systems, and analytics platforms. Managers who understand these technologies make faster, better-informed decisions and drive continuous improvement.",
+      "key_terms": ["ERP", "WMS", "TMS", "digital literacy", "automation"],
+      "sources": [
+        { "url": "https://www.gartner.com/en/supply-chain/topics/supply-chain-technology", "title": "Supply Chain Technology", "site": "Gartner" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["C.10", "C.6", "C.7"]
+      }
+    },
+    {
+      "id": "C.9",
+      "topic": "Explain the sense of urgency associated with supply chain management",
+      "short_definition": "Acting decisively under time pressure when delays cascade exponentially through the network.",
+      "explanation": "A one-hour delay at a supplier can become a one-week delay at the retailer. Successful managers recognize time sensitivity, prioritize rapid response, and avoid analysis paralysis when quick action prevents downstream disruption.",
+      "key_terms": ["time sensitivity", "rapid response", "cascade effect", "decisive action"],
+      "sources": [
+        { "url": "https://www.supplychainquarterly.com/articles/urgency-in-supply-chain", "title": "The Role of Urgency", "site": "Supply Chain Quarterly" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.5", "C.11", "C.7"]
+      }
+    },
+    {
+      "id": "C.10",
+      "topic": "Describe the importance of Excel knowledge for supply chain management",
+      "short_definition": "Using spreadsheet modeling for analysis, reporting, and quick decision support daily.",
+      "explanation": "Excel remains the universal tool for ad-hoc analysis, cost modeling, and data manipulation across the industry. Proficiency in pivot tables, VLOOKUP, and basic macros enables managers to answer questions quickly without waiting for IT support.",
+      "key_terms": ["spreadsheet modeling", "pivot tables", "data analysis", "reporting"],
+      "sources": [
+        { "url": "https://www.supplychainbrain.com/articles/excel-supply-chain", "title": "Excel Skills for Supply Chain", "site": "SupplyChainBrain" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["C.8", "C.6", "C.7"]
+      }
+    },
+    {
+      "id": "C.11",
+      "topic": "Describe the temperament required for successful supply chain management",
+      "short_definition": "Maintaining composure and persistence amid constant change and competing demands from all sides.",
+      "explanation": "The role involves daily surprises — shipment delays, quality issues, demand swings, and stakeholder conflicts. Professionals who stay calm under pressure, tolerate ambiguity, and persist through setbacks outperform those who become reactive or frustrated.",
+      "key_terms": ["composure", "resilience", "stress tolerance", "persistence"],
+      "sources": [
+        { "url": "https://hbr.org/2018/07/the-best-supply-chain-leaders", "title": "The Best Supply Chain Leaders", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["C.5", "C.9", "C.1"]
+      }
+    }
+  ]
+}

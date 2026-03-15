@@ -1,0 +1,112 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-15T00:00:00Z",
+  "reverse_matches": [
+    {
+      "id": "D.1",
+      "topic": "Explain the relationship between purchasing and supply chain management",
+      "short_definition": "How buying decisions connect to and shape the broader network's cost and performance.",
+      "explanation": "Purchasing is not an isolated transaction — each buying decision affects inventory levels, supplier relationships, lead times, and total network costs. Strategic purchasing aligns procurement choices with long-term network objectives rather than optimizing unit price alone.",
+      "key_terms": ["strategic purchasing", "supplier relationships", "total cost", "network impact"],
+      "sources": [
+        { "url": "https://www.ism.ws/ISM/ISM/About/Content/NavigationMenu/ISMAbout/PurchasingManagement.aspx", "title": "Purchasing and Supply Management", "site": "Institute for Supply Management" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["D.7", "D.5", "D.4"]
+      }
+    },
+    {
+      "id": "D.2",
+      "topic": "Explain how a company will provide value to supply chain management",
+      "short_definition": "Aligning organizational capabilities with network-wide performance goals and partner expectations.",
+      "explanation": "Each company contributes unique strengths — manufacturing expertise, distribution reach, technology platforms — that enhance overall network performance. Value provision means deploying these capabilities where they create the greatest collective benefit.",
+      "key_terms": ["capability alignment", "network contribution", "competitive advantage", "partner value"],
+      "sources": [
+        { "url": "https://hbr.org/2004/10/the-triple-a-supply-chain", "title": "The Triple-A Supply Chain", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["D.4", "D.5", "D.3"]
+      }
+    },
+    {
+      "id": "D.3",
+      "topic": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company",
+      "short_definition": "Selecting and configuring external partners to build an effective operational network.",
+      "explanation": "Companies evaluate potential partners on cost, capability, reliability, and strategic fit before assembling their network. These decisions — which suppliers to use, which carriers to contract, which distributors to engage — define the network's structure and performance ceiling.",
+      "key_terms": ["partner selection", "network configuration", "outsourcing decisions", "vendor evaluation"],
+      "sources": [
+        { "url": "https://www.mckinsey.com/capabilities/operations/our-insights/supplier-management", "title": "Strategic Supplier Management", "site": "McKinsey & Company" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["D.1", "D.6", "D.4"]
+      }
+    },
+    {
+      "id": "D.4",
+      "topic": "Define supply chain integration",
+      "short_definition": "Unifying processes, data, and decisions across partner organizations into one cohesive system.",
+      "explanation": "Integration breaks down silos between companies by sharing forecasts, inventory data, and production plans in real time. Tightly integrated networks respond faster to changes and eliminate the costly delays caused by information gaps between partners.",
+      "key_terms": ["process unification", "data sharing", "partner collaboration", "silo elimination"],
+      "sources": [
+        { "url": "https://www.sciencedirect.com/topics/engineering/supply-chain-integration", "title": "Supply Chain Integration", "site": "ScienceDirect" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["D.2", "D.3", "D.5"]
+      }
+    },
+    {
+      "id": "D.5",
+      "topic": "Describe management of supply and demand for supply chain management",
+      "short_definition": "Balancing what is available with what customers want across multiple time horizons.",
+      "explanation": "This involves matching production output and inventory positions to anticipated and actual customer demand. When supply and demand are misaligned, the result is either costly excess inventory or lost sales from stockouts.",
+      "key_terms": ["demand-supply balancing", "inventory optimization", "capacity matching", "service level"],
+      "sources": [
+        { "url": "https://www.apics.org/apics-for-individuals/apics-magazine-home/magazine-detail-page/2020/05/01/balancing-supply-and-demand", "title": "Balancing Supply and Demand", "site": "ASCM" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["D.7", "D.1", "D.6"]
+      }
+    },
+    {
+      "id": "D.6",
+      "topic": "Describe the efficient facility network design for supply chain management",
+      "short_definition": "Optimizing the number, size, and location of warehouses and plants to minimize total costs.",
+      "explanation": "Facility network design determines where to place production and storage sites relative to suppliers and customers. The goal is minimizing the combined cost of transportation, facility operations, and inventory while meeting service requirements.",
+      "key_terms": ["facility location", "network optimization", "warehouse placement", "distribution center"],
+      "sources": [
+        { "url": "https://www.supplychainquarterly.com/articles/network-design", "title": "Network Design Fundamentals", "site": "Supply Chain Quarterly" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["D.3", "D.7", "D.4"]
+      }
+    },
+    {
+      "id": "D.7",
+      "topic": "Explain the importance of expense management for supply chain management",
+      "short_definition": "Controlling costs across procurement, production, storage, and delivery without sacrificing performance.",
+      "explanation": "Expense management goes beyond cost cutting — it requires understanding cost drivers and tradeoffs across the entire network. Reducing warehousing costs may increase transportation costs, so managers must optimize total spend rather than individual line items.",
+      "key_terms": ["cost control", "total cost optimization", "cost drivers", "budget management"],
+      "sources": [
+        { "url": "https://www.deloitte.com/global/en/services/consulting/perspectives/supply-chain-cost-management.html", "title": "Supply Chain Cost Management", "site": "Deloitte" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["D.1", "D.5", "D.6"]
+      }
+    }
+  ]
+}

@@ -154,12 +154,16 @@ export function renderResultsView() {
           ? `${q.chain[0].label} \u2192 ${q.chain[1].label} \u2192 ${q.chain[2].label}`
           : (q.questionType === 'relationship' || q.questionType === 'cross_section_bridge')
             ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
-            : q.correctTopic;
+            : q.questionType === 'reverse_match'
+              ? q.topicPrompt
+              : q.correctTopic;
       const desc = q.questionType === 'strategic_tradeoff'
         ? q.scenario
         : (q.questionType === 'relationship' || q.questionType === 'consequence_chain' || q.questionType === 'cross_section_bridge')
           ? q.correctAnswer
-          : (q.scenario || q.definition);
+          : q.questionType === 'reverse_match'
+            ? q.correctAnswer
+            : (q.scenario || q.definition);
       text += `[${q.section}] ${label} (${status.join(', ')})\n`;
       text += `  ${(desc || '').slice(0, 120)}...\n\n`;
     }
@@ -216,6 +220,7 @@ function renderFilteredList(filter, session, flags, iffy) {
     const isChain = q.questionType === 'consequence_chain';
     const isBridge = q.questionType === 'cross_section_bridge';
     const isTradeoff = q.questionType === 'strategic_tradeoff';
+    const isReverse = q.questionType === 'reverse_match';
     const topicText = isTradeoff
       ? `${q.objectiveA.label} vs ${q.objectiveB.label}`
       : isChain
@@ -224,7 +229,9 @@ function renderFilteredList(filter, session, flags, iffy) {
           ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
           : isRelationship
             ? `${q.sourceConcept.label} \u2194 ${q.targetConcept.label}`
-            : q.correctTopic;
+            : isReverse
+              ? q.topicPrompt
+              : q.correctTopic;
     const topic = el('span', 'result-item__topic', topicText);
     if (!isCorrect) topic.style.color = 'var(--wrong)';
     hdr.appendChild(topic);
@@ -251,7 +258,11 @@ function renderFilteredList(filter, session, flags, iffy) {
       content.appendChild(wrongAns);
     }
 
-    if (isTradeoff) {
+    if (isReverse) {
+      const correctDesc = el('p', null, 'Correct definition: ' + (q.correctAnswer || a?.correct));
+      correctDesc.style.cssText = 'margin-bottom:var(--space-3);font-style:italic;color:var(--correct)';
+      content.appendChild(correctDesc);
+    } else if (isTradeoff) {
       const scenarioEl = el('p', null, q.scenario);
       scenarioEl.style.cssText = 'margin-bottom:var(--space-2);font-style:italic;font-size:var(--text-xs);color:var(--text-muted)';
       content.appendChild(scenarioEl);

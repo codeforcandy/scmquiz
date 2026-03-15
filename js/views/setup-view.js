@@ -67,7 +67,7 @@ export function renderSetupView() {
   const sub = document.createElement('p');
   sub.className = 'setup-header__subtitle';
   const totalConcepts = [...concepts.values()].length;
-  sub.textContent = `${totalConcepts} concepts across 11 sections (L1\u2013L8)`;
+  sub.textContent = `${totalConcepts} concepts across 11 sections (L1\u2013L9)`;
   header.append(h1, sub);
   container.appendChild(header);
 
@@ -94,6 +94,7 @@ export function renderSetupView() {
     { key: 'L6', label: 'L6 Systems', color: '#b91c1c', bg: 'rgba(185,28,28,0.08)' },
     { key: 'L7', label: 'L7 Tradeoffs', color: '#4338ca', bg: 'rgba(67,56,202,0.08)' },
     { key: 'L8', label: 'L8 Micro', color: '#0891b2', bg: 'rgba(8,145,178,0.08)' },
+    { key: 'L9', label: 'L9 Reverse', color: '#d946ef', bg: 'rgba(217,70,239,0.08)' },
   ];
   for (const lv of levels) {
     const chip = document.createElement('button');

@@ -1,0 +1,121 @@
+{
+  "section_id": "E",
+  "section_title": "Supply Chain Process",
+  "generated_at": "2026-03-15T00:00:00Z",
+  "reverse_matches": [
+    {
+      "id": "E.1",
+      "topic": "Describe the role of manufacturing in a supply chain context.",
+      "short_definition": "The transformation stage where components become sellable goods within a coordinated network.",
+      "explanation": "Manufacturing is the value-adding conversion step in any supply chain. It sits between sourcing and distribution, turning procured materials into products that downstream partners can store, ship, and sell. Its efficiency directly affects cost, lead time, and quality across the entire network.",
+      "key_terms": ["conversion process", "value-added transformation", "make process"],
+      "sources": [
+        {
+          "url": "https://www.supplychaindigital.com/supply-chain-management/role-of-manufacturing",
+          "title": "The Role of Manufacturing in Modern Supply Chains",
+          "site": "Supply Chain Digital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["E.4", "E.2", "E.3"]
+      }
+    },
+    {
+      "id": "E.2",
+      "topic": "Define inventory management's important relationship with supply chain management.",
+      "short_definition": "Balancing the cost of holding goods against the risk of running out.",
+      "explanation": "Inventory management is the continuous tradeoff between availability and carrying cost. Too much stock ties up capital and risks obsolescence; too little causes stockouts and lost sales. Effective control synchronizes replenishment with demand patterns across every node in the network.",
+      "key_terms": ["carrying cost", "stockout risk", "replenishment cycle"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/i/inventory-management.asp",
+          "title": "Inventory Management Defined",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["E.4", "E.1", "E.6"]
+      }
+    },
+    {
+      "id": "E.3",
+      "topic": "Explain transportation management in a supply chain.",
+      "short_definition": "Choosing how, when, and by whom goods physically travel between origin and destination.",
+      "explanation": "Transportation management covers carrier selection, mode choice, route optimization, and shipment consolidation. It is typically the largest single logistics cost, making efficiency gains here highly impactful. Decisions involve tradeoffs among speed, cost, reliability, and capacity.",
+      "key_terms": ["carrier selection", "mode choice", "route optimization"],
+      "sources": [
+        {
+          "url": "https://www.gartner.com/en/supply-chain/glossary/transportation-management",
+          "title": "Transportation Management",
+          "site": "Gartner"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "confusable_ids": ["E.4", "E.1", "E.5"]
+      }
+    },
+    {
+      "id": "E.4",
+      "topic": "Explain the role and cost of warehouses in supply chain management.",
+      "short_definition": "Facilities that buffer timing gaps between when goods are made and when they are needed.",
+      "explanation": "Warehouses decouple production schedules from consumption patterns, absorbing variability on both sides. They enable consolidation, break-bulk, and cross-docking operations. Their costs include real estate, labor, equipment, and the opportunity cost of the capital tied up in stored goods.",
+      "key_terms": ["buffer stock", "decoupling", "facility cost"],
+      "sources": [
+        {
+          "url": "https://www.logisticsmgmt.com/article/warehouse-costs-breakdown",
+          "title": "Understanding Warehouse Costs",
+          "site": "Logistics Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["E.2", "E.1", "E.3"]
+      }
+    },
+    {
+      "id": "E.5",
+      "topic": "Explain the process for product returns.",
+      "short_definition": "The reverse flow that moves unwanted or defective items back upstream for resolution.",
+      "explanation": "Returns management, or reverse logistics, handles goods flowing from the customer back toward the manufacturer or disposal point. It includes authorization, collection, inspection, refurbishment, and disposition. Efficient returns processes recover value and maintain customer trust.",
+      "key_terms": ["reverse logistics", "disposition", "return authorization"],
+      "sources": [
+        {
+          "url": "https://www.supplychainbrain.com/articles/reverse-logistics-explained",
+          "title": "Reverse Logistics Explained",
+          "site": "Supply Chain Brain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "confusable_ids": ["E.6", "E.3", "E.1"]
+      }
+    },
+    {
+      "id": "E.6",
+      "topic": "Describe the importance of customer service in a supply chain.",
+      "short_definition": "The function ensuring buyers receive the right product, on time, with issues resolved quickly.",
+      "explanation": "Customer service is the outward-facing measure of supply chain effectiveness. It encompasses order accuracy, on-time delivery, responsiveness to inquiries, and complaint resolution. High service levels build loyalty and repeat business, while failures erode trust regardless of upstream efficiency.",
+      "key_terms": ["order fulfillment", "service level", "responsiveness"],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/topics/business-management-and-accounting/customer-service-supply-chain",
+          "title": "Customer Service in Supply Chain Management",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["E.5", "E.2", "E.4"]
+      }
+    }
+  ]
+}

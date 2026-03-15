@@ -1,0 +1,262 @@
+{
+  "section_id": "K",
+  "section_title": "Channels of Distribution",
+  "generated_at": "2026-03-15T00:00:00Z",
+  "reverse_matches": [
+    {
+      "id": "K.1",
+      "topic": "Functions of distribution channels",
+      "short_definition": "Activities like sorting, storing, and transporting that move products toward buyers.",
+      "explanation": "Channel functions bridge the gap between production and consumption. They include breaking bulk into smaller quantities, maintaining inventory buffers, providing market information upstream, and physically delivering goods to where customers can access them.",
+      "key_terms": ["sorting", "bulk-breaking", "inventory buffer", "market information"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/d/distribution-channel.asp", "title": "Distribution Channel Functions", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.3", "K.4", "K.6"]
+      }
+    },
+    {
+      "id": "K.2",
+      "topic": "Time, place, and ownership utility",
+      "short_definition": "Making products available when, where, and in the form customers want them.",
+      "explanation": "Time utility means having goods ready at the moment of need; place utility means positioning them conveniently; ownership utility means enabling the transfer of title. Together, these three utilities define the value channels create for end customers.",
+      "key_terms": ["time utility", "place utility", "possession utility", "customer convenience"],
+      "sources": [
+        { "url": "https://www.marketing91.com/utility-marketing/", "title": "Types of Utility in Marketing", "site": "Marketing91" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.1", "K.5", "K.6"]
+      }
+    },
+    {
+      "id": "K.3",
+      "topic": "Role of marketing channels for assembly, storage, sorting, and transportation",
+      "short_definition": "Intermediary operations that aggregate, organize, and ship goods between producers and buyers.",
+      "explanation": "Marketing channels collect products from multiple producers, sort them by type or grade, store them until needed, and arrange delivery. These activities reconcile the mismatch between what producers make in bulk and what individual customers need.",
+      "key_terms": ["aggregation", "assortment", "warehousing", "bulk consolidation"],
+      "sources": [
+        { "url": "https://www.britannica.com/topic/marketing/Marketing-channels", "title": "Marketing Channels", "site": "Britannica" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.1", "K.9", "K.4"]
+      }
+    },
+    {
+      "id": "K.4",
+      "topic": "Facilitation in supply chain management",
+      "short_definition": "Support activities like financing, insurance, and market research enabling smooth transactions.",
+      "explanation": "Facilitating functions do not involve owning or physically handling goods but make transactions possible. Trade financing, cargo insurance, grading standards, and market intelligence all reduce friction so goods can flow without interruption.",
+      "key_terms": ["trade financing", "insurance", "grading", "market intelligence"],
+      "sources": [
+        { "url": "https://www.sciencedirect.com/topics/business/facilitating-function", "title": "Facilitating Functions in Distribution", "site": "ScienceDirect" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.5", "K.7", "K.1"]
+      }
+    },
+    {
+      "id": "K.5",
+      "topic": "Pre-sale and post-purchase services in distribution channels",
+      "short_definition": "Assistance provided before buying and after receiving to build customer confidence.",
+      "explanation": "Pre-sale services include product demonstrations, samples, and technical advice that help customers make informed decisions. Post-purchase services like installation, warranties, and returns handling ensure satisfaction and encourage repeat business.",
+      "key_terms": ["product demonstration", "warranty", "returns handling", "customer satisfaction"],
+      "sources": [
+        { "url": "https://www.marketing91.com/pre-sale-and-post-sale-services/", "title": "Pre-Sale and Post-Sale Services", "site": "Marketing91" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.4", "K.2", "K.14"]
+      }
+    },
+    {
+      "id": "K.6",
+      "topic": "How supply chain management creates efficiencies",
+      "short_definition": "Reducing redundant steps so fewer resources produce more output.",
+      "explanation": "Efficiencies emerge when partners eliminate duplicate inspections, consolidate shipments, share warehouses, and standardize processes. Each removed redundancy lowers total cost while maintaining or improving service levels across the network.",
+      "key_terms": ["redundancy elimination", "consolidation", "process standardization", "cost reduction"],
+      "sources": [
+        { "url": "https://www.supplychainquarterly.com/articles/efficiency-gains", "title": "Creating Supply Chain Efficiencies", "site": "Supply Chain Quarterly" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.1", "K.3", "K.7"]
+      }
+    },
+    {
+      "id": "K.7",
+      "topic": "Risk sharing in supply chain management",
+      "short_definition": "Distributing potential losses across multiple partners rather than one bearing all exposure.",
+      "explanation": "When intermediaries purchase inventory, they absorb demand uncertainty from the producer. Insurance pools, consignment arrangements, and joint ventures further spread financial exposure so no single firm faces catastrophic loss from market fluctuations.",
+      "key_terms": ["loss distribution", "demand uncertainty", "consignment", "joint ventures"],
+      "sources": [
+        { "url": "https://www.sciencedirect.com/topics/engineering/supply-chain-risk", "title": "Supply Chain Risk Sharing", "site": "ScienceDirect" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.4", "K.6", "K.16"]
+      }
+    },
+    {
+      "id": "K.8",
+      "topic": "Indirect channels of distribution",
+      "short_definition": "Using one or more middlemen between the producer and the end customer.",
+      "explanation": "Indirect channels insert wholesalers, distributors, or retailers into the path from maker to buyer. This approach trades some margin for broader market coverage, lower distribution costs per unit, and access to established retail relationships.",
+      "key_terms": ["middlemen", "wholesaler", "market coverage", "margin tradeoff"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/d/distribution-channel.asp", "title": "Direct vs Indirect Distribution", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.9", "K.10", "K.13"]
+      }
+    },
+    {
+      "id": "K.9",
+      "topic": "Role of intermediaries in selling products",
+      "short_definition": "Middlemen connecting producers to markets they could not reach alone.",
+      "explanation": "Intermediaries bring established customer relationships, local market knowledge, and existing infrastructure. They reduce the number of transactions needed by consolidating many producers' goods for many buyers, creating efficiency through specialization.",
+      "key_terms": ["market access", "transaction reduction", "local knowledge", "established relationships"],
+      "sources": [
+        { "url": "https://www.britannica.com/topic/marketing/Intermediaries", "title": "Role of Intermediaries", "site": "Britannica" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.8", "K.3", "K.14"]
+      }
+    },
+    {
+      "id": "K.10",
+      "topic": "One-level channel of distribution",
+      "short_definition": "A single intermediary — typically a retailer — between maker and buyer.",
+      "explanation": "In a one-level channel, the producer sells to a retailer who then sells to the consumer. This is common for consumer goods where retailers provide the storefront, shelf space, and customer interaction that producers cannot efficiently replicate.",
+      "key_terms": ["retailer", "single intermediary", "consumer goods", "storefront"],
+      "sources": [
+        { "url": "https://www.marketing91.com/levels-of-distribution/", "title": "Levels of Distribution Channel", "site": "Marketing91" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.11", "K.12", "K.8"]
+      }
+    },
+    {
+      "id": "K.11",
+      "topic": "Two-level channel of distribution",
+      "short_definition": "Both a wholesaler and retailer standing between producer and consumer.",
+      "explanation": "The producer sells to a wholesaler who breaks bulk and distributes to retailers, who then serve end customers. This structure suits products needing wide geographic coverage where direct-to-retail distribution would be too costly.",
+      "key_terms": ["wholesaler", "retailer", "bulk-breaking", "geographic coverage"],
+      "sources": [
+        { "url": "https://www.marketing91.com/levels-of-distribution/", "title": "Levels of Distribution Channel", "site": "Marketing91" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.10", "K.12", "K.8"]
+      }
+    },
+    {
+      "id": "K.12",
+      "topic": "Three-level channel of distribution",
+      "short_definition": "An agent, wholesaler, and retailer all involved before the product reaches the buyer.",
+      "explanation": "This longest common channel adds a broker or agent who connects producers with wholesalers, especially useful in fragmented industries or international trade. Each layer adds cost but also extends reach into markets otherwise inaccessible to the producer.",
+      "key_terms": ["agent", "broker", "wholesaler", "extended reach"],
+      "sources": [
+        { "url": "https://www.marketing91.com/levels-of-distribution/", "title": "Levels of Distribution Channel", "site": "Marketing91" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.11", "K.10", "K.8"]
+      }
+    },
+    {
+      "id": "K.13",
+      "topic": "Dual distribution",
+      "short_definition": "Selling through both direct and intermediary channels simultaneously.",
+      "explanation": "A manufacturer might operate its own retail stores while also selling through independent retailers and online marketplaces. This strategy maximizes market coverage but requires careful pricing and territory management to avoid channel conflict.",
+      "key_terms": ["multi-channel", "channel conflict", "market coverage", "hybrid strategy"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/d/dual-distribution.asp", "title": "Dual Distribution", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.8", "K.15", "K.9"]
+      }
+    },
+    {
+      "id": "K.14",
+      "topic": "How services use intermediaries to reach final customers",
+      "short_definition": "Non-physical offerings using agents or brokers to connect with end users.",
+      "explanation": "Services like insurance, travel, and financial products rely on intermediaries who provide expertise, trust, and customer access. Since services cannot be stored or shipped, these intermediaries focus on matching providers with buyers rather than handling physical goods.",
+      "key_terms": ["service intermediary", "broker", "intangible products", "customer access"],
+      "sources": [
+        { "url": "https://www.sciencedirect.com/topics/business/service-distribution", "title": "Service Distribution Channels", "site": "ScienceDirect" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["K.9", "K.5", "K.15"]
+      }
+    },
+    {
+      "id": "K.15",
+      "topic": "On-demand business model",
+      "short_definition": "Delivering products or services instantly when a customer requests them.",
+      "explanation": "On-demand models eliminate the wait between ordering and receiving by positioning resources close to anticipated need. Companies like ride-sharing services and same-day delivery platforms rely on real-time matching of supply with immediate customer requests.",
+      "key_terms": ["instant fulfillment", "real-time matching", "gig economy", "same-day delivery"],
+      "sources": [
+        { "url": "https://hbr.org/2014/12/the-on-demand-economy", "title": "The On-Demand Economy", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "confusable_ids": ["K.13", "K.14", "K.2"]
+      }
+    },
+    {
+      "id": "K.16",
+      "topic": "How market, product, competition, and company factors impact distribution choice",
+      "short_definition": "Multiple business variables collectively determining which channel structure works best.",
+      "explanation": "Market size and geography, product complexity and perishability, competitive intensity, and company resources all influence whether to sell direct, use intermediaries, or combine approaches. No single factor dictates the decision — it is the interplay that matters.",
+      "key_terms": ["market factors", "product complexity", "competitive intensity", "channel selection"],
+      "sources": [
+        { "url": "https://www.marketing91.com/factors-affecting-distribution-channel/", "title": "Factors Affecting Distribution Channel Choice", "site": "Marketing91" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.17", "K.1", "K.6"]
+      }
+    },
+    {
+      "id": "K.17",
+      "topic": "How product characteristics impact supply chain management",
+      "short_definition": "Physical attributes like perishability, size, and value shaping how items must be handled and moved.",
+      "explanation": "A frozen food item demands cold-chain logistics and rapid turnover, while a luxury watch requires secure handling and controlled distribution. Product traits dictate packaging, transportation mode, storage conditions, and the urgency of the entire flow.",
+      "key_terms": ["perishability", "product value", "handling requirements", "cold chain"],
+      "sources": [
+        { "url": "https://www.sciencedirect.com/topics/engineering/product-characteristics", "title": "Product Characteristics in Supply Chain Design", "site": "ScienceDirect" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["K.16", "K.1", "K.3"]
+      }
+    }
+  ]
+}

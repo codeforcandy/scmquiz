@@ -54,6 +54,9 @@ export function generateQuestions(filteredConcepts) {
   const shuffled = shuffle(filteredConcepts);
 
   return shuffled.map(concept => {
+    if (concept.level === 'L9') {
+      return buildL9Question(concept, filteredConcepts, concepts);
+    }
     if (concept.level === 'L8') {
       return buildL8Question(concept, filteredConcepts, concepts);
     }
@@ -393,6 +396,63 @@ function buildL7Question(concept, pool, allConcepts) {
     keyTerms: concept.key_terms,
     sources: concept.sources,
     choices: shuffle(choices),
+  };
+}
+
+function buildL9Question(concept, pool, allConcepts) {
+  const correctDef = concept.short_definition;
+  const choices = [correctDef];
+  const used = new Set([concept.id]);
+
+  // Pull distractor definitions from confusable_ids
+  for (const cid of (concept.quiz.confusable_ids || [])) {
+    if (choices.length >= 4) break;
+    const d = allConcepts.get(cid + '_L9');
+    if (d && !used.has(d.id) && d.short_definition !== correctDef) {
+      choices.push(d.short_definition);
+      used.add(d.id);
+    }
+  }
+
+  // Fallback: same-section L9 entries
+  if (choices.length < 4) {
+    const sameSection = pool.filter(c =>
+      c.level === 'L9' && c.section === concept.section &&
+      !used.has(c.id) && c.short_definition !== correctDef
+    );
+    for (const c of shuffle(sameSection)) {
+      if (choices.length >= 4) break;
+      choices.push(c.short_definition);
+      used.add(c.id);
+    }
+  }
+
+  // Fallback: any L9 entry
+  if (choices.length < 4) {
+    const any = [...allConcepts.values()].filter(c =>
+      c.level === 'L9' && !used.has(c.id) && c.short_definition !== correctDef
+    );
+    for (const c of shuffle(any)) {
+      if (choices.length >= 4) break;
+      choices.push(c.short_definition);
+      used.add(c.id);
+    }
+  }
+
+  return {
+    conceptId: concept.id,
+    questionType: 'reverse_match',
+    topicPrompt: concept.topic,
+    correctAnswer: correctDef,
+    section: concept.section,
+    sectionTitle: concept.sectionTitle,
+    level: 'L9',
+    bloomLevel: concept.quiz.bloom_level,
+    difficulty: concept.quiz.difficulty,
+    explanation: concept.explanation,
+    keyTerms: concept.key_terms,
+    sources: concept.sources,
+    choices: shuffle(choices.slice(0, 4)),
   };
 }
 

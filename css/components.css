@@ -619,6 +619,42 @@
   margin: 0 auto;
 }
 
+/* ─── Reverse Match Card (L9) ─── */
+
+.badge--level-L9 {
+  background: #d946ef;
+  color: #fff;
+}
+
+.reverse-card {
+  border-left: 2px solid #d946ef;
+  text-align: center;
+  padding: var(--space-8) var(--space-6);
+}
+
+.reverse-card__prompt {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #d946ef;
+  margin-bottom: var(--space-4);
+}
+
+[data-theme="dark"] .reverse-card__prompt {
+  color: #e879f9;
+}
+
+.reverse-card__topic {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+  font-weight: 600;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
 /* ─── Strategic Tradeoff Card (L7) ─── */
 
 .badge--level-L7 {

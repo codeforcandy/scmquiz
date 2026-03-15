@@ -1,0 +1,217 @@
+{
+  "section_id": "A",
+  "section_title": "Essential Supply Chain Management Concepts",
+  "generated_at": "2026-03-15T00:00:00Z",
+  "reverse_matches": [
+    {
+      "id": "A.1",
+      "topic": "Define supply chain management",
+      "short_definition": "Coordinating all activities from raw material sourcing through final delivery to customers.",
+      "explanation": "This discipline integrates planning, procurement, production, and distribution across organizations. It synchronizes supply with demand while building competitive advantage through collaboration with partners.",
+      "key_terms": ["coordination", "sourcing", "procurement", "delivery"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx", "title": "SCM Definitions and Glossary of Terms", "site": "CSCMP" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.9", "A.2", "A.11"]
+      }
+    },
+    {
+      "id": "A.2",
+      "topic": "Define the entire supply chain",
+      "short_definition": "The complete network of organizations, resources, and processes delivering products to end users.",
+      "explanation": "It encompasses every entity involved from initial raw material extraction to the final consumer. This includes suppliers, manufacturers, distributors, retailers, and the flows connecting them.",
+      "key_terms": ["network", "organizations", "processes", "end users"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/s/supplychain.asp", "title": "Supply Chain Explained", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.1", "A.10", "A.11"]
+      }
+    },
+    {
+      "id": "A.3",
+      "topic": "Define logistics",
+      "short_definition": "Moving and storing goods efficiently between origin and consumption points.",
+      "explanation": "Logistics handles the physical flow of products including transportation, warehousing, and material handling. It ensures the right items reach the right place at the right time and cost.",
+      "key_terms": ["transportation", "warehousing", "material handling", "physical flow"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx", "title": "SCM Definitions and Glossary of Terms", "site": "CSCMP" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.9", "A.4", "A.10"]
+      }
+    },
+    {
+      "id": "A.4",
+      "topic": "How logistics impacts supply chain management",
+      "short_definition": "Transportation and storage decisions directly affect cost, speed, and reliability across the network.",
+      "explanation": "Logistics choices ripple through the entire network — selecting faster carriers raises costs but improves responsiveness, while warehouse placement determines delivery lead times. These tradeoffs shape overall network performance.",
+      "key_terms": ["cost tradeoff", "service level", "lead time", "reliability"],
+      "sources": [
+        { "url": "https://www.supplychainquarterly.com/articles/logistics-impact", "title": "How Logistics Shapes Supply Chain Performance", "site": "Supply Chain Quarterly" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.3", "A.14", "A.9"]
+      }
+    },
+    {
+      "id": "A.5",
+      "topic": "How E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal factors change the supply chain",
+      "short_definition": "Regulatory, trade, and digital commerce forces reshaping how goods cross borders and reach buyers.",
+      "explanation": "Online selling creates demand for rapid fulfillment while tariffs and customs duties add cost layers to international movements. Companies must continuously adapt network design to navigate evolving trade regulations and digital marketplace expectations.",
+      "key_terms": ["tariffs", "customs", "e-commerce", "trade compliance", "risk"],
+      "sources": [
+        { "url": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact2_e.htm", "title": "WTO Tariffs Overview", "site": "World Trade Organization" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.12", "A.14", "A.4"]
+      }
+    },
+    {
+      "id": "A.6",
+      "topic": "The creation of new value in the supply chain for customers, society, and the economy",
+      "short_definition": "Generating benefits beyond profit — improving customer outcomes, societal welfare, and economic growth.",
+      "explanation": "Value creation extends past shareholder returns to include better product availability for consumers, job creation in communities, and economic multiplier effects. Effective networks transform raw inputs into outcomes worth more than the sum of their parts.",
+      "key_terms": ["value creation", "stakeholder benefit", "economic impact", "societal welfare"],
+      "sources": [
+        { "url": "https://hbr.org/2011/01/the-big-idea-creating-shared-value", "title": "Creating Shared Value", "site": "Harvard Business Review" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.13", "A.7", "A.11"]
+      }
+    },
+    {
+      "id": "A.7",
+      "topic": "How supply chain management is practiced in a wide array of industries",
+      "short_definition": "Adapting coordination principles across sectors from healthcare to retail to manufacturing.",
+      "explanation": "While core principles remain constant, each industry applies them differently based on product characteristics, regulatory requirements, and customer expectations. Healthcare demands cold-chain precision; retail requires high-volume distribution speed.",
+      "key_terms": ["cross-industry", "sector adaptation", "industry-specific", "best practices"],
+      "sources": [
+        { "url": "https://www.mckinsey.com/capabilities/operations/our-insights", "title": "Operations Insights", "site": "McKinsey & Company" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.11", "A.6", "A.1"]
+      }
+    },
+    {
+      "id": "A.8",
+      "topic": "Explain demand forecasting",
+      "short_definition": "Predicting future customer purchasing patterns to align production and inventory decisions.",
+      "explanation": "Forecasting uses historical data, market trends, and statistical models to estimate future demand. Accuracy directly impacts inventory levels, production schedules, and the ability to meet customer expectations without excess stock.",
+      "key_terms": ["prediction", "historical data", "statistical models", "inventory planning"],
+      "sources": [
+        { "url": "https://www.investopedia.com/terms/d/demand-forecasting.asp", "title": "Demand Forecasting", "site": "Investopedia" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["A.10", "A.14", "A.1"]
+      }
+    },
+    {
+      "id": "A.9",
+      "topic": "Define logistics management",
+      "short_definition": "Planning and controlling the efficient flow and storage of goods from origin to destination.",
+      "explanation": "Logistics management is a subset function that oversees transportation, warehousing, inventory, and order fulfillment. It focuses on optimizing these operations to meet customer requirements at minimum total cost.",
+      "key_terms": ["planning", "flow optimization", "warehousing", "order fulfillment"],
+      "sources": [
+        { "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx", "title": "SCM Definitions and Glossary of Terms", "site": "CSCMP" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.3", "A.1", "A.4"]
+      }
+    },
+    {
+      "id": "A.10",
+      "topic": "Define physical and information flows",
+      "short_definition": "The dual movement of tangible goods and data signals through a network.",
+      "explanation": "Physical flows involve the actual movement of materials and products, while information flows carry orders, forecasts, and status updates. Both must be synchronized for the network to function effectively.",
+      "key_terms": ["material flow", "data flow", "synchronization", "visibility"],
+      "sources": [
+        { "url": "https://www.supplychainbrain.com/articles/information-physical-flows", "title": "Understanding Physical and Information Flows", "site": "SupplyChainBrain" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["A.3", "A.2", "A.8"]
+      }
+    },
+    {
+      "id": "A.11",
+      "topic": "Explain supply chain management as applied to a wide range of businesses",
+      "short_definition": "Applying sourcing-to-delivery coordination principles regardless of industry or company size.",
+      "explanation": "Whether a startup or multinational, every business benefits from optimizing how it acquires inputs and delivers outputs. The scale and complexity differ, but the underlying coordination logic remains universal.",
+      "key_terms": ["universal application", "scalability", "business size", "cross-sector"],
+      "sources": [
+        { "url": "https://www.gartner.com/en/supply-chain", "title": "Supply Chain Insights", "site": "Gartner" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.7", "A.1", "A.2"]
+      }
+    },
+    {
+      "id": "A.12",
+      "topic": "Describe how the supply chain is impacted by e-commerce, logistics, tariffs",
+      "short_definition": "Online sales, border regulations, and shipping choices continuously reshape network design and costs.",
+      "explanation": "E-commerce shifts fulfillment toward direct-to-consumer models, tariffs alter sourcing economics, and logistics constraints dictate feasible delivery speeds. Companies must redesign networks as these forces evolve.",
+      "key_terms": ["e-commerce fulfillment", "tariff impact", "network redesign", "border regulation"],
+      "sources": [
+        { "url": "https://www.flexport.com/blog/tariff-supply-chain-impact", "title": "How Tariffs Impact Supply Chains", "site": "Flexport" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.5", "A.14", "A.4"]
+      }
+    },
+    {
+      "id": "A.13",
+      "topic": "Describe the creation of value in supply chain management",
+      "short_definition": "Transforming raw inputs into finished offerings that exceed what customers could achieve alone.",
+      "explanation": "Value emerges when coordinated activities produce results greater than individual efforts. This includes time utility (available when needed), place utility (available where needed), and form utility (transformed into usable products).",
+      "key_terms": ["transformation", "utility creation", "time utility", "place utility"],
+      "sources": [
+        { "url": "https://www.sciencedirect.com/topics/engineering/supply-chain-value", "title": "Supply Chain Value Creation", "site": "ScienceDirect" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.6", "A.2", "A.1"]
+      }
+    },
+    {
+      "id": "A.14",
+      "topic": "Explain factors that impact supply chain management",
+      "short_definition": "External forces like regulation, technology, and market shifts altering how networks operate.",
+      "explanation": "Factors include geopolitical events, natural disasters, consumer trend changes, technological disruption, and regulatory shifts. Effective managers monitor these forces and build resilience to absorb their impact.",
+      "key_terms": ["external forces", "disruption", "resilience", "geopolitical risk"],
+      "sources": [
+        { "url": "https://www.mckinsey.com/capabilities/operations/our-insights/risk-resilience-and-rebalancing-in-global-value-chains", "title": "Risk, Resilience, and Rebalancing", "site": "McKinsey & Company" }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["A.5", "A.12", "A.4"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-15T00:00:00Z",
+  "reverse_matches": [
+    {
+      "id": "F.1",
+      "topic": "Determine what products to sell",
+      "short_definition": "Selecting which items to offer by weighing market appetite against profit potential.",
+      "explanation": "This decision shapes the entire downstream supply chain. Companies evaluate consumer demand, competitive positioning, margin contribution, and operational feasibility to choose which items merit production and distribution investment. Getting it wrong means wasted capacity or missed revenue.",
+      "key_terms": ["market demand", "profitability analysis", "assortment planning"],
+      "sources": [
+        {
+          "url": "https://hbr.org/2020/01/what-products-should-you-sell",
+          "title": "Product Selection Strategy",
+          "site": "Harvard Business Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["F.2", "F.3", "F.4"]
+      }
+    },
+    {
+      "id": "F.2",
+      "topic": "How a company determines what products are used and sold by a business",
+      "short_definition": "Analyzing buyer behavior and organizational strengths to shape the offering mix.",
+      "explanation": "Companies combine external market research with internal capability assessments to decide their product mix. This involves studying purchase patterns, forecasting trends, evaluating manufacturing capacity, and assessing distribution reach. The goal is alignment between what the market wants and what the firm can profitably deliver.",
+      "key_terms": ["market research", "capability assessment", "product mix"],
+      "sources": [
+        {
+          "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/product-portfolio-strategy",
+          "title": "Product Portfolio Strategy",
+          "site": "McKinsey & Company"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "hard",
+        "confusable_ids": ["F.1", "F.3", "F.4"]
+      }
+    },
+    {
+      "id": "F.3",
+      "topic": "Product portfolio",
+      "short_definition": "The full collection of items a firm offers, spanning every category and variant.",
+      "explanation": "A product portfolio represents the totality of a company's commercial offerings. Managing it requires balancing breadth against complexity: more items can capture more market segments but increase operational burden. Portfolio analysis tools like the BCG matrix help prioritize investment across the range.",
+      "key_terms": ["product range", "SKU breadth", "portfolio analysis"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/p/product-portfolio.asp",
+          "title": "Product Portfolio Definition",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["F.1", "F.2", "F.5"]
+      }
+    },
+    {
+      "id": "F.4",
+      "topic": "The Pareto principle",
+      "short_definition": "The recurring pattern where a small fraction of causes drives the vast majority of effects.",
+      "explanation": "Often expressed as the 80/20 rule, this principle appears throughout supply chain management: a minority of SKUs typically generates most revenue, a few suppliers cause most disruptions, and a handful of customers account for the bulk of orders. Recognizing this skew lets managers focus effort where it matters most.",
+      "key_terms": ["80/20 rule", "vital few", "concentration effect"],
+      "sources": [
+        {
+          "url": "https://www.investopedia.com/terms/p/paretoprinciple.asp",
+          "title": "Pareto Principle (80/20 Rule)",
+          "site": "Investopedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "easy",
+        "confusable_ids": ["F.5", "F.6", "F.3"]
+      }
+    },
+    {
+      "id": "F.5",
+      "topic": "Slow-moving products headed toward obsolescence",
+      "short_definition": "Items whose sales velocity is declining as they approach end-of-life status.",
+      "explanation": "These products sit in the portfolio's tail, consuming warehouse space and tying up capital while generating diminishing returns. Identifying them early allows proactive decisions: markdowns, bundling, discontinuation, or last-time buys. Failing to act results in write-offs and wasted resources.",
+      "key_terms": ["end-of-life", "declining demand", "inventory write-off"],
+      "sources": [
+        {
+          "url": "https://www.supplychainbrain.com/articles/managing-slow-moving-inventory",
+          "title": "Managing Slow-Moving and Obsolete Inventory",
+          "site": "Supply Chain Brain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["F.6", "F.4", "F.3"]
+      }
+    },
+    {
+      "id": "F.6",
+      "topic": "Importance of minimizing inventory during all stages of supply chain management",
+      "short_definition": "Keeping stock lean at every node to free capital and reduce waste.",
+      "explanation": "Excess inventory at any point in the chain represents tied-up cash, storage costs, and obsolescence risk. Lean inventory strategies like just-in-time delivery, demand-driven replenishment, and vendor-managed inventory aim to hold only what is needed, when it is needed, at each stage.",
+      "key_terms": ["lean inventory", "carrying cost reduction", "just-in-time"],
+      "sources": [
+        {
+          "url": "https://www.lean.org/explore/lean-fundamentals/what-is-lean/",
+          "title": "Lean Inventory Principles",
+          "site": "Lean Enterprise Institute"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "understand",
+        "difficulty": "medium",
+        "confusable_ids": ["F.5", "F.4", "F.3"]
+      }
+    }
+  ]
+}
