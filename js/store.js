@@ -5,6 +5,7 @@ let state = {
   concepts: new Map(),
   sectionMeta: new Map(),
   session: null,
+  currentUser: null,
   currentView: 'setup',
   theme: 'light',
 };

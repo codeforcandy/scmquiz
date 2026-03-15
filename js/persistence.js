@@ -2,8 +2,20 @@
 
 const PREFIX = 'scmq_';
 
+// Global keys (not user-scoped)
+const GLOBAL_KEYS = new Set(['theme', 'user']);
+
+let currentUserId = null;
+
+export function setCurrentUserId(id) {
+  currentUserId = id;
+}
+
 function key(name) {
-  return PREFIX + name;
+  if (GLOBAL_KEYS.has(name) || !currentUserId) {
+    return PREFIX + name;
+  }
+  return PREFIX + 'u' + currentUserId + '_' + name;
 }
 
 export function load(name, fallback = null) {
@@ -25,6 +37,31 @@ export function save(name, value) {
 
 export function remove(name) {
   localStorage.removeItem(key(name));
+}
+
+// ─── User Accessors (global scope) ───
+
+export function loadUser() {
+  try {
+    const raw = localStorage.getItem(PREFIX + 'user');
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveUser(userId) {
+  try {
+    localStorage.setItem(PREFIX + 'user', JSON.stringify(userId));
+  } catch {
+    // quota exceeded
+  }
+  setCurrentUserId(userId);
+}
+
+export function clearUser() {
+  localStorage.removeItem(PREFIX + 'user');
+  currentUserId = null;
 }
 
 // ─── Typed Accessors ───
