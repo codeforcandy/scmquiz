@@ -491,6 +491,7 @@ export function submitAnswer(answerTopic) {
       selected: answerTopic,
       correct: correctValue,
       isCorrect,
+      answeredAt: Date.now(),
     },
   };
 

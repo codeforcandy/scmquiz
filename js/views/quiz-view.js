@@ -16,6 +16,7 @@ const SECTION_COLORS = {
 
 const ANSWER_KEYS = ['A', 'B', 'C', 'D'];
 let timerInterval;
+let selectedChoice = null;
 
 function el(tag, className, text) {
   const e = document.createElement(tag);
@@ -128,7 +129,12 @@ export function renderQuizView() {
   const nHint = el('span', 'shortcut-hint', 'N');
   notesBtn.appendChild(nHint);
 
-  actionBar.append(flagBtn, iffyBtn, notesBtn);
+  const homeBtn = el('button', 'action-btn action-btn--home');
+  homeBtn.id = 'home-btn';
+  homeBtn.title = 'Exit to Home';
+  homeBtn.append(el('span', null, '\u2716'));
+
+  actionBar.append(flagBtn, iffyBtn, notesBtn, homeBtn);
   header.append(counter, meta, actionBar);
   wrapper.appendChild(header);
 
@@ -165,9 +171,11 @@ export function renderQuizView() {
   notesBtn.addEventListener('click', handleNotes);
   nextBtn.addEventListener('click', handleNext);
   prevBtn.addEventListener('click', handlePrev);
+  homeBtn.addEventListener('click', handleHome);
 }
 
 function renderQuestion() {
+  selectedChoice = null;
   const session = getState().session;
   const q = session.questions[session.currentIndex];
   const answer = session.answers[session.currentIndex];
@@ -423,7 +431,10 @@ function renderQuestion() {
     btn.append(key, text);
 
     if (!answer) {
-      btn.addEventListener('click', () => handleAnswer(choice));
+      if (selectedChoice === choice) {
+        btn.classList.add('btn--selected');
+      }
+      btn.addEventListener('click', () => handleAnswerClick(choice));
     }
 
     grid.appendChild(btn);
@@ -444,9 +455,28 @@ function renderQuestion() {
   updateKeyHandlers();
 }
 
-function handleAnswer(choice) {
-  submitAnswer(choice);
-  renderQuestion();
+function handleAnswerClick(choice) {
+  if (selectedChoice === choice) {
+    // Second click on same answer — submit it
+    selectedChoice = null;
+    submitAnswer(choice);
+    renderQuestion();
+  } else {
+    // First click — select this answer
+    selectedChoice = choice;
+    const grid = document.getElementById('answers-grid');
+    for (const btn of grid.children) {
+      btn.classList.toggle('btn--selected', btn.dataset.choice === choice);
+    }
+    updateKeyHandlers();
+  }
+}
+
+function handleHome() {
+  clearInterval(timerInterval);
+  selectedChoice = null;
+  document.getElementById('progress-bar').style.display = 'none';
+  setState({ currentView: 'setup' });
 }
 
 function handleNext() {
@@ -514,8 +544,11 @@ function updateKeyHandlers() {
     handlers['arrowleft'] = handlePrev;
   } else {
     const q = session.questions[session.currentIndex];
+    if (selectedChoice) {
+      handlers['enter'] = () => handleAnswerClick(selectedChoice);
+    }
     q.choices.forEach((choice, idx) => {
-      handlers[String(idx + 1)] = () => handleAnswer(choice);
+      handlers[String(idx + 1)] = () => handleAnswerClick(choice);
     });
   }
   setKeyHandlers(handlers);

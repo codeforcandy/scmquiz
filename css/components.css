@@ -151,9 +151,30 @@
   color: #fff;
 }
 
+.btn--selected {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.btn--selected .answer-key {
+  background: var(--accent);
+  color: #fff;
+}
+
 .btn--dimmed {
   opacity: 0.5;
   pointer-events: none;
+}
+
+/* Home / Exit button */
+.action-btn--home {
+  font-size: var(--text-sm);
+}
+
+.action-btn--home:hover {
+  color: var(--wrong);
+  background: var(--wrong-light);
 }
 
 /* ─── Chips / Tags ─── */
