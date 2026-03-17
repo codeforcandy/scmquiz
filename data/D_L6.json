@@ -1,0 +1,1315 @@
+{
+  "section_id": "D",
+  "section_title": "Supply Chain Planning and Design",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "D.1->D.2->D.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.1",
+          "label": "Explain the relationship between purchasing and supply chain management."
+        },
+        {
+          "id": "D.2",
+          "label": "Explain how a company will provide value to supply chain management."
+        },
+        {
+          "id": "D.5",
+          "label": "Describe management of supply and demand for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Purchasing decisions directly affect the value a company provides through its supply chain."
+        },
+        {
+          "type": "related_to",
+          "description": "Balancing supply and demand is fundamental to delivering value in the supply chain."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.2",
+        "label": "Explain how a company will provide value to supply chain management."
+      },
+      "consequence_description": "When a company will provide value to supply chain management. is disrupted, the related to connection to management of supply and demand for supply chain management. breaks down. Management of supply and demand for supply chain management. loses its foundational input from the relationship between purchasing and supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "A company will provide value to supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the relationship between purchasing and supply chain management. to a company will provide value to supply chain management. establishes a dependency, and the related to relationship from a company will provide value to supply chain management. to management of supply and demand for supply chain management. carries that influence forward. When a company will provide value to supply chain management. is disrupted, the downstream effect on management of supply and demand for supply chain management. is not merely a loss of one input — it severs the entire pathway through which the relationship between purchasing and supply chain management. influences management of supply and demand for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a company will provide value to supply chain management. redundant and improving overall efficiency.",
+          "Disrupting a company will provide value to supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a company will provide value to supply chain management. alone, with no downstream effect on management of supply and demand for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.1->D.4->D.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.1",
+          "label": "Explain the relationship between purchasing and supply chain management."
+        },
+        {
+          "id": "D.4",
+          "label": "Define supply chain integration."
+        },
+        {
+          "id": "D.3",
+          "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Purchasing must be integrated with other supply chain functions for effective SCM."
+        },
+        {
+          "type": "related_to",
+          "description": "Integration encompasses coordination with suppliers, subcontractors, and logistics providers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.4",
+        "label": "Define supply chain integration."
+      },
+      "consequence_description": "When supply chain integration. is disrupted, the related to connection to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. breaks down. Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. loses its foundational input from the relationship between purchasing and supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain integration. serves as a critical intermediary in this concept chain. The related to relationship from the relationship between purchasing and supply chain management. to supply chain integration. establishes a dependency, and the related to relationship from supply chain integration. to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. carries that influence forward. When supply chain integration. is disrupted, the downstream effect on suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is not merely a loss of one input — it severs the entire pathway through which the relationship between purchasing and supply chain management. influences suppliers, subcontractors, transportation providers, and product distribution is determined by a company., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain integration. redundant and improving overall efficiency.",
+          "Disrupting supply chain integration. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain integration. alone, with no downstream effect on suppliers, subcontractors, transportation providers, and product distribution is determined by a company. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.2->D.1->D.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.2",
+          "label": "Explain how a company will provide value to supply chain management."
+        },
+        {
+          "id": "D.1",
+          "label": "Explain the relationship between purchasing and supply chain management."
+        },
+        {
+          "id": "D.4",
+          "label": "Define supply chain integration."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Purchasing decisions are a key driver of the value a company delivers through its supply chain."
+        },
+        {
+          "type": "related_to",
+          "description": "Purchasing must be integrated with other supply chain functions for effective SCM."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management."
+      },
+      "consequence_description": "When the relationship between purchasing and supply chain management. is disrupted, the related to connection to supply chain integration. breaks down. Supply chain integration. loses its foundational input from a company will provide value to supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The relationship between purchasing and supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from a company will provide value to supply chain management. to the relationship between purchasing and supply chain management. establishes a dependency, and the related to relationship from the relationship between purchasing and supply chain management. to supply chain integration. carries that influence forward. When the relationship between purchasing and supply chain management. is disrupted, the downstream effect on supply chain integration. is not merely a loss of one input — it severs the entire pathway through which a company will provide value to supply chain management. influences supply chain integration., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the relationship between purchasing and supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the relationship between purchasing and supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the relationship between purchasing and supply chain management. alone, with no downstream effect on supply chain integration. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.2->D.5->D.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.2",
+          "label": "Explain how a company will provide value to supply chain management."
+        },
+        {
+          "id": "D.5",
+          "label": "Describe management of supply and demand for supply chain management."
+        },
+        {
+          "id": "D.7",
+          "label": "Explain the importance of expense management for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Balancing supply and demand is fundamental to delivering value in the supply chain."
+        },
+        {
+          "type": "related_to",
+          "description": "Supply-demand imbalances directly impact costs and expense management."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management."
+      },
+      "consequence_description": "When management of supply and demand for supply chain management. is disrupted, the related to connection to the importance of expense management for supply chain management. breaks down. The importance of expense management for supply chain management. loses its foundational input from a company will provide value to supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Management of supply and demand for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from a company will provide value to supply chain management. to management of supply and demand for supply chain management. establishes a dependency, and the related to relationship from management of supply and demand for supply chain management. to the importance of expense management for supply chain management. carries that influence forward. When management of supply and demand for supply chain management. is disrupted, the downstream effect on the importance of expense management for supply chain management. is not merely a loss of one input — it severs the entire pathway through which a company will provide value to supply chain management. influences the importance of expense management for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making management of supply and demand for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting management of supply and demand for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to management of supply and demand for supply chain management. alone, with no downstream effect on the importance of expense management for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.3->D.6->D.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.3",
+          "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+        },
+        {
+          "id": "D.6",
+          "label": "Describe the efficient facility network design for supply chain management."
+        },
+        {
+          "id": "D.7",
+          "label": "Explain the importance of expense management for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The selection of suppliers and transportation providers is closely tied to facility network design decisions."
+        },
+        {
+          "type": "related_to",
+          "description": "Network design decisions have a major impact on supply chain operating expenses."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.6",
+        "label": "Describe the efficient facility network design for supply chain management."
+      },
+      "consequence_description": "When the efficient facility network design for supply chain management. is disrupted, the related to connection to the importance of expense management for supply chain management. breaks down. The importance of expense management for supply chain management. loses its foundational input from suppliers, subcontractors, transportation providers, and product distribution is determined by a company., degrading overall supply chain performance in this area.",
+      "explanation": "The efficient facility network design for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from suppliers, subcontractors, transportation providers, and product distribution is determined by a company. to the efficient facility network design for supply chain management. establishes a dependency, and the related to relationship from the efficient facility network design for supply chain management. to the importance of expense management for supply chain management. carries that influence forward. When the efficient facility network design for supply chain management. is disrupted, the downstream effect on the importance of expense management for supply chain management. is not merely a loss of one input — it severs the entire pathway through which suppliers, subcontractors, transportation providers, and product distribution is determined by a company. influences the importance of expense management for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the efficient facility network design for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the efficient facility network design for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the efficient facility network design for supply chain management. alone, with no downstream effect on the importance of expense management for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.4->D.3->D.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.4",
+          "label": "Define supply chain integration."
+        },
+        {
+          "id": "D.3",
+          "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+        },
+        {
+          "id": "D.6",
+          "label": "Describe the efficient facility network design for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Integration encompasses coordination with suppliers, subcontractors, and logistics providers."
+        },
+        {
+          "type": "related_to",
+          "description": "The selection of suppliers and transportation providers is closely tied to facility network design decisions."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.3",
+        "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+      },
+      "consequence_description": "When suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is disrupted, the related to connection to the efficient facility network design for supply chain management. breaks down. The efficient facility network design for supply chain management. loses its foundational input from supply chain integration., degrading overall supply chain performance in this area.",
+      "explanation": "Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. serves as a critical intermediary in this concept chain. The related to relationship from supply chain integration. to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. establishes a dependency, and the related to relationship from suppliers, subcontractors, transportation providers, and product distribution is determined by a company. to the efficient facility network design for supply chain management. carries that influence forward. When suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is disrupted, the downstream effect on the efficient facility network design for supply chain management. is not merely a loss of one input — it severs the entire pathway through which supply chain integration. influences the efficient facility network design for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making suppliers, subcontractors, transportation providers, and product distribution is determined by a company. redundant and improving overall efficiency.",
+          "Disrupting suppliers, subcontractors, transportation providers, and product distribution is determined by a company. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. alone, with no downstream effect on the efficient facility network design for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.5->D.7->D.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.5",
+          "label": "Describe management of supply and demand for supply chain management."
+        },
+        {
+          "id": "D.7",
+          "label": "Explain the importance of expense management for supply chain management."
+        },
+        {
+          "id": "D.6",
+          "label": "Describe the efficient facility network design for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Supply-demand imbalances directly impact costs and expense management."
+        },
+        {
+          "type": "related_to",
+          "description": "Facility network design is a primary driver of supply chain operating costs."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.7",
+        "label": "Explain the importance of expense management for supply chain management."
+      },
+      "consequence_description": "When the importance of expense management for supply chain management. is disrupted, the related to connection to the efficient facility network design for supply chain management. breaks down. The efficient facility network design for supply chain management. loses its foundational input from management of supply and demand for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of expense management for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from management of supply and demand for supply chain management. to the importance of expense management for supply chain management. establishes a dependency, and the related to relationship from the importance of expense management for supply chain management. to the efficient facility network design for supply chain management. carries that influence forward. When the importance of expense management for supply chain management. is disrupted, the downstream effect on the efficient facility network design for supply chain management. is not merely a loss of one input — it severs the entire pathway through which management of supply and demand for supply chain management. influences the efficient facility network design for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of expense management for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the importance of expense management for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of expense management for supply chain management. alone, with no downstream effect on the efficient facility network design for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.5->D.2->D.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.5",
+          "label": "Describe management of supply and demand for supply chain management."
+        },
+        {
+          "id": "D.2",
+          "label": "Explain how a company will provide value to supply chain management."
+        },
+        {
+          "id": "D.1",
+          "label": "Explain the relationship between purchasing and supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Effective supply-demand management is essential to delivering value in the supply chain."
+        },
+        {
+          "type": "related_to",
+          "description": "Purchasing decisions are a key driver of the value a company delivers through its supply chain."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.2",
+        "label": "Explain how a company will provide value to supply chain management."
+      },
+      "consequence_description": "When a company will provide value to supply chain management. is disrupted, the related to connection to the relationship between purchasing and supply chain management. breaks down. The relationship between purchasing and supply chain management. loses its foundational input from management of supply and demand for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "A company will provide value to supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from management of supply and demand for supply chain management. to a company will provide value to supply chain management. establishes a dependency, and the related to relationship from a company will provide value to supply chain management. to the relationship between purchasing and supply chain management. carries that influence forward. When a company will provide value to supply chain management. is disrupted, the downstream effect on the relationship between purchasing and supply chain management. is not merely a loss of one input — it severs the entire pathway through which management of supply and demand for supply chain management. influences the relationship between purchasing and supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        },
+        {
+          "url": "https://bciglobal.com/en/supply-chain-strategy",
+          "title": "Supply chain strategy that matches your value proposition",
+          "site": "BCI Global"
+        },
+        {
+          "url": "https://www.ltdmgmt.com/scm-value.php",
+          "title": "Logistics Value Proposition | Create Supply Chain Value Proposition",
+          "site": "LTD Management"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a company will provide value to supply chain management. redundant and improving overall efficiency.",
+          "Disrupting a company will provide value to supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a company will provide value to supply chain management. alone, with no downstream effect on the relationship between purchasing and supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.3->D.4->D.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.3",
+          "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+        },
+        {
+          "id": "D.4",
+          "label": "Define supply chain integration."
+        },
+        {
+          "id": "D.1",
+          "label": "Explain the relationship between purchasing and supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Integration across suppliers, subcontractors, and logistics providers is key to supply chain integration."
+        },
+        {
+          "type": "related_to",
+          "description": "Purchasing is one of the key functions that must be integrated within the supply chain."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.4",
+        "label": "Define supply chain integration."
+      },
+      "consequence_description": "When supply chain integration. is disrupted, the related to connection to the relationship between purchasing and supply chain management. breaks down. The relationship between purchasing and supply chain management. loses its foundational input from suppliers, subcontractors, transportation providers, and product distribution is determined by a company., degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain integration. serves as a critical intermediary in this concept chain. The related to relationship from suppliers, subcontractors, transportation providers, and product distribution is determined by a company. to supply chain integration. establishes a dependency, and the related to relationship from supply chain integration. to the relationship between purchasing and supply chain management. carries that influence forward. When supply chain integration. is disrupted, the downstream effect on the relationship between purchasing and supply chain management. is not merely a loss of one input — it severs the entire pathway through which suppliers, subcontractors, transportation providers, and product distribution is determined by a company. influences the relationship between purchasing and supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.igi-global.com/dictionary/facilitation-supply-chain-decision-processes/28765",
+          "title": "What is Supply Chain Integration",
+          "site": "IGI Global"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/supply-chain-integration-guide",
+          "title": "Supply Chain Integration Guide: Definition, Meaning, Elements & Barriers",
+          "site": "GEP"
+        },
+        {
+          "url": "https://supplychainmanagementedu.org/faq/what-is-integrated-supply-chain-management/",
+          "title": "What Is Integrated Supply Chain Management?",
+          "site": "SupplyChainManagementEdu"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain integration. redundant and improving overall efficiency.",
+          "Disrupting supply chain integration. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain integration. alone, with no downstream effect on the relationship between purchasing and supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.4->D.1->D.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.4",
+          "label": "Define supply chain integration."
+        },
+        {
+          "id": "D.1",
+          "label": "Explain the relationship between purchasing and supply chain management."
+        },
+        {
+          "id": "D.2",
+          "label": "Explain how a company will provide value to supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Purchasing is one of the key functions that must be integrated within the supply chain."
+        },
+        {
+          "type": "related_to",
+          "description": "Purchasing decisions directly affect the value a company provides through its supply chain."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management."
+      },
+      "consequence_description": "When the relationship between purchasing and supply chain management. is disrupted, the related to connection to a company will provide value to supply chain management. breaks down. A company will provide value to supply chain management. loses its foundational input from supply chain integration., degrading overall supply chain performance in this area.",
+      "explanation": "The relationship between purchasing and supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from supply chain integration. to the relationship between purchasing and supply chain management. establishes a dependency, and the related to relationship from the relationship between purchasing and supply chain management. to a company will provide value to supply chain management. carries that influence forward. When the relationship between purchasing and supply chain management. is disrupted, the downstream effect on a company will provide value to supply chain management. is not merely a loss of one input — it severs the entire pathway through which supply chain integration. influences a company will provide value to supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-vs-procurement.shtml",
+          "title": "Supply Chain vs. Procurement: Key Differences",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the relationship between purchasing and supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the relationship between purchasing and supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the relationship between purchasing and supply chain management. alone, with no downstream effect on a company will provide value to supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.7->D.5->D.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.7",
+          "label": "Explain the importance of expense management for supply chain management."
+        },
+        {
+          "id": "D.5",
+          "label": "Describe management of supply and demand for supply chain management."
+        },
+        {
+          "id": "D.2",
+          "label": "Explain how a company will provide value to supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Poor supply-demand alignment leads to excess inventory and increased expenses."
+        },
+        {
+          "type": "related_to",
+          "description": "Effective supply-demand management is essential to delivering value in the supply chain."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management."
+      },
+      "consequence_description": "When management of supply and demand for supply chain management. is disrupted, the related to connection to a company will provide value to supply chain management. breaks down. A company will provide value to supply chain management. loses its foundational input from the importance of expense management for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Management of supply and demand for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the importance of expense management for supply chain management. to management of supply and demand for supply chain management. establishes a dependency, and the related to relationship from management of supply and demand for supply chain management. to a company will provide value to supply chain management. carries that influence forward. When management of supply and demand for supply chain management. is disrupted, the downstream effect on a company will provide value to supply chain management. is not merely a loss of one input — it severs the entire pathway through which the importance of expense management for supply chain management. influences a company will provide value to supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making management of supply and demand for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting management of supply and demand for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to management of supply and demand for supply chain management. alone, with no downstream effect on a company will provide value to supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.7->D.6->D.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.7",
+          "label": "Explain the importance of expense management for supply chain management."
+        },
+        {
+          "id": "D.6",
+          "label": "Describe the efficient facility network design for supply chain management."
+        },
+        {
+          "id": "D.3",
+          "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Facility network design is a primary driver of supply chain operating costs."
+        },
+        {
+          "type": "related_to",
+          "description": "Facility network design determines where suppliers and distribution points are located relative to production."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.6",
+        "label": "Describe the efficient facility network design for supply chain management."
+      },
+      "consequence_description": "When the efficient facility network design for supply chain management. is disrupted, the related to connection to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. breaks down. Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. loses its foundational input from the importance of expense management for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The efficient facility network design for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the importance of expense management for supply chain management. to the efficient facility network design for supply chain management. establishes a dependency, and the related to relationship from the efficient facility network design for supply chain management. to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. carries that influence forward. When the efficient facility network design for supply chain management. is disrupted, the downstream effect on suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is not merely a loss of one input — it severs the entire pathway through which the importance of expense management for supply chain management. influences suppliers, subcontractors, transportation providers, and product distribution is determined by a company., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://aims.education/supply-chain-network-design/",
+          "title": "Supply Chain Network Design",
+          "site": "AIMS Education"
+        },
+        {
+          "url": "https://envistacorp.com/blog/your-guide-to-supply-chain-network-design-key-factors-for-a-competitive-advantage/",
+          "title": "Your Guide to Supply Chain Network Design: Key Factors for a Competitive Advantage",
+          "site": "enVista"
+        },
+        {
+          "url": "https://www.gep.com/blog/strategy/supply-chain-network-design-explained",
+          "title": "Supply Chain Business Network Design: Meaning, Importance, Benefits, Types & Contributing Factors",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the efficient facility network design for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the efficient facility network design for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the efficient facility network design for supply chain management. alone, with no downstream effect on suppliers, subcontractors, transportation providers, and product distribution is determined by a company. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.6->D.3->D.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.6",
+          "label": "Describe the efficient facility network design for supply chain management."
+        },
+        {
+          "id": "D.3",
+          "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+        },
+        {
+          "id": "D.4",
+          "label": "Define supply chain integration."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Facility network design determines where suppliers and distribution points are located relative to production."
+        },
+        {
+          "type": "related_to",
+          "description": "Integration across suppliers, subcontractors, and logistics providers is key to supply chain integration."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.3",
+        "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company."
+      },
+      "consequence_description": "When suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is disrupted, the related to connection to supply chain integration. breaks down. Supply chain integration. loses its foundational input from the efficient facility network design for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. serves as a critical intermediary in this concept chain. The related to relationship from the efficient facility network design for supply chain management. to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. establishes a dependency, and the related to relationship from suppliers, subcontractors, transportation providers, and product distribution is determined by a company. to supply chain integration. carries that influence forward. When suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is disrupted, the downstream effect on supply chain integration. is not merely a loss of one input — it severs the entire pathway through which the efficient facility network design for supply chain management. influences supply chain integration., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.business.com/articles/supply-chain-distribution/",
+          "title": "Supply Chain Distribution: Channels & Best Practices",
+          "site": "Business.com"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making suppliers, subcontractors, transportation providers, and product distribution is determined by a company. redundant and improving overall efficiency.",
+          "Disrupting suppliers, subcontractors, transportation providers, and product distribution is determined by a company. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. alone, with no downstream effect on supply chain integration. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.6->D.7->D.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "D.6",
+          "label": "Describe the efficient facility network design for supply chain management."
+        },
+        {
+          "id": "D.7",
+          "label": "Explain the importance of expense management for supply chain management."
+        },
+        {
+          "id": "D.5",
+          "label": "Describe management of supply and demand for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Network design decisions have a major impact on supply chain operating expenses."
+        },
+        {
+          "type": "related_to",
+          "description": "Poor supply-demand alignment leads to excess inventory and increased expenses."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "D.7",
+        "label": "Explain the importance of expense management for supply chain management."
+      },
+      "consequence_description": "When the importance of expense management for supply chain management. is disrupted, the related to connection to management of supply and demand for supply chain management. breaks down. Management of supply and demand for supply chain management. loses its foundational input from the efficient facility network design for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of expense management for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the efficient facility network design for supply chain management. to the importance of expense management for supply chain management. establishes a dependency, and the related to relationship from the importance of expense management for supply chain management. to management of supply and demand for supply chain management. carries that influence forward. When the importance of expense management for supply chain management. is disrupted, the downstream effect on management of supply and demand for supply chain management. is not merely a loss of one input — it severs the entire pathway through which the efficient facility network design for supply chain management. influences management of supply and demand for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/improving-cost-control-challenges-in-supply-chain-management/",
+          "title": "Improving Cost Control Challenges in Supply Chain Management",
+          "site": "American Public University"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of expense management for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the importance of expense management for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of expense management for supply chain management. alone, with no downstream effect on management of supply and demand for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "D.1<>A.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "A.1",
+        "label": "Define supply chain management",
+        "section": "A"
+      },
+      "interaction_description": "The relationship between purchasing and supply chain management. and supply chain management have a bidirectional relationship across their domains: decisions in the relationship between purchasing and supply chain management. directly influence how supply chain management is configured and managed, while feedback from supply chain management operations informs adjustments to the relationship between purchasing and supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the relationship between purchasing and supply chain management. (Section D) and supply chain management (Section A) illustrates how supply chain concepts rarely exist in isolation. The relationship between purchasing and supply chain management. provides strategic direction that shapes supply chain management decisions, while supply chain management generates operational data and constraints that feed back into the relationship between purchasing and supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The relationship between purchasing and supply chain management. and supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The relationship between purchasing and supply chain management. completely subsumes supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the relationship between purchasing and supply chain management. and supply chain management is purely one-directional, with no feedback mechanism from supply chain management back to the relationship between purchasing and supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "D.1<>B.7_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "B.7",
+        "label": "Define procurement",
+        "section": "B"
+      },
+      "interaction_description": "The relationship between purchasing and supply chain management. and procurement have a bidirectional relationship across their domains: decisions in the relationship between purchasing and supply chain management. directly influence how procurement is configured and managed, while feedback from procurement operations informs adjustments to the relationship between purchasing and supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the relationship between purchasing and supply chain management. (Section D) and procurement (Section B) illustrates how supply chain concepts rarely exist in isolation. The relationship between purchasing and supply chain management. provides strategic direction that shapes procurement decisions, while procurement generates operational data and constraints that feed back into the relationship between purchasing and supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-procurement/",
+          "title": "What is procurement? Definition, Types, Processes & More",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The relationship between purchasing and supply chain management. and procurement operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The relationship between purchasing and supply chain management. completely subsumes procurement, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the relationship between purchasing and supply chain management. and procurement is purely one-directional, with no feedback mechanism from procurement back to the relationship between purchasing and supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "D.5<>A.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "interaction_description": "Management of supply and demand for supply chain management. and demand forecasting have a bidirectional relationship across their domains: decisions in management of supply and demand for supply chain management. directly influence how demand forecasting is configured and managed, while feedback from demand forecasting operations informs adjustments to management of supply and demand for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between management of supply and demand for supply chain management. (Section D) and demand forecasting (Section A) illustrates how supply chain concepts rarely exist in isolation. Management of supply and demand for supply chain management. provides strategic direction that shapes demand forecasting decisions, while demand forecasting generates operational data and constraints that feed back into management of supply and demand for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Management of supply and demand for supply chain management. and demand forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Management of supply and demand for supply chain management. completely subsumes demand forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between management of supply and demand for supply chain management. and demand forecasting is purely one-directional, with no feedback mechanism from demand forecasting back to management of supply and demand for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "D.5<>B.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning",
+        "section": "B"
+      },
+      "interaction_description": "Management of supply and demand for supply chain management. and sales and operations planning have a bidirectional relationship across their domains: decisions in management of supply and demand for supply chain management. directly influence how sales and operations planning is configured and managed, while feedback from sales and operations planning operations informs adjustments to management of supply and demand for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between management of supply and demand for supply chain management. (Section D) and sales and operations planning (Section B) illustrates how supply chain concepts rarely exist in isolation. Management of supply and demand for supply chain management. provides strategic direction that shapes sales and operations planning decisions, while sales and operations planning generates operational data and constraints that feed back into management of supply and demand for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Management of supply and demand for supply chain management. and sales and operations planning operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Management of supply and demand for supply chain management. completely subsumes sales and operations planning, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between management of supply and demand for supply chain management. and sales and operations planning is purely one-directional, with no feedback mechanism from sales and operations planning back to management of supply and demand for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "D.3<>I.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.3",
+        "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain.",
+        "section": "I"
+      },
+      "interaction_description": "Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. and the role of outsourcing in a supply chain. have a bidirectional relationship across their domains: decisions in suppliers, subcontractors, transportation providers, and product distribution is determined by a company. directly influence how the role of outsourcing in a supply chain. is configured and managed, while feedback from the role of outsourcing in a supply chain. operations informs adjustments to suppliers, subcontractors, transportation providers, and product distribution is determined by a company. strategy.",
+      "explanation": "The cross-section relationship between suppliers, subcontractors, transportation providers, and product distribution is determined by a company. (Section D) and the role of outsourcing in a supply chain. (Section I) illustrates how supply chain concepts rarely exist in isolation. Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. provides strategic direction that shapes the role of outsourcing in a supply chain. decisions, while the role of outsourcing in a supply chain. generates operational data and constraints that feed back into suppliers, subcontractors, transportation providers, and product distribution is determined by a company. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.blumeglobal.com/learning/supply-chain-ecosystem/",
+          "title": "9 key players in the global supply chain ecosystem",
+          "site": "Blume Global"
+        },
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. and the role of outsourcing in a supply chain. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Suppliers, subcontractors, transportation providers, and product distribution is determined by a company. completely subsumes the role of outsourcing in a supply chain., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between suppliers, subcontractors, transportation providers, and product distribution is determined by a company. and the role of outsourcing in a supply chain. is purely one-directional, with no feedback mechanism from the role of outsourcing in a supply chain. back to suppliers, subcontractors, transportation providers, and product distribution is determined by a company.."
+        ]
+      }
+    },
+    {
+      "id": "D.5<>B.3_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting",
+        "section": "B"
+      },
+      "interaction_description": "Management of supply and demand for supply chain management. and the role of forecasting have a bidirectional relationship across their domains: decisions in management of supply and demand for supply chain management. directly influence how the role of forecasting is configured and managed, while feedback from the role of forecasting operations informs adjustments to management of supply and demand for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between management of supply and demand for supply chain management. (Section D) and the role of forecasting (Section B) illustrates how supply chain concepts rarely exist in isolation. Management of supply and demand for supply chain management. provides strategic direction that shapes the role of forecasting decisions, while the role of forecasting generates operational data and constraints that feed back into management of supply and demand for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Management of supply and demand for supply chain management. and the role of forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Management of supply and demand for supply chain management. completely subsumes the role of forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between management of supply and demand for supply chain management. and the role of forecasting is purely one-directional, with no feedback mechanism from the role of forecasting back to management of supply and demand for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "D.5<>K.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies",
+        "section": "K"
+      },
+      "interaction_description": "Management of supply and demand for supply chain management. and supply chain management creates efficiencies have a bidirectional relationship across their domains: decisions in management of supply and demand for supply chain management. directly influence how supply chain management creates efficiencies is configured and managed, while feedback from supply chain management creates efficiencies operations informs adjustments to management of supply and demand for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between management of supply and demand for supply chain management. (Section D) and supply chain management creates efficiencies (Section K) illustrates how supply chain concepts rarely exist in isolation. Management of supply and demand for supply chain management. provides strategic direction that shapes supply chain management creates efficiencies decisions, while supply chain management creates efficiencies generates operational data and constraints that feed back into management of supply and demand for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/demand-management.shtml",
+          "title": "What Is Demand Management: Functions, Process and Examples",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Management of supply and demand for supply chain management. and supply chain management creates efficiencies operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Management of supply and demand for supply chain management. completely subsumes supply chain management creates efficiencies, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between management of supply and demand for supply chain management. and supply chain management creates efficiencies is purely one-directional, with no feedback mechanism from supply chain management creates efficiencies back to management of supply and demand for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "D.7<>A.11_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "D.7",
+        "label": "Explain the importance of expense management for supply chain management.",
+        "section": "D"
+      },
+      "target_concept": {
+        "id": "A.11",
+        "label": "Define strategic orientation for saving money within an organization",
+        "section": "A"
+      },
+      "interaction_description": "The importance of expense management for supply chain management. and strategic orientation for saving money within an organization have a bidirectional relationship across their domains: decisions in the importance of expense management for supply chain management. directly influence how strategic orientation for saving money within an organization is configured and managed, while feedback from strategic orientation for saving money within an organization operations informs adjustments to the importance of expense management for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the importance of expense management for supply chain management. (Section D) and strategic orientation for saving money within an organization (Section A) illustrates how supply chain concepts rarely exist in isolation. The importance of expense management for supply chain management. provides strategic direction that shapes strategic orientation for saving money within an organization decisions, while strategic orientation for saving money within an organization generates operational data and constraints that feed back into the importance of expense management for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://igps.net/supply-chain-optimization-and-the-importance-of-cost-control/",
+          "title": "Supply Chain Optimization and the Importance of Cost Control",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://igps.net/cost-management-in-the-supply-chain-techniques-for-lowering-overall-costs/",
+          "title": "Cost Management in the Supply Chain: Techniques for Lowering Overall Costs",
+          "site": "iGPS"
+        },
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The importance of expense management for supply chain management. and strategic orientation for saving money within an organization operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The importance of expense management for supply chain management. completely subsumes strategic orientation for saving money within an organization, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the importance of expense management for supply chain management. and strategic orientation for saving money within an organization is purely one-directional, with no feedback mechanism from strategic orientation for saving money within an organization back to the importance of expense management for supply chain management.."
+        ]
+      }
+    }
+  ]
+}

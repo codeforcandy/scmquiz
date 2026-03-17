@@ -1,0 +1,2041 @@
+{
+  "section_id": "A",
+  "section_title": "Essential Supply Chain Management Concepts",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "A.1->A.2->A.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.2",
+          "label": "Define the entire supply chain"
+        },
+        {
+          "id": "A.10",
+          "label": "Define physical and information flows"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "SCM manages the entire supply chain from raw materials to end customer"
+        },
+        {
+          "type": "includes",
+          "description": "The supply chain includes both physical and information flows"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.2",
+        "label": "Define the entire supply chain"
+      },
+      "consequence_description": "When the entire supply chain is disrupted, the includes connection to physical and information flows breaks down. Physical and information flows loses its foundational input from supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The entire supply chain serves as a critical intermediary in this concept chain. The includes relationship from supply chain management to the entire supply chain establishes a dependency, and the includes relationship from the entire supply chain to physical and information flows carries that influence forward. When the entire supply chain is disrupted, the downstream effect on physical and information flows is not merely a loss of one input — it severs the entire pathway through which supply chain management influences physical and information flows, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/end-to-end-supply-chain.shtml",
+          "title": "What Is an End-to-End Supply Chain?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://inchainge.com/knowledge/supply-chain/end-to-end/",
+          "title": "What is an end to end supply chain and its benefits?",
+          "site": "Inchainge"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the entire supply chain redundant and improving overall efficiency.",
+          "Disrupting the entire supply chain would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the entire supply chain alone, with no downstream effect on physical and information flows or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.1->A.3->A.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        },
+        {
+          "id": "A.4",
+          "label": "Explain how logistics impacts supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Logistics is a key component of supply chain management"
+        },
+        {
+          "type": "related_to",
+          "description": "Logistics directly impacts SCM performance and efficiency"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.3",
+        "label": "Define logistics"
+      },
+      "consequence_description": "When logistics is disrupted, the related to connection to logistics impacts supply chain management breaks down. Logistics impacts supply chain management loses its foundational input from supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Logistics serves as a critical intermediary in this concept chain. The includes relationship from supply chain management to logistics establishes a dependency, and the related to relationship from logistics to logistics impacts supply chain management carries that influence forward. When logistics is disrupted, the downstream effect on logistics impacts supply chain management is not merely a loss of one input — it severs the entire pathway through which supply chain management influences logistics impacts supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Logistics",
+          "title": "Logistics",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making logistics redundant and improving overall efficiency.",
+          "Disrupting logistics would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to logistics alone, with no downstream effect on logistics impacts supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.1->A.9->A.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.9",
+          "label": "Define logistics management"
+        },
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Logistics management is a subset function within SCM"
+        },
+        {
+          "type": "includes",
+          "description": "Logistics management is the formal discipline governing logistics activities"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.9",
+        "label": "Define logistics management"
+      },
+      "consequence_description": "When logistics management is disrupted, the includes connection to logistics breaks down. Logistics loses its foundational input from supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Logistics management serves as a critical intermediary in this concept chain. The includes relationship from supply chain management to logistics management establishes a dependency, and the includes relationship from logistics management to logistics carries that influence forward. When logistics management is disrupted, the downstream effect on logistics is not merely a loss of one input — it severs the entire pathway through which supply chain management influences logistics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://scmedu.org/logisticsmanagement/",
+          "title": "What is Logistics Management as defined by CSCMP?",
+          "site": "SCM EDU"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making logistics management redundant and improving overall efficiency.",
+          "Disrupting logistics management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to logistics management alone, with no downstream effect on logistics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.2->A.1->A.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.2",
+          "label": "Define the entire supply chain"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        }
+      ],
+      "links": [
+        {
+          "type": "part_of",
+          "description": "The entire supply chain is what SCM manages and coordinates"
+        },
+        {
+          "type": "includes",
+          "description": "Logistics is a key component of supply chain management"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.1",
+        "label": "Define supply chain management"
+      },
+      "consequence_description": "When supply chain management is disrupted, the includes connection to logistics breaks down. Logistics loses its foundational input from the entire supply chain, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management serves as a critical intermediary in this concept chain. The part of relationship from the entire supply chain to supply chain management establishes a dependency, and the includes relationship from supply chain management to logistics carries that influence forward. When supply chain management is disrupted, the downstream effect on logistics is not merely a loss of one input — it severs the entire pathway through which the entire supply chain influences logistics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management redundant and improving overall efficiency.",
+          "Disrupting supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management alone, with no downstream effect on logistics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.2->A.10->A.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.2",
+          "label": "Define the entire supply chain"
+        },
+        {
+          "id": "A.10",
+          "label": "Define physical and information flows"
+        },
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "The supply chain includes both physical and information flows"
+        },
+        {
+          "type": "related_to",
+          "description": "Logistics manages the physical flow of goods"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.10",
+        "label": "Define physical and information flows"
+      },
+      "consequence_description": "When physical and information flows is disrupted, the related to connection to logistics breaks down. Logistics loses its foundational input from the entire supply chain, degrading overall supply chain performance in this area.",
+      "explanation": "Physical and information flows serves as a critical intermediary in this concept chain. The includes relationship from the entire supply chain to physical and information flows establishes a dependency, and the related to relationship from physical and information flows to logistics carries that influence forward. When physical and information flows is disrupted, the downstream effect on logistics is not merely a loss of one input — it severs the entire pathway through which the entire supply chain influences logistics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-flow/",
+          "title": "What is Supply Chain Flow? Processes + Information Flow",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making physical and information flows redundant and improving overall efficiency.",
+          "Disrupting physical and information flows would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to physical and information flows alone, with no downstream effect on logistics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.3->A.4->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        },
+        {
+          "id": "A.4",
+          "label": "Explain how logistics impacts supply chain management"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Logistics directly impacts SCM performance and efficiency"
+        },
+        {
+          "type": "applies_to",
+          "description": "Explains how logistics functions affect overall SCM"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.4",
+        "label": "Explain how logistics impacts supply chain management"
+      },
+      "consequence_description": "When logistics impacts supply chain management is disrupted, the applies to connection to supply chain management breaks down. Supply chain management loses its foundational input from logistics, degrading overall supply chain performance in this area.",
+      "explanation": "Logistics impacts supply chain management serves as a critical intermediary in this concept chain. The related to relationship from logistics to logistics impacts supply chain management establishes a dependency, and the applies to relationship from logistics impacts supply chain management to supply chain management carries that influence forward. When logistics impacts supply chain management is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which logistics influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/the-importance-of-supply-chain-management-in-logistics/",
+          "title": "The Importance of Supply Chain Management in Logistics",
+          "site": "American Public University"
+        },
+        {
+          "url": "https://www.tadanow.com/blog/the-role-of-logistics-in-supply-chain-efficiency",
+          "title": "The Role of Logistics in Supply Chain Efficiency",
+          "site": "Tada"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making logistics impacts supply chain management redundant and improving overall efficiency.",
+          "Disrupting logistics impacts supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to logistics impacts supply chain management alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.4->A.11->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.4",
+          "label": "Explain how logistics impacts supply chain management"
+        },
+        {
+          "id": "A.11",
+          "label": "Define strategic orientation for saving money within an organization"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Logistics optimization is a key strategy for cost savings"
+        },
+        {
+          "type": "applies_to",
+          "description": "Cost saving strategies are applied within supply chain management"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.11",
+        "label": "Define strategic orientation for saving money within an organization"
+      },
+      "consequence_description": "When strategic orientation for saving money within an organization is disrupted, the applies to connection to supply chain management breaks down. Supply chain management loses its foundational input from logistics impacts supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Strategic orientation for saving money within an organization serves as a critical intermediary in this concept chain. The related to relationship from logistics impacts supply chain management to strategic orientation for saving money within an organization establishes a dependency, and the applies to relationship from strategic orientation for saving money within an organization to supply chain management carries that influence forward. When strategic orientation for saving money within an organization is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which logistics impacts supply chain management influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        },
+        {
+          "url": "https://www.ey.com/en_us/coo/rapid-supply-chain-cost-reduction-strategies",
+          "title": "Rapid supply chain cost reduction strategies",
+          "site": "EY"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making strategic orientation for saving money within an organization redundant and improving overall efficiency.",
+          "Disrupting strategic orientation for saving money within an organization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to strategic orientation for saving money within an organization alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.5->A.12->A.13_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.5",
+          "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading"
+        },
+        {
+          "id": "A.12",
+          "label": "Describe the global impact on supply chain management"
+        },
+        {
+          "id": "A.13",
+          "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global trading factors are part of the broader global impact on SCM"
+        },
+        {
+          "type": "related_to",
+          "description": "Understanding trade regulations is essential for managing global supply chains"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.12",
+        "label": "Describe the global impact on supply chain management"
+      },
+      "consequence_description": "When the global impact on supply chain management is disrupted, the related to connection to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management breaks down. The importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management loses its foundational input from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading, degrading overall supply chain performance in this area.",
+      "explanation": "The global impact on supply chain management serves as a critical intermediary in this concept chain. The related to relationship from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading to the global impact on supply chain management establishes a dependency, and the related to relationship from the global impact on supply chain management to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management carries that influence forward. When the global impact on supply chain management is disrupted, the downstream effect on the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management is not merely a loss of one input — it severs the entire pathway through which e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading influences the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/global-supply-chain-what-it-is-importance-and-challenges/",
+          "title": "What Is the Global Supply Chain? Importance, Functions & Key Challenges",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the global impact on supply chain management redundant and improving overall efficiency.",
+          "Disrupting the global impact on supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the global impact on supply chain management alone, with no downstream effect on the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.5->A.13->A.12_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.5",
+          "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading"
+        },
+        {
+          "id": "A.13",
+          "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management"
+        },
+        {
+          "id": "A.12",
+          "label": "Describe the global impact on supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Importing, exporting, and customs regulations are core elements of global trading"
+        },
+        {
+          "type": "related_to",
+          "description": "Trade knowledge is critical for managing global supply chain impacts"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.13",
+        "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management"
+      },
+      "consequence_description": "When the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management is disrupted, the related to connection to the global impact on supply chain management breaks down. The global impact on supply chain management loses its foundational input from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading, degrading overall supply chain performance in this area.",
+      "explanation": "The importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management establishes a dependency, and the related to relationship from the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management to the global impact on supply chain management carries that influence forward. When the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management is disrupted, the downstream effect on the global impact on supply chain management is not merely a loss of one input — it severs the entire pathway through which e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading influences the global impact on supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://reidellawfirm.com/how-international-trade-law-affects-supply-chain-management/",
+          "title": "How International Trade Law Affects Supply Chain Management",
+          "site": "Reidel Law Firm"
+        },
+        {
+          "url": "https://www.bdo.com/insights/tax/why-trade-customs-planning-needs-higher-importance-in-supply-chain-management",
+          "title": "Why Trade & Customs Planning Needs Higher Importance in Supply Chain Management",
+          "site": "BDO"
+        },
+        {
+          "url": "https://www.novocargo.com/en/customs-logistics/",
+          "title": "The impact of Customs on Logistics and Supply Chain management",
+          "site": "Novocargo"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management redundant and improving overall efficiency.",
+          "Disrupting the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management alone, with no downstream effect on the global impact on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.6->A.7->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.6",
+          "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment"
+        },
+        {
+          "id": "A.7",
+          "label": "Explain how supply chain management is practiced in a wide array of industries"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Value creation applies differently across various industries"
+        },
+        {
+          "type": "applies_to",
+          "description": "Demonstrates how SCM principles are applied across industries"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.7",
+        "label": "Explain how supply chain management is practiced in a wide array of industries"
+      },
+      "consequence_description": "When supply chain management is practiced in a wide array of industries is disrupted, the applies to connection to supply chain management breaks down. Supply chain management loses its foundational input from the creation of new value in the supply chain for customers, society, and the environment, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management is practiced in a wide array of industries serves as a critical intermediary in this concept chain. The related to relationship from the creation of new value in the supply chain for customers, society, and the environment to supply chain management is practiced in a wide array of industries establishes a dependency, and the applies to relationship from supply chain management is practiced in a wide array of industries to supply chain management carries that influence forward. When supply chain management is practiced in a wide array of industries is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which the creation of new value in the supply chain for customers, society, and the environment influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK22867/",
+          "title": "Supply-Chain Management and Health Care Delivery",
+          "site": "NCBI Bookshelf"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.medline.com/strategies/supply-chain/healthcare-supply-chain-management-critical-role/",
+          "title": "The crucial role of healthcare supply chain management",
+          "site": "Medline"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management is practiced in a wide array of industries redundant and improving overall efficiency.",
+          "Disrupting supply chain management is practiced in a wide array of industries would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management is practiced in a wide array of industries alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.7->A.6->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.7",
+          "label": "Explain how supply chain management is practiced in a wide array of industries"
+        },
+        {
+          "id": "A.6",
+          "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Value creation varies by industry context"
+        },
+        {
+          "type": "applies_to",
+          "description": "Value creation is a core objective of supply chain management"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.6",
+        "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment"
+      },
+      "consequence_description": "When the creation of new value in the supply chain for customers, society, and the environment is disrupted, the applies to connection to supply chain management breaks down. Supply chain management loses its foundational input from supply chain management is practiced in a wide array of industries, degrading overall supply chain performance in this area.",
+      "explanation": "The creation of new value in the supply chain for customers, society, and the environment serves as a critical intermediary in this concept chain. The related to relationship from supply chain management is practiced in a wide array of industries to the creation of new value in the supply chain for customers, society, and the environment establishes a dependency, and the applies to relationship from the creation of new value in the supply chain for customers, society, and the environment to supply chain management carries that influence forward. When the creation of new value in the supply chain for customers, society, and the environment is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which supply chain management is practiced in a wide array of industries influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2025/09/five-reasons-why-sustainable-value-chains-are-good-for-business/",
+          "title": "Why sustainable value chains are good for business",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the creation of new value in the supply chain for customers, society, and the environment redundant and improving overall efficiency.",
+          "Disrupting the creation of new value in the supply chain for customers, society, and the environment would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the creation of new value in the supply chain for customers, society, and the environment alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.7->A.8->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.7",
+          "label": "Explain how supply chain management is practiced in a wide array of industries"
+        },
+        {
+          "id": "A.8",
+          "label": "Explain demand forecasting"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Demand forecasting methods vary by industry"
+        },
+        {
+          "type": "part_of",
+          "description": "Demand forecasting is a key process within supply chain management"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting"
+      },
+      "consequence_description": "When demand forecasting is disrupted, the part of connection to supply chain management breaks down. Supply chain management loses its foundational input from supply chain management is practiced in a wide array of industries, degrading overall supply chain performance in this area.",
+      "explanation": "Demand forecasting serves as a critical intermediary in this concept chain. The related to relationship from supply chain management is practiced in a wide array of industries to demand forecasting establishes a dependency, and the part of relationship from demand forecasting to supply chain management carries that influence forward. When demand forecasting is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which supply chain management is practiced in a wide array of industries influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making demand forecasting redundant and improving overall efficiency.",
+          "Disrupting demand forecasting would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to demand forecasting alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.12->A.5->A.13_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.12",
+          "label": "Describe the global impact on supply chain management"
+        },
+        {
+          "id": "A.5",
+          "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading"
+        },
+        {
+          "id": "A.13",
+          "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Global impact encompasses e-commerce, tariffs, customs, and legal aspects"
+        },
+        {
+          "type": "related_to",
+          "description": "Importing, exporting, and customs regulations are core elements of global trading"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.5",
+        "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading"
+      },
+      "consequence_description": "When e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading is disrupted, the related to connection to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management breaks down. The importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management loses its foundational input from the global impact on supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading serves as a critical intermediary in this concept chain. The includes relationship from the global impact on supply chain management to e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading establishes a dependency, and the related to relationship from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management carries that influence forward. When e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading is disrupted, the downstream effect on the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management is not merely a loss of one input — it severs the entire pathway through which the global impact on supply chain management influences the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        },
+        {
+          "url": "https://dclcorp.com/blog/supply-chain/navigative-tariffs/",
+          "title": "Navigating Tariffs and International Shipping Costs for Ecommerce Businesses Going Global",
+          "site": "DCL Logistics"
+        },
+        {
+          "url": "https://www.easyship.com/blog/what-new-tariffs-mean-for-us-ecommerce-imports",
+          "title": "What New Tariffs Mean For U.S. eCommerce Imports",
+          "site": "Easyship"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading redundant and improving overall efficiency.",
+          "Disrupting e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading alone, with no downstream effect on the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.12->A.14->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.12",
+          "label": "Describe the global impact on supply chain management"
+        },
+        {
+          "id": "A.14",
+          "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Globalization is a key driver of SCM growth"
+        },
+        {
+          "type": "related_to",
+          "description": "Explains the factors that drove the growth and importance of SCM"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.14",
+        "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)"
+      },
+      "consequence_description": "When the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) is disrupted, the related to connection to supply chain management breaks down. Supply chain management loses its foundational input from the global impact on supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) serves as a critical intermediary in this concept chain. The related to relationship from the global impact on supply chain management to the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) establishes a dependency, and the related to relationship from the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) to supply chain management carries that influence forward. When the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which the global impact on supply chain management influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://transportgeography.org/contents/chapter7/logistics-freight-distribution/evolution-supply-chain-management/",
+          "title": "The Evolution of Supply Chain Management",
+          "site": "The Geography of Transport Systems"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s41062-023-01331-2",
+          "title": "The impact of globalisation processes on supply chain management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "Globalization And Supply Chain Management in 2025",
+          "site": "Flowspace"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) redundant and improving overall efficiency.",
+          "Disrupting the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.1->A.2->A.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.2",
+          "label": "Define the entire supply chain"
+        },
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "SCM manages the entire supply chain from raw materials to end customer"
+        },
+        {
+          "type": "includes",
+          "description": "Logistics is a core function within the entire supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.2",
+        "label": "Define the entire supply chain"
+      },
+      "consequence_description": "When the entire supply chain is disrupted, the includes connection to logistics breaks down. Logistics loses its foundational input from supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The entire supply chain serves as a critical intermediary in this concept chain. The includes relationship from supply chain management to the entire supply chain establishes a dependency, and the includes relationship from the entire supply chain to logistics carries that influence forward. When the entire supply chain is disrupted, the downstream effect on logistics is not merely a loss of one input — it severs the entire pathway through which supply chain management influences logistics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/end-to-end-supply-chain.shtml",
+          "title": "What Is an End-to-End Supply Chain?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://inchainge.com/knowledge/supply-chain/end-to-end/",
+          "title": "What is an end to end supply chain and its benefits?",
+          "site": "Inchainge"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the entire supply chain redundant and improving overall efficiency.",
+          "Disrupting the entire supply chain would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the entire supply chain alone, with no downstream effect on logistics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.1->A.3->A.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        },
+        {
+          "id": "A.9",
+          "label": "Define logistics management"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Logistics is a key component of supply chain management"
+        },
+        {
+          "type": "related_to",
+          "description": "Logistics management is the formal discipline of managing logistics"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.3",
+        "label": "Define logistics"
+      },
+      "consequence_description": "When logistics is disrupted, the related to connection to logistics management breaks down. Logistics management loses its foundational input from supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Logistics serves as a critical intermediary in this concept chain. The includes relationship from supply chain management to logistics establishes a dependency, and the related to relationship from logistics to logistics management carries that influence forward. When logistics is disrupted, the downstream effect on logistics management is not merely a loss of one input — it severs the entire pathway through which supply chain management influences logistics management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Logistics",
+          "title": "Logistics",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making logistics redundant and improving overall efficiency.",
+          "Disrupting logistics would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to logistics alone, with no downstream effect on logistics management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.1->A.9->A.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.9",
+          "label": "Define logistics management"
+        },
+        {
+          "id": "A.4",
+          "label": "Explain how logistics impacts supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Logistics management is a subset function within SCM"
+        },
+        {
+          "type": "prerequisite_for",
+          "description": "Understanding logistics management is needed to understand its impact on SCM"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.9",
+        "label": "Define logistics management"
+      },
+      "consequence_description": "When logistics management is disrupted, the prerequisite for connection to logistics impacts supply chain management breaks down. Logistics impacts supply chain management loses its foundational input from supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Logistics management serves as a critical intermediary in this concept chain. The includes relationship from supply chain management to logistics management establishes a dependency, and the prerequisite for relationship from logistics management to logistics impacts supply chain management carries that influence forward. When logistics management is disrupted, the downstream effect on logistics impacts supply chain management is not merely a loss of one input — it severs the entire pathway through which supply chain management influences logistics impacts supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://scmedu.org/logisticsmanagement/",
+          "title": "What is Logistics Management as defined by CSCMP?",
+          "site": "SCM EDU"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/logistics-management/",
+          "title": "Logistics Management: Definition, Functions, and Benefits",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making logistics management redundant and improving overall efficiency.",
+          "Disrupting logistics management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to logistics management alone, with no downstream effect on logistics impacts supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.2->A.1->A.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.2",
+          "label": "Define the entire supply chain"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        },
+        {
+          "id": "A.9",
+          "label": "Define logistics management"
+        }
+      ],
+      "links": [
+        {
+          "type": "part_of",
+          "description": "The entire supply chain is what SCM manages and coordinates"
+        },
+        {
+          "type": "includes",
+          "description": "Logistics management is a subset function within SCM"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.1",
+        "label": "Define supply chain management"
+      },
+      "consequence_description": "When supply chain management is disrupted, the includes connection to logistics management breaks down. Logistics management loses its foundational input from the entire supply chain, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management serves as a critical intermediary in this concept chain. The part of relationship from the entire supply chain to supply chain management establishes a dependency, and the includes relationship from supply chain management to logistics management carries that influence forward. When supply chain management is disrupted, the downstream effect on logistics management is not merely a loss of one input — it severs the entire pathway through which the entire supply chain influences logistics management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management redundant and improving overall efficiency.",
+          "Disrupting supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management alone, with no downstream effect on logistics management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.2->A.10->A.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.2",
+          "label": "Define the entire supply chain"
+        },
+        {
+          "id": "A.10",
+          "label": "Define physical and information flows"
+        },
+        {
+          "id": "A.8",
+          "label": "Explain demand forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "The supply chain includes both physical and information flows"
+        },
+        {
+          "type": "related_to",
+          "description": "Information flows provide data needed for demand forecasting"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.10",
+        "label": "Define physical and information flows"
+      },
+      "consequence_description": "When physical and information flows is disrupted, the related to connection to demand forecasting breaks down. Demand forecasting loses its foundational input from the entire supply chain, degrading overall supply chain performance in this area.",
+      "explanation": "Physical and information flows serves as a critical intermediary in this concept chain. The includes relationship from the entire supply chain to physical and information flows establishes a dependency, and the related to relationship from physical and information flows to demand forecasting carries that influence forward. When physical and information flows is disrupted, the downstream effect on demand forecasting is not merely a loss of one input — it severs the entire pathway through which the entire supply chain influences demand forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-flow/",
+          "title": "What is Supply Chain Flow? Processes + Information Flow",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making physical and information flows redundant and improving overall efficiency.",
+          "Disrupting physical and information flows would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to physical and information flows alone, with no downstream effect on demand forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.3->A.4->A.11_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.3",
+          "label": "Define logistics"
+        },
+        {
+          "id": "A.4",
+          "label": "Explain how logistics impacts supply chain management"
+        },
+        {
+          "id": "A.11",
+          "label": "Define strategic orientation for saving money within an organization"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Logistics directly impacts SCM performance and efficiency"
+        },
+        {
+          "type": "related_to",
+          "description": "Logistics optimization is a key strategy for cost savings"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.4",
+        "label": "Explain how logistics impacts supply chain management"
+      },
+      "consequence_description": "When logistics impacts supply chain management is disrupted, the related to connection to strategic orientation for saving money within an organization breaks down. Strategic orientation for saving money within an organization loses its foundational input from logistics, degrading overall supply chain performance in this area.",
+      "explanation": "Logistics impacts supply chain management serves as a critical intermediary in this concept chain. The related to relationship from logistics to logistics impacts supply chain management establishes a dependency, and the related to relationship from logistics impacts supply chain management to strategic orientation for saving money within an organization carries that influence forward. When logistics impacts supply chain management is disrupted, the downstream effect on strategic orientation for saving money within an organization is not merely a loss of one input — it severs the entire pathway through which logistics influences strategic orientation for saving money within an organization, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/the-importance-of-supply-chain-management-in-logistics/",
+          "title": "The Importance of Supply Chain Management in Logistics",
+          "site": "American Public University"
+        },
+        {
+          "url": "https://www.tadanow.com/blog/the-role-of-logistics-in-supply-chain-efficiency",
+          "title": "The Role of Logistics in Supply Chain Efficiency",
+          "site": "Tada"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making logistics impacts supply chain management redundant and improving overall efficiency.",
+          "Disrupting logistics impacts supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to logistics impacts supply chain management alone, with no downstream effect on strategic orientation for saving money within an organization or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.4->A.11->A.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.4",
+          "label": "Explain how logistics impacts supply chain management"
+        },
+        {
+          "id": "A.11",
+          "label": "Define strategic orientation for saving money within an organization"
+        },
+        {
+          "id": "A.8",
+          "label": "Explain demand forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Logistics optimization is a key strategy for cost savings"
+        },
+        {
+          "type": "related_to",
+          "description": "Demand forecasting is a key tool for strategic cost savings"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.11",
+        "label": "Define strategic orientation for saving money within an organization"
+      },
+      "consequence_description": "When strategic orientation for saving money within an organization is disrupted, the related to connection to demand forecasting breaks down. Demand forecasting loses its foundational input from logistics impacts supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Strategic orientation for saving money within an organization serves as a critical intermediary in this concept chain. The related to relationship from logistics impacts supply chain management to strategic orientation for saving money within an organization establishes a dependency, and the related to relationship from strategic orientation for saving money within an organization to demand forecasting carries that influence forward. When strategic orientation for saving money within an organization is disrupted, the downstream effect on demand forecasting is not merely a loss of one input — it severs the entire pathway through which logistics impacts supply chain management influences demand forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.avetta.com/blog/4-key-cost-reduction-strategies-in-supply-chain-management",
+          "title": "4 Key Cost Reduction Strategies in Supply Chain Management",
+          "site": "Avetta"
+        },
+        {
+          "url": "https://www.ey.com/en_us/coo/rapid-supply-chain-cost-reduction-strategies",
+          "title": "Rapid supply chain cost reduction strategies",
+          "site": "EY"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making strategic orientation for saving money within an organization redundant and improving overall efficiency.",
+          "Disrupting strategic orientation for saving money within an organization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to strategic orientation for saving money within an organization alone, with no downstream effect on demand forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.5->A.12->A.14_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.5",
+          "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading"
+        },
+        {
+          "id": "A.12",
+          "label": "Describe the global impact on supply chain management"
+        },
+        {
+          "id": "A.14",
+          "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global trading factors are part of the broader global impact on SCM"
+        },
+        {
+          "type": "related_to",
+          "description": "Globalization is a key driver of SCM growth"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.12",
+        "label": "Describe the global impact on supply chain management"
+      },
+      "consequence_description": "When the global impact on supply chain management is disrupted, the related to connection to the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) breaks down. The reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) loses its foundational input from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading, degrading overall supply chain performance in this area.",
+      "explanation": "The global impact on supply chain management serves as a critical intermediary in this concept chain. The related to relationship from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading to the global impact on supply chain management establishes a dependency, and the related to relationship from the global impact on supply chain management to the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) carries that influence forward. When the global impact on supply chain management is disrupted, the downstream effect on the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) is not merely a loss of one input — it severs the entire pathway through which e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading influences the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management), creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/global-supply-chain-what-it-is-importance-and-challenges/",
+          "title": "What Is the Global Supply Chain? Importance, Functions & Key Challenges",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the global impact on supply chain management redundant and improving overall efficiency.",
+          "Disrupting the global impact on supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the global impact on supply chain management alone, with no downstream effect on the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.5->A.13->A.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.5",
+          "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading"
+        },
+        {
+          "id": "A.13",
+          "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management"
+        },
+        {
+          "id": "A.1",
+          "label": "Define supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Importing, exporting, and customs regulations are core elements of global trading"
+        },
+        {
+          "type": "applies_to",
+          "description": "Trade and customs knowledge is applied within SCM practice"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.13",
+        "label": "Explain the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management"
+      },
+      "consequence_description": "When the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management is disrupted, the applies to connection to supply chain management breaks down. Supply chain management loses its foundational input from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading, degrading overall supply chain performance in this area.",
+      "explanation": "The importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management establishes a dependency, and the applies to relationship from the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management to supply chain management carries that influence forward. When the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management is disrupted, the downstream effect on supply chain management is not merely a loss of one input — it severs the entire pathway through which e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading influences supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://reidellawfirm.com/how-international-trade-law-affects-supply-chain-management/",
+          "title": "How International Trade Law Affects Supply Chain Management",
+          "site": "Reidel Law Firm"
+        },
+        {
+          "url": "https://www.bdo.com/insights/tax/why-trade-customs-planning-needs-higher-importance-in-supply-chain-management",
+          "title": "Why Trade & Customs Planning Needs Higher Importance in Supply Chain Management",
+          "site": "BDO"
+        },
+        {
+          "url": "https://www.novocargo.com/en/customs-logistics/",
+          "title": "The impact of Customs on Logistics and Supply Chain management",
+          "site": "Novocargo"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management redundant and improving overall efficiency.",
+          "Disrupting the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of understanding importing, exporting, trade agreements, and customs regulations for supply chain management alone, with no downstream effect on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.6->A.7->A.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.6",
+          "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment"
+        },
+        {
+          "id": "A.7",
+          "label": "Explain how supply chain management is practiced in a wide array of industries"
+        },
+        {
+          "id": "A.8",
+          "label": "Explain demand forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Value creation applies differently across various industries"
+        },
+        {
+          "type": "related_to",
+          "description": "Demand forecasting methods vary by industry"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.7",
+        "label": "Explain how supply chain management is practiced in a wide array of industries"
+      },
+      "consequence_description": "When supply chain management is practiced in a wide array of industries is disrupted, the related to connection to demand forecasting breaks down. Demand forecasting loses its foundational input from the creation of new value in the supply chain for customers, society, and the environment, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management is practiced in a wide array of industries serves as a critical intermediary in this concept chain. The related to relationship from the creation of new value in the supply chain for customers, society, and the environment to supply chain management is practiced in a wide array of industries establishes a dependency, and the related to relationship from supply chain management is practiced in a wide array of industries to demand forecasting carries that influence forward. When supply chain management is practiced in a wide array of industries is disrupted, the downstream effect on demand forecasting is not merely a loss of one input — it severs the entire pathway through which the creation of new value in the supply chain for customers, society, and the environment influences demand forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK22867/",
+          "title": "Supply-Chain Management and Health Care Delivery",
+          "site": "NCBI Bookshelf"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/healthcare-supply-chain-management.shtml",
+          "title": "Healthcare Supply Chain Management: Importance & Practices",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.medline.com/strategies/supply-chain/healthcare-supply-chain-management-critical-role/",
+          "title": "The crucial role of healthcare supply chain management",
+          "site": "Medline"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management is practiced in a wide array of industries redundant and improving overall efficiency.",
+          "Disrupting supply chain management is practiced in a wide array of industries would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management is practiced in a wide array of industries alone, with no downstream effect on demand forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.7->A.6->A.12_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "A.7",
+          "label": "Explain how supply chain management is practiced in a wide array of industries"
+        },
+        {
+          "id": "A.6",
+          "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment"
+        },
+        {
+          "id": "A.12",
+          "label": "Describe the global impact on supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Value creation varies by industry context"
+        },
+        {
+          "type": "related_to",
+          "description": "Global operations amplify both the opportunity and responsibility for value creation"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "A.6",
+        "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment"
+      },
+      "consequence_description": "When the creation of new value in the supply chain for customers, society, and the environment is disrupted, the related to connection to the global impact on supply chain management breaks down. The global impact on supply chain management loses its foundational input from supply chain management is practiced in a wide array of industries, degrading overall supply chain performance in this area.",
+      "explanation": "The creation of new value in the supply chain for customers, society, and the environment serves as a critical intermediary in this concept chain. The related to relationship from supply chain management is practiced in a wide array of industries to the creation of new value in the supply chain for customers, society, and the environment establishes a dependency, and the related to relationship from the creation of new value in the supply chain for customers, society, and the environment to the global impact on supply chain management carries that influence forward. When the creation of new value in the supply chain for customers, society, and the environment is disrupted, the downstream effect on the global impact on supply chain management is not merely a loss of one input — it severs the entire pathway through which supply chain management is practiced in a wide array of industries influences the global impact on supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.weforum.org/stories/2025/09/five-reasons-why-sustainable-value-chains-are-good-for-business/",
+          "title": "Why sustainable value chains are good for business",
+          "site": "World Economic Forum"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the creation of new value in the supply chain for customers, society, and the environment redundant and improving overall efficiency.",
+          "Disrupting the creation of new value in the supply chain for customers, society, and the environment would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the creation of new value in the supply chain for customers, society, and the environment alone, with no downstream effect on the global impact on supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "A.8<>B.3_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting",
+        "section": "B"
+      },
+      "interaction_description": "Demand forecasting and the role of forecasting have a bidirectional relationship across their domains: decisions in demand forecasting directly influence how the role of forecasting is configured and managed, while feedback from the role of forecasting operations informs adjustments to demand forecasting strategy.",
+      "explanation": "The cross-section relationship between demand forecasting (Section A) and the role of forecasting (Section B) illustrates how supply chain concepts rarely exist in isolation. Demand forecasting provides strategic direction that shapes the role of forecasting decisions, while the role of forecasting generates operational data and constraints that feed back into demand forecasting planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Demand forecasting and the role of forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Demand forecasting completely subsumes the role of forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between demand forecasting and the role of forecasting is purely one-directional, with no feedback mechanism from the role of forecasting back to demand forecasting."
+        ]
+      }
+    },
+    {
+      "id": "A.1<>D.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.1",
+        "label": "Define supply chain management",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Supply chain management and the relationship between purchasing and supply chain management. have a bidirectional relationship across their domains: decisions in supply chain management directly influence how the relationship between purchasing and supply chain management. is configured and managed, while feedback from the relationship between purchasing and supply chain management. operations informs adjustments to supply chain management strategy.",
+      "explanation": "The cross-section relationship between supply chain management (Section A) and the relationship between purchasing and supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Supply chain management provides strategic direction that shapes the relationship between purchasing and supply chain management. decisions, while the relationship between purchasing and supply chain management. generates operational data and constraints that feed back into supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Supply chain management and the relationship between purchasing and supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Supply chain management completely subsumes the relationship between purchasing and supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between supply chain management and the relationship between purchasing and supply chain management. is purely one-directional, with no feedback mechanism from the relationship between purchasing and supply chain management. back to supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "A.10<>G.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.10",
+        "label": "Define physical and information flows",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "G.1",
+        "label": "Explain the importance of synchronizing material flow",
+        "section": "G"
+      },
+      "interaction_description": "Physical and information flows and the importance of synchronizing material flow have a bidirectional relationship across their domains: decisions in physical and information flows directly influence how the importance of synchronizing material flow is configured and managed, while feedback from the importance of synchronizing material flow operations informs adjustments to physical and information flows strategy.",
+      "explanation": "The cross-section relationship between physical and information flows (Section A) and the importance of synchronizing material flow (Section G) illustrates how supply chain concepts rarely exist in isolation. Physical and information flows provides strategic direction that shapes the importance of synchronizing material flow decisions, while the importance of synchronizing material flow generates operational data and constraints that feed back into physical and information flows planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        },
+        {
+          "url": "https://www.scmr.com/article/from_physical_flows_to_information_flows_an_evolving_concept_of_supply_chai",
+          "title": "From Physical Flows to Information Flows: An Evolving Concept of Supply Chain",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Physical and information flows and the importance of synchronizing material flow operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Physical and information flows completely subsumes the importance of synchronizing material flow, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between physical and information flows and the importance of synchronizing material flow is purely one-directional, with no feedback mechanism from the importance of synchronizing material flow back to physical and information flows."
+        ]
+      }
+    },
+    {
+      "id": "A.12<>J.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.12",
+        "label": "Describe the global impact on supply chain management",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "J.5",
+        "label": "Describe political and economic events that impact supply chain management.",
+        "section": "J"
+      },
+      "interaction_description": "The global impact on supply chain management and political and economic events that impact supply chain management. have a bidirectional relationship across their domains: decisions in the global impact on supply chain management directly influence how political and economic events that impact supply chain management. is configured and managed, while feedback from political and economic events that impact supply chain management. operations informs adjustments to the global impact on supply chain management strategy.",
+      "explanation": "The cross-section relationship between the global impact on supply chain management (Section A) and political and economic events that impact supply chain management. (Section J) illustrates how supply chain concepts rarely exist in isolation. The global impact on supply chain management provides strategic direction that shapes political and economic events that impact supply chain management. decisions, while political and economic events that impact supply chain management. generates operational data and constraints that feed back into the global impact on supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        },
+        {
+          "url": "https://www.tvsscs.com/the-impact-of-globalization-on-supply-chain-solutions-companies/",
+          "title": "The Impact of Globalization on Supply Chain Solutions Companies",
+          "site": "TVS SCS"
+        },
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The global impact on supply chain management and political and economic events that impact supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The global impact on supply chain management completely subsumes political and economic events that impact supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the global impact on supply chain management and political and economic events that impact supply chain management. is purely one-directional, with no feedback mechanism from political and economic events that impact supply chain management. back to the global impact on supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "A.1<>I.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.1",
+        "label": "Define supply chain management",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain.",
+        "section": "I"
+      },
+      "interaction_description": "Supply chain management and the importance of cooperation and coordination in a supply chain. have a bidirectional relationship across their domains: decisions in supply chain management directly influence how the importance of cooperation and coordination in a supply chain. is configured and managed, while feedback from the importance of cooperation and coordination in a supply chain. operations informs adjustments to supply chain management strategy.",
+      "explanation": "The cross-section relationship between supply chain management (Section A) and the importance of cooperation and coordination in a supply chain. (Section I) illustrates how supply chain concepts rarely exist in isolation. Supply chain management provides strategic direction that shapes the importance of cooperation and coordination in a supply chain. decisions, while the importance of cooperation and coordination in a supply chain. generates operational data and constraints that feed back into supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://supplychaingamechanger.com/what-exactly-is-supply-chain-management-10-different-definitions/",
+          "title": "What Exactly Is Supply Chain Management? 10 Different Definitions",
+          "site": "Supply Chain Game Changer"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Supply chain management and the importance of cooperation and coordination in a supply chain. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Supply chain management completely subsumes the importance of cooperation and coordination in a supply chain., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between supply chain management and the importance of cooperation and coordination in a supply chain. is purely one-directional, with no feedback mechanism from the importance of cooperation and coordination in a supply chain. back to supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "A.8<>D.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Demand forecasting and management of supply and demand for supply chain management. have a bidirectional relationship across their domains: decisions in demand forecasting directly influence how management of supply and demand for supply chain management. is configured and managed, while feedback from management of supply and demand for supply chain management. operations informs adjustments to demand forecasting strategy.",
+      "explanation": "The cross-section relationship between demand forecasting (Section A) and management of supply and demand for supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Demand forecasting provides strategic direction that shapes management of supply and demand for supply chain management. decisions, while management of supply and demand for supply chain management. generates operational data and constraints that feed back into demand forecasting planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee Global Supply Chain Institute"
+        },
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Demand forecasting and management of supply and demand for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Demand forecasting completely subsumes management of supply and demand for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between demand forecasting and management of supply and demand for supply chain management. is purely one-directional, with no feedback mechanism from management of supply and demand for supply chain management. back to demand forecasting."
+        ]
+      }
+    },
+    {
+      "id": "A.5<>J.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.5",
+        "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "J.5",
+        "label": "Describe political and economic events that impact supply chain management.",
+        "section": "J"
+      },
+      "interaction_description": "E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading and political and economic events that impact supply chain management. have a bidirectional relationship across their domains: decisions in e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading directly influence how political and economic events that impact supply chain management. is configured and managed, while feedback from political and economic events that impact supply chain management. operations informs adjustments to e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading strategy.",
+      "explanation": "The cross-section relationship between e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading (Section A) and political and economic events that impact supply chain management. (Section J) illustrates how supply chain concepts rarely exist in isolation. E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading provides strategic direction that shapes political and economic events that impact supply chain management. decisions, while political and economic events that impact supply chain management. generates operational data and constraints that feed back into e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        },
+        {
+          "url": "https://dclcorp.com/blog/supply-chain/navigative-tariffs/",
+          "title": "Navigating Tariffs and International Shipping Costs for Ecommerce Businesses Going Global",
+          "site": "DCL Logistics"
+        },
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading and political and economic events that impact supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading completely subsumes political and economic events that impact supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading and political and economic events that impact supply chain management. is purely one-directional, with no feedback mechanism from political and economic events that impact supply chain management. back to e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading."
+        ]
+      }
+    },
+    {
+      "id": "A.6<>B.10_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "A.6",
+        "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment",
+        "section": "A"
+      },
+      "target_concept": {
+        "id": "B.10",
+        "label": "Define sustainability for supply chain management",
+        "section": "B"
+      },
+      "interaction_description": "The creation of new value in the supply chain for customers, society, and the environment and sustainability for supply chain management have a bidirectional relationship across their domains: decisions in the creation of new value in the supply chain for customers, society, and the environment directly influence how sustainability for supply chain management is configured and managed, while feedback from sustainability for supply chain management operations informs adjustments to the creation of new value in the supply chain for customers, society, and the environment strategy.",
+      "explanation": "The cross-section relationship between the creation of new value in the supply chain for customers, society, and the environment (Section A) and sustainability for supply chain management (Section B) illustrates how supply chain concepts rarely exist in isolation. The creation of new value in the supply chain for customers, society, and the environment provides strategic direction that shapes sustainability for supply chain management decisions, while sustainability for supply chain management generates operational data and constraints that feed back into the creation of new value in the supply chain for customers, society, and the environment planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/sustainable-supply-chain-management",
+          "title": "What Is Sustainable Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/",
+          "title": "What is Sustainable Supply Chain Management? (SSCM)",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The creation of new value in the supply chain for customers, society, and the environment and sustainability for supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The creation of new value in the supply chain for customers, society, and the environment completely subsumes sustainability for supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the creation of new value in the supply chain for customers, society, and the environment and sustainability for supply chain management is purely one-directional, with no feedback mechanism from sustainability for supply chain management back to the creation of new value in the supply chain for customers, society, and the environment."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1916 @@
+{
+  "section_id": "K",
+  "section_title": "Channels of Distribution",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "K.1->K.3->K.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.3",
+          "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+        },
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Channel functions include the logistical roles of assembly, storage, sorting, and transportation"
+        },
+        {
+          "type": "related_to",
+          "description": "Intermediaries perform these logistical functions within the channel"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.3",
+        "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+      },
+      "consequence_description": "When role of marketing channels for assembly, storage, sorting, and transportation is disrupted, the related to connection to role of intermediaries in selling products breaks down. Role of intermediaries in selling products loses its foundational input from functions of distribution channels, degrading overall supply chain performance in this area.",
+      "explanation": "Role of marketing channels for assembly, storage, sorting, and transportation serves as a critical intermediary in this concept chain. The related to relationship from functions of distribution channels to role of marketing channels for assembly, storage, sorting, and transportation establishes a dependency, and the related to relationship from role of marketing channels for assembly, storage, sorting, and transportation to role of intermediaries in selling products carries that influence forward. When role of marketing channels for assembly, storage, sorting, and transportation is disrupted, the downstream effect on role of intermediaries in selling products is not merely a loss of one input — it severs the entire pathway through which functions of distribution channels influences role of intermediaries in selling products, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://opentext.wsu.edu/cpim/chapter/10-1-basics-of-distribution-channels/",
+          "title": "10.1 Basics of Distribution Channels - Core Principles of International Marketing",
+          "site": "Washington State University OpenText"
+        },
+        {
+          "url": "https://www.coursesidekick.com/marketing/study-guides/boundless-marketing/marketing-channels-in-the-supply-chain",
+          "title": "Marketing Channels in the Supply Chain",
+          "site": "Boundless Marketing"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making role of marketing channels for assembly, storage, sorting, and transportation redundant and improving overall efficiency.",
+          "Disrupting role of marketing channels for assembly, storage, sorting, and transportation would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to role of marketing channels for assembly, storage, sorting, and transportation alone, with no downstream effect on role of intermediaries in selling products or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.1->K.5->K.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.5",
+          "label": "Pre-sale and post-purchase services in distribution channels"
+        },
+        {
+          "id": "K.4",
+          "label": "Facilitation in supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "prerequisite_for",
+          "description": "Understanding channel functions is foundational to understanding pre-sale and post-purchase services"
+        },
+        {
+          "type": "related_to",
+          "description": "These services are a form of facilitation in the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.5",
+        "label": "Pre-sale and post-purchase services in distribution channels"
+      },
+      "consequence_description": "When pre-sale and post-purchase services in distribution channels is disrupted, the related to connection to facilitation in supply chain management breaks down. Facilitation in supply chain management loses its foundational input from functions of distribution channels, degrading overall supply chain performance in this area.",
+      "explanation": "Pre-sale and post-purchase services in distribution channels serves as a critical intermediary in this concept chain. The prerequisite for relationship from functions of distribution channels to pre-sale and post-purchase services in distribution channels establishes a dependency, and the related to relationship from pre-sale and post-purchase services in distribution channels to facilitation in supply chain management carries that influence forward. When pre-sale and post-purchase services in distribution channels is disrupted, the downstream effect on facilitation in supply chain management is not merely a loss of one input — it severs the entire pathway through which functions of distribution channels influences facilitation in supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.feedough.com/distribution-channels-definition-types-functions/",
+          "title": "Distribution Channels - Definition, Types, & Functions",
+          "site": "Feedough"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/distribution-channels.htm",
+          "title": "Distribution Channels - Meaning and Their Significance",
+          "site": "Management Study Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making pre-sale and post-purchase services in distribution channels redundant and improving overall efficiency.",
+          "Disrupting pre-sale and post-purchase services in distribution channels would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to pre-sale and post-purchase services in distribution channels alone, with no downstream effect on facilitation in supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.1->K.4->K.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.4",
+          "label": "Facilitation in supply chain management"
+        },
+        {
+          "id": "K.5",
+          "label": "Pre-sale and post-purchase services in distribution channels"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Facilitation is one of the key function categories of distribution channels"
+        },
+        {
+          "type": "related_to",
+          "description": "Facilitation includes pre-sale and post-purchase services"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.4",
+        "label": "Facilitation in supply chain management"
+      },
+      "consequence_description": "When facilitation in supply chain management is disrupted, the related to connection to pre-sale and post-purchase services in distribution channels breaks down. Pre-sale and post-purchase services in distribution channels loses its foundational input from functions of distribution channels, degrading overall supply chain performance in this area.",
+      "explanation": "Facilitation in supply chain management serves as a critical intermediary in this concept chain. The related to relationship from functions of distribution channels to facilitation in supply chain management establishes a dependency, and the related to relationship from facilitation in supply chain management to pre-sale and post-purchase services in distribution channels carries that influence forward. When facilitation in supply chain management is disrupted, the downstream effect on pre-sale and post-purchase services in distribution channels is not merely a loss of one input — it severs the entire pathway through which functions of distribution channels influences pre-sale and post-purchase services in distribution channels, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-1-the-use-and-value-of-marketing-channels",
+          "title": "17.1 The Use and Value of Marketing Channels - Principles of Marketing",
+          "site": "OpenStax"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making facilitation in supply chain management redundant and improving overall efficiency.",
+          "Disrupting facilitation in supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to facilitation in supply chain management alone, with no downstream effect on pre-sale and post-purchase services in distribution channels or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.2->K.1->K.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.2",
+          "label": "Time, place, and ownership utility"
+        },
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.3",
+          "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Utility creation is a fundamental function of distribution channels"
+        },
+        {
+          "type": "related_to",
+          "description": "Channel functions include the logistical roles of assembly, storage, sorting, and transportation"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.1",
+        "label": "Functions of distribution channels"
+      },
+      "consequence_description": "When functions of distribution channels is disrupted, the related to connection to role of marketing channels for assembly, storage, sorting, and transportation breaks down. Role of marketing channels for assembly, storage, sorting, and transportation loses its foundational input from time, place, and ownership utility, degrading overall supply chain performance in this area.",
+      "explanation": "Functions of distribution channels serves as a critical intermediary in this concept chain. The related to relationship from time, place, and ownership utility to functions of distribution channels establishes a dependency, and the related to relationship from functions of distribution channels to role of marketing channels for assembly, storage, sorting, and transportation carries that influence forward. When functions of distribution channels is disrupted, the downstream effect on role of marketing channels for assembly, storage, sorting, and transportation is not merely a loss of one input — it severs the entire pathway through which time, place, and ownership utility influences role of marketing channels for assembly, storage, sorting, and transportation, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels | Introduction to Business",
+          "site": "Lumen Learning"
+        },
+        {
+          "url": "https://agriculture.institute/marketing-management-for-agribusiness/key-functions-of-distribution-channels/",
+          "title": "Key Functions of Distribution Channels in Supply Chain Management",
+          "site": "Agriculture Institute"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making functions of distribution channels redundant and improving overall efficiency.",
+          "Disrupting functions of distribution channels would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to functions of distribution channels alone, with no downstream effect on role of marketing channels for assembly, storage, sorting, and transportation or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.2->K.6->K.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.2",
+          "label": "Time, place, and ownership utility"
+        },
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        },
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Utility creation is one way supply chain management creates efficiencies"
+        },
+        {
+          "type": "related_to",
+          "description": "Efficiency creation is enabled by the core functions of distribution channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies"
+      },
+      "consequence_description": "When supply chain management creates efficiencies is disrupted, the related to connection to functions of distribution channels breaks down. Functions of distribution channels loses its foundational input from time, place, and ownership utility, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management creates efficiencies serves as a critical intermediary in this concept chain. The related to relationship from time, place, and ownership utility to supply chain management creates efficiencies establishes a dependency, and the related to relationship from supply chain management creates efficiencies to functions of distribution channels carries that influence forward. When supply chain management creates efficiencies is disrupted, the downstream effect on functions of distribution channels is not merely a loss of one input — it severs the entire pathway through which time, place, and ownership utility influences functions of distribution channels, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://lsiwins.com/the-importance-of-supply-chain-management-enhancing-efficiency-reducing-costs-and-navigating-trends/",
+          "title": "The Importance Of Supply Chain Management",
+          "site": "LSI"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management creates efficiencies redundant and improving overall efficiency.",
+          "Disrupting supply chain management creates efficiencies would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management creates efficiencies alone, with no downstream effect on functions of distribution channels or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.3->K.9->K.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.3",
+          "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+        },
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        },
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Intermediaries perform these logistical functions within the channel"
+        },
+        {
+          "type": "related_to",
+          "description": "Intermediaries operate within indirect distribution channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.9",
+        "label": "Role of intermediaries in selling products"
+      },
+      "consequence_description": "When role of intermediaries in selling products is disrupted, the related to connection to indirect channels of distribution breaks down. Indirect channels of distribution loses its foundational input from role of marketing channels for assembly, storage, sorting, and transportation, degrading overall supply chain performance in this area.",
+      "explanation": "Role of intermediaries in selling products serves as a critical intermediary in this concept chain. The related to relationship from role of marketing channels for assembly, storage, sorting, and transportation to role of intermediaries in selling products establishes a dependency, and the related to relationship from role of intermediaries in selling products to indirect channels of distribution carries that influence forward. When role of intermediaries in selling products is disrupted, the downstream effect on indirect channels of distribution is not merely a loss of one input — it severs the entire pathway through which role of marketing channels for assembly, storage, sorting, and transportation influences indirect channels of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/marketing/Marketing-intermediaries-the-distribution-channel",
+          "title": "Marketing Intermediaries and the Distribution Channel",
+          "site": "Britannica Money"
+        },
+        {
+          "url": "https://www.indeed.com/career-advice/career-development/channel-intermediaries",
+          "title": "4 Types of Channel Intermediaries",
+          "site": "Indeed"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making role of intermediaries in selling products redundant and improving overall efficiency.",
+          "Disrupting role of intermediaries in selling products would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to role of intermediaries in selling products alone, with no downstream effect on indirect channels of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.6->K.2->K.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        },
+        {
+          "id": "K.2",
+          "label": "Time, place, and ownership utility"
+        },
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Efficiencies manifest as improved time, place, and ownership utility"
+        },
+        {
+          "type": "related_to",
+          "description": "Utility creation is a fundamental function of distribution channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.2",
+        "label": "Time, place, and ownership utility"
+      },
+      "consequence_description": "When time, place, and ownership utility is disrupted, the related to connection to functions of distribution channels breaks down. Functions of distribution channels loses its foundational input from supply chain management creates efficiencies, degrading overall supply chain performance in this area.",
+      "explanation": "Time, place, and ownership utility serves as a critical intermediary in this concept chain. The related to relationship from supply chain management creates efficiencies to time, place, and ownership utility establishes a dependency, and the related to relationship from time, place, and ownership utility to functions of distribution channels carries that influence forward. When time, place, and ownership utility is disrupted, the downstream effect on functions of distribution channels is not merely a loss of one input — it severs the entire pathway through which supply chain management creates efficiencies influences functions of distribution channels, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.indeed.com/career-advice/career-development/marketing-utility",
+          "title": "What Is Utility in Marketing? Definition, Types and Examples",
+          "site": "Indeed"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/ca/resources/marketing/four-components-utility-model/",
+          "title": "The Four Components of the Utility Marketing Model",
+          "site": "QuickBooks Canada"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making time, place, and ownership utility redundant and improving overall efficiency.",
+          "Disrupting time, place, and ownership utility would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to time, place, and ownership utility alone, with no downstream effect on functions of distribution channels or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.6->K.7->K.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        },
+        {
+          "id": "K.7",
+          "label": "Risk sharing in supply chain management"
+        },
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Risk sharing is one mechanism through which supply chains create efficiencies"
+        },
+        {
+          "type": "part_of",
+          "description": "Risk-bearing is a core function of distribution channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.7",
+        "label": "Risk sharing in supply chain management"
+      },
+      "consequence_description": "When risk sharing in supply chain management is disrupted, the part of connection to functions of distribution channels breaks down. Functions of distribution channels loses its foundational input from supply chain management creates efficiencies, degrading overall supply chain performance in this area.",
+      "explanation": "Risk sharing in supply chain management serves as a critical intermediary in this concept chain. The related to relationship from supply chain management creates efficiencies to risk sharing in supply chain management establishes a dependency, and the part of relationship from risk sharing in supply chain management to functions of distribution channels carries that influence forward. When risk sharing in supply chain management is disrupted, the downstream effect on functions of distribution channels is not merely a loss of one input — it severs the entire pathway through which supply chain management creates efficiencies influences functions of distribution channels, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://marketingmap.pressbooks.tru.ca/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "The Marketing Map"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making risk sharing in supply chain management redundant and improving overall efficiency.",
+          "Disrupting risk sharing in supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to risk sharing in supply chain management alone, with no downstream effect on functions of distribution channels or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.8->K.10->K.11_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        },
+        {
+          "id": "K.10",
+          "label": "One-level channel of distribution"
+        },
+        {
+          "id": "K.11",
+          "label": "Two-level channel of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "One-level channel is a type of indirect distribution"
+        },
+        {
+          "type": "contrasts_with",
+          "description": "Two-level channel adds a wholesaler between manufacturer and retailer"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.10",
+        "label": "One-level channel of distribution"
+      },
+      "consequence_description": "When one-level channel of distribution is disrupted, the contrasts with connection to two-level channel of distribution breaks down. Two-level channel of distribution loses its foundational input from indirect channels of distribution, degrading overall supply chain performance in this area.",
+      "explanation": "One-level channel of distribution serves as a critical intermediary in this concept chain. The includes relationship from indirect channels of distribution to one-level channel of distribution establishes a dependency, and the contrasts with relationship from one-level channel of distribution to two-level channel of distribution carries that influence forward. When one-level channel of distribution is disrupted, the downstream effect on two-level channel of distribution is not merely a loss of one input — it severs the entire pathway through which indirect channels of distribution influences two-level channel of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/business-studies/types-of-distribution-channels/",
+          "title": "Types of Distribution Channels",
+          "site": "GeeksforGeeks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making one-level channel of distribution redundant and improving overall efficiency.",
+          "Disrupting one-level channel of distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to one-level channel of distribution alone, with no downstream effect on two-level channel of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.8->K.11->K.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        },
+        {
+          "id": "K.11",
+          "label": "Two-level channel of distribution"
+        },
+        {
+          "id": "K.10",
+          "label": "One-level channel of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Two-level channel is a type of indirect distribution"
+        },
+        {
+          "type": "contrasts_with",
+          "description": "One-level channel uses only a retailer without a wholesaler"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.11",
+        "label": "Two-level channel of distribution"
+      },
+      "consequence_description": "When two-level channel of distribution is disrupted, the contrasts with connection to one-level channel of distribution breaks down. One-level channel of distribution loses its foundational input from indirect channels of distribution, degrading overall supply chain performance in this area.",
+      "explanation": "Two-level channel of distribution serves as a critical intermediary in this concept chain. The includes relationship from indirect channels of distribution to two-level channel of distribution establishes a dependency, and the contrasts with relationship from two-level channel of distribution to one-level channel of distribution carries that influence forward. When two-level channel of distribution is disrupted, the downstream effect on one-level channel of distribution is not merely a loss of one input — it severs the entire pathway through which indirect channels of distribution influences one-level channel of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.vedantu.com/commerce/channels-of-distribution",
+          "title": "Channels of Distribution: Types, Examples & Functions Explained",
+          "site": "Vedantu"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making two-level channel of distribution redundant and improving overall efficiency.",
+          "Disrupting two-level channel of distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to two-level channel of distribution alone, with no downstream effect on one-level channel of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.8->K.12->K.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        },
+        {
+          "id": "K.12",
+          "label": "Three-level channel of distribution"
+        },
+        {
+          "id": "K.10",
+          "label": "One-level channel of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Three-level channel is a type of indirect distribution"
+        },
+        {
+          "type": "contrasts_with",
+          "description": "One-level channel uses only a single intermediary"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.12",
+        "label": "Three-level channel of distribution"
+      },
+      "consequence_description": "When three-level channel of distribution is disrupted, the contrasts with connection to one-level channel of distribution breaks down. One-level channel of distribution loses its foundational input from indirect channels of distribution, degrading overall supply chain performance in this area.",
+      "explanation": "Three-level channel of distribution serves as a critical intermediary in this concept chain. The includes relationship from indirect channels of distribution to three-level channel of distribution establishes a dependency, and the contrasts with relationship from three-level channel of distribution to one-level channel of distribution carries that influence forward. When three-level channel of distribution is disrupted, the downstream effect on one-level channel of distribution is not merely a loss of one input — it severs the entire pathway through which indirect channels of distribution influences one-level channel of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/2585-channel-levels.html",
+          "title": "Channel Levels - Definition, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making three-level channel of distribution redundant and improving overall efficiency.",
+          "Disrupting three-level channel of distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to three-level channel of distribution alone, with no downstream effect on one-level channel of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.8->K.13->K.15_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        },
+        {
+          "id": "K.13",
+          "label": "Dual distribution"
+        },
+        {
+          "id": "K.15",
+          "label": "On-demand business model"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Dual distribution may combine direct and indirect channels"
+        },
+        {
+          "type": "related_to",
+          "description": "On-demand models often leverage dual distribution through digital platforms"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.13",
+        "label": "Dual distribution"
+      },
+      "consequence_description": "When dual distribution is disrupted, the related to connection to on-demand business model breaks down. On-demand business model loses its foundational input from indirect channels of distribution, degrading overall supply chain performance in this area.",
+      "explanation": "Dual distribution serves as a critical intermediary in this concept chain. The related to relationship from indirect channels of distribution to dual distribution establishes a dependency, and the related to relationship from dual distribution to on-demand business model carries that influence forward. When dual distribution is disrupted, the downstream effect on on-demand business model is not merely a loss of one input — it severs the entire pathway through which indirect channels of distribution influences on-demand business model, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://ceopedia.org/index.php/Dual_distribution",
+          "title": "Dual Distribution",
+          "site": "CEOpedia"
+        },
+        {
+          "url": "https://www.madmarketingpro.com/blog/dual-distribution-and-multi-channel-distribution",
+          "title": "Dual Distribution and Multi-channel Distribution",
+          "site": "Mad Marketing"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making dual distribution redundant and improving overall efficiency.",
+          "Disrupting dual distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to dual distribution alone, with no downstream effect on on-demand business model or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.9->K.8->K.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        },
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        },
+        {
+          "id": "K.10",
+          "label": "One-level channel of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Intermediaries operate within indirect distribution channels"
+        },
+        {
+          "type": "includes",
+          "description": "One-level channel is a type of indirect distribution"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.8",
+        "label": "Indirect channels of distribution"
+      },
+      "consequence_description": "When indirect channels of distribution is disrupted, the includes connection to one-level channel of distribution breaks down. One-level channel of distribution loses its foundational input from role of intermediaries in selling products, degrading overall supply chain performance in this area.",
+      "explanation": "Indirect channels of distribution serves as a critical intermediary in this concept chain. The related to relationship from role of intermediaries in selling products to indirect channels of distribution establishes a dependency, and the includes relationship from indirect channels of distribution to one-level channel of distribution carries that influence forward. When indirect channels of distribution is disrupted, the downstream effect on one-level channel of distribution is not merely a loss of one input — it severs the entire pathway through which role of intermediaries in selling products influences one-level channel of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/direct-vs-indirect-distribution/",
+          "title": "Direct vs. Indirect Distribution Channels: Understanding the Differences",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://adsy.com/blog/indirect-distribution-channels-explained-with-examples",
+          "title": "Indirect Distribution Channels Explained With Examples",
+          "site": "Adsy"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making indirect channels of distribution redundant and improving overall efficiency.",
+          "Disrupting indirect channels of distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to indirect channels of distribution alone, with no downstream effect on one-level channel of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.13->K.15->K.14_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.13",
+          "label": "Dual distribution"
+        },
+        {
+          "id": "K.15",
+          "label": "On-demand business model"
+        },
+        {
+          "id": "K.14",
+          "label": "How services use intermediaries to reach final customers"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "On-demand models often leverage dual distribution through digital platforms"
+        },
+        {
+          "type": "related_to",
+          "description": "Many on-demand businesses distribute services through digital intermediaries"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.15",
+        "label": "On-demand business model"
+      },
+      "consequence_description": "When on-demand business model is disrupted, the related to connection to services use intermediaries to reach final customers breaks down. Services use intermediaries to reach final customers loses its foundational input from dual distribution, degrading overall supply chain performance in this area.",
+      "explanation": "On-demand business model serves as a critical intermediary in this concept chain. The related to relationship from dual distribution to on-demand business model establishes a dependency, and the related to relationship from on-demand business model to services use intermediaries to reach final customers carries that influence forward. When on-demand business model is disrupted, the downstream effect on services use intermediaries to reach final customers is not merely a loss of one input — it severs the entire pathway through which dual distribution influences services use intermediaries to reach final customers, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.entrepreneur.com/building-a-business/business-model/types-of-business-models/how-does-an-ondemand-business-model-work",
+          "title": "How Does an On-Demand Business Model Work?",
+          "site": "Entrepreneur"
+        },
+        {
+          "url": "https://jungleworks.com/on-demand-business-models/",
+          "title": "On Demand Business Models",
+          "site": "Jungleworks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making on-demand business model redundant and improving overall efficiency.",
+          "Disrupting on-demand business model would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to on-demand business model alone, with no downstream effect on services use intermediaries to reach final customers or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.13->K.16->K.17_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.13",
+          "label": "Dual distribution"
+        },
+        {
+          "id": "K.16",
+          "label": "How market, product, competition, and company factors impact distribution choice"
+        },
+        {
+          "id": "K.17",
+          "label": "How product characteristics impact supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Market and competition factors influence the decision to use dual distribution"
+        },
+        {
+          "type": "related_to",
+          "description": "Product characteristics are a subset of the factors affecting distribution choice"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.16",
+        "label": "How market, product, competition, and company factors impact distribution choice"
+      },
+      "consequence_description": "When market, product, competition, and company factors impact distribution choice is disrupted, the related to connection to product characteristics impact supply chain management breaks down. Product characteristics impact supply chain management loses its foundational input from dual distribution, degrading overall supply chain performance in this area.",
+      "explanation": "Market, product, competition, and company factors impact distribution choice serves as a critical intermediary in this concept chain. The related to relationship from dual distribution to market, product, competition, and company factors impact distribution choice establishes a dependency, and the related to relationship from market, product, competition, and company factors impact distribution choice to product characteristics impact supply chain management carries that influence forward. When market, product, competition, and company factors impact distribution choice is disrupted, the downstream effect on product characteristics impact supply chain management is not merely a loss of one input — it severs the entire pathway through which dual distribution influences product characteristics impact supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-3-factors-influencing-channel-choice",
+          "title": "17.3 Factors Influencing Channel Choice",
+          "site": "OpenStax"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/business-studies/factors-determining-choice-of-channels-of-distribution/",
+          "title": "Factors Determining Choice of Channels of Distribution",
+          "site": "GeeksforGeeks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making market, product, competition, and company factors impact distribution choice redundant and improving overall efficiency.",
+          "Disrupting market, product, competition, and company factors impact distribution choice would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to market, product, competition, and company factors impact distribution choice alone, with no downstream effect on product characteristics impact supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.15->K.14->K.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.15",
+          "label": "On-demand business model"
+        },
+        {
+          "id": "K.14",
+          "label": "How services use intermediaries to reach final customers"
+        },
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Many on-demand businesses distribute services through digital intermediaries"
+        },
+        {
+          "type": "related_to",
+          "description": "Service intermediaries perform similar roles as product intermediaries"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.14",
+        "label": "How services use intermediaries to reach final customers"
+      },
+      "consequence_description": "When services use intermediaries to reach final customers is disrupted, the related to connection to role of intermediaries in selling products breaks down. Role of intermediaries in selling products loses its foundational input from on-demand business model, degrading overall supply chain performance in this area.",
+      "explanation": "Services use intermediaries to reach final customers serves as a critical intermediary in this concept chain. The related to relationship from on-demand business model to services use intermediaries to reach final customers establishes a dependency, and the related to relationship from services use intermediaries to reach final customers to role of intermediaries in selling products carries that influence forward. When services use intermediaries to reach final customers is disrupted, the downstream effect on role of intermediaries in selling products is not merely a loss of one input — it severs the entire pathway through which on-demand business model influences role of intermediaries in selling products, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/valuation/distribution-channel/",
+          "title": "Distribution Channels: The Efficient Flow of Goods and Services",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-2-types-of-marketing-channels",
+          "title": "17.2 Types of Marketing Channels",
+          "site": "OpenStax"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making services use intermediaries to reach final customers redundant and improving overall efficiency.",
+          "Disrupting services use intermediaries to reach final customers would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to services use intermediaries to reach final customers alone, with no downstream effect on role of intermediaries in selling products or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.16->K.17->K.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.16",
+          "label": "How market, product, competition, and company factors impact distribution choice"
+        },
+        {
+          "id": "K.17",
+          "label": "How product characteristics impact supply chain management"
+        },
+        {
+          "id": "K.3",
+          "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Product characteristics are a subset of the factors affecting distribution choice"
+        },
+        {
+          "type": "related_to",
+          "description": "Product characteristics determine requirements for storage, sorting, and transportation"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.17",
+        "label": "How product characteristics impact supply chain management"
+      },
+      "consequence_description": "When product characteristics impact supply chain management is disrupted, the related to connection to role of marketing channels for assembly, storage, sorting, and transportation breaks down. Role of marketing channels for assembly, storage, sorting, and transportation loses its foundational input from market, product, competition, and company factors impact distribution choice, degrading overall supply chain performance in this area.",
+      "explanation": "Product characteristics impact supply chain management serves as a critical intermediary in this concept chain. The related to relationship from market, product, competition, and company factors impact distribution choice to product characteristics impact supply chain management establishes a dependency, and the related to relationship from product characteristics impact supply chain management to role of marketing channels for assembly, storage, sorting, and transportation carries that influence forward. When product characteristics impact supply chain management is disrupted, the downstream effect on role of marketing channels for assembly, storage, sorting, and transportation is not merely a loss of one input — it severs the entire pathway through which market, product, competition, and company factors impact distribution choice influences role of marketing channels for assembly, storage, sorting, and transportation, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://umbrex.com/resources/industry-analyses/how-to-analyze-a-consumer-packaged-goods-company/perishability-and-freshness-management-in-supply-chain/",
+          "title": "Perishability and Freshness Management in Supply Chain",
+          "site": "Umbrex"
+        },
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-3-factors-influencing-channel-choice",
+          "title": "17.3 Factors Influencing Channel Choice",
+          "site": "OpenStax"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making product characteristics impact supply chain management redundant and improving overall efficiency.",
+          "Disrupting product characteristics impact supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to product characteristics impact supply chain management alone, with no downstream effect on role of marketing channels for assembly, storage, sorting, and transportation or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.1->K.3->K.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.3",
+          "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+        },
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Channel functions include the logistical roles of assembly, storage, sorting, and transportation"
+        },
+        {
+          "type": "related_to",
+          "description": "Efficient assembly, storage, sorting, and transportation create supply chain efficiencies"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.3",
+        "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+      },
+      "consequence_description": "When role of marketing channels for assembly, storage, sorting, and transportation is disrupted, the related to connection to supply chain management creates efficiencies breaks down. Supply chain management creates efficiencies loses its foundational input from functions of distribution channels, degrading overall supply chain performance in this area.",
+      "explanation": "Role of marketing channels for assembly, storage, sorting, and transportation serves as a critical intermediary in this concept chain. The related to relationship from functions of distribution channels to role of marketing channels for assembly, storage, sorting, and transportation establishes a dependency, and the related to relationship from role of marketing channels for assembly, storage, sorting, and transportation to supply chain management creates efficiencies carries that influence forward. When role of marketing channels for assembly, storage, sorting, and transportation is disrupted, the downstream effect on supply chain management creates efficiencies is not merely a loss of one input — it severs the entire pathway through which functions of distribution channels influences supply chain management creates efficiencies, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://opentext.wsu.edu/cpim/chapter/10-1-basics-of-distribution-channels/",
+          "title": "10.1 Basics of Distribution Channels - Core Principles of International Marketing",
+          "site": "Washington State University OpenText"
+        },
+        {
+          "url": "https://www.coursesidekick.com/marketing/study-guides/boundless-marketing/marketing-channels-in-the-supply-chain",
+          "title": "Marketing Channels in the Supply Chain",
+          "site": "Boundless Marketing"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making role of marketing channels for assembly, storage, sorting, and transportation redundant and improving overall efficiency.",
+          "Disrupting role of marketing channels for assembly, storage, sorting, and transportation would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to role of marketing channels for assembly, storage, sorting, and transportation alone, with no downstream effect on supply chain management creates efficiencies or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.1->K.5->K.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.5",
+          "label": "Pre-sale and post-purchase services in distribution channels"
+        },
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        }
+      ],
+      "links": [
+        {
+          "type": "prerequisite_for",
+          "description": "Understanding channel functions is foundational to understanding pre-sale and post-purchase services"
+        },
+        {
+          "type": "related_to",
+          "description": "Intermediaries are the ones delivering these services to customers"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.5",
+        "label": "Pre-sale and post-purchase services in distribution channels"
+      },
+      "consequence_description": "When pre-sale and post-purchase services in distribution channels is disrupted, the related to connection to role of intermediaries in selling products breaks down. Role of intermediaries in selling products loses its foundational input from functions of distribution channels, degrading overall supply chain performance in this area.",
+      "explanation": "Pre-sale and post-purchase services in distribution channels serves as a critical intermediary in this concept chain. The prerequisite for relationship from functions of distribution channels to pre-sale and post-purchase services in distribution channels establishes a dependency, and the related to relationship from pre-sale and post-purchase services in distribution channels to role of intermediaries in selling products carries that influence forward. When pre-sale and post-purchase services in distribution channels is disrupted, the downstream effect on role of intermediaries in selling products is not merely a loss of one input — it severs the entire pathway through which functions of distribution channels influences role of intermediaries in selling products, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.feedough.com/distribution-channels-definition-types-functions/",
+          "title": "Distribution Channels - Definition, Types, & Functions",
+          "site": "Feedough"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/distribution-channels.htm",
+          "title": "Distribution Channels - Meaning and Their Significance",
+          "site": "Management Study Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making pre-sale and post-purchase services in distribution channels redundant and improving overall efficiency.",
+          "Disrupting pre-sale and post-purchase services in distribution channels would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to pre-sale and post-purchase services in distribution channels alone, with no downstream effect on role of intermediaries in selling products or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.1->K.4->K.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.4",
+          "label": "Facilitation in supply chain management"
+        },
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Facilitation is one of the key function categories of distribution channels"
+        },
+        {
+          "type": "related_to",
+          "description": "Facilitation contributes to overall supply chain efficiency"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.4",
+        "label": "Facilitation in supply chain management"
+      },
+      "consequence_description": "When facilitation in supply chain management is disrupted, the related to connection to supply chain management creates efficiencies breaks down. Supply chain management creates efficiencies loses its foundational input from functions of distribution channels, degrading overall supply chain performance in this area.",
+      "explanation": "Facilitation in supply chain management serves as a critical intermediary in this concept chain. The related to relationship from functions of distribution channels to facilitation in supply chain management establishes a dependency, and the related to relationship from facilitation in supply chain management to supply chain management creates efficiencies carries that influence forward. When facilitation in supply chain management is disrupted, the downstream effect on supply chain management creates efficiencies is not merely a loss of one input — it severs the entire pathway through which functions of distribution channels influences supply chain management creates efficiencies, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-1-the-use-and-value-of-marketing-channels",
+          "title": "17.1 The Use and Value of Marketing Channels - Principles of Marketing",
+          "site": "OpenStax"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making facilitation in supply chain management redundant and improving overall efficiency.",
+          "Disrupting facilitation in supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to facilitation in supply chain management alone, with no downstream effect on supply chain management creates efficiencies or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.2->K.1->K.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.2",
+          "label": "Time, place, and ownership utility"
+        },
+        {
+          "id": "K.1",
+          "label": "Functions of distribution channels"
+        },
+        {
+          "id": "K.5",
+          "label": "Pre-sale and post-purchase services in distribution channels"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Utility creation is a fundamental function of distribution channels"
+        },
+        {
+          "type": "prerequisite_for",
+          "description": "Understanding channel functions is foundational to understanding pre-sale and post-purchase services"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.1",
+        "label": "Functions of distribution channels"
+      },
+      "consequence_description": "When functions of distribution channels is disrupted, the prerequisite for connection to pre-sale and post-purchase services in distribution channels breaks down. Pre-sale and post-purchase services in distribution channels loses its foundational input from time, place, and ownership utility, degrading overall supply chain performance in this area.",
+      "explanation": "Functions of distribution channels serves as a critical intermediary in this concept chain. The related to relationship from time, place, and ownership utility to functions of distribution channels establishes a dependency, and the prerequisite for relationship from functions of distribution channels to pre-sale and post-purchase services in distribution channels carries that influence forward. When functions of distribution channels is disrupted, the downstream effect on pre-sale and post-purchase services in distribution channels is not merely a loss of one input — it severs the entire pathway through which time, place, and ownership utility influences pre-sale and post-purchase services in distribution channels, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels | Introduction to Business",
+          "site": "Lumen Learning"
+        },
+        {
+          "url": "https://agriculture.institute/marketing-management-for-agribusiness/key-functions-of-distribution-channels/",
+          "title": "Key Functions of Distribution Channels in Supply Chain Management",
+          "site": "Agriculture Institute"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making functions of distribution channels redundant and improving overall efficiency.",
+          "Disrupting functions of distribution channels would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to functions of distribution channels alone, with no downstream effect on pre-sale and post-purchase services in distribution channels or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.2->K.6->K.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.2",
+          "label": "Time, place, and ownership utility"
+        },
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        },
+        {
+          "id": "K.7",
+          "label": "Risk sharing in supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Utility creation is one way supply chain management creates efficiencies"
+        },
+        {
+          "type": "related_to",
+          "description": "Risk sharing is one mechanism through which supply chains create efficiencies"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies"
+      },
+      "consequence_description": "When supply chain management creates efficiencies is disrupted, the related to connection to risk sharing in supply chain management breaks down. Risk sharing in supply chain management loses its foundational input from time, place, and ownership utility, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management creates efficiencies serves as a critical intermediary in this concept chain. The related to relationship from time, place, and ownership utility to supply chain management creates efficiencies establishes a dependency, and the related to relationship from supply chain management creates efficiencies to risk sharing in supply chain management carries that influence forward. When supply chain management creates efficiencies is disrupted, the downstream effect on risk sharing in supply chain management is not merely a loss of one input — it severs the entire pathway through which time, place, and ownership utility influences risk sharing in supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://lsiwins.com/the-importance-of-supply-chain-management-enhancing-efficiency-reducing-costs-and-navigating-trends/",
+          "title": "The Importance Of Supply Chain Management",
+          "site": "LSI"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management creates efficiencies redundant and improving overall efficiency.",
+          "Disrupting supply chain management creates efficiencies would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management creates efficiencies alone, with no downstream effect on risk sharing in supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.3->K.9->K.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.3",
+          "label": "Role of marketing channels for assembly, storage, sorting, and transportation"
+        },
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        },
+        {
+          "id": "K.10",
+          "label": "One-level channel of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Intermediaries perform these logistical functions within the channel"
+        },
+        {
+          "type": "related_to",
+          "description": "Retailers are the intermediary in one-level channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.9",
+        "label": "Role of intermediaries in selling products"
+      },
+      "consequence_description": "When role of intermediaries in selling products is disrupted, the related to connection to one-level channel of distribution breaks down. One-level channel of distribution loses its foundational input from role of marketing channels for assembly, storage, sorting, and transportation, degrading overall supply chain performance in this area.",
+      "explanation": "Role of intermediaries in selling products serves as a critical intermediary in this concept chain. The related to relationship from role of marketing channels for assembly, storage, sorting, and transportation to role of intermediaries in selling products establishes a dependency, and the related to relationship from role of intermediaries in selling products to one-level channel of distribution carries that influence forward. When role of intermediaries in selling products is disrupted, the downstream effect on one-level channel of distribution is not merely a loss of one input — it severs the entire pathway through which role of marketing channels for assembly, storage, sorting, and transportation influences one-level channel of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/marketing/Marketing-intermediaries-the-distribution-channel",
+          "title": "Marketing Intermediaries and the Distribution Channel",
+          "site": "Britannica Money"
+        },
+        {
+          "url": "https://www.indeed.com/career-advice/career-development/channel-intermediaries",
+          "title": "4 Types of Channel Intermediaries",
+          "site": "Indeed"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making role of intermediaries in selling products redundant and improving overall efficiency.",
+          "Disrupting role of intermediaries in selling products would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to role of intermediaries in selling products alone, with no downstream effect on one-level channel of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.6->K.7->K.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.6",
+          "label": "How supply chain management creates efficiencies"
+        },
+        {
+          "id": "K.7",
+          "label": "Risk sharing in supply chain management"
+        },
+        {
+          "id": "K.9",
+          "label": "Role of intermediaries in selling products"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Risk sharing is one mechanism through which supply chains create efficiencies"
+        },
+        {
+          "type": "related_to",
+          "description": "Intermediaries are the channel members who share risk with manufacturers"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.7",
+        "label": "Risk sharing in supply chain management"
+      },
+      "consequence_description": "When risk sharing in supply chain management is disrupted, the related to connection to role of intermediaries in selling products breaks down. Role of intermediaries in selling products loses its foundational input from supply chain management creates efficiencies, degrading overall supply chain performance in this area.",
+      "explanation": "Risk sharing in supply chain management serves as a critical intermediary in this concept chain. The related to relationship from supply chain management creates efficiencies to risk sharing in supply chain management establishes a dependency, and the related to relationship from risk sharing in supply chain management to role of intermediaries in selling products carries that influence forward. When risk sharing in supply chain management is disrupted, the downstream effect on role of intermediaries in selling products is not merely a loss of one input — it severs the entire pathway through which supply chain management creates efficiencies influences role of intermediaries in selling products, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://marketingmap.pressbooks.tru.ca/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "The Marketing Map"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making risk sharing in supply chain management redundant and improving overall efficiency.",
+          "Disrupting risk sharing in supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to risk sharing in supply chain management alone, with no downstream effect on role of intermediaries in selling products or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.8->K.10->K.12_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "K.8",
+          "label": "Indirect channels of distribution"
+        },
+        {
+          "id": "K.10",
+          "label": "One-level channel of distribution"
+        },
+        {
+          "id": "K.12",
+          "label": "Three-level channel of distribution"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "One-level channel is a type of indirect distribution"
+        },
+        {
+          "type": "contrasts_with",
+          "description": "Three-level channel adds both an agent and wholesaler"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "K.10",
+        "label": "One-level channel of distribution"
+      },
+      "consequence_description": "When one-level channel of distribution is disrupted, the contrasts with connection to three-level channel of distribution breaks down. Three-level channel of distribution loses its foundational input from indirect channels of distribution, degrading overall supply chain performance in this area.",
+      "explanation": "One-level channel of distribution serves as a critical intermediary in this concept chain. The includes relationship from indirect channels of distribution to one-level channel of distribution establishes a dependency, and the contrasts with relationship from one-level channel of distribution to three-level channel of distribution carries that influence forward. When one-level channel of distribution is disrupted, the downstream effect on three-level channel of distribution is not merely a loss of one input — it severs the entire pathway through which indirect channels of distribution influences three-level channel of distribution, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/business-studies/types-of-distribution-channels/",
+          "title": "Types of Distribution Channels",
+          "site": "GeeksforGeeks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making one-level channel of distribution redundant and improving overall efficiency.",
+          "Disrupting one-level channel of distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to one-level channel of distribution alone, with no downstream effect on three-level channel of distribution or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "K.8<>I.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.8",
+        "label": "Indirect channels of distribution",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "interaction_description": "Indirect channels of distribution and the channels of distribution for supply chain management. have a bidirectional relationship across their domains: decisions in indirect channels of distribution directly influence how the channels of distribution for supply chain management. is configured and managed, while feedback from the channels of distribution for supply chain management. operations informs adjustments to indirect channels of distribution strategy.",
+      "explanation": "The cross-section relationship between indirect channels of distribution (Section K) and the channels of distribution for supply chain management. (Section I) illustrates how supply chain concepts rarely exist in isolation. Indirect channels of distribution provides strategic direction that shapes the channels of distribution for supply chain management. decisions, while the channels of distribution for supply chain management. generates operational data and constraints that feed back into indirect channels of distribution planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/direct-vs-indirect-distribution/",
+          "title": "Direct vs. Indirect Distribution Channels: Understanding the Differences",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://adsy.com/blog/indirect-distribution-channels-explained-with-examples",
+          "title": "Indirect Distribution Channels Explained With Examples",
+          "site": "Adsy"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Indirect channels of distribution and the channels of distribution for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Indirect channels of distribution completely subsumes the channels of distribution for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between indirect channels of distribution and the channels of distribution for supply chain management. is purely one-directional, with no feedback mechanism from the channels of distribution for supply chain management. back to indirect channels of distribution."
+        ]
+      }
+    },
+    {
+      "id": "K.6<>D.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Supply chain management creates efficiencies and management of supply and demand for supply chain management. have a bidirectional relationship across their domains: decisions in supply chain management creates efficiencies directly influence how management of supply and demand for supply chain management. is configured and managed, while feedback from management of supply and demand for supply chain management. operations informs adjustments to supply chain management creates efficiencies strategy.",
+      "explanation": "The cross-section relationship between supply chain management creates efficiencies (Section K) and management of supply and demand for supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Supply chain management creates efficiencies provides strategic direction that shapes management of supply and demand for supply chain management. decisions, while management of supply and demand for supply chain management. generates operational data and constraints that feed back into supply chain management creates efficiencies planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://lsiwins.com/the-importance-of-supply-chain-management-enhancing-efficiency-reducing-costs-and-navigating-trends/",
+          "title": "The Importance Of Supply Chain Management",
+          "site": "LSI"
+        },
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Supply chain management creates efficiencies and management of supply and demand for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Supply chain management creates efficiencies completely subsumes management of supply and demand for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between supply chain management creates efficiencies and management of supply and demand for supply chain management. is purely one-directional, with no feedback mechanism from management of supply and demand for supply chain management. back to supply chain management creates efficiencies."
+        ]
+      }
+    },
+    {
+      "id": "K.9<>I.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.9",
+        "label": "Role of intermediaries in selling products",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "interaction_description": "Role of intermediaries in selling products and the channels of distribution for supply chain management. have a bidirectional relationship across their domains: decisions in role of intermediaries in selling products directly influence how the channels of distribution for supply chain management. is configured and managed, while feedback from the channels of distribution for supply chain management. operations informs adjustments to role of intermediaries in selling products strategy.",
+      "explanation": "The cross-section relationship between role of intermediaries in selling products (Section K) and the channels of distribution for supply chain management. (Section I) illustrates how supply chain concepts rarely exist in isolation. Role of intermediaries in selling products provides strategic direction that shapes the channels of distribution for supply chain management. decisions, while the channels of distribution for supply chain management. generates operational data and constraints that feed back into role of intermediaries in selling products planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/marketing/Marketing-intermediaries-the-distribution-channel",
+          "title": "Marketing Intermediaries and the Distribution Channel",
+          "site": "Britannica Money"
+        },
+        {
+          "url": "https://www.indeed.com/career-advice/career-development/channel-intermediaries",
+          "title": "4 Types of Channel Intermediaries",
+          "site": "Indeed"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Role of intermediaries in selling products and the channels of distribution for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Role of intermediaries in selling products completely subsumes the channels of distribution for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between role of intermediaries in selling products and the channels of distribution for supply chain management. is purely one-directional, with no feedback mechanism from the channels of distribution for supply chain management. back to role of intermediaries in selling products."
+        ]
+      }
+    },
+    {
+      "id": "K.11<>I.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.11",
+        "label": "Two-level channel of distribution",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "interaction_description": "Two-level channel of distribution and the channels of distribution for supply chain management. have a bidirectional relationship across their domains: decisions in two-level channel of distribution directly influence how the channels of distribution for supply chain management. is configured and managed, while feedback from the channels of distribution for supply chain management. operations informs adjustments to two-level channel of distribution strategy.",
+      "explanation": "The cross-section relationship between two-level channel of distribution (Section K) and the channels of distribution for supply chain management. (Section I) illustrates how supply chain concepts rarely exist in isolation. Two-level channel of distribution provides strategic direction that shapes the channels of distribution for supply chain management. decisions, while the channels of distribution for supply chain management. generates operational data and constraints that feed back into two-level channel of distribution planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.vedantu.com/commerce/channels-of-distribution",
+          "title": "Channels of Distribution: Types, Examples & Functions Explained",
+          "site": "Vedantu"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Two-level channel of distribution and the channels of distribution for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Two-level channel of distribution completely subsumes the channels of distribution for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between two-level channel of distribution and the channels of distribution for supply chain management. is purely one-directional, with no feedback mechanism from the channels of distribution for supply chain management. back to two-level channel of distribution."
+        ]
+      }
+    },
+    {
+      "id": "K.12<>I.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.12",
+        "label": "Three-level channel of distribution",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "interaction_description": "Three-level channel of distribution and the channels of distribution for supply chain management. have a bidirectional relationship across their domains: decisions in three-level channel of distribution directly influence how the channels of distribution for supply chain management. is configured and managed, while feedback from the channels of distribution for supply chain management. operations informs adjustments to three-level channel of distribution strategy.",
+      "explanation": "The cross-section relationship between three-level channel of distribution (Section K) and the channels of distribution for supply chain management. (Section I) illustrates how supply chain concepts rarely exist in isolation. Three-level channel of distribution provides strategic direction that shapes the channels of distribution for supply chain management. decisions, while the channels of distribution for supply chain management. generates operational data and constraints that feed back into three-level channel of distribution planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/2585-channel-levels.html",
+          "title": "Channel Levels - Definition, Types & Example",
+          "site": "MBA Skool"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Three-level channel of distribution and the channels of distribution for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Three-level channel of distribution completely subsumes the channels of distribution for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between three-level channel of distribution and the channels of distribution for supply chain management. is purely one-directional, with no feedback mechanism from the channels of distribution for supply chain management. back to three-level channel of distribution."
+        ]
+      }
+    },
+    {
+      "id": "K.15<>F.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.15",
+        "label": "On-demand business model",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "interaction_description": "On-demand business model and importance of minimizing inventory during all stages of supply chain management have a bidirectional relationship across their domains: decisions in on-demand business model directly influence how importance of minimizing inventory during all stages of supply chain management is configured and managed, while feedback from importance of minimizing inventory during all stages of supply chain management operations informs adjustments to on-demand business model strategy.",
+      "explanation": "The cross-section relationship between on-demand business model (Section K) and importance of minimizing inventory during all stages of supply chain management (Section F) illustrates how supply chain concepts rarely exist in isolation. On-demand business model provides strategic direction that shapes importance of minimizing inventory during all stages of supply chain management decisions, while importance of minimizing inventory during all stages of supply chain management generates operational data and constraints that feed back into on-demand business model planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.entrepreneur.com/building-a-business/business-model/types-of-business-models/how-does-an-ondemand-business-model-work",
+          "title": "How Does an On-Demand Business Model Work?",
+          "site": "Entrepreneur"
+        },
+        {
+          "url": "https://jungleworks.com/on-demand-business-models/",
+          "title": "On Demand Business Models",
+          "site": "Jungleworks"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "On-demand business model and importance of minimizing inventory during all stages of supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "On-demand business model completely subsumes importance of minimizing inventory during all stages of supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between on-demand business model and importance of minimizing inventory during all stages of supply chain management is purely one-directional, with no feedback mechanism from importance of minimizing inventory during all stages of supply chain management back to on-demand business model."
+        ]
+      }
+    },
+    {
+      "id": "K.4<>I.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.4",
+        "label": "Facilitation in supply chain management",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain.",
+        "section": "I"
+      },
+      "interaction_description": "Facilitation in supply chain management and the importance of cooperation and coordination in a supply chain. have a bidirectional relationship across their domains: decisions in facilitation in supply chain management directly influence how the importance of cooperation and coordination in a supply chain. is configured and managed, while feedback from the importance of cooperation and coordination in a supply chain. operations informs adjustments to facilitation in supply chain management strategy.",
+      "explanation": "The cross-section relationship between facilitation in supply chain management (Section K) and the importance of cooperation and coordination in a supply chain. (Section I) illustrates how supply chain concepts rarely exist in isolation. Facilitation in supply chain management provides strategic direction that shapes the importance of cooperation and coordination in a supply chain. decisions, while the importance of cooperation and coordination in a supply chain. generates operational data and constraints that feed back into facilitation in supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://openstax.org/books/principles-marketing/pages/17-1-the-use-and-value-of-marketing-channels",
+          "title": "17.1 The Use and Value of Marketing Channels - Principles of Marketing",
+          "site": "OpenStax"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Facilitation in supply chain management and the importance of cooperation and coordination in a supply chain. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Facilitation in supply chain management completely subsumes the importance of cooperation and coordination in a supply chain., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between facilitation in supply chain management and the importance of cooperation and coordination in a supply chain. is purely one-directional, with no feedback mechanism from the importance of cooperation and coordination in a supply chain. back to facilitation in supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "K.6<>C.10_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies",
+        "section": "K"
+      },
+      "target_concept": {
+        "id": "C.10",
+        "label": "Describe the importance of Excel knowledge for supply chain management.",
+        "section": "C"
+      },
+      "interaction_description": "Supply chain management creates efficiencies and the importance of excel knowledge for supply chain management. have a bidirectional relationship across their domains: decisions in supply chain management creates efficiencies directly influence how the importance of excel knowledge for supply chain management. is configured and managed, while feedback from the importance of excel knowledge for supply chain management. operations informs adjustments to supply chain management creates efficiencies strategy.",
+      "explanation": "The cross-section relationship between supply chain management creates efficiencies (Section K) and the importance of excel knowledge for supply chain management. (Section C) illustrates how supply chain concepts rarely exist in isolation. Supply chain management creates efficiencies provides strategic direction that shapes the importance of excel knowledge for supply chain management. decisions, while the importance of excel knowledge for supply chain management. generates operational data and constraints that feed back into supply chain management creates efficiencies planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://lsiwins.com/the-importance-of-supply-chain-management-enhancing-efficiency-reducing-costs-and-navigating-trends/",
+          "title": "The Importance Of Supply Chain Management",
+          "site": "LSI"
+        },
+        {
+          "url": "https://abcsupplychain.com/efficient-with-excel-supply-chain/",
+          "title": "Essential Excel Skills For Supply Chain Management",
+          "site": "AbcSupplyChain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Supply chain management creates efficiencies and the importance of excel knowledge for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Supply chain management creates efficiencies completely subsumes the importance of excel knowledge for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between supply chain management creates efficiencies and the importance of excel knowledge for supply chain management. is purely one-directional, with no feedback mechanism from the importance of excel knowledge for supply chain management. back to supply chain management creates efficiencies."
+        ]
+      }
+    }
+  ]
+}
