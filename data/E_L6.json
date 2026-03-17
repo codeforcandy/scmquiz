@@ -1,0 +1,1280 @@
+{
+  "section_id": "E",
+  "section_title": "Supply Chain Process",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "E.1->E.2->E.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.1",
+          "label": "Describe the role of manufacturing in a supply chain context."
+        },
+        {
+          "id": "E.2",
+          "label": "Define inventory management's important relationship with supply chain management."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Manufacturing drives inventory levels of raw materials, work-in-process, and finished goods."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and support inventory management processes."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management."
+      },
+      "consequence_description": "When inventory management's important relationship with supply chain management. is disrupted, the related to connection to the role and cost of warehouses in supply chain management. breaks down. The role and cost of warehouses in supply chain management. loses its foundational input from the role of manufacturing in a supply chain context., degrading overall supply chain performance in this area.",
+      "explanation": "Inventory management's important relationship with supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of manufacturing in a supply chain context. to inventory management's important relationship with supply chain management. establishes a dependency, and the related to relationship from inventory management's important relationship with supply chain management. to the role and cost of warehouses in supply chain management. carries that influence forward. When inventory management's important relationship with supply chain management. is disrupted, the downstream effect on the role and cost of warehouses in supply chain management. is not merely a loss of one input — it severs the entire pathway through which the role of manufacturing in a supply chain context. influences the role and cost of warehouses in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.gep.com/knowledge-bank/glossary/what-is-inventory-management",
+          "title": "Why Inventory Management is Important for Supply Chain Management",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making inventory management's important relationship with supply chain management. redundant and improving overall efficiency.",
+          "Disrupting inventory management's important relationship with supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to inventory management's important relationship with supply chain management. alone, with no downstream effect on the role and cost of warehouses in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.1->E.4->E.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.1",
+          "label": "Describe the role of manufacturing in a supply chain context."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        },
+        {
+          "id": "E.2",
+          "label": "Define inventory management's important relationship with supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Manufactured goods are stored in warehouses before distribution to customers."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and enable inventory management practices."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.4",
+        "label": "Explain the role and cost of warehouses in supply chain management."
+      },
+      "consequence_description": "When the role and cost of warehouses in supply chain management. is disrupted, the related to connection to inventory management's important relationship with supply chain management. breaks down. Inventory management's important relationship with supply chain management. loses its foundational input from the role of manufacturing in a supply chain context., degrading overall supply chain performance in this area.",
+      "explanation": "The role and cost of warehouses in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of manufacturing in a supply chain context. to the role and cost of warehouses in supply chain management. establishes a dependency, and the related to relationship from the role and cost of warehouses in supply chain management. to inventory management's important relationship with supply chain management. carries that influence forward. When the role and cost of warehouses in supply chain management. is disrupted, the downstream effect on inventory management's important relationship with supply chain management. is not merely a loss of one input — it severs the entire pathway through which the role of manufacturing in a supply chain context. influences inventory management's important relationship with supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://spherewms.com/blog/warehousing-in-supply-chain-management",
+          "title": "Warehousing in Supply Chain Management: Key Roles & Benefits",
+          "site": "SphereWMS"
+        },
+        {
+          "url": "https://proconnectlogistics.com/blog/understanding-the-components-of-warehousing-costs/",
+          "title": "Understanding the Components of Warehousing Costs",
+          "site": "ProConnect Integrated Logistics"
+        },
+        {
+          "url": "https://www.withvector.com/blog/role-of-warehousing-in-supply-chain-management-examples/",
+          "title": "Role Of Warehousing In Supply Chain Management + Examples",
+          "site": "Vector"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role and cost of warehouses in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role and cost of warehouses in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role and cost of warehouses in supply chain management. alone, with no downstream effect on inventory management's important relationship with supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.2->E.1->E.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.2",
+          "label": "Define inventory management's important relationship with supply chain management."
+        },
+        {
+          "id": "E.1",
+          "label": "Describe the role of manufacturing in a supply chain context."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Manufacturing output determines the levels of finished goods inventory."
+        },
+        {
+          "type": "related_to",
+          "description": "Manufactured goods are stored in warehouses before distribution to customers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.1",
+        "label": "Describe the role of manufacturing in a supply chain context."
+      },
+      "consequence_description": "When the role of manufacturing in a supply chain context. is disrupted, the related to connection to the role and cost of warehouses in supply chain management. breaks down. The role and cost of warehouses in supply chain management. loses its foundational input from inventory management's important relationship with supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The role of manufacturing in a supply chain context. serves as a critical intermediary in this concept chain. The related to relationship from inventory management's important relationship with supply chain management. to the role of manufacturing in a supply chain context. establishes a dependency, and the related to relationship from the role of manufacturing in a supply chain context. to the role and cost of warehouses in supply chain management. carries that influence forward. When the role of manufacturing in a supply chain context. is disrupted, the downstream effect on the role and cost of warehouses in supply chain management. is not merely a loss of one input — it severs the entire pathway through which inventory management's important relationship with supply chain management. influences the role and cost of warehouses in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp",
+          "title": "APICS CSCP - Supply Chain Management Certification",
+          "site": "ASCM/APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of manufacturing in a supply chain context. redundant and improving overall efficiency.",
+          "Disrupting the role of manufacturing in a supply chain context. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of manufacturing in a supply chain context. alone, with no downstream effect on the role and cost of warehouses in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.3->E.6->E.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        },
+        {
+          "id": "E.6",
+          "label": "Describe the importance of customer service in a supply chain."
+        },
+        {
+          "id": "E.5",
+          "label": "Explain the process for product returns."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Transportation reliability and speed directly affect customer service levels."
+        },
+        {
+          "type": "related_to",
+          "description": "A smooth product returns process enhances overall customer service and satisfaction."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.6",
+        "label": "Describe the importance of customer service in a supply chain."
+      },
+      "consequence_description": "When the importance of customer service in a supply chain. is disrupted, the related to connection to the process for product returns. breaks down. The process for product returns. loses its foundational input from transportation management in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of customer service in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from transportation management in a supply chain. to the importance of customer service in a supply chain. establishes a dependency, and the related to relationship from the importance of customer service in a supply chain. to the process for product returns. carries that influence forward. When the importance of customer service in a supply chain. is disrupted, the downstream effect on the process for product returns. is not merely a loss of one input — it severs the entire pathway through which transportation management in a supply chain. influences the process for product returns., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx",
+          "title": "The Importance of Supply Chain Management",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of customer service in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of customer service in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of customer service in a supply chain. alone, with no downstream effect on the process for product returns. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.4->E.3->E.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        },
+        {
+          "id": "E.6",
+          "label": "Describe the importance of customer service in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Warehouse location decisions directly impact transportation costs and delivery times."
+        },
+        {
+          "type": "related_to",
+          "description": "Transportation reliability and speed directly affect customer service levels."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.3",
+        "label": "Explain transportation management in a supply chain."
+      },
+      "consequence_description": "When transportation management in a supply chain. is disrupted, the related to connection to the importance of customer service in a supply chain. breaks down. The importance of customer service in a supply chain. loses its foundational input from the role and cost of warehouses in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Transportation management in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the role and cost of warehouses in supply chain management. to transportation management in a supply chain. establishes a dependency, and the related to relationship from transportation management in a supply chain. to the importance of customer service in a supply chain. carries that influence forward. When transportation management in a supply chain. is disrupted, the downstream effect on the importance of customer service in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role and cost of warehouses in supply chain management. influences the importance of customer service in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making transportation management in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting transportation management in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to transportation management in a supply chain. alone, with no downstream effect on the importance of customer service in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.6->E.5->E.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.6",
+          "label": "Describe the importance of customer service in a supply chain."
+        },
+        {
+          "id": "E.5",
+          "label": "Explain the process for product returns."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "A smooth product returns process enhances overall customer service and satisfaction."
+        },
+        {
+          "type": "related_to",
+          "description": "Returns require reverse transportation from customer back to return centers or manufacturers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.5",
+        "label": "Explain the process for product returns."
+      },
+      "consequence_description": "When the process for product returns. is disrupted, the related to connection to transportation management in a supply chain. breaks down. Transportation management in a supply chain. loses its foundational input from the importance of customer service in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The process for product returns. serves as a critical intermediary in this concept chain. The related to relationship from the importance of customer service in a supply chain. to the process for product returns. establishes a dependency, and the related to relationship from the process for product returns. to transportation management in a supply chain. carries that influence forward. When the process for product returns. is disrupted, the downstream effect on transportation management in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the importance of customer service in a supply chain. influences transportation management in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/reverse-logistics/",
+          "title": "Reverse Logistics: What it is and why it matters in SCM",
+          "site": "ASCM/APICS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/reverse-logistics.shtml",
+          "title": "A Guide to Reverse Logistics: How It Works, Types and Strategies",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.reverselogix.com/industry-updates/returns-management-vs-reverse-logistics-understanding-the-difference/",
+          "title": "Returns Management vs Reverse Logistics: Understanding The Difference",
+          "site": "ReverseLogix"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the process for product returns. redundant and improving overall efficiency.",
+          "Disrupting the process for product returns. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the process for product returns. alone, with no downstream effect on transportation management in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.4->E.2->E.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        },
+        {
+          "id": "E.2",
+          "label": "Define inventory management's important relationship with supply chain management."
+        },
+        {
+          "id": "E.1",
+          "label": "Describe the role of manufacturing in a supply chain context."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and enable inventory management practices."
+        },
+        {
+          "type": "related_to",
+          "description": "Manufacturing output determines the levels of finished goods inventory."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management."
+      },
+      "consequence_description": "When inventory management's important relationship with supply chain management. is disrupted, the related to connection to the role of manufacturing in a supply chain context. breaks down. The role of manufacturing in a supply chain context. loses its foundational input from the role and cost of warehouses in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Inventory management's important relationship with supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role and cost of warehouses in supply chain management. to inventory management's important relationship with supply chain management. establishes a dependency, and the related to relationship from inventory management's important relationship with supply chain management. to the role of manufacturing in a supply chain context. carries that influence forward. When inventory management's important relationship with supply chain management. is disrupted, the downstream effect on the role of manufacturing in a supply chain context. is not merely a loss of one input — it severs the entire pathway through which the role and cost of warehouses in supply chain management. influences the role of manufacturing in a supply chain context., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.gep.com/knowledge-bank/glossary/what-is-inventory-management",
+          "title": "Why Inventory Management is Important for Supply Chain Management",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making inventory management's important relationship with supply chain management. redundant and improving overall efficiency.",
+          "Disrupting inventory management's important relationship with supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to inventory management's important relationship with supply chain management. alone, with no downstream effect on the role of manufacturing in a supply chain context. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.1->E.4->E.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.1",
+          "label": "Describe the role of manufacturing in a supply chain context."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Manufactured goods are stored in warehouses before distribution to customers."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouse location decisions directly impact transportation costs and delivery times."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.4",
+        "label": "Explain the role and cost of warehouses in supply chain management."
+      },
+      "consequence_description": "When the role and cost of warehouses in supply chain management. is disrupted, the related to connection to transportation management in a supply chain. breaks down. Transportation management in a supply chain. loses its foundational input from the role of manufacturing in a supply chain context., degrading overall supply chain performance in this area.",
+      "explanation": "The role and cost of warehouses in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of manufacturing in a supply chain context. to the role and cost of warehouses in supply chain management. establishes a dependency, and the related to relationship from the role and cost of warehouses in supply chain management. to transportation management in a supply chain. carries that influence forward. When the role and cost of warehouses in supply chain management. is disrupted, the downstream effect on transportation management in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of manufacturing in a supply chain context. influences transportation management in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://spherewms.com/blog/warehousing-in-supply-chain-management",
+          "title": "Warehousing in Supply Chain Management: Key Roles & Benefits",
+          "site": "SphereWMS"
+        },
+        {
+          "url": "https://proconnectlogistics.com/blog/understanding-the-components-of-warehousing-costs/",
+          "title": "Understanding the Components of Warehousing Costs",
+          "site": "ProConnect Integrated Logistics"
+        },
+        {
+          "url": "https://www.withvector.com/blog/role-of-warehousing-in-supply-chain-management-examples/",
+          "title": "Role Of Warehousing In Supply Chain Management + Examples",
+          "site": "Vector"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role and cost of warehouses in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role and cost of warehouses in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role and cost of warehouses in supply chain management. alone, with no downstream effect on transportation management in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.5->E.6->E.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.5",
+          "label": "Explain the process for product returns."
+        },
+        {
+          "id": "E.6",
+          "label": "Describe the importance of customer service in a supply chain."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "An efficient returns process is a key component of customer service and satisfaction."
+        },
+        {
+          "type": "related_to",
+          "description": "Transportation reliability directly impacts customer service through on-time delivery performance."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.6",
+        "label": "Describe the importance of customer service in a supply chain."
+      },
+      "consequence_description": "When the importance of customer service in a supply chain. is disrupted, the related to connection to transportation management in a supply chain. breaks down. Transportation management in a supply chain. loses its foundational input from the process for product returns., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of customer service in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the process for product returns. to the importance of customer service in a supply chain. establishes a dependency, and the related to relationship from the importance of customer service in a supply chain. to transportation management in a supply chain. carries that influence forward. When the importance of customer service in a supply chain. is disrupted, the downstream effect on transportation management in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the process for product returns. influences transportation management in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx",
+          "title": "The Importance of Supply Chain Management",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of customer service in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of customer service in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of customer service in a supply chain. alone, with no downstream effect on transportation management in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.5->E.3->E.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.5",
+          "label": "Explain the process for product returns."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Returns require reverse transportation from customer back to return centers or manufacturers."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouses serve as nodes in the transportation network, and their location affects transportation costs."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.3",
+        "label": "Explain transportation management in a supply chain."
+      },
+      "consequence_description": "When transportation management in a supply chain. is disrupted, the related to connection to the role and cost of warehouses in supply chain management. breaks down. The role and cost of warehouses in supply chain management. loses its foundational input from the process for product returns., degrading overall supply chain performance in this area.",
+      "explanation": "Transportation management in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the process for product returns. to transportation management in a supply chain. establishes a dependency, and the related to relationship from transportation management in a supply chain. to the role and cost of warehouses in supply chain management. carries that influence forward. When transportation management in a supply chain. is disrupted, the downstream effect on the role and cost of warehouses in supply chain management. is not merely a loss of one input — it severs the entire pathway through which the process for product returns. influences the role and cost of warehouses in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making transportation management in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting transportation management in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to transportation management in a supply chain. alone, with no downstream effect on the role and cost of warehouses in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.2->E.4->E.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.2",
+          "label": "Define inventory management's important relationship with supply chain management."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and support inventory management processes."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouse location decisions directly impact transportation costs and delivery times."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.4",
+        "label": "Explain the role and cost of warehouses in supply chain management."
+      },
+      "consequence_description": "When the role and cost of warehouses in supply chain management. is disrupted, the related to connection to transportation management in a supply chain. breaks down. Transportation management in a supply chain. loses its foundational input from inventory management's important relationship with supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The role and cost of warehouses in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from inventory management's important relationship with supply chain management. to the role and cost of warehouses in supply chain management. establishes a dependency, and the related to relationship from the role and cost of warehouses in supply chain management. to transportation management in a supply chain. carries that influence forward. When the role and cost of warehouses in supply chain management. is disrupted, the downstream effect on transportation management in a supply chain. is not merely a loss of one input — it severs the entire pathway through which inventory management's important relationship with supply chain management. influences transportation management in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://spherewms.com/blog/warehousing-in-supply-chain-management",
+          "title": "Warehousing in Supply Chain Management: Key Roles & Benefits",
+          "site": "SphereWMS"
+        },
+        {
+          "url": "https://proconnectlogistics.com/blog/understanding-the-components-of-warehousing-costs/",
+          "title": "Understanding the Components of Warehousing Costs",
+          "site": "ProConnect Integrated Logistics"
+        },
+        {
+          "url": "https://www.withvector.com/blog/role-of-warehousing-in-supply-chain-management-examples/",
+          "title": "Role Of Warehousing In Supply Chain Management + Examples",
+          "site": "Vector"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role and cost of warehouses in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role and cost of warehouses in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role and cost of warehouses in supply chain management. alone, with no downstream effect on transportation management in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.5->E.3->E.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.5",
+          "label": "Explain the process for product returns."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        },
+        {
+          "id": "E.6",
+          "label": "Describe the importance of customer service in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Returns require reverse transportation from customer back to return centers or manufacturers."
+        },
+        {
+          "type": "related_to",
+          "description": "Transportation reliability and speed directly affect customer service levels."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.3",
+        "label": "Explain transportation management in a supply chain."
+      },
+      "consequence_description": "When transportation management in a supply chain. is disrupted, the related to connection to the importance of customer service in a supply chain. breaks down. The importance of customer service in a supply chain. loses its foundational input from the process for product returns., degrading overall supply chain performance in this area.",
+      "explanation": "Transportation management in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the process for product returns. to transportation management in a supply chain. establishes a dependency, and the related to relationship from transportation management in a supply chain. to the importance of customer service in a supply chain. carries that influence forward. When transportation management in a supply chain. is disrupted, the downstream effect on the importance of customer service in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the process for product returns. influences the importance of customer service in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making transportation management in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting transportation management in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to transportation management in a supply chain. alone, with no downstream effect on the importance of customer service in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.3->E.4->E.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        },
+        {
+          "id": "E.2",
+          "label": "Define inventory management's important relationship with supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Warehouses serve as nodes in the transportation network, and their location affects transportation costs."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouses physically hold inventory and enable inventory management practices."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.4",
+        "label": "Explain the role and cost of warehouses in supply chain management."
+      },
+      "consequence_description": "When the role and cost of warehouses in supply chain management. is disrupted, the related to connection to inventory management's important relationship with supply chain management. breaks down. Inventory management's important relationship with supply chain management. loses its foundational input from transportation management in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The role and cost of warehouses in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from transportation management in a supply chain. to the role and cost of warehouses in supply chain management. establishes a dependency, and the related to relationship from the role and cost of warehouses in supply chain management. to inventory management's important relationship with supply chain management. carries that influence forward. When the role and cost of warehouses in supply chain management. is disrupted, the downstream effect on inventory management's important relationship with supply chain management. is not merely a loss of one input — it severs the entire pathway through which transportation management in a supply chain. influences inventory management's important relationship with supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://spherewms.com/blog/warehousing-in-supply-chain-management",
+          "title": "Warehousing in Supply Chain Management: Key Roles & Benefits",
+          "site": "SphereWMS"
+        },
+        {
+          "url": "https://proconnectlogistics.com/blog/understanding-the-components-of-warehousing-costs/",
+          "title": "Understanding the Components of Warehousing Costs",
+          "site": "ProConnect Integrated Logistics"
+        },
+        {
+          "url": "https://www.withvector.com/blog/role-of-warehousing-in-supply-chain-management-examples/",
+          "title": "Role Of Warehousing In Supply Chain Management + Examples",
+          "site": "Vector"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role and cost of warehouses in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role and cost of warehouses in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role and cost of warehouses in supply chain management. alone, with no downstream effect on inventory management's important relationship with supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.6->E.3->E.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "E.6",
+          "label": "Describe the importance of customer service in a supply chain."
+        },
+        {
+          "id": "E.3",
+          "label": "Explain transportation management in a supply chain."
+        },
+        {
+          "id": "E.4",
+          "label": "Explain the role and cost of warehouses in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Transportation reliability directly impacts customer service through on-time delivery performance."
+        },
+        {
+          "type": "related_to",
+          "description": "Warehouses serve as nodes in the transportation network, and their location affects transportation costs."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "E.3",
+        "label": "Explain transportation management in a supply chain."
+      },
+      "consequence_description": "When transportation management in a supply chain. is disrupted, the related to connection to the role and cost of warehouses in supply chain management. breaks down. The role and cost of warehouses in supply chain management. loses its foundational input from the importance of customer service in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "Transportation management in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the importance of customer service in a supply chain. to transportation management in a supply chain. establishes a dependency, and the related to relationship from transportation management in a supply chain. to the role and cost of warehouses in supply chain management. carries that influence forward. When transportation management in a supply chain. is disrupted, the downstream effect on the role and cost of warehouses in supply chain management. is not merely a loss of one input — it severs the entire pathway through which the importance of customer service in a supply chain. influences the role and cost of warehouses in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making transportation management in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting transportation management in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to transportation management in a supply chain. alone, with no downstream effect on the role and cost of warehouses in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "E.3<>B.11_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.3",
+        "label": "Explain transportation management in a supply chain.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "B.11",
+        "label": "Explain the relationship between supply chain management and transportation planning",
+        "section": "B"
+      },
+      "interaction_description": "Transportation management in a supply chain. and the relationship between supply chain management and transportation planning have a bidirectional relationship across their domains: decisions in transportation management in a supply chain. directly influence how the relationship between supply chain management and transportation planning is configured and managed, while feedback from the relationship between supply chain management and transportation planning operations informs adjustments to transportation management in a supply chain. strategy.",
+      "explanation": "The cross-section relationship between transportation management in a supply chain. (Section E) and the relationship between supply chain management and transportation planning (Section B) illustrates how supply chain concepts rarely exist in isolation. Transportation management in a supply chain. provides strategic direction that shapes the relationship between supply chain management and transportation planning decisions, while the relationship between supply chain management and transportation planning generates operational data and constraints that feed back into transportation management in a supply chain. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://ecampusontario.pressbooks.pub/logistics001oerfc/chapter/chapter-1/",
+          "title": "The Role of Logistics in Supply Chains",
+          "site": "eCampusOntario Pressbooks"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/",
+          "title": "Managing Transportation and Logistics in Supply Chains",
+          "site": "University of Tennessee GSCI"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Transportation management in a supply chain. and the relationship between supply chain management and transportation planning operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Transportation management in a supply chain. completely subsumes the relationship between supply chain management and transportation planning, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between transportation management in a supply chain. and the relationship between supply chain management and transportation planning is purely one-directional, with no feedback mechanism from the relationship between supply chain management and transportation planning back to transportation management in a supply chain.."
+        ]
+      }
+    },
+    {
+      "id": "E.2<>B.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "B.6",
+        "label": "Explain the logistics of inventory management",
+        "section": "B"
+      },
+      "interaction_description": "Inventory management's important relationship with supply chain management. and the logistics of inventory management have a bidirectional relationship across their domains: decisions in inventory management's important relationship with supply chain management. directly influence how the logistics of inventory management is configured and managed, while feedback from the logistics of inventory management operations informs adjustments to inventory management's important relationship with supply chain management. strategy.",
+      "explanation": "The cross-section relationship between inventory management's important relationship with supply chain management. (Section E) and the logistics of inventory management (Section B) illustrates how supply chain concepts rarely exist in isolation. Inventory management's important relationship with supply chain management. provides strategic direction that shapes the logistics of inventory management decisions, while the logistics of inventory management generates operational data and constraints that feed back into inventory management's important relationship with supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory management's important relationship with supply chain management. and the logistics of inventory management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory management's important relationship with supply chain management. completely subsumes the logistics of inventory management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory management's important relationship with supply chain management. and the logistics of inventory management is purely one-directional, with no feedback mechanism from the logistics of inventory management back to inventory management's important relationship with supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "E.6<>G.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.6",
+        "label": "Describe the importance of customer service in a supply chain.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "G.8",
+        "label": "Define how supply chain management meets consumer needs",
+        "section": "G"
+      },
+      "interaction_description": "The importance of customer service in a supply chain. and supply chain management meets consumer needs have a bidirectional relationship across their domains: decisions in the importance of customer service in a supply chain. directly influence how supply chain management meets consumer needs is configured and managed, while feedback from supply chain management meets consumer needs operations informs adjustments to the importance of customer service in a supply chain. strategy.",
+      "explanation": "The cross-section relationship between the importance of customer service in a supply chain. (Section E) and supply chain management meets consumer needs (Section G) illustrates how supply chain concepts rarely exist in isolation. The importance of customer service in a supply chain. provides strategic direction that shapes supply chain management meets consumer needs decisions, while supply chain management meets consumer needs generates operational data and constraints that feed back into the importance of customer service in a supply chain. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx",
+          "title": "The Importance of Supply Chain Management",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The importance of customer service in a supply chain. and supply chain management meets consumer needs operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The importance of customer service in a supply chain. completely subsumes supply chain management meets consumer needs, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the importance of customer service in a supply chain. and supply chain management meets consumer needs is purely one-directional, with no feedback mechanism from supply chain management meets consumer needs back to the importance of customer service in a supply chain.."
+        ]
+      }
+    },
+    {
+      "id": "E.2<>D.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Inventory management's important relationship with supply chain management. and management of supply and demand for supply chain management. have a bidirectional relationship across their domains: decisions in inventory management's important relationship with supply chain management. directly influence how management of supply and demand for supply chain management. is configured and managed, while feedback from management of supply and demand for supply chain management. operations informs adjustments to inventory management's important relationship with supply chain management. strategy.",
+      "explanation": "The cross-section relationship between inventory management's important relationship with supply chain management. (Section E) and management of supply and demand for supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Inventory management's important relationship with supply chain management. provides strategic direction that shapes management of supply and demand for supply chain management. decisions, while management of supply and demand for supply chain management. generates operational data and constraints that feed back into inventory management's important relationship with supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory management's important relationship with supply chain management. and management of supply and demand for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory management's important relationship with supply chain management. completely subsumes management of supply and demand for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory management's important relationship with supply chain management. and management of supply and demand for supply chain management. is purely one-directional, with no feedback mechanism from management of supply and demand for supply chain management. back to inventory management's important relationship with supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "E.6<>A.4_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.6",
+        "label": "Describe the importance of customer service in a supply chain.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "A.4",
+        "label": "Explain how logistics impacts supply chain management",
+        "section": "A"
+      },
+      "interaction_description": "The importance of customer service in a supply chain. and logistics impacts supply chain management have a bidirectional relationship across their domains: decisions in the importance of customer service in a supply chain. directly influence how logistics impacts supply chain management is configured and managed, while feedback from logistics impacts supply chain management operations informs adjustments to the importance of customer service in a supply chain. strategy.",
+      "explanation": "The cross-section relationship between the importance of customer service in a supply chain. (Section E) and logistics impacts supply chain management (Section A) illustrates how supply chain concepts rarely exist in isolation. The importance of customer service in a supply chain. provides strategic direction that shapes logistics impacts supply chain management decisions, while logistics impacts supply chain management generates operational data and constraints that feed back into the importance of customer service in a supply chain. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx",
+          "title": "The Importance of Supply Chain Management",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The importance of customer service in a supply chain. and logistics impacts supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The importance of customer service in a supply chain. completely subsumes logistics impacts supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the importance of customer service in a supply chain. and logistics impacts supply chain management is purely one-directional, with no feedback mechanism from logistics impacts supply chain management back to the importance of customer service in a supply chain.."
+        ]
+      }
+    },
+    {
+      "id": "E.2<>F.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "interaction_description": "Inventory management's important relationship with supply chain management. and importance of minimizing inventory during all stages of supply chain management have a bidirectional relationship across their domains: decisions in inventory management's important relationship with supply chain management. directly influence how importance of minimizing inventory during all stages of supply chain management is configured and managed, while feedback from importance of minimizing inventory during all stages of supply chain management operations informs adjustments to inventory management's important relationship with supply chain management. strategy.",
+      "explanation": "The cross-section relationship between inventory management's important relationship with supply chain management. (Section E) and importance of minimizing inventory during all stages of supply chain management (Section F) illustrates how supply chain concepts rarely exist in isolation. Inventory management's important relationship with supply chain management. provides strategic direction that shapes importance of minimizing inventory during all stages of supply chain management decisions, while importance of minimizing inventory during all stages of supply chain management generates operational data and constraints that feed back into inventory management's important relationship with supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory management's important relationship with supply chain management. and importance of minimizing inventory during all stages of supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory management's important relationship with supply chain management. completely subsumes importance of minimizing inventory during all stages of supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory management's important relationship with supply chain management. and importance of minimizing inventory during all stages of supply chain management is purely one-directional, with no feedback mechanism from importance of minimizing inventory during all stages of supply chain management back to inventory management's important relationship with supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "E.2<>G.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization",
+        "section": "G"
+      },
+      "interaction_description": "Inventory management's important relationship with supply chain management. and inventory maximization have a bidirectional relationship across their domains: decisions in inventory management's important relationship with supply chain management. directly influence how inventory maximization is configured and managed, while feedback from inventory maximization operations informs adjustments to inventory management's important relationship with supply chain management. strategy.",
+      "explanation": "The cross-section relationship between inventory management's important relationship with supply chain management. (Section E) and inventory maximization (Section G) illustrates how supply chain concepts rarely exist in isolation. Inventory management's important relationship with supply chain management. provides strategic direction that shapes inventory maximization decisions, while inventory maximization generates operational data and constraints that feed back into inventory management's important relationship with supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory management's important relationship with supply chain management. and inventory maximization operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory management's important relationship with supply chain management. completely subsumes inventory maximization, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory management's important relationship with supply chain management. and inventory maximization is purely one-directional, with no feedback mechanism from inventory maximization back to inventory management's important relationship with supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "E.2<>G.4_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "target_concept": {
+        "id": "G.4",
+        "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management",
+        "section": "G"
+      },
+      "interaction_description": "Inventory management's important relationship with supply chain management. and algorithms are used to maximize capital costs associated with supply chain management have a bidirectional relationship across their domains: decisions in inventory management's important relationship with supply chain management. directly influence how algorithms are used to maximize capital costs associated with supply chain management is configured and managed, while feedback from algorithms are used to maximize capital costs associated with supply chain management operations informs adjustments to inventory management's important relationship with supply chain management. strategy.",
+      "explanation": "The cross-section relationship between inventory management's important relationship with supply chain management. (Section E) and algorithms are used to maximize capital costs associated with supply chain management (Section G) illustrates how supply chain concepts rarely exist in isolation. Inventory management's important relationship with supply chain management. provides strategic direction that shapes algorithms are used to maximize capital costs associated with supply chain management decisions, while algorithms are used to maximize capital costs associated with supply chain management generates operational data and constraints that feed back into inventory management's important relationship with supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/inventory-management-in-supply-chain/",
+          "title": "The Importance of Inventory Management for Supply Chain Organizations",
+          "site": "Global Supply Chain Institute, University of Tennessee"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949863525000548",
+          "title": "A comparative study of multi-algorithm optimization for inventory analytics in supply chains",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory management's important relationship with supply chain management. and algorithms are used to maximize capital costs associated with supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory management's important relationship with supply chain management. completely subsumes algorithms are used to maximize capital costs associated with supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory management's important relationship with supply chain management. and algorithms are used to maximize capital costs associated with supply chain management is purely one-directional, with no feedback mechanism from algorithms are used to maximize capital costs associated with supply chain management back to inventory management's important relationship with supply chain management.."
+        ]
+      }
+    }
+  ]
+}

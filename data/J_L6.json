@@ -1,0 +1,1315 @@
+{
+  "section_id": "J",
+  "section_title": "Supply Chain Management Contemporary Issues",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "J.1->J.2->J.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        },
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        },
+        {
+          "id": "J.4",
+          "label": "Explain how e-commerce has impacted channels of distribution."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "IT infrastructure enables e-business capabilities in supply chains"
+        },
+        {
+          "type": "related_to",
+          "description": "E-business encompasses e-commerce which directly reshapes distribution channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.2",
+        "label": "Explain how E-business has impacted supply chain management."
+      },
+      "consequence_description": "When e-business has impacted supply chain management. is disrupted, the related to connection to e-commerce has impacted channels of distribution. breaks down. E-commerce has impacted channels of distribution. loses its foundational input from the impact of information technology in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "E-business has impacted supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the impact of information technology in supply chain management. to e-business has impacted supply chain management. establishes a dependency, and the related to relationship from e-business has impacted supply chain management. to e-commerce has impacted channels of distribution. carries that influence forward. When e-business has impacted supply chain management. is disrupted, the downstream effect on e-commerce has impacted channels of distribution. is not merely a loss of one input — it severs the entire pathway through which the impact of information technology in supply chain management. influences e-commerce has impacted channels of distribution., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.emerald.com/insight/content/doi/10.1108/01443570510572240/full/html",
+          "title": "The impact of e-business on supply chain management: An empirical study of key developments",
+          "site": "Emerald Insight"
+        },
+        {
+          "url": "http://mba.tuck.dartmouth.edu/digital/Research/AcademicPublications/POMSArticle.pdf",
+          "title": "e-Business and Supply Chain Management: An Overview and Framework",
+          "site": "Dartmouth Tuck School of Business"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-39626-7_7",
+          "title": "Supply Chain Management in E-Business",
+          "site": "Springer"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making e-business has impacted supply chain management. redundant and improving overall efficiency.",
+          "Disrupting e-business has impacted supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to e-business has impacted supply chain management. alone, with no downstream effect on e-commerce has impacted channels of distribution. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.1->J.3->J.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        },
+        {
+          "id": "J.3",
+          "label": "Describe the financial flow in supply chain management."
+        },
+        {
+          "id": "J.5",
+          "label": "Describe political and economic events that impact supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "IT systems facilitate tracking and managing financial flows across the supply chain"
+        },
+        {
+          "type": "related_to",
+          "description": "Political and economic events such as sanctions and currency fluctuations directly affect financial flows"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.3",
+        "label": "Describe the financial flow in supply chain management."
+      },
+      "consequence_description": "When the financial flow in supply chain management. is disrupted, the related to connection to political and economic events that impact supply chain management. breaks down. Political and economic events that impact supply chain management. loses its foundational input from the impact of information technology in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The financial flow in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the impact of information technology in supply chain management. to the financial flow in supply chain management. establishes a dependency, and the related to relationship from the financial flow in supply chain management. to political and economic events that impact supply chain management. carries that influence forward. When the financial flow in supply chain management. is disrupted, the downstream effect on political and economic events that impact supply chain management. is not merely a loss of one input — it severs the entire pathway through which the impact of information technology in supply chain management. influences political and economic events that impact supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://pressbooks.pub/supplychainmanagement3005/chapter/1-4-supply-chain-flows/",
+          "title": "1.4 Supply Chain Flows - Supply Chain Management: An Integrated Approach",
+          "site": "Pressbooks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the financial flow in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the financial flow in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the financial flow in supply chain management. alone, with no downstream effect on political and economic events that impact supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.2->J.1->J.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        },
+        {
+          "id": "J.3",
+          "label": "Describe the financial flow in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "E-business relies on information technology infrastructure to function"
+        },
+        {
+          "type": "related_to",
+          "description": "IT systems facilitate tracking and managing financial flows across the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management."
+      },
+      "consequence_description": "When the impact of information technology in supply chain management. is disrupted, the related to connection to the financial flow in supply chain management. breaks down. The financial flow in supply chain management. loses its foundational input from e-business has impacted supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The impact of information technology in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from e-business has impacted supply chain management. to the impact of information technology in supply chain management. establishes a dependency, and the related to relationship from the impact of information technology in supply chain management. to the financial flow in supply chain management. carries that influence forward. When the impact of information technology in supply chain management. is disrupted, the downstream effect on the financial flow in supply chain management. is not merely a loss of one input — it severs the entire pathway through which e-business has impacted supply chain management. influences the financial flow in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877042811023731",
+          "title": "Information technology in supply chain management: a case study",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the impact of information technology in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the impact of information technology in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the impact of information technology in supply chain management. alone, with no downstream effect on the financial flow in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.2->J.4->J.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        },
+        {
+          "id": "J.4",
+          "label": "Explain how e-commerce has impacted channels of distribution."
+        },
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "E-business encompasses e-commerce which directly reshapes distribution channels"
+        },
+        {
+          "type": "related_to",
+          "description": "Competitive pressure drives adoption of e-commerce distribution strategies"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.4",
+        "label": "Explain how e-commerce has impacted channels of distribution."
+      },
+      "consequence_description": "When e-commerce has impacted channels of distribution. is disrupted, the related to connection to competition impact supply chain management decisions. breaks down. Competition impact supply chain management decisions. loses its foundational input from e-business has impacted supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "E-commerce has impacted channels of distribution. serves as a critical intermediary in this concept chain. The related to relationship from e-business has impacted supply chain management. to e-commerce has impacted channels of distribution. establishes a dependency, and the related to relationship from e-commerce has impacted channels of distribution. to competition impact supply chain management decisions. carries that influence forward. When e-commerce has impacted channels of distribution. is disrupted, the downstream effect on competition impact supply chain management decisions. is not merely a loss of one input — it severs the entire pathway through which e-business has impacted supply chain management. influences competition impact supply chain management decisions., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laceupsolutions.com/impact-of-e-commerce-on-distribution-reshaping-networks-business-models/",
+          "title": "E-commerce on Distribution: Reshaping Networks and Business Models",
+          "site": "Lace Up Solutions"
+        },
+        {
+          "url": "https://www.bringoz.com/how-ecommerce-is-transforming-retail-distribution-channels/",
+          "title": "eCommerce & Retail Distribution Transformation",
+          "site": "Bringoz"
+        },
+        {
+          "url": "https://cimcorp.com/distribution/e-commerces-impact-on-distribution/",
+          "title": "E-commerce's impact on distribution",
+          "site": "Cimcorp"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making e-commerce has impacted channels of distribution. redundant and improving overall efficiency.",
+          "Disrupting e-commerce has impacted channels of distribution. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to e-commerce has impacted channels of distribution. alone, with no downstream effect on competition impact supply chain management decisions. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.3->J.5->J.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.3",
+          "label": "Describe the financial flow in supply chain management."
+        },
+        {
+          "id": "J.5",
+          "label": "Describe political and economic events that impact supply chain management."
+        },
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Political and economic events such as sanctions and currency fluctuations directly affect financial flows"
+        },
+        {
+          "type": "related_to",
+          "description": "Political and economic shifts alter the competitive landscape for supply chains"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.5",
+        "label": "Describe political and economic events that impact supply chain management."
+      },
+      "consequence_description": "When political and economic events that impact supply chain management. is disrupted, the related to connection to competition impact supply chain management decisions. breaks down. Competition impact supply chain management decisions. loses its foundational input from the financial flow in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Political and economic events that impact supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the financial flow in supply chain management. to political and economic events that impact supply chain management. establishes a dependency, and the related to relationship from political and economic events that impact supply chain management. to competition impact supply chain management decisions. carries that influence forward. When political and economic events that impact supply chain management. is disrupted, the downstream effect on competition impact supply chain management decisions. is not merely a loss of one input — it severs the entire pathway through which the financial flow in supply chain management. influences competition impact supply chain management decisions., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        },
+        {
+          "url": "https://www.foley.com/insights/publications/2025/09/political-instability-supply-chain-risks-us-trade-disruption/",
+          "title": "The Effects of Government Change and Political Instability on Supply Chain Management",
+          "site": "Foley & Lardner LLP"
+        },
+        {
+          "url": "https://www.unicargo.com/geopolitical-impact-global-supply-chains/",
+          "title": "The Impact of Geopolitical Events on Global Supply Chains",
+          "site": "Unicargo"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making political and economic events that impact supply chain management. redundant and improving overall efficiency.",
+          "Disrupting political and economic events that impact supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to political and economic events that impact supply chain management. alone, with no downstream effect on competition impact supply chain management decisions. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.4->J.6->J.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.4",
+          "label": "Explain how e-commerce has impacted channels of distribution."
+        },
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Competitive pressure drives adoption of e-commerce distribution strategies"
+        },
+        {
+          "type": "related_to",
+          "description": "IT investments in supply chains are often motivated by competitive necessity"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.6",
+        "label": "Explain how competition impact supply chain management decisions."
+      },
+      "consequence_description": "When competition impact supply chain management decisions. is disrupted, the related to connection to the impact of information technology in supply chain management. breaks down. The impact of information technology in supply chain management. loses its foundational input from e-commerce has impacted channels of distribution., degrading overall supply chain performance in this area.",
+      "explanation": "Competition impact supply chain management decisions. serves as a critical intermediary in this concept chain. The related to relationship from e-commerce has impacted channels of distribution. to competition impact supply chain management decisions. establishes a dependency, and the related to relationship from competition impact supply chain management decisions. to the impact of information technology in supply chain management. carries that influence forward. When competition impact supply chain management decisions. is disrupted, the downstream effect on the impact of information technology in supply chain management. is not merely a loss of one input — it severs the entire pathway through which e-commerce has impacted channels of distribution. influences the impact of information technology in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/supply-chains-as-sources-of-competitive-advantage.htm",
+          "title": "Supply Chains as Sources of Competitive Advantage",
+          "site": "Management Study Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making competition impact supply chain management decisions. redundant and improving overall efficiency.",
+          "Disrupting competition impact supply chain management decisions. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to competition impact supply chain management decisions. alone, with no downstream effect on the impact of information technology in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.4->J.2->J.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.4",
+          "label": "Explain how e-commerce has impacted channels of distribution."
+        },
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "part_of",
+          "description": "E-commerce is a subset of e-business that specifically affects distribution channels"
+        },
+        {
+          "type": "related_to",
+          "description": "E-business relies on information technology infrastructure to function"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.2",
+        "label": "Explain how E-business has impacted supply chain management."
+      },
+      "consequence_description": "When e-business has impacted supply chain management. is disrupted, the related to connection to the impact of information technology in supply chain management. breaks down. The impact of information technology in supply chain management. loses its foundational input from e-commerce has impacted channels of distribution., degrading overall supply chain performance in this area.",
+      "explanation": "E-business has impacted supply chain management. serves as a critical intermediary in this concept chain. The part of relationship from e-commerce has impacted channels of distribution. to e-business has impacted supply chain management. establishes a dependency, and the related to relationship from e-business has impacted supply chain management. to the impact of information technology in supply chain management. carries that influence forward. When e-business has impacted supply chain management. is disrupted, the downstream effect on the impact of information technology in supply chain management. is not merely a loss of one input — it severs the entire pathway through which e-commerce has impacted channels of distribution. influences the impact of information technology in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.emerald.com/insight/content/doi/10.1108/01443570510572240/full/html",
+          "title": "The impact of e-business on supply chain management: An empirical study of key developments",
+          "site": "Emerald Insight"
+        },
+        {
+          "url": "http://mba.tuck.dartmouth.edu/digital/Research/AcademicPublications/POMSArticle.pdf",
+          "title": "e-Business and Supply Chain Management: An Overview and Framework",
+          "site": "Dartmouth Tuck School of Business"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-39626-7_7",
+          "title": "Supply Chain Management in E-Business",
+          "site": "Springer"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making e-business has impacted supply chain management. redundant and improving overall efficiency.",
+          "Disrupting e-business has impacted supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to e-business has impacted supply chain management. alone, with no downstream effect on the impact of information technology in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.5->J.3->J.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.5",
+          "label": "Describe political and economic events that impact supply chain management."
+        },
+        {
+          "id": "J.3",
+          "label": "Describe the financial flow in supply chain management."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Political and economic events directly affect financial flows through sanctions, tariffs, and currency changes"
+        },
+        {
+          "type": "related_to",
+          "description": "IT systems enable tracking and automation of financial flows"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.3",
+        "label": "Describe the financial flow in supply chain management."
+      },
+      "consequence_description": "When the financial flow in supply chain management. is disrupted, the related to connection to the impact of information technology in supply chain management. breaks down. The impact of information technology in supply chain management. loses its foundational input from political and economic events that impact supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The financial flow in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from political and economic events that impact supply chain management. to the financial flow in supply chain management. establishes a dependency, and the related to relationship from the financial flow in supply chain management. to the impact of information technology in supply chain management. carries that influence forward. When the financial flow in supply chain management. is disrupted, the downstream effect on the impact of information technology in supply chain management. is not merely a loss of one input — it severs the entire pathway through which political and economic events that impact supply chain management. influences the impact of information technology in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://pressbooks.pub/supplychainmanagement3005/chapter/1-4-supply-chain-flows/",
+          "title": "1.4 Supply Chain Flows - Supply Chain Management: An Integrated Approach",
+          "site": "Pressbooks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the financial flow in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the financial flow in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the financial flow in supply chain management. alone, with no downstream effect on the impact of information technology in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.3->J.1->J.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.3",
+          "label": "Describe the financial flow in supply chain management."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        },
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "IT systems enable tracking and automation of financial flows"
+        },
+        {
+          "type": "related_to",
+          "description": "IT infrastructure enables e-business capabilities in supply chains"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management."
+      },
+      "consequence_description": "When the impact of information technology in supply chain management. is disrupted, the related to connection to e-business has impacted supply chain management. breaks down. E-business has impacted supply chain management. loses its foundational input from the financial flow in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The impact of information technology in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the financial flow in supply chain management. to the impact of information technology in supply chain management. establishes a dependency, and the related to relationship from the impact of information technology in supply chain management. to e-business has impacted supply chain management. carries that influence forward. When the impact of information technology in supply chain management. is disrupted, the downstream effect on e-business has impacted supply chain management. is not merely a loss of one input — it severs the entire pathway through which the financial flow in supply chain management. influences e-business has impacted supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877042811023731",
+          "title": "Information technology in supply chain management: a case study",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the impact of information technology in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the impact of information technology in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the impact of information technology in supply chain management. alone, with no downstream effect on e-business has impacted supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.6->J.4->J.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        },
+        {
+          "id": "J.4",
+          "label": "Explain how e-commerce has impacted channels of distribution."
+        },
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "E-commerce distribution strategies are driven by competitive pressures"
+        },
+        {
+          "type": "part_of",
+          "description": "E-commerce is a subset of e-business that specifically affects distribution channels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.4",
+        "label": "Explain how e-commerce has impacted channels of distribution."
+      },
+      "consequence_description": "When e-commerce has impacted channels of distribution. is disrupted, the part of connection to e-business has impacted supply chain management. breaks down. E-business has impacted supply chain management. loses its foundational input from competition impact supply chain management decisions., degrading overall supply chain performance in this area.",
+      "explanation": "E-commerce has impacted channels of distribution. serves as a critical intermediary in this concept chain. The related to relationship from competition impact supply chain management decisions. to e-commerce has impacted channels of distribution. establishes a dependency, and the part of relationship from e-commerce has impacted channels of distribution. to e-business has impacted supply chain management. carries that influence forward. When e-commerce has impacted channels of distribution. is disrupted, the downstream effect on e-business has impacted supply chain management. is not merely a loss of one input — it severs the entire pathway through which competition impact supply chain management decisions. influences e-business has impacted supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laceupsolutions.com/impact-of-e-commerce-on-distribution-reshaping-networks-business-models/",
+          "title": "E-commerce on Distribution: Reshaping Networks and Business Models",
+          "site": "Lace Up Solutions"
+        },
+        {
+          "url": "https://www.bringoz.com/how-ecommerce-is-transforming-retail-distribution-channels/",
+          "title": "eCommerce & Retail Distribution Transformation",
+          "site": "Bringoz"
+        },
+        {
+          "url": "https://cimcorp.com/distribution/e-commerces-impact-on-distribution/",
+          "title": "E-commerce's impact on distribution",
+          "site": "Cimcorp"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making e-commerce has impacted channels of distribution. redundant and improving overall efficiency.",
+          "Disrupting e-commerce has impacted channels of distribution. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to e-commerce has impacted channels of distribution. alone, with no downstream effect on e-business has impacted supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.5->J.6->J.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.5",
+          "label": "Describe political and economic events that impact supply chain management."
+        },
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        },
+        {
+          "id": "J.4",
+          "label": "Explain how e-commerce has impacted channels of distribution."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Political and economic shifts alter the competitive landscape for supply chains"
+        },
+        {
+          "type": "related_to",
+          "description": "E-commerce distribution strategies are driven by competitive pressures"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.6",
+        "label": "Explain how competition impact supply chain management decisions."
+      },
+      "consequence_description": "When competition impact supply chain management decisions. is disrupted, the related to connection to e-commerce has impacted channels of distribution. breaks down. E-commerce has impacted channels of distribution. loses its foundational input from political and economic events that impact supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Competition impact supply chain management decisions. serves as a critical intermediary in this concept chain. The related to relationship from political and economic events that impact supply chain management. to competition impact supply chain management decisions. establishes a dependency, and the related to relationship from competition impact supply chain management decisions. to e-commerce has impacted channels of distribution. carries that influence forward. When competition impact supply chain management decisions. is disrupted, the downstream effect on e-commerce has impacted channels of distribution. is not merely a loss of one input — it severs the entire pathway through which political and economic events that impact supply chain management. influences e-commerce has impacted channels of distribution., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/supply-chains-as-sources-of-competitive-advantage.htm",
+          "title": "Supply Chains as Sources of Competitive Advantage",
+          "site": "Management Study Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making competition impact supply chain management decisions. redundant and improving overall efficiency.",
+          "Disrupting competition impact supply chain management decisions. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to competition impact supply chain management decisions. alone, with no downstream effect on e-commerce has impacted channels of distribution. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.6->J.1->J.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        },
+        {
+          "id": "J.2",
+          "label": "Explain how E-business has impacted supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "IT investments in supply chains are often motivated by competitive necessity"
+        },
+        {
+          "type": "related_to",
+          "description": "IT infrastructure enables e-business capabilities in supply chains"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management."
+      },
+      "consequence_description": "When the impact of information technology in supply chain management. is disrupted, the related to connection to e-business has impacted supply chain management. breaks down. E-business has impacted supply chain management. loses its foundational input from competition impact supply chain management decisions., degrading overall supply chain performance in this area.",
+      "explanation": "The impact of information technology in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from competition impact supply chain management decisions. to the impact of information technology in supply chain management. establishes a dependency, and the related to relationship from the impact of information technology in supply chain management. to e-business has impacted supply chain management. carries that influence forward. When the impact of information technology in supply chain management. is disrupted, the downstream effect on e-business has impacted supply chain management. is not merely a loss of one input — it severs the entire pathway through which competition impact supply chain management decisions. influences e-business has impacted supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877042811023731",
+          "title": "Information technology in supply chain management: a case study",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the impact of information technology in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the impact of information technology in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the impact of information technology in supply chain management. alone, with no downstream effect on e-business has impacted supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.5->J.6->J.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.5",
+          "label": "Describe political and economic events that impact supply chain management."
+        },
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Political and economic shifts alter the competitive landscape for supply chains"
+        },
+        {
+          "type": "related_to",
+          "description": "IT investments in supply chains are often motivated by competitive necessity"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.6",
+        "label": "Explain how competition impact supply chain management decisions."
+      },
+      "consequence_description": "When competition impact supply chain management decisions. is disrupted, the related to connection to the impact of information technology in supply chain management. breaks down. The impact of information technology in supply chain management. loses its foundational input from political and economic events that impact supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Competition impact supply chain management decisions. serves as a critical intermediary in this concept chain. The related to relationship from political and economic events that impact supply chain management. to competition impact supply chain management decisions. establishes a dependency, and the related to relationship from competition impact supply chain management decisions. to the impact of information technology in supply chain management. carries that influence forward. When competition impact supply chain management decisions. is disrupted, the downstream effect on the impact of information technology in supply chain management. is not merely a loss of one input — it severs the entire pathway through which political and economic events that impact supply chain management. influences the impact of information technology in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.managementstudyguide.com/supply-chains-as-sources-of-competitive-advantage.htm",
+          "title": "Supply Chains as Sources of Competitive Advantage",
+          "site": "Management Study Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making competition impact supply chain management decisions. redundant and improving overall efficiency.",
+          "Disrupting competition impact supply chain management decisions. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to competition impact supply chain management decisions. alone, with no downstream effect on the impact of information technology in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.6->J.1->J.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "J.6",
+          "label": "Explain how competition impact supply chain management decisions."
+        },
+        {
+          "id": "J.1",
+          "label": "Describe the impact of information technology in supply chain management."
+        },
+        {
+          "id": "J.3",
+          "label": "Describe the financial flow in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "IT investments in supply chains are often motivated by competitive necessity"
+        },
+        {
+          "type": "related_to",
+          "description": "IT systems facilitate tracking and managing financial flows across the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management."
+      },
+      "consequence_description": "When the impact of information technology in supply chain management. is disrupted, the related to connection to the financial flow in supply chain management. breaks down. The financial flow in supply chain management. loses its foundational input from competition impact supply chain management decisions., degrading overall supply chain performance in this area.",
+      "explanation": "The impact of information technology in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from competition impact supply chain management decisions. to the impact of information technology in supply chain management. establishes a dependency, and the related to relationship from the impact of information technology in supply chain management. to the financial flow in supply chain management. carries that influence forward. When the impact of information technology in supply chain management. is disrupted, the downstream effect on the financial flow in supply chain management. is not merely a loss of one input — it severs the entire pathway through which competition impact supply chain management decisions. influences the financial flow in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877042811023731",
+          "title": "Information technology in supply chain management: a case study",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the impact of information technology in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the impact of information technology in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the impact of information technology in supply chain management. alone, with no downstream effect on the financial flow in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "J.5<>A.12_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.5",
+        "label": "Describe political and economic events that impact supply chain management.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "A.12",
+        "label": "Describe the global impact on supply chain management",
+        "section": "A"
+      },
+      "interaction_description": "Political and economic events that impact supply chain management. and the global impact on supply chain management have a bidirectional relationship across their domains: decisions in political and economic events that impact supply chain management. directly influence how the global impact on supply chain management is configured and managed, while feedback from the global impact on supply chain management operations informs adjustments to political and economic events that impact supply chain management. strategy.",
+      "explanation": "The cross-section relationship between political and economic events that impact supply chain management. (Section J) and the global impact on supply chain management (Section A) illustrates how supply chain concepts rarely exist in isolation. Political and economic events that impact supply chain management. provides strategic direction that shapes the global impact on supply chain management decisions, while the global impact on supply chain management generates operational data and constraints that feed back into political and economic events that impact supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        },
+        {
+          "url": "https://www.foley.com/insights/publications/2025/09/political-instability-supply-chain-risks-us-trade-disruption/",
+          "title": "The Effects of Government Change and Political Instability on Supply Chain Management",
+          "site": "Foley & Lardner LLP"
+        },
+        {
+          "url": "https://flow.space/blog/globalization-supply-chain/",
+          "title": "How Globalization Impacts Supply Chain Management in 2025",
+          "site": "Flowspace"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Political and economic events that impact supply chain management. and the global impact on supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Political and economic events that impact supply chain management. completely subsumes the global impact on supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between political and economic events that impact supply chain management. and the global impact on supply chain management is purely one-directional, with no feedback mechanism from the global impact on supply chain management back to political and economic events that impact supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "J.5<>A.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.5",
+        "label": "Describe political and economic events that impact supply chain management.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "A.5",
+        "label": "Describe how E-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading",
+        "section": "A"
+      },
+      "interaction_description": "Political and economic events that impact supply chain management. and e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading have a bidirectional relationship across their domains: decisions in political and economic events that impact supply chain management. directly influence how e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading is configured and managed, while feedback from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading operations informs adjustments to political and economic events that impact supply chain management. strategy.",
+      "explanation": "The cross-section relationship between political and economic events that impact supply chain management. (Section J) and e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading (Section A) illustrates how supply chain concepts rarely exist in isolation. Political and economic events that impact supply chain management. provides strategic direction that shapes e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading decisions, while e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading generates operational data and constraints that feed back into political and economic events that impact supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.spglobal.com/en/research-insights/special-reports/look-forward/supply-chain-politics-national-security-meets-economic-growth",
+          "title": "Supply chain politics: National security meets economic growth",
+          "site": "S&P Global"
+        },
+        {
+          "url": "https://www.foley.com/insights/publications/2025/09/political-instability-supply-chain-risks-us-trade-disruption/",
+          "title": "The Effects of Government Change and Political Instability on Supply Chain Management",
+          "site": "Foley & Lardner LLP"
+        },
+        {
+          "url": "https://owd.com/tariffs/",
+          "title": "Understanding Tariffs for Logistics & Ecommerce",
+          "site": "OWD"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Political and economic events that impact supply chain management. and e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Political and economic events that impact supply chain management. completely subsumes e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between political and economic events that impact supply chain management. and e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading is purely one-directional, with no feedback mechanism from e-commerce, logistics, import taxes, risk, tariffs, customs, and other legal aspects impact global trading back to political and economic events that impact supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "J.4<>G.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.4",
+        "label": "Explain how e-commerce has impacted channels of distribution.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "G.5",
+        "label": "Explain how proximity to the customer relates to supply chain efficiency",
+        "section": "G"
+      },
+      "interaction_description": "E-commerce has impacted channels of distribution. and proximity to the customer relates to supply chain efficiency have a bidirectional relationship across their domains: decisions in e-commerce has impacted channels of distribution. directly influence how proximity to the customer relates to supply chain efficiency is configured and managed, while feedback from proximity to the customer relates to supply chain efficiency operations informs adjustments to e-commerce has impacted channels of distribution. strategy.",
+      "explanation": "The cross-section relationship between e-commerce has impacted channels of distribution. (Section J) and proximity to the customer relates to supply chain efficiency (Section G) illustrates how supply chain concepts rarely exist in isolation. E-commerce has impacted channels of distribution. provides strategic direction that shapes proximity to the customer relates to supply chain efficiency decisions, while proximity to the customer relates to supply chain efficiency generates operational data and constraints that feed back into e-commerce has impacted channels of distribution. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laceupsolutions.com/impact-of-e-commerce-on-distribution-reshaping-networks-business-models/",
+          "title": "E-commerce on Distribution: Reshaping Networks and Business Models",
+          "site": "Lace Up Solutions"
+        },
+        {
+          "url": "https://www.bringoz.com/how-ecommerce-is-transforming-retail-distribution-channels/",
+          "title": "eCommerce & Retail Distribution Transformation",
+          "site": "Bringoz"
+        },
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "E-commerce has impacted channels of distribution. and proximity to the customer relates to supply chain efficiency operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "E-commerce has impacted channels of distribution. completely subsumes proximity to the customer relates to supply chain efficiency, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between e-commerce has impacted channels of distribution. and proximity to the customer relates to supply chain efficiency is purely one-directional, with no feedback mechanism from proximity to the customer relates to supply chain efficiency back to e-commerce has impacted channels of distribution.."
+        ]
+      }
+    },
+    {
+      "id": "J.6<>A.4_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.6",
+        "label": "Explain how competition impact supply chain management decisions.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "A.4",
+        "label": "Explain how logistics impacts supply chain management",
+        "section": "A"
+      },
+      "interaction_description": "Competition impact supply chain management decisions. and logistics impacts supply chain management have a bidirectional relationship across their domains: decisions in competition impact supply chain management decisions. directly influence how logistics impacts supply chain management is configured and managed, while feedback from logistics impacts supply chain management operations informs adjustments to competition impact supply chain management decisions. strategy.",
+      "explanation": "The cross-section relationship between competition impact supply chain management decisions. (Section J) and logistics impacts supply chain management (Section A) illustrates how supply chain concepts rarely exist in isolation. Competition impact supply chain management decisions. provides strategic direction that shapes logistics impacts supply chain management decisions, while logistics impacts supply chain management generates operational data and constraints that feed back into competition impact supply chain management decisions. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/logistics-fundamental-to-supply-chain-success/",
+          "title": "Why Logistics Is Fundamental to Supply Chain Success",
+          "site": "Michigan State University Online"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Competition impact supply chain management decisions. and logistics impacts supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Competition impact supply chain management decisions. completely subsumes logistics impacts supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between competition impact supply chain management decisions. and logistics impacts supply chain management is purely one-directional, with no feedback mechanism from logistics impacts supply chain management back to competition impact supply chain management decisions.."
+        ]
+      }
+    },
+    {
+      "id": "J.6<>D.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.6",
+        "label": "Explain how competition impact supply chain management decisions.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "D.2",
+        "label": "Explain how a company will provide value to supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Competition impact supply chain management decisions. and a company will provide value to supply chain management. have a bidirectional relationship across their domains: decisions in competition impact supply chain management decisions. directly influence how a company will provide value to supply chain management. is configured and managed, while feedback from a company will provide value to supply chain management. operations informs adjustments to competition impact supply chain management decisions. strategy.",
+      "explanation": "The cross-section relationship between competition impact supply chain management decisions. (Section J) and a company will provide value to supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Competition impact supply chain management decisions. provides strategic direction that shapes a company will provide value to supply chain management. decisions, while a company will provide value to supply chain management. generates operational data and constraints that feed back into competition impact supply chain management decisions. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305048304001343",
+          "title": "The impact of supply chain management practices on competitive advantage and organizational performance",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://www.michiganstateuniversityonline.com/resources/supply-chain/gain-a-competitive-advantage-with-your-supply-chain/",
+          "title": "How to Use Your Supply Chain to Gain Competitive Advantage",
+          "site": "Michigan State University Online"
+        },
+        {
+          "url": "https://www.informit.com/articles/article.aspx?p=2166717&seqNum=6",
+          "title": "Value Proposition | Defining the Supply Chain",
+          "site": "InformIT"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Competition impact supply chain management decisions. and a company will provide value to supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Competition impact supply chain management decisions. completely subsumes a company will provide value to supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between competition impact supply chain management decisions. and a company will provide value to supply chain management. is purely one-directional, with no feedback mechanism from a company will provide value to supply chain management. back to competition impact supply chain management decisions.."
+        ]
+      }
+    },
+    {
+      "id": "J.1<>A.14_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "A.14",
+        "label": "Explain the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management)",
+        "section": "A"
+      },
+      "interaction_description": "The impact of information technology in supply chain management. and the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) have a bidirectional relationship across their domains: decisions in the impact of information technology in supply chain management. directly influence how the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) is configured and managed, while feedback from the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) operations informs adjustments to the impact of information technology in supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the impact of information technology in supply chain management. (Section J) and the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) (Section A) illustrates how supply chain concepts rarely exist in isolation. The impact of information technology in supply chain management. provides strategic direction that shapes the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) decisions, while the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) generates operational data and constraints that feed back into the impact of information technology in supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://transportgeography.org/contents/chapter7/logistics-freight-distribution/evolution-supply-chain-management/",
+          "title": "The Evolution of Supply Chain Management",
+          "site": "The Geography of Transport Systems"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The impact of information technology in supply chain management. and the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The impact of information technology in supply chain management. completely subsumes the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management), making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the impact of information technology in supply chain management. and the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) is purely one-directional, with no feedback mechanism from the reasons for growth of supply chain management (information revolution, increased competition in globalized markets, relationship management) back to the impact of information technology in supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "J.1<>C.10_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "C.10",
+        "label": "Describe the importance of Excel knowledge for supply chain management.",
+        "section": "C"
+      },
+      "interaction_description": "The impact of information technology in supply chain management. and the importance of excel knowledge for supply chain management. have a bidirectional relationship across their domains: decisions in the impact of information technology in supply chain management. directly influence how the importance of excel knowledge for supply chain management. is configured and managed, while feedback from the importance of excel knowledge for supply chain management. operations informs adjustments to the impact of information technology in supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the impact of information technology in supply chain management. (Section J) and the importance of excel knowledge for supply chain management. (Section C) illustrates how supply chain concepts rarely exist in isolation. The impact of information technology in supply chain management. provides strategic direction that shapes the importance of excel knowledge for supply chain management. decisions, while the importance of excel knowledge for supply chain management. generates operational data and constraints that feed back into the impact of information technology in supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://abcsupplychain.com/efficient-with-excel-supply-chain/",
+          "title": "Essential Excel Skills For Supply Chain Management",
+          "site": "AbcSupplyChain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The impact of information technology in supply chain management. and the importance of excel knowledge for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The impact of information technology in supply chain management. completely subsumes the importance of excel knowledge for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the impact of information technology in supply chain management. and the importance of excel knowledge for supply chain management. is purely one-directional, with no feedback mechanism from the importance of excel knowledge for supply chain management. back to the impact of information technology in supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "J.1<>K.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "J.1",
+        "label": "Describe the impact of information technology in supply chain management.",
+        "section": "J"
+      },
+      "target_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies",
+        "section": "K"
+      },
+      "interaction_description": "The impact of information technology in supply chain management. and supply chain management creates efficiencies have a bidirectional relationship across their domains: decisions in the impact of information technology in supply chain management. directly influence how supply chain management creates efficiencies is configured and managed, while feedback from supply chain management creates efficiencies operations informs adjustments to the impact of information technology in supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the impact of information technology in supply chain management. (Section J) and supply chain management creates efficiencies (Section K) illustrates how supply chain concepts rarely exist in isolation. The impact of information technology in supply chain management. provides strategic direction that shapes supply chain management creates efficiencies decisions, while supply chain management creates efficiencies generates operational data and constraints that feed back into the impact of information technology in supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4419-8939-0_14",
+          "title": "Information Technology and Supply Chain Management",
+          "site": "Springer"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7553126/",
+          "title": "The impact of information technology usage on supply chain resilience and performance",
+          "site": "PMC / National Library of Medicine"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The impact of information technology in supply chain management. and supply chain management creates efficiencies operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The impact of information technology in supply chain management. completely subsumes supply chain management creates efficiencies, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the impact of information technology in supply chain management. and supply chain management creates efficiencies is purely one-directional, with no feedback mechanism from supply chain management creates efficiencies back to the impact of information technology in supply chain management.."
+        ]
+      }
+    }
+  ]
+}

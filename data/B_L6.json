@@ -1,0 +1,2026 @@
+{
+  "section_id": "B",
+  "section_title": "Supply Chain Topics",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "B.1->B.3->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "prerequisite_for",
+          "description": "Analytics provides the data foundation that enables accurate forecasting"
+        },
+        {
+          "type": "prerequisite_for",
+          "description": "Forecasting determines optimal inventory levels and replenishment schedules"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting"
+      },
+      "consequence_description": "When the role of forecasting is disrupted, the prerequisite for connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "The role of forecasting serves as a critical intermediary in this concept chain. The prerequisite for relationship from analytics to the role of forecasting establishes a dependency, and the prerequisite for relationship from the role of forecasting to the logistics of inventory management carries that influence forward. When the role of forecasting is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which analytics influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of forecasting redundant and improving overall efficiency.",
+          "Disrupting the role of forecasting would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of forecasting alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.1->B.9->B.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.9",
+          "label": "Define supply market intelligence"
+        },
+        {
+          "id": "B.7",
+          "label": "Define procurement"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Supply market intelligence relies on analytics to gather and interpret market data"
+        },
+        {
+          "type": "prerequisite_for",
+          "description": "Supply market intelligence informs procurement strategies and supplier selection"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.9",
+        "label": "Define supply market intelligence"
+      },
+      "consequence_description": "When supply market intelligence is disrupted, the prerequisite for connection to procurement breaks down. Procurement loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "Supply market intelligence serves as a critical intermediary in this concept chain. The related to relationship from analytics to supply market intelligence establishes a dependency, and the prerequisite for relationship from supply market intelligence to procurement carries that influence forward. When supply market intelligence is disrupted, the downstream effect on procurement is not merely a loss of one input — it severs the entire pathway through which analytics influences procurement, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://una.com/resources/article/supply-market-intelligence/",
+          "title": "Why Your Procurement Team Needs Supply Market Intelligence",
+          "site": "Una"
+        },
+        {
+          "url": "https://en.tacto.ai/buyer-lexicon/supply-market-intelligence",
+          "title": "Supply market intelligence: definition, methods and benefits in Procurement",
+          "site": "Tacto"
+        },
+        {
+          "url": "https://www.arenasolutions.com/resources/glossary/supply-chain-intelligence/",
+          "title": "Supply Chain Intelligence Definition",
+          "site": "Arena Solutions"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply market intelligence redundant and improving overall efficiency.",
+          "Disrupting supply market intelligence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply market intelligence alone, with no downstream effect on procurement or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.1->B.6->B.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "applies_to",
+          "description": "Analytics is applied to optimize inventory management decisions"
+        },
+        {
+          "type": "related_to",
+          "description": "Forecasting drives inventory replenishment decisions and safety stock calculations"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.6",
+        "label": "Explain the logistics of inventory management"
+      },
+      "consequence_description": "When the logistics of inventory management is disrupted, the related to connection to the role of forecasting breaks down. The role of forecasting loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "The logistics of inventory management serves as a critical intermediary in this concept chain. The applies to relationship from analytics to the logistics of inventory management establishes a dependency, and the related to relationship from the logistics of inventory management to the role of forecasting carries that influence forward. When the logistics of inventory management is disrupted, the downstream effect on the role of forecasting is not merely a loss of one input — it severs the entire pathway through which analytics influences the role of forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html",
+          "title": "Inventory Management - Definition, Importance, Parameters, Process & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the logistics of inventory management redundant and improving overall efficiency.",
+          "Disrupting the logistics of inventory management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the logistics of inventory management alone, with no downstream effect on the role of forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.2->B.8->B.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "CRM demand signals inform sales and operations planning"
+        },
+        {
+          "type": "includes",
+          "description": "Demand forecasting is a critical input to the S&OP demand planning step"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning"
+      },
+      "consequence_description": "When sales and operations planning is disrupted, the includes connection to the role of forecasting breaks down. The role of forecasting loses its foundational input from customer relationship management, degrading overall supply chain performance in this area.",
+      "explanation": "Sales and operations planning serves as a critical intermediary in this concept chain. The related to relationship from customer relationship management to sales and operations planning establishes a dependency, and the includes relationship from sales and operations planning to the role of forecasting carries that influence forward. When sales and operations planning is disrupted, the downstream effect on the role of forecasting is not merely a loss of one input — it severs the entire pathway through which customer relationship management influences the role of forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/",
+          "title": "What Is Sales and Operations Planning (S&OP)?",
+          "site": "Oracle"
+        },
+        {
+          "url": "https://www.ascm.org/topics/sales-and-operations-planning/",
+          "title": "Sales and Operations Planning (S&OP)",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making sales and operations planning redundant and improving overall efficiency.",
+          "Disrupting sales and operations planning would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to sales and operations planning alone, with no downstream effect on the role of forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.2->B.1->B.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Analytics capabilities enhance CRM insights and customer segmentation"
+        },
+        {
+          "type": "prerequisite_for",
+          "description": "Analytics provides the data foundation that enables accurate forecasting"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.1",
+        "label": "Define analytics"
+      },
+      "consequence_description": "When analytics is disrupted, the prerequisite for connection to the role of forecasting breaks down. The role of forecasting loses its foundational input from customer relationship management, degrading overall supply chain performance in this area.",
+      "explanation": "Analytics serves as a critical intermediary in this concept chain. The related to relationship from customer relationship management to analytics establishes a dependency, and the prerequisite for relationship from analytics to the role of forecasting carries that influence forward. When analytics is disrupted, the downstream effect on the role of forecasting is not merely a loss of one input — it severs the entire pathway through which customer relationship management influences the role of forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-analytics",
+          "title": "What Is Supply Chain Analytics?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.techtarget.com/searcherp/definition/supply-chain-analytics",
+          "title": "What is supply chain analytics and why is it important?",
+          "site": "TechTarget"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/why-you-must-invest-in-supply-chain-analytics",
+          "title": "What is Supply Chain Analytics: Definition, Types & Benefits",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making analytics redundant and improving overall efficiency.",
+          "Disrupting analytics would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to analytics alone, with no downstream effect on the role of forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.4->B.11->B.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.4",
+          "label": "Explain the growth of global distribution"
+        },
+        {
+          "id": "B.11",
+          "label": "Explain the relationship between supply chain management and transportation planning"
+        },
+        {
+          "id": "B.10",
+          "label": "Define sustainability for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global distribution depends heavily on transportation planning across international routes"
+        },
+        {
+          "type": "related_to",
+          "description": "Transportation planning must address sustainability through emissions reduction and green logistics"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.11",
+        "label": "Explain the relationship between supply chain management and transportation planning"
+      },
+      "consequence_description": "When the relationship between supply chain management and transportation planning is disrupted, the related to connection to sustainability for supply chain management breaks down. Sustainability for supply chain management loses its foundational input from the growth of global distribution, degrading overall supply chain performance in this area.",
+      "explanation": "The relationship between supply chain management and transportation planning serves as a critical intermediary in this concept chain. The related to relationship from the growth of global distribution to the relationship between supply chain management and transportation planning establishes a dependency, and the related to relationship from the relationship between supply chain management and transportation planning to sustainability for supply chain management carries that influence forward. When the relationship between supply chain management and transportation planning is disrupted, the downstream effect on sustainability for supply chain management is not merely a loss of one input — it severs the entire pathway through which the growth of global distribution influences sustainability for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/",
+          "title": "Managing Transportation and Logistics in Supply Chains",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.prologis.com/insights-news/blog/role-transportation-supply-chain-management",
+          "title": "The Role of Transportation in Supply Chain Management",
+          "site": "Prologis"
+        },
+        {
+          "url": "https://scmedu.org/transportationplanning/",
+          "title": "What is Transportation Planning in logistics?",
+          "site": "SCM EDU"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the relationship between supply chain management and transportation planning redundant and improving overall efficiency.",
+          "Disrupting the relationship between supply chain management and transportation planning would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the relationship between supply chain management and transportation planning alone, with no downstream effect on sustainability for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.4->B.10->B.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.4",
+          "label": "Explain the growth of global distribution"
+        },
+        {
+          "id": "B.10",
+          "label": "Define sustainability for supply chain management"
+        },
+        {
+          "id": "B.7",
+          "label": "Define procurement"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global distribution has significant sustainability implications including carbon emissions"
+        },
+        {
+          "type": "applies_to",
+          "description": "Sustainable procurement practices evaluate suppliers on environmental and social criteria"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.10",
+        "label": "Define sustainability for supply chain management"
+      },
+      "consequence_description": "When sustainability for supply chain management is disrupted, the applies to connection to procurement breaks down. Procurement loses its foundational input from the growth of global distribution, degrading overall supply chain performance in this area.",
+      "explanation": "Sustainability for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from the growth of global distribution to sustainability for supply chain management establishes a dependency, and the applies to relationship from sustainability for supply chain management to procurement carries that influence forward. When sustainability for supply chain management is disrupted, the downstream effect on procurement is not merely a loss of one input — it severs the entire pathway through which the growth of global distribution influences procurement, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/",
+          "title": "What is Sustainable Supply Chain Management? (SSCM)",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Research/State_of_Supply_Chain_Sustainability.aspx",
+          "title": "State of Supply Chain Sustainability",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making sustainability for supply chain management redundant and improving overall efficiency.",
+          "Disrupting sustainability for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to sustainability for supply chain management alone, with no downstream effect on procurement or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.5->B.7->B.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.5",
+          "label": "Explain supply chain management for healthcare industry"
+        },
+        {
+          "id": "B.7",
+          "label": "Define procurement"
+        },
+        {
+          "id": "B.9",
+          "label": "Define supply market intelligence"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Procurement of medical devices and pharmaceuticals is a core healthcare SCM function"
+        },
+        {
+          "type": "related_to",
+          "description": "Supply market intelligence informs procurement decisions with market data and supplier analysis"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.7",
+        "label": "Define procurement"
+      },
+      "consequence_description": "When procurement is disrupted, the related to connection to supply market intelligence breaks down. Supply market intelligence loses its foundational input from supply chain management for healthcare industry, degrading overall supply chain performance in this area.",
+      "explanation": "Procurement serves as a critical intermediary in this concept chain. The includes relationship from supply chain management for healthcare industry to procurement establishes a dependency, and the related to relationship from procurement to supply market intelligence carries that influence forward. When procurement is disrupted, the downstream effect on supply market intelligence is not merely a loss of one input — it severs the entire pathway through which supply chain management for healthcare industry influences supply market intelligence, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/",
+          "title": "Procurement vs Supply Chain Management: What's the Difference?",
+          "site": "Procurify"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making procurement redundant and improving overall efficiency.",
+          "Disrupting procurement would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to procurement alone, with no downstream effect on supply market intelligence or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.8->B.2->B.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        },
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "CRM demand signals and customer insights feed into S&OP demand planning"
+        },
+        {
+          "type": "related_to",
+          "description": "CRM data on customer buying patterns feeds into demand forecasting"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.2",
+        "label": "Explain customer relationship management"
+      },
+      "consequence_description": "When customer relationship management is disrupted, the related to connection to the role of forecasting breaks down. The role of forecasting loses its foundational input from sales and operations planning, degrading overall supply chain performance in this area.",
+      "explanation": "Customer relationship management serves as a critical intermediary in this concept chain. The related to relationship from sales and operations planning to customer relationship management establishes a dependency, and the related to relationship from customer relationship management to the role of forecasting carries that influence forward. When customer relationship management is disrupted, the downstream effect on the role of forecasting is not merely a loss of one input — it severs the entire pathway through which sales and operations planning influences the role of forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Customer_relationship_management",
+          "title": "Customer relationship management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.logisticsbureau.com/crm-and-the-supply-chain/",
+          "title": "CRM in Logistics and Supply Chain Management",
+          "site": "Logistics Bureau"
+        },
+        {
+          "url": "https://www.walkme.com/blog/customer-relationship-management-and-supply-chain-management/",
+          "title": "Customer Relationship Management and Supply Chain Management",
+          "site": "WalkMe"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making customer relationship management redundant and improving overall efficiency.",
+          "Disrupting customer relationship management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to customer relationship management alone, with no downstream effect on the role of forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.10->B.4->B.11_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.10",
+          "label": "Define sustainability for supply chain management"
+        },
+        {
+          "id": "B.4",
+          "label": "Explain the growth of global distribution"
+        },
+        {
+          "id": "B.11",
+          "label": "Explain the relationship between supply chain management and transportation planning"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global distribution networks face increasing pressure to reduce their environmental footprint"
+        },
+        {
+          "type": "related_to",
+          "description": "Global distribution depends heavily on transportation planning across international routes"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.4",
+        "label": "Explain the growth of global distribution"
+      },
+      "consequence_description": "When the growth of global distribution is disrupted, the related to connection to the relationship between supply chain management and transportation planning breaks down. The relationship between supply chain management and transportation planning loses its foundational input from sustainability for supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The growth of global distribution serves as a critical intermediary in this concept chain. The related to relationship from sustainability for supply chain management to the growth of global distribution establishes a dependency, and the related to relationship from the growth of global distribution to the relationship between supply chain management and transportation planning carries that influence forward. When the growth of global distribution is disrupted, the downstream effect on the relationship between supply chain management and transportation planning is not merely a loss of one input — it severs the entire pathway through which sustainability for supply chain management influences the relationship between supply chain management and transportation planning, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Global_supply_chain_management",
+          "title": "Global supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://wtcs.pressbooks.pub/globalbusiness/chapter/global-supply-chain-management/",
+          "title": "Global Supply-Chain Management",
+          "site": "Global Business Pressbooks"
+        },
+        {
+          "url": "https://www.prologis.com/global-supply-chain-management",
+          "title": "Global Supply Chain Management",
+          "site": "Prologis"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the growth of global distribution redundant and improving overall efficiency.",
+          "Disrupting the growth of global distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the growth of global distribution alone, with no downstream effect on the relationship between supply chain management and transportation planning or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.1->B.3->B.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        },
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        }
+      ],
+      "links": [
+        {
+          "type": "prerequisite_for",
+          "description": "Analytics provides the data foundation that enables accurate forecasting"
+        },
+        {
+          "type": "part_of",
+          "description": "Forecasting is a key input to the demand planning phase of S&OP"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting"
+      },
+      "consequence_description": "When the role of forecasting is disrupted, the part of connection to sales and operations planning breaks down. Sales and operations planning loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "The role of forecasting serves as a critical intermediary in this concept chain. The prerequisite for relationship from analytics to the role of forecasting establishes a dependency, and the part of relationship from the role of forecasting to sales and operations planning carries that influence forward. When the role of forecasting is disrupted, the downstream effect on sales and operations planning is not merely a loss of one input — it severs the entire pathway through which analytics influences sales and operations planning, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of forecasting redundant and improving overall efficiency.",
+          "Disrupting the role of forecasting would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of forecasting alone, with no downstream effect on sales and operations planning or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.1->B.9->B.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.9",
+          "label": "Define supply market intelligence"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Supply market intelligence relies on analytics to gather and interpret market data"
+        },
+        {
+          "type": "related_to",
+          "description": "Market intelligence data supports supply-side forecasting and trend analysis"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.9",
+        "label": "Define supply market intelligence"
+      },
+      "consequence_description": "When supply market intelligence is disrupted, the related to connection to the role of forecasting breaks down. The role of forecasting loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "Supply market intelligence serves as a critical intermediary in this concept chain. The related to relationship from analytics to supply market intelligence establishes a dependency, and the related to relationship from supply market intelligence to the role of forecasting carries that influence forward. When supply market intelligence is disrupted, the downstream effect on the role of forecasting is not merely a loss of one input — it severs the entire pathway through which analytics influences the role of forecasting, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://una.com/resources/article/supply-market-intelligence/",
+          "title": "Why Your Procurement Team Needs Supply Market Intelligence",
+          "site": "Una"
+        },
+        {
+          "url": "https://en.tacto.ai/buyer-lexicon/supply-market-intelligence",
+          "title": "Supply market intelligence: definition, methods and benefits in Procurement",
+          "site": "Tacto"
+        },
+        {
+          "url": "https://www.arenasolutions.com/resources/glossary/supply-chain-intelligence/",
+          "title": "Supply Chain Intelligence Definition",
+          "site": "Arena Solutions"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply market intelligence redundant and improving overall efficiency.",
+          "Disrupting supply market intelligence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply market intelligence alone, with no downstream effect on the role of forecasting or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.1->B.6->B.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        },
+        {
+          "id": "B.7",
+          "label": "Define procurement"
+        }
+      ],
+      "links": [
+        {
+          "type": "applies_to",
+          "description": "Analytics is applied to optimize inventory management decisions"
+        },
+        {
+          "type": "related_to",
+          "description": "Procurement activities trigger inventory inflows based on inventory management policies"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.6",
+        "label": "Explain the logistics of inventory management"
+      },
+      "consequence_description": "When the logistics of inventory management is disrupted, the related to connection to procurement breaks down. Procurement loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "The logistics of inventory management serves as a critical intermediary in this concept chain. The applies to relationship from analytics to the logistics of inventory management establishes a dependency, and the related to relationship from the logistics of inventory management to procurement carries that influence forward. When the logistics of inventory management is disrupted, the downstream effect on procurement is not merely a loss of one input — it severs the entire pathway through which analytics influences procurement, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html",
+          "title": "Inventory Management - Definition, Importance, Parameters, Process & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the logistics of inventory management redundant and improving overall efficiency.",
+          "Disrupting the logistics of inventory management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the logistics of inventory management alone, with no downstream effect on procurement or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.2->B.8->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "CRM demand signals inform sales and operations planning"
+        },
+        {
+          "type": "includes",
+          "description": "Inventory planning is part of the supply planning phase of S&OP"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning"
+      },
+      "consequence_description": "When sales and operations planning is disrupted, the includes connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from customer relationship management, degrading overall supply chain performance in this area.",
+      "explanation": "Sales and operations planning serves as a critical intermediary in this concept chain. The related to relationship from customer relationship management to sales and operations planning establishes a dependency, and the includes relationship from sales and operations planning to the logistics of inventory management carries that influence forward. When sales and operations planning is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which customer relationship management influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/",
+          "title": "What Is Sales and Operations Planning (S&OP)?",
+          "site": "Oracle"
+        },
+        {
+          "url": "https://www.ascm.org/topics/sales-and-operations-planning/",
+          "title": "Sales and Operations Planning (S&OP)",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making sales and operations planning redundant and improving overall efficiency.",
+          "Disrupting sales and operations planning would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to sales and operations planning alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.2->B.1->B.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.9",
+          "label": "Define supply market intelligence"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Analytics capabilities enhance CRM insights and customer segmentation"
+        },
+        {
+          "type": "related_to",
+          "description": "Supply market intelligence relies on analytics to gather and interpret market data"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.1",
+        "label": "Define analytics"
+      },
+      "consequence_description": "When analytics is disrupted, the related to connection to supply market intelligence breaks down. Supply market intelligence loses its foundational input from customer relationship management, degrading overall supply chain performance in this area.",
+      "explanation": "Analytics serves as a critical intermediary in this concept chain. The related to relationship from customer relationship management to analytics establishes a dependency, and the related to relationship from analytics to supply market intelligence carries that influence forward. When analytics is disrupted, the downstream effect on supply market intelligence is not merely a loss of one input — it severs the entire pathway through which customer relationship management influences supply market intelligence, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-analytics",
+          "title": "What Is Supply Chain Analytics?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.techtarget.com/searcherp/definition/supply-chain-analytics",
+          "title": "What is supply chain analytics and why is it important?",
+          "site": "TechTarget"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/why-you-must-invest-in-supply-chain-analytics",
+          "title": "What is Supply Chain Analytics: Definition, Types & Benefits",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making analytics redundant and improving overall efficiency.",
+          "Disrupting analytics would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to analytics alone, with no downstream effect on supply market intelligence or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.4->B.11->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.4",
+          "label": "Explain the growth of global distribution"
+        },
+        {
+          "id": "B.11",
+          "label": "Explain the relationship between supply chain management and transportation planning"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global distribution depends heavily on transportation planning across international routes"
+        },
+        {
+          "type": "related_to",
+          "description": "Transportation planning coordinates with inventory management for timely replenishment"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.11",
+        "label": "Explain the relationship between supply chain management and transportation planning"
+      },
+      "consequence_description": "When the relationship between supply chain management and transportation planning is disrupted, the related to connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from the growth of global distribution, degrading overall supply chain performance in this area.",
+      "explanation": "The relationship between supply chain management and transportation planning serves as a critical intermediary in this concept chain. The related to relationship from the growth of global distribution to the relationship between supply chain management and transportation planning establishes a dependency, and the related to relationship from the relationship between supply chain management and transportation planning to the logistics of inventory management carries that influence forward. When the relationship between supply chain management and transportation planning is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which the growth of global distribution influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/",
+          "title": "Managing Transportation and Logistics in Supply Chains",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.prologis.com/insights-news/blog/role-transportation-supply-chain-management",
+          "title": "The Role of Transportation in Supply Chain Management",
+          "site": "Prologis"
+        },
+        {
+          "url": "https://scmedu.org/transportationplanning/",
+          "title": "What is Transportation Planning in logistics?",
+          "site": "SCM EDU"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the relationship between supply chain management and transportation planning redundant and improving overall efficiency.",
+          "Disrupting the relationship between supply chain management and transportation planning would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the relationship between supply chain management and transportation planning alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.4->B.10->B.11_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.4",
+          "label": "Explain the growth of global distribution"
+        },
+        {
+          "id": "B.10",
+          "label": "Define sustainability for supply chain management"
+        },
+        {
+          "id": "B.11",
+          "label": "Explain the relationship between supply chain management and transportation planning"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global distribution has significant sustainability implications including carbon emissions"
+        },
+        {
+          "type": "related_to",
+          "description": "Transportation planning must consider emissions reduction and green logistics"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.10",
+        "label": "Define sustainability for supply chain management"
+      },
+      "consequence_description": "When sustainability for supply chain management is disrupted, the related to connection to the relationship between supply chain management and transportation planning breaks down. The relationship between supply chain management and transportation planning loses its foundational input from the growth of global distribution, degrading overall supply chain performance in this area.",
+      "explanation": "Sustainability for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from the growth of global distribution to sustainability for supply chain management establishes a dependency, and the related to relationship from sustainability for supply chain management to the relationship between supply chain management and transportation planning carries that influence forward. When sustainability for supply chain management is disrupted, the downstream effect on the relationship between supply chain management and transportation planning is not merely a loss of one input — it severs the entire pathway through which the growth of global distribution influences the relationship between supply chain management and transportation planning, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/",
+          "title": "What is Sustainable Supply Chain Management? (SSCM)",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Research/State_of_Supply_Chain_Sustainability.aspx",
+          "title": "State of Supply Chain Sustainability",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making sustainability for supply chain management redundant and improving overall efficiency.",
+          "Disrupting sustainability for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to sustainability for supply chain management alone, with no downstream effect on the relationship between supply chain management and transportation planning or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.5->B.7->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.5",
+          "label": "Explain supply chain management for healthcare industry"
+        },
+        {
+          "id": "B.7",
+          "label": "Define procurement"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "includes",
+          "description": "Procurement of medical devices and pharmaceuticals is a core healthcare SCM function"
+        },
+        {
+          "type": "related_to",
+          "description": "Procurement triggers inventory replenishment and manages supplier lead times"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.7",
+        "label": "Define procurement"
+      },
+      "consequence_description": "When procurement is disrupted, the related to connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from supply chain management for healthcare industry, degrading overall supply chain performance in this area.",
+      "explanation": "Procurement serves as a critical intermediary in this concept chain. The includes relationship from supply chain management for healthcare industry to procurement establishes a dependency, and the related to relationship from procurement to the logistics of inventory management carries that influence forward. When procurement is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which supply chain management for healthcare industry influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/",
+          "title": "Procurement vs Supply Chain Management: What's the Difference?",
+          "site": "Procurify"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making procurement redundant and improving overall efficiency.",
+          "Disrupting procurement would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to procurement alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.8->B.2->B.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        },
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "CRM demand signals and customer insights feed into S&OP demand planning"
+        },
+        {
+          "type": "related_to",
+          "description": "Analytics capabilities enhance CRM insights and customer segmentation"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.2",
+        "label": "Explain customer relationship management"
+      },
+      "consequence_description": "When customer relationship management is disrupted, the related to connection to analytics breaks down. Analytics loses its foundational input from sales and operations planning, degrading overall supply chain performance in this area.",
+      "explanation": "Customer relationship management serves as a critical intermediary in this concept chain. The related to relationship from sales and operations planning to customer relationship management establishes a dependency, and the related to relationship from customer relationship management to analytics carries that influence forward. When customer relationship management is disrupted, the downstream effect on analytics is not merely a loss of one input — it severs the entire pathway through which sales and operations planning influences analytics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Customer_relationship_management",
+          "title": "Customer relationship management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.logisticsbureau.com/crm-and-the-supply-chain/",
+          "title": "CRM in Logistics and Supply Chain Management",
+          "site": "Logistics Bureau"
+        },
+        {
+          "url": "https://www.walkme.com/blog/customer-relationship-management-and-supply-chain-management/",
+          "title": "Customer Relationship Management and Supply Chain Management",
+          "site": "WalkMe"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making customer relationship management redundant and improving overall efficiency.",
+          "Disrupting customer relationship management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to customer relationship management alone, with no downstream effect on analytics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.10->B.4->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.10",
+          "label": "Define sustainability for supply chain management"
+        },
+        {
+          "id": "B.4",
+          "label": "Explain the growth of global distribution"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Global distribution networks face increasing pressure to reduce their environmental footprint"
+        },
+        {
+          "type": "related_to",
+          "description": "Global distribution requires sophisticated inventory management across multiple locations"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.4",
+        "label": "Explain the growth of global distribution"
+      },
+      "consequence_description": "When the growth of global distribution is disrupted, the related to connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from sustainability for supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The growth of global distribution serves as a critical intermediary in this concept chain. The related to relationship from sustainability for supply chain management to the growth of global distribution establishes a dependency, and the related to relationship from the growth of global distribution to the logistics of inventory management carries that influence forward. When the growth of global distribution is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which sustainability for supply chain management influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Global_supply_chain_management",
+          "title": "Global supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://wtcs.pressbooks.pub/globalbusiness/chapter/global-supply-chain-management/",
+          "title": "Global Supply-Chain Management",
+          "site": "Global Business Pressbooks"
+        },
+        {
+          "url": "https://www.prologis.com/global-supply-chain-management",
+          "title": "Global Supply Chain Management",
+          "site": "Prologis"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the growth of global distribution redundant and improving overall efficiency.",
+          "Disrupting the growth of global distribution would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the growth of global distribution alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.2->B.3->B.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        },
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "CRM data on customer buying patterns feeds into demand forecasting"
+        },
+        {
+          "type": "related_to",
+          "description": "Analytics tools and techniques power forecasting models"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting"
+      },
+      "consequence_description": "When the role of forecasting is disrupted, the related to connection to analytics breaks down. Analytics loses its foundational input from customer relationship management, degrading overall supply chain performance in this area.",
+      "explanation": "The role of forecasting serves as a critical intermediary in this concept chain. The related to relationship from customer relationship management to the role of forecasting establishes a dependency, and the related to relationship from the role of forecasting to analytics carries that influence forward. When the role of forecasting is disrupted, the downstream effect on analytics is not merely a loss of one input — it severs the entire pathway through which customer relationship management influences analytics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of forecasting redundant and improving overall efficiency.",
+          "Disrupting the role of forecasting would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of forecasting alone, with no downstream effect on analytics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.7->B.9->B.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.7",
+          "label": "Define procurement"
+        },
+        {
+          "id": "B.9",
+          "label": "Define supply market intelligence"
+        },
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Supply market intelligence informs procurement decisions with market data and supplier analysis"
+        },
+        {
+          "type": "related_to",
+          "description": "Analytics capabilities enable the data processing behind supply market intelligence"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.9",
+        "label": "Define supply market intelligence"
+      },
+      "consequence_description": "When supply market intelligence is disrupted, the related to connection to analytics breaks down. Analytics loses its foundational input from procurement, degrading overall supply chain performance in this area.",
+      "explanation": "Supply market intelligence serves as a critical intermediary in this concept chain. The related to relationship from procurement to supply market intelligence establishes a dependency, and the related to relationship from supply market intelligence to analytics carries that influence forward. When supply market intelligence is disrupted, the downstream effect on analytics is not merely a loss of one input — it severs the entire pathway through which procurement influences analytics, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://una.com/resources/article/supply-market-intelligence/",
+          "title": "Why Your Procurement Team Needs Supply Market Intelligence",
+          "site": "Una"
+        },
+        {
+          "url": "https://en.tacto.ai/buyer-lexicon/supply-market-intelligence",
+          "title": "Supply market intelligence: definition, methods and benefits in Procurement",
+          "site": "Tacto"
+        },
+        {
+          "url": "https://www.arenasolutions.com/resources/glossary/supply-chain-intelligence/",
+          "title": "Supply Chain Intelligence Definition",
+          "site": "Arena Solutions"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply market intelligence redundant and improving overall efficiency.",
+          "Disrupting supply market intelligence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply market intelligence alone, with no downstream effect on analytics or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.1->B.6->B.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        },
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        }
+      ],
+      "links": [
+        {
+          "type": "applies_to",
+          "description": "Analytics is applied to optimize inventory management decisions"
+        },
+        {
+          "type": "part_of",
+          "description": "Inventory planning is a component of the supply planning phase in S&OP"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.6",
+        "label": "Explain the logistics of inventory management"
+      },
+      "consequence_description": "When the logistics of inventory management is disrupted, the part of connection to sales and operations planning breaks down. Sales and operations planning loses its foundational input from analytics, degrading overall supply chain performance in this area.",
+      "explanation": "The logistics of inventory management serves as a critical intermediary in this concept chain. The applies to relationship from analytics to the logistics of inventory management establishes a dependency, and the part of relationship from the logistics of inventory management to sales and operations planning carries that influence forward. When the logistics of inventory management is disrupted, the downstream effect on sales and operations planning is not merely a loss of one input — it severs the entire pathway through which analytics influences sales and operations planning, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html",
+          "title": "Inventory Management - Definition, Importance, Parameters, Process & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the logistics of inventory management redundant and improving overall efficiency.",
+          "Disrupting the logistics of inventory management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the logistics of inventory management alone, with no downstream effect on sales and operations planning or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.3->B.8->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.3",
+          "label": "Describe the role of forecasting"
+        },
+        {
+          "id": "B.8",
+          "label": "Describe sales and operations planning"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "part_of",
+          "description": "Forecasting is a key input to the demand planning phase of S&OP"
+        },
+        {
+          "type": "includes",
+          "description": "Inventory planning is part of the supply planning phase of S&OP"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning"
+      },
+      "consequence_description": "When sales and operations planning is disrupted, the includes connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from the role of forecasting, degrading overall supply chain performance in this area.",
+      "explanation": "Sales and operations planning serves as a critical intermediary in this concept chain. The part of relationship from the role of forecasting to sales and operations planning establishes a dependency, and the includes relationship from sales and operations planning to the logistics of inventory management carries that influence forward. When sales and operations planning is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which the role of forecasting influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/",
+          "title": "What Is Sales and Operations Planning (S&OP)?",
+          "site": "Oracle"
+        },
+        {
+          "url": "https://www.ascm.org/topics/sales-and-operations-planning/",
+          "title": "Sales and Operations Planning (S&OP)",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making sales and operations planning redundant and improving overall efficiency.",
+          "Disrupting sales and operations planning would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to sales and operations planning alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.2->B.1->B.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "B.2",
+          "label": "Explain customer relationship management"
+        },
+        {
+          "id": "B.1",
+          "label": "Define analytics"
+        },
+        {
+          "id": "B.6",
+          "label": "Explain the logistics of inventory management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Analytics capabilities enhance CRM insights and customer segmentation"
+        },
+        {
+          "type": "applies_to",
+          "description": "Analytics is applied to optimize inventory management decisions"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "B.1",
+        "label": "Define analytics"
+      },
+      "consequence_description": "When analytics is disrupted, the applies to connection to the logistics of inventory management breaks down. The logistics of inventory management loses its foundational input from customer relationship management, degrading overall supply chain performance in this area.",
+      "explanation": "Analytics serves as a critical intermediary in this concept chain. The related to relationship from customer relationship management to analytics establishes a dependency, and the applies to relationship from analytics to the logistics of inventory management carries that influence forward. When analytics is disrupted, the downstream effect on the logistics of inventory management is not merely a loss of one input — it severs the entire pathway through which customer relationship management influences the logistics of inventory management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-analytics",
+          "title": "What Is Supply Chain Analytics?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.techtarget.com/searcherp/definition/supply-chain-analytics",
+          "title": "What is supply chain analytics and why is it important?",
+          "site": "TechTarget"
+        },
+        {
+          "url": "https://www.gep.com/blog/technology/why-you-must-invest-in-supply-chain-analytics",
+          "title": "What is Supply Chain Analytics: Definition, Types & Benefits",
+          "site": "GEP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making analytics redundant and improving overall efficiency.",
+          "Disrupting analytics would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to analytics alone, with no downstream effect on the logistics of inventory management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "B.3<>A.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "interaction_description": "The role of forecasting and demand forecasting have a bidirectional relationship across their domains: decisions in the role of forecasting directly influence how demand forecasting is configured and managed, while feedback from demand forecasting operations informs adjustments to the role of forecasting strategy.",
+      "explanation": "The cross-section relationship between the role of forecasting (Section B) and demand forecasting (Section A) illustrates how supply chain concepts rarely exist in isolation. The role of forecasting provides strategic direction that shapes demand forecasting decisions, while demand forecasting generates operational data and constraints that feed back into the role of forecasting planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The role of forecasting and demand forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The role of forecasting completely subsumes demand forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the role of forecasting and demand forecasting is purely one-directional, with no feedback mechanism from demand forecasting back to the role of forecasting."
+        ]
+      }
+    },
+    {
+      "id": "B.11<>E.3_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.11",
+        "label": "Explain the relationship between supply chain management and transportation planning",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "E.3",
+        "label": "Explain transportation management in a supply chain.",
+        "section": "E"
+      },
+      "interaction_description": "The relationship between supply chain management and transportation planning and transportation management in a supply chain. have a bidirectional relationship across their domains: decisions in the relationship between supply chain management and transportation planning directly influence how transportation management in a supply chain. is configured and managed, while feedback from transportation management in a supply chain. operations informs adjustments to the relationship between supply chain management and transportation planning strategy.",
+      "explanation": "The cross-section relationship between the relationship between supply chain management and transportation planning (Section B) and transportation management in a supply chain. (Section E) illustrates how supply chain concepts rarely exist in isolation. The relationship between supply chain management and transportation planning provides strategic direction that shapes transportation management in a supply chain. decisions, while transportation management in a supply chain. generates operational data and constraints that feed back into the relationship between supply chain management and transportation planning planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://haslam.utk.edu/gsci/news/supply-chain-logistics-management/",
+          "title": "Managing Transportation and Logistics in Supply Chains",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.prologis.com/insights-news/blog/role-transportation-supply-chain-management",
+          "title": "The Role of Transportation in Supply Chain Management",
+          "site": "Prologis"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The relationship between supply chain management and transportation planning and transportation management in a supply chain. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The relationship between supply chain management and transportation planning completely subsumes transportation management in a supply chain., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the relationship between supply chain management and transportation planning and transportation management in a supply chain. is purely one-directional, with no feedback mechanism from transportation management in a supply chain. back to the relationship between supply chain management and transportation planning."
+        ]
+      }
+    },
+    {
+      "id": "B.6<>E.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.6",
+        "label": "Explain the logistics of inventory management",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "interaction_description": "The logistics of inventory management and inventory management's important relationship with supply chain management. have a bidirectional relationship across their domains: decisions in the logistics of inventory management directly influence how inventory management's important relationship with supply chain management. is configured and managed, while feedback from inventory management's important relationship with supply chain management. operations informs adjustments to the logistics of inventory management strategy.",
+      "explanation": "The cross-section relationship between the logistics of inventory management (Section B) and inventory management's important relationship with supply chain management. (Section E) illustrates how supply chain concepts rarely exist in isolation. The logistics of inventory management provides strategic direction that shapes inventory management's important relationship with supply chain management. decisions, while inventory management's important relationship with supply chain management. generates operational data and constraints that feed back into the logistics of inventory management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15282-inventory-management.html",
+          "title": "Inventory Management - Definition, Importance, Parameters, Process & Example",
+          "site": "MBA Skool"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The logistics of inventory management and inventory management's important relationship with supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The logistics of inventory management completely subsumes inventory management's important relationship with supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the logistics of inventory management and inventory management's important relationship with supply chain management. is purely one-directional, with no feedback mechanism from inventory management's important relationship with supply chain management. back to the logistics of inventory management."
+        ]
+      }
+    },
+    {
+      "id": "B.7<>D.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.7",
+        "label": "Define procurement",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Procurement and the relationship between purchasing and supply chain management. have a bidirectional relationship across their domains: decisions in procurement directly influence how the relationship between purchasing and supply chain management. is configured and managed, while feedback from the relationship between purchasing and supply chain management. operations informs adjustments to procurement strategy.",
+      "explanation": "The cross-section relationship between procurement (Section B) and the relationship between purchasing and supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Procurement provides strategic direction that shapes the relationship between purchasing and supply chain management. decisions, while the relationship between purchasing and supply chain management. generates operational data and constraints that feed back into procurement planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/",
+          "title": "Procurement vs Supply Chain Management: What's the Difference?",
+          "site": "Procurify"
+        },
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Procurement and the relationship between purchasing and supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Procurement completely subsumes the relationship between purchasing and supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between procurement and the relationship between purchasing and supply chain management. is purely one-directional, with no feedback mechanism from the relationship between purchasing and supply chain management. back to procurement."
+        ]
+      }
+    },
+    {
+      "id": "B.8<>D.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Sales and operations planning and management of supply and demand for supply chain management. have a bidirectional relationship across their domains: decisions in sales and operations planning directly influence how management of supply and demand for supply chain management. is configured and managed, while feedback from management of supply and demand for supply chain management. operations informs adjustments to sales and operations planning strategy.",
+      "explanation": "The cross-section relationship between sales and operations planning (Section B) and management of supply and demand for supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Sales and operations planning provides strategic direction that shapes management of supply and demand for supply chain management. decisions, while management of supply and demand for supply chain management. generates operational data and constraints that feed back into sales and operations planning planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.oracle.com/scm/supply-chain-planning/sales-operations-planning/s-and-op/",
+          "title": "What Is Sales and Operations Planning (S&OP)?",
+          "site": "Oracle"
+        },
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Sales and operations planning and management of supply and demand for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Sales and operations planning completely subsumes management of supply and demand for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between sales and operations planning and management of supply and demand for supply chain management. is purely one-directional, with no feedback mechanism from management of supply and demand for supply chain management. back to sales and operations planning."
+        ]
+      }
+    },
+    {
+      "id": "B.3<>D.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "The role of forecasting and management of supply and demand for supply chain management. have a bidirectional relationship across their domains: decisions in the role of forecasting directly influence how management of supply and demand for supply chain management. is configured and managed, while feedback from management of supply and demand for supply chain management. operations informs adjustments to the role of forecasting strategy.",
+      "explanation": "The cross-section relationship between the role of forecasting (Section B) and management of supply and demand for supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. The role of forecasting provides strategic direction that shapes management of supply and demand for supply chain management. decisions, while management of supply and demand for supply chain management. generates operational data and constraints that feed back into the role of forecasting planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://haslam.utk.edu/gsci/news/guide-to-demand-forecasting-in-supply-chain/",
+          "title": "A Guide to Demand Forecasting in Supply Chain Management",
+          "site": "University of Tennessee GSCI"
+        },
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The role of forecasting and management of supply and demand for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The role of forecasting completely subsumes management of supply and demand for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the role of forecasting and management of supply and demand for supply chain management. is purely one-directional, with no feedback mechanism from management of supply and demand for supply chain management. back to the role of forecasting."
+        ]
+      }
+    },
+    {
+      "id": "B.7<>G.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.7",
+        "label": "Define procurement",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "G.6",
+        "label": "Describe how product sourcing decisions are made",
+        "section": "G"
+      },
+      "interaction_description": "Procurement and product sourcing decisions are made have a bidirectional relationship across their domains: decisions in procurement directly influence how product sourcing decisions are made is configured and managed, while feedback from product sourcing decisions are made operations informs adjustments to procurement strategy.",
+      "explanation": "The cross-section relationship between procurement (Section B) and product sourcing decisions are made (Section G) illustrates how supply chain concepts rarely exist in isolation. Procurement provides strategic direction that shapes product sourcing decisions are made decisions, while product sourcing decisions are made generates operational data and constraints that feed back into procurement planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.procurify.com/blog/difference-procurement-supply-chain-management/",
+          "title": "Procurement vs Supply Chain Management: What's the Difference?",
+          "site": "Procurify"
+        },
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Procurement and product sourcing decisions are made operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Procurement completely subsumes product sourcing decisions are made, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between procurement and product sourcing decisions are made is purely one-directional, with no feedback mechanism from product sourcing decisions are made back to procurement."
+        ]
+      }
+    },
+    {
+      "id": "B.10<>A.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "B.10",
+        "label": "Define sustainability for supply chain management",
+        "section": "B"
+      },
+      "target_concept": {
+        "id": "A.6",
+        "label": "Analyze the creation of new value in the supply chain for customers, society, and the environment",
+        "section": "A"
+      },
+      "interaction_description": "Sustainability for supply chain management and the creation of new value in the supply chain for customers, society, and the environment have a bidirectional relationship across their domains: decisions in sustainability for supply chain management directly influence how the creation of new value in the supply chain for customers, society, and the environment is configured and managed, while feedback from the creation of new value in the supply chain for customers, society, and the environment operations informs adjustments to sustainability for supply chain management strategy.",
+      "explanation": "The cross-section relationship between sustainability for supply chain management (Section B) and the creation of new value in the supply chain for customers, society, and the environment (Section A) illustrates how supply chain concepts rarely exist in isolation. Sustainability for supply chain management provides strategic direction that shapes the creation of new value in the supply chain for customers, society, and the environment decisions, while the creation of new value in the supply chain for customers, society, and the environment generates operational data and constraints that feed back into sustainability for supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ascm.org/topics/sustainable-supply-chain-management/",
+          "title": "What is Sustainable Supply Chain Management? (SSCM)",
+          "site": "ASCM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Research/State_of_Supply_Chain_Sustainability.aspx",
+          "title": "State of Supply Chain Sustainability",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-sustainability.shtml",
+          "title": "What Is Supply Chain Sustainability and Why Is It Important?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Sustainability for supply chain management and the creation of new value in the supply chain for customers, society, and the environment operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Sustainability for supply chain management completely subsumes the creation of new value in the supply chain for customers, society, and the environment, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between sustainability for supply chain management and the creation of new value in the supply chain for customers, society, and the environment is purely one-directional, with no feedback mechanism from the creation of new value in the supply chain for customers, society, and the environment back to sustainability for supply chain management."
+        ]
+      }
+    }
+  ]
+}

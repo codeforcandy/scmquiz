@@ -1,0 +1,2041 @@
+{
+  "section_id": "G",
+  "section_title": "Improving Supply Chain Network Performance",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "G.1->G.9->G.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        },
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Market signals and consumer demand drive the need for synchronized material flow"
+        },
+        {
+          "type": "related_to",
+          "description": "Understanding market signals enables supply chains to better meet consumer needs"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.9",
+        "label": "Explain how market signal and consumer demand impact supply chain management"
+      },
+      "consequence_description": "When market signal and consumer demand impact supply chain management is disrupted, the related to connection to supply chain management meets consumer needs breaks down. Supply chain management meets consumer needs loses its foundational input from the importance of synchronizing material flow, degrading overall supply chain performance in this area.",
+      "explanation": "Market signal and consumer demand impact supply chain management serves as a critical intermediary in this concept chain. The related to relationship from the importance of synchronizing material flow to market signal and consumer demand impact supply chain management establishes a dependency, and the related to relationship from market signal and consumer demand impact supply chain management to supply chain management meets consumer needs carries that influence forward. When market signal and consumer demand impact supply chain management is disrupted, the downstream effect on supply chain management meets consumer needs is not merely a loss of one input — it severs the entire pathway through which the importance of synchronizing material flow influences supply chain management meets consumer needs, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making market signal and consumer demand impact supply chain management redundant and improving overall efficiency.",
+          "Disrupting market signal and consumer demand impact supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to market signal and consumer demand impact supply chain management alone, with no downstream effect on supply chain management meets consumer needs or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.1->G.2->G.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        },
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        },
+        {
+          "id": "G.3",
+          "label": "Define decoupling points for inventory maximization"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Synchronized material flow supports inventory maximization strategies"
+        },
+        {
+          "type": "related_to",
+          "description": "Decoupling points are a key strategy for achieving inventory maximization"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization"
+      },
+      "consequence_description": "When inventory maximization is disrupted, the related to connection to decoupling points for inventory maximization breaks down. Decoupling points for inventory maximization loses its foundational input from the importance of synchronizing material flow, degrading overall supply chain performance in this area.",
+      "explanation": "Inventory maximization serves as a critical intermediary in this concept chain. The related to relationship from the importance of synchronizing material flow to inventory maximization establishes a dependency, and the related to relationship from inventory maximization to decoupling points for inventory maximization carries that influence forward. When inventory maximization is disrupted, the downstream effect on decoupling points for inventory maximization is not merely a loss of one input — it severs the entire pathway through which the importance of synchronizing material flow influences decoupling points for inventory maximization, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making inventory maximization redundant and improving overall efficiency.",
+          "Disrupting inventory maximization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to inventory maximization alone, with no downstream effect on decoupling points for inventory maximization or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.2->G.3->G.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        },
+        {
+          "id": "G.3",
+          "label": "Define decoupling points for inventory maximization"
+        },
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Decoupling points are a key strategy for achieving inventory maximization"
+        },
+        {
+          "type": "related_to",
+          "description": "Decoupling points help synchronize material flow by buffering variability"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.3",
+        "label": "Define decoupling points for inventory maximization"
+      },
+      "consequence_description": "When decoupling points for inventory maximization is disrupted, the related to connection to the importance of synchronizing material flow breaks down. The importance of synchronizing material flow loses its foundational input from inventory maximization, degrading overall supply chain performance in this area.",
+      "explanation": "Decoupling points for inventory maximization serves as a critical intermediary in this concept chain. The related to relationship from inventory maximization to decoupling points for inventory maximization establishes a dependency, and the related to relationship from decoupling points for inventory maximization to the importance of synchronizing material flow carries that influence forward. When decoupling points for inventory maximization is disrupted, the downstream effect on the importance of synchronizing material flow is not merely a loss of one input — it severs the entire pathway through which inventory maximization influences the importance of synchronizing material flow, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.slimstock.com/blog/decoupling-point/",
+          "title": "Decoupling Point Explained – What It Is and How to Use It",
+          "site": "Slimstock"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/planning-optimization/ddmrp-inventory-positioning",
+          "title": "Inventory positioning - Supply Chain Management",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2024.2314164",
+          "title": "The customer order decoupling point in empirical operations and supply chain management research",
+          "site": "Taylor & Francis"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making decoupling points for inventory maximization redundant and improving overall efficiency.",
+          "Disrupting decoupling points for inventory maximization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to decoupling points for inventory maximization alone, with no downstream effect on the importance of synchronizing material flow or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.2->G.4->G.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        },
+        {
+          "id": "G.4",
+          "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Algorithms are used to compute optimal inventory levels for maximization"
+        },
+        {
+          "type": "related_to",
+          "description": "Algorithms process market signals and demand data to optimize capital deployment"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.4",
+        "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+      },
+      "consequence_description": "When algorithms are used to maximize capital costs associated with supply chain management is disrupted, the related to connection to market signal and consumer demand impact supply chain management breaks down. Market signal and consumer demand impact supply chain management loses its foundational input from inventory maximization, degrading overall supply chain performance in this area.",
+      "explanation": "Algorithms are used to maximize capital costs associated with supply chain management serves as a critical intermediary in this concept chain. The related to relationship from inventory maximization to algorithms are used to maximize capital costs associated with supply chain management establishes a dependency, and the related to relationship from algorithms are used to maximize capital costs associated with supply chain management to market signal and consumer demand impact supply chain management carries that influence forward. When algorithms are used to maximize capital costs associated with supply chain management is disrupted, the downstream effect on market signal and consumer demand impact supply chain management is not merely a loss of one input — it severs the entire pathway through which inventory maximization influences market signal and consumer demand impact supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949863525000548",
+          "title": "A comparative study of multi-algorithm optimization for inventory analytics in supply chains",
+          "site": "ScienceDirect"
+        },
+        {
+          "url": "https://fastercapital.com/content/Supply-chain-optimization--How-to-use-mathematical-models-and-algorithms-to-solve-complex-supply-chain-problems.html",
+          "title": "Supply chain optimization: How to use mathematical models and algorithms",
+          "site": "FasterCapital"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_optimization",
+          "title": "Supply chain optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making algorithms are used to maximize capital costs associated with supply chain management redundant and improving overall efficiency.",
+          "Disrupting algorithms are used to maximize capital costs associated with supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to algorithms are used to maximize capital costs associated with supply chain management alone, with no downstream effect on market signal and consumer demand impact supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.3->G.1->G.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.3",
+          "label": "Define decoupling points for inventory maximization"
+        },
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Decoupling points help synchronize material flow by buffering variability"
+        },
+        {
+          "type": "related_to",
+          "description": "Market signals and consumer demand drive the need for synchronized material flow"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.1",
+        "label": "Explain the importance of synchronizing material flow"
+      },
+      "consequence_description": "When the importance of synchronizing material flow is disrupted, the related to connection to market signal and consumer demand impact supply chain management breaks down. Market signal and consumer demand impact supply chain management loses its foundational input from decoupling points for inventory maximization, degrading overall supply chain performance in this area.",
+      "explanation": "The importance of synchronizing material flow serves as a critical intermediary in this concept chain. The related to relationship from decoupling points for inventory maximization to the importance of synchronizing material flow establishes a dependency, and the related to relationship from the importance of synchronizing material flow to market signal and consumer demand impact supply chain management carries that influence forward. When the importance of synchronizing material flow is disrupted, the downstream effect on market signal and consumer demand impact supply chain management is not merely a loss of one input — it severs the entire pathway through which decoupling points for inventory maximization influences market signal and consumer demand impact supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of synchronizing material flow redundant and improving overall efficiency.",
+          "Disrupting the importance of synchronizing material flow would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of synchronizing material flow alone, with no downstream effect on market signal and consumer demand impact supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.5->G.11->G.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.5",
+          "label": "Explain how proximity to the customer relates to supply chain efficiency"
+        },
+        {
+          "id": "G.11",
+          "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments"
+        },
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Proximity strategies must be tailored to the logistics needs of different customer segments"
+        },
+        {
+          "type": "related_to",
+          "description": "Segmented logistics strategies are a key method for improving how customer needs are met"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.11",
+        "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments"
+      },
+      "consequence_description": "When supply chain management meets and improves the logistic needs of different customer segments is disrupted, the related to connection to to meet and improve customer needs for supply chain management breaks down. To meet and improve customer needs for supply chain management loses its foundational input from proximity to the customer relates to supply chain efficiency, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management meets and improves the logistic needs of different customer segments serves as a critical intermediary in this concept chain. The related to relationship from proximity to the customer relates to supply chain efficiency to supply chain management meets and improves the logistic needs of different customer segments establishes a dependency, and the related to relationship from supply chain management meets and improves the logistic needs of different customer segments to to meet and improve customer needs for supply chain management carries that influence forward. When supply chain management meets and improves the logistic needs of different customer segments is disrupted, the downstream effect on to meet and improve customer needs for supply chain management is not merely a loss of one input — it severs the entire pathway through which proximity to the customer relates to supply chain efficiency influences to meet and improve customer needs for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://throughput.world/blog/customer-segmentation-in-supply-chain/",
+          "title": "Customer Segmentation: A Smarter Supply Chain Strategy",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://www.bcg.com/publications/2015/segmentation-in-the-consumer-supply-chain-one-size-does-not-fit-all",
+          "title": "Segmentation in the Consumer Supply Chain: One Size Does Not Fit All",
+          "site": "BCG"
+        },
+        {
+          "url": "https://supplychainminded.com/supply-chain-segmentation/",
+          "title": "Supply Chain Segmentation",
+          "site": "Supply Chain Minded"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management meets and improves the logistic needs of different customer segments redundant and improving overall efficiency.",
+          "Disrupting supply chain management meets and improves the logistic needs of different customer segments would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management meets and improves the logistic needs of different customer segments alone, with no downstream effect on to meet and improve customer needs for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.5->G.6->G.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.5",
+          "label": "Explain how proximity to the customer relates to supply chain efficiency"
+        },
+        {
+          "id": "G.6",
+          "label": "Describe how product sourcing decisions are made"
+        },
+        {
+          "id": "G.7",
+          "label": "Describe evaluation processes for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Product sourcing decisions influence where inventory is positioned relative to customers"
+        },
+        {
+          "type": "related_to",
+          "description": "Sourcing decisions are evaluated as part of supply chain performance assessment"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.6",
+        "label": "Describe how product sourcing decisions are made"
+      },
+      "consequence_description": "When product sourcing decisions are made is disrupted, the related to connection to evaluation processes for supply chain management breaks down. Evaluation processes for supply chain management loses its foundational input from proximity to the customer relates to supply chain efficiency, degrading overall supply chain performance in this area.",
+      "explanation": "Product sourcing decisions are made serves as a critical intermediary in this concept chain. The related to relationship from proximity to the customer relates to supply chain efficiency to product sourcing decisions are made establishes a dependency, and the related to relationship from product sourcing decisions are made to evaluation processes for supply chain management carries that influence forward. When product sourcing decisions are made is disrupted, the downstream effect on evaluation processes for supply chain management is not merely a loss of one input — it severs the entire pathway through which proximity to the customer relates to supply chain efficiency influences evaluation processes for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        },
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/management/make-or-buy-decision/",
+          "title": "Make-or-Buy Decision - Overview, How It Works, Triggers",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://scmguide.com/factors-to-consider-when-deciding-whether-to-make-or-buy/",
+          "title": "20 Factors to Consider When Deciding Whether to Make or Buy",
+          "site": "SCM Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making product sourcing decisions are made redundant and improving overall efficiency.",
+          "Disrupting product sourcing decisions are made would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to product sourcing decisions are made alone, with no downstream effect on evaluation processes for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.6->G.5->G.11_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.6",
+          "label": "Describe how product sourcing decisions are made"
+        },
+        {
+          "id": "G.5",
+          "label": "Explain how proximity to the customer relates to supply chain efficiency"
+        },
+        {
+          "id": "G.11",
+          "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Sourcing decisions affect supply chain proximity and distribution network design"
+        },
+        {
+          "type": "related_to",
+          "description": "Proximity strategies must be tailored to the logistics needs of different customer segments"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.5",
+        "label": "Explain how proximity to the customer relates to supply chain efficiency"
+      },
+      "consequence_description": "When proximity to the customer relates to supply chain efficiency is disrupted, the related to connection to supply chain management meets and improves the logistic needs of different customer segments breaks down. Supply chain management meets and improves the logistic needs of different customer segments loses its foundational input from product sourcing decisions are made, degrading overall supply chain performance in this area.",
+      "explanation": "Proximity to the customer relates to supply chain efficiency serves as a critical intermediary in this concept chain. The related to relationship from product sourcing decisions are made to proximity to the customer relates to supply chain efficiency establishes a dependency, and the related to relationship from proximity to the customer relates to supply chain efficiency to supply chain management meets and improves the logistic needs of different customer segments carries that influence forward. When proximity to the customer relates to supply chain efficiency is disrupted, the downstream effect on supply chain management meets and improves the logistic needs of different customer segments is not merely a loss of one input — it severs the entire pathway through which product sourcing decisions are made influences supply chain management meets and improves the logistic needs of different customer segments, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        },
+        {
+          "url": "https://eliteextra.com/what-is-last-mile-distribution-definition-strategies-more/",
+          "title": "What is Last-Mile Distribution: Definition, Strategies, & More",
+          "site": "Elite EXTRA"
+        },
+        {
+          "url": "https://envistacorp.com/blog/maximizing-last-mile-success-network-optimization/",
+          "title": "Maximizing Last Mile Success: The Power of Network Optimization",
+          "site": "enVista"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making proximity to the customer relates to supply chain efficiency redundant and improving overall efficiency.",
+          "Disrupting proximity to the customer relates to supply chain efficiency would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to proximity to the customer relates to supply chain efficiency alone, with no downstream effect on supply chain management meets and improves the logistic needs of different customer segments or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.6->G.7->G.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.6",
+          "label": "Describe how product sourcing decisions are made"
+        },
+        {
+          "id": "G.7",
+          "label": "Describe evaluation processes for supply chain management"
+        },
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Sourcing decisions are evaluated as part of supply chain performance assessment"
+        },
+        {
+          "type": "related_to",
+          "description": "Evaluation processes identify areas where customer needs can be better met and improved"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.7",
+        "label": "Describe evaluation processes for supply chain management"
+      },
+      "consequence_description": "When evaluation processes for supply chain management is disrupted, the related to connection to to meet and improve customer needs for supply chain management breaks down. To meet and improve customer needs for supply chain management loses its foundational input from product sourcing decisions are made, degrading overall supply chain performance in this area.",
+      "explanation": "Evaluation processes for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from product sourcing decisions are made to evaluation processes for supply chain management establishes a dependency, and the related to relationship from evaluation processes for supply chain management to to meet and improve customer needs for supply chain management carries that influence forward. When evaluation processes for supply chain management is disrupted, the downstream effect on to meet and improve customer needs for supply chain management is not merely a loss of one input — it severs the entire pathway through which product sourcing decisions are made influences to meet and improve customer needs for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making evaluation processes for supply chain management redundant and improving overall efficiency.",
+          "Disrupting evaluation processes for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to evaluation processes for supply chain management alone, with no downstream effect on to meet and improve customer needs for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.7->G.10->G.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.7",
+          "label": "Describe evaluation processes for supply chain management"
+        },
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        },
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Evaluation processes identify areas where customer needs can be better met and improved"
+        },
+        {
+          "type": "related_to",
+          "description": "Improving customer needs builds on the foundation of meeting current consumer expectations"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.10",
+        "label": "Explain how to meet and improve customer needs for supply chain management"
+      },
+      "consequence_description": "When to meet and improve customer needs for supply chain management is disrupted, the related to connection to supply chain management meets consumer needs breaks down. Supply chain management meets consumer needs loses its foundational input from evaluation processes for supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "To meet and improve customer needs for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from evaluation processes for supply chain management to to meet and improve customer needs for supply chain management establishes a dependency, and the related to relationship from to meet and improve customer needs for supply chain management to supply chain management meets consumer needs carries that influence forward. When to meet and improve customer needs for supply chain management is disrupted, the downstream effect on supply chain management meets consumer needs is not merely a loss of one input — it severs the entire pathway through which evaluation processes for supply chain management influences supply chain management meets consumer needs, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iienstitu.com/en/blog/enhancing-customer-service-in-supply-chains",
+          "title": "Enhancing Customer Service in Supply Chains: Tips & Strategies",
+          "site": "IIENSTITU"
+        },
+        {
+          "url": "https://rxo.com/resources/shipper/continuous-improvement/",
+          "title": "Continuous Improvement: 6 Steps to a Stronger Supply Chain",
+          "site": "RXO"
+        },
+        {
+          "url": "https://supplychainnuggets.com/how-to-improve-customer-satisfaction-through-supply-chain/",
+          "title": "How to Improve Customer Satisfaction Through Supply Chain",
+          "site": "Supply Chain Nuggets"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making to meet and improve customer needs for supply chain management redundant and improving overall efficiency.",
+          "Disrupting to meet and improve customer needs for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to to meet and improve customer needs for supply chain management alone, with no downstream effect on supply chain management meets consumer needs or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.9->G.8->G.10_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        },
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        },
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Understanding market signals enables supply chains to better meet consumer needs"
+        },
+        {
+          "type": "related_to",
+          "description": "Meeting consumer needs is the foundation for improving customer satisfaction over time"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.8",
+        "label": "Define how supply chain management meets consumer needs"
+      },
+      "consequence_description": "When supply chain management meets consumer needs is disrupted, the related to connection to to meet and improve customer needs for supply chain management breaks down. To meet and improve customer needs for supply chain management loses its foundational input from market signal and consumer demand impact supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management meets consumer needs serves as a critical intermediary in this concept chain. The related to relationship from market signal and consumer demand impact supply chain management to supply chain management meets consumer needs establishes a dependency, and the related to relationship from supply chain management meets consumer needs to to meet and improve customer needs for supply chain management carries that influence forward. When supply chain management meets consumer needs is disrupted, the downstream effect on to meet and improve customer needs for supply chain management is not merely a loss of one input — it severs the entire pathway through which market signal and consumer demand impact supply chain management influences to meet and improve customer needs for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        },
+        {
+          "url": "https://www.scmr.com/article/the-rise-of-customer-centric-supply-chains",
+          "title": "The rise of customer-centric supply chains",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.infosysbpm.com/blogs/supply-chain/supply-chain-optimization-for-customer-satisfaction.html",
+          "title": "Optimise Your Supply Chain For Customer Satisfaction",
+          "site": "Infosys BPM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management meets consumer needs redundant and improving overall efficiency.",
+          "Disrupting supply chain management meets consumer needs would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management meets consumer needs alone, with no downstream effect on to meet and improve customer needs for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.4->G.9->G.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.4",
+          "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        },
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Algorithms process market signals and demand data to optimize capital deployment"
+        },
+        {
+          "type": "related_to",
+          "description": "Demand signals drive the need to synchronize material flow throughout the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.9",
+        "label": "Explain how market signal and consumer demand impact supply chain management"
+      },
+      "consequence_description": "When market signal and consumer demand impact supply chain management is disrupted, the related to connection to the importance of synchronizing material flow breaks down. The importance of synchronizing material flow loses its foundational input from algorithms are used to maximize capital costs associated with supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Market signal and consumer demand impact supply chain management serves as a critical intermediary in this concept chain. The related to relationship from algorithms are used to maximize capital costs associated with supply chain management to market signal and consumer demand impact supply chain management establishes a dependency, and the related to relationship from market signal and consumer demand impact supply chain management to the importance of synchronizing material flow carries that influence forward. When market signal and consumer demand impact supply chain management is disrupted, the downstream effect on the importance of synchronizing material flow is not merely a loss of one input — it severs the entire pathway through which algorithms are used to maximize capital costs associated with supply chain management influences the importance of synchronizing material flow, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making market signal and consumer demand impact supply chain management redundant and improving overall efficiency.",
+          "Disrupting market signal and consumer demand impact supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to market signal and consumer demand impact supply chain management alone, with no downstream effect on the importance of synchronizing material flow or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.1->G.2->G.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        },
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        },
+        {
+          "id": "G.4",
+          "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Synchronized material flow supports inventory maximization strategies"
+        },
+        {
+          "type": "related_to",
+          "description": "Algorithms are used to compute optimal inventory levels for maximization"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization"
+      },
+      "consequence_description": "When inventory maximization is disrupted, the related to connection to algorithms are used to maximize capital costs associated with supply chain management breaks down. Algorithms are used to maximize capital costs associated with supply chain management loses its foundational input from the importance of synchronizing material flow, degrading overall supply chain performance in this area.",
+      "explanation": "Inventory maximization serves as a critical intermediary in this concept chain. The related to relationship from the importance of synchronizing material flow to inventory maximization establishes a dependency, and the related to relationship from inventory maximization to algorithms are used to maximize capital costs associated with supply chain management carries that influence forward. When inventory maximization is disrupted, the downstream effect on algorithms are used to maximize capital costs associated with supply chain management is not merely a loss of one input — it severs the entire pathway through which the importance of synchronizing material flow influences algorithms are used to maximize capital costs associated with supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making inventory maximization redundant and improving overall efficiency.",
+          "Disrupting inventory maximization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to inventory maximization alone, with no downstream effect on algorithms are used to maximize capital costs associated with supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.3->G.1->G.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.3",
+          "label": "Define decoupling points for inventory maximization"
+        },
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        },
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Decoupling points help synchronize material flow by buffering variability"
+        },
+        {
+          "type": "related_to",
+          "description": "Synchronized material flow supports inventory maximization strategies"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.1",
+        "label": "Explain the importance of synchronizing material flow"
+      },
+      "consequence_description": "When the importance of synchronizing material flow is disrupted, the related to connection to inventory maximization breaks down. Inventory maximization loses its foundational input from decoupling points for inventory maximization, degrading overall supply chain performance in this area.",
+      "explanation": "The importance of synchronizing material flow serves as a critical intermediary in this concept chain. The related to relationship from decoupling points for inventory maximization to the importance of synchronizing material flow establishes a dependency, and the related to relationship from the importance of synchronizing material flow to inventory maximization carries that influence forward. When the importance of synchronizing material flow is disrupted, the downstream effect on inventory maximization is not merely a loss of one input — it severs the entire pathway through which decoupling points for inventory maximization influences inventory maximization, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of synchronizing material flow redundant and improving overall efficiency.",
+          "Disrupting the importance of synchronizing material flow would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of synchronizing material flow alone, with no downstream effect on inventory maximization or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.7->G.6->G.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.7",
+          "label": "Describe evaluation processes for supply chain management"
+        },
+        {
+          "id": "G.6",
+          "label": "Describe how product sourcing decisions are made"
+        },
+        {
+          "id": "G.5",
+          "label": "Explain how proximity to the customer relates to supply chain efficiency"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Product sourcing decisions are assessed through supply chain evaluation processes"
+        },
+        {
+          "type": "related_to",
+          "description": "Sourcing decisions affect supply chain proximity and distribution network design"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.6",
+        "label": "Describe how product sourcing decisions are made"
+      },
+      "consequence_description": "When product sourcing decisions are made is disrupted, the related to connection to proximity to the customer relates to supply chain efficiency breaks down. Proximity to the customer relates to supply chain efficiency loses its foundational input from evaluation processes for supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Product sourcing decisions are made serves as a critical intermediary in this concept chain. The related to relationship from evaluation processes for supply chain management to product sourcing decisions are made establishes a dependency, and the related to relationship from product sourcing decisions are made to proximity to the customer relates to supply chain efficiency carries that influence forward. When product sourcing decisions are made is disrupted, the downstream effect on proximity to the customer relates to supply chain efficiency is not merely a loss of one input — it severs the entire pathway through which evaluation processes for supply chain management influences proximity to the customer relates to supply chain efficiency, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        },
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/management/make-or-buy-decision/",
+          "title": "Make-or-Buy Decision - Overview, How It Works, Triggers",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://scmguide.com/factors-to-consider-when-deciding-whether-to-make-or-buy/",
+          "title": "20 Factors to Consider When Deciding Whether to Make or Buy",
+          "site": "SCM Guide"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making product sourcing decisions are made redundant and improving overall efficiency.",
+          "Disrupting product sourcing decisions are made would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to product sourcing decisions are made alone, with no downstream effect on proximity to the customer relates to supply chain efficiency or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.11->G.5->G.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.11",
+          "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments"
+        },
+        {
+          "id": "G.5",
+          "label": "Explain how proximity to the customer relates to supply chain efficiency"
+        },
+        {
+          "id": "G.6",
+          "label": "Describe how product sourcing decisions are made"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Customer proximity strategies are tailored based on segment-specific logistics needs"
+        },
+        {
+          "type": "related_to",
+          "description": "Product sourcing decisions influence where inventory is positioned relative to customers"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.5",
+        "label": "Explain how proximity to the customer relates to supply chain efficiency"
+      },
+      "consequence_description": "When proximity to the customer relates to supply chain efficiency is disrupted, the related to connection to product sourcing decisions are made breaks down. Product sourcing decisions are made loses its foundational input from supply chain management meets and improves the logistic needs of different customer segments, degrading overall supply chain performance in this area.",
+      "explanation": "Proximity to the customer relates to supply chain efficiency serves as a critical intermediary in this concept chain. The related to relationship from supply chain management meets and improves the logistic needs of different customer segments to proximity to the customer relates to supply chain efficiency establishes a dependency, and the related to relationship from proximity to the customer relates to supply chain efficiency to product sourcing decisions are made carries that influence forward. When proximity to the customer relates to supply chain efficiency is disrupted, the downstream effect on product sourcing decisions are made is not merely a loss of one input — it severs the entire pathway through which supply chain management meets and improves the logistic needs of different customer segments influences product sourcing decisions are made, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        },
+        {
+          "url": "https://eliteextra.com/what-is-last-mile-distribution-definition-strategies-more/",
+          "title": "What is Last-Mile Distribution: Definition, Strategies, & More",
+          "site": "Elite EXTRA"
+        },
+        {
+          "url": "https://envistacorp.com/blog/maximizing-last-mile-success-network-optimization/",
+          "title": "Maximizing Last Mile Success: The Power of Network Optimization",
+          "site": "enVista"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making proximity to the customer relates to supply chain efficiency redundant and improving overall efficiency.",
+          "Disrupting proximity to the customer relates to supply chain efficiency would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to proximity to the customer relates to supply chain efficiency alone, with no downstream effect on product sourcing decisions are made or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.10->G.7->G.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        },
+        {
+          "id": "G.7",
+          "label": "Describe evaluation processes for supply chain management"
+        },
+        {
+          "id": "G.6",
+          "label": "Describe how product sourcing decisions are made"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Evaluation processes provide the data needed to identify and implement customer improvements"
+        },
+        {
+          "type": "related_to",
+          "description": "Product sourcing decisions are assessed through supply chain evaluation processes"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.7",
+        "label": "Describe evaluation processes for supply chain management"
+      },
+      "consequence_description": "When evaluation processes for supply chain management is disrupted, the related to connection to product sourcing decisions are made breaks down. Product sourcing decisions are made loses its foundational input from to meet and improve customer needs for supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Evaluation processes for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from to meet and improve customer needs for supply chain management to evaluation processes for supply chain management establishes a dependency, and the related to relationship from evaluation processes for supply chain management to product sourcing decisions are made carries that influence forward. When evaluation processes for supply chain management is disrupted, the downstream effect on product sourcing decisions are made is not merely a loss of one input — it severs the entire pathway through which to meet and improve customer needs for supply chain management influences product sourcing decisions are made, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making evaluation processes for supply chain management redundant and improving overall efficiency.",
+          "Disrupting evaluation processes for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to evaluation processes for supply chain management alone, with no downstream effect on product sourcing decisions are made or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.8->G.10->G.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        },
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        },
+        {
+          "id": "G.7",
+          "label": "Describe evaluation processes for supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Meeting consumer needs is the foundation for improving customer satisfaction over time"
+        },
+        {
+          "type": "related_to",
+          "description": "Evaluation processes provide the data needed to identify and implement customer improvements"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.10",
+        "label": "Explain how to meet and improve customer needs for supply chain management"
+      },
+      "consequence_description": "When to meet and improve customer needs for supply chain management is disrupted, the related to connection to evaluation processes for supply chain management breaks down. Evaluation processes for supply chain management loses its foundational input from supply chain management meets consumer needs, degrading overall supply chain performance in this area.",
+      "explanation": "To meet and improve customer needs for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from supply chain management meets consumer needs to to meet and improve customer needs for supply chain management establishes a dependency, and the related to relationship from to meet and improve customer needs for supply chain management to evaluation processes for supply chain management carries that influence forward. When to meet and improve customer needs for supply chain management is disrupted, the downstream effect on evaluation processes for supply chain management is not merely a loss of one input — it severs the entire pathway through which supply chain management meets consumer needs influences evaluation processes for supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iienstitu.com/en/blog/enhancing-customer-service-in-supply-chains",
+          "title": "Enhancing Customer Service in Supply Chains: Tips & Strategies",
+          "site": "IIENSTITU"
+        },
+        {
+          "url": "https://rxo.com/resources/shipper/continuous-improvement/",
+          "title": "Continuous Improvement: 6 Steps to a Stronger Supply Chain",
+          "site": "RXO"
+        },
+        {
+          "url": "https://supplychainnuggets.com/how-to-improve-customer-satisfaction-through-supply-chain/",
+          "title": "How to Improve Customer Satisfaction Through Supply Chain",
+          "site": "Supply Chain Nuggets"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making to meet and improve customer needs for supply chain management redundant and improving overall efficiency.",
+          "Disrupting to meet and improve customer needs for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to to meet and improve customer needs for supply chain management alone, with no downstream effect on evaluation processes for supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.10->G.8->G.9_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        },
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Improving customer needs builds on the foundation of meeting current consumer expectations"
+        },
+        {
+          "type": "related_to",
+          "description": "Consumer demand signals inform how supply chains are configured to meet needs"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.8",
+        "label": "Define how supply chain management meets consumer needs"
+      },
+      "consequence_description": "When supply chain management meets consumer needs is disrupted, the related to connection to market signal and consumer demand impact supply chain management breaks down. Market signal and consumer demand impact supply chain management loses its foundational input from to meet and improve customer needs for supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Supply chain management meets consumer needs serves as a critical intermediary in this concept chain. The related to relationship from to meet and improve customer needs for supply chain management to supply chain management meets consumer needs establishes a dependency, and the related to relationship from supply chain management meets consumer needs to market signal and consumer demand impact supply chain management carries that influence forward. When supply chain management meets consumer needs is disrupted, the downstream effect on market signal and consumer demand impact supply chain management is not merely a loss of one input — it severs the entire pathway through which to meet and improve customer needs for supply chain management influences market signal and consumer demand impact supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        },
+        {
+          "url": "https://www.scmr.com/article/the-rise-of-customer-centric-supply-chains",
+          "title": "The rise of customer-centric supply chains",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://www.infosysbpm.com/blogs/supply-chain/supply-chain-optimization-for-customer-satisfaction.html",
+          "title": "Optimise Your Supply Chain For Customer Satisfaction",
+          "site": "Infosys BPM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making supply chain management meets consumer needs redundant and improving overall efficiency.",
+          "Disrupting supply chain management meets consumer needs would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to supply chain management meets consumer needs alone, with no downstream effect on market signal and consumer demand impact supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.4->G.9->G.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.4",
+          "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        },
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Algorithms process market signals and demand data to optimize capital deployment"
+        },
+        {
+          "type": "related_to",
+          "description": "Understanding market signals enables supply chains to better meet consumer needs"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.9",
+        "label": "Explain how market signal and consumer demand impact supply chain management"
+      },
+      "consequence_description": "When market signal and consumer demand impact supply chain management is disrupted, the related to connection to supply chain management meets consumer needs breaks down. Supply chain management meets consumer needs loses its foundational input from algorithms are used to maximize capital costs associated with supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Market signal and consumer demand impact supply chain management serves as a critical intermediary in this concept chain. The related to relationship from algorithms are used to maximize capital costs associated with supply chain management to market signal and consumer demand impact supply chain management establishes a dependency, and the related to relationship from market signal and consumer demand impact supply chain management to supply chain management meets consumer needs carries that influence forward. When market signal and consumer demand impact supply chain management is disrupted, the downstream effect on supply chain management meets consumer needs is not merely a loss of one input — it severs the entire pathway through which algorithms are used to maximize capital costs associated with supply chain management influences supply chain management meets consumer needs, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making market signal and consumer demand impact supply chain management redundant and improving overall efficiency.",
+          "Disrupting market signal and consumer demand impact supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to market signal and consumer demand impact supply chain management alone, with no downstream effect on supply chain management meets consumer needs or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.3->G.2->G.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.3",
+          "label": "Define decoupling points for inventory maximization"
+        },
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        },
+        {
+          "id": "G.4",
+          "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Decoupling points are a method for achieving inventory maximization"
+        },
+        {
+          "type": "related_to",
+          "description": "Algorithms are used to compute optimal inventory levels for maximization"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization"
+      },
+      "consequence_description": "When inventory maximization is disrupted, the related to connection to algorithms are used to maximize capital costs associated with supply chain management breaks down. Algorithms are used to maximize capital costs associated with supply chain management loses its foundational input from decoupling points for inventory maximization, degrading overall supply chain performance in this area.",
+      "explanation": "Inventory maximization serves as a critical intermediary in this concept chain. The related to relationship from decoupling points for inventory maximization to inventory maximization establishes a dependency, and the related to relationship from inventory maximization to algorithms are used to maximize capital costs associated with supply chain management carries that influence forward. When inventory maximization is disrupted, the downstream effect on algorithms are used to maximize capital costs associated with supply chain management is not merely a loss of one input — it severs the entire pathway through which decoupling points for inventory maximization influences algorithms are used to maximize capital costs associated with supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making inventory maximization redundant and improving overall efficiency.",
+          "Disrupting inventory maximization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to inventory maximization alone, with no downstream effect on algorithms are used to maximize capital costs associated with supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.9->G.1->G.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        },
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        },
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Demand signals drive the need to synchronize material flow throughout the supply chain"
+        },
+        {
+          "type": "related_to",
+          "description": "Synchronized material flow supports inventory maximization strategies"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.1",
+        "label": "Explain the importance of synchronizing material flow"
+      },
+      "consequence_description": "When the importance of synchronizing material flow is disrupted, the related to connection to inventory maximization breaks down. Inventory maximization loses its foundational input from market signal and consumer demand impact supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The importance of synchronizing material flow serves as a critical intermediary in this concept chain. The related to relationship from market signal and consumer demand impact supply chain management to the importance of synchronizing material flow establishes a dependency, and the related to relationship from the importance of synchronizing material flow to inventory maximization carries that influence forward. When the importance of synchronizing material flow is disrupted, the downstream effect on inventory maximization is not merely a loss of one input — it severs the entire pathway through which market signal and consumer demand impact supply chain management influences inventory maximization, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of synchronizing material flow redundant and improving overall efficiency.",
+          "Disrupting the importance of synchronizing material flow would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of synchronizing material flow alone, with no downstream effect on inventory maximization or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.11->G.10->G.8_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.11",
+          "label": "Describe how supply chain management meets and improves the logistic needs of different customer segments"
+        },
+        {
+          "id": "G.10",
+          "label": "Explain how to meet and improve customer needs for supply chain management"
+        },
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Segmented logistics strategies are a key method for improving how customer needs are met"
+        },
+        {
+          "type": "related_to",
+          "description": "Improving customer needs builds on the foundation of meeting current consumer expectations"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.10",
+        "label": "Explain how to meet and improve customer needs for supply chain management"
+      },
+      "consequence_description": "When to meet and improve customer needs for supply chain management is disrupted, the related to connection to supply chain management meets consumer needs breaks down. Supply chain management meets consumer needs loses its foundational input from supply chain management meets and improves the logistic needs of different customer segments, degrading overall supply chain performance in this area.",
+      "explanation": "To meet and improve customer needs for supply chain management serves as a critical intermediary in this concept chain. The related to relationship from supply chain management meets and improves the logistic needs of different customer segments to to meet and improve customer needs for supply chain management establishes a dependency, and the related to relationship from to meet and improve customer needs for supply chain management to supply chain management meets consumer needs carries that influence forward. When to meet and improve customer needs for supply chain management is disrupted, the downstream effect on supply chain management meets consumer needs is not merely a loss of one input — it severs the entire pathway through which supply chain management meets and improves the logistic needs of different customer segments influences supply chain management meets consumer needs, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iienstitu.com/en/blog/enhancing-customer-service-in-supply-chains",
+          "title": "Enhancing Customer Service in Supply Chains: Tips & Strategies",
+          "site": "IIENSTITU"
+        },
+        {
+          "url": "https://rxo.com/resources/shipper/continuous-improvement/",
+          "title": "Continuous Improvement: 6 Steps to a Stronger Supply Chain",
+          "site": "RXO"
+        },
+        {
+          "url": "https://supplychainnuggets.com/how-to-improve-customer-satisfaction-through-supply-chain/",
+          "title": "How to Improve Customer Satisfaction Through Supply Chain",
+          "site": "Supply Chain Nuggets"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making to meet and improve customer needs for supply chain management redundant and improving overall efficiency.",
+          "Disrupting to meet and improve customer needs for supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to to meet and improve customer needs for supply chain management alone, with no downstream effect on supply chain management meets consumer needs or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.8->G.9->G.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.8",
+          "label": "Define how supply chain management meets consumer needs"
+        },
+        {
+          "id": "G.9",
+          "label": "Explain how market signal and consumer demand impact supply chain management"
+        },
+        {
+          "id": "G.1",
+          "label": "Explain the importance of synchronizing material flow"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Consumer demand signals inform how supply chains are configured to meet needs"
+        },
+        {
+          "type": "related_to",
+          "description": "Demand signals drive the need to synchronize material flow throughout the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.9",
+        "label": "Explain how market signal and consumer demand impact supply chain management"
+      },
+      "consequence_description": "When market signal and consumer demand impact supply chain management is disrupted, the related to connection to the importance of synchronizing material flow breaks down. The importance of synchronizing material flow loses its foundational input from supply chain management meets consumer needs, degrading overall supply chain performance in this area.",
+      "explanation": "Market signal and consumer demand impact supply chain management serves as a critical intermediary in this concept chain. The related to relationship from supply chain management meets consumer needs to market signal and consumer demand impact supply chain management establishes a dependency, and the related to relationship from market signal and consumer demand impact supply chain management to the importance of synchronizing material flow carries that influence forward. When market signal and consumer demand impact supply chain management is disrupted, the downstream effect on the importance of synchronizing material flow is not merely a loss of one input — it severs the entire pathway through which supply chain management meets consumer needs influences the importance of synchronizing material flow, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://fastercapital.com/content/Demand-Signals--Signal-Clarity--Interpreting-Demand-Signals-to-Avoid-the-Bullwhip-Effect.html",
+          "title": "Signal Clarity: Interpreting Demand Signals to Avoid the Bullwhip Effect",
+          "site": "FasterCapital"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making market signal and consumer demand impact supply chain management redundant and improving overall efficiency.",
+          "Disrupting market signal and consumer demand impact supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to market signal and consumer demand impact supply chain management alone, with no downstream effect on the importance of synchronizing material flow or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.4->G.2->G.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "G.4",
+          "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management"
+        },
+        {
+          "id": "G.2",
+          "label": "Define inventory maximization"
+        },
+        {
+          "id": "G.3",
+          "label": "Define decoupling points for inventory maximization"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Algorithms are the computational engine behind inventory maximization"
+        },
+        {
+          "type": "related_to",
+          "description": "Decoupling points are a key strategy for achieving inventory maximization"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization"
+      },
+      "consequence_description": "When inventory maximization is disrupted, the related to connection to decoupling points for inventory maximization breaks down. Decoupling points for inventory maximization loses its foundational input from algorithms are used to maximize capital costs associated with supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Inventory maximization serves as a critical intermediary in this concept chain. The related to relationship from algorithms are used to maximize capital costs associated with supply chain management to inventory maximization establishes a dependency, and the related to relationship from inventory maximization to decoupling points for inventory maximization carries that influence forward. When inventory maximization is disrupted, the downstream effect on decoupling points for inventory maximization is not merely a loss of one input — it severs the entire pathway through which algorithms are used to maximize capital costs associated with supply chain management influences decoupling points for inventory maximization, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inventory_optimization",
+          "title": "Inventory optimization",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making inventory maximization redundant and improving overall efficiency.",
+          "Disrupting inventory maximization would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to inventory maximization alone, with no downstream effect on decoupling points for inventory maximization or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "G.7<>I.3_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.7",
+        "label": "Describe evaluation processes for supply chain management",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance.",
+        "section": "I"
+      },
+      "interaction_description": "Evaluation processes for supply chain management and measurement of supply chain performance. have a bidirectional relationship across their domains: decisions in evaluation processes for supply chain management directly influence how measurement of supply chain performance. is configured and managed, while feedback from measurement of supply chain performance. operations informs adjustments to evaluation processes for supply chain management strategy.",
+      "explanation": "The cross-section relationship between evaluation processes for supply chain management (Section G) and measurement of supply chain performance. (Section I) illustrates how supply chain concepts rarely exist in isolation. Evaluation processes for supply chain management provides strategic direction that shapes measurement of supply chain performance. decisions, while measurement of supply chain performance. generates operational data and constraints that feed back into evaluation processes for supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Evaluation processes for supply chain management and measurement of supply chain performance. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Evaluation processes for supply chain management completely subsumes measurement of supply chain performance., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between evaluation processes for supply chain management and measurement of supply chain performance. is purely one-directional, with no feedback mechanism from measurement of supply chain performance. back to evaluation processes for supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "G.1<>A.10_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.1",
+        "label": "Explain the importance of synchronizing material flow",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "A.10",
+        "label": "Define physical and information flows",
+        "section": "A"
+      },
+      "interaction_description": "The importance of synchronizing material flow and physical and information flows have a bidirectional relationship across their domains: decisions in the importance of synchronizing material flow directly influence how physical and information flows is configured and managed, while feedback from physical and information flows operations informs adjustments to the importance of synchronizing material flow strategy.",
+      "explanation": "The cross-section relationship between the importance of synchronizing material flow (Section G) and physical and information flows (Section A) illustrates how supply chain concepts rarely exist in isolation. The importance of synchronizing material flow provides strategic direction that shapes physical and information flows decisions, while physical and information flows generates operational data and constraints that feed back into the importance of synchronizing material flow planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_management",
+          "title": "Supply chain management",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://brandalyzer.blog/2016/03/23/the-five-major-flows-in-supply-chain/",
+          "title": "The Five Major Flows in Supply Chain",
+          "site": "Brandalyzer"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The importance of synchronizing material flow and physical and information flows operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The importance of synchronizing material flow completely subsumes physical and information flows, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the importance of synchronizing material flow and physical and information flows is purely one-directional, with no feedback mechanism from physical and information flows back to the importance of synchronizing material flow."
+        ]
+      }
+    },
+    {
+      "id": "G.2<>A.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "interaction_description": "Inventory maximization and demand forecasting have a bidirectional relationship across their domains: decisions in inventory maximization directly influence how demand forecasting is configured and managed, while feedback from demand forecasting operations informs adjustments to inventory maximization strategy.",
+      "explanation": "The cross-section relationship between inventory maximization (Section G) and demand forecasting (Section A) illustrates how supply chain concepts rarely exist in isolation. Inventory maximization provides strategic direction that shapes demand forecasting decisions, while demand forecasting generates operational data and constraints that feed back into inventory maximization planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory maximization and demand forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory maximization completely subsumes demand forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory maximization and demand forecasting is purely one-directional, with no feedback mechanism from demand forecasting back to inventory maximization."
+        ]
+      }
+    },
+    {
+      "id": "G.6<>B.7_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.6",
+        "label": "Describe how product sourcing decisions are made",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "B.7",
+        "label": "Define procurement",
+        "section": "B"
+      },
+      "interaction_description": "Product sourcing decisions are made and procurement have a bidirectional relationship across their domains: decisions in product sourcing decisions are made directly influence how procurement is configured and managed, while feedback from procurement operations informs adjustments to product sourcing decisions are made strategy.",
+      "explanation": "The cross-section relationship between product sourcing decisions are made (Section G) and procurement (Section B) illustrates how supply chain concepts rarely exist in isolation. Product sourcing decisions are made provides strategic direction that shapes procurement decisions, while procurement generates operational data and constraints that feed back into product sourcing decisions are made planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.scmdojo.com/make-vs-buy-analysis-in-supply-chain-management/",
+          "title": "Make vs Buy Analysis in Supply Chain Management: A Strategic Guide",
+          "site": "SCMDOJO"
+        },
+        {
+          "url": "https://corporatefinanceinstitute.com/resources/management/make-or-buy-decision/",
+          "title": "Make-or-Buy Decision - Overview, How It Works, Triggers",
+          "site": "Corporate Finance Institute"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Supply_Management_Procurement.aspx",
+          "title": "Supply Management Procurement",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Product sourcing decisions are made and procurement operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Product sourcing decisions are made completely subsumes procurement, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between product sourcing decisions are made and procurement is purely one-directional, with no feedback mechanism from procurement back to product sourcing decisions are made."
+        ]
+      }
+    },
+    {
+      "id": "G.8<>E.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.8",
+        "label": "Define how supply chain management meets consumer needs",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "E.6",
+        "label": "Describe the importance of customer service in a supply chain.",
+        "section": "E"
+      },
+      "interaction_description": "Supply chain management meets consumer needs and the importance of customer service in a supply chain. have a bidirectional relationship across their domains: decisions in supply chain management meets consumer needs directly influence how the importance of customer service in a supply chain. is configured and managed, while feedback from the importance of customer service in a supply chain. operations informs adjustments to supply chain management meets consumer needs strategy.",
+      "explanation": "The cross-section relationship between supply chain management meets consumer needs (Section G) and the importance of customer service in a supply chain. (Section E) illustrates how supply chain concepts rarely exist in isolation. Supply chain management meets consumer needs provides strategic direction that shapes the importance of customer service in a supply chain. decisions, while the importance of customer service in a supply chain. generates operational data and constraints that feed back into supply chain management meets consumer needs planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        },
+        {
+          "url": "https://www.scmr.com/article/the-rise-of-customer-centric-supply-chains",
+          "title": "The rise of customer-centric supply chains",
+          "site": "Supply Chain Management Review"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Certify/Fundamentals/Customer_Service_Operations.aspx",
+          "title": "Customer Service Operations - Learning Block 1: Customer Service Overview",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Supply chain management meets consumer needs and the importance of customer service in a supply chain. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Supply chain management meets consumer needs completely subsumes the importance of customer service in a supply chain., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between supply chain management meets consumer needs and the importance of customer service in a supply chain. is purely one-directional, with no feedback mechanism from the importance of customer service in a supply chain. back to supply chain management meets consumer needs."
+        ]
+      }
+    },
+    {
+      "id": "G.9<>A.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.9",
+        "label": "Explain how market signal and consumer demand impact supply chain management",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "interaction_description": "Market signal and consumer demand impact supply chain management and demand forecasting have a bidirectional relationship across their domains: decisions in market signal and consumer demand impact supply chain management directly influence how demand forecasting is configured and managed, while feedback from demand forecasting operations informs adjustments to market signal and consumer demand impact supply chain management strategy.",
+      "explanation": "The cross-section relationship between market signal and consumer demand impact supply chain management (Section G) and demand forecasting (Section A) illustrates how supply chain concepts rarely exist in isolation. Market signal and consumer demand impact supply chain management provides strategic direction that shapes demand forecasting decisions, while demand forecasting generates operational data and constraints that feed back into market signal and consumer demand impact supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.kinaxis.com/en/what-demand-sensing",
+          "title": "What is demand sensing?",
+          "site": "Kinaxis"
+        },
+        {
+          "url": "https://throughput.world/blog/demand-sensing-benefits/",
+          "title": "Demand Sensing Benefits for Supply Chains",
+          "site": "ThroughPut"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Market signal and consumer demand impact supply chain management and demand forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Market signal and consumer demand impact supply chain management completely subsumes demand forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between market signal and consumer demand impact supply chain management and demand forecasting is purely one-directional, with no feedback mechanism from demand forecasting back to market signal and consumer demand impact supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "G.2<>B.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.2",
+        "label": "Define inventory maximization",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "B.6",
+        "label": "Explain the logistics of inventory management",
+        "section": "B"
+      },
+      "interaction_description": "Inventory maximization and the logistics of inventory management have a bidirectional relationship across their domains: decisions in inventory maximization directly influence how the logistics of inventory management is configured and managed, while feedback from the logistics of inventory management operations informs adjustments to inventory maximization strategy.",
+      "explanation": "The cross-section relationship between inventory maximization (Section G) and the logistics of inventory management (Section B) illustrates how supply chain concepts rarely exist in isolation. Inventory maximization provides strategic direction that shapes the logistics of inventory management decisions, while the logistics of inventory management generates operational data and constraints that feed back into inventory maximization planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/think/topics/inventory-optimization",
+          "title": "What Is Inventory Optimization?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-optimization.shtml",
+          "title": "What Is Inventory Optimization? Benefits and Techniques",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.ascm.org/scm/inventory-management/",
+          "title": "What Is Inventory Management?",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Inventory maximization and the logistics of inventory management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Inventory maximization completely subsumes the logistics of inventory management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between inventory maximization and the logistics of inventory management is purely one-directional, with no feedback mechanism from the logistics of inventory management back to inventory maximization."
+        ]
+      }
+    },
+    {
+      "id": "G.5<>J.4_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "G.5",
+        "label": "Explain how proximity to the customer relates to supply chain efficiency",
+        "section": "G"
+      },
+      "target_concept": {
+        "id": "J.4",
+        "label": "Explain how e-commerce has impacted channels of distribution.",
+        "section": "J"
+      },
+      "interaction_description": "Proximity to the customer relates to supply chain efficiency and e-commerce has impacted channels of distribution. have a bidirectional relationship across their domains: decisions in proximity to the customer relates to supply chain efficiency directly influence how e-commerce has impacted channels of distribution. is configured and managed, while feedback from e-commerce has impacted channels of distribution. operations informs adjustments to proximity to the customer relates to supply chain efficiency strategy.",
+      "explanation": "The cross-section relationship between proximity to the customer relates to supply chain efficiency (Section G) and e-commerce has impacted channels of distribution. (Section J) illustrates how supply chain concepts rarely exist in isolation. Proximity to the customer relates to supply chain efficiency provides strategic direction that shapes e-commerce has impacted channels of distribution. decisions, while e-commerce has impacted channels of distribution. generates operational data and constraints that feed back into proximity to the customer relates to supply chain efficiency planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://allegrorealty.com/articles/what-is-the-last-mile-and-why-is-it-important-in-logistics-real-estate-decisions",
+          "title": "What Is the Last Mile and Why Is It Important in Logistics Real Estate Decisions?",
+          "site": "Allegro"
+        },
+        {
+          "url": "https://eliteextra.com/what-is-last-mile-distribution-definition-strategies-more/",
+          "title": "What is Last-Mile Distribution: Definition, Strategies, & More",
+          "site": "Elite EXTRA"
+        },
+        {
+          "url": "https://www.laceupsolutions.com/impact-of-e-commerce-on-distribution-reshaping-networks-business-models/",
+          "title": "E-commerce on Distribution: Reshaping Networks and Business Models",
+          "site": "Lace Up Solutions"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Proximity to the customer relates to supply chain efficiency and e-commerce has impacted channels of distribution. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Proximity to the customer relates to supply chain efficiency completely subsumes e-commerce has impacted channels of distribution., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between proximity to the customer relates to supply chain efficiency and e-commerce has impacted channels of distribution. is purely one-directional, with no feedback mechanism from e-commerce has impacted channels of distribution. back to proximity to the customer relates to supply chain efficiency."
+        ]
+      }
+    }
+  ]
+}

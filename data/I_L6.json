@@ -1,0 +1,2041 @@
+{
+  "section_id": "I",
+  "section_title": "Supply Chain Coordination and Decision Making for the Flow of Products, Services, and Information",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "I.1->I.2->I.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions require strong coordination between the firm and its external partners."
+        },
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions directly affect the structure and composition of distribution channels."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain."
+      },
+      "consequence_description": "When the role of outsourcing in a supply chain. is disrupted, the related to connection to the channels of distribution for supply chain management. breaks down. The channels of distribution for supply chain management. loses its foundational input from the importance of cooperation and coordination in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The role of outsourcing in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the importance of cooperation and coordination in a supply chain. to the role of outsourcing in a supply chain. establishes a dependency, and the related to relationship from the role of outsourcing in a supply chain. to the channels of distribution for supply chain management. carries that influence forward. When the role of outsourcing in a supply chain. is disrupted, the downstream effect on the channels of distribution for supply chain management. is not merely a loss of one input — it severs the entire pathway through which the importance of cooperation and coordination in a supply chain. influences the channels of distribution for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of outsourcing in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the role of outsourcing in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of outsourcing in a supply chain. alone, with no downstream effect on the channels of distribution for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.1->I.4->I.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Cross-functional teams are a primary mechanism for achieving internal coordination in supply chains."
+        },
+        {
+          "type": "related_to",
+          "description": "Teams rely on performance metrics to guide decision-making and measure the impact of improvement efforts."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.4",
+        "label": "Explain the role of the team in supply chain management."
+      },
+      "consequence_description": "When the role of the team in supply chain management. is disrupted, the related to connection to measurement of supply chain performance. breaks down. Measurement of supply chain performance. loses its foundational input from the importance of cooperation and coordination in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The role of the team in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the importance of cooperation and coordination in a supply chain. to the role of the team in supply chain management. establishes a dependency, and the related to relationship from the role of the team in supply chain management. to measurement of supply chain performance. carries that influence forward. When the role of the team in supply chain management. is disrupted, the downstream effect on measurement of supply chain performance. is not merely a loss of one input — it severs the entire pathway through which the importance of cooperation and coordination in a supply chain. influences measurement of supply chain performance., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of the team in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role of the team in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of the team in supply chain management. alone, with no downstream effect on measurement of supply chain performance. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.1->I.3->I.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Performance measurement provides the metrics needed to evaluate the effectiveness of coordination efforts."
+        },
+        {
+          "type": "related_to",
+          "description": "Measurement of outsourced partner performance is critical for managing third-party relationships."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance."
+      },
+      "consequence_description": "When measurement of supply chain performance. is disrupted, the related to connection to the role of outsourcing in a supply chain. breaks down. The role of outsourcing in a supply chain. loses its foundational input from the importance of cooperation and coordination in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "Measurement of supply chain performance. serves as a critical intermediary in this concept chain. The related to relationship from the importance of cooperation and coordination in a supply chain. to measurement of supply chain performance. establishes a dependency, and the related to relationship from measurement of supply chain performance. to the role of outsourcing in a supply chain. carries that influence forward. When measurement of supply chain performance. is disrupted, the downstream effect on the role of outsourcing in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the importance of cooperation and coordination in a supply chain. influences the role of outsourcing in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making measurement of supply chain performance. redundant and improving overall efficiency.",
+          "Disrupting measurement of supply chain performance. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to measurement of supply chain performance. alone, with no downstream effect on the role of outsourcing in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.2->I.1->I.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Effective outsourcing depends on strong cooperation and coordination between the firm and its service providers."
+        },
+        {
+          "type": "related_to",
+          "description": "Cross-functional teams are a primary mechanism for achieving internal coordination in supply chains."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain."
+      },
+      "consequence_description": "When the importance of cooperation and coordination in a supply chain. is disrupted, the related to connection to the role of the team in supply chain management. breaks down. The role of the team in supply chain management. loses its foundational input from the role of outsourcing in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of cooperation and coordination in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the role of outsourcing in a supply chain. to the importance of cooperation and coordination in a supply chain. establishes a dependency, and the related to relationship from the importance of cooperation and coordination in a supply chain. to the role of the team in supply chain management. carries that influence forward. When the importance of cooperation and coordination in a supply chain. is disrupted, the downstream effect on the role of the team in supply chain management. is not merely a loss of one input — it severs the entire pathway through which the role of outsourcing in a supply chain. influences the role of the team in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of cooperation and coordination in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of cooperation and coordination in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of cooperation and coordination in a supply chain. alone, with no downstream effect on the role of the team in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.2->I.5->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions directly affect the structure and composition of distribution channels."
+        },
+        {
+          "type": "related_to",
+          "description": "Coordination across distribution channel members is essential for efficient product flow to consumers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management."
+      },
+      "consequence_description": "When the channels of distribution for supply chain management. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from the role of outsourcing in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The channels of distribution for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of outsourcing in a supply chain. to the channels of distribution for supply chain management. establishes a dependency, and the related to relationship from the channels of distribution for supply chain management. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When the channels of distribution for supply chain management. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of outsourcing in a supply chain. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the channels of distribution for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the channels of distribution for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the channels of distribution for supply chain management. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.1->I.2->I.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions require strong coordination between the firm and its external partners."
+        },
+        {
+          "type": "related_to",
+          "description": "Performance measurement is essential for evaluating outsourced partner effectiveness."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain."
+      },
+      "consequence_description": "When the role of outsourcing in a supply chain. is disrupted, the related to connection to measurement of supply chain performance. breaks down. Measurement of supply chain performance. loses its foundational input from the importance of cooperation and coordination in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The role of outsourcing in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the importance of cooperation and coordination in a supply chain. to the role of outsourcing in a supply chain. establishes a dependency, and the related to relationship from the role of outsourcing in a supply chain. to measurement of supply chain performance. carries that influence forward. When the role of outsourcing in a supply chain. is disrupted, the downstream effect on measurement of supply chain performance. is not merely a loss of one input — it severs the entire pathway through which the importance of cooperation and coordination in a supply chain. influences measurement of supply chain performance., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of outsourcing in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the role of outsourcing in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of outsourcing in a supply chain. alone, with no downstream effect on measurement of supply chain performance. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.1->I.4->I.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Cross-functional teams are a primary mechanism for achieving internal coordination in supply chains."
+        },
+        {
+          "type": "related_to",
+          "description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.4",
+        "label": "Explain the role of the team in supply chain management."
+      },
+      "consequence_description": "When the role of the team in supply chain management. is disrupted, the related to connection to the channels of distribution for supply chain management. breaks down. The channels of distribution for supply chain management. loses its foundational input from the importance of cooperation and coordination in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The role of the team in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the importance of cooperation and coordination in a supply chain. to the role of the team in supply chain management. establishes a dependency, and the related to relationship from the role of the team in supply chain management. to the channels of distribution for supply chain management. carries that influence forward. When the role of the team in supply chain management. is disrupted, the downstream effect on the channels of distribution for supply chain management. is not merely a loss of one input — it severs the entire pathway through which the importance of cooperation and coordination in a supply chain. influences the channels of distribution for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of the team in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role of the team in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of the team in supply chain management. alone, with no downstream effect on the channels of distribution for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.1->I.3->I.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Performance measurement provides the metrics needed to evaluate the effectiveness of coordination efforts."
+        },
+        {
+          "type": "related_to",
+          "description": "Teams use performance data to make informed decisions and prioritize improvement initiatives."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance."
+      },
+      "consequence_description": "When measurement of supply chain performance. is disrupted, the related to connection to the role of the team in supply chain management. breaks down. The role of the team in supply chain management. loses its foundational input from the importance of cooperation and coordination in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "Measurement of supply chain performance. serves as a critical intermediary in this concept chain. The related to relationship from the importance of cooperation and coordination in a supply chain. to measurement of supply chain performance. establishes a dependency, and the related to relationship from measurement of supply chain performance. to the role of the team in supply chain management. carries that influence forward. When measurement of supply chain performance. is disrupted, the downstream effect on the role of the team in supply chain management. is not merely a loss of one input — it severs the entire pathway through which the importance of cooperation and coordination in a supply chain. influences the role of the team in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making measurement of supply chain performance. redundant and improving overall efficiency.",
+          "Disrupting measurement of supply chain performance. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to measurement of supply chain performance. alone, with no downstream effect on the role of the team in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.2->I.1->I.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Effective outsourcing depends on strong cooperation and coordination between the firm and its service providers."
+        },
+        {
+          "type": "related_to",
+          "description": "Performance measurement provides the metrics needed to evaluate the effectiveness of coordination efforts."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain."
+      },
+      "consequence_description": "When the importance of cooperation and coordination in a supply chain. is disrupted, the related to connection to measurement of supply chain performance. breaks down. Measurement of supply chain performance. loses its foundational input from the role of outsourcing in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of cooperation and coordination in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the role of outsourcing in a supply chain. to the importance of cooperation and coordination in a supply chain. establishes a dependency, and the related to relationship from the importance of cooperation and coordination in a supply chain. to measurement of supply chain performance. carries that influence forward. When the importance of cooperation and coordination in a supply chain. is disrupted, the downstream effect on measurement of supply chain performance. is not merely a loss of one input — it severs the entire pathway through which the role of outsourcing in a supply chain. influences measurement of supply chain performance., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of cooperation and coordination in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of cooperation and coordination in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of cooperation and coordination in a supply chain. alone, with no downstream effect on measurement of supply chain performance. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.2->I.5->I.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions directly affect the structure and composition of distribution channels."
+        },
+        {
+          "type": "related_to",
+          "description": "Distribution channel performance is measured through metrics such as on-time delivery, fill rate, and cost-to-serve."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management."
+      },
+      "consequence_description": "When the channels of distribution for supply chain management. is disrupted, the related to connection to measurement of supply chain performance. breaks down. Measurement of supply chain performance. loses its foundational input from the role of outsourcing in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "The channels of distribution for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of outsourcing in a supply chain. to the channels of distribution for supply chain management. establishes a dependency, and the related to relationship from the channels of distribution for supply chain management. to measurement of supply chain performance. carries that influence forward. When the channels of distribution for supply chain management. is disrupted, the downstream effect on measurement of supply chain performance. is not merely a loss of one input — it severs the entire pathway through which the role of outsourcing in a supply chain. influences measurement of supply chain performance., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the channels of distribution for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the channels of distribution for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the channels of distribution for supply chain management. alone, with no downstream effect on measurement of supply chain performance. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.3->I.2->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Measurement of outsourced partner performance is critical for managing third-party relationships."
+        },
+        {
+          "type": "related_to",
+          "description": "Effective outsourcing depends on strong cooperation and coordination between the firm and its service providers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain."
+      },
+      "consequence_description": "When the role of outsourcing in a supply chain. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from measurement of supply chain performance., degrading overall supply chain performance in this area.",
+      "explanation": "The role of outsourcing in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from measurement of supply chain performance. to the role of outsourcing in a supply chain. establishes a dependency, and the related to relationship from the role of outsourcing in a supply chain. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When the role of outsourcing in a supply chain. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which measurement of supply chain performance. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of outsourcing in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the role of outsourcing in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of outsourcing in a supply chain. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.3->I.4->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams use performance data to make informed decisions and prioritize improvement initiatives."
+        },
+        {
+          "type": "related_to",
+          "description": "Teams are the organizational mechanism through which cooperation and coordination are achieved within the supply chain."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.4",
+        "label": "Explain the role of the team in supply chain management."
+      },
+      "consequence_description": "When the role of the team in supply chain management. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from measurement of supply chain performance., degrading overall supply chain performance in this area.",
+      "explanation": "The role of the team in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from measurement of supply chain performance. to the role of the team in supply chain management. establishes a dependency, and the related to relationship from the role of the team in supply chain management. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When the role of the team in supply chain management. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which measurement of supply chain performance. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of the team in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role of the team in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of the team in supply chain management. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.2->I.3->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Performance measurement is essential for evaluating outsourced partner effectiveness."
+        },
+        {
+          "type": "related_to",
+          "description": "Performance metrics help evaluate whether coordination efforts across the supply chain are producing desired outcomes."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance."
+      },
+      "consequence_description": "When measurement of supply chain performance. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from the role of outsourcing in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "Measurement of supply chain performance. serves as a critical intermediary in this concept chain. The related to relationship from the role of outsourcing in a supply chain. to measurement of supply chain performance. establishes a dependency, and the related to relationship from measurement of supply chain performance. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When measurement of supply chain performance. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of outsourcing in a supply chain. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making measurement of supply chain performance. redundant and improving overall efficiency.",
+          "Disrupting measurement of supply chain performance. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to measurement of supply chain performance. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.3->I.1->I.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Performance metrics help evaluate whether coordination efforts across the supply chain are producing desired outcomes."
+        },
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions require strong coordination between the firm and its external partners."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain."
+      },
+      "consequence_description": "When the importance of cooperation and coordination in a supply chain. is disrupted, the related to connection to the role of outsourcing in a supply chain. breaks down. The role of outsourcing in a supply chain. loses its foundational input from measurement of supply chain performance., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of cooperation and coordination in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from measurement of supply chain performance. to the importance of cooperation and coordination in a supply chain. establishes a dependency, and the related to relationship from the importance of cooperation and coordination in a supply chain. to the role of outsourcing in a supply chain. carries that influence forward. When the importance of cooperation and coordination in a supply chain. is disrupted, the downstream effect on the role of outsourcing in a supply chain. is not merely a loss of one input — it severs the entire pathway through which measurement of supply chain performance. influences the role of outsourcing in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of cooperation and coordination in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of cooperation and coordination in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of cooperation and coordination in a supply chain. alone, with no downstream effect on the role of outsourcing in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.4->I.5->I.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency."
+        },
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions shape which intermediaries and partners participate in the distribution channel."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management."
+      },
+      "consequence_description": "When the channels of distribution for supply chain management. is disrupted, the related to connection to the role of outsourcing in a supply chain. breaks down. The role of outsourcing in a supply chain. loses its foundational input from the role of the team in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The channels of distribution for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of the team in supply chain management. to the channels of distribution for supply chain management. establishes a dependency, and the related to relationship from the channels of distribution for supply chain management. to the role of outsourcing in a supply chain. carries that influence forward. When the channels of distribution for supply chain management. is disrupted, the downstream effect on the role of outsourcing in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of the team in supply chain management. influences the role of outsourcing in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the channels of distribution for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the channels of distribution for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the channels of distribution for supply chain management. alone, with no downstream effect on the role of outsourcing in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.3->I.2->I.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Measurement of outsourced partner performance is critical for managing third-party relationships."
+        },
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions directly affect the structure and composition of distribution channels."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain."
+      },
+      "consequence_description": "When the role of outsourcing in a supply chain. is disrupted, the related to connection to the channels of distribution for supply chain management. breaks down. The channels of distribution for supply chain management. loses its foundational input from measurement of supply chain performance., degrading overall supply chain performance in this area.",
+      "explanation": "The role of outsourcing in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from measurement of supply chain performance. to the role of outsourcing in a supply chain. establishes a dependency, and the related to relationship from the role of outsourcing in a supply chain. to the channels of distribution for supply chain management. carries that influence forward. When the role of outsourcing in a supply chain. is disrupted, the downstream effect on the channels of distribution for supply chain management. is not merely a loss of one input — it severs the entire pathway through which measurement of supply chain performance. influences the channels of distribution for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of outsourcing in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the role of outsourcing in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of outsourcing in a supply chain. alone, with no downstream effect on the channels of distribution for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.3->I.4->I.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams use performance data to make informed decisions and prioritize improvement initiatives."
+        },
+        {
+          "type": "related_to",
+          "description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.4",
+        "label": "Explain the role of the team in supply chain management."
+      },
+      "consequence_description": "When the role of the team in supply chain management. is disrupted, the related to connection to the channels of distribution for supply chain management. breaks down. The channels of distribution for supply chain management. loses its foundational input from measurement of supply chain performance., degrading overall supply chain performance in this area.",
+      "explanation": "The role of the team in supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from measurement of supply chain performance. to the role of the team in supply chain management. establishes a dependency, and the related to relationship from the role of the team in supply chain management. to the channels of distribution for supply chain management. carries that influence forward. When the role of the team in supply chain management. is disrupted, the downstream effect on the channels of distribution for supply chain management. is not merely a loss of one input — it severs the entire pathway through which measurement of supply chain performance. influences the channels of distribution for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        },
+        {
+          "url": "https://scmtalent.com/supply-chain-collaboration",
+          "title": "The Importance of Cross-Functional Skills in Supply Chain Management",
+          "site": "SCM Talent Group"
+        },
+        {
+          "url": "https://www.dummies.com/article/business-careers-money/business/operations/supply-chain-management-cross-functional-project-teams-255107/",
+          "title": "Supply Chain Management: Cross-Functional Project Teams",
+          "site": "Dummies"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of the team in supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the role of the team in supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of the team in supply chain management. alone, with no downstream effect on the channels of distribution for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.2->I.3->I.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Performance measurement is essential for evaluating outsourced partner effectiveness."
+        },
+        {
+          "type": "related_to",
+          "description": "Teams use performance data to make informed decisions and prioritize improvement initiatives."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance."
+      },
+      "consequence_description": "When measurement of supply chain performance. is disrupted, the related to connection to the role of the team in supply chain management. breaks down. The role of the team in supply chain management. loses its foundational input from the role of outsourcing in a supply chain., degrading overall supply chain performance in this area.",
+      "explanation": "Measurement of supply chain performance. serves as a critical intermediary in this concept chain. The related to relationship from the role of outsourcing in a supply chain. to measurement of supply chain performance. establishes a dependency, and the related to relationship from measurement of supply chain performance. to the role of the team in supply chain management. carries that influence forward. When measurement of supply chain performance. is disrupted, the downstream effect on the role of the team in supply chain management. is not merely a loss of one input — it severs the entire pathway through which the role of outsourcing in a supply chain. influences the role of the team in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making measurement of supply chain performance. redundant and improving overall efficiency.",
+          "Disrupting measurement of supply chain performance. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to measurement of supply chain performance. alone, with no downstream effect on the role of the team in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.3->I.1->I.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Performance metrics help evaluate whether coordination efforts across the supply chain are producing desired outcomes."
+        },
+        {
+          "type": "related_to",
+          "description": "Cross-functional teams are a primary mechanism for achieving internal coordination in supply chains."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain."
+      },
+      "consequence_description": "When the importance of cooperation and coordination in a supply chain. is disrupted, the related to connection to the role of the team in supply chain management. breaks down. The role of the team in supply chain management. loses its foundational input from measurement of supply chain performance., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of cooperation and coordination in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from measurement of supply chain performance. to the importance of cooperation and coordination in a supply chain. establishes a dependency, and the related to relationship from the importance of cooperation and coordination in a supply chain. to the role of the team in supply chain management. carries that influence forward. When the importance of cooperation and coordination in a supply chain. is disrupted, the downstream effect on the role of the team in supply chain management. is not merely a loss of one input — it severs the entire pathway through which measurement of supply chain performance. influences the role of the team in supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of cooperation and coordination in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of cooperation and coordination in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of cooperation and coordination in a supply chain. alone, with no downstream effect on the role of the team in supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.4->I.5->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency."
+        },
+        {
+          "type": "related_to",
+          "description": "Coordination across distribution channel members is essential for efficient product flow to consumers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management."
+      },
+      "consequence_description": "When the channels of distribution for supply chain management. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from the role of the team in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The channels of distribution for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of the team in supply chain management. to the channels of distribution for supply chain management. establishes a dependency, and the related to relationship from the channels of distribution for supply chain management. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When the channels of distribution for supply chain management. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of the team in supply chain management. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the channels of distribution for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the channels of distribution for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the channels of distribution for supply chain management. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.5->I.2->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions shape which intermediaries and partners participate in the distribution channel."
+        },
+        {
+          "type": "related_to",
+          "description": "Effective outsourcing depends on strong cooperation and coordination between the firm and its service providers."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain."
+      },
+      "consequence_description": "When the role of outsourcing in a supply chain. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from the channels of distribution for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The role of outsourcing in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the channels of distribution for supply chain management. to the role of outsourcing in a supply chain. establishes a dependency, and the related to relationship from the role of outsourcing in a supply chain. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When the role of outsourcing in a supply chain. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the channels of distribution for supply chain management. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of outsourcing in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the role of outsourcing in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of outsourcing in a supply chain. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.4->I.3->I.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams rely on performance metrics to guide decision-making and measure the impact of improvement efforts."
+        },
+        {
+          "type": "related_to",
+          "description": "Performance metrics help evaluate whether coordination efforts across the supply chain are producing desired outcomes."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance."
+      },
+      "consequence_description": "When measurement of supply chain performance. is disrupted, the related to connection to the importance of cooperation and coordination in a supply chain. breaks down. The importance of cooperation and coordination in a supply chain. loses its foundational input from the role of the team in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Measurement of supply chain performance. serves as a critical intermediary in this concept chain. The related to relationship from the role of the team in supply chain management. to measurement of supply chain performance. establishes a dependency, and the related to relationship from measurement of supply chain performance. to the importance of cooperation and coordination in a supply chain. carries that influence forward. When measurement of supply chain performance. is disrupted, the downstream effect on the importance of cooperation and coordination in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of the team in supply chain management. influences the importance of cooperation and coordination in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.shipbob.com/blog/supply-chain-metrics/",
+          "title": "Supply Chain Metrics: Measure & Improve These 11 KPIs",
+          "site": "ShipBob"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making measurement of supply chain performance. redundant and improving overall efficiency.",
+          "Disrupting measurement of supply chain performance. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to measurement of supply chain performance. alone, with no downstream effect on the importance of cooperation and coordination in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.4->I.1->I.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.1",
+          "label": "Explain the importance of cooperation and coordination in a supply chain."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams are the organizational mechanism through which cooperation and coordination are achieved within the supply chain."
+        },
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions require strong coordination between the firm and its external partners."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain."
+      },
+      "consequence_description": "When the importance of cooperation and coordination in a supply chain. is disrupted, the related to connection to the role of outsourcing in a supply chain. breaks down. The role of outsourcing in a supply chain. loses its foundational input from the role of the team in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The importance of cooperation and coordination in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the role of the team in supply chain management. to the importance of cooperation and coordination in a supply chain. establishes a dependency, and the related to relationship from the importance of cooperation and coordination in a supply chain. to the role of outsourcing in a supply chain. carries that influence forward. When the importance of cooperation and coordination in a supply chain. is disrupted, the downstream effect on the role of outsourcing in a supply chain. is not merely a loss of one input — it severs the entire pathway through which the role of the team in supply chain management. influences the role of outsourcing in a supply chain., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Supply_chain_collaboration",
+          "title": "Supply Chain Collaboration",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the importance of cooperation and coordination in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the importance of cooperation and coordination in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the importance of cooperation and coordination in a supply chain. alone, with no downstream effect on the role of outsourcing in a supply chain. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.4->I.5->I.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.4",
+          "label": "Explain the role of the team in supply chain management."
+        },
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Teams coordinate across distribution channel partners to ensure alignment and efficiency."
+        },
+        {
+          "type": "related_to",
+          "description": "Distribution channel performance is measured through metrics such as on-time delivery, fill rate, and cost-to-serve."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management."
+      },
+      "consequence_description": "When the channels of distribution for supply chain management. is disrupted, the related to connection to measurement of supply chain performance. breaks down. Measurement of supply chain performance. loses its foundational input from the role of the team in supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The channels of distribution for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from the role of the team in supply chain management. to the channels of distribution for supply chain management. establishes a dependency, and the related to relationship from the channels of distribution for supply chain management. to measurement of supply chain performance. carries that influence forward. When the channels of distribution for supply chain management. is disrupted, the downstream effect on measurement of supply chain performance. is not merely a loss of one input — it severs the entire pathway through which the role of the team in supply chain management. influences measurement of supply chain performance., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/wm-introductiontobusiness/chapter/supply-chains-and-distribution-channels/",
+          "title": "Supply Chains and Distribution Channels",
+          "site": "Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the channels of distribution for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting the channels of distribution for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the channels of distribution for supply chain management. alone, with no downstream effect on measurement of supply chain performance. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.5->I.2->I.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "I.5",
+          "label": "Describe the channels of distribution for supply chain management."
+        },
+        {
+          "id": "I.2",
+          "label": "Describe the role of outsourcing in a supply chain."
+        },
+        {
+          "id": "I.3",
+          "label": "Describe measurement of supply chain performance."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Outsourcing decisions shape which intermediaries and partners participate in the distribution channel."
+        },
+        {
+          "type": "related_to",
+          "description": "Performance measurement is essential for evaluating outsourced partner effectiveness."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain."
+      },
+      "consequence_description": "When the role of outsourcing in a supply chain. is disrupted, the related to connection to measurement of supply chain performance. breaks down. Measurement of supply chain performance. loses its foundational input from the channels of distribution for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "The role of outsourcing in a supply chain. serves as a critical intermediary in this concept chain. The related to relationship from the channels of distribution for supply chain management. to the role of outsourcing in a supply chain. establishes a dependency, and the related to relationship from the role of outsourcing in a supply chain. to measurement of supply chain performance. carries that influence forward. When the role of outsourcing in a supply chain. is disrupted, the downstream effect on measurement of supply chain performance. is not merely a loss of one input — it severs the entire pathway through which the channels of distribution for supply chain management. influences measurement of supply chain performance., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/sourcing/outsourcing",
+          "title": "Outsourcing: Definition & Guide",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the role of outsourcing in a supply chain. redundant and improving overall efficiency.",
+          "Disrupting the role of outsourcing in a supply chain. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the role of outsourcing in a supply chain. alone, with no downstream effect on measurement of supply chain performance. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "I.5<>K.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "K.8",
+        "label": "Indirect channels of distribution",
+        "section": "K"
+      },
+      "interaction_description": "The channels of distribution for supply chain management. and indirect channels of distribution have a bidirectional relationship across their domains: decisions in the channels of distribution for supply chain management. directly influence how indirect channels of distribution is configured and managed, while feedback from indirect channels of distribution operations informs adjustments to the channels of distribution for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the channels of distribution for supply chain management. (Section I) and indirect channels of distribution (Section K) illustrates how supply chain concepts rarely exist in isolation. The channels of distribution for supply chain management. provides strategic direction that shapes indirect channels of distribution decisions, while indirect channels of distribution generates operational data and constraints that feed back into the channels of distribution for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/direct-vs-indirect-distribution/",
+          "title": "Direct vs. Indirect Distribution Channels: Understanding the Differences",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The channels of distribution for supply chain management. and indirect channels of distribution operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The channels of distribution for supply chain management. completely subsumes indirect channels of distribution, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the channels of distribution for supply chain management. and indirect channels of distribution is purely one-directional, with no feedback mechanism from indirect channels of distribution back to the channels of distribution for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "I.3<>G.7_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.3",
+        "label": "Describe measurement of supply chain performance.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "G.7",
+        "label": "Describe evaluation processes for supply chain management",
+        "section": "G"
+      },
+      "interaction_description": "Measurement of supply chain performance. and evaluation processes for supply chain management have a bidirectional relationship across their domains: decisions in measurement of supply chain performance. directly influence how evaluation processes for supply chain management is configured and managed, while feedback from evaluation processes for supply chain management operations informs adjustments to measurement of supply chain performance. strategy.",
+      "explanation": "The cross-section relationship between measurement of supply chain performance. (Section I) and evaluation processes for supply chain management (Section G) illustrates how supply chain concepts rarely exist in isolation. Measurement of supply chain performance. provides strategic direction that shapes evaluation processes for supply chain management decisions, while evaluation processes for supply chain management generates operational data and constraints that feed back into measurement of supply chain performance. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apics.org/docs/default-source/scor-p-toolkits/apics-scc-scor-quick-reference-guide.pdf",
+          "title": "SCOR Version 12.0 Quick Reference Guide",
+          "site": "APICS/ASCM"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/procurement/kpis/scor-model",
+          "title": "SCOR Model - Supply Chain Operations Reference",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.ism.ws/supply-chain/scor-model/",
+          "title": "Mastering the SCOR Model for Supply Chain Success",
+          "site": "ISM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Measurement of supply chain performance. and evaluation processes for supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Measurement of supply chain performance. completely subsumes evaluation processes for supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between measurement of supply chain performance. and evaluation processes for supply chain management is purely one-directional, with no feedback mechanism from evaluation processes for supply chain management back to measurement of supply chain performance.."
+        ]
+      }
+    },
+    {
+      "id": "I.1<>A.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.1",
+        "label": "Explain the importance of cooperation and coordination in a supply chain.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "A.1",
+        "label": "Define supply chain management",
+        "section": "A"
+      },
+      "interaction_description": "The importance of cooperation and coordination in a supply chain. and supply chain management have a bidirectional relationship across their domains: decisions in the importance of cooperation and coordination in a supply chain. directly influence how supply chain management is configured and managed, while feedback from supply chain management operations informs adjustments to the importance of cooperation and coordination in a supply chain. strategy.",
+      "explanation": "The cross-section relationship between the importance of cooperation and coordination in a supply chain. (Section I) and supply chain management (Section A) illustrates how supply chain concepts rarely exist in isolation. The importance of cooperation and coordination in a supply chain. provides strategic direction that shapes supply chain management decisions, while supply chain management generates operational data and constraints that feed back into the importance of cooperation and coordination in a supply chain. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/supply-chain-management/supply-chain-collaboration",
+          "title": "Supply Chain Collaboration: Importance & Steps",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx",
+          "title": "SCM Definitions and Glossary of Terms",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The importance of cooperation and coordination in a supply chain. and supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The importance of cooperation and coordination in a supply chain. completely subsumes supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the importance of cooperation and coordination in a supply chain. and supply chain management is purely one-directional, with no feedback mechanism from supply chain management back to the importance of cooperation and coordination in a supply chain.."
+        ]
+      }
+    },
+    {
+      "id": "I.2<>D.3_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.2",
+        "label": "Describe the role of outsourcing in a supply chain.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "D.3",
+        "label": "Explain how suppliers, subcontractors, transportation providers, and product distribution is determined by a company.",
+        "section": "D"
+      },
+      "interaction_description": "The role of outsourcing in a supply chain. and suppliers, subcontractors, transportation providers, and product distribution is determined by a company. have a bidirectional relationship across their domains: decisions in the role of outsourcing in a supply chain. directly influence how suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is configured and managed, while feedback from suppliers, subcontractors, transportation providers, and product distribution is determined by a company. operations informs adjustments to the role of outsourcing in a supply chain. strategy.",
+      "explanation": "The cross-section relationship between the role of outsourcing in a supply chain. (Section I) and suppliers, subcontractors, transportation providers, and product distribution is determined by a company. (Section D) illustrates how supply chain concepts rarely exist in isolation. The role of outsourcing in a supply chain. provides strategic direction that shapes suppliers, subcontractors, transportation providers, and product distribution is determined by a company. decisions, while suppliers, subcontractors, transportation providers, and product distribution is determined by a company. generates operational data and constraints that feed back into the role of outsourcing in a supply chain. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hcltech.com/knowledge-library/what-is-outsourcing-in-supply-chain-management",
+          "title": "What is Outsourcing in Supply Chain Management?",
+          "site": "HCLTech"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/supply-chain-management-outsourcing.shtml",
+          "title": "The Ultimate Supply Chain Management Outsourcing Guide",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.scmr.com/article/transportation_decision-making_in_an_integrated_supply_chain",
+          "title": "Transportation Decision-Making in an Integrated Supply Chain",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The role of outsourcing in a supply chain. and suppliers, subcontractors, transportation providers, and product distribution is determined by a company. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The role of outsourcing in a supply chain. completely subsumes suppliers, subcontractors, transportation providers, and product distribution is determined by a company., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the role of outsourcing in a supply chain. and suppliers, subcontractors, transportation providers, and product distribution is determined by a company. is purely one-directional, with no feedback mechanism from suppliers, subcontractors, transportation providers, and product distribution is determined by a company. back to the role of outsourcing in a supply chain.."
+        ]
+      }
+    },
+    {
+      "id": "I.5<>K.9_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "K.9",
+        "label": "Role of intermediaries in selling products",
+        "section": "K"
+      },
+      "interaction_description": "The channels of distribution for supply chain management. and role of intermediaries in selling products have a bidirectional relationship across their domains: decisions in the channels of distribution for supply chain management. directly influence how role of intermediaries in selling products is configured and managed, while feedback from role of intermediaries in selling products operations informs adjustments to the channels of distribution for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the channels of distribution for supply chain management. (Section I) and role of intermediaries in selling products (Section K) illustrates how supply chain concepts rarely exist in isolation. The channels of distribution for supply chain management. provides strategic direction that shapes role of intermediaries in selling products decisions, while role of intermediaries in selling products generates operational data and constraints that feed back into the channels of distribution for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://www.britannica.com/money/marketing/Marketing-intermediaries-the-distribution-channel",
+          "title": "Marketing Intermediaries and the Distribution Channel",
+          "site": "Britannica Money"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The channels of distribution for supply chain management. and role of intermediaries in selling products operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The channels of distribution for supply chain management. completely subsumes role of intermediaries in selling products, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the channels of distribution for supply chain management. and role of intermediaries in selling products is purely one-directional, with no feedback mechanism from role of intermediaries in selling products back to the channels of distribution for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "I.5<>A.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "A.2",
+        "label": "Define the entire supply chain",
+        "section": "A"
+      },
+      "interaction_description": "The channels of distribution for supply chain management. and the entire supply chain have a bidirectional relationship across their domains: decisions in the channels of distribution for supply chain management. directly influence how the entire supply chain is configured and managed, while feedback from the entire supply chain operations informs adjustments to the channels of distribution for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the channels of distribution for supply chain management. (Section I) and the entire supply chain (Section A) illustrates how supply chain concepts rarely exist in isolation. The channels of distribution for supply chain management. provides strategic direction that shapes the entire supply chain decisions, while the entire supply chain generates operational data and constraints that feed back into the channels of distribution for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The channels of distribution for supply chain management. and the entire supply chain operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The channels of distribution for supply chain management. completely subsumes the entire supply chain, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the channels of distribution for supply chain management. and the entire supply chain is purely one-directional, with no feedback mechanism from the entire supply chain back to the channels of distribution for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "I.5<>K.11_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "K.11",
+        "label": "Two-level channel of distribution",
+        "section": "K"
+      },
+      "interaction_description": "The channels of distribution for supply chain management. and two-level channel of distribution have a bidirectional relationship across their domains: decisions in the channels of distribution for supply chain management. directly influence how two-level channel of distribution is configured and managed, while feedback from two-level channel of distribution operations informs adjustments to the channels of distribution for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the channels of distribution for supply chain management. (Section I) and two-level channel of distribution (Section K) illustrates how supply chain concepts rarely exist in isolation. The channels of distribution for supply chain management. provides strategic direction that shapes two-level channel of distribution decisions, while two-level channel of distribution generates operational data and constraints that feed back into the channels of distribution for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The channels of distribution for supply chain management. and two-level channel of distribution operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The channels of distribution for supply chain management. completely subsumes two-level channel of distribution, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the channels of distribution for supply chain management. and two-level channel of distribution is purely one-directional, with no feedback mechanism from two-level channel of distribution back to the channels of distribution for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "I.5<>K.12_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "I.5",
+        "label": "Describe the channels of distribution for supply chain management.",
+        "section": "I"
+      },
+      "target_concept": {
+        "id": "K.12",
+        "label": "Three-level channel of distribution",
+        "section": "K"
+      },
+      "interaction_description": "The channels of distribution for supply chain management. and three-level channel of distribution have a bidirectional relationship across their domains: decisions in the channels of distribution for supply chain management. directly influence how three-level channel of distribution is configured and managed, while feedback from three-level channel of distribution operations informs adjustments to the channels of distribution for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between the channels of distribution for supply chain management. (Section I) and three-level channel of distribution (Section K) illustrates how supply chain concepts rarely exist in isolation. The channels of distribution for supply chain management. provides strategic direction that shapes three-level channel of distribution decisions, while three-level channel of distribution generates operational data and constraints that feed back into the channels of distribution for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/distribution-channels-in-logistics/",
+          "title": "Distribution Channels in Logistics: Definition, Types, and Components",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.commport.com/distribution-channels/",
+          "title": "Types of Distribution Channels in Supply Chain - A Comprehensive Guide",
+          "site": "Commport"
+        },
+        {
+          "url": "https://plutuseducation.com/blog/levels-of-distribution-channels/",
+          "title": "Levels of Distribution Channels: Zero, One, Two, Three Explained",
+          "site": "Plutus Education"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The channels of distribution for supply chain management. and three-level channel of distribution operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "The channels of distribution for supply chain management. completely subsumes three-level channel of distribution, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between the channels of distribution for supply chain management. and three-level channel of distribution is purely one-directional, with no feedback mechanism from three-level channel of distribution back to the channels of distribution for supply chain management.."
+        ]
+      }
+    }
+  ]
+}

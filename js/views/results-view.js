@@ -5,6 +5,7 @@
 import { getState, setState } from '../store.js';
 import { calculateResults, createSession } from '../quiz-engine.js';
 import { clearSession, updateStats, loadFlags, loadIffy } from '../persistence.js';
+import { logSession } from '../logger.js';
 
 const SECTION_COLORS = {
   A: '#B8562F', B: '#2E7D6E', C: '#6C5B9E', D: '#3A7D44', E: '#C0862B',
@@ -28,6 +29,7 @@ export function renderResultsView() {
   const iffy = loadIffy();
 
   updateStats(results);
+  logSession(session, results, flags, iffy, getState().currentUser);
   clearSession();
 
   document.getElementById('progress-bar').style.display = 'none';

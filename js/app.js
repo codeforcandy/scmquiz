@@ -11,6 +11,7 @@ import { initTheme } from './ui/theme.js';
 import { initKeyboard } from './ui/keyboard.js';
 import { resetProgress } from './ui/progress-bar.js';
 import { loadUser, setCurrentUserId } from './persistence.js';
+import { flushPendingLogs } from './logger.js';
 import { loadAuthData } from './auth.js';
 
 // Data loading promise — resolved once quiz data is ready
@@ -71,6 +72,7 @@ async function init() {
   if (userId) {
     // Authenticated — wait for data, then show setup
     setCurrentUserId(userId);
+    flushPendingLogs();
     await dataReady;
     setState({ currentUser: userId, currentView: 'setup' });
   } else {

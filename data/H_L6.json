@@ -1,0 +1,2041 @@
+{
+  "section_id": "H",
+  "section_title": "Production Planning and Control",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "H.1->H.2->H.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.1",
+          "label": "Describe different types of supply chain management planning."
+        },
+        {
+          "id": "H.2",
+          "label": "Define Static vs. Dynamic Planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Static and dynamic planning are approaches applied within these planning levels."
+        },
+        {
+          "type": "related_to",
+          "description": "The master production schedule can be managed using either static or dynamic planning methods."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.2",
+        "label": "Define Static vs. Dynamic Planning."
+      },
+      "consequence_description": "When static vs. dynamic planning. is disrupted, the related to connection to a master production schedule is determined. breaks down. A master production schedule is determined. loses its foundational input from different types of supply chain management planning., degrading overall supply chain performance in this area.",
+      "explanation": "Static vs. Dynamic Planning. serves as a critical intermediary in this concept chain. The related to relationship from different types of supply chain management planning. to static vs. dynamic planning. establishes a dependency, and the related to relationship from static vs. dynamic planning. to a master production schedule is determined. carries that influence forward. When static vs. dynamic planning. is disrupted, the downstream effect on a master production schedule is determined. is not merely a loss of one input — it severs the entire pathway through which different types of supply chain management planning. influences a master production schedule is determined., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/supply-chain/master-planning/deprecated-master-plans",
+          "title": "Set up master plans for the deprecated planning engine",
+          "site": "Microsoft Learn"
+        },
+        {
+          "url": "https://www.goarmstrong.com/resources/risk-of-static-supply-chain/",
+          "title": "Static vs. Dynamic Supply Chains: The Path to Resilience",
+          "site": "Armstrong"
+        },
+        {
+          "url": "https://fareye.com/resources/blogs/static-vs-dynamic-route-planning",
+          "title": "Static Route vs Dynamic Route Planning: A Practical Guide",
+          "site": "FarEye"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making static vs. dynamic planning. redundant and improving overall efficiency.",
+          "Disrupting static vs. dynamic planning. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to static vs. dynamic planning. alone, with no downstream effect on a master production schedule is determined. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.1->H.3->H.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.1",
+          "label": "Describe different types of supply chain management planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The master production schedule is a key output of tactical planning."
+        },
+        {
+          "type": "related_to",
+          "description": "The MPS uses the bill of materials to determine component and material requirements."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.3",
+        "label": "Explain how a master production schedule is determined."
+      },
+      "consequence_description": "When a master production schedule is determined. is disrupted, the related to connection to bill of material (bom). breaks down. Bill of Material (BOM). loses its foundational input from different types of supply chain management planning., degrading overall supply chain performance in this area.",
+      "explanation": "A master production schedule is determined. serves as a critical intermediary in this concept chain. The related to relationship from different types of supply chain management planning. to a master production schedule is determined. establishes a dependency, and the related to relationship from a master production schedule is determined. to bill of material (bom). carries that influence forward. When a master production schedule is determined. is disrupted, the downstream effect on bill of material (bom). is not merely a loss of one input — it severs the entire pathway through which different types of supply chain management planning. influences bill of material (bom)., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a master production schedule is determined. redundant and improving overall efficiency.",
+          "Disrupting a master production schedule is determined. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a master production schedule is determined. alone, with no downstream effect on bill of material (bom). or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.2->H.1->H.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.2",
+          "label": "Define Static vs. Dynamic Planning."
+        },
+        {
+          "id": "H.1",
+          "label": "Describe different types of supply chain management planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Static and dynamic are planning approaches used within the broader types of SCM planning."
+        },
+        {
+          "type": "related_to",
+          "description": "The master production schedule is a key output of tactical planning."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.1",
+        "label": "Describe different types of supply chain management planning."
+      },
+      "consequence_description": "When different types of supply chain management planning. is disrupted, the related to connection to a master production schedule is determined. breaks down. A master production schedule is determined. loses its foundational input from static vs. dynamic planning., degrading overall supply chain performance in this area.",
+      "explanation": "Different types of supply chain management planning. serves as a critical intermediary in this concept chain. The related to relationship from static vs. dynamic planning. to different types of supply chain management planning. establishes a dependency, and the related to relationship from different types of supply chain management planning. to a master production schedule is determined. carries that influence forward. When different types of supply chain management planning. is disrupted, the downstream effect on a master production schedule is determined. is not merely a loss of one input — it severs the entire pathway through which static vs. dynamic planning. influences a master production schedule is determined., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making different types of supply chain management planning. redundant and improving overall efficiency.",
+          "Disrupting different types of supply chain management planning. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to different types of supply chain management planning. alone, with no downstream effect on a master production schedule is determined. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.3->H.4->H.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The MPS uses the bill of materials to determine component and material requirements."
+        },
+        {
+          "type": "related_to",
+          "description": "The BOM specifies the raw materials needed for production."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.4",
+        "label": "Define Bill of Material (BOM)."
+      },
+      "consequence_description": "When bill of material (bom). is disrupted, the related to connection to raw materials required for supply chain management. breaks down. Raw materials required for supply chain management. loses its foundational input from a master production schedule is determined., degrading overall supply chain performance in this area.",
+      "explanation": "Bill of Material (BOM). serves as a critical intermediary in this concept chain. The related to relationship from a master production schedule is determined. to bill of material (bom). establishes a dependency, and the related to relationship from bill of material (bom). to raw materials required for supply chain management. carries that influence forward. When bill of material (bom). is disrupted, the downstream effect on raw materials required for supply chain management. is not merely a loss of one input — it severs the entire pathway through which a master production schedule is determined. influences raw materials required for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/bills-of-material",
+          "title": "Bills of Material (BOM) In the Supply Chain",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/bill-of-materials-bom.shtml",
+          "title": "What Is a Bill of Materials (BOM)? The Complete Guide to BOMs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://gainsystems.com/blog/bill-of-materials-bom-in-supply-chain-management-impacts-and-examples/",
+          "title": "Bill of Materials (BOM) in Supply Chain Management: Impacts and Examples",
+          "site": "Gain Systems"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making bill of material (bom). redundant and improving overall efficiency.",
+          "Disrupting bill of material (bom). would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to bill of material (bom). alone, with no downstream effect on raw materials required for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.3->H.5->H.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        },
+        {
+          "type": "related_to",
+          "description": "The BOM specifies which raw materials are required and in what quantities."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management."
+      },
+      "consequence_description": "When raw materials required for supply chain management. is disrupted, the related to connection to bill of material (bom). breaks down. Bill of Material (BOM). loses its foundational input from a master production schedule is determined., degrading overall supply chain performance in this area.",
+      "explanation": "Raw materials required for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from a master production schedule is determined. to raw materials required for supply chain management. establishes a dependency, and the related to relationship from raw materials required for supply chain management. to bill of material (bom). carries that influence forward. When raw materials required for supply chain management. is disrupted, the downstream effect on bill of material (bom). is not merely a loss of one input — it severs the entire pathway through which a master production schedule is determined. influences bill of material (bom)., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making raw materials required for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting raw materials required for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to raw materials required for supply chain management. alone, with no downstream effect on bill of material (bom). or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.4->H.6->H.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        },
+        {
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter manufacturing."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.6",
+        "label": "Describe work-in-process for supply chain management."
+      },
+      "consequence_description": "When work-in-process for supply chain management. is disrupted, the related to connection to raw materials required for supply chain management. breaks down. Raw materials required for supply chain management. loses its foundational input from bill of material (bom)., degrading overall supply chain performance in this area.",
+      "explanation": "Work-in-process for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from bill of material (bom). to work-in-process for supply chain management. establishes a dependency, and the related to relationship from work-in-process for supply chain management. to raw materials required for supply chain management. carries that influence forward. When work-in-process for supply chain management. is disrupted, the downstream effect on raw materials required for supply chain management. is not merely a loss of one input — it severs the entire pathway through which bill of material (bom). influences raw materials required for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Work_in_process",
+          "title": "Work in process",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-11/the-monthly-metric-work-in-process-inventory/",
+          "title": "The Monthly Metric: Work-in-Process Inventory",
+          "site": "ISM (Institute for Supply Management)"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/accounting/work-in-process.shtml",
+          "title": "What is Work in Process?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making work-in-process for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting work-in-process for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to work-in-process for supply chain management. alone, with no downstream effect on raw materials required for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.5->H.7->H.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Raw materials are transformed through production into finished goods."
+        },
+        {
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.7",
+        "label": "Define finished goods and the goal to move those goods."
+      },
+      "consequence_description": "When finished goods and the goal to move those goods. is disrupted, the related to connection to work-in-process for supply chain management. breaks down. Work-in-process for supply chain management. loses its foundational input from raw materials required for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Finished goods and the goal to move those goods. serves as a critical intermediary in this concept chain. The related to relationship from raw materials required for supply chain management. to finished goods and the goal to move those goods. establishes a dependency, and the related to relationship from finished goods and the goal to move those goods. to work-in-process for supply chain management. carries that influence forward. When finished goods and the goal to move those goods. is disrupted, the downstream effect on work-in-process for supply chain management. is not merely a loss of one input — it severs the entire pathway through which raw materials required for supply chain management. influences work-in-process for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/finished-goods-inventory/",
+          "title": "Finished Goods Inventory: What It Is, Formula, and Examples",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.fishbowlinventory.com/blog/what-are-finished-goods",
+          "title": "Finished Goods Inventory Management: A Guide + Formula",
+          "site": "Fishbowl"
+        },
+        {
+          "url": "https://www.ism.ws/logistics/types-of-inventory/",
+          "title": "Types of Inventory: Raw, WIP, Finished Goods Explained",
+          "site": "ISM (Institute for Supply Management)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making finished goods and the goal to move those goods. redundant and improving overall efficiency.",
+          "Disrupting finished goods and the goal to move those goods. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to finished goods and the goal to move those goods. alone, with no downstream effect on work-in-process for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.1->H.3->H.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.1",
+          "label": "Describe different types of supply chain management planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The master production schedule is a key output of tactical planning."
+        },
+        {
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.3",
+        "label": "Explain how a master production schedule is determined."
+      },
+      "consequence_description": "When a master production schedule is determined. is disrupted, the related to connection to raw materials required for supply chain management. breaks down. Raw materials required for supply chain management. loses its foundational input from different types of supply chain management planning., degrading overall supply chain performance in this area.",
+      "explanation": "A master production schedule is determined. serves as a critical intermediary in this concept chain. The related to relationship from different types of supply chain management planning. to a master production schedule is determined. establishes a dependency, and the related to relationship from a master production schedule is determined. to raw materials required for supply chain management. carries that influence forward. When a master production schedule is determined. is disrupted, the downstream effect on raw materials required for supply chain management. is not merely a loss of one input — it severs the entire pathway through which different types of supply chain management planning. influences raw materials required for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a master production schedule is determined. redundant and improving overall efficiency.",
+          "Disrupting a master production schedule is determined. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a master production schedule is determined. alone, with no downstream effect on raw materials required for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.3->H.1->H.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.1",
+          "label": "Describe different types of supply chain management planning."
+        },
+        {
+          "id": "H.2",
+          "label": "Define Static vs. Dynamic Planning."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The MPS is a key output of tactical-level supply chain planning."
+        },
+        {
+          "type": "related_to",
+          "description": "Static and dynamic planning are approaches applied within these planning levels."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.1",
+        "label": "Describe different types of supply chain management planning."
+      },
+      "consequence_description": "When different types of supply chain management planning. is disrupted, the related to connection to static vs. dynamic planning. breaks down. Static vs. Dynamic Planning. loses its foundational input from a master production schedule is determined., degrading overall supply chain performance in this area.",
+      "explanation": "Different types of supply chain management planning. serves as a critical intermediary in this concept chain. The related to relationship from a master production schedule is determined. to different types of supply chain management planning. establishes a dependency, and the related to relationship from different types of supply chain management planning. to static vs. dynamic planning. carries that influence forward. When different types of supply chain management planning. is disrupted, the downstream effect on static vs. dynamic planning. is not merely a loss of one input — it severs the entire pathway through which a master production schedule is determined. influences static vs. dynamic planning., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/CSCMP/Develop/Starting_Your_Career/Supply_Chain_Management_Concepts.aspx",
+          "title": "Supply Chain Management Concepts",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making different types of supply chain management planning. redundant and improving overall efficiency.",
+          "Disrupting different types of supply chain management planning. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to different types of supply chain management planning. alone, with no downstream effect on static vs. dynamic planning. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.3->H.4->H.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The MPS uses the bill of materials to determine component and material requirements."
+        },
+        {
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.4",
+        "label": "Define Bill of Material (BOM)."
+      },
+      "consequence_description": "When bill of material (bom). is disrupted, the related to connection to work-in-process for supply chain management. breaks down. Work-in-process for supply chain management. loses its foundational input from a master production schedule is determined., degrading overall supply chain performance in this area.",
+      "explanation": "Bill of Material (BOM). serves as a critical intermediary in this concept chain. The related to relationship from a master production schedule is determined. to bill of material (bom). establishes a dependency, and the related to relationship from bill of material (bom). to work-in-process for supply chain management. carries that influence forward. When bill of material (bom). is disrupted, the downstream effect on work-in-process for supply chain management. is not merely a loss of one input — it severs the entire pathway through which a master production schedule is determined. influences work-in-process for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/bills-of-material",
+          "title": "Bills of Material (BOM) In the Supply Chain",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/bill-of-materials-bom.shtml",
+          "title": "What Is a Bill of Materials (BOM)? The Complete Guide to BOMs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://gainsystems.com/blog/bill-of-materials-bom-in-supply-chain-management-impacts-and-examples/",
+          "title": "Bill of Materials (BOM) in Supply Chain Management: Impacts and Examples",
+          "site": "Gain Systems"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making bill of material (bom). redundant and improving overall efficiency.",
+          "Disrupting bill of material (bom). would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to bill of material (bom). alone, with no downstream effect on work-in-process for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.3->H.5->H.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        },
+        {
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter the production process."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management."
+      },
+      "consequence_description": "When raw materials required for supply chain management. is disrupted, the related to connection to work-in-process for supply chain management. breaks down. Work-in-process for supply chain management. loses its foundational input from a master production schedule is determined., degrading overall supply chain performance in this area.",
+      "explanation": "Raw materials required for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from a master production schedule is determined. to raw materials required for supply chain management. establishes a dependency, and the related to relationship from raw materials required for supply chain management. to work-in-process for supply chain management. carries that influence forward. When raw materials required for supply chain management. is disrupted, the downstream effect on work-in-process for supply chain management. is not merely a loss of one input — it severs the entire pathway through which a master production schedule is determined. influences work-in-process for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making raw materials required for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting raw materials required for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to raw materials required for supply chain management. alone, with no downstream effect on work-in-process for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.4->H.6->H.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        },
+        {
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.6",
+        "label": "Describe work-in-process for supply chain management."
+      },
+      "consequence_description": "When work-in-process for supply chain management. is disrupted, the related to connection to finished goods and the goal to move those goods. breaks down. Finished goods and the goal to move those goods. loses its foundational input from bill of material (bom)., degrading overall supply chain performance in this area.",
+      "explanation": "Work-in-process for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from bill of material (bom). to work-in-process for supply chain management. establishes a dependency, and the related to relationship from work-in-process for supply chain management. to finished goods and the goal to move those goods. carries that influence forward. When work-in-process for supply chain management. is disrupted, the downstream effect on finished goods and the goal to move those goods. is not merely a loss of one input — it severs the entire pathway through which bill of material (bom). influences finished goods and the goal to move those goods., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Work_in_process",
+          "title": "Work in process",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-11/the-monthly-metric-work-in-process-inventory/",
+          "title": "The Monthly Metric: Work-in-Process Inventory",
+          "site": "ISM (Institute for Supply Management)"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/accounting/work-in-process.shtml",
+          "title": "What is Work in Process?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making work-in-process for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting work-in-process for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to work-in-process for supply chain management. alone, with no downstream effect on finished goods and the goal to move those goods. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.5->H.7->H.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Raw materials are transformed through production into finished goods."
+        },
+        {
+          "type": "related_to",
+          "description": "The master production schedule determines what finished goods will be produced and when."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.7",
+        "label": "Define finished goods and the goal to move those goods."
+      },
+      "consequence_description": "When finished goods and the goal to move those goods. is disrupted, the related to connection to a master production schedule is determined. breaks down. A master production schedule is determined. loses its foundational input from raw materials required for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Finished goods and the goal to move those goods. serves as a critical intermediary in this concept chain. The related to relationship from raw materials required for supply chain management. to finished goods and the goal to move those goods. establishes a dependency, and the related to relationship from finished goods and the goal to move those goods. to a master production schedule is determined. carries that influence forward. When finished goods and the goal to move those goods. is disrupted, the downstream effect on a master production schedule is determined. is not merely a loss of one input — it severs the entire pathway through which raw materials required for supply chain management. influences a master production schedule is determined., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/finished-goods-inventory/",
+          "title": "Finished Goods Inventory: What It Is, Formula, and Examples",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.fishbowlinventory.com/blog/what-are-finished-goods",
+          "title": "Finished Goods Inventory Management: A Guide + Formula",
+          "site": "Fishbowl"
+        },
+        {
+          "url": "https://www.ism.ws/logistics/types-of-inventory/",
+          "title": "Types of Inventory: Raw, WIP, Finished Goods Explained",
+          "site": "ISM (Institute for Supply Management)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making finished goods and the goal to move those goods. redundant and improving overall efficiency.",
+          "Disrupting finished goods and the goal to move those goods. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to finished goods and the goal to move those goods. alone, with no downstream effect on a master production schedule is determined. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.2->H.3->H.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.2",
+          "label": "Define Static vs. Dynamic Planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.1",
+          "label": "Describe different types of supply chain management planning."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The master production schedule can be managed using either static or dynamic planning methods."
+        },
+        {
+          "type": "related_to",
+          "description": "The MPS is a key output of tactical-level supply chain planning."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.3",
+        "label": "Explain how a master production schedule is determined."
+      },
+      "consequence_description": "When a master production schedule is determined. is disrupted, the related to connection to different types of supply chain management planning. breaks down. Different types of supply chain management planning. loses its foundational input from static vs. dynamic planning., degrading overall supply chain performance in this area.",
+      "explanation": "A master production schedule is determined. serves as a critical intermediary in this concept chain. The related to relationship from static vs. dynamic planning. to a master production schedule is determined. establishes a dependency, and the related to relationship from a master production schedule is determined. to different types of supply chain management planning. carries that influence forward. When a master production schedule is determined. is disrupted, the downstream effect on different types of supply chain management planning. is not merely a loss of one input — it severs the entire pathway through which static vs. dynamic planning. influences different types of supply chain management planning., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a master production schedule is determined. redundant and improving overall efficiency.",
+          "Disrupting a master production schedule is determined. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a master production schedule is determined. alone, with no downstream effect on different types of supply chain management planning. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.5->H.4->H.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The BOM specifies which raw materials are required and in what quantities."
+        },
+        {
+          "type": "related_to",
+          "description": "The BOM is used to explode the MPS into detailed material requirements."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.4",
+        "label": "Define Bill of Material (BOM)."
+      },
+      "consequence_description": "When bill of material (bom). is disrupted, the related to connection to a master production schedule is determined. breaks down. A master production schedule is determined. loses its foundational input from raw materials required for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Bill of Material (BOM). serves as a critical intermediary in this concept chain. The related to relationship from raw materials required for supply chain management. to bill of material (bom). establishes a dependency, and the related to relationship from bill of material (bom). to a master production schedule is determined. carries that influence forward. When bill of material (bom). is disrupted, the downstream effect on a master production schedule is determined. is not merely a loss of one input — it severs the entire pathway through which raw materials required for supply chain management. influences a master production schedule is determined., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/bills-of-material",
+          "title": "Bills of Material (BOM) In the Supply Chain",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/bill-of-materials-bom.shtml",
+          "title": "What Is a Bill of Materials (BOM)? The Complete Guide to BOMs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://gainsystems.com/blog/bill-of-materials-bom-in-supply-chain-management-impacts-and-examples/",
+          "title": "Bill of Materials (BOM) in Supply Chain Management: Impacts and Examples",
+          "site": "Gain Systems"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making bill of material (bom). redundant and improving overall efficiency.",
+          "Disrupting bill of material (bom). would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to bill of material (bom). alone, with no downstream effect on a master production schedule is determined. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.3->H.5->H.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        },
+        {
+          "type": "related_to",
+          "description": "Raw materials are transformed through production into finished goods."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management."
+      },
+      "consequence_description": "When raw materials required for supply chain management. is disrupted, the related to connection to finished goods and the goal to move those goods. breaks down. Finished goods and the goal to move those goods. loses its foundational input from a master production schedule is determined., degrading overall supply chain performance in this area.",
+      "explanation": "Raw materials required for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from a master production schedule is determined. to raw materials required for supply chain management. establishes a dependency, and the related to relationship from raw materials required for supply chain management. to finished goods and the goal to move those goods. carries that influence forward. When raw materials required for supply chain management. is disrupted, the downstream effect on finished goods and the goal to move those goods. is not merely a loss of one input — it severs the entire pathway through which a master production schedule is determined. influences finished goods and the goal to move those goods., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making raw materials required for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting raw materials required for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to raw materials required for supply chain management. alone, with no downstream effect on finished goods and the goal to move those goods. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.4->H.6->H.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        },
+        {
+          "type": "related_to",
+          "description": "The master production schedule drives the flow of WIP through the production process."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.6",
+        "label": "Describe work-in-process for supply chain management."
+      },
+      "consequence_description": "When work-in-process for supply chain management. is disrupted, the related to connection to a master production schedule is determined. breaks down. A master production schedule is determined. loses its foundational input from bill of material (bom)., degrading overall supply chain performance in this area.",
+      "explanation": "Work-in-process for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from bill of material (bom). to work-in-process for supply chain management. establishes a dependency, and the related to relationship from work-in-process for supply chain management. to a master production schedule is determined. carries that influence forward. When work-in-process for supply chain management. is disrupted, the downstream effect on a master production schedule is determined. is not merely a loss of one input — it severs the entire pathway through which bill of material (bom). influences a master production schedule is determined., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Work_in_process",
+          "title": "Work in process",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-11/the-monthly-metric-work-in-process-inventory/",
+          "title": "The Monthly Metric: Work-in-Process Inventory",
+          "site": "ISM (Institute for Supply Management)"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/accounting/work-in-process.shtml",
+          "title": "What is Work in Process?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making work-in-process for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting work-in-process for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to work-in-process for supply chain management. alone, with no downstream effect on a master production schedule is determined. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.6->H.7->H.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        },
+        {
+          "type": "related_to",
+          "description": "Finished goods are the end result of transforming raw materials through production."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.7",
+        "label": "Define finished goods and the goal to move those goods."
+      },
+      "consequence_description": "When finished goods and the goal to move those goods. is disrupted, the related to connection to raw materials required for supply chain management. breaks down. Raw materials required for supply chain management. loses its foundational input from work-in-process for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Finished goods and the goal to move those goods. serves as a critical intermediary in this concept chain. The related to relationship from work-in-process for supply chain management. to finished goods and the goal to move those goods. establishes a dependency, and the related to relationship from finished goods and the goal to move those goods. to raw materials required for supply chain management. carries that influence forward. When finished goods and the goal to move those goods. is disrupted, the downstream effect on raw materials required for supply chain management. is not merely a loss of one input — it severs the entire pathway through which work-in-process for supply chain management. influences raw materials required for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/finished-goods-inventory/",
+          "title": "Finished Goods Inventory: What It Is, Formula, and Examples",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.fishbowlinventory.com/blog/what-are-finished-goods",
+          "title": "Finished Goods Inventory Management: A Guide + Formula",
+          "site": "Fishbowl"
+        },
+        {
+          "url": "https://www.ism.ws/logistics/types-of-inventory/",
+          "title": "Types of Inventory: Raw, WIP, Finished Goods Explained",
+          "site": "ISM (Institute for Supply Management)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making finished goods and the goal to move those goods. redundant and improving overall efficiency.",
+          "Disrupting finished goods and the goal to move those goods. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to finished goods and the goal to move those goods. alone, with no downstream effect on raw materials required for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.2->H.3->H.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.2",
+          "label": "Define Static vs. Dynamic Planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The master production schedule can be managed using either static or dynamic planning methods."
+        },
+        {
+          "type": "related_to",
+          "description": "The MPS uses the bill of materials to determine component and material requirements."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.3",
+        "label": "Explain how a master production schedule is determined."
+      },
+      "consequence_description": "When a master production schedule is determined. is disrupted, the related to connection to bill of material (bom). breaks down. Bill of Material (BOM). loses its foundational input from static vs. dynamic planning., degrading overall supply chain performance in this area.",
+      "explanation": "A master production schedule is determined. serves as a critical intermediary in this concept chain. The related to relationship from static vs. dynamic planning. to a master production schedule is determined. establishes a dependency, and the related to relationship from a master production schedule is determined. to bill of material (bom). carries that influence forward. When a master production schedule is determined. is disrupted, the downstream effect on bill of material (bom). is not merely a loss of one input — it severs the entire pathway through which static vs. dynamic planning. influences bill of material (bom)., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a master production schedule is determined. redundant and improving overall efficiency.",
+          "Disrupting a master production schedule is determined. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a master production schedule is determined. alone, with no downstream effect on bill of material (bom). or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.5->H.4->H.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The BOM specifies which raw materials are required and in what quantities."
+        },
+        {
+          "type": "related_to",
+          "description": "Sub-assemblies listed in a BOM become work-in-process during manufacturing."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.4",
+        "label": "Define Bill of Material (BOM)."
+      },
+      "consequence_description": "When bill of material (bom). is disrupted, the related to connection to work-in-process for supply chain management. breaks down. Work-in-process for supply chain management. loses its foundational input from raw materials required for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Bill of Material (BOM). serves as a critical intermediary in this concept chain. The related to relationship from raw materials required for supply chain management. to bill of material (bom). establishes a dependency, and the related to relationship from bill of material (bom). to work-in-process for supply chain management. carries that influence forward. When bill of material (bom). is disrupted, the downstream effect on work-in-process for supply chain management. is not merely a loss of one input — it severs the entire pathway through which raw materials required for supply chain management. influences work-in-process for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/bills-of-material",
+          "title": "Bills of Material (BOM) In the Supply Chain",
+          "site": "CIPS"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/bill-of-materials-bom.shtml",
+          "title": "What Is a Bill of Materials (BOM)? The Complete Guide to BOMs",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://gainsystems.com/blog/bill-of-materials-bom-in-supply-chain-management-impacts-and-examples/",
+          "title": "Bill of Materials (BOM) in Supply Chain Management: Impacts and Examples",
+          "site": "Gain Systems"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making bill of material (bom). redundant and improving overall efficiency.",
+          "Disrupting bill of material (bom). would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to bill of material (bom). alone, with no downstream effect on work-in-process for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.4->H.5->H.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The BOM specifies the raw materials needed for production."
+        },
+        {
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter the production process."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management."
+      },
+      "consequence_description": "When raw materials required for supply chain management. is disrupted, the related to connection to work-in-process for supply chain management. breaks down. Work-in-process for supply chain management. loses its foundational input from bill of material (bom)., degrading overall supply chain performance in this area.",
+      "explanation": "Raw materials required for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from bill of material (bom). to raw materials required for supply chain management. establishes a dependency, and the related to relationship from raw materials required for supply chain management. to work-in-process for supply chain management. carries that influence forward. When raw materials required for supply chain management. is disrupted, the downstream effect on work-in-process for supply chain management. is not merely a loss of one input — it severs the entire pathway through which bill of material (bom). influences work-in-process for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making raw materials required for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting raw materials required for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to raw materials required for supply chain management. alone, with no downstream effect on work-in-process for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.5->H.6->H.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Raw materials become work-in-process once they enter the production process."
+        },
+        {
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.6",
+        "label": "Describe work-in-process for supply chain management."
+      },
+      "consequence_description": "When work-in-process for supply chain management. is disrupted, the related to connection to finished goods and the goal to move those goods. breaks down. Finished goods and the goal to move those goods. loses its foundational input from raw materials required for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Work-in-process for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from raw materials required for supply chain management. to work-in-process for supply chain management. establishes a dependency, and the related to relationship from work-in-process for supply chain management. to finished goods and the goal to move those goods. carries that influence forward. When work-in-process for supply chain management. is disrupted, the downstream effect on finished goods and the goal to move those goods. is not merely a loss of one input — it severs the entire pathway through which raw materials required for supply chain management. influences finished goods and the goal to move those goods., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Work_in_process",
+          "title": "Work in process",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-11/the-monthly-metric-work-in-process-inventory/",
+          "title": "The Monthly Metric: Work-in-Process Inventory",
+          "site": "ISM (Institute for Supply Management)"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/accounting/work-in-process.shtml",
+          "title": "What is Work in Process?",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making work-in-process for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting work-in-process for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to work-in-process for supply chain management. alone, with no downstream effect on finished goods and the goal to move those goods. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.6->H.7->H.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.6",
+          "label": "Describe work-in-process for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Work-in-process becomes finished goods upon completion of manufacturing."
+        },
+        {
+          "type": "related_to",
+          "description": "The master production schedule determines what finished goods will be produced and when."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.7",
+        "label": "Define finished goods and the goal to move those goods."
+      },
+      "consequence_description": "When finished goods and the goal to move those goods. is disrupted, the related to connection to a master production schedule is determined. breaks down. A master production schedule is determined. loses its foundational input from work-in-process for supply chain management., degrading overall supply chain performance in this area.",
+      "explanation": "Finished goods and the goal to move those goods. serves as a critical intermediary in this concept chain. The related to relationship from work-in-process for supply chain management. to finished goods and the goal to move those goods. establishes a dependency, and the related to relationship from finished goods and the goal to move those goods. to a master production schedule is determined. carries that influence forward. When finished goods and the goal to move those goods. is disrupted, the downstream effect on a master production schedule is determined. is not merely a loss of one input — it severs the entire pathway through which work-in-process for supply chain management. influences a master production schedule is determined., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.inboundlogistics.com/articles/finished-goods-inventory/",
+          "title": "Finished Goods Inventory: What It Is, Formula, and Examples",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.fishbowlinventory.com/blog/what-are-finished-goods",
+          "title": "Finished Goods Inventory Management: A Guide + Formula",
+          "site": "Fishbowl"
+        },
+        {
+          "url": "https://www.ism.ws/logistics/types-of-inventory/",
+          "title": "Types of Inventory: Raw, WIP, Finished Goods Explained",
+          "site": "ISM (Institute for Supply Management)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making finished goods and the goal to move those goods. redundant and improving overall efficiency.",
+          "Disrupting finished goods and the goal to move those goods. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to finished goods and the goal to move those goods. alone, with no downstream effect on a master production schedule is determined. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.2->H.3->H.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.2",
+          "label": "Define Static vs. Dynamic Planning."
+        },
+        {
+          "id": "H.3",
+          "label": "Explain how a master production schedule is determined."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The master production schedule can be managed using either static or dynamic planning methods."
+        },
+        {
+          "type": "related_to",
+          "description": "The MPS drives raw material procurement through material requirements planning."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.3",
+        "label": "Explain how a master production schedule is determined."
+      },
+      "consequence_description": "When a master production schedule is determined. is disrupted, the related to connection to raw materials required for supply chain management. breaks down. Raw materials required for supply chain management. loses its foundational input from static vs. dynamic planning., degrading overall supply chain performance in this area.",
+      "explanation": "A master production schedule is determined. serves as a critical intermediary in this concept chain. The related to relationship from static vs. dynamic planning. to a master production schedule is determined. establishes a dependency, and the related to relationship from a master production schedule is determined. to raw materials required for supply chain management. carries that influence forward. When a master production schedule is determined. is disrupted, the downstream effect on raw materials required for supply chain management. is not merely a loss of one input — it severs the entire pathway through which static vs. dynamic planning. influences raw materials required for supply chain management., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://williechen58.wordpress.com/2005/11/25/master-production-schedule-mps-define-in-apics-dictionary-11-edition/",
+          "title": "Master Production Schedule (MPS) define in APICS Dictionary 11 Edition",
+          "site": "Willie Chen Blog (APICS reference)"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a master production schedule is determined. redundant and improving overall efficiency.",
+          "Disrupting a master production schedule is determined. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a master production schedule is determined. alone, with no downstream effect on raw materials required for supply chain management. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.4->H.5->H.7_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "H.4",
+          "label": "Define Bill of Material (BOM)."
+        },
+        {
+          "id": "H.5",
+          "label": "Describe raw materials required for supply chain management."
+        },
+        {
+          "id": "H.7",
+          "label": "Define finished goods and the goal to move those goods."
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The BOM specifies the raw materials needed for production."
+        },
+        {
+          "type": "related_to",
+          "description": "Raw materials are transformed through production into finished goods."
+        }
+      ],
+      "disrupted_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management."
+      },
+      "consequence_description": "When raw materials required for supply chain management. is disrupted, the related to connection to finished goods and the goal to move those goods. breaks down. Finished goods and the goal to move those goods. loses its foundational input from bill of material (bom)., degrading overall supply chain performance in this area.",
+      "explanation": "Raw materials required for supply chain management. serves as a critical intermediary in this concept chain. The related to relationship from bill of material (bom). to raw materials required for supply chain management. establishes a dependency, and the related to relationship from raw materials required for supply chain management. to finished goods and the goal to move those goods. carries that influence forward. When raw materials required for supply chain management. is disrupted, the downstream effect on finished goods and the goal to move those goods. is not merely a loss of one input — it severs the entire pathway through which bill of material (bom). influences finished goods and the goal to move those goods., creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.mbaskool.com/business-concepts/operations-logistics-supply-chain-terms/15631-raw-material.html",
+          "title": "Raw Material - Definition, Importance, Types & Example",
+          "site": "MBA Skool"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making raw materials required for supply chain management. redundant and improving overall efficiency.",
+          "Disrupting raw materials required for supply chain management. would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to raw materials required for supply chain management. alone, with no downstream effect on finished goods and the goal to move those goods. or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "H.1<>I.4_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.1",
+        "label": "Describe different types of supply chain management planning.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "I.4",
+        "label": "Explain the role of the team in supply chain management.",
+        "section": "I"
+      },
+      "interaction_description": "Different types of supply chain management planning. and the role of the team in supply chain management. have a bidirectional relationship across their domains: decisions in different types of supply chain management planning. directly influence how the role of the team in supply chain management. is configured and managed, while feedback from the role of the team in supply chain management. operations informs adjustments to different types of supply chain management planning. strategy.",
+      "explanation": "The cross-section relationship between different types of supply chain management planning. (Section H) and the role of the team in supply chain management. (Section I) illustrates how supply chain concepts rarely exist in isolation. Different types of supply chain management planning. provides strategic direction that shapes the role of the team in supply chain management. decisions, while the role of the team in supply chain management. generates operational data and constraints that feed back into different types of supply chain management planning. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/390137880_The_Role_of_Cross-Functional_Teams_in_Modern_Supply_Chain_Management",
+          "title": "The Role of Cross-Functional Teams in Modern Supply Chain Management",
+          "site": "ResearchGate"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Different types of supply chain management planning. and the role of the team in supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Different types of supply chain management planning. completely subsumes the role of the team in supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between different types of supply chain management planning. and the role of the team in supply chain management. is purely one-directional, with no feedback mechanism from the role of the team in supply chain management. back to different types of supply chain management planning.."
+        ]
+      }
+    },
+    {
+      "id": "H.1<>A.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.1",
+        "label": "Describe different types of supply chain management planning.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "A.8",
+        "label": "Explain demand forecasting",
+        "section": "A"
+      },
+      "interaction_description": "Different types of supply chain management planning. and demand forecasting have a bidirectional relationship across their domains: decisions in different types of supply chain management planning. directly influence how demand forecasting is configured and managed, while feedback from demand forecasting operations informs adjustments to different types of supply chain management planning. strategy.",
+      "explanation": "The cross-section relationship between different types of supply chain management planning. (Section H) and demand forecasting (Section A) illustrates how supply chain concepts rarely exist in isolation. Different types of supply chain management planning. provides strategic direction that shapes demand forecasting decisions, while demand forecasting generates operational data and constraints that feed back into different types of supply chain management planning. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/demand-forecasting",
+          "title": "What is Demand Forecasting?",
+          "site": "IBM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Different types of supply chain management planning. and demand forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Different types of supply chain management planning. completely subsumes demand forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between different types of supply chain management planning. and demand forecasting is purely one-directional, with no feedback mechanism from demand forecasting back to different types of supply chain management planning.."
+        ]
+      }
+    },
+    {
+      "id": "H.3<>B.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.3",
+        "label": "Explain how a master production schedule is determined.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning",
+        "section": "B"
+      },
+      "interaction_description": "A master production schedule is determined. and sales and operations planning have a bidirectional relationship across their domains: decisions in a master production schedule is determined. directly influence how sales and operations planning is configured and managed, while feedback from sales and operations planning operations informs adjustments to a master production schedule is determined. strategy.",
+      "explanation": "The cross-section relationship between a master production schedule is determined. (Section H) and sales and operations planning (Section B) illustrates how supply chain concepts rarely exist in isolation. A master production schedule is determined. provides strategic direction that shapes sales and operations planning decisions, while sales and operations planning generates operational data and constraints that feed back into a master production schedule is determined. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Master_production_schedule",
+          "title": "Master production schedule",
+          "site": "Wikipedia"
+        },
+        {
+          "url": "https://www.optiproerp.com/blog/inventory-management-101-master-production-schedule-mps-explained/",
+          "title": "Master Production Schedule (MPS) Guide",
+          "site": "OptiProERP"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "A master production schedule is determined. and sales and operations planning operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "A master production schedule is determined. completely subsumes sales and operations planning, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between a master production schedule is determined. and sales and operations planning is purely one-directional, with no feedback mechanism from sales and operations planning back to a master production schedule is determined.."
+        ]
+      }
+    },
+    {
+      "id": "H.5<>A.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "A.2",
+        "label": "Define the entire supply chain",
+        "section": "A"
+      },
+      "interaction_description": "Raw materials required for supply chain management. and the entire supply chain have a bidirectional relationship across their domains: decisions in raw materials required for supply chain management. directly influence how the entire supply chain is configured and managed, while feedback from the entire supply chain operations informs adjustments to raw materials required for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between raw materials required for supply chain management. (Section H) and the entire supply chain (Section A) illustrates how supply chain concepts rarely exist in isolation. Raw materials required for supply chain management. provides strategic direction that shapes the entire supply chain decisions, while the entire supply chain generates operational data and constraints that feed back into raw materials required for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/end-to-end-supply-chain/",
+          "title": "End-to-End Supply Chain: Meaning, Benefits, and How to Implement",
+          "site": "Inbound Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Raw materials required for supply chain management. and the entire supply chain operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Raw materials required for supply chain management. completely subsumes the entire supply chain, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between raw materials required for supply chain management. and the entire supply chain is purely one-directional, with no feedback mechanism from the entire supply chain back to raw materials required for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "H.1<>B.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.1",
+        "label": "Describe different types of supply chain management planning.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "B.8",
+        "label": "Describe sales and operations planning",
+        "section": "B"
+      },
+      "interaction_description": "Different types of supply chain management planning. and sales and operations planning have a bidirectional relationship across their domains: decisions in different types of supply chain management planning. directly influence how sales and operations planning is configured and managed, while feedback from sales and operations planning operations informs adjustments to different types of supply chain management planning. strategy.",
+      "explanation": "The cross-section relationship between different types of supply chain management planning. (Section H) and sales and operations planning (Section B) illustrates how supply chain concepts rarely exist in isolation. Different types of supply chain management planning. provides strategic direction that shapes sales and operations planning decisions, while sales and operations planning generates operational data and constraints that feed back into different types of supply chain management planning. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sales_and_operations_planning",
+          "title": "Sales and operations planning",
+          "site": "Wikipedia"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Different types of supply chain management planning. and sales and operations planning operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Different types of supply chain management planning. completely subsumes sales and operations planning, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between different types of supply chain management planning. and sales and operations planning is purely one-directional, with no feedback mechanism from sales and operations planning back to different types of supply chain management planning.."
+        ]
+      }
+    },
+    {
+      "id": "H.1<>G.8_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.1",
+        "label": "Describe different types of supply chain management planning.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "G.8",
+        "label": "Define how supply chain management meets consumer needs",
+        "section": "G"
+      },
+      "interaction_description": "Different types of supply chain management planning. and supply chain management meets consumer needs have a bidirectional relationship across their domains: decisions in different types of supply chain management planning. directly influence how supply chain management meets consumer needs is configured and managed, while feedback from supply chain management meets consumer needs operations informs adjustments to different types of supply chain management planning. strategy.",
+      "explanation": "The cross-section relationship between different types of supply chain management planning. (Section H) and supply chain management meets consumer needs (Section G) illustrates how supply chain concepts rarely exist in isolation. Different types of supply chain management planning. provides strategic direction that shapes supply chain management meets consumer needs decisions, while supply chain management meets consumer needs generates operational data and constraints that feed back into different types of supply chain management planning. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.planettogether.com/aps-trends/mastering-the-three-levels-of-supply-chain-management",
+          "title": "Mastering the Three Levels of Supply Chain Management",
+          "site": "PlanetTogether"
+        },
+        {
+          "url": "https://precoro.com/blog/supply-chain-planning/",
+          "title": "Supply Chain Planning 101: From Basics to Best Practices",
+          "site": "Precoro"
+        },
+        {
+          "url": "https://courses.lumenlearning.com/suny-osintrobus/chapter/using-supply-chain-management-to-increase-efficiency-and-customer-satisfaction/",
+          "title": "Using Supply Chain Management to Increase Efficiency and Customer Satisfaction",
+          "site": "OpenStax / Lumen Learning"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Different types of supply chain management planning. and supply chain management meets consumer needs operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Different types of supply chain management planning. completely subsumes supply chain management meets consumer needs, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between different types of supply chain management planning. and supply chain management meets consumer needs is purely one-directional, with no feedback mechanism from supply chain management meets consumer needs back to different types of supply chain management planning.."
+        ]
+      }
+    },
+    {
+      "id": "H.5<>D.1_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "D.1",
+        "label": "Explain the relationship between purchasing and supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Raw materials required for supply chain management. and the relationship between purchasing and supply chain management. have a bidirectional relationship across their domains: decisions in raw materials required for supply chain management. directly influence how the relationship between purchasing and supply chain management. is configured and managed, while feedback from the relationship between purchasing and supply chain management. operations informs adjustments to raw materials required for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between raw materials required for supply chain management. (Section H) and the relationship between purchasing and supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Raw materials required for supply chain management. provides strategic direction that shapes the relationship between purchasing and supply chain management. decisions, while the relationship between purchasing and supply chain management. generates operational data and constraints that feed back into raw materials required for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://precoro.com/blog/difference-between-procurement-and-supply-chain-management/",
+          "title": "Procurement and Supply Chain Management: Key Differences",
+          "site": "Precoro"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Raw materials required for supply chain management. and the relationship between purchasing and supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Raw materials required for supply chain management. completely subsumes the relationship between purchasing and supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between raw materials required for supply chain management. and the relationship between purchasing and supply chain management. is purely one-directional, with no feedback mechanism from the relationship between purchasing and supply chain management. back to raw materials required for supply chain management.."
+        ]
+      }
+    },
+    {
+      "id": "H.5<>E.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "H.5",
+        "label": "Describe raw materials required for supply chain management.",
+        "section": "H"
+      },
+      "target_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "interaction_description": "Raw materials required for supply chain management. and inventory management's important relationship with supply chain management. have a bidirectional relationship across their domains: decisions in raw materials required for supply chain management. directly influence how inventory management's important relationship with supply chain management. is configured and managed, while feedback from inventory management's important relationship with supply chain management. operations informs adjustments to raw materials required for supply chain management. strategy.",
+      "explanation": "The cross-section relationship between raw materials required for supply chain management. (Section H) and inventory management's important relationship with supply chain management. (Section E) illustrates how supply chain concepts rarely exist in isolation. Raw materials required for supply chain management. provides strategic direction that shapes inventory management's important relationship with supply chain management. decisions, while inventory management's important relationship with supply chain management. generates operational data and constraints that feed back into raw materials required for supply chain management. planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/raw-materials.shtml",
+          "title": "What Are Raw Materials?",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.inboundlogistics.com/articles/raw-materials-inventory/",
+          "title": "Raw Materials Inventory: Explanation, Benefits, and Tips",
+          "site": "Inbound Logistics"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Raw materials required for supply chain management. and inventory management's important relationship with supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Raw materials required for supply chain management. completely subsumes inventory management's important relationship with supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between raw materials required for supply chain management. and inventory management's important relationship with supply chain management. is purely one-directional, with no feedback mechanism from inventory management's important relationship with supply chain management. back to raw materials required for supply chain management.."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1310 @@
+{
+  "section_id": "F",
+  "section_title": "Product Portfolio Management",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "systems_thinking": [
+    {
+      "id": "F.1->F.2->F.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.1",
+          "label": "Determine what products to sell"
+        },
+        {
+          "id": "F.2",
+          "label": "How a company determines what products are used and sold by a business"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Product selection depends on understanding what products are used and sold by the business"
+        },
+        {
+          "type": "prerequisite_for",
+          "description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.2",
+        "label": "How a company determines what products are used and sold by a business"
+      },
+      "consequence_description": "When a company determines what products are used and sold by a business is disrupted, the prerequisite for connection to slow-moving products headed toward obsolescence breaks down. Slow-moving products headed toward obsolescence loses its foundational input from what products to sell, degrading overall supply chain performance in this area.",
+      "explanation": "A company determines what products are used and sold by a business serves as a critical intermediary in this concept chain. The related to relationship from what products to sell to a company determines what products are used and sold by a business establishes a dependency, and the prerequisite for relationship from a company determines what products are used and sold by a business to slow-moving products headed toward obsolescence carries that influence forward. When a company determines what products are used and sold by a business is disrupted, the downstream effect on slow-moving products headed toward obsolescence is not merely a loss of one input — it severs the entire pathway through which what products to sell influences slow-moving products headed toward obsolescence, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.epicflow.com/blog/product-portfolio-management-what-it-is-and-why-it-matters-for-business-leaders/",
+          "title": "Product Portfolio Management: What It Is and Why It Matters for Business Leaders",
+          "site": "Epicflow"
+        },
+        {
+          "url": "https://www.productboard.com/blog/product-portfolio-management-101/",
+          "title": "Product Portfolio Management 101",
+          "site": "Productboard"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making a company determines what products are used and sold by a business redundant and improving overall efficiency.",
+          "Disrupting a company determines what products are used and sold by a business would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to a company determines what products are used and sold by a business alone, with no downstream effect on slow-moving products headed toward obsolescence or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.1->F.3->F.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.1",
+          "label": "Determine what products to sell"
+        },
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        }
+      ],
+      "links": [
+        {
+          "type": "applies_to",
+          "description": "The product portfolio is the output of determining what products to sell"
+        },
+        {
+          "type": "related_to",
+          "description": "The Pareto principle helps analyze which items in the portfolio drive the most value"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.3",
+        "label": "Product portfolio"
+      },
+      "consequence_description": "When product portfolio is disrupted, the related to connection to the pareto principle breaks down. The Pareto principle loses its foundational input from what products to sell, degrading overall supply chain performance in this area.",
+      "explanation": "Product portfolio serves as a critical intermediary in this concept chain. The applies to relationship from what products to sell to product portfolio establishes a dependency, and the related to relationship from product portfolio to the pareto principle carries that influence forward. When product portfolio is disrupted, the downstream effect on the pareto principle is not merely a loss of one input — it severs the entire pathway through which what products to sell influences the pareto principle, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making product portfolio redundant and improving overall efficiency.",
+          "Disrupting product portfolio would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to product portfolio alone, with no downstream effect on the pareto principle or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.2->F.1->F.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.2",
+          "label": "How a company determines what products are used and sold by a business"
+        },
+        {
+          "id": "F.1",
+          "label": "Determine what products to sell"
+        },
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Understanding current product usage informs decisions about what products to sell"
+        },
+        {
+          "type": "applies_to",
+          "description": "The product portfolio is the output of determining what products to sell"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.1",
+        "label": "Determine what products to sell"
+      },
+      "consequence_description": "When what products to sell is disrupted, the applies to connection to product portfolio breaks down. Product portfolio loses its foundational input from a company determines what products are used and sold by a business, degrading overall supply chain performance in this area.",
+      "explanation": "What products to sell serves as a critical intermediary in this concept chain. The related to relationship from a company determines what products are used and sold by a business to what products to sell establishes a dependency, and the applies to relationship from what products to sell to product portfolio carries that influence forward. When what products to sell is disrupted, the downstream effect on product portfolio is not merely a loss of one input — it severs the entire pathway through which a company determines what products are used and sold by a business influences product portfolio, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making what products to sell redundant and improving overall efficiency.",
+          "Disrupting what products to sell would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to what products to sell alone, with no downstream effect on product portfolio or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.2->F.5->F.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.2",
+          "label": "How a company determines what products are used and sold by a business"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        }
+      ],
+      "links": [
+        {
+          "type": "prerequisite_for",
+          "description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence"
+        },
+        {
+          "type": "related_to",
+          "description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.5",
+        "label": "Slow-moving products headed toward obsolescence"
+      },
+      "consequence_description": "When slow-moving products headed toward obsolescence is disrupted, the related to connection to the pareto principle breaks down. The Pareto principle loses its foundational input from a company determines what products are used and sold by a business, degrading overall supply chain performance in this area.",
+      "explanation": "Slow-moving products headed toward obsolescence serves as a critical intermediary in this concept chain. The prerequisite for relationship from a company determines what products are used and sold by a business to slow-moving products headed toward obsolescence establishes a dependency, and the related to relationship from slow-moving products headed toward obsolescence to the pareto principle carries that influence forward. When slow-moving products headed toward obsolescence is disrupted, the downstream effect on the pareto principle is not merely a loss of one input — it severs the entire pathway through which a company determines what products are used and sold by a business influences the pareto principle, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making slow-moving products headed toward obsolescence redundant and improving overall efficiency.",
+          "Disrupting slow-moving products headed toward obsolescence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to slow-moving products headed toward obsolescence alone, with no downstream effect on the pareto principle or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.3->F.4->F.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The Pareto principle helps analyze which items in the portfolio drive the most value"
+        },
+        {
+          "type": "related_to",
+          "description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.4",
+        "label": "The Pareto principle"
+      },
+      "consequence_description": "When the pareto principle is disrupted, the related to connection to slow-moving products headed toward obsolescence breaks down. Slow-moving products headed toward obsolescence loses its foundational input from product portfolio, degrading overall supply chain performance in this area.",
+      "explanation": "The Pareto principle serves as a critical intermediary in this concept chain. The related to relationship from product portfolio to the pareto principle establishes a dependency, and the related to relationship from the pareto principle to slow-moving products headed toward obsolescence carries that influence forward. When the pareto principle is disrupted, the downstream effect on slow-moving products headed toward obsolescence is not merely a loss of one input — it severs the entire pathway through which product portfolio influences slow-moving products headed toward obsolescence, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the pareto principle redundant and improving overall efficiency.",
+          "Disrupting the pareto principle would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the pareto principle alone, with no downstream effect on slow-moving products headed toward obsolescence or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.5->F.6->F.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        },
+        {
+          "id": "F.6",
+          "label": "Importance of minimizing inventory during all stages of supply chain management"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain"
+        },
+        {
+          "type": "related_to",
+          "description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management"
+      },
+      "consequence_description": "When importance of minimizing inventory during all stages of supply chain management is disrupted, the related to connection to the pareto principle breaks down. The Pareto principle loses its foundational input from slow-moving products headed toward obsolescence, degrading overall supply chain performance in this area.",
+      "explanation": "Importance of minimizing inventory during all stages of supply chain management serves as a critical intermediary in this concept chain. The related to relationship from slow-moving products headed toward obsolescence to importance of minimizing inventory during all stages of supply chain management establishes a dependency, and the related to relationship from importance of minimizing inventory during all stages of supply chain management to the pareto principle carries that influence forward. When importance of minimizing inventory during all stages of supply chain management is disrupted, the downstream effect on the pareto principle is not merely a loss of one input — it severs the entire pathway through which slow-moving products headed toward obsolescence influences the pareto principle, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://cscmp.org/CSCMP/cscmp/educate/scm_definitions_and_glossary_of_terms.aspx",
+          "title": "CSCMP Supply Chain Management Definitions and Glossary",
+          "site": "CSCMP"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making importance of minimizing inventory during all stages of supply chain management redundant and improving overall efficiency.",
+          "Disrupting importance of minimizing inventory during all stages of supply chain management would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to importance of minimizing inventory during all stages of supply chain management alone, with no downstream effect on the pareto principle or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.4->F.3->F.1_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        },
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        },
+        {
+          "id": "F.1",
+          "label": "Determine what products to sell"
+        }
+      ],
+      "links": [
+        {
+          "type": "applies_to",
+          "description": "The Pareto principle is used to analyze product portfolio performance and prioritize items"
+        },
+        {
+          "type": "related_to",
+          "description": "The product portfolio reflects the outcome of product selection decisions"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.3",
+        "label": "Product portfolio"
+      },
+      "consequence_description": "When product portfolio is disrupted, the related to connection to what products to sell breaks down. What products to sell loses its foundational input from the pareto principle, degrading overall supply chain performance in this area.",
+      "explanation": "Product portfolio serves as a critical intermediary in this concept chain. The applies to relationship from the pareto principle to product portfolio establishes a dependency, and the related to relationship from product portfolio to what products to sell carries that influence forward. When product portfolio is disrupted, the downstream effect on what products to sell is not merely a loss of one input — it severs the entire pathway through which the pareto principle influences what products to sell, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.productboard.com/glossary/product-portfolio/",
+          "title": "Product Portfolio: What is a Product Portfolio?",
+          "site": "Productboard"
+        },
+        {
+          "url": "https://www.accountingtools.com/articles/what-is-a-product-portfolio.html",
+          "title": "Product portfolio definition",
+          "site": "AccountingTools"
+        },
+        {
+          "url": "https://www.unleashedsoftware.com/blog/product-portfolio/",
+          "title": "Product Portfolio: Definition, Examples, Guide",
+          "site": "Unleashed Software"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making product portfolio redundant and improving overall efficiency.",
+          "Disrupting product portfolio would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to product portfolio alone, with no downstream effect on what products to sell or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.3->F.1->F.2_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        },
+        {
+          "id": "F.1",
+          "label": "Determine what products to sell"
+        },
+        {
+          "id": "F.2",
+          "label": "How a company determines what products are used and sold by a business"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The product portfolio reflects the outcome of product selection decisions"
+        },
+        {
+          "type": "related_to",
+          "description": "Product selection depends on understanding what products are used and sold by the business"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.1",
+        "label": "Determine what products to sell"
+      },
+      "consequence_description": "When what products to sell is disrupted, the related to connection to a company determines what products are used and sold by a business breaks down. A company determines what products are used and sold by a business loses its foundational input from product portfolio, degrading overall supply chain performance in this area.",
+      "explanation": "What products to sell serves as a critical intermediary in this concept chain. The related to relationship from product portfolio to what products to sell establishes a dependency, and the related to relationship from what products to sell to a company determines what products are used and sold by a business carries that influence forward. When what products to sell is disrupted, the downstream effect on a company determines what products are used and sold by a business is not merely a loss of one input — it severs the entire pathway through which product portfolio influences a company determines what products are used and sold by a business, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.ascm.org/topics/supply-chain-management/",
+          "title": "Supply Chain Management (SCM): Definition, Processes",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making what products to sell redundant and improving overall efficiency.",
+          "Disrupting what products to sell would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to what products to sell alone, with no downstream effect on a company determines what products are used and sold by a business or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.2->F.5->F.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.2",
+          "label": "How a company determines what products are used and sold by a business"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        },
+        {
+          "id": "F.6",
+          "label": "Importance of minimizing inventory during all stages of supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "prerequisite_for",
+          "description": "Analyzing product usage data helps identify slow-moving products headed toward obsolescence"
+        },
+        {
+          "type": "related_to",
+          "description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.5",
+        "label": "Slow-moving products headed toward obsolescence"
+      },
+      "consequence_description": "When slow-moving products headed toward obsolescence is disrupted, the related to connection to importance of minimizing inventory during all stages of supply chain management breaks down. Importance of minimizing inventory during all stages of supply chain management loses its foundational input from a company determines what products are used and sold by a business, degrading overall supply chain performance in this area.",
+      "explanation": "Slow-moving products headed toward obsolescence serves as a critical intermediary in this concept chain. The prerequisite for relationship from a company determines what products are used and sold by a business to slow-moving products headed toward obsolescence establishes a dependency, and the related to relationship from slow-moving products headed toward obsolescence to importance of minimizing inventory during all stages of supply chain management carries that influence forward. When slow-moving products headed toward obsolescence is disrupted, the downstream effect on importance of minimizing inventory during all stages of supply chain management is not merely a loss of one input — it severs the entire pathway through which a company determines what products are used and sold by a business influences importance of minimizing inventory during all stages of supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making slow-moving products headed toward obsolescence redundant and improving overall efficiency.",
+          "Disrupting slow-moving products headed toward obsolescence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to slow-moving products headed toward obsolescence alone, with no downstream effect on importance of minimizing inventory during all stages of supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.5->F.4->F.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        },
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories"
+        },
+        {
+          "type": "applies_to",
+          "description": "The Pareto principle is used to analyze product portfolio performance and prioritize items"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.4",
+        "label": "The Pareto principle"
+      },
+      "consequence_description": "When the pareto principle is disrupted, the applies to connection to product portfolio breaks down. Product portfolio loses its foundational input from slow-moving products headed toward obsolescence, degrading overall supply chain performance in this area.",
+      "explanation": "The Pareto principle serves as a critical intermediary in this concept chain. The related to relationship from slow-moving products headed toward obsolescence to the pareto principle establishes a dependency, and the applies to relationship from the pareto principle to product portfolio carries that influence forward. When the pareto principle is disrupted, the downstream effect on product portfolio is not merely a loss of one input — it severs the entire pathway through which slow-moving products headed toward obsolescence influences product portfolio, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the pareto principle redundant and improving overall efficiency.",
+          "Disrupting the pareto principle would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the pareto principle alone, with no downstream effect on product portfolio or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.4->F.5->F.6_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        },
+        {
+          "id": "F.6",
+          "label": "Importance of minimizing inventory during all stages of supply chain management"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category"
+        },
+        {
+          "type": "related_to",
+          "description": "Managing slow-moving inventory supports the broader goal of minimizing inventory across the supply chain"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.5",
+        "label": "Slow-moving products headed toward obsolescence"
+      },
+      "consequence_description": "When slow-moving products headed toward obsolescence is disrupted, the related to connection to importance of minimizing inventory during all stages of supply chain management breaks down. Importance of minimizing inventory during all stages of supply chain management loses its foundational input from the pareto principle, degrading overall supply chain performance in this area.",
+      "explanation": "Slow-moving products headed toward obsolescence serves as a critical intermediary in this concept chain. The related to relationship from the pareto principle to slow-moving products headed toward obsolescence establishes a dependency, and the related to relationship from slow-moving products headed toward obsolescence to importance of minimizing inventory during all stages of supply chain management carries that influence forward. When slow-moving products headed toward obsolescence is disrupted, the downstream effect on importance of minimizing inventory during all stages of supply chain management is not merely a loss of one input — it severs the entire pathway through which the pareto principle influences importance of minimizing inventory during all stages of supply chain management, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making slow-moving products headed toward obsolescence redundant and improving overall efficiency.",
+          "Disrupting slow-moving products headed toward obsolescence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to slow-moving products headed toward obsolescence alone, with no downstream effect on importance of minimizing inventory during all stages of supply chain management or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.6->F.4->F.3_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.6",
+          "label": "Importance of minimizing inventory during all stages of supply chain management"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        },
+        {
+          "id": "F.3",
+          "label": "Product portfolio"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels"
+        },
+        {
+          "type": "applies_to",
+          "description": "The Pareto principle is used to analyze product portfolio performance and prioritize items"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.4",
+        "label": "The Pareto principle"
+      },
+      "consequence_description": "When the pareto principle is disrupted, the applies to connection to product portfolio breaks down. Product portfolio loses its foundational input from importance of minimizing inventory during all stages of supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The Pareto principle serves as a critical intermediary in this concept chain. The related to relationship from importance of minimizing inventory during all stages of supply chain management to the pareto principle establishes a dependency, and the applies to relationship from the pareto principle to product portfolio carries that influence forward. When the pareto principle is disrupted, the downstream effect on product portfolio is not merely a loss of one input — it severs the entire pathway through which importance of minimizing inventory during all stages of supply chain management influences product portfolio, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the pareto principle redundant and improving overall efficiency.",
+          "Disrupting the pareto principle would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the pareto principle alone, with no downstream effect on product portfolio or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.6->F.5->F.4_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.6",
+          "label": "Importance of minimizing inventory during all stages of supply chain management"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "Identifying and eliminating slow-moving inventory is a key tactic for minimizing overall inventory"
+        },
+        {
+          "type": "related_to",
+          "description": "Pareto analysis helps identify slow-moving items that fall in the lower-value inventory categories"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.5",
+        "label": "Slow-moving products headed toward obsolescence"
+      },
+      "consequence_description": "When slow-moving products headed toward obsolescence is disrupted, the related to connection to the pareto principle breaks down. The Pareto principle loses its foundational input from importance of minimizing inventory during all stages of supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "Slow-moving products headed toward obsolescence serves as a critical intermediary in this concept chain. The related to relationship from importance of minimizing inventory during all stages of supply chain management to slow-moving products headed toward obsolescence establishes a dependency, and the related to relationship from slow-moving products headed toward obsolescence to the pareto principle carries that influence forward. When slow-moving products headed toward obsolescence is disrupted, the downstream effect on the pareto principle is not merely a loss of one input — it severs the entire pathway through which importance of minimizing inventory during all stages of supply chain management influences the pareto principle, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/slow-moving-inventory.shtml",
+          "title": "Slow-Moving Inventory: Identify, Manage & Prevent It",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://abcsupplychain.com/slob-inventory-slow-moving-obsolete/",
+          "title": "Calculate SLOB Inventory: Slow Moving And Obsolete Inventory",
+          "site": "ABC Supply Chain"
+        },
+        {
+          "url": "https://www.scmr.com/article/slow_moving_and_obsolete_inventory_investment",
+          "title": "Slow Moving and Obsolete Inventory Investment",
+          "site": "Supply Chain Management Review"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making slow-moving products headed toward obsolescence redundant and improving overall efficiency.",
+          "Disrupting slow-moving products headed toward obsolescence would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to slow-moving products headed toward obsolescence alone, with no downstream effect on the pareto principle or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.6->F.4->F.5_chain",
+      "subtype": "consequence_chain",
+      "chain": [
+        {
+          "id": "F.6",
+          "label": "Importance of minimizing inventory during all stages of supply chain management"
+        },
+        {
+          "id": "F.4",
+          "label": "The Pareto principle"
+        },
+        {
+          "id": "F.5",
+          "label": "Slow-moving products headed toward obsolescence"
+        }
+      ],
+      "links": [
+        {
+          "type": "related_to",
+          "description": "The Pareto principle helps prioritize which inventory items to focus on when optimizing stock levels"
+        },
+        {
+          "type": "related_to",
+          "description": "The 80/20 analysis can help identify slow-moving products that fall outside the top-performing category"
+        }
+      ],
+      "disrupted_concept": {
+        "id": "F.4",
+        "label": "The Pareto principle"
+      },
+      "consequence_description": "When the pareto principle is disrupted, the related to connection to slow-moving products headed toward obsolescence breaks down. Slow-moving products headed toward obsolescence loses its foundational input from importance of minimizing inventory during all stages of supply chain management, degrading overall supply chain performance in this area.",
+      "explanation": "The Pareto principle serves as a critical intermediary in this concept chain. The related to relationship from importance of minimizing inventory during all stages of supply chain management to the pareto principle establishes a dependency, and the related to relationship from the pareto principle to slow-moving products headed toward obsolescence carries that influence forward. When the pareto principle is disrupted, the downstream effect on slow-moving products headed toward obsolescence is not merely a loss of one input — it severs the entire pathway through which importance of minimizing inventory during all stages of supply chain management influences slow-moving products headed toward obsolescence, creating a cascade of operational and strategic gaps.",
+      "key_terms": [
+        "disruption",
+        "consequence chain",
+        "downstream impact",
+        "systems thinking"
+      ],
+      "sources": [
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/pareto-principle.shtml",
+          "title": "How to Use the Pareto Principle (The 80/20 Rule)",
+          "site": "NetSuite"
+        },
+        {
+          "url": "https://www.interlakemecalux.com/blog/pareto-law-80-20",
+          "title": "Pareto law: optimizing logistics processes with the 80/20 rule",
+          "site": "Interlake Mecalux"
+        },
+        {
+          "url": "https://dclcorp.com/blog/fulfillment/pareto-principle/",
+          "title": "Understanding the 80/20 Rule: The Pareto Principle in Business",
+          "site": "DCL Logistics"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "The supply chain would automatically compensate through alternative pathways, making the pareto principle redundant and improving overall efficiency.",
+          "Disrupting the pareto principle would primarily improve downstream accuracy by eliminating an unnecessary intermediary step in the process.",
+          "The impact would be isolated to the pareto principle alone, with no downstream effect on slow-moving products headed toward obsolescence or other connected concepts."
+        ]
+      }
+    },
+    {
+      "id": "F.6<>K.15_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "K.15",
+        "label": "On-demand business model",
+        "section": "K"
+      },
+      "interaction_description": "Importance of minimizing inventory during all stages of supply chain management and on-demand business model have a bidirectional relationship across their domains: decisions in importance of minimizing inventory during all stages of supply chain management directly influence how on-demand business model is configured and managed, while feedback from on-demand business model operations informs adjustments to importance of minimizing inventory during all stages of supply chain management strategy.",
+      "explanation": "The cross-section relationship between importance of minimizing inventory during all stages of supply chain management (Section F) and on-demand business model (Section K) illustrates how supply chain concepts rarely exist in isolation. Importance of minimizing inventory during all stages of supply chain management provides strategic direction that shapes on-demand business model decisions, while on-demand business model generates operational data and constraints that feed back into importance of minimizing inventory during all stages of supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.entrepreneur.com/building-a-business/business-model/types-of-business-models/how-does-an-ondemand-business-model-work",
+          "title": "How Does an On-Demand Business Model Work?",
+          "site": "Entrepreneur"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Importance of minimizing inventory during all stages of supply chain management and on-demand business model operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Importance of minimizing inventory during all stages of supply chain management completely subsumes on-demand business model, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between importance of minimizing inventory during all stages of supply chain management and on-demand business model is purely one-directional, with no feedback mechanism from on-demand business model back to importance of minimizing inventory during all stages of supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "F.1<>B.3_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.1",
+        "label": "Determine what products to sell",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "B.3",
+        "label": "Describe the role of forecasting",
+        "section": "B"
+      },
+      "interaction_description": "What products to sell and the role of forecasting have a bidirectional relationship across their domains: decisions in what products to sell directly influence how the role of forecasting is configured and managed, while feedback from the role of forecasting operations informs adjustments to what products to sell strategy.",
+      "explanation": "The cross-section relationship between what products to sell (Section F) and the role of forecasting (Section B) illustrates how supply chain concepts rarely exist in isolation. What products to sell provides strategic direction that shapes the role of forecasting decisions, while the role of forecasting generates operational data and constraints that feed back into what products to sell planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://www.cips.org/intelligence-hub/operations-management/demand-forecasting",
+          "title": "How to do Demand Forecasting in the Supply Chain?",
+          "site": "CIPS"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "What products to sell and the role of forecasting operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "What products to sell completely subsumes the role of forecasting, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between what products to sell and the role of forecasting is purely one-directional, with no feedback mechanism from the role of forecasting back to what products to sell."
+        ]
+      }
+    },
+    {
+      "id": "F.6<>C.10_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "C.10",
+        "label": "Describe the importance of Excel knowledge for supply chain management.",
+        "section": "C"
+      },
+      "interaction_description": "Importance of minimizing inventory during all stages of supply chain management and the importance of excel knowledge for supply chain management. have a bidirectional relationship across their domains: decisions in importance of minimizing inventory during all stages of supply chain management directly influence how the importance of excel knowledge for supply chain management. is configured and managed, while feedback from the importance of excel knowledge for supply chain management. operations informs adjustments to importance of minimizing inventory during all stages of supply chain management strategy.",
+      "explanation": "The cross-section relationship between importance of minimizing inventory during all stages of supply chain management (Section F) and the importance of excel knowledge for supply chain management. (Section C) illustrates how supply chain concepts rarely exist in isolation. Importance of minimizing inventory during all stages of supply chain management provides strategic direction that shapes the importance of excel knowledge for supply chain management. decisions, while the importance of excel knowledge for supply chain management. generates operational data and constraints that feed back into importance of minimizing inventory during all stages of supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://abcsupplychain.com/efficient-with-excel-supply-chain/",
+          "title": "Essential Excel Skills For Supply Chain Management",
+          "site": "AbcSupplyChain"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Importance of minimizing inventory during all stages of supply chain management and the importance of excel knowledge for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Importance of minimizing inventory during all stages of supply chain management completely subsumes the importance of excel knowledge for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between importance of minimizing inventory during all stages of supply chain management and the importance of excel knowledge for supply chain management. is purely one-directional, with no feedback mechanism from the importance of excel knowledge for supply chain management. back to importance of minimizing inventory during all stages of supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "F.6<>E.2_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "E.2",
+        "label": "Define inventory management's important relationship with supply chain management.",
+        "section": "E"
+      },
+      "interaction_description": "Importance of minimizing inventory during all stages of supply chain management and inventory management's important relationship with supply chain management. have a bidirectional relationship across their domains: decisions in importance of minimizing inventory during all stages of supply chain management directly influence how inventory management's important relationship with supply chain management. is configured and managed, while feedback from inventory management's important relationship with supply chain management. operations informs adjustments to importance of minimizing inventory during all stages of supply chain management strategy.",
+      "explanation": "The cross-section relationship between importance of minimizing inventory during all stages of supply chain management (Section F) and inventory management's important relationship with supply chain management. (Section E) illustrates how supply chain concepts rarely exist in isolation. Importance of minimizing inventory during all stages of supply chain management provides strategic direction that shapes inventory management's important relationship with supply chain management. decisions, while inventory management's important relationship with supply chain management. generates operational data and constraints that feed back into importance of minimizing inventory during all stages of supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml",
+          "title": "What Is Inventory Management? Benefits, Types, & Techniques",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Importance of minimizing inventory during all stages of supply chain management and inventory management's important relationship with supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Importance of minimizing inventory during all stages of supply chain management completely subsumes inventory management's important relationship with supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between importance of minimizing inventory during all stages of supply chain management and inventory management's important relationship with supply chain management. is purely one-directional, with no feedback mechanism from inventory management's important relationship with supply chain management. back to importance of minimizing inventory during all stages of supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "F.6<>K.6_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "K.6",
+        "label": "How supply chain management creates efficiencies",
+        "section": "K"
+      },
+      "interaction_description": "Importance of minimizing inventory during all stages of supply chain management and supply chain management creates efficiencies have a bidirectional relationship across their domains: decisions in importance of minimizing inventory during all stages of supply chain management directly influence how supply chain management creates efficiencies is configured and managed, while feedback from supply chain management creates efficiencies operations informs adjustments to importance of minimizing inventory during all stages of supply chain management strategy.",
+      "explanation": "The cross-section relationship between importance of minimizing inventory during all stages of supply chain management (Section F) and supply chain management creates efficiencies (Section K) illustrates how supply chain concepts rarely exist in isolation. Importance of minimizing inventory during all stages of supply chain management provides strategic direction that shapes supply chain management creates efficiencies decisions, while supply chain management creates efficiencies generates operational data and constraints that feed back into importance of minimizing inventory during all stages of supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.netsuite.com/portal/resource/articles/erp/reduce-supply-chain-costs.shtml",
+          "title": "14 Strategies to Reduce Supply Chain Costs",
+          "site": "NetSuite"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Importance of minimizing inventory during all stages of supply chain management and supply chain management creates efficiencies operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Importance of minimizing inventory during all stages of supply chain management completely subsumes supply chain management creates efficiencies, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between importance of minimizing inventory during all stages of supply chain management and supply chain management creates efficiencies is purely one-directional, with no feedback mechanism from supply chain management creates efficiencies back to importance of minimizing inventory during all stages of supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "F.1<>B.9_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.1",
+        "label": "Determine what products to sell",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "B.9",
+        "label": "Define supply market intelligence",
+        "section": "B"
+      },
+      "interaction_description": "What products to sell and supply market intelligence have a bidirectional relationship across their domains: decisions in what products to sell directly influence how supply market intelligence is configured and managed, while feedback from supply market intelligence operations informs adjustments to what products to sell strategy.",
+      "explanation": "The cross-section relationship between what products to sell (Section F) and supply market intelligence (Section B) illustrates how supply chain concepts rarely exist in isolation. What products to sell provides strategic direction that shapes supply market intelligence decisions, while supply market intelligence generates operational data and constraints that feed back into what products to sell planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://gocious.com/blog/product-portfolio-management-ultimate-guide",
+          "title": "Product Portfolio Management 101: Your Ultimate Portfolio Planning Guide",
+          "site": "Gocious"
+        },
+        {
+          "url": "https://www.qad.com/blog/2024/07/5-steps-for-effective-product-portfolio-management",
+          "title": "5 Steps for Effective Product Portfolio Management",
+          "site": "QAD Blog"
+        },
+        {
+          "url": "https://una.com/resources/article/supply-market-intelligence/",
+          "title": "Why Your Procurement Team Needs Supply Market Intelligence",
+          "site": "Una"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "What products to sell and supply market intelligence operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "What products to sell completely subsumes supply market intelligence, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between what products to sell and supply market intelligence is purely one-directional, with no feedback mechanism from supply market intelligence back to what products to sell."
+        ]
+      }
+    },
+    {
+      "id": "F.6<>D.5_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "D.5",
+        "label": "Describe management of supply and demand for supply chain management.",
+        "section": "D"
+      },
+      "interaction_description": "Importance of minimizing inventory during all stages of supply chain management and management of supply and demand for supply chain management. have a bidirectional relationship across their domains: decisions in importance of minimizing inventory during all stages of supply chain management directly influence how management of supply and demand for supply chain management. is configured and managed, while feedback from management of supply and demand for supply chain management. operations informs adjustments to importance of minimizing inventory during all stages of supply chain management strategy.",
+      "explanation": "The cross-section relationship between importance of minimizing inventory during all stages of supply chain management (Section F) and management of supply and demand for supply chain management. (Section D) illustrates how supply chain concepts rarely exist in isolation. Importance of minimizing inventory during all stages of supply chain management provides strategic direction that shapes management of supply and demand for supply chain management. decisions, while management of supply and demand for supply chain management. generates operational data and constraints that feed back into importance of minimizing inventory during all stages of supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.ascm.org/topics/demand-supply-planning/",
+          "title": "Demand Planning vs. Supply Planning",
+          "site": "ASCM"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Importance of minimizing inventory during all stages of supply chain management and management of supply and demand for supply chain management. operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Importance of minimizing inventory during all stages of supply chain management completely subsumes management of supply and demand for supply chain management., making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between importance of minimizing inventory during all stages of supply chain management and management of supply and demand for supply chain management. is purely one-directional, with no feedback mechanism from management of supply and demand for supply chain management. back to importance of minimizing inventory during all stages of supply chain management."
+        ]
+      }
+    },
+    {
+      "id": "F.6<>G.4_bridge",
+      "subtype": "cross_section_bridge",
+      "source_concept": {
+        "id": "F.6",
+        "label": "Importance of minimizing inventory during all stages of supply chain management",
+        "section": "F"
+      },
+      "target_concept": {
+        "id": "G.4",
+        "label": "Explain how algorithms are used to maximize capital costs associated with supply chain management",
+        "section": "G"
+      },
+      "interaction_description": "Importance of minimizing inventory during all stages of supply chain management and algorithms are used to maximize capital costs associated with supply chain management have a bidirectional relationship across their domains: decisions in importance of minimizing inventory during all stages of supply chain management directly influence how algorithms are used to maximize capital costs associated with supply chain management is configured and managed, while feedback from algorithms are used to maximize capital costs associated with supply chain management operations informs adjustments to importance of minimizing inventory during all stages of supply chain management strategy.",
+      "explanation": "The cross-section relationship between importance of minimizing inventory during all stages of supply chain management (Section F) and algorithms are used to maximize capital costs associated with supply chain management (Section G) illustrates how supply chain concepts rarely exist in isolation. Importance of minimizing inventory during all stages of supply chain management provides strategic direction that shapes algorithms are used to maximize capital costs associated with supply chain management decisions, while algorithms are used to maximize capital costs associated with supply chain management generates operational data and constraints that feed back into importance of minimizing inventory during all stages of supply chain management planning. This bidirectional interaction means that changes in either domain can ripple across section boundaries, requiring managers to think holistically rather than in functional silos.",
+      "key_terms": [
+        "cross-domain interaction",
+        "systems thinking",
+        "bidirectional relationship",
+        "feedback loop"
+      ],
+      "sources": [
+        {
+          "url": "https://cscmp.org/CSCMP/Certify/Fundamentals/What_is_Supply_Chain_Management.aspx?WebsiteKey=0b3f453d-bd90-4121-83cf-172a90b226a9",
+          "title": "What is Supply Chain Management?",
+          "site": "CSCMP"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/supply-chain-management",
+          "title": "What Is Supply Chain Management?",
+          "site": "IBM"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2949863525000548",
+          "title": "A comparative study of multi-algorithm optimization for inventory analytics in supply chains",
+          "site": "ScienceDirect"
+        }
+      ],
+      "quiz": {
+        "bloom_level": "evaluate",
+        "difficulty": "hard",
+        "distractor_descriptions": [
+          "Importance of minimizing inventory during all stages of supply chain management and algorithms are used to maximize capital costs associated with supply chain management operate independently with no meaningful interaction, as they belong to separate functional domains.",
+          "Importance of minimizing inventory during all stages of supply chain management completely subsumes algorithms are used to maximize capital costs associated with supply chain management, making cross-domain interaction unnecessary since one domain controls the other entirely.",
+          "The interaction between importance of minimizing inventory during all stages of supply chain management and algorithms are used to maximize capital costs associated with supply chain management is purely one-directional, with no feedback mechanism from algorithms are used to maximize capital costs associated with supply chain management back to importance of minimizing inventory during all stages of supply chain management."
+        ]
+      }
+    }
+  ]
+}
