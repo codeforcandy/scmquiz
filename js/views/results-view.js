@@ -4,7 +4,7 @@
 
 import { getState, setState } from '../store.js';
 import { calculateResults, createSession } from '../quiz-engine.js';
-import { clearSession, updateStats, loadFlags, loadIffy } from '../persistence.js';
+import { clearSession, updateStats, saveSessionToHistory, loadFlags, loadIffy } from '../persistence.js';
 import { logSession } from '../logger.js';
 
 const SECTION_COLORS = {
@@ -29,6 +29,7 @@ export function renderResultsView() {
   const iffy = loadIffy();
 
   updateStats(results);
+  saveSessionToHistory(session, results, flags, iffy);
   logSession(session, results, flags, iffy, getState().currentUser);
   clearSession();
 
