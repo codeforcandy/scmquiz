@@ -6,6 +6,7 @@ import { renderSetupView } from './views/setup-view.js';
 import { renderQuizView, cleanupQuizView } from './views/quiz-view.js';
 import { renderResultsView } from './views/results-view.js';
 import { renderGateView } from './views/gate-view.js';
+import { renderDashboardView } from './views/dashboard-view.js';
 import { initNotesPanel } from './views/notes-panel.js';
 import { initTheme } from './ui/theme.js';
 import { initKeyboard } from './ui/keyboard.js';
@@ -55,6 +56,11 @@ async function init() {
         break;
       case 'results':
         renderResultsView();
+        break;
+      case 'dashboard':
+        resetProgress();
+        document.getElementById('progress-bar').style.display = 'none';
+        renderDashboardView();
         break;
     }
 

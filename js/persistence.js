@@ -152,6 +152,55 @@ export function updateStats(sessionResult) {
   save('stats', stats);
 }
 
+// ─── Session History (for dashboard) ───
+
+const MAX_HISTORY = 100;
+
+export function loadHistory() {
+  return load('history', []);
+}
+
+export function saveSessionToHistory(session, results, flags, iffy) {
+  const history = loadHistory();
+
+  // Build per-section breakdown
+  const sections = {};
+  session.questions.forEach((q, i) => {
+    const a = session.answers[i];
+    if (!sections[q.section]) sections[q.section] = { correct: 0, total: 0 };
+    sections[q.section].total++;
+    if (a?.isCorrect) sections[q.section].correct++;
+  });
+
+  // Compute average time per question
+  let totalTimeMs = 0;
+  session.questions.forEach((q, i) => {
+    const a = session.answers[i];
+    if (!a) return;
+    const prevTime = i === 0 ? session.startTime : session.answers[i - 1]?.answeredAt || session.startTime;
+    totalTimeMs += a.answeredAt - prevTime;
+  });
+
+  history.push({
+    date: new Date(session.endTime).toISOString(),
+    startTime: session.startTime,
+    score: results.percentage,
+    correct: results.correct,
+    total: results.total,
+    durationMs: session.endTime - session.startTime,
+    avgTimeMs: Math.round(totalTimeMs / session.questions.length),
+    longestStreak: results.longestStreak,
+    sections,
+    levels: [...new Set(session.questions.map(q => q.level))],
+    flaggedCount: session.questions.filter(q => flags.includes(q.conceptId)).length,
+    iffyCount: session.questions.filter(q => iffy.includes(q.conceptId)).length,
+  });
+
+  // Cap history
+  while (history.length > MAX_HISTORY) history.shift();
+  save('history', history);
+}
+
 export function loadLevels() {
   return load('levels', ['L1']);
 }

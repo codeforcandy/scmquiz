@@ -5,7 +5,7 @@
 import { getState, setState } from '../store.js';
 import { filterConcepts } from '../data-loader.js';
 import { generateQuestions, createSession } from '../quiz-engine.js';
-import { loadSession, saveSession, loadLevels, saveLevels } from '../persistence.js';
+import { loadSession, saveSession, loadLevels, saveLevels, loadStats } from '../persistence.js';
 
 const SECTION_COLORS = {
   A: '#B8562F', B: '#2E7D6E', C: '#6C5B9E', D: '#3A7D44', E: '#C0862B',
@@ -69,6 +69,18 @@ export function renderSetupView() {
   const totalConcepts = [...concepts.values()].length;
   sub.textContent = `${totalConcepts} concepts across 11 sections (L1\u2013L9)`;
   header.append(h1, sub);
+
+  // Dashboard link (only show if there's history)
+  const stats = loadStats();
+  if (stats.totalQuizzes > 0) {
+    const dashBtn = document.createElement('button');
+    dashBtn.className = 'btn btn--secondary';
+    dashBtn.id = 'dashboard-btn';
+    dashBtn.style.cssText = 'margin-top:var(--space-3);font-size:var(--text-sm)';
+    dashBtn.textContent = 'View Progress';
+    header.appendChild(dashBtn);
+  }
+
   container.appendChild(header);
 
   // Level toggle
@@ -303,6 +315,10 @@ function bindSetupEvents() {
   document.getElementById('discard-btn')?.addEventListener('click', () => {
     import('../persistence.js').then(p => p.clearSession());
     document.getElementById('resume-banner')?.remove();
+  });
+
+  document.getElementById('dashboard-btn')?.addEventListener('click', () => {
+    setState({ currentView: 'dashboard' });
   });
 }
 
