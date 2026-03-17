@@ -49,9 +49,9 @@ function maskDefinition(definition, topic) {
  * Generate quiz questions from filtered concepts.
  * Each question: show definition → pick correct topic from 4 choices.
  */
-export function generateQuestions(filteredConcepts) {
+export function generateQuestions(filteredConcepts, maxQuestions = 20) {
   const concepts = getState().concepts;
-  const shuffled = shuffle(filteredConcepts);
+  const shuffled = shuffle(filteredConcepts).slice(0, maxQuestions);
 
   return shuffled.map(concept => {
     if (concept.level === 'L9') {
