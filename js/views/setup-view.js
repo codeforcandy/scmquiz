@@ -5,7 +5,7 @@
 import { getState, setState } from '../store.js';
 import { filterConcepts } from '../data-loader.js';
 import { generateQuestions, createSession } from '../quiz-engine.js';
-import { loadSession, saveSession, loadLevels, saveLevels, loadStats } from '../persistence.js';
+import { loadSession, saveSession, loadLevels, saveLevels, loadStats, loadHistory } from '../persistence.js';
 
 const SECTION_COLORS = {
   A: '#B8562F', B: '#2E7D6E', C: '#6C5B9E', D: '#3A7D44', E: '#C0862B',
@@ -69,19 +69,88 @@ export function renderSetupView() {
   const totalConcepts = [...concepts.values()].length;
   sub.textContent = `${totalConcepts} concepts across 11 sections (L1\u2013L9)`;
   header.append(h1, sub);
+  container.appendChild(header);
 
-  // Dashboard link (only show if there's history)
+  // ── User Section ──
+  const userId = getState().currentUser;
   const stats = loadStats();
+  const userSection = document.createElement('div');
+  userSection.className = 'user-section';
+
+  const userInfo = document.createElement('div');
+  userInfo.className = 'user-section__info';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'user-section__avatar';
+  avatar.textContent = userId ? String(userId).charAt(0).toUpperCase() : '?';
+  userInfo.appendChild(avatar);
+
+  const userDetails = document.createElement('div');
+  userDetails.className = 'user-section__details';
+  const userName = document.createElement('div');
+  userName.className = 'user-section__name';
+  userName.textContent = 'User ' + (userId || '');
+  userDetails.appendChild(userName);
+
+  if (stats.lastStudied) {
+    const lastDate = new Date(stats.lastStudied);
+    const lastStr = lastDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    const lastEl = document.createElement('div');
+    lastEl.className = 'user-section__last';
+    lastEl.textContent = 'Last studied ' + lastStr;
+    userDetails.appendChild(lastEl);
+  }
+  userInfo.appendChild(userDetails);
+  userSection.appendChild(userInfo);
+
+  // Quick stats row
   if (stats.totalQuizzes > 0) {
+    const accuracy = Math.round((stats.totalCorrect / stats.totalAnswered) * 100);
+    const quickStats = document.createElement('div');
+    quickStats.className = 'user-section__stats';
+
+    const history = loadHistory();
+    const recent = history.slice(-5);
+    const trend = recent.length >= 2
+      ? recent[recent.length - 1].score - recent[0].score
+      : 0;
+    const trendStr = trend > 0 ? '+' + trend + '%' : trend < 0 ? trend + '%' : '--';
+
+    const statItems = [
+      { label: 'Quizzes', value: String(stats.totalQuizzes) },
+      { label: 'Accuracy', value: accuracy + '%' },
+      { label: 'Streak', value: String(stats.longestStreak) },
+      { label: 'Trend', value: trendStr },
+    ];
+
+    for (const s of statItems) {
+      const item = document.createElement('div');
+      item.className = 'user-section__stat-item';
+      const val = document.createElement('div');
+      val.className = 'user-section__stat-value';
+      val.textContent = s.value;
+      if (s.label === 'Trend') {
+        if (trend > 0) val.style.color = 'var(--correct)';
+        else if (trend < 0) val.style.color = 'var(--wrong)';
+      }
+      const lbl = document.createElement('div');
+      lbl.className = 'user-section__stat-label';
+      lbl.textContent = s.label;
+      item.append(val, lbl);
+      quickStats.appendChild(item);
+    }
+
+    userSection.appendChild(quickStats);
+
+    // Dashboard button
     const dashBtn = document.createElement('button');
-    dashBtn.className = 'btn btn--secondary';
+    dashBtn.className = 'btn btn--secondary user-section__dash-btn';
     dashBtn.id = 'dashboard-btn';
-    dashBtn.style.cssText = 'margin-top:var(--space-3);font-size:var(--text-sm)';
     dashBtn.textContent = 'View Progress';
-    header.appendChild(dashBtn);
+    userSection.appendChild(dashBtn);
   }
 
-  container.appendChild(header);
+  container.appendChild(userSection);
 
   // Level toggle
   const levelSection = document.createElement('div');
